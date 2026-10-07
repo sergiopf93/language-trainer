@@ -1,0 +1,42 @@
+{
+  "name": "language-trainer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "dev:api": "wrangler dev --port 8787",
+    "build": "tsc --noEmit && vite build && node scripts/build-sw.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "db:migrate": "wrangler d1 migrations apply language-trainer --local",
+    "preview": "wrangler dev --port 8787",
+    "check": "npm run typecheck && npm test && npm run build",
+    "secrets:local": "node scripts/local-secrets.mjs",
+    "test:cloudflare": "CF_RUNTIME=1 vitest run tests/worker.test.ts",
+    "format:check": "prettier --check src worker shared tests scripts *.ts *.json *.jsonc index.html public/manifest.webmanifest"
+  },
+  "dependencies": {
+    "idb": "8.0.4"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "5.20261007.1",
+    "@playwright/test": "1.63.0",
+    "@types/node": "22.20.5",
+    "esbuild": "0.28.1",
+    "fake-indexeddb": "6.2.5",
+    "miniflare": "5.20261006.0-alpha",
+    "prettier": "3.9.9",
+    "typescript": "7.0.2",
+    "vite": "8.3.3",
+    "vitest": "5.0.3",
+    "wrangler": "4.148.0"
+  },
+  "overrides": {
+    "sharp": "0.35.5"
+  }
+}
