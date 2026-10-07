@@ -1,27 +1,35 @@
-# Revisión de diseño
+# Revisión documental de V1 A1 completo y sincronización
 
-Fecha: 2026-10-06. Alcance: documentos de producto, dominio, arquitectura, UX, MVP y decisiones. No hay software implementado; no se han ejecutado tests, build ni validación visual o pedagógica con usuarios.
+Actualizado: 2026-10-07. Alcance: propuesta de producto, dominio, arquitectura, UX, V1, matriz curricular, estrategia editorial y decisiones. No hay software implementado: no se han ejecutado build, tests funcionales, validación visual ni pruebas pedagógicas con usuarios.
 
-## Participación
+## Cambios revisados
 
-Architecture y UX/UI leyeron el Research Pack completo y entregaron recomendaciones sin modificar código. R2 integró sus propuestas y explicitó el trade-off de incluir la muestra nominal. QA revisó los seis documentos y contrastó los criterios de evidencia con Research 04.
+La primera propuesta de diez objetivos y almacenamiento exclusivamente local ha sido sustituida por todo C01–C34 y sincronización Cloudflare local-first. Las fases internas A–G no recortan la entrega. Se mantienen contratos pedagógicos, canon, abstención y trazabilidad; se amplían verbos, construcciones, léxico, composición y persistencia de hechos.
 
-## Hallazgos y resolución
+Architecture deriva el inventario completo y revisa el patrón real de healt-tracker. UX amplía navegación y búsqueda por Topic/subalcance, catálogo completo, progresión Reading/Writing y estados de sincronización. QA revisa consistencia y cobertura contra Research 02, sin interpretar una fila planificada como contenido publicado.
 
-| Hallazgo QA | Clasificación | Resolución documental |
+## Hallazgos documentales
+
+| Hallazgo | Clasificación | Resolución |
 |---|---|---|
-| La publicación solo se bloqueaba por falsos rechazos | Fallo confirmado documental | Incluir falsos positivos, variantes, errores conocidos, ambigüedad y objetivo ausente; medir abstención. MVP_SCOPE AC21. |
-| Tiempo desde exposición no cubría claramente Biblioteca | Comportamiento sospechoso/no confirmado | Exposure incluye teoría/ejemplos fuera de sesiones; scheduler consulta esa exposición. DOMAIN_MODEL y AC19. |
-| Impugnación sin flujo operativo en MVP local | Fallo confirmado documental | Incidencia local exportable, suspensión del juicio, continuidad con otro ítem y resolución editorial versionada; sin envío automático ni promesa remota. Arquitectura, UX y AC20. |
+| UX conservaba cambio de cuenta/política pendiente frente a un propietario ya propuesto | Fallo confirmado documental | Reautenticación del mismo owner y rechazo de identidad inesperada; sin flujo multiusuario en V1. |
+| Separación vacía entre AC21 y AC22 partía la tabla | Fallo confirmado documental | Tabla continua de criterios. |
+| Formulario/ejemplo propio se asignaban a F4/F6 de forma ambigua entre documentos | Fallo confirmado documental menor | Ambos distinguen respuesta breve situada F4 de composición/revisión de varios campos o frases F6, sin doble evaluación. |
 
-Políticas de mastery, intervalos y umbrales aún abiertos son comportamiento esperado de esta fase, no defectos de implementación: se declaran hipótesis y deberán concretarse antes del piloto. Diez objetivos, escritura acotada y ausencia de sincronización son coherentes como propuesta, sujetos a las decisiones de Sergio.
+Los tres hallazgos de la revisión inicial siguen resueltos: Exposure incluye Biblioteca, el conjunto editorial contempla falsos positivos y rechazos, y la incidencia conserva el juicio suspendido. Ahora la incidencia se sincroniza con el historial, sin prometer atención de un revisor remoto.
 
-QA releyó las tres correcciones, AC19–AC21 y el recorrido de demostración: confirmó cierre documental de los hallazgos y ausencia de problemas bloqueantes en esos cambios. Esto no equivale a aprobación del producto por Sergio.
+## Resultado de auditoría curricular y cierre QA
 
-## Qué valida esta revisión
+QA contrastó Research 02 y 03 con la matriz: C01–C34 y sus subalcances completos, 34 Topics, 99 Concepts únicos, 14 contextos K01–K14 y contrato CC1–CC10 para cada capacidad. Confirmó presencia de irregulares, preposiciones, referencias, imperativo y pasado; no detectó contenido A1 pospuesto ni perdido. La taxonomía se representa mediante F1–F7 y los estados editoriales/funcionales siguen pendientes.
 
-Coherencia documental, trazabilidad al pack, separación de evidencia y recomendaciones, límites de alcance y escenarios de aceptación. No demuestra aprendizaje, precisión real del futuro evaluador, accesibilidad, rendimiento o persistencia. Los AC son requisitos pendientes de ejecución tras desarrollo autorizado.
+QA releyó las correcciones y confirmó cierre documental de todos sus hallazgos. R2 comprobó conteos/IDs por Topic, enlaces relativos, tabla AC01–AC47, formato y conservación de los siete documentos de Research. La revisión del diff y lista de archivos acompaña la integración. No se afirma suficiencia real de un banco todavía no escrito.
 
-## Validación posterior necesaria
+## Sincronización y límites de la revisión
 
-Revisión de Sergio → acuerdo sobre alcance y revisión lingüística → unidad editorial piloto y políticas iniciales explícitas → implementación autorizada y comprobaciones relevantes → validación móvil/editorial → observación diferida del aprendizaje. No hay autorización implícita para implementar o hacer merge.
+La auditoría documental encuentra definidos guardado local/outbox, ACK durable, reintento idempotente, conflicto por mismo ID/contenido distinto, cursor aplicado de forma transaccional, historial de versiones y reconstrucción por política. Incluye exposición tardía, sesiones/borradores concurrentes, respaldo idempotente, identidad estable y cuotas sin contratación automática.
+
+Estas comprobaciones validan coherencia del diseño, no comportamiento real de D1, seguridad de código inexistente, rendimiento, recuperación efectiva ni exactitud de corrección lingüística. Las fuentes oficiales consultadas para límites y API están enlazadas en Architecture; las cuotas se revisarán de nuevo antes de desplegar.
+
+## Condiciones de entrega posterior
+
+Aprobación final de Sergio antes de implementar. Autoría y revisión lingüística con evidencias; implementación y QA de todos los criterios; comprobación de matriz sin contenido A1 pospuesto; validación móvil/offline y sincronización entre dispositivos. La evaluación de aprendizaje diferido exige tiempo real y no se sustituye por simular el reloj del scheduler. Merge a main requiere autorización explícita y actualización previa del README.

@@ -1,0 +1,15 @@
+--- a/.codex/skills/architecture/SKILL.md
++++ b/.codex/skills/architecture/SKILL.md
+@@ -8 +8 @@
+-Actúa como asesor de R2 para decisiones de arquitectura y revisiones con impacto técnico transversal. Antes de recomendar cambios, inspecciona la arquitectura relevante existente: componentes, dependencias, flujos de datos, puntos de integración, convenciones y efectos secundarios probables. Basa el análisis en el código y la configuración disponibles; no generalices desde partes no inspeccionadas.
++Actúa como asesor de R2 para decisiones de arquitectura y revisiones con impacto técnico transversal. Reutiliza el contexto facilitado; inspecciona únicamente los archivos/secciones afectados y amplía la lectura solo cuando falte evidencia necesaria. Considera los componentes, dependencias, flujos de datos, integraciones, convenciones y efectos secundarios pertinentes a la tarea. Basa el análisis en el código y la configuración disponibles; no generalices desde partes no inspeccionadas.
+--- a/.codex/skills/ux-ui/SKILL.md
++++ b/.codex/skills/ux-ui/SKILL.md
+@@ -8 +8 @@
+-Actúa como especialista de UX/UI para R2. Antes de recomendar cambios, analiza la interfaz afectada y los patrones existentes relevantes del proyecto. Basa las propuestas en los requisitos definidos y en lo observado; no inventes funcionalidades ni des por resueltos requisitos ambiguos.
++Actúa como especialista de UX/UI para R2. Reutiliza el contexto facilitado; inspecciona únicamente los archivos/secciones afectados y amplía la lectura solo cuando falte evidencia necesaria. Considera la interfaz afectada y los patrones pertinentes del proyecto. Basa las propuestas en los requisitos definidos y en lo observado; no inventes funcionalidades ni des por resueltos requisitos ambiguos.
+--- a/.codex/skills/qa/SKILL.md
++++ b/.codex/skills/qa/SKILL.md
+@@ -8 +8 @@
+-Actúa como especialista de QA para proyectos diversos. Antes de proponer o crear pruebas, inspecciona el sistema existente: herramientas, comandos, estructura de tests, convenciones y cobertura relevante. Reutiliza esos mecanismos y evita añadir frameworks, dependencias o infraestructura sin una necesidad clara.
++Actúa como especialista de QA para proyectos diversos. Reutiliza el contexto facilitado; inspecciona únicamente los archivos/secciones afectados y amplía la lectura solo cuando falte evidencia necesaria. Considera las herramientas, comandos, convenciones y cobertura de pruebas pertinentes a la tarea. Reutiliza esos mecanismos y evita añadir frameworks, dependencias o infraestructura sin una necesidad clara.
