@@ -125,11 +125,11 @@ Detalle: [UX_PROPOSAL](../ux/UX_PROPOSAL.md), únicamente navegación/flujo/esta
 
 ## Decisiones y estado actual
 
-Aprobado como dirección: todo A1, todos sus modos integrados, Cloudflare local-first, historial reconstruible, backup secundario y coste prácticamente cero. **No hay aprobación final para implementar.** Pendiente: responsable de revisión lingüística y validar propuesta de acceso personal; stack frontend y parámetros pedagógicos se concretarán cuando corresponda.
+Aprobado como dirección: todo A1, todos sus modos integrados, Cloudflare local-first, historial reconstruible, backup secundario y coste prácticamente cero. **Implementación incremental autorizada por Sergio el 2026-10-07: primer bloque de base técnica.** Se mantiene V1 A1 completa. Acceso personal implementado conforme a la propuesta; parámetros pedagógicos y responsable de revisión lingüística siguen pendientes.
 
-Solo documentación. Architecture/UX/QA revisaron propuesta; QA cerró hallazgos documentales. Inventario: 34 Topics/99 Concepts/14 contextos; 47 criterios AC01–AC47. Contenido aún planificado, aplicación no implementada; ninguna prueba funcional/pedagógica acreditada.
+Base técnica implementada en rama de desarrollo: TypeScript/Vite, shell PWA, IndexedDB y outbox, Worker/D1, identificación personal, recibos idempotentes y revisiones de borrador. Motores pedagógicos solo como contratos. Architecture/UX/QA revisaron previamente la propuesta; QA cerró hallazgos documentales. Inventario: 34 Topics/99 Concepts/14 contextos; 47 criterios AC01–AC47. Contenido aún planificado; no hay currículo publicado, evaluación ni dominio implementado. Tests de infraestructura y navegador disponibles; runtime nativo Cloudflare no ejecutable en el macOS 12 actual, despliegue real y validación humana pendientes. No se acredita eficacia pedagógica.
 
-Repositorio: `/Users/sergiopardo/Desktop/language-trainer`; rama documental `docs/product-design-proposal`. Punto de partida: revisión documental V1 A1 completa con sincronización Cloudflare y política de contexto selectivo. Consultar `git status` y `git log` antes de actuar: este resumen no sustituye el estado real del repositorio ni implica aprobación de implementación. Preservar cambios ajenos.
+Repositorio: `/Users/sergiopardo/Desktop/language-trainer`; rama de implementación `feat/technical-foundation`, creada desde main e incorporando por fast-forward la documentación existente. Arranque y límites en README.md. Punto de partida: base técnica del primer bloque, sin cierre de V1 ni continuación automática al siguiente bloque. Consultar `git status` y `git log` antes de actuar: este resumen no sustituye el estado real del repositorio ni implica aprobación de implementación. Preservar cambios ajenos.
 
 Fases futuras A–G: fundamentos → motores → integración vertical → cobertura curricular → Reading/Writing → integración completa → QA/entrega. Un hito parcial no cierra V1 ni necesita otro encargo para añadir el resto del A1.
 
@@ -137,7 +137,7 @@ Detalle: [DECISIONS](../DECISIONS.md), decisiones/preguntas; [V1_SCOPE](../mvp/V
 
 ## Reglas y mantenimiento
 
-Hablar español; no implementar hasta aprobación final. No merge a main ni gasto sin autorización explícita. No sobrescribir trabajo ni ocultar fallos. No presentar propuesta/publicación como funcionalidad probada. Mantener trazabilidad del A1, canon, ayudas y versiones. Modificar reglas globales únicamente dentro de una autorización explícita de Sergio.
+Hablar español; implementar solo el bloque autorizado y detenerse al entregarlo. No merge a main ni gasto sin autorización explícita. No sobrescribir trabajo ni ocultar fallos. No presentar propuesta/publicación como funcionalidad probada. Mantener trazabilidad del A1, canon, ayudas y versiones. Modificar reglas globales únicamente dentro de una autorización explícita de Sergio.
 
 Actualizar solo apartados afectados de este resumen al cambiar una decisión o cerrar una fase; eliminar estados transitorios resueltos. Mantenerlo compacto, sin copiar matrices, transcripciones, logs, secretos ni banco de ejemplos. Si fuente y resumen discrepan, resolver la sección concreta antes de actuar.
 
