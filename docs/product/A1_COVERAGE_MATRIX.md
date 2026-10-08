@@ -57,7 +57,25 @@ Baseline reproducible: commit `c703c4a`, pack `it-A1-candidate-3`: **2/99 Concep
 | C04 | 1 → 5 / 5 | 1 → 5 | 11 → 44 | 1 → 26 | F1, F2, F3, F4, F7 |
 | C05 | 0 → 4 / 4 | 0 → 4 | 0 → 31 | 0 → 24 | F1, F2, F3, F4, F7 |
 
-El vocabulario se comparte: no sumar sus columnas para obtener el total. Todos los Concepts del lote tienen reglas, ejemplos, práctica guiada y recuperación/producción restringida, feedback y Evidence. `coverage=complete` se refiere al objetivo focal declarado del lote; no sustituye revisión editorial, validación humana ni CC1–CC10. Habilidades observadas: reconocimiento, recuperación, discriminación, transformación y producción controlada según el objetivo. Sin afirmación de retención ni evaluación oral. C06–C34: **82 Concepts todavía ausentes**, sin relleno artificial. Próximo bloque comienza en C06.
+El vocabulario se comparte: no sumar sus columnas para obtener el total. Todos los Concepts del lote tienen reglas, ejemplos, práctica guiada y recuperación/producción restringida, feedback y Evidence. `coverage=complete` se refiere al objetivo focal declarado del lote; no sustituye revisión editorial, validación humana ni CC1–CC10. Habilidades observadas: reconocimiento, recuperación, discriminación, transformación y producción controlada según el objetivo. Sin afirmación de retención ni evaluación oral. Al cierre de aquel lote, C06–C34 sumaban **82 Concepts ausentes**; el siguiente control registra la ampliación C06–C10.
+
+## Control de carga — lote C06–C10
+
+Baseline conservado: commit `9e2c0f9`, pack `it-A1-candidate-4`: **17/99 Concepts, 17 Theory, 138 actividades, 74 entradas léxicas, 0 ready**. Resultado: pack `it-A1-candidate-5`: **29/99 Concepts, 29 Theory, 225 actividades, 96 entradas léxicas, 0 ready**. Se añaden los 12 Concepts previstos, sin alterar el inventario esperado de 99. Coverage inicial y final sin errores, ejecutado con Node 22.23.3; el Node antiguo del terminal no ejecutaba el script.
+
+| Bloque | Concepts añadidos / esperados | Theory añadidas | Actividades añadidas | Entradas asociadas | Familias |
+|---|---|---|---|---|---|
+| C06 | 3 / 3 | 3 | 20 | 21 | F1, F2, F3, F4, F7 |
+| C07 | 2 / 2 | 2 | 13 | 13 | F1, F2, F3 |
+| C08 | 2 / 2 | 2 | 14 | 16 | F1, F2, F3, F4 |
+| C09 | 3 / 3 | 3 | 24 | 14 | F1, F2, F3, F4 |
+| C10 | 2 / 2 | 2 | 16 | 14 | F1, F2, F3, F4 |
+
+22 entradas nuevas y 25 anteriores reutilizadas; las asociaciones por bloque se solapan. Los 2 templates y sus 9 variantes previos se conservan: las 87 actividades nuevas son explícitas, sin productos combinatorios ni nuevos templates. Distribución de las nuevas actividades por formato: 28 selection, 17 cloze, 14 short, 7 transformation, 9 error-correction, 10 controlled-production, 1 translation, 1 ordering. Familias: F1 28, F2 31, F3 16, F4 11, F7 1. Habilidades: reconocimiento 17, recuperación 31, transformación 16, producción controlada 12 y discriminación 11.
+
+28 relaciones nuevas entre conceptos: preparación recomendada, relaciones, contrastes y refuerzos; sin bloqueos. C01–C05 mantienen sus 17 fichas y 138 actividades, sin correcciones de sus enunciados. Cambios compartidos necesarios: asociaciones léxicas al lote, formas plurales versionadas de letto/casa/città/caffè/hotel y versión/procedencia del pack. Los hechos y las instantáneas de sesiones anteriores no se reescriben.
+
+Todo sigue **candidate**, incluidos los lotes anteriores; no hay contenido reviewed/published. La presencia y `coverage=complete` describen el alcance focal escrito, no revisión editorial, dominio ni cumplimiento íntegro de CC1–CC10. **70 Concepts ausentes, todos en C11–C34**; sus IDs siguen enumerados por `npm run content:coverage`. No se ha añadido C11. Siguiente lote recomendado: C11–C15, sujeto a autorización. Reading/Writing extensos, Review avanzado y evaluación oral quedan fuera de este bloque.
 
 ## Contrato común CC — heredado explícitamente por cada uno de los 99 Concepts
 
@@ -176,7 +194,7 @@ Siete familias, no siete motores aislados; F5/F6 componen interacciones reutiliz
 
 **Familias, modos y errores:** F1/F2/F3/F4/F5/F6/F7. Focus: transformación/consigna; Mixed: intención afirmativa/negativa/interrogativa; Review: situación nueva; Reading: pregunta/respuesta; Writing: information gap. Errores: posición/omisión, comprensión y pertinencia.
 
-**Estado de cada Concept:** contenido planificado; implementación no implementada. Hereda CC1–CC10 completos.
+**Estado de cada Concept:** candidate implementado para Theory y práctica focal en C06–C10, con léxico, feedback y Evidence. Revisión editorial y validación manual pendientes; CC1–CC10 no se acreditan por presencia.
 
 ### C07 — Género de sustantivos · Topic it-a1-t07
 
@@ -189,7 +207,7 @@ Siete familias, no siete motores aislados; F5/F6 componen interacciones reutiliz
 
 **Familias, modos y errores:** F1/F2/F3/F4/F5/F6/F7. Focus: género; Mixed: número/artículo conocidos; Review: otra oportunidad del léxico enseñado; Reading: referentes; Writing: objetos necesarios. Errores: género y propagación a artículo/adjetivo relacionada.
 
-**Estado de cada Concept:** contenido planificado; implementación no implementada. Hereda CC1–CC10 completos.
+**Estado de cada Concept:** candidate implementado para Theory y práctica focal en C06–C10, con léxico, feedback y Evidence. Revisión editorial y validación manual pendientes; CC1–CC10 no se acreditan por presencia.
 
 ### C08 — Número nominal · Topic it-a1-t08
 
@@ -202,7 +220,7 @@ Siete familias, no siete motores aislados; F5/F6 componen interacciones reutiliz
 
 **Familias, modos y errores:** F1/F2/F3/F4/F5/F6/F7. Focus: número; Mixed: artículos/adjetivos; Review: cambiar referente; Reading: listas/anuncios; Writing: lista/descripción. Errores: plural, número, concordancia relacionada.
 
-**Estado de cada Concept:** contenido planificado; implementación no implementada. Hereda CC1–CC10 completos.
+**Estado de cada Concept:** candidate implementado para Theory y práctica focal en C06–C10, con léxico, feedback y Evidence. Revisión editorial y validación manual pendientes; CC1–CC10 no se acreditan por presencia.
 
 ### C09 — Artículos determinados · Topic it-a1-t09
 
@@ -216,7 +234,7 @@ Siete familias, no siete motores aislados; F5/F6 componen interacciones reutiliz
 
 **Familias, modos y errores:** F1/F2/F3/F4/F5/F6. Focus: forma/referencia; Mixed: C10/nominales; Review: otros nombres ya conocidos; Reading: referentes; Writing: introducir/retomar. Errores: forma, determinación, género relacionado.
 
-**Estado de cada Concept:** contenido planificado; implementación no implementada. Hereda CC1–CC10 completos.
+**Estado de cada Concept:** candidate implementado para Theory y práctica focal en C06–C10, con léxico, feedback y Evidence. Revisión editorial y validación manual pendientes; CC1–CC10 no se acreditan por presencia.
 
 ### C10 — Artículos indeterminados · Topic it-a1-t10
 
@@ -229,7 +247,7 @@ Siete familias, no siete motores aislados; F5/F6 componen interacciones reutiliz
 
 **Familias, modos y errores:** F1/F2/F3/F4/F5/F6. Focus: forma/uso; Mixed: C09; Review: otro referente; Reading: peticiones; Writing: pedir objeto/introducir persona. Errores: artículo, determinación, apóstrofo, género.
 
-**Estado de cada Concept:** contenido planificado; implementación no implementada. Hereda CC1–CC10 completos.
+**Estado de cada Concept:** candidate implementado para Theory y práctica focal en C06–C10, con léxico, feedback y Evidence. Revisión editorial y validación manual pendientes; CC1–CC10 no se acreditan por presencia.
 
 ### C11 — Adjetivos · Topic it-a1-t11
 

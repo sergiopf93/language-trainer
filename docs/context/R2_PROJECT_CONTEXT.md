@@ -1,6 +1,6 @@
 # R2 — contexto operativo de language-trainer
 
-Actualizado: 2026-10-08. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
+Actualizado: 2026-10-09. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
 
 ## Política de lectura y delegación
 
@@ -182,6 +182,14 @@ Rama `feat/italian-a1-c01-c05`, desde `c703c4a` (3B validada). Pack activo `it-A
 Baseline/resultado preservados en [A1_COVERAGE_MATRIX](../product/A1_COVERAGE_MATRIX.md): 2→17 presentes de 99, 0→0 ready. Todos candidate; `coverage=complete` describe el objetivo focal escrito del lote, no publicación ni cumplimiento completo de CC1–CC10. C06–C34: 82 ausentes. Sin Reading/Writing extensos ni Review avanzado. C03-01/C04-01 pasan a versión 2 por ampliación de alcance; las sesiones anteriores siguen reanudables y sus hechos no se modifican. La evidencia de versión 1 no se atribuye automáticamente al alcance ampliado de versión 2.
 
 La UI usa el pack activo. Se sustituyen las marcas fijas de los dos fixtures en Biblioteca y se distingue «Confronta» de «Prima» en enlaces de conceptos. Diseño conservado. Validación: 97 pruebas locales, 14 E2E candidate y 1 E2E de exclusión en producción; tipos, formato, builds, coverage sin errores y diff correctos. Incluye respuestas aceptadas, facetas, templates y sesiones de los 17 Concepts con ayudas/reintentos/Evidence, reanudación histórica y regresiones offline/sync. Ficha móvil a 320 px inspeccionada; contraste del grafo vuelto a comprobar tras corregir su etiqueta. Pendientes validación manual del lote y revisión editorial independiente; runtime nativo/remoto Cloudflare no verificado aquí. Detenerse tras este lote. Recomendación posterior: C06–C10, sin iniciarlo automáticamente; V1 sigue siendo C01–C34 completos.
+
+## Segundo lote curricular — C06–C10 (2026-10-09)
+
+C01–C05 validados por Sergio al autorizar este bloque. Rama `feat/italian-a1-c06-c10`, desde `9e2c0f9`; pack activo `it-A1-candidate-5`. Añadidos los **12 Concepts previstos** (3/2/2/3/2), 12 Theory, 87 actividades explícitas y 22 entradas léxicas; 25 entradas anteriores reutilizadas. Coverage: **17→29/99 Concepts, 17→29 Theory, 138→225 actividades, 74→96 entradas; 0 ready**. Baseline y desglose en [A1_COVERAGE_MATRIX](../product/A1_COVERAGE_MATRIX.md). C11–C34: **70 ausentes**, sin modificar el manifiesto ni implementar C11.
+
+Mantiene `Lesson → materialize`, cinco archivos de lote, extensiones léxicas versionadas y 28 relaciones nuevas sin hard locks. Ocho formatos, familias F1/F2/F3/F4/F7 y cinco habilidades; no se fuerza producción de frases para evaluar género léxico. Artículos separan elección de forma y referencia discursiva. Nuevas actividades explícitas; se conservan 2 templates/9 variantes. C01–C05 sin cambios en Theory/enunciados; solo asociaciones, cinco plurales léxicos necesarios y metadatos del pack. No cambia UX, motor, infraestructura ni almacenamiento.
+
+Validación: 112 pruebas locales; tipos, formato y builds; 16 E2E candidate y 1 E2E de exclusión de producción, con regresiones de C01–C05, offline/sync y ficha a 320 px. Todo candidate, sin reviewed/published. Pendientes validación manual del lote y revisión editorial; Cloudflare nativo/remoto no comprobado en este entorno. Sin merge, push ni despliegue. Siguiente lote recomendado **C11–C15**, solo tras autorización; detenerse tras C06–C10. V1 sigue siendo C01–C34 y los 99 conceptos.
 
 ## Reglas y mantenimiento
 
