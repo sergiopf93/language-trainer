@@ -21,7 +21,7 @@ Fuente si hace falta: instrucción de Sergio sobre optimización de contexto; re
 
 ## Visión y V1
 
-Entrenador mobile-first adulto para aprender, practicar, usar y consolidar capacidades concretas. Italiano objetivo; español inicial de interfaz/explicación. **V1 incluye todo el A1 definido por Work**, C01–C34, funciones, léxico, contextos y lectura/escritura progresivas, incluido pasado. No es una demo de diez objetivos. Cobertura curricular completa no equivale a certificación oficial ni evaluación oral integral.
+Entrenador mobile-first adulto para aprender, practicar, usar y consolidar capacidades concretas. Italiano como idioma principal de interacción y práctica; español como apoyo y explicación pedagógica. **V1 incluye todo el A1 definido por Work**, C01–C34, funciones, léxico, contextos y lectura/escritura progresivas, incluido pasado. No es una demo de diez objetivos. Cobertura curricular completa no equivale a certificación oficial ni evaluación oral integral.
 
 Detalle solo si necesario: [PRODUCT_SPEC](../product/PRODUCT_SPEC.md), apartados Visión y V1; [V1_SCOPE](../mvp/V1_SCOPE.md), V1/POST-V1.
 
@@ -143,7 +143,17 @@ Catálogo con Topic/Concept/relaciones/versiones y fixture candidate de C03-01/C
 
 Biblioteca → práctica focal → respuesta/corrección → resumen → progreso por dimensión. Sesiones conservan instantáneas; borradores de respuesta, pistas, reintentos y finalización sobreviven recargas. Intento/evaluación/evidencia/estado se guardan juntos en IndexedDB/outbox, con CAS local contra envíos duplicados; ramas concurrentes se conservan. Nuevos tipos de hechos validan referencias y conviven con borradores antiguos; no cambian transporte, tablas D1 ni esquema IndexedDB. Respuestas desconocidas/vacías no generan evidencia negativa. Ayudas, correcciones y exposición previa al mismo ítem excluyen recuperación independiente. Proyección `observations-v1` reconstruible, sin porcentaje global ni afirmación de retención/estabilidad; candidate excluido por defecto.
 
-Pruebas de Fase 2: 36 locales (unitarias e integración IndexedDB/Worker/SQLite), 5 E2E candidate y 1 E2E de exclusión en producción; tipos, formato, builds y revisión visual móvil correctos. Incluyen navegador offline y recuperación entre dos navegadores; comandos en README. Cloudflare remoto/runtime nativo no validado aquí; validación humana y editorial pendientes. Detenerse tras esta fase; no iniciar Fase 3 automáticamente.
+Pruebas de Fase 2: 36 locales (unitarias e integración IndexedDB/Worker/SQLite), 5 E2E candidate y 1 E2E de exclusión en producción; tipos, formato, builds y revisión visual móvil correctos. Incluyen navegador offline y recuperación entre dos navegadores; comandos en README. Cloudflare remoto/runtime nativo no validado aquí; validación manual de Fase 2 confirmada por Sergio; revisión editorial pendiente. Detenerse tras esta fase; no iniciar Fase 3 automáticamente.
+
+## Consolidación UX/UI — 2026-10-08
+
+Rama `feat/ux-learning-experience`, continuando la base validada de Fase 2. Propuesta del asesor UX aplicada: marfil/verde, tarjetas y componentes reutilizables, Home con sesiones reales, Biblioteca → ficha `/concept?id=…` → inicio directo de práctica, feedback ✓/✕ (neutral cuando no se puede valorar), resumen con anillo de actividades y resultados, progreso con barras por habilidad, distribución de conceptos practicados y actividad reciente. Sin porcentaje global de dominio, fortalezas inferidas ni calendario ficticio de repaso.
+
+Política de interfaz en `src/ui/language.ts`: target language para navegación, acciones y consignas sencillas; support language para teoría, explicaciones y ayuda compleja, con atributos `lang`. Motor sin idiomas fijados. Teoría candidate limitada a las formas ya disponibles de C03-01/C04-01; no amplía currículo ni familias. Fichas con reglas, formas, ejemplos, errores y enlace de preparación; progreso desplegable.
+
+Lectura de ficha registra `theory-exposure` versionado, sin generar logro. Lectura previa a iniciar no marca automáticamente las respuestas como asistidas. Consulta dentro de sesión se guarda antes de mostrar teoría; `theoryVersion` opcional en estado/intento conserva ayuda al recargar, reintentar y avanzar durante esa sesión. Consultar la ficha por otra ruta durante una sesión activa también se detecta al responder mediante `exposureId`. Se preservan hechos anteriores, referencias, CAS y outbox; sin migración de IndexedDB/D1. Exposiciones de otro dispositivo que lleguen después de una respuesta no reclasifican retroactivamente esa evidencia en esta fase.
+
+Validación: 38 pruebas locales; 6 E2E candidate (incluyen offline, dos dispositivos y teoría asistida), E2E de exclusión en producción; tipos, formato y builds correctos. Inspección visual móvil y escritorio, ancho de 320 px y movimiento reducido comprobados. Pendientes: validación visual de Sergio, revisión editorial y ejecución remota/nativa de Cloudflare. Sin merge a main ni despliegue. Detenerse aquí; no comenzar la siguiente fase.
 
 ## Reglas y mantenimiento
 
