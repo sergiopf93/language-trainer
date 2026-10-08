@@ -510,6 +510,11 @@ it('syncs extended families and typo evidence through the Worker unchanged', asy
       more = page.hasMore;
     }
     expect(rows.find((f) => f.id === typo.id)).toEqual(typo);
+    const derived = facts.find(
+      (f) => f.kind === 'evidence' && f.payload.trace?.kind === 'derived',
+    );
+    expect(derived).toBeDefined();
+    expect(rows.find((f) => f.id === derived!.id)).toEqual(derived);
   } finally {
     local.close();
   }

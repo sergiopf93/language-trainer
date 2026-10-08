@@ -6,10 +6,12 @@ import {
   support,
   theoryPanel,
 } from '../components';
-import { theories } from '../../content/theory';
+import {
+  catalog,
+  activeTheories as theories,
+} from '../../content/validation-fixture';
 import { button, el, message } from '../dom';
 import type { LocalStore } from '../../persistence/local';
-import { catalog } from '../../content/validation-fixture';
 import { SessionEngine, type SessionView } from '../../learning/session';
 import { displayResponse } from '../../exercises/response';
 import { structuredAnswer } from '../structured-answer';

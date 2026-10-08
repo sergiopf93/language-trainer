@@ -3,14 +3,22 @@ import {
   type Activity,
   type EditorialStatus,
   type Dimension,
+  type ExerciseFamily,
 } from '../../shared/learning';
+import type { Editorial } from './model';
 export interface Topic {
   id: string;
   packId: string;
   title: string;
   version: string;
 }
-export interface Concept {
+export interface Concept extends Editorial {
+  targetLanguage?: string;
+  supportLanguage?: string;
+  cefr?: string;
+  facets?: string[];
+  compatibleFamilies?: ExerciseFamily[];
+  coverage?: 'partial' | 'complete';
   id: string;
   topicId: string;
   version: string;
@@ -19,13 +27,18 @@ export interface Concept {
   scope: string;
   exclusions: string;
   dimensions: Dimension[];
-  status: EditorialStatus;
-  provenance: string;
 }
 export interface ConceptRelation {
   from: string;
   to: string;
-  type: 'prerequisite' | 'supports' | 'contrasts';
+  type:
+    | 'prerequisite'
+    | 'related'
+    | 'contrast'
+    | 'reinforces'
+    | 'supports'
+    | 'contrasts';
+  strength?: 'recommended' | 'required';
   reason: string;
 }
 export class ContentRepository {
@@ -68,6 +81,21 @@ export class ContentRepository {
         visit(r.to, new Set([...path, id]));
     };
     for (const id of ids) visit(id, new Set());
+  }
+  connections(
+    id: string,
+    direction: 'outgoing' | 'incoming' | 'both' = 'both',
+  ) {
+    return this.relations.filter(
+      (r) =>
+        (direction !== 'incoming' && r.from === id) ||
+        (direction !== 'outgoing' && r.to === id),
+    );
+  }
+  prerequisites(id: string) {
+    return this.connections(id, 'outgoing').filter(
+      (r) => r.type === 'prerequisite',
+    );
   }
   available() {
     return this.concepts.filter((c) => this.allowed(c.status));

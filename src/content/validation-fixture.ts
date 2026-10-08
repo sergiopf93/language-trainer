@@ -1,6 +1,10 @@
-import { ContentRepository, type Concept, type Topic } from './catalog';
+import { type Concept, type Topic } from './catalog';
+import type { LanguagePack, VocabularyEntry } from './model';
+import { italianCurriculum } from './italian-curriculum';
+import { theories } from './theory';
+import { loadLanguagePack } from './loader';
 import type { Activity } from '../../shared/learning';
-export const fixtureVersion = 'it-A1-candidate-2';
+export const fixtureVersion = 'it-A1-candidate-3';
 const provenance =
   'Candidato creado por R2 para validación técnica; sin revisión editorial independiente. Fuentes de alcance: Research 02 C03/C04 y A1_COVERAGE_MATRIX C03-01/C04-01.';
 const topics: Topic[] = [
@@ -299,26 +303,152 @@ export const engineFixtures: Activity[] = [
   status: 'candidate' as const,
   provenance,
 }));
-export function validationCatalog(allowCandidates = false) {
-  return new ContentRepository(
-    'it-A1',
-    fixtureVersion,
-    topics,
-    concepts,
-    [
+
+const vocabulary: VocabularyEntry[] = [
+  ...[
+    ['io', 'yo'],
+    ['tu', 'tú'],
+    ['noi', 'nosotros / nosotras'],
+  ].map(([lemma, gloss]) => ({
+    id: 'it-' + lemma,
+    version: '1',
+    language: 'it',
+    supportLanguage: 'es',
+    lemma,
+    displayForm: lemma,
+    gloss,
+    partOfSpeech: 'pronoun',
+    number: lemma === 'noi' ? 'plural' : 'singular',
+    forms: [],
+    tags: ['personas'],
+    level: 'A1',
+    conceptIds: ['it-a1-c03-01'],
+    topicIds: ['it-a1-t03'],
+    examples: [],
+    status: 'candidate' as const,
+    provenance,
+  })),
+  {
+    id: 'it-essere',
+    version: '1',
+    language: 'it',
+    supportLanguage: 'es',
+    lemma: 'essere',
+    displayForm: 'essere',
+    gloss: 'ser / estar (según construcción)',
+    partOfSpeech: 'verb',
+    forms: [
       {
-        from: 'it-a1-c04-01',
-        to: 'it-a1-c03-01',
-        type: 'prerequisite',
-        reason:
-          'Reconocer la persona del sujeto permite elegir la forma verbal; orienta, no bloquea la práctica.',
+        key: 'io',
+        text: 'sono',
+        features: { person: '1', number: 'singular', tense: 'present' },
+        irregular: true,
+      },
+      {
+        key: 'tu',
+        text: 'sei',
+        features: { person: '2', number: 'singular', tense: 'present' },
+        irregular: true,
+      },
+      {
+        key: 'noi',
+        text: 'siamo',
+        features: { person: '1', number: 'plural', tense: 'present' },
+        irregular: true,
       },
     ],
-    [...fixtureActivities, ...engineFixtures],
-    allowCandidates,
-  );
+    tags: ['identidad'],
+    level: 'A1',
+    conceptIds: ['it-a1-c04-01'],
+    topicIds: ['it-a1-t04'],
+    examples: [{ target: 'Io sono Ana.', support: 'Yo soy Ana.' }],
+    status: 'candidate',
+    provenance,
+  },
+];
+export const italianPack: LanguagePack = {
+  id: 'it-A1',
+  version: fixtureVersion,
+  targetLanguage: 'it',
+  supportLanguage: 'es',
+  status: 'candidate',
+  provenance,
+  curriculum: italianCurriculum,
+  topics,
+  concepts: concepts.map((c) => ({
+    ...c,
+    targetLanguage: 'it',
+    supportLanguage: 'es',
+    cefr: 'A1',
+    facets: ['persona', 'numero'],
+    compatibleFamilies: ['F1', 'F2', 'F3', 'F4', 'F7'],
+    coverage: 'partial',
+  })),
+  relations: [
+    {
+      from: 'it-a1-c04-01',
+      to: 'it-a1-c03-01',
+      type: 'prerequisite',
+      strength: 'recommended',
+      reason:
+        'Reconocer la persona orienta la elección verbal; no bloquea la práctica.',
+    },
+  ],
+  theories,
+  vocabulary,
+  templates: [
+    {
+      id: 'it-essere-present-cloze',
+      version: '1',
+      status: 'candidate',
+      provenance,
+      family: 'F2',
+      format: 'cloze',
+      concept: { id: 'it-a1-c04-01', version: '1' },
+      objective:
+        'Recuperar una forma canónica de essere para el sujeto indicado.',
+      constraints: [
+        'Solo variantes expresamente creadas; sin permutar sujetos ni respuestas.',
+        'La versión canónica y el vocabulario deben existir.',
+      ],
+      variants: [
+        {
+          key: 'tu',
+          answerFrom: { entryId: 'it-essere', formKey: 'tu' },
+          source: { id: 'it-a1-c04-01-sei', version: '2' },
+          vocabulary: [
+            { id: 'it-tu', version: '1' },
+            { id: 'it-essere', version: '1' },
+          ],
+        },
+      ],
+    },
+  ],
+  canonicalActivities: [...fixtureActivities, ...engineFixtures].map((a) => ({
+    ...a,
+    trace: {
+      kind: 'canonical',
+      packId: 'it-A1',
+      packVersion: fixtureVersion,
+      curriculumId: italianCurriculum.id,
+      curriculumVersion: italianCurriculum.version,
+      sourceId: a.id,
+      sourceVersion: a.version,
+    },
+  })),
+};
+export function validationCatalog(allowCandidates = false) {
+  return loadLanguagePack(italianPack, allowCandidates).repository;
 }
-export const catalog = validationCatalog(
-  import.meta.env.DEV ||
-    import.meta.env.VITE_ENABLE_CANDIDATE_CONTENT === 'true',
+export const activeContent = loadLanguagePack(
+  italianPack,
+  import.meta.env?.DEV ||
+    import.meta.env?.VITE_ENABLE_CANDIDATE_CONTENT === 'true',
+);
+export const catalog = activeContent.repository;
+export const activeTheories = Object.fromEntries(
+  Object.keys(italianPack.theories).flatMap((id) => {
+    const theory = activeContent.theory(id);
+    return theory ? [[id, theory]] : [];
+  }),
 );

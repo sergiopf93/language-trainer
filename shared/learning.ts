@@ -1,4 +1,5 @@
 // Serializable learning contracts shared by local storage and the sync boundary.
+export type ExerciseFamily = 'F1' | 'F2' | 'F3' | 'F4' | 'F5' | 'F6' | 'F7';
 export type EditorialStatus = 'candidate' | 'reviewed' | 'published';
 export type Dimension =
   | 'comprehension'
@@ -29,10 +30,25 @@ export type Judgment =
   | 'verifiable-error'
   | 'not-evaluable'
   | 'no-opportunity';
+export interface ContentTrace {
+  kind: 'canonical' | 'derived';
+  packId: string;
+  packVersion: string;
+  curriculumId: string;
+  curriculumVersion: string;
+  sourceId: string;
+  sourceVersion: string;
+  templateId?: string;
+  templateVersion?: string;
+  variantKey?: string;
+}
 export interface Activity {
+  review?: { reviewer: string; date: string; version: string };
+  publication?: { date: string; version: string };
+  trace?: ContentTrace;
   id: string;
   version: string;
-  family: 'F1' | 'F2' | 'F3' | 'F4' | 'F7';
+  family: Exclude<ExerciseFamily, 'F5' | 'F6'>;
   task?: TaskMetadata;
   format:
     | 'selection'
@@ -121,6 +137,9 @@ export interface LearningPayloads {
     explanation: string;
   };
   evidence: {
+    trace?: ContentTrace;
+    activityVersion?: string;
+    provenance?: string;
     task?: TaskMetadata;
     attemptId: string;
     evaluationId: string;
@@ -164,7 +183,9 @@ export function validActivity(v: unknown): v is Activity {
     !keys(
       v,
       'id version family format conceptId conceptVersion dimension prompt options hint explanation criterion status provenance' +
-        ('task' in v ? ' task' : ''),
+        ('task' in v ? ' task' : '') +
+        ('trace' in v ? ' trace' : '') +
+        optionalKeys(v, ['review', 'publication']),
     )
   )
     return false;
@@ -180,6 +201,15 @@ export function validActivity(v: unknown): v is Activity {
       'explanation',
       'provenance',
     ].every((k) => text(v[k])) &&
+    (!('review' in v) ||
+      (record(v.review) &&
+        keys(v.review, 'reviewer date version') &&
+        Object.values(v.review).every(text))) &&
+    (!('publication' in v) ||
+      (record(v.publication) &&
+        keys(v.publication, 'date version') &&
+        Object.values(v.publication).every(text))) &&
+    (!('trace' in v) || validTrace(v.trace)) &&
     (!('task' in v) || validTask(v.task)) &&
     dimension(v.dimension) &&
     editorial(v.status) &&
@@ -324,8 +354,14 @@ export function validLearningPayload(kind: string, p: unknown): boolean {
         keys(
           p,
           'attemptId evaluationId sessionId conceptId conceptVersion activityId dimension judgment independent contentStatus' +
-            optionalKeys(p, ['task']),
+            optionalKeys(p, ['task', 'trace', 'activityVersion', 'provenance']),
         ) &&
+        (!('trace' in p) ||
+          (validTrace(p.trace) &&
+            text(p.activityVersion) &&
+            text(p.provenance))) &&
+        (!('activityVersion' in p) || text(p.activityVersion)) &&
+        (!('provenance' in p) || text(p.provenance)) &&
         ['attemptId', 'evaluationId', 'sessionId'].every((k) => id(p[k])) &&
         ['conceptId', 'conceptVersion', 'activityId'].every((k) =>
           text(p[k]),
@@ -388,4 +424,13 @@ function validFormat(v: Record<string, unknown>) {
     ['F2', 'F4'].includes(v.family as string) &&
     options.length === 0
   );
+}
+
+export function validTrace(v: unknown): v is ContentTrace {
+  if (!record(v) || !['canonical', 'derived'].includes(v.kind as string))
+    return false;
+  const names =
+    'kind packId packVersion curriculumId curriculumVersion sourceId sourceVersion' +
+    (v.kind === 'derived' ? ' templateId templateVersion variantKey' : '');
+  return keys(v, names) && names.split(' ').every((k) => text(v[k]));
 }

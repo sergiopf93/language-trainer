@@ -1,6 +1,8 @@
 import { el, heading, button, message } from '../dom';
-import { catalog } from '../../content/validation-fixture';
-import { theories } from '../../content/theory';
+import {
+  catalog,
+  activeTheories as theories,
+} from '../../content/validation-fixture';
 import { SessionEngine } from '../../learning/session';
 import type { LocalStore } from '../../persistence/local';
 import { project } from '../../evidence/project';

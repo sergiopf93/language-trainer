@@ -1,6 +1,9 @@
 import { el } from './dom';
 import { language } from './language';
-import { theories } from '../content/theory';
+import {
+  catalog,
+  activeTheories as theories,
+} from '../content/validation-fixture';
 import type { Observation } from '../evidence/project';
 export function link(label: string, href: string, primary = false) {
   const node = el('a', label, primary ? 'primary-link' : 'text-link');
@@ -23,7 +26,7 @@ export function previewNotice() {
   return node;
 }
 export function theoryPanel(conceptId: string) {
-  const t = theories[conceptId];
+  const t = catalog.concept(conceptId) ? theories[conceptId] : undefined;
   const panel = el('section', undefined, 'theory-panel');
   panel.setAttribute('aria-label', 'Teoria');
   if (!t) {
@@ -33,7 +36,7 @@ export function theoryPanel(conceptId: string) {
   panel.append(
     el('h3', 'La regola'),
     support(t.introduction, ''),
-    support(t.rule, 'rule'),
+    ...t.rules.map((rule) => support(rule, 'rule')),
   );
   const forms = el('dl', undefined, 'forms');
   for (const [form, meaning] of t.forms) {
@@ -50,7 +53,14 @@ export function theoryPanel(conceptId: string) {
     block.append(el('p', example), support(translation));
     panel.append(block);
   }
-  panel.append(el('h3', 'Attenzione'), support(t.mistake, ''), support(t.note));
+  panel.append(
+    el('h3', 'Attenzione'),
+    ...t.frequentErrors.map((error) => support(error, '')),
+    ...t.usageNotes.map((note) => support(note)),
+  );
+  for (const exception of t.exceptions) panel.append(support(exception));
+  for (const contrast of t.contrasts)
+    panel.append(support(contrast.explanation));
   return panel;
 }
 export function metric(value: string | number, label: string) {

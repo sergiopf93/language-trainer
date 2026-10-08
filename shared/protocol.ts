@@ -307,6 +307,21 @@ export function validLinks(fact: Fact, known: Map<string, Fact>): boolean {
     )
       return false;
     const e = evaluation.payload;
+    const activity = session.payload.activities[attempt.payload.itemIndex];
+    if (p.activityVersion && p.activityVersion !== activity?.version)
+      return false;
+    if (p.provenance && p.provenance !== activity?.provenance) return false;
+    if (activity?.trace || p.trace) {
+      if (!activity?.trace || !p.trace || !p.activityVersion || !p.provenance)
+        return false;
+      const expected = activity.trace as unknown as Record<string, unknown>;
+      const actual = p.trace as unknown as Record<string, unknown>;
+      if (
+        Object.keys(expected).length !== Object.keys(actual).length ||
+        Object.keys(expected).some((key) => expected[key] !== actual[key])
+      )
+        return false;
+    }
     if (
       e.attemptId !== attempt.id ||
       attempt.payload.sessionId !== session.id ||

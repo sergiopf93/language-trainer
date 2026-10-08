@@ -1,7 +1,9 @@
 import { el, heading } from '../dom';
 import type { LocalStore } from '../../persistence/local';
-import { catalog } from '../../content/validation-fixture';
-import { theories } from '../../content/theory';
+import {
+  catalog,
+  activeTheories as theories,
+} from '../../content/validation-fixture';
 import { project } from '../../evidence/project';
 import {
   link,

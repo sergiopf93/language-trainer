@@ -1,14 +1,11 @@
-export interface LanguagePack {
-  id: string;
-  targetLanguage: string;
-  explanationLanguage: string;
-  version: string;
-  publishedConcepts: readonly string[];
-}
-export const italian: LanguagePack = {
-  id: 'it-A1',
-  targetLanguage: 'it',
-  explanationLanguage: 'es',
-  version: 'it-A1-candidate-1',
-  publishedConcepts: [],
+import { italianPack } from './validation-fixture';
+export type { LanguagePack } from './model';
+export const italian = {
+  id: italianPack.id,
+  targetLanguage: italianPack.targetLanguage,
+  explanationLanguage: italianPack.supportLanguage,
+  version: italianPack.version,
+  publishedConcepts: italianPack.concepts
+    .filter((c) => c.status === 'published')
+    .map((c) => c.id),
 };
