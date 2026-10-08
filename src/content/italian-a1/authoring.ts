@@ -1,7 +1,7 @@
 import type { Activity, Skill } from '../../../shared/learning';
 import type { Concept } from '../catalog';
 import type { Theory } from '../theory';
-export const batchVersion = 'it-A1-candidate-4';
+export const batchVersion = 'it-A1-candidate-5';
 export const provenance =
   'Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.';
 export const sources = {
@@ -50,6 +50,10 @@ export interface Lesson {
 export const conceptId = (code: string) => 'it-a1-c' + code;
 export function materialize(lesson: Lesson) {
   const id = conceptId(lesson.code);
+  const lessonProvenance =
+    Number(lesson.code.slice(0, 2)) >= 6
+      ? 'Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.'
+      : provenance;
   const version = ['03-01', '04-01'].includes(lesson.code) ? '2' : '1';
   const activities: Activity[] = lesson.items.map((item) => {
     const format = item.format;
@@ -116,7 +120,7 @@ export function materialize(lesson: Lesson) {
         ].includes(format),
       },
       status: 'candidate',
-      provenance: `${provenance} ${lesson.source}`,
+      provenance: `${lessonProvenance} ${lesson.source}`,
     };
   });
   const concept: Concept = {
@@ -130,7 +134,7 @@ export function materialize(lesson: Lesson) {
       'Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.',
     dimensions: [...new Set(activities.map((a) => a.dimension))],
     status: 'candidate',
-    provenance: `${provenance} ${lesson.source}`,
+    provenance: `${lessonProvenance} ${lesson.source}`,
     targetLanguage: 'it',
     supportLanguage: 'es',
     cefr: 'A1',
@@ -157,7 +161,7 @@ export function materialize(lesson: Lesson) {
     contrasts: lesson.contrasts ?? [],
     vocabularyIds: lesson.vocabularyIds,
     status: 'candidate',
-    provenance: `${provenance} ${lesson.source}`,
+    provenance: `${lessonProvenance} ${lesson.source}`,
   };
   return { concept, theory, activities };
 }

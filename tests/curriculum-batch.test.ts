@@ -19,13 +19,13 @@ function answerFor(a: Activity, accepted = a.criterion.accepted[0]) {
     accepted.split(' ').map((word) => a.options.indexOf(word)),
   );
 }
-describe('first sequential Italian A1 lot', () => {
-  it('loads precisely the granular C01–C05 inventory without filling later blocks', () => {
+describe('sequential Italian A1 lots C01–C10', () => {
+  it('loads precisely the granular C01–C10 inventory without filling later blocks', () => {
     expect(validatePack(italianCourse)).toEqual([]);
     for (const id of Object.keys(baseline.theories))
       expect(italianCourse.theories[id].id).toBe(baseline.theories[id].id);
     const expected = italianCourse.curriculum.levels[0].units
-      .slice(0, 5)
+      .slice(0, 10)
       .flatMap((u) => u.expectedConceptIds);
     expect(italianCourse.concepts.map((c) => c.id)).toEqual(expected);
     expect(curriculumCoverage(baseline).totals.existingConcepts).toBe(2);
@@ -33,15 +33,15 @@ describe('first sequential Italian A1 lot', () => {
     expect(after.totals).toEqual({
       units: 34,
       expectedConcepts: 99,
-      existingConcepts: 17,
+      existingConcepts: 29,
       productionReady: 0,
     });
-    expect(after.units.slice(0, 5).map((u) => u.concepts.length)).toEqual([
-      3, 3, 2, 5, 4,
+    expect(after.units.slice(0, 10).map((u) => u.concepts.length)).toEqual([
+      3, 3, 2, 5, 4, 3, 2, 2, 3, 2,
     ]);
     expect(
       after.units
-        .slice(0, 5)
+        .slice(0, 10)
         .every((u) =>
           u.concepts.every(
             (c) =>
@@ -56,7 +56,7 @@ describe('first sequential Italian A1 lot', () => {
         ),
     ).toBe(true);
     expect(
-      after.units.slice(5).every((u) => u.concepts.every((c) => !c.concept)),
+      after.units.slice(10).every((u) => u.concepts.every((c) => !c.concept)),
     ).toBe(true);
     expect(loadLanguagePack(italianCourse).repository.available()).toEqual([]);
   });

@@ -6,6 +6,8 @@ for (const id of [
   'it-a1-c03-02',
   'it-a1-c04-03',
   'it-a1-c05-04',
+  'it-a1-c06-03',
+  'it-a1-c10-01',
 ]) {
   test(`curriculum ${id}: library, study, retrieval, reload, summary and progress`, async ({
     page,
@@ -13,7 +15,7 @@ for (const id of [
     await page.goto('/library');
     await expect(
       page.getByRole('link', { name: 'Scopri il concetto', exact: true }),
-    ).toHaveCount(17);
+    ).toHaveCount(29);
     await page.locator(`a[href="/concept?id=${id}"]`).click();
     await expect(page.locator('.theory-panel')).toBeVisible();
     await expect(page.locator('.theory-panel')).toContainText(
@@ -39,7 +41,7 @@ for (const id of [
         () => document.documentElement.scrollWidth <= innerWidth,
       ),
     ).toBe(true);
-    if (id === 'it-a1-c01-01' || id === 'it-a1-c05-04')
+    if (id === 'it-a1-c01-01' || id === 'it-a1-c05-04' || id === 'it-a1-c10-01')
       await page.screenshot({
         path: `test-results/${id}-theory.png`,
         fullPage: true,

@@ -8,10 +8,27 @@ import { c02 } from './c02';
 import { c03 } from './c03';
 import { c04 } from './c04';
 import { c05 } from './c05';
+import { c06 } from './c06';
+import { c07 } from './c07';
+import { c08 } from './c08';
+import { c09 } from './c09';
+import { c10 } from './c10';
+import { extendVocabulary } from './vocabulary-c06-c10';
 import { vocabularyFor } from './vocabulary';
-export const lessons = [...c01, ...c02, ...c03, ...c04, ...c05];
+export const lessons = [
+  ...c01,
+  ...c02,
+  ...c03,
+  ...c04,
+  ...c05,
+  ...c06,
+  ...c07,
+  ...c08,
+  ...c09,
+  ...c10,
+];
 const content = lessons.map(materialize);
-const vocabulary = vocabularyFor(lessons);
+const vocabulary = extendVocabulary(vocabularyFor(lessons), lessons);
 const relations: ConceptRelation[] = [];
 function connect(
   from: string,
@@ -125,6 +142,174 @@ connect(
   'reinforces',
   'La h de avere se vuelve a observar en palabras con significado.',
 );
+connect(
+  '06-01',
+  '04-01',
+  'prerequisite',
+  'La negación reutiliza las formas de essere.',
+);
+connect(
+  '06-01',
+  '05-01',
+  'prerequisite',
+  'La negación reutiliza las formas de avere.',
+);
+connect(
+  '06-01',
+  '02-03',
+  'reinforces',
+  'Non capisco anticipa la negación aprendida ahora como construcción.',
+);
+connect(
+  '06-02',
+  '06-01',
+  'prerequisite',
+  'Responder negativamente requiere non antes del verbo.',
+);
+connect(
+  '06-02',
+  '03-01',
+  'reinforces',
+  'La respuesta cambia la perspectiva de tu a io.',
+);
+connect(
+  '06-03',
+  '06-02',
+  'prerequisite',
+  'Las preguntas de información amplían las preguntas cerradas.',
+);
+connect(
+  '06-03',
+  '05-03',
+  'reinforces',
+  'Quanti anni hai reutiliza la pregunta de edad.',
+);
+connect(
+  '06-03',
+  '04-03',
+  'related',
+  'Di dove sei pregunta por el origen ya aprendido.',
+);
+connect(
+  '07-01',
+  '05-02',
+  'related',
+  'Los objetos conocidos de posesión permiten recuperar género sin léxico nuevo.',
+);
+connect(
+  '07-02',
+  '07-01',
+  'prerequisite',
+  'Las excepciones y nombres en -e amplían las tendencias -o/-a.',
+);
+connect(
+  '08-01',
+  '07-01',
+  'prerequisite',
+  'Género y terminación ayudan a recuperar la clase nominal.',
+);
+connect(
+  '08-01',
+  '07-02',
+  'related',
+  'Los nombres en -e aportan casos de ambos géneros.',
+);
+connect(
+  '08-02',
+  '08-01',
+  'contrast',
+  'Los invariantes conservan la forma frente al cambio de vocal regular.',
+);
+connect(
+  '08-02',
+  '01-02',
+  'reinforces',
+  'Città y caffè conservan su acento en plural.',
+);
+connect(
+  '09-01',
+  '07-01',
+  'prerequisite',
+  'La elección del artículo requiere el género del nombre.',
+);
+connect(
+  '09-01',
+  '07-02',
+  'prerequisite',
+  'El género léxico evita generalizaciones por la terminación.',
+);
+connect(
+  '09-01',
+  '01-01',
+  'prerequisite',
+  'Los grupos iniciales orientan il/lo/l’.',
+);
+connect(
+  '09-02',
+  '09-01',
+  'prerequisite',
+  'Las series del plural se relacionan con el singular.',
+);
+connect(
+  '09-02',
+  '08-01',
+  'prerequisite',
+  'Los plurales nominales aportan el número del grupo.',
+);
+connect(
+  '09-02',
+  '08-02',
+  'related',
+  'Los artículos ayudan a indicar número con nombres invariantes.',
+);
+connect(
+  '09-03',
+  '09-01',
+  'prerequisite',
+  'El uso contextual reutiliza las formas del determinado.',
+);
+connect(
+  '09-03',
+  '05-02',
+  'reinforces',
+  'La posesión introduce objetos que pueden retomarse.',
+);
+connect(
+  '10-01',
+  '07-01',
+  'prerequisite',
+  'Un/una requieren género del nombre.',
+);
+connect(
+  '10-01',
+  '01-01',
+  'prerequisite',
+  'Vocal y grupos iniciales orientan un/uno/un’.',
+);
+connect(
+  '10-01',
+  '09-01',
+  'contrast',
+  'L’amico contrasta con un amico sin apóstrofo.',
+);
+connect(
+  '10-02',
+  '10-01',
+  'prerequisite',
+  'La introducción de referentes reutiliza las formas del indeterminado.',
+);
+connect(
+  '10-02',
+  '09-03',
+  'contrast',
+  'Introducir un referente frente a retomar uno identificable.',
+);
+connect(
+  '10-02',
+  '02-02',
+  'reinforces',
+  'La petición de café reutiliza per favore.',
+);
 const activities = content
   .flatMap(({ concept, activities }) => [
     // Keep the existing authored items and their stable IDs as the opening practice.
@@ -197,9 +382,11 @@ export const italianCourse: LanguagePack = {
   targetLanguage: 'it',
   supportLanguage: 'es',
   status: 'candidate',
-  provenance,
+  provenance:
+    provenance +
+    ' Ampliación candidate C06–C10: Research 02 y A1_COVERAGE_MATRIX; revisión editorial pendiente.',
   curriculum: italianCurriculum,
-  topics: italianCurriculum.levels[0].units.slice(0, 5).map((unit) => ({
+  topics: italianCurriculum.levels[0].units.slice(0, 10).map((unit) => ({
     id: unit.topicId,
     packId: fixture.id,
     title: unit.title,
