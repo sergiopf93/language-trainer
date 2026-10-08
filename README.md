@@ -1,6 +1,6 @@
 # Language Trainer
 
-Base técnica de una PWA personal para italiano A1, con interfaz en español. La V1 prevista mantiene **todo el currículo A1 del proyecto**. Esta fase implementa navegación, borradores y transporte de historial; todavía no hay actividades publicadas, evaluación ni cálculo de dominio.
+Base técnica de una PWA personal para italiano A1, con interfaz en español. La V1 prevista mantiene **todo el currículo A1 del proyecto**. La Fase 2 añade práctica focal, evaluación canónica y progreso por dimensiones. No hay contenido publicado ni acreditación de dominio estable; el lote `candidate` es exclusivamente de validación técnica.
 
 ## Requisitos y arranque
 
@@ -30,11 +30,11 @@ macOS 12 no ejecuta el runtime actual de Cloudflare. Allí puede usarse Vite par
 
 ```text
 src/ui/             Shell, Home, Practice, Library, Progress y ajustes
-src/learning/       Contrato del coordinador de aprendizaje
-src/exercises/      Contrato de actividades y evaluación por oportunidad
-src/evidence/       Contratos de evidencia/proyecciones reconstruibles
+src/learning/       Sesiones focales persistentes y selección de actividades
+src/exercises/      Actividades y evaluación canónica sin llamadas externas
+src/evidence/       Observaciones y proyecciones reconstruibles por dimensión
 src/review/         Contrato del planificador de repaso
-src/content/        Metadatos del pack italiano; sin contenido publicado
+src/content/        Catálogo versionado y fixture candidate; nada publicado
 src/persistence/   IndexedDB: identidad, hechos y outbox transaccional
 src/sync/          Autenticación, envío, descarga, reintentos y estados
 shared/            Contrato validado de transporte, versiones y hash
@@ -44,12 +44,32 @@ public/, scripts/  Manifest, iconos, precaché y herramientas locales
 tests/            IndexedDB, protocolo, SQL y flujos de navegador
 ```
 
-TypeScript + Vite, DOM nativo e `idb` como envoltorio pequeño de IndexedDB. No hay framework UI, IA en ejecución ni servicios de pago. Los módulos pedagógicos son contratos explícitos, **no motores ya implementados**.
+TypeScript + Vite, DOM nativo e `idb` como envoltorio pequeño de IndexedDB. No hay framework UI, IA en ejecución ni servicios de pago. El motor focal está implementado; Mixed, Review avanzado, Error Learning y Reading/Writing extensos quedan fuera de esta fase, pero siguen dentro de V1.
+
+## Validar el motor de Fase 2
+
+`candidate → reviewed → published`: desarrollo y testing pueden usar candidatos; la revisión editorial independiente condiciona la publicación definitiva, no la implementación. El fixture incluye C03-01/C04-01 y seis actividades, sin cubrir por completo esos conceptos ni reducir V1.
+
+En `npm run dev` está habilitado. Para probar la PWA offline y los E2E de aprendizaje:
+
+```sh
+VITE_ENABLE_CANDIDATE_CONTENT=true npm run build
+PLAYWRIGHT_CHANNEL=chrome E2E_NODE_FALLBACK=1 E2E_ACCESS_CODE=local-test-only npm run test:e2e
+```
+
+Recorrido: Biblioteca → elegir concepto → Iniciar práctica → responder/ver pista → comprobar/reintentar → avanzar → resumen → progreso. Practicar lista sesiones y versiones concurrentes. Respuesta, ayudas y corrección sobreviven a la recarga. Los borradores de intención anteriores siguen disponibles. Las respuestas fuera del criterio se declaran no evaluables; las vacías no aportan evidencia. La política provisional separa observaciones por dimensión, asistencia e ítems distintos; no demuestra dominio estable ni retención. No utiliza IA ni llamadas externas para corregir.
+
+Un build normal excluye candidate del catálogo y de las proyecciones. Para comprobarlo:
+
+```sh
+npm run build
+E2E_PRODUCTION=1 PLAYWRIGHT_CHANNEL=chrome E2E_NODE_FALLBACK=1 npm run test:e2e -- --grep 'production build'
+```
 
 ## Historial y sincronización
 
 - Hecho y outbox se guardan en una transacción IndexedDB. UUID, dispositivo, secuencia, versiones, referencias y revisiones mantienen procedencia; el servidor deriva el propietario de la sesión.
-- El esquema remoto incluye propietarios, dispositivos, sesiones de acceso, hechos, referencias y recibos. La v1 del transporte valida **Session en borrador y sus revisiones**. Exposure, Attempt, Evaluation/Opportunity, Evidence, ErrorEvent y sus políticas se incorporarán mediante contratos y migraciones revisados cuando se implemente el learning loop; no se aceptan payloads arbitrarios como evidencia.
+- El esquema remoto incluye propietarios, dispositivos, sesiones de acceso, hechos, referencias y recibos. El contrato valida borradores antiguos y hechos tipados de sesión de práctica, estado, intento, evaluación y evidencia. Los envíos se guardan atómicamente con su corrección y cambio de estado. El transporte, las tablas D1 y la versión IndexedDB no cambian; las ayudas quedan registradas en estados y las exposiciones previas se enlazan desde intentos. No se aceptan payloads arbitrarios como evidencia.
 - Cada operación admite hasta 10 hechos y 128 KiB. El Worker valida referencias/versiones y D1 confirma hechos + recibo en un batch atómico. Mismo ID/contenido se deduplica; contenido diferente produce 409 y se conserva en la outbox, sin sobrescribir historia.
 - Descarga paginada de 100 hechos por cursor de servidor; aplicación y cursor se confirman juntos localmente. Guardado, apertura, reconexión, regreso a la pestaña y acción manual disparan sincronización; hay backoff con variación y exclusión entre pestañas. No se promete sincronizar con la PWA cerrada.
 - Las revisiones conservan su base. Dos ramas de un borrador se muestran como alternativas; elegir una no borra la otra. Un lote rechazado se aparta y permite avanzar otros independientes; Ajustes permite reintentar.
@@ -95,4 +115,4 @@ PLAYWRIGHT_CHANNEL=chrome E2E_NODE_FALLBACK=1 E2E_ACCESS_CODE=local-test-only np
 
 Ejecuta el mismo Worker y SQL con SQLite en memoria, código exclusivo de prueba y Chrome instalado. No usa Cloudflare remoto, no conserva una base de desarrollo y no acredita compatibilidad del runtime D1. `npm test` usa ese adaptador SQLite y `fake-indexeddb`; `test:cloudflare` usa Miniflare. La API de SQLite de Node 22 muestra un aviso experimental solo en este harness.
 
-Verificado en esta máquina: 26 pruebas locales, 2 E2E con Chrome, tipos, formato, build, auditoría sin vulnerabilidades y empaquetado `wrangler deploy --dry-run`. La batería `test:cloudflare` falla al arrancar por macOS 12; sus 10 pruebas quedan sin ejecutar. El despliegue real y la validación humana del shell quedan pendientes. `sharp` está fijado mediante override en 0.35.5 para resolver el aviso de seguridad transitivo de las herramientas Cloudflare; revisar al actualizar Wrangler.
+Base previa verificada: 26 pruebas locales, 2 E2E con Chrome, auditoría y empaquetado de Worker. Fase 2 verificada: 36 pruebas locales, 5 E2E del build candidate y 1 E2E del build normal que comprueba su exclusión; tipos, formato, builds y revisión visual móvil correctos. Las pruebas entre navegadores usan Worker + SQLite local, no Cloudflare remoto. La batería `test:cloudflare` falla al arrancar por macOS 12; sus 10 pruebas quedan sin ejecutar. El despliegue real y la validación humana del shell quedan pendientes. `sharp` está fijado mediante override en 0.35.5 para resolver el aviso de seguridad transitivo de las herramientas Cloudflare; revisar al actualizar Wrangler.

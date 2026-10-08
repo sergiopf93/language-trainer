@@ -1,6 +1,6 @@
 # R2 — contexto operativo de language-trainer
 
-Actualizado: 2026-10-07. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
+Actualizado: 2026-10-08. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
 
 ## Política de lectura y delegación
 
@@ -93,7 +93,7 @@ Detalle: [CONTENT_STRATEGY](../product/CONTENT_STRATEGY.md), matrices Reading/Wr
 
 ## Canon y contenido generado
 
-Canon versionado es autoridad lingüística; generación manual/determinista/IA offline produce candidatos. Templates + variables tipadas + lexical sets + restricciones semánticas/gramaticales + variantes revisadas reducen autoría duplicada. Publicar solo combinaciones del espacio validado. Determinismo no garantiza naturalidad. No IA online obligatoria ni pago no autorizado.
+Canon versionado es autoridad lingüística; generación manual/determinista/IA offline produce candidatos. Templates + variables tipadas + lexical sets + restricciones semánticas/gramaticales + variantes revisadas reducen autoría duplicada. Regla permanente autorizada: `candidate → reviewed → published`. Candidate puede crearse y usarse en desarrollo/testing y validación técnica sin revisión independiente; reviewed exige validación editorial conforme al proceso que se defina; published exige contenido revisado y habilitado para producción. No confundir esos estados. La revisión independiente condiciona contenido definitivo/publicable de V1, nunca implementación o pruebas técnicas. Publicar solo combinaciones del espacio validado. Determinismo no garantiza naturalidad. No IA online obligatoria ni pago no autorizado.
 
 Suficiencia se verifica por Concept/facetas/fases y reservas diferidas, no cuotas arbitrarias de textos. Controlar falsos positivos, falsos rechazos y abstención excesiva.
 
@@ -127,7 +127,7 @@ Detalle: [UX_PROPOSAL](../ux/UX_PROPOSAL.md), únicamente navegación/flujo/esta
 
 Aprobado como dirección: todo A1, todos sus modos integrados, Cloudflare local-first, historial reconstruible, backup secundario y coste prácticamente cero. **Implementación incremental autorizada por Sergio el 2026-10-07: primer bloque de base técnica.** Se mantiene V1 A1 completa. Acceso personal implementado conforme a la propuesta; parámetros pedagógicos y responsable de revisión lingüística siguen pendientes.
 
-Base técnica implementada en rama de desarrollo: TypeScript/Vite, shell PWA, IndexedDB y outbox, Worker/D1, identificación personal, recibos idempotentes y revisiones de borrador. Motores pedagógicos solo como contratos. Architecture/UX/QA revisaron previamente la propuesta; QA cerró hallazgos documentales. Inventario: 34 Topics/99 Concepts/14 contextos; 47 criterios AC01–AC47. Contenido aún planificado; no hay currículo publicado, evaluación ni dominio implementado. Tests de infraestructura y navegador disponibles; runtime nativo Cloudflare no ejecutable en el macOS 12 actual, despliegue real y validación humana pendientes. No se acredita eficacia pedagógica.
+Base técnica implementada en rama de desarrollo: TypeScript/Vite, shell PWA, IndexedDB y outbox, Worker/D1, identificación personal, recibos idempotentes y revisiones de borrador. Motor focal, evaluación canónica y proyección de observaciones implementados en Fase 2; otros modos siguen como contratos. Architecture/UX/QA revisaron previamente la propuesta; QA cerró hallazgos documentales. Inventario: 34 Topics/99 Concepts/14 contextos; 47 criterios AC01–AC47. No hay currículo publicado ni política de dominio estable; el lote candidate técnico no representa cobertura A1 completa. Tests de infraestructura y navegador disponibles; runtime nativo Cloudflare no ejecutable en el macOS 12 actual, despliegue real y validación humana pendientes. No se acredita eficacia pedagógica.
 
 Repositorio: `/Users/sergiopardo/Desktop/language-trainer`; rama de implementación `feat/technical-foundation`, creada desde main e incorporando por fast-forward la documentación existente. Arranque y límites en README.md. Punto de partida: base técnica del primer bloque, sin cierre de V1 ni continuación automática al siguiente bloque. Consultar `git status` y `git log` antes de actuar: este resumen no sustituye el estado real del repositorio ni implica aprobación de implementación. Preservar cambios ajenos.
 
@@ -135,11 +135,15 @@ Fases futuras A–G: fundamentos → motores → integración vertical → cober
 
 Detalle: [DECISIONS](../DECISIONS.md), decisiones/preguntas; [V1_SCOPE](../mvp/V1_SCOPE.md), fases/AC; [DESIGN_REVIEW](../mvp/DESIGN_REVIEW.md), límites de revisión.
 
-## Fase 2 — bloqueo detectado (2026-10-08)
+## Fase 2 — recorrido técnico implementado (2026-10-08)
 
-Encargo autorizado: motor end-to-end sobre `6497e90`/`e697c8f`, sin subagentes ni despliegue; V1 mantiene todo A1. Inspección inicial: rama `feat/technical-foundation` limpia, catálogo vacío y motores solo como contratos. `shared/protocol.ts` acepta únicamente sesiones/borradores `foundation-v1`: los nuevos hechos requerirán una ampliación compatible del validador compartido, sin rediseñar transporte ni IndexedDB.
+Decisión editorial resuelta por Sergio: `candidate → reviewed → published`. Candidate autorizado para implementar/probar técnicamente; revisión independiente pendiente solo para contenido definitivo/publicable. No volver a bloquear fases técnicas por esa revisión. Alcance final inalterable: todo A1. Sin subagentes, despliegue ni servicios nuevos.
 
-**Detención por decisión editorial pendiente:** `DECISIONS.md`, pregunta 1 y D11, deja pendiente quién revisará reglas, variantes y actividades; hasta resolverlo el contenido es candidato. `ARCHITECTURE_PROPOSAL.md`, «Canon y generación», requiere revisión independiente antes de publicación y excluye la autoaprobación por IA. No se ha encontrado un banco aprobado para los conceptos consultados (C02–C04). Esto impide presentar como revisados los datos iniciales solicitados. Conforme al control de alcance del encargo, no se ha iniciado implementación. Siguiente paso: resolver la revisión del pequeño lote de validación o autorizar expresamente un lote candidato para validación técnica, sin atribuirle aprobación editorial. Sin cambios de infraestructura, servicios ni alcance final; pruebas funcionales de Fase 2 todavía no ejecutadas.
+Catálogo con Topic/Concept/relaciones/versiones y fixture candidate de C03-01/C04-01 (6 actividades; selección, huecos y respuesta breve). Desarrollo lo habilita; build normal lo excluye y `VITE_ENABLE_CANDIDATE_CONTENT=true` habilita una compilación de validación. No hay contenido reviewed/published ni cobertura completa de estos Concepts.
+
+Biblioteca → práctica focal → respuesta/corrección → resumen → progreso por dimensión. Sesiones conservan instantáneas; borradores de respuesta, pistas, reintentos y finalización sobreviven recargas. Intento/evaluación/evidencia/estado se guardan juntos en IndexedDB/outbox, con CAS local contra envíos duplicados; ramas concurrentes se conservan. Nuevos tipos de hechos validan referencias y conviven con borradores antiguos; no cambian transporte, tablas D1 ni esquema IndexedDB. Respuestas desconocidas/vacías no generan evidencia negativa. Ayudas, correcciones y exposición previa al mismo ítem excluyen recuperación independiente. Proyección `observations-v1` reconstruible, sin porcentaje global ni afirmación de retención/estabilidad; candidate excluido por defecto.
+
+Pruebas de Fase 2: 36 locales (unitarias e integración IndexedDB/Worker/SQLite), 5 E2E candidate y 1 E2E de exclusión en producción; tipos, formato, builds y revisión visual móvil correctos. Incluyen navegador offline y recuperación entre dos navegadores; comandos en README. Cloudflare remoto/runtime nativo no validado aquí; validación humana y editorial pendientes. Detenerse tras esta fase; no iniciar Fase 3 automáticamente.
 
 ## Reglas y mantenimiento
 

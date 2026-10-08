@@ -1,10 +1,10 @@
 # Registro de decisiones
 
-Actualizado: 2026-10-07. Sergio ha fijado alcance A1 completo y sincronización Cloudflare. La solución concreta sigue pendiente de aprobación final para implementar. «Decidido por Sergio» no autoriza aún código ni despliegue.
+Actualizado: 2026-10-08. Sergio autoriza la Fase 2 técnica sobre la base existente, sin despliegue. Se mantienen V1 A1 completa y sincronización Cloudflare. La autorización de implementación no autoriza merge a main, contratación ni publicación editorial.
 
 | ID | DECISION | RATIONALE | SOURCE | TRADE-OFF | STATUS |
 |---|---|---|---|---|---|
-| D01 | Diseñar y documentar; no implementar | La revisión del producto precede al desarrollo | Encargo §25–26 | Demora construcción hasta cerrar alcance | Restricción confirmada |
+| D01 | Diseñar y documentar; no implementar | La revisión del producto precede al desarrollo | Encargo §25–26 | Demora construcción hasta cerrar alcance | Restricción histórica; implementación incremental autorizada por Sergio |
 | D02 | Separar evidencia y dominio; no porcentaje global | El rendimiento inmediato no demuestra retención | Research 00, 01, 04; E-S delimitada → R de producto | Más explicación que una barra única | Principio del encargo; representación propuesta |
 | D03 | Todo el currículo A1 definido en Research 02, C01–C34 y sus funciones/contextos | La primera versión utilizable debe permitir estudiar el recorrido completo, incluido pasado | Corrección explícita de Sergio; Research 02 completo | Mayor autoría y QA; fases internas no reducen entrega | Decidido por Sergio; sustituye corte de diez objetivos |
 | D04 | Tema navegable + concepto evaluable + facetas | Evitar un nodo por forma sin perder cobertura | Research 01 §1, 02 §4; Architecture | Requiere reglas editoriales de división | Propuesto |
@@ -14,7 +14,7 @@ Actualizado: 2026-10-07. Sergio ha fijado alcance A1 completo y sincronización 
 | D08 | Vencimiento de revisión separado de dominio | Antigüedad aumenta incertidumbre, no demuestra olvido | Research 04; R | Menos simplicidad que «olvidado» | Propuesto |
 | D09 | Evaluación por oportunidad con abstención | Desconocido/ambiguo no equivale a incorrecto | Research 03–05; Architecture/UX | Algunas respuestas quedan sin evaluar | Propuesto |
 | D10 | Writing desde completar con significado hasta mensajes autónomos A1; evaluación por alcance y abstención | Cubrir progresión completa sin fabricar correcciones | Sergio; Research 03/05 | La libertad de escribir supera lo automáticamente evaluable; ofrecer ruta focal fiable | Alcance decidido; solución propuesta |
-| D11 | Canon versionado y publicación editorial separada del origen | Generación no es autoridad lingüística | Research 05; R | Trabajo humano de revisión | Propuesto; responsable pendiente |
+| D11 | `candidate → reviewed → published`; candidate permitido en desarrollo/testing; reviewed exige validación lingüística/editorial; published exige revisión y habilitación para producción | La revisión independiente no bloquea implementación ni validación técnica; sí el contenido definitivo/publicable de V1 | Autorización explícita de Sergio, 2026-10-08 | Conservar estado, procedencia y versión; fixture mínimo no reduce el currículo | Decidido por Sergio; proceso/responsable editorial pendiente solo para revisión/publicación |
 | D12 | PWA local-first → almacenamiento local → Worker → D1; recuperación entre dispositivos | Progreso durable y offline sin depender de backup manual | Decisión explícita de Sergio; revisión healt-tracker | Requiere identidad, protocolo de sync y conflictos | Decidido por Sergio; reemplaza local-only |
 | D13 | Módulos de aprendizaje internos y un Worker de sincronización, sin microservicios ni base de grafos | Catálogo completo no implica infraestructura compleja | Architecture; decisión técnica | Validar rendimiento y cuotas con historial completo | Propuesto |
 | D14 | Motor independiente del pack italiano | Segundo idioma sin reconstruir sesión/evidencia | Encargo multiidioma; Architecture | Algunos evaluadores siguen siendo específicos del idioma | Propuesto |
@@ -64,7 +64,7 @@ H7: uso personal, lotes e índices caben en cuotas gratuitas compartidas de Clou
 
 ## OPEN QUESTIONS FOR SERGIO
 
-1. **Revisión del italiano:** ¿quién revisará reglas, variantes y actividades antes de publicar? Recomendación: una persona cualificada. Mientras no se resuelva, el contenido es candidato; cualquier contratación requiere autorización aparte. Esto afecta capacidad editorial, no elimina temas de V1.
+1. **Revisión del italiano:** ¿quién revisará reglas, variantes y actividades antes de publicar? Recomendación: una persona cualificada. Mientras no se resuelva, el contenido es `candidate` y puede crearse/usarse en desarrollo, pruebas y validación técnica del motor. No puede presentarse como `reviewed` ni `published`. La revisión independiente será requisito antes de considerarlo definitivo/publicable en V1, nunca requisito para implementar/probar el sistema. Cualquier contratación requiere autorización aparte. Esto afecta publicación editorial, no bloquea fases técnicas ni elimina temas de V1.
 2. **Acceso entre dispositivos:** propongo un código privado de recuperación guardado en tu gestor de contraseñas, con sesión revocable por dispositivo. ¿Hay alguna necesidad de acceso con correo/proveedor que obligue a cambiar esta opción? No se necesita un sistema público multiusuario.
 
-El resto —todo A1, sincronización Cloudflare, respaldo secundario, offline y ausencia de IA online obligatoria— está decidido. Tras tu revisión y aprobación final comenzará el desarrollo completo organizado por fases internas. No se crea infraestructura, se contrata servicio ni se hace merge a main en esta revisión.
+El resto —todo A1, sincronización Cloudflare, respaldo secundario, offline y ausencia de IA online obligatoria— está decidido. La Fase 2 está autorizada como incremento técnico. No se contrata servicio, despliega infraestructura ni hace merge a main sin autorización explícita.
