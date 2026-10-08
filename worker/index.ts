@@ -7,6 +7,7 @@ import {
   digest,
   uuid,
   validOperation,
+  validLinks,
   type Fact,
 } from '../shared/protocol';
 export interface Env {
@@ -188,6 +189,8 @@ async function push(request: Request, env: Env, ownerId: string) {
   };
   for (const fact of op.facts) {
     for (const ref of fact.references) await load(ref);
+    if (!validLinks(fact, known))
+      throw new ApiError(422, 'invalid_learning_reference');
     if (fact.kind === 'session-revision') {
       const root = await load(fact.entityId);
       const base = await load(fact.baseRevision!);

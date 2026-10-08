@@ -1,9 +1,5 @@
-export type EvidenceDimension =
-  | 'comprehension'
-  | 'retrieval'
-  | 'contextual-use'
-  | 'discrimination'
-  | 'retention';
+import type { Dimension as EvidenceDimension } from '../../shared/learning';
+export type { Dimension as EvidenceDimension } from '../../shared/learning';
 export interface ProjectionCheckpoint {
   policyVersion: string;
   contentVersion: string;

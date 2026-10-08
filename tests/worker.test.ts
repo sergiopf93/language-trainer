@@ -1,10 +1,19 @@
+import 'fake-indexeddb/auto';
+import { LocalStore } from '../src/persistence/local';
+import { SessionEngine } from '../src/learning/session';
+import { validationCatalog } from '../src/content/validation-fixture';
 import { beforeAll, afterAll, describe, it, expect } from 'vitest';
 import { Miniflare, convertV4MiniflareOptions } from 'miniflare';
 import { build } from 'esbuild';
 import { readFile } from 'node:fs/promises';
 import worker from '../worker/index';
 import { SqliteD1 } from './support/sqlite';
-import { digest, type Fact, type Operation } from '../shared/protocol';
+import {
+  digest,
+  type Fact,
+  type DraftFact,
+  type Operation,
+} from '../shared/protocol';
 let mf: Pick<Miniflare, 'dispatchFetch' | 'getD1Database' | 'dispose'>;
 const ownerId = crypto.randomUUID();
 const code = 'test-only-' + crypto.randomUUID();
@@ -28,7 +37,7 @@ async function request(
     body: body === undefined ? undefined : JSON.stringify(body),
   });
 }
-async function login(deviceId = crypto.randomUUID()) {
+async function login(deviceId: string = crypto.randomUUID()) {
   const result = await request(
     'access',
     'POST',
@@ -39,7 +48,7 @@ async function login(deviceId = crypto.randomUUID()) {
   expect(result.status).toBe(200);
   return { deviceId, cookie: result.headers.get('set-cookie')!.split(';')[0] };
 }
-function fact(deviceId: string, base?: Fact): Fact {
+function fact(deviceId: string, base?: DraftFact): DraftFact {
   const id = crypto.randomUUID();
   return {
     id,
@@ -162,6 +171,7 @@ describe(
           .bind(op.facts[0].id)
           .first('n'),
       ).toBe(1);
+      if (op.facts[0].kind !== 'session') throw new Error('Expected draft');
       op.facts[0].payload.intention = 'Alterado';
       expect((await request('sync/push', 'POST', op, auth.cookie)).status).toBe(
         409,
@@ -370,3 +380,73 @@ describe(
     });
   },
 );
+
+it('persists learning facts atomically, replays ACKs and rejects malformed learning events', async () => {
+  const local = await LocalStore.open('worker-learning-' + crypto.randomUUID());
+  try {
+    const auth = await login((await local.identity()).deviceId);
+    const engine = new SessionEngine(local, validationCatalog(true));
+    let v = await engine.start('it-a1-c04-01');
+    v = await engine.update(v, 'draft', 'sono');
+    await engine.submit(v);
+    for (const { id, facts } of await local.pending()) {
+      const op = { id, facts };
+      expect((await request('sync/push', 'POST', op, auth.cookie)).status).toBe(
+        200,
+      );
+      expect((await request('sync/push', 'POST', op, auth.cookie)).status).toBe(
+        200,
+      );
+    }
+    const db = await mf.getD1Database('DB');
+    expect(
+      await db
+        .prepare(
+          "SELECT COUNT(*) AS n FROM facts WHERE device_id=? AND kind='attempt'",
+        )
+        .bind(auth.deviceId)
+        .first('n'),
+    ).toBe(1);
+    const original = (await local.allFacts()).find(
+      (f) => f.kind === 'attempt',
+    )!;
+    const invalid = {
+      ...original,
+      id: crypto.randomUUID(),
+      payload: { ...original.payload, response: 123 },
+    };
+    expect(
+      (
+        await request(
+          'sync/push',
+          'POST',
+          { id: crypto.randomUUID(), facts: [invalid] },
+          auth.cookie,
+        )
+      ).status,
+    ).toBe(422);
+    const evidence = (await local.allFacts()).find(
+      (f) => f.kind === 'evidence',
+    )!;
+    const id = crypto.randomUUID();
+    const forged = {
+      ...evidence,
+      id,
+      entityId: id,
+      sequence: 5000,
+      payload: { ...evidence.payload, independent: false },
+    };
+    expect(
+      (
+        await request(
+          'sync/push',
+          'POST',
+          { id: crypto.randomUUID(), facts: [forged] },
+          auth.cookie,
+        )
+      ).status,
+    ).toBe(422);
+  } finally {
+    local.close();
+  }
+});

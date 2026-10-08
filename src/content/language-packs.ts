@@ -9,6 +9,6 @@ export const italian: LanguagePack = {
   id: 'it-A1',
   targetLanguage: 'it',
   explanationLanguage: 'es',
-  version: 'foundation-v1',
+  version: 'it-A1-candidate-1',
   publishedConcepts: [],
 };

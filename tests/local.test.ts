@@ -100,11 +100,12 @@ describe('atomic local history', () => {
         JSON.stringify({ ...backup, ownerId: crypto.randomUUID() }),
       ),
     ).rejects.toThrow('otra identidad');
+    if (backup.facts[0].kind !== 'session') throw new Error('Expected draft');
     backup.facts[0].payload.intention = 'Alterado';
     await expect(store.importBackup(JSON.stringify(backup))).rejects.toThrow(
       'contenido distinto',
     );
-    expect((await store.allFacts())[0].payload.intention).toBe('Original');
+    expect((await store.heads())[0].payload.intention).toBe('Original');
   });
   it('does not discard blocked operations when independent work is added', async () => {
     const store = await open();

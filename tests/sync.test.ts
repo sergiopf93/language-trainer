@@ -66,6 +66,7 @@ it.each([409, 413, 422])(
     await store.saveDraft('Bloqueado');
     await store.saveDraft('Independiente');
     transport(async (op) =>
+      op.facts[0].kind === 'session' &&
       op.facts[0].payload.intention === 'Bloqueado'
         ? Response.json({ error: 'fact_conflict' }, { status })
         : Response.json({ ack: op.id }),

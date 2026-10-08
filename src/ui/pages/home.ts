@@ -10,7 +10,7 @@ export function home() {
     el('h2', 'Prepara tu próxima práctica'),
     el(
       'p',
-      'Guarda lo que te gustaría trabajar. Las actividades y el contenido se incorporarán en los próximos bloques.',
+      'Elige un concepto disponible en Biblioteca o guarda tu intención para una próxima sesión.',
     ),
   );
   const link = el('a', 'Preparar práctica', 'primary-link');
@@ -20,7 +20,7 @@ export function home() {
   page.append(
     el(
       'p',
-      'Esta primera versión prepara tu espacio personal. Todavía no ofrece actividades ni valora tu aprendizaje.',
+      'El lote candidate, cuando está habilitado, permite validar la práctica y su historial. No representa la cobertura ni el contenido definitivo de V1.',
       'muted',
     ),
   );

@@ -1,11 +1,14 @@
+import { learning } from './learning';
 import { button, el, heading, message } from '../dom';
 import type { LocalStore } from '../../persistence/local';
-import type { Fact } from '../../../shared/protocol';
+import type { DraftFact } from '../../../shared/protocol';
 export async function practice(store: LocalStore, saved: () => void) {
   const page = heading(
     'Practicar',
-    'Prepara tu intención para una próxima sesión.',
+    'Practica un concepto o conserva una intención para más adelante.',
   );
+  const guided = await learning(store, saved);
+  page.append(guided.page);
   const card = el('section', undefined, 'card');
   const label = el('label', '¿Qué te gustaría practicar?');
   label.htmlFor = 'intention';
@@ -14,7 +17,7 @@ export async function practice(store: LocalStore, saved: () => void) {
   input.maxLength = 4000;
   input.rows = 5;
   input.placeholder = 'Por ejemplo: presentarme y conocer a otras personas';
-  let base: Fact | undefined;
+  let base: DraftFact | undefined;
   let dirty = false;
   let editing = 0;
   const status = el(
@@ -103,14 +106,23 @@ export async function practice(store: LocalStore, saved: () => void) {
     choices,
     reload,
   );
+  let draftSection: HTMLElement = card;
+  if (location.search) {
+    const details = el('details');
+    details.append(
+      el('summary', 'Guardar una intención para otra sesión'),
+      card,
+    );
+    draftSection = details;
+  }
   page.append(
-    card,
+    draftSection,
     el(
       'p',
-      'La práctica guiada todavía no está disponible. Este borrador no genera evidencia de aprendizaje.',
+      'Guardar una intención no genera evidencia de aprendizaje.',
       'muted',
     ),
   );
   await refresh();
-  return { page, isDirty: () => dirty };
+  return { page, isDirty: () => dirty || guided.isDirty() };
 }

@@ -4,6 +4,8 @@ import {
   validFact,
   uuid,
   type Fact,
+  type DraftFact,
+  validLinks,
   type Operation,
   type RemoteFact,
 } from '../../shared/protocol';
@@ -105,14 +107,18 @@ export class LocalStore {
     const facts = await this.allFacts();
     const parents = new Set(facts.map((f) => f.baseRevision).filter(Boolean));
     return facts
-      .filter((f) => !parents.has(f.id))
+      .filter(
+        (f): f is DraftFact =>
+          (f.kind === 'session' || f.kind === 'session-revision') &&
+          !parents.has(f.id),
+      )
       .sort((a, b) => a.occurredAt.localeCompare(b.occurredAt));
   }
-  async saveDraft(intention: string, base?: Fact): Promise<Fact> {
+  async saveDraft(intention: string, base?: DraftFact): Promise<DraftFact> {
     const tx = this.db.transaction(['meta', 'facts', 'outbox'], 'readwrite');
     const identity = (await tx.objectStore('meta').get('identity'))!;
     const id = crypto.randomUUID();
-    const fact: Fact = {
+    const fact: DraftFact = {
       id,
       deviceId: identity.deviceId,
       sequence: identity.sequence + 1,
@@ -142,6 +148,80 @@ export class LocalStore {
       .put({ ...identity, sequence: fact.sequence }, 'identity');
     await tx.done;
     return fact;
+  }
+  async appendLearning(
+    inputs: Omit<
+      Fact,
+      'deviceId' | 'sequence' | 'occurredAt' | 'schemaVersion'
+    >[],
+    expectedHead?: string,
+  ): Promise<Fact[]> {
+    if (!inputs.length || inputs.length > 10)
+      throw new Error('Lote de aprendizaje vacío o demasiado grande.');
+    const tx = this.db.transaction(['meta', 'facts', 'outbox'], 'readwrite');
+    try {
+      const facts = tx.objectStore('facts');
+      const identity = (await tx.objectStore('meta').get('identity'))!;
+      const history = await facts.getAll();
+      const known = new Map(history.map((f) => [f.id, f]));
+      if (inputs.every((f) => known.has(f.id))) {
+        const existing = inputs.map((f) => known.get(f.id)!);
+        if (
+          inputs.some(
+            (f, i) =>
+              canonical({ ...existing[i], ...f }) !== canonical(existing[i]),
+          )
+        )
+          throw new Error('ID repetido con contenido distinto.');
+        await tx.done;
+        return existing;
+      }
+      if (
+        expectedHead &&
+        (!known.has(expectedHead) ||
+          history.some((f) => f.baseRevision === expectedHead))
+      )
+        throw new Error(
+          'La sesión cambió en otra pestaña o dispositivo. Recarga para elegir la versión que quieres continuar.',
+        );
+      const created = inputs.map(
+        (input, i) =>
+          ({
+            ...input,
+            deviceId: identity.deviceId,
+            sequence: identity.sequence + i + 1,
+            occurredAt: new Date().toISOString(),
+            schemaVersion: 1,
+          }) as Fact,
+      );
+      for (const fact of created) known.set(fact.id, fact);
+      if (
+        !created.length ||
+        created.length > 10 ||
+        created.some((f) => !validFact(f) || !validLinks(f, known))
+      )
+        throw new Error('Hechos de aprendizaje no válidos.');
+      for (const fact of created) await facts.add(fact);
+      await tx
+        .objectStore('outbox')
+        .add({ id: crypto.randomUUID(), facts: created, state: 'pending' });
+      await tx
+        .objectStore('meta')
+        .put(
+          { ...identity, sequence: identity.sequence + created.length },
+          'identity',
+        );
+      await tx.done;
+      return created;
+    } catch (error) {
+      try {
+        tx.abort();
+      } catch {
+        /* Already aborted. */
+      }
+      await tx.done.catch(() => {});
+      throw error;
+    }
   }
   async acknowledge(id: string) {
     await this.db.delete('outbox', id);
@@ -248,6 +328,11 @@ export class LocalStore {
       if (!old) additions++;
       known.set(fact.id, fact);
     }
+    for (const fact of known.values())
+      if (!validLinks(fact, known))
+        throw new Error(
+          'El respaldo contiene relaciones de aprendizaje inválidas.',
+        );
     const causalKeys = new Map<string, string>();
     for (const fact of known.values()) {
       if (fact.references.some((id) => !known.has(id)))

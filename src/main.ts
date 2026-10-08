@@ -45,7 +45,7 @@ async function start() {
   app.append(header, status, main, nav, dialog);
   let isDirty = () => false;
   let routeVersion = 0;
-  let activePath = location.pathname;
+  let activePath = location.pathname + location.search;
   const render = async (focus = false) => {
     const version = ++routeVersion;
     let page: HTMLElement;
@@ -55,7 +55,10 @@ async function start() {
         page = home();
         break;
       case '/practice': {
-        const result = await practice(store, () => void sync.run());
+        const result = await practice(store, () => {
+          activePath = location.pathname + location.search;
+          void sync.run();
+        });
         page = result.page;
         isDirty = result.isDirty;
         break;
@@ -64,7 +67,7 @@ async function start() {
         page = library();
         break;
       case '/progress':
-        page = progress();
+        page = await progress(store);
         break;
       default:
         page = el('section');
@@ -75,7 +78,7 @@ async function start() {
     }
     if (version !== routeVersion) return;
     main.replaceChildren(page);
-    activePath = location.pathname;
+    activePath = location.pathname + location.search;
     document.title =
       (page.querySelector('h1')?.textContent ?? 'Italiano') + ' · Italiano';
     nav.querySelectorAll('a').forEach((link) => {
@@ -107,7 +110,7 @@ async function start() {
       )
     )
       return;
-    history.pushState({}, '', anchor.pathname);
+    history.pushState({}, '', anchor.pathname + anchor.search);
     void render(true);
   });
   window.addEventListener('popstate', () => {
