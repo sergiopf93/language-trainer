@@ -291,3 +291,44 @@ test('theory detail and in-session help keep the draft and mark assisted answers
     ),
   ).toBe(true);
 });
+
+test('main navigation resets scroll and help closes without losing assistance', async ({
+  page,
+}) => {
+  await page.goto('/concept?id=it-a1-c04-01');
+  await expect(page.locator('.theory-panel')).toBeVisible();
+  await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+  expect(await page.evaluate(() => scrollY)).toBeGreaterThan(0);
+  await page.getByRole('link', { name: 'Biblioteca', exact: true }).click();
+  await expect(page).toHaveURL(/library/);
+  await expect.poll(() => page.evaluate(() => scrollY)).toBe(0);
+  await start(page);
+  await expect.poll(() => page.evaluate(() => scrollY)).toBe(0);
+  await page
+    .getByRole('button', { name: 'Rivedi la teoria', exact: true })
+    .click();
+  await expect(page.locator('#session-theory')).toBeVisible();
+  await page.getByLabel('sono', { exact: true }).check();
+  await answer(page);
+  await expect(page.locator('#session-theory')).toBeHidden();
+  await expect(
+    page.getByText(
+      'Con aiuto · Hai consultato un supporto o già visto questo esercizio.',
+    ),
+  ).toBeVisible();
+  await page.getByRole('button', { name: 'Continua', exact: true }).click();
+  await expect(page.locator('#session-theory')).toBeHidden();
+  await expect(
+    page.getByRole('button', { name: 'Rivedi la teoria', exact: true }),
+  ).toHaveAttribute('aria-expanded', 'false');
+  await page
+    .getByRole('button', { name: 'Termina la sessione', exact: true })
+    .click();
+  await expect(
+    page.getByRole('heading', {
+      name: 'Riepilogo della sessione',
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect.poll(() => page.evaluate(() => scrollY)).toBe(0);
+});

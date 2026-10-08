@@ -51,7 +51,9 @@ async function start() {
   let isDirty = () => false;
   let routeVersion = 0;
   let activePath = location.pathname + location.search;
+  history.scrollRestoration = 'manual';
   const render = async (focus = false) => {
+    const changedView = activePath !== location.pathname + location.search;
     const version = ++routeVersion;
     let page: HTMLElement;
     isDirty = () => false;
@@ -106,7 +108,8 @@ async function start() {
         link.setAttribute('aria-current', 'page');
       else link.removeAttribute('aria-current');
     });
-    if (focus) main.focus();
+    if (focus) main.focus({ preventScroll: true });
+    if (changedView) window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
   };
   document.addEventListener('click', (event) => {
     const anchor = (event.target as Element).closest<HTMLAnchorElement>('a');

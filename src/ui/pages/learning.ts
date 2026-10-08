@@ -45,7 +45,12 @@ export async function learning(store: LocalStore, saved: () => void) {
     queue = queue
       .then(async () => {
         if (failed) return;
+        const previousView = view ? `${view.root.id}:${view.state.status}` : '';
+        const previousItem = view?.state.index;
         await action();
+        if (previousItem !== view?.state.index) theoryOpen = false;
+        const changedView =
+          previousView !== (view ? `${view.root.id}:${view.state.status}` : '');
         remember();
         saved();
         if (redraw) {
@@ -59,9 +64,11 @@ export async function learning(store: LocalStore, saved: () => void) {
           );
           if (target) {
             target.tabIndex = -1;
-            target.focus();
+            target.focus({ preventScroll: changedView });
           }
         }
+        if (changedView)
+          window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
         status.textContent = copy.saved;
       })
       .catch((error) => {
@@ -333,6 +340,7 @@ export async function learning(store: LocalStore, saved: () => void) {
       content.append(
         command(copy.check, async () => {
           view = await engine.submit(view!);
+          theoryOpen = false;
         }),
       );
     } else {
