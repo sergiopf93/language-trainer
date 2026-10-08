@@ -1,6 +1,6 @@
 # Matriz de cobertura — V1 italiano A1 completo
 
-Estado: propuesta documental para aprobación; contenido pendiente de autoría/revisión y aplicación no implementada. Fuente: [Research 02](../research/02_Italian_A1_Curriculum.md), contrastada con [Research 03](../research/03_Exercise_Taxonomy.md) y Research 01/04/05. No se modifica el Research Pack. «Ampliación final» en Research 02 significa tramo final dentro de V1, incluido el pasado.
+Estado: inventario de V1 conservado. Primer lote C01–C05 implementado como contenido candidate para estudio y práctica focal; no publicado ni validado editorialmente. Fuente de alcance: [Research 02](../research/02_Italian_A1_Curriculum.md). Las casillas CC continúan pendientes: la carga técnica no acredita por sí sola todo el contrato de V1.
 
 ## Inventario y uso de la checklist
 
@@ -44,6 +44,20 @@ La casilla individual solo se marca cuando todo el contrato CC esté verificado 
 | C32 | it-a1-t32 | 3 |
 | C33 | it-a1-t33 | 1 |
 | C34 | it-a1-t34 | 7 |
+
+## Control de carga — lote C01–C05
+
+Baseline reproducible: commit `c703c4a`, pack `it-A1-candidate-3`: **2/99 Concepts, 2 Theory, 14 actividades, 4 entradas léxicas, 0 ready**. Después: pack `it-A1-candidate-4`, **17/99 Concepts, 17 Theory, 138 actividades, 74 entradas léxicas, 0 ready**. Los dos Concepts existentes se amplían; se añaden 15. Todo sigue candidate. Coverage: `npm run content:coverage` o `npm run --silent content:coverage -- --json`.
+
+| Bloque | Concepts antes → después / esperados | Theory antes → después | Actividades antes → después | Vocabulario asociado antes → después | Familias actuales |
+|---|---|---|---|---|---|
+| C01 | 0 → 3 / 3 | 0 → 3 | 0 → 25 | 0 → 23 | F1, F2, F3 |
+| C02 | 0 → 3 / 3 | 0 → 3 | 0 → 21 | 0 → 17 | F1, F2, F4, F7 |
+| C03 | 1 → 2 / 2 | 1 → 2 | 3 → 17 | 3 → 9 | F1, F2, F3, F4 |
+| C04 | 1 → 5 / 5 | 1 → 5 | 11 → 44 | 1 → 26 | F1, F2, F3, F4, F7 |
+| C05 | 0 → 4 / 4 | 0 → 4 | 0 → 31 | 0 → 24 | F1, F2, F3, F4, F7 |
+
+El vocabulario se comparte: no sumar sus columnas para obtener el total. Todos los Concepts del lote tienen reglas, ejemplos, práctica guiada y recuperación/producción restringida, feedback y Evidence. `coverage=complete` se refiere al objetivo focal declarado del lote; no sustituye revisión editorial, validación humana ni CC1–CC10. Habilidades observadas: reconocimiento, recuperación, discriminación, transformación y producción controlada según el objetivo. Sin afirmación de retención ni evaluación oral. C06–C34: **82 Concepts todavía ausentes**, sin relleno artificial. Próximo bloque comienza en C06.
 
 ## Contrato común CC — heredado explícitamente por cada uno de los 99 Concepts
 
@@ -90,7 +104,7 @@ Siete familias, no siete motores aislados; F5/F6 componen interacciones reutiliz
 
 **Familias, modos y errores:** F1/F2/F3/F5/F6/F7. Focus: contraste escrito; Mixed: léxico conocido; Review: otra oportunidad de grafía; Reading: nombres/mensajes; Writing: datos/frases. Errores: grafía, acento, dobles.
 
-**Estado de cada Concept:** contenido planificado; implementación no implementada. Hereda CC1–CC10 completos.
+**Estado de cada Concept:** contenido candidate implementado para estudio y práctica focal en el primer lote. Theory, actividades y vocabulario en `src/content/italian-a1/`; sin revisión editorial ni publicación. Hereda CC1–CC10, cuyas casillas siguen pendientes de su validación completa.
 
 ### C02 — Saludos, cortesía y reparación · Topic it-a1-t02
 
@@ -104,7 +118,7 @@ Siete familias, no siete motores aislados; F5/F6 componen interacciones reutiliz
 
 **Familias, modos y errores:** F1/F2/F4/F5/F6/F7. Focus: intención/expresión; Mixed: elegir fórmula pertinente; Review: situación nueva; Reading: mensajes; Writing: apertura/cierre/aclaración. Errores: léxico, registro, pertinencia.
 
-**Estado de cada Concept:** contenido planificado; implementación no implementada. Hereda CC1–CC10 completos.
+**Estado de cada Concept:** contenido candidate implementado para estudio y práctica focal en el primer lote. Theory, actividades y vocabulario en `src/content/italian-a1/`; sin revisión editorial ni publicación. Hereda CC1–CC10, cuyas casillas siguen pendientes de su validación completa.
 
 ### C03 — Personas y sujeto · Topic it-a1-t03
 
@@ -117,7 +131,7 @@ Siete familias, no siete motores aislados; F5/F6 componen interacciones reutiliz
 
 **Familias, modos y errores:** F1/F2/F3/F4/F5/F6/F7. Focus: referente; Mixed: formas conocidas; Review: cambiar sujeto; Reading: referentes; Writing: presentación sin exigir pronombre redundante. Errores: referencia, persona/número, omisión ambigua.
 
-**Estado de cada Concept:** contenido planificado; implementación no implementada. Hereda CC1–CC10 completos.
+**Estado de cada Concept:** contenido candidate implementado para estudio y práctica focal en el primer lote. Theory, actividades y vocabulario en `src/content/italian-a1/`; sin revisión editorial ni publicación. Hereda CC1–CC10, cuyas casillas siguen pendientes de su validación completa.
 
 ### C04 — Essere en presente · Topic it-a1-t04
 
@@ -133,7 +147,7 @@ Siete familias, no siete motores aislados; F5/F6 componen interacciones reutiliz
 
 **Familias, modos y errores:** F1/F2/F3/F4/F5/F6. Focus: forma/uso elegible; Mixed: avere/stare/c’è cuando accesibles; Review: sujeto/contexto nuevo; Reading: perfil/ubicación; Writing: presentación y localización. Errores: morfología, selección funcional, preposición; no atribuir fallo de adjetivo al verbo.
 
-**Estado de cada Concept:** contenido planificado; implementación no implementada. Hereda CC1–CC10 completos.
+**Estado de cada Concept:** contenido candidate implementado para estudio y práctica focal en el primer lote. Theory, actividades y vocabulario en `src/content/italian-a1/`; sin revisión editorial ni publicación. Hereda CC1–CC10, cuyas casillas siguen pendientes de su validación completa.
 
 ### C05 — Avere en presente · Topic it-a1-t05
 
@@ -148,7 +162,7 @@ Siete familias, no siete motores aislados; F5/F6 componen interacciones reutiliz
 
 **Familias, modos y errores:** F1/F2/F3/F4/F5/F6. Focus: forma/uso; Mixed: essere/avere; Review: otra persona/expresión; Reading: datos/necesidades; Writing: presentación/solicitud. Errores: persona/número, combinación, selección de construcción.
 
-**Estado de cada Concept:** contenido planificado; implementación no implementada. Hereda CC1–CC10 completos.
+**Estado de cada Concept:** contenido candidate implementado para estudio y práctica focal en el primer lote. Theory, actividades y vocabulario en `src/content/italian-a1/`; sin revisión editorial ni publicación. Hereda CC1–CC10, cuyas casillas siguen pendientes de su validación completa.
 
 ### C06 — Negación y pregunta · Topic it-a1-t06
 
