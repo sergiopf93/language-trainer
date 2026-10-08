@@ -11,8 +11,12 @@ import { button, el, message } from '../dom';
 import type { LocalStore } from '../../persistence/local';
 import { catalog } from '../../content/validation-fixture';
 import { SessionEngine, type SessionView } from '../../learning/session';
+import { displayResponse } from '../../exercises/response';
+import { structuredAnswer } from '../structured-answer';
 export const judgmentLabels = {
   correct: copy.correct,
+  typo: 'Quasi!',
+  'linguistic-error': copy.error,
   'verifiable-error': copy.error,
   'not-evaluable': copy.unknown,
   'no-opportunity': copy.empty,
@@ -84,9 +88,9 @@ export async function learning(store: LocalStore, saved: () => void) {
         if (busy || failed) return;
         busy = true;
         content
-          .querySelectorAll<HTMLButtonElement | HTMLInputElement>(
-            'button,input',
-          )
+          .querySelectorAll<
+            HTMLButtonElement | HTMLInputElement | HTMLSelectElement
+          >('button,input,select')
           .forEach((n) => (n.disabled = true));
         return enqueue(action, true);
       },
@@ -170,9 +174,17 @@ export async function learning(store: LocalStore, saved: () => void) {
           evaluations.filter(
             (f) =>
               f.kind === 'evaluation' &&
-              f.payload.judgment === 'verifiable-error',
+              ['verifiable-error', 'linguistic-error'].includes(
+                f.payload.judgment,
+              ),
           ).length,
           'da rivedere',
+        ),
+        metric(
+          evaluations.filter(
+            (f) => f.kind === 'evaluation' && f.payload.judgment === 'typo',
+          ).length,
+          'possibili refusi',
         ),
         metric(
           evaluations.filter(
@@ -263,7 +275,15 @@ export async function learning(store: LocalStore, saved: () => void) {
             'muted',
           ),
         );
-      if (activity.format === 'selection') {
+      if (['ordering', 'matching'].includes(activity.format)) {
+        content.append(
+          structuredAnswer(activity, state.draft, (value) => {
+            void enqueue(async () => {
+              view = await engine.update(view!, 'draft', value);
+            }, false);
+          }),
+        );
+      } else if (['selection', 'error-detection'].includes(activity.format)) {
         const choices = el('fieldset');
         choices.append(el('legend', 'Scegli la risposta'));
         for (const [i, option] of activity.options.entries()) {
@@ -328,7 +348,9 @@ export async function learning(store: LocalStore, saved: () => void) {
           'feedback ' +
             (evaluation.payload.judgment === 'correct'
               ? 'positive'
-              : evaluation.payload.judgment === 'verifiable-error'
+              : ['verifiable-error', 'linguistic-error', 'typo'].includes(
+                    evaluation.payload.judgment,
+                  )
                 ? 'negative'
                 : 'neutral'),
         );
@@ -336,7 +358,9 @@ export async function learning(store: LocalStore, saved: () => void) {
           'span',
           evaluation.payload.judgment === 'correct'
             ? '✓'
-            : evaluation.payload.judgment === 'verifiable-error'
+            : ['verifiable-error', 'linguistic-error', 'typo'].includes(
+                  evaluation.payload.judgment,
+                )
               ? '✕'
               : '?',
           'feedback-symbol',
@@ -348,7 +372,9 @@ export async function learning(store: LocalStore, saved: () => void) {
           el('h3', judgmentLabels[evaluation.payload.judgment]),
           el(
             'p',
-            'La tua risposta: ' + (attempt.payload.response || '(vuota)'),
+            'La tua risposta: ' +
+              (displayResponse(activity, attempt.payload.response) ||
+                '(vuota)'),
           ),
           support(
             evaluation.payload.judgment === 'no-opportunity'

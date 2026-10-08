@@ -30,7 +30,7 @@ describe('catalog and canonical evaluation', () => {
     expect(validationCatalog().available()).toEqual([]);
     const c = validationCatalog(true);
     expect(c.concept(conceptId)?.status).toBe('candidate');
-    expect(c.select(conceptId)).toHaveLength(3);
+    expect(c.select(conceptId)).toHaveLength(11);
     expect(c.select('not-present')).toEqual([]);
     expect(
       () =>
@@ -74,7 +74,7 @@ describe('catalog and canonical evaluation', () => {
     for (const a of fixtureActivities) {
       expect(evaluate(a, a.criterion.accepted[0]).judgment).toBe('correct');
       expect(evaluate(a, a.criterion.rejected[0]).judgment).toBe(
-        'verifiable-error',
+        'linguistic-error',
       );
       expect(evaluate(a, '').judgment).toBe('no-opportunity');
       expect(evaluate(a, 'Una variante no contemplada').judgment).toBe(
@@ -106,6 +106,7 @@ describe('learning loop with IndexedDB adapter transactions', () => {
     view = await reopened.engine.update(view, 'draft', 'noi siamo');
     view = await reopened.engine.submit(view);
     view = await reopened.engine.update(view, 'next');
+    view = await reopened.engine.update(view, 'finish');
     expect(view.state.status).toBe('completed');
     const facts = await store.allFacts();
     expect(facts.filter((f) => f.kind === 'attempt')).toHaveLength(3);

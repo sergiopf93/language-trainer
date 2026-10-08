@@ -1,6 +1,6 @@
 import { ContentRepository, type Concept, type Topic } from './catalog';
 import type { Activity } from '../../shared/learning';
-export const fixtureVersion = 'it-A1-candidate-1';
+export const fixtureVersion = 'it-A1-candidate-2';
 const provenance =
   'Candidato creado por R2 para validación técnica; sin revisión editorial independiente. Fuentes de alcance: Research 02 C03/C04 y A1_COVERAGE_MATRIX C03-01/C04-01.';
 const topics: Topic[] = [
@@ -143,6 +143,162 @@ export const fixtureActivities: Activity[] = [
     'Noi siamo concuerda en primera persona plural. La consigna pide el pronombre; este ítem no evalúa la omisión del sujeto.',
   ),
 ];
+// Explicit suspected spelling variants; never accepted answers.
+fixtureActivities[2] = {
+  ...fixtureActivities[2],
+  prompt: 'Scrivi il pronome: «nosotros / nosotras» in italiano.',
+  version: '2',
+  criterion: {
+    ...fixtureActivities[2].criterion,
+    version: '2',
+    typos: ['noe'],
+  },
+};
+for (const item of fixtureActivities) {
+  item.version = '2';
+  item.task = {
+    skill: item.format === 'selection' ? 'recognition' : 'retrieval',
+    context: 'persona y concordancia',
+    facets: ['persona', 'numero'],
+    opportunityId: item.id + ':target',
+    scaffolding: item.options.length ? 'visible-options' : 'none',
+    matchingPrompts: [],
+  };
+}
+export const engineFixtures: Activity[] = [
+  {
+    format: 'ordering',
+    family: 'F7',
+    skill: 'controlled-production',
+    dimension: 'contextual-use',
+    prompt: 'Ordina le parole: «nosotros somos».',
+    options: ['siamo', 'noi'],
+    accepted: ['noi siamo'],
+    rejected: ['siamo noi'],
+    hint: 'Comienza por el pronombre noi.',
+    explanation: 'Para esta afirmación con sujeto explícito: noi siamo.',
+  },
+  {
+    format: 'transformation',
+    family: 'F3',
+    skill: 'transformation',
+    dimension: 'retrieval',
+    prompt: 'Trasforma «io sono»: usa noi e il verbo essere.',
+    options: [],
+    accepted: ['noi siamo'],
+    rejected: ['noi sono', 'noi sei'],
+    hint: 'Cambia también la forma verbal.',
+    explanation: 'El cambio de io a noi requiere sono → siamo.',
+  },
+  {
+    format: 'error-detection',
+    family: 'F1',
+    skill: 'discrimination',
+    dimension: 'discrimination',
+    prompt: 'Trova l’errore: «noi sono».',
+    options: ['noi', 'sono', 'nessun errore'],
+    accepted: ['sono'],
+    rejected: ['noi', 'nessun errore'],
+    hint: 'Comprueba la concordancia del verbo.',
+    explanation: 'Noi necesita siamo. Sono no concuerda con noi.',
+  },
+  {
+    format: 'error-correction',
+    family: 'F3',
+    skill: 'transformation',
+    dimension: 'retrieval',
+    prompt: 'Correggi «noi sono». Mantieni noi.',
+    options: [],
+    accepted: ['noi siamo'],
+    rejected: ['noi sono', 'noi sei'],
+    hint: 'Primera persona plural de essere.',
+    explanation: 'Se conserva noi y se cambia sono por siamo.',
+  },
+  {
+    format: 'translation',
+    family: 'F4',
+    skill: 'controlled-production',
+    dimension: 'contextual-use',
+    prompt: 'Traduci «nosotros somos». Scrivi anche il pronome.',
+    options: [],
+    accepted: ['noi siamo'],
+    rejected: ['noi sono', 'noi sei'],
+    hint: 'Nosotros corresponde a noi.',
+    explanation:
+      'Con pronombre explícito, nosotros somos se expresa noi siamo.',
+  },
+  {
+    format: 'matching',
+    family: 'F7',
+    skill: 'recognition',
+    dimension: 'comprehension',
+    prompt: 'Abbina il pronome alla forma di essere.',
+    options: ['siamo', 'sono', 'sei'],
+    accepted: ['[1,2,0]'],
+    rejected: ['[0,1,2]'],
+    hint: 'Io sono, tu sei, noi siamo.',
+    explanation: 'Las parejas son io → sono, tu → sei, noi → siamo.',
+  },
+  {
+    format: 'controlled-production',
+    family: 'F4',
+    skill: 'controlled-production',
+    dimension: 'contextual-use',
+    prompt:
+      'Qualcuno ti cerca: «Sei tu?». Conferma con essere e il pronome io.',
+    options: [],
+    accepted: ['sono io', 'sì, sono io', 'sì sono io'],
+    rejected: ['sei io', 'siamo io'],
+    hint: 'Habla en primera persona singular.',
+    explanation:
+      'Para confirmar que eres tú: sono io. Sono concuerda con io; también puedes comenzar con sì.',
+  },
+  {
+    format: 'error-detection',
+    family: 'F1',
+    skill: 'discrimination',
+    dimension: 'discrimination',
+    prompt: 'Trova l’errore: «noi siamo».',
+    options: ['noi', 'siamo', 'nessun errore'],
+    accepted: ['nessun errore'],
+    rejected: ['noi', 'siamo'],
+    hint: 'También puede ser una frase correcta.',
+    explanation: 'No hay error: noi concuerda con siamo.',
+  },
+].map((item, index) => ({
+  id: `it-a1-c04-01-engine-${index}`,
+  version: '1',
+  family: item.family as Activity['family'],
+  format: item.format as Activity['format'],
+  conceptId: 'it-a1-c04-01',
+  conceptVersion: '1',
+  dimension: item.dimension as Activity['dimension'],
+  prompt: item.prompt,
+  options: item.options,
+  hint: item.hint,
+  explanation: item.explanation,
+  criterion: {
+    version: '1',
+    canonVersion: fixtureVersion,
+    accepted: item.accepted,
+    rejected: item.rejected,
+    exhaustive: ['ordering', 'matching', 'error-detection'].includes(
+      item.format,
+    ),
+  },
+  task: {
+    skill: item.skill as NonNullable<Activity['task']>['skill'],
+    context: 'persona y concordancia de essere; validación técnica',
+    facets: ['persona', 'numero'],
+    opportunityId: `it-a1-c04-01-engine-${index}:target`,
+    scaffolding: item.options.length
+      ? ('visible-options' as const)
+      : ('none' as const),
+    matchingPrompts: item.format === 'matching' ? ['io', 'tu', 'noi'] : [],
+  },
+  status: 'candidate' as const,
+  provenance,
+}));
 export function validationCatalog(allowCandidates = false) {
   return new ContentRepository(
     'it-A1',
@@ -158,7 +314,7 @@ export function validationCatalog(allowCandidates = false) {
           'Reconocer la persona del sujeto permite elegir la forma verbal; orienta, no bloquea la práctica.',
       },
     ],
-    fixtureActivities,
+    [...fixtureActivities, ...engineFixtures],
     allowCandidates,
   );
 }

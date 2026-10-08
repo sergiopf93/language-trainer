@@ -1,6 +1,7 @@
 import type { ExerciseEngine } from './contract';
 import type { Activity, Judgment } from '../../shared/learning';
-export const evaluatorVersion = 'canonical-match-v1';
+import { responseText } from './response';
+export const evaluatorVersion = 'canonical-match-v2';
 // Preserve accents and apostrophes; only case, Unicode composition and whitespace are neutral here.
 export const normalize = (s: string) =>
   s.normalize('NFC').trim().replace(/\s+/gu, ' ').toLowerCase();
@@ -8,7 +9,14 @@ export function evaluate(
   activity: Activity,
   response: string,
 ): { judgment: Judgment; explanation: string } {
-  const value = normalize(response);
+  const decoded = responseText(activity, response);
+  if (decoded === null)
+    return {
+      judgment: 'not-evaluable',
+      explanation:
+        'Completa todos los elementos sin repetirlos para poder comprobar la respuesta.',
+    };
+  const value = normalize(decoded);
   if (!value)
     return {
       judgment: 'no-opportunity',
@@ -18,12 +26,23 @@ export function evaluate(
   if (c.accepted.some((a) => normalize(a) === value))
     return { judgment: 'correct', explanation: activity.explanation };
   const knownWrong = c.rejected.some((a) => normalize(a) === value);
+  if (
+    !knownWrong &&
+    !['selection', 'error-detection', 'ordering', 'matching'].includes(
+      activity.format,
+    ) &&
+    c.typos?.some((a) => normalize(a) === value)
+  )
+    return {
+      judgment: 'typo',
+      explanation: `Casi. Has escrito “${response}”. La forma correcta es “${c.accepted[0]}”. Es una posible errata, no un acierto.`,
+    };
   const inClosedScope =
     c.exhaustive &&
-    (activity.format !== 'selection' ||
+    (!['selection', 'error-detection'].includes(activity.format) ||
       activity.options.some((a) => normalize(a) === value));
   return knownWrong || inClosedScope
-    ? { judgment: 'verifiable-error', explanation: activity.explanation }
+    ? { judgment: 'linguistic-error', explanation: activity.explanation }
     : {
         judgment: 'not-evaluable',
         explanation:
@@ -37,7 +56,7 @@ export const canonicalExerciseEngine: ExerciseEngine = {
     return [
       {
         ...evaluate(activity, response),
-        opportunityId: activity.id + ':target',
+        opportunityId: activity.task?.opportunityId ?? activity.id + ':target',
         conceptId: activity.conceptId,
         criterionVersion: activity.criterion.version,
       },

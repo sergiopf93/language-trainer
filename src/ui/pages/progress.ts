@@ -98,6 +98,8 @@ export async function progress(store: LocalStore) {
       theories[result.payload.conceptId]?.title ?? result.payload.conceptId;
     const label = {
       correct: '✓ Corretto',
+      typo: '✕ Quasi — possibile refuso',
+      'linguistic-error': '✕ Da rivedere',
       'verifiable-error': '✕ Da rivedere',
       'not-evaluable': '? Da verificare',
       'no-opportunity': '— Nessuna risposta',

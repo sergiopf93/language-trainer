@@ -73,7 +73,7 @@ test('candidate loop on mobile: offline reload, repair, hints, summary and proje
     fullPage: true,
   });
   await page
-    .getByRole('button', { name: 'Vedi il riepilogo', exact: true })
+    .getByRole('button', { name: 'Termina la sessione', exact: true })
     .click();
   await expect(
     page.getByRole('heading', {
@@ -81,9 +81,9 @@ test('candidate loop on mobile: offline reload, repair, hints, summary and proje
       exact: true,
     }),
   ).toBeVisible();
-  await expect(page.getByText('3 di 3 esercizi · 4 tentativi.')).toBeVisible();
+  await expect(page.getByText('3 di 11 esercizi · 4 tentativi.')).toBeVisible();
   await expect(
-    page.getByRole('img', { name: '3 di 3 esercizi con risposta inviata' }),
+    page.getByRole('img', { name: '3 di 11 esercizi con risposta inviata' }),
   ).toBeVisible();
   await expect(
     page
@@ -147,7 +147,7 @@ test('unknown response stays unevaluable and a partial session can finish', asyn
   await page
     .getByRole('button', { name: 'Termina la sessione', exact: true })
     .click();
-  await expect(page.getByText('2 di 3 esercizi · 2 tentativi.')).toBeVisible();
+  await expect(page.getByText('2 di 11 esercizi · 2 tentativi.')).toBeVisible();
 });
 
 test('two browsers sync learning facts and resume without duplicate attempts', async ({

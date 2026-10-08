@@ -450,3 +450,67 @@ it('persists learning facts atomically, replays ACKs and rejects malformed learn
     local.close();
   }
 });
+
+it('syncs extended families and typo evidence through the Worker unchanged', async () => {
+  const local = await LocalStore.open('worker-engine-' + crypto.randomUUID());
+  try {
+    const auth = await login((await local.identity()).deviceId);
+    const engine = new SessionEngine(local, validationCatalog(true));
+    let v = await engine.start('it-a1-c04-01');
+    while (v.state.status === 'active') {
+      const a = v.root.payload.activities[v.state.index];
+      v = await engine.update(
+        v,
+        'draft',
+        a.format === 'ordering' ? '[1,0]' : a.criterion.accepted[0],
+      );
+      v = await engine.submit(v);
+      v = await engine.update(v, 'next');
+    }
+    v = await engine.start('it-a1-c03-01');
+    for (let i = 0; i < 2; i++) {
+      v = await engine.submit(v);
+      v = await engine.update(v, 'next');
+    }
+    v = await engine.update(v, 'draft', 'noe');
+    await engine.submit(v);
+    for (const { id, facts } of await local.pending())
+      expect(
+        (await request('sync/push', 'POST', { id, facts }, auth.cookie)).status,
+      ).toBe(200);
+    const db = await mf.getD1Database('DB');
+    const facts = await local.allFacts();
+    expect(
+      await db
+        .prepare('SELECT COUNT(*) AS n FROM facts WHERE device_id=?')
+        .bind(auth.deviceId)
+        .first('n'),
+    ).toBe(facts.length);
+    const typo = facts.find(
+      (f) => f.kind === 'evaluation' && f.payload.judgment === 'typo',
+    )!;
+    const rows: Fact[] = [];
+    let cursor = 0;
+    let more = true;
+    while (more) {
+      const page = (await (
+        await request(
+          'sync/pull?cursor=' + cursor,
+          'GET',
+          undefined,
+          auth.cookie,
+        )
+      ).json()) as {
+        items: { fact: Fact }[];
+        cursor: number;
+        hasMore: boolean;
+      };
+      rows.push(...page.items.map((item) => item.fact));
+      cursor = page.cursor;
+      more = page.hasMore;
+    }
+    expect(rows.find((f) => f.id === typo.id)).toEqual(typo);
+  } finally {
+    local.close();
+  }
+});

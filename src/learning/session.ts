@@ -15,7 +15,7 @@ import {
   canonicalExerciseEngine,
   evaluatorVersion,
 } from '../exercises/evaluate';
-export const policyVersion = 'observations-v1';
+export const policyVersion = 'observations-v2';
 type Root = Extract<LearningFact, { kind: 'practice-session' }>;
 type StateFact = Root | Extract<LearningFact, { kind: 'practice-state' }>;
 export interface SessionView {
@@ -292,6 +292,16 @@ export class SessionEngine implements LearningEngine {
         activityVersion: a.version,
         dimension: a.dimension,
         judgment: result.judgment,
+        ...(a.task ? { task: a.task } : {}),
+        accepted: a.criterion.accepted,
+        ...(result.judgment === 'typo'
+          ? {
+              typoPattern:
+                s.draft.normalize('NFC').trim().toLowerCase() +
+                '→' +
+                a.criterion.accepted[0],
+            }
+          : {}),
         criterionVersion: a.criterion.version,
         canonVersion: a.criterion.canonVersion,
         evaluatorVersion,
@@ -304,7 +314,12 @@ export class SessionEngine implements LearningEngine {
       attempt,
       evaluation,
     ];
-    if (result.judgment === 'correct' || result.judgment === 'verifiable-error')
+    if (
+      result.judgment === 'correct' ||
+      result.judgment === 'typo' ||
+      result.judgment === 'linguistic-error' ||
+      result.judgment === 'verifiable-error'
+    )
       facts.push(
         event(
           'evidence',
@@ -317,6 +332,7 @@ export class SessionEngine implements LearningEngine {
             activityId: a.id,
             dimension: a.dimension,
             judgment: result.judgment,
+            ...(a.task ? { task: a.task } : {}),
             independent:
               !s.theoryVersion && !s.hintShown && !s.attemptId && !exposure,
             contentStatus: view.root.payload.contentStatus,

@@ -77,7 +77,7 @@ export function observations(rows: Observation[]) {
     const section = el('section', undefined, 'observation');
     const [title, description] = dimensionCopy[row.dimension];
     section.append(el('h3', title), support(description));
-    const total = row.correct + row.errors + row.assisted;
+    const total = row.correct + row.errors + row.typos + row.assisted;
     if (!total)
       section.append(
         el('span', 'Non ancora osservato', 'pill'),
@@ -91,6 +91,7 @@ export function observations(rows: Observation[]) {
       for (const [count, cls] of [
         [row.correct, 'positive'],
         [row.errors, 'negative'],
+        [row.typos, 'negative'],
         [row.assisted, 'assisted'],
       ] as const) {
         if (count) {
@@ -108,6 +109,12 @@ export function observations(rows: Observation[]) {
           `${row.activityIds.length} actividades distintas · Última práctica: ${new Date(row.lastObserved!).toLocaleDateString(language.supportLanguage)}`,
         ),
       );
+      if (row.typos)
+        section.append(
+          support(
+            `${row.typos} posibles erratas sin ayuda; no cuentan como aciertos ni como errores conceptuales.`,
+          ),
+        );
     }
     if (row.unassessed)
       section.append(

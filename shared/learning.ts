@@ -6,13 +6,45 @@ export type Dimension =
   | 'contextual-use'
   | 'discrimination'
   | 'retention';
+export const skills = [
+  'recognition',
+  'retrieval',
+  'transformation',
+  'discrimination',
+  'controlled-production',
+] as const;
+export type Skill = (typeof skills)[number];
+export interface TaskMetadata {
+  skill: Skill;
+  context: string;
+  facets: string[];
+  opportunityId: string;
+  scaffolding: 'none' | 'visible-options';
+  matchingPrompts: string[];
+}
 export type Judgment =
-  'correct' | 'verifiable-error' | 'not-evaluable' | 'no-opportunity';
+  | 'correct'
+  | 'typo'
+  | 'linguistic-error'
+  | 'verifiable-error'
+  | 'not-evaluable'
+  | 'no-opportunity';
 export interface Activity {
   id: string;
   version: string;
-  family: 'F1' | 'F2' | 'F4';
-  format: 'selection' | 'cloze' | 'short';
+  family: 'F1' | 'F2' | 'F3' | 'F4' | 'F7';
+  task?: TaskMetadata;
+  format:
+    | 'selection'
+    | 'cloze'
+    | 'short'
+    | 'ordering'
+    | 'transformation'
+    | 'error-detection'
+    | 'error-correction'
+    | 'translation'
+    | 'matching'
+    | 'controlled-production';
   conceptId: string;
   conceptVersion: string;
   dimension: Dimension;
@@ -26,6 +58,7 @@ export interface Activity {
     accepted: string[];
     rejected: string[];
     exhaustive: boolean;
+    typos?: string[];
   };
   status: EditorialStatus;
   provenance: string;
@@ -72,6 +105,9 @@ export interface LearningPayloads {
     exposureId: string | null;
   };
   evaluation: {
+    task?: TaskMetadata;
+    accepted?: string[];
+    typoPattern?: string;
     attemptId: string;
     conceptId: string;
     conceptVersion: string;
@@ -85,6 +121,7 @@ export interface LearningPayloads {
     explanation: string;
   };
   evidence: {
+    task?: TaskMetadata;
     attemptId: string;
     evaluationId: string;
     sessionId: string;
@@ -92,7 +129,7 @@ export interface LearningPayloads {
     conceptVersion: string;
     activityId: string;
     dimension: Dimension;
-    judgment: 'correct' | 'verifiable-error';
+    judgment: 'correct' | 'typo' | 'linguistic-error' | 'verifiable-error';
     independent: boolean;
     contentStatus: EditorialStatus;
   };
@@ -126,7 +163,8 @@ export function validActivity(v: unknown): v is Activity {
     !record(v) ||
     !keys(
       v,
-      'id version family format conceptId conceptVersion dimension prompt options hint explanation criterion status provenance',
+      'id version family format conceptId conceptVersion dimension prompt options hint explanation criterion status provenance' +
+        ('task' in v ? ' task' : ''),
     )
   )
     return false;
@@ -142,15 +180,18 @@ export function validActivity(v: unknown): v is Activity {
       'explanation',
       'provenance',
     ].every((k) => text(v[k])) &&
+    (!('task' in v) || validTask(v.task)) &&
     dimension(v.dimension) &&
     editorial(v.status) &&
     strings(v.options) &&
-    ['selection', 'cloze', 'short'].includes(v.format as string) &&
-    (v.format === 'selection'
-      ? v.family === 'F1' && v.options.length >= 2
-      : ['F2', 'F4'].includes(v.family as string) && v.options.length === 0) &&
+    validFormat(v) &&
     record(c) &&
-    keys(c, 'version canonVersion accepted rejected exhaustive') &&
+    keys(
+      c,
+      'version canonVersion accepted rejected exhaustive' +
+        ('typos' in c ? ' typos' : ''),
+    ) &&
+    (!('typos' in c) || strings(c.typos)) &&
     text(c.version) &&
     text(c.canonVersion) &&
     strings(c.accepted) &&
@@ -249,7 +290,8 @@ export function validLearningPayload(kind: string, p: unknown): boolean {
       return (
         keys(
           p,
-          'attemptId conceptId conceptVersion activityId activityVersion dimension judgment criterionVersion canonVersion evaluatorVersion explanation',
+          'attemptId conceptId conceptVersion activityId activityVersion dimension judgment criterionVersion canonVersion evaluatorVersion explanation' +
+            optionalKeys(p, ['task', 'accepted', 'typoPattern']),
         ) &&
         id(p.attemptId) &&
         [
@@ -262,10 +304,17 @@ export function validLearningPayload(kind: string, p: unknown): boolean {
           'evaluatorVersion',
           'explanation',
         ].every((k) => text(p[k])) &&
+        (!('task' in p) || validTask(p.task)) &&
+        (!('accepted' in p) ||
+          (strings(p.accepted) && p.accepted.length > 0)) &&
+        (!('typoPattern' in p) ||
+          (p.judgment === 'typo' && text(p.typoPattern))) &&
         dimension(p.dimension) &&
         [
           'correct',
           'verifiable-error',
+          'typo',
+          'linguistic-error',
           'not-evaluable',
           'no-opportunity',
         ].includes(p.judgment as string)
@@ -274,18 +323,69 @@ export function validLearningPayload(kind: string, p: unknown): boolean {
       return (
         keys(
           p,
-          'attemptId evaluationId sessionId conceptId conceptVersion activityId dimension judgment independent contentStatus',
+          'attemptId evaluationId sessionId conceptId conceptVersion activityId dimension judgment independent contentStatus' +
+            optionalKeys(p, ['task']),
         ) &&
         ['attemptId', 'evaluationId', 'sessionId'].every((k) => id(p[k])) &&
         ['conceptId', 'conceptVersion', 'activityId'].every((k) =>
           text(p[k]),
         ) &&
+        (!('task' in p) || validTask(p.task)) &&
         dimension(p.dimension) &&
-        ['correct', 'verifiable-error'].includes(p.judgment as string) &&
+        ['correct', 'typo', 'linguistic-error', 'verifiable-error'].includes(
+          p.judgment as string,
+        ) &&
         typeof p.independent === 'boolean' &&
         editorial(p.contentStatus)
       );
     default:
       return false;
   }
+}
+
+function optionalKeys(p: Record<string, unknown>, names: string[]) {
+  return names
+    .filter((n) => n in p)
+    .map((n) => ' ' + n)
+    .join('');
+}
+function validTask(v: unknown): v is TaskMetadata {
+  return (
+    record(v) &&
+    keys(v, 'skill context facets opportunityId scaffolding matchingPrompts') &&
+    skills.includes(v.skill as Skill) &&
+    text(v.context) &&
+    strings(v.facets) &&
+    text(v.opportunityId) &&
+    ['none', 'visible-options'].includes(v.scaffolding as string) &&
+    strings(v.matchingPrompts)
+  );
+}
+function validFormat(v: Record<string, unknown>) {
+  const options = v.options as string[];
+  if (['selection', 'error-detection'].includes(v.format as string))
+    return (
+      v.family === 'F1' &&
+      options.length >= 2 &&
+      (v.format === 'selection' || validTask(v.task))
+    );
+  if (['ordering', 'matching'].includes(v.format as string))
+    return (
+      v.family === 'F7' &&
+      options.length >= 2 &&
+      validTask(v.task) &&
+      v.task.scaffolding === 'visible-options' &&
+      (v.format === 'ordering' ||
+        (v.task.matchingPrompts.length === options.length &&
+          new Set(options).size === options.length))
+    );
+  if (['transformation', 'error-correction'].includes(v.format as string))
+    return v.family === 'F3' && options.length === 0 && validTask(v.task);
+  if (['translation', 'controlled-production'].includes(v.format as string))
+    return v.family === 'F4' && options.length === 0 && validTask(v.task);
+  return (
+    ['cloze', 'short'].includes(v.format as string) &&
+    ['F2', 'F4'].includes(v.family as string) &&
+    options.length === 0
+  );
 }

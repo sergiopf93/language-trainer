@@ -1,10 +1,11 @@
-import { dimensions, type Dimension } from '../../shared/learning';
+import { dimensions, skills, type Dimension } from '../../shared/learning';
 import type { Fact } from '../../shared/protocol';
 import { policyVersion } from '../learning/session';
 export interface Observation {
   dimension: Dimension;
   correct: number;
   errors: number;
+  typos: number;
   assisted: number;
   unassessed: number;
   activityIds: string[];
@@ -61,7 +62,11 @@ export function project(
       ).length,
       errors: independent.filter(
         (f) =>
-          f.kind === 'evidence' && f.payload.judgment === 'verifiable-error',
+          f.kind === 'evidence' &&
+          ['verifiable-error', 'linguistic-error'].includes(f.payload.judgment),
+      ).length,
+      typos: independent.filter(
+        (f) => f.kind === 'evidence' && f.payload.judgment === 'typo',
       ).length,
       assisted: seen.length - independent.length,
       unassessed: evaluations.filter(
@@ -90,6 +95,28 @@ export function project(
     conceptVersion,
     policyVersion,
     observations,
+    skills: skills.map((skill) => {
+      const items = evidence.filter(
+        (f) => f.kind === 'evidence' && f.payload.task?.skill === skill,
+      );
+      return {
+        skill,
+        supportingFactIds: items.map((f) => f.id).sort(),
+        correct: items.filter(
+          (f) =>
+            f.kind === 'evidence' &&
+            f.payload.judgment === 'correct' &&
+            f.payload.independent,
+        ).length,
+        typos: items.filter(
+          (f) => f.kind === 'evidence' && f.payload.judgment === 'typo',
+        ).length,
+        linguisticErrors: items.filter(
+          (f) =>
+            f.kind === 'evidence' && f.payload.judgment === 'linguistic-error',
+        ).length,
+      };
+    }),
     sourceFactIds: [...evidence, ...evaluations].map((f) => f.id).sort(),
     contentVersions: [
       ...new Set(evidence.map((f) => f.versions.content)),

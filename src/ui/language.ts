@@ -25,8 +25,8 @@ export const copy = {
   empty: 'Nessuna risposta',
 };
 
-// Presentation-only translations for the unchanged v1 task instructions.
-// Answer criteria and stored activity snapshots remain intact.
+// Presentation translations for the original tasks across fixture versions.
+// Historical activity snapshots remain intact.
 const instructions: Record<string, string> = {
   'it-a1-c03-01-io': 'Scegli il pronome: «yo» in italiano è…',
   'it-a1-c03-01-tu': 'Completa: ___ = tú (una persona, trato informal).',
@@ -41,7 +41,7 @@ export function instruction(activity: {
   version: string;
   prompt: string;
 }) {
-  return activity.version === '1'
+  return ['1', '2'].includes(activity.version)
     ? (instructions[activity.id] ?? activity.prompt)
     : activity.prompt;
 }

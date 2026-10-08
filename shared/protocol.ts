@@ -90,7 +90,9 @@ export function validFact(v: unknown): v is Fact {
       typeof v.versions.content !== 'string' ||
       !v.versions.content ||
       v.versions.content.length > 100 ||
-      v.versions.policy !== 'observations-v1'
+      !['observations-v1', 'observations-v2'].includes(
+        v.versions.policy as string,
+      )
     )
       return false;
     const p = v.payload as Record<string, unknown>;
@@ -313,6 +315,7 @@ export function validLinks(fact: Fact, known: Map<string, Fact>): boolean {
       e.activityId !== p.activityId ||
       e.dimension !== p.dimension ||
       e.judgment !== p.judgment ||
+      JSON.stringify(e.task) !== JSON.stringify(p.task) ||
       session.payload.contentStatus !== p.contentStatus ||
       p.independent !==
         (!attempt.payload.theoryVersion &&
