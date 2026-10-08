@@ -135,6 +135,12 @@ Fases futuras A–G: fundamentos → motores → integración vertical → cober
 
 Detalle: [DECISIONS](../DECISIONS.md), decisiones/preguntas; [V1_SCOPE](../mvp/V1_SCOPE.md), fases/AC; [DESIGN_REVIEW](../mvp/DESIGN_REVIEW.md), límites de revisión.
 
+## Fase 2 — bloqueo detectado (2026-10-08)
+
+Encargo autorizado: motor end-to-end sobre `6497e90`/`e697c8f`, sin subagentes ni despliegue; V1 mantiene todo A1. Inspección inicial: rama `feat/technical-foundation` limpia, catálogo vacío y motores solo como contratos. `shared/protocol.ts` acepta únicamente sesiones/borradores `foundation-v1`: los nuevos hechos requerirán una ampliación compatible del validador compartido, sin rediseñar transporte ni IndexedDB.
+
+**Detención por decisión editorial pendiente:** `DECISIONS.md`, pregunta 1 y D11, deja pendiente quién revisará reglas, variantes y actividades; hasta resolverlo el contenido es candidato. `ARCHITECTURE_PROPOSAL.md`, «Canon y generación», requiere revisión independiente antes de publicación y excluye la autoaprobación por IA. No se ha encontrado un banco aprobado para los conceptos consultados (C02–C04). Esto impide presentar como revisados los datos iniciales solicitados. Conforme al control de alcance del encargo, no se ha iniciado implementación. Siguiente paso: resolver la revisión del pequeño lote de validación o autorizar expresamente un lote candidato para validación técnica, sin atribuirle aprobación editorial. Sin cambios de infraestructura, servicios ni alcance final; pruebas funcionales de Fase 2 todavía no ejecutadas.
+
 ## Reglas y mantenimiento
 
 Hablar español; implementar solo el bloque autorizado y detenerse al entregarlo. No merge a main ni gasto sin autorización explícita. No sobrescribir trabajo ni ocultar fallos. No presentar propuesta/publicación como funcionalidad probada. Mantener trazabilidad del A1, canon, ayudas y versiones. Modificar reglas globales únicamente dentro de una autorización explícita de Sergio.
