@@ -68,3 +68,10 @@ H7: uso personal, lotes e índices caben en cuotas gratuitas compartidas de Clou
 2. **Acceso entre dispositivos:** propongo un código privado de recuperación guardado en tu gestor de contraseñas, con sesión revocable por dispositivo. ¿Hay alguna necesidad de acceso con correo/proveedor que obligue a cambiar esta opción? No se necesita un sistema público multiusuario.
 
 El resto —todo A1, sincronización Cloudflare, respaldo secundario, offline y ausencia de IA online obligatoria— está decidido. La Fase 2 está autorizada como incremento técnico. No se contrata servicio, despliega infraestructura ni hace merge a main sin autorización explícita.
+
+
+## Evaluación y ampliación del motor — 2026-10-08
+
+Decisión permanente de Sergio: una errata nunca concede un acierto. `correct`, `typo`, `linguistic-error` y `not-evaluable` quedan separados; vacío conserva `no-opportunity`. La similitud no autoriza autocorrección. En este bloque, typo utiliza variantes sospechadas explícitas por criterio (`noe → noi`), dando prioridad a errores lingüísticos conocidos como `voi`; no se infiere desconocimiento conceptual por una errata. Se conservan originales, variantes aceptadas, patrón, ayudas y reintentos, sin reevaluar hechos históricos ni crear un porcentaje de mastery.
+
+Motor ampliado dentro de F1/F2/F3/F4/F7: ordenar, transformar, detectar/corregir error, traducción dirigida, matching y producción controlada. Una oportunidad/Concept por actividad, habilidad separada del formato, contexto/facetas y opciones visibles registrados. Ocho nuevos fixtures exclusivamente candidate de C04-01, más el caso de errata C03-01; no es ampliación curricular ni revisión editorial. Sin Reading completo, Writing libre ni nuevo scheduler. Detenerse tras entregar y validar este bloque.
