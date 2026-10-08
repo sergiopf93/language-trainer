@@ -2,7 +2,7 @@ import { build } from 'esbuild';
 const result = await build({
   stdin: {
     contents:
-      "export { italianPack } from './src/content/validation-fixture'; export { curriculumCoverage } from './src/content/coverage';",
+      "export { italianCourse as italianPack } from './src/content/italian-a1/course'; export { curriculumCoverage } from './src/content/coverage';",
     resolveDir: process.cwd(),
   },
   bundle: true,

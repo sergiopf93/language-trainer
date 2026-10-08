@@ -440,15 +440,3 @@ export const italianPack: LanguagePack = {
 export function validationCatalog(allowCandidates = false) {
   return loadLanguagePack(italianPack, allowCandidates).repository;
 }
-export const activeContent = loadLanguagePack(
-  italianPack,
-  import.meta.env?.DEV ||
-    import.meta.env?.VITE_ENABLE_CANDIDATE_CONTENT === 'true',
-);
-export const catalog = activeContent.repository;
-export const activeTheories = Object.fromEntries(
-  Object.keys(italianPack.theories).flatMap((id) => {
-    const theory = activeContent.theory(id);
-    return theory ? [[id, theory]] : [];
-  }),
-);

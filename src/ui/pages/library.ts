@@ -2,7 +2,7 @@ import { el, heading } from '../dom';
 import {
   catalog,
   activeTheories as theories,
-} from '../../content/validation-fixture';
+} from '../../content/language-packs';
 import { link, previewNotice, support } from '../components';
 export function library() {
   const page = heading(
@@ -21,8 +21,16 @@ export function library() {
   for (const [index, concept] of concepts.entries()) {
     const card = el('article', undefined, 'card concept-card');
     card.append(
-      el('span', `0${index + 1} / A1`, 'eyebrow'),
-      el('span', index ? 'essere' : 'io · tu · noi', 'concept-mark'),
+      el(
+        'span',
+        `${String(index + 1).padStart(2, '0')} / ${concept.cefr ?? 'A1'}`,
+        'eyebrow',
+      ),
+      el(
+        'span',
+        theories[concept.id]?.forms[0]?.[0] ?? concept.title,
+        'concept-mark',
+      ),
       el('h2', theories[concept.id]?.title ?? concept.title),
       support(theories[concept.id]?.goal ?? concept.objective, ''),
       link('Scopri il concetto', '/concept?id=' + concept.id, true),

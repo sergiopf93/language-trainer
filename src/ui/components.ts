@@ -1,9 +1,6 @@
 import { el } from './dom';
 import { language } from './language';
-import {
-  catalog,
-  activeTheories as theories,
-} from '../content/validation-fixture';
+import { catalog, activeTheories as theories } from '../content/language-packs';
 import type { Observation } from '../evidence/project';
 export function link(label: string, href: string, primary = false) {
   const node = el('a', label, primary ? 'primary-link' : 'text-link');

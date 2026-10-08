@@ -2,7 +2,7 @@ import { el, heading, button, message } from '../dom';
 import {
   catalog,
   activeTheories as theories,
-} from '../../content/validation-fixture';
+} from '../../content/language-packs';
 import { SessionEngine } from '../../learning/session';
 import type { LocalStore } from '../../persistence/local';
 import { project } from '../../evidence/project';
@@ -84,7 +84,12 @@ export async function conceptDetail(
     if (related)
       page.append(
         link(
-          'Prima: ' + (theories[related.id]?.title ?? related.title),
+          (relation.type === 'prerequisite'
+            ? 'Prima: '
+            : ['contrast', 'contrasts'].includes(relation.type)
+              ? 'Confronta: '
+              : 'Vedi anche: ') +
+            (theories[related.id]?.title ?? related.title),
           '/concept?id=' + related.id,
         ),
       );

@@ -5,10 +5,7 @@ async function start(page: Page) {
     path: 'test-results/library-mobile.png',
     fullPage: true,
   });
-  await page
-    .getByRole('link', { name: 'Scopri il concetto', exact: true })
-    .nth(1)
-    .click();
+  await page.locator('a[href="/concept?id=it-a1-c04-01"]').click();
   await page
     .getByRole('button', { name: 'Inizia la pratica', exact: true })
     .click();
@@ -81,9 +78,9 @@ test('candidate loop on mobile: offline reload, repair, hints, summary and proje
       exact: true,
     }),
   ).toBeVisible();
-  await expect(page.getByText('3 di 11 esercizi · 4 tentativi.')).toBeVisible();
+  await expect(page.getByText('3 di 18 esercizi · 4 tentativi.')).toBeVisible();
   await expect(
-    page.getByRole('img', { name: '3 di 11 esercizi con risposta inviata' }),
+    page.getByRole('img', { name: '3 di 18 esercizi con risposta inviata' }),
   ).toBeVisible();
   await expect(
     page
@@ -147,7 +144,7 @@ test('unknown response stays unevaluable and a partial session can finish', asyn
   await page
     .getByRole('button', { name: 'Termina la sessione', exact: true })
     .click();
-  await expect(page.getByText('2 di 11 esercizi · 2 tentativi.')).toBeVisible();
+  await expect(page.getByText('2 di 18 esercizi · 2 tentativi.')).toBeVisible();
 });
 
 test('two browsers sync learning facts and resume without duplicate attempts', async ({
@@ -251,9 +248,9 @@ test('theory detail and in-session help keep the draft and mark assisted answers
   context,
 }) => {
   await page.goto('/library');
-  await page.getByRole('link', { name: 'Scopri il concetto' }).nth(1).click();
+  await page.locator('a[href="/concept?id=it-a1-c04-01"]').click();
   await expect(page.getByRole('heading', { name: 'La regola' })).toBeVisible();
-  await expect(page.locator('.theory-panel')).toContainText('Noi siamo');
+  await expect(page.locator('.theory-panel')).toContainText('noi siamo');
   await page.screenshot({
     path: 'test-results/concept-mobile.png',
     fullPage: true,

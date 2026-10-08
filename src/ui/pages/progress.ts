@@ -3,7 +3,7 @@ import type { LocalStore } from '../../persistence/local';
 import {
   catalog,
   activeTheories as theories,
-} from '../../content/validation-fixture';
+} from '../../content/language-packs';
 import { project } from '../../evidence/project';
 import {
   link,

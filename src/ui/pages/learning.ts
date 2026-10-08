@@ -9,7 +9,7 @@ import {
 import {
   catalog,
   activeTheories as theories,
-} from '../../content/validation-fixture';
+} from '../../content/language-packs';
 import { button, el, message } from '../dom';
 import type { LocalStore } from '../../persistence/local';
 import { SessionEngine, type SessionView } from '../../learning/session';

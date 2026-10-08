@@ -2,7 +2,7 @@ import { el, heading } from '../dom';
 import { link, metric, support } from '../components';
 import type { LocalStore } from '../../persistence/local';
 import { SessionEngine } from '../../learning/session';
-import { catalog } from '../../content/validation-fixture';
+import { catalog } from '../../content/language-packs';
 export async function home(store: LocalStore) {
   const page = heading(
     'Il tuo italiano, ogni giorno.',
