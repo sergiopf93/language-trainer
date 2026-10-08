@@ -1,86 +1,122 @@
 import { el, heading } from '../dom';
 import type { LocalStore } from '../../persistence/local';
 import { catalog } from '../../content/validation-fixture';
+import { theories } from '../../content/theory';
 import { project } from '../../evidence/project';
-const labels = {
-  comprehension: 'Comprensión / reconocimiento',
-  retrieval: 'Recuperación',
-  'contextual-use': 'Uso contextual',
-  discrimination: 'Discriminación',
-  retention: 'Retención diferida',
-};
+import {
+  link,
+  metric,
+  observations,
+  previewNotice,
+  support,
+} from '../components';
 export async function progress(store: LocalStore) {
-  const page = heading(
-    'Progreso',
-    'Observaciones por concepto y dimensión. Sin porcentaje global de dominio.',
-  );
+  const page = heading('Progressi', 'Guarda i passi che hai fatto.');
   const facts = await store.allFacts();
-  if (!facts.some((f) => f.kind === 'evidence'))
-    page.append(el('h2', 'Aún no hay valoraciones de aprendizaje'));
   const requested = new URLSearchParams(location.search).get('concept');
-  for (const concept of catalog
+  const concepts = catalog
     .available()
-    .filter((c) => !requested || c.id === requested)) {
-    const projection = project(
-      facts,
-      concept.id,
-      concept.version,
-      catalog.allowCandidates,
+    .filter((c) => !requested || c.id === requested);
+  const rows = concepts.map((c) => ({
+    concept: c,
+    projection: project(facts, c.id, c.version, catalog.allowCandidates),
+  }));
+  const practiced = rows.filter(
+    (r) => r.projection.sourceFactIds.length,
+  ).length;
+  const overview = el('div', undefined, 'metrics');
+  overview.append(
+    metric(practiced, 'concetti praticati'),
+    metric(concepts.length - practiced, 'da esplorare'),
+  );
+  page.append(
+    overview,
+    support(
+      'Las barras muestran respuestas registradas, no porcentajes de dominio. Verde: aciertos sin ayuda · terracota: errores sin ayuda · rayado: con ayuda.',
+    ),
+  );
+  if (!practiced)
+    page.append(
+      el('h2', 'Il primo passo ti aspetta'),
+      support(
+        'Después de practicar verás aquí tus resultados. Estudiar teoría no cuenta como acertar una actividad.',
+      ),
+      link('Esplora la biblioteca', '/library', true),
     );
+  for (const { concept, projection } of rows) {
     const card = el('article', undefined, 'card');
-    card.append(
-      el('h2', concept.title),
-      el(
-        'p',
-        `${concept.status.toUpperCase()} · Historial de validación técnica`,
-        'muted',
-      ),
-    );
-    for (const row of projection.observations) {
-      card.append(el('h3', labels[row.dimension]));
+    const correct = projection.observations.reduce((n, r) => n + r.correct, 0);
+    const errors = projection.observations.reduce((n, r) => n + r.errors, 0);
+    card.append(el('h2', theories[concept.id]?.title ?? concept.title));
+    if (correct)
       card.append(
-        el(
-          'p',
-          row.supportingFactIds.length
-            ? `${row.correct} aciertos y ${row.errors} errores sin ayuda; ${row.assisted} observaciones asistidas. ${row.activityIds.length} ítems distintos.`
-            : 'Sin evidencia observada. No significa desconocimiento.',
-        ),
+        el('span', `${correct} risposte corrette senza aiuto`, 'pill positive'),
       );
-      if (row.unassessed)
-        card.append(
-          el(
-            'p',
-            `${row.unassessed} respuestas sin evaluación concluyente; no cuentan como errores.`,
-          ),
-        );
-      if (row.lastObserved)
-        card.append(
-          el(
-            'p',
-            'Última observación: ' +
-              new Date(row.lastObserved).toLocaleString('es'),
-            'muted',
-          ),
-        );
-      if (row.supportingFactIds.length) {
-        const details = el('details');
-        details.append(el('summary', 'Ver trazabilidad'));
-        for (const id of row.supportingFactIds)
-          details.append(el('p', id, 'fact-id'));
-        card.append(details);
-      }
-    }
+    if (errors)
+      card.append(el('span', `${errors} errori da rivedere`, 'pill negative'));
     card.append(
-      el('p', projection.uncertainty, 'muted'),
-      el(
-        'p',
-        'Política: ' +
-          projection.policyVersion +
-          ' · Reconstruido desde hechos originales.',
-        'muted',
-      ),
+      observations(projection.observations),
+      link('Rivedi il concetto', '/concept?id=' + concept.id),
     );
     page.append(card);
   }
+  const history = el('section', undefined, 'card');
+  history.append(el('h2', 'Attività recente'));
+  const roots = facts.filter(
+    (f) =>
+      f.kind === 'practice-session' &&
+      concepts.some(
+        (c) =>
+          c.id === f.payload.conceptId &&
+          c.version === f.payload.conceptVersion,
+      ) &&
+      catalog.allowed(f.payload.contentStatus),
+  );
+  const attempts = facts.filter(
+    (f) =>
+      f.kind === 'attempt' && roots.some((r) => r.id === f.payload.sessionId),
+  );
+  const recent = attempts
+    .slice()
+    .sort((a, b) => b.occurredAt.localeCompare(a.occurredAt))
+    .slice(0, 8);
+  if (!recent.length)
+    history.append(
+      support(
+        'Todavía no hay respuestas. Aquí aparecerán tus prácticas recientes con su fecha real.',
+      ),
+    );
+  const list = el('ol', undefined, 'timeline');
+  for (const attempt of recent) {
+    if (attempt.kind !== 'attempt') continue;
+    const result = facts.find(
+      (f) => f.kind === 'evaluation' && f.payload.attemptId === attempt.id,
+    );
+    if (result?.kind !== 'evaluation') continue;
+    const item = el('li');
+    const title =
+      theories[result.payload.conceptId]?.title ?? result.payload.conceptId;
+    const label = {
+      correct: '✓ Corretto',
+      'verifiable-error': '✕ Da rivedere',
+      'not-evaluable': '? Da verificare',
+      'no-opportunity': '— Nessuna risposta',
+    }[result.payload.judgment];
+    item.append(
+      el('strong', label),
+      el('span', title),
+      el('time', new Date(attempt.occurredAt).toLocaleString('it')),
+    );
+    list.append(item);
+  }
+  history.append(list);
+  page.append(
+    history,
+    support(
+      'Recordar hoy no garantiza recordarlo más adelante. Aún no hay una programación de repasos ni comprobaciones diferidas para mostrar.',
+    ),
+  );
+  if (concepts.some((c) => c.status === 'candidate'))
+    page.append(previewNotice());
   return page;
 }

@@ -31,6 +31,7 @@ export interface Activity {
   provenance: string;
 }
 export interface SessionState {
+  theoryVersion?: string;
   index: number;
   draft: string;
   hintShown: boolean;
@@ -50,7 +51,15 @@ export interface LearningPayloads {
     state: SessionState;
   };
   'practice-state': { sessionId: string; state: SessionState };
+  'theory-exposure': {
+    packId: string;
+    conceptId: string;
+    conceptVersion: string;
+    theoryVersion: string;
+    contentStatus: EditorialStatus;
+  };
   attempt: {
+    theoryVersion?: string;
     sessionId: string;
     stateId: string;
     itemIndex: number;
@@ -153,7 +162,12 @@ export function validActivity(v: unknown): v is Activity {
 function state(v: unknown) {
   return (
     record(v) &&
-    keys(v, 'index draft hintShown attemptId status phase') &&
+    keys(
+      v,
+      'index draft hintShown attemptId status phase' +
+        ('theoryVersion' in v ? ' theoryVersion' : ''),
+    ) &&
+    (!('theoryVersion' in v) || text(v.theoryVersion)) &&
     Number.isSafeInteger(v.index) &&
     Number(v.index) >= 0 &&
     Number(v.index) <= 30 &&
@@ -198,14 +212,27 @@ export function validLearningPayload(kind: string, p: unknown): boolean {
       );
     case 'practice-state':
       return keys(p, 'sessionId state') && id(p.sessionId) && state(p.state);
+    case 'theory-exposure':
+      return (
+        keys(
+          p,
+          'packId conceptId conceptVersion theoryVersion contentStatus',
+        ) &&
+        ['packId', 'conceptId', 'conceptVersion', 'theoryVersion'].every((k) =>
+          text(p[k]),
+        ) &&
+        editorial(p.contentStatus)
+      );
     case 'attempt':
       return (
         keys(
           p,
-          'sessionId stateId itemIndex activityId activityVersion response hintShown solutionSeen retryOf exposureId',
+          'sessionId stateId itemIndex activityId activityVersion response hintShown solutionSeen retryOf exposureId' +
+            ('theoryVersion' in p ? ' theoryVersion' : ''),
         ) &&
         id(p.sessionId) &&
         id(p.stateId) &&
+        (!('theoryVersion' in p) || text(p.theoryVersion)) &&
         Number.isSafeInteger(p.itemIndex) &&
         Number(p.itemIndex) >= 0 &&
         Number(p.itemIndex) < 30 &&

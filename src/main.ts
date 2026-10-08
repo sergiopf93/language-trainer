@@ -6,14 +6,17 @@ import { home } from './ui/pages/home';
 import { practice } from './ui/pages/practice';
 import { library } from './ui/pages/library';
 import { progress } from './ui/pages/progress';
+import { conceptDetail } from './ui/pages/concept';
+import { copy, language } from './ui/language';
 import { settings } from './ui/settings';
 async function start() {
+  document.documentElement.lang = language.targetLanguage;
   const app = document.querySelector<HTMLDivElement>('#app')!;
   const store = await LocalStore.open();
   const header = el('header');
   const brand = el('a', 'italiano', 'brand');
   brand.href = '/';
-  const badge = el('span', 'TU ESPACIO A1', 'eyebrow');
+  const badge = el('span', 'IL TUO SPAZIO A1', 'eyebrow');
   const status = el('p', 'Guardado en este dispositivo', 'sync-status');
   status.setAttribute('role', 'status');
   status.setAttribute('aria-live', 'polite');
@@ -22,21 +25,23 @@ async function start() {
     status.dataset.state = sync.state;
   });
   const dialog = settings(store, sync);
+  dialog.lang = language.supportLanguage;
+  status.lang = language.supportLanguage;
   header.append(
     brand,
     badge,
-    button('Ajustes', () => dialog.showModal(), true),
+    button('Impostazioni', () => dialog.showModal(), true),
   );
   const main = el('main');
   main.id = 'main';
   main.tabIndex = -1;
   const nav = el('nav');
-  nav.setAttribute('aria-label', 'Navegación principal');
+  nav.setAttribute('aria-label', 'Navigazione principale');
   for (const [path, label] of [
-    ['/', 'Inicio'],
-    ['/practice', 'Practicar'],
-    ['/library', 'Biblioteca'],
-    ['/progress', 'Progreso'],
+    ['/', copy.home],
+    ['/practice', copy.practice],
+    ['/library', copy.library],
+    ['/progress', copy.progress],
   ]) {
     const link = el('a', label);
     link.href = path;
@@ -52,7 +57,7 @@ async function start() {
     isDirty = () => false;
     switch (location.pathname) {
       case '/':
-        page = home();
+        page = await home(store);
         break;
       case '/practice': {
         const result = await practice(store, () => {
@@ -63,6 +68,18 @@ async function start() {
         isDirty = result.isDirty;
         break;
       }
+      case '/concept':
+        page = await conceptDetail(
+          store,
+          () => {
+            void sync.run();
+          },
+          (id) => {
+            history.pushState({}, '', '/practice?session=' + id);
+            void render(true);
+          },
+        );
+        break;
       case '/library':
         page = library();
         break;
@@ -82,7 +99,10 @@ async function start() {
     document.title =
       (page.querySelector('h1')?.textContent ?? 'Italiano') + ' · Italiano';
     nav.querySelectorAll('a').forEach((link) => {
-      if (new URL(link.href).pathname === location.pathname)
+      if (
+        new URL(link.href).pathname ===
+        (location.pathname === '/concept' ? '/library' : location.pathname)
+      )
         link.setAttribute('aria-current', 'page');
       else link.removeAttribute('aria-current');
     });

@@ -265,3 +265,54 @@ it('a hint from an unfinished session remains exposure in the next session', asy
     false,
   );
 });
+
+it('theory assistance survives reload, next activity and backup with valid facts', async () => {
+  const { store, engine, name } = await setup();
+  let v = await engine.start(conceptId);
+  v = await engine.update(v, 'draft', 'sono');
+  v = await engine.update(v, 'theory', 'theory-c04-1');
+  const reopened = await setup(name);
+  v = await reopened.engine.load(v.head.id);
+  expect(v.state.draft).toBe('sono');
+  v = await reopened.engine.submit(v);
+  v = await reopened.engine.update(v, 'next');
+  expect(v.state.theoryVersion).toBe('theory-c04-1');
+  v = await reopened.engine.update(v, 'draft', 'sei');
+  v = await reopened.engine.submit(v);
+  const facts = await store.allFacts();
+  const evidence = facts.filter((f) => f.kind === 'evidence');
+  expect(evidence).toHaveLength(2);
+  expect(evidence.every((f) => !f.payload.independent)).toBe(true);
+  expect(facts.every(validFact)).toBe(true);
+  const target = await setup();
+  await target.store.importBackup(JSON.stringify(await store.exportBackup()));
+  expect((await target.engine.load(v.head.id)).state.theoryVersion).toBe(
+    'theory-c04-1',
+  );
+});
+it('reading before practice is exposure, reading during an active task is assistance even from another view', async () => {
+  const { store, engine } = await setup();
+  await engine.study(conceptId, 'theory-c04-1');
+  expect(
+    (await store.allFacts()).filter((f) => f.kind === 'evidence'),
+  ).toHaveLength(0);
+  let v = await engine.start(conceptId);
+  v = await engine.update(v, 'draft', 'sono');
+  v = await engine.submit(v);
+  expect(v.facts.find((f) => f.kind === 'evidence')?.payload).toMatchObject({
+    independent: true,
+  });
+  v = await engine.update(v, 'next');
+  await engine.study(conceptId, 'theory-c04-1');
+  v = await engine.update(v, 'draft', 'sei');
+  v = await engine.submit(v);
+  const attempts = v.facts.filter((f) => f.kind === 'attempt');
+  expect(
+    attempts.find((f) => f.payload.response === 'sei')?.payload.exposureId,
+  ).not.toBeNull();
+  const evidence = v.facts.filter((f) => f.kind === 'evidence');
+  expect(evidence.filter((f) => !f.payload.independent)).toHaveLength(1);
+  const target = await setup();
+  await target.store.importBackup(JSON.stringify(await store.exportBackup()));
+  expect(await target.store.allFacts()).toHaveLength(v.facts.length);
+});

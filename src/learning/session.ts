@@ -98,6 +98,23 @@ export class SessionEngine implements LearningEngine {
       );
     return { root, head, state: head.payload.state, facts };
   }
+  async study(conceptId: string, theoryVersion: string) {
+    const concept = this.catalog.concept(conceptId);
+    if (!concept) throw new Error('Concepto no disponible.');
+    await this.store.appendLearning([
+      event(
+        'theory-exposure',
+        {
+          packId: this.catalog.packId,
+          conceptId,
+          conceptVersion: concept.version,
+          theoryVersion,
+          contentStatus: concept.status,
+        },
+        this.catalog.version,
+      ),
+    ]);
+  }
   async start(conceptId: string) {
     const decision = await this.select({
       mode: 'focus',
@@ -151,7 +168,7 @@ export class SessionEngine implements LearningEngine {
   }
   async update(
     view: SessionView,
-    action: 'draft' | 'hint' | 'retry' | 'next' | 'finish',
+    action: 'draft' | 'hint' | 'theory' | 'retry' | 'next' | 'finish',
     draft?: string,
   ) {
     if (view.state.status !== 'active')
@@ -164,6 +181,10 @@ export class SessionEngine implements LearningEngine {
         if (typeof draft !== 'string' || draft.length > 4000)
           throw new Error('Respuesta demasiado larga.');
         state.draft = draft;
+        break;
+      case 'theory':
+        if (!draft) throw new Error('Falta la versión de teoría.');
+        state.theoryVersion = draft;
         break;
       case 'hint':
         state.hintShown = true;
@@ -178,6 +199,9 @@ export class SessionEngine implements LearningEngine {
         if (state.phase !== 'feedback')
           throw new Error('Responde antes de avanzar.');
         state = {
+          ...(state.theoryVersion
+            ? { theoryVersion: state.theoryVersion }
+            : {}),
           index: state.index + 1,
           draft: '',
           hintShown: false,
@@ -203,16 +227,28 @@ export class SessionEngine implements LearningEngine {
       throw new Error('Esta respuesta ya se ha enviado.');
     const a = view.root.payload.activities[s.index];
     const [result] = await canonicalExerciseEngine.evaluate(a, s.draft);
-    const exposure = view.facts
+    const currentFacts = await this.store.allFacts();
+    const exposure = currentFacts
       .filter((f) => {
+        if (f.kind === 'theory-exposure')
+          return (
+            f.payload.conceptId === a.conceptId &&
+            f.payload.conceptVersion === a.conceptVersion &&
+            f.occurredAt >= view.root.occurredAt &&
+            (f.deviceId !== view.root.deviceId ||
+              f.sequence > view.root.sequence)
+          );
         if (f.kind === 'evaluation')
           return (
             f.payload.activityId === a.id &&
             f.payload.activityVersion === a.version
           );
-        if (f.kind !== 'practice-state' || !f.payload.state.hintShown)
+        if (
+          f.kind !== 'practice-state' ||
+          (!f.payload.state.hintShown && !f.payload.state.theoryVersion)
+        )
           return false;
-        const root = view.facts.find((r) => r.id === f.payload.sessionId);
+        const root = currentFacts.find((r) => r.id === f.payload.sessionId);
         const item =
           root?.kind === 'practice-session'
             ? root.payload.activities[f.payload.state.index]
@@ -232,6 +268,7 @@ export class SessionEngine implements LearningEngine {
         activityId: a.id,
         activityVersion: a.version,
         response: s.draft,
+        ...(s.theoryVersion ? { theoryVersion: s.theoryVersion } : {}),
         hintShown: s.hintShown,
         solutionSeen: s.attemptId !== null || exposure?.kind === 'evaluation',
         retryOf: s.attemptId,
@@ -280,7 +317,8 @@ export class SessionEngine implements LearningEngine {
             activityId: a.id,
             dimension: a.dimension,
             judgment: result.judgment,
-            independent: !s.hintShown && !s.attemptId && !exposure,
+            independent:
+              !s.theoryVersion && !s.hintShown && !s.attemptId && !exposure,
             contentStatus: view.root.payload.contentStatus,
           },
           view.root.versions.content,

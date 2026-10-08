@@ -1,42 +1,34 @@
 import { el, heading } from '../dom';
-import { italian } from '../../content/language-packs';
 import { catalog } from '../../content/validation-fixture';
+import { theories } from '../../content/theory';
+import { link, previewNotice, support } from '../components';
 export function library() {
   const page = heading(
     'Biblioteca',
-    'Italiano A1. La V1 mantiene todo el currículo; este lote mínimo valida únicamente el motor.',
+    'Un concetto alla volta. Leggi, scopri, prova.',
   );
   const concepts = catalog.available();
   if (!concepts.length)
     page.append(
-      el(
-        'p',
-        'Aún no hay contenido publicado. El lote candidate solo se habilita en desarrollo y compilaciones de validación.',
+      el('h2', 'Presto, nuovi contenuti'),
+      support(
+        'Aún no hay contenido publicado. Aquí encontrarás conceptos para estudiar y practicar.',
       ),
     );
-  for (const concept of concepts) {
-    const card = el('article', undefined, 'card');
-    card.dataset.pack = italian.id;
+  const grid = el('div', undefined, 'concept-grid');
+  for (const [index, concept] of concepts.entries()) {
+    const card = el('article', undefined, 'card concept-card');
     card.append(
-      el(
-        'span',
-        catalog.topics.find((t) => t.id === concept.topicId)!.title,
-        'eyebrow',
-      ),
-      el('h2', concept.title),
-      el('p', concept.objective),
-      el('p', concept.scope),
-      el('p', concept.exclusions, 'muted'),
-      el(
-        'p',
-        `${concept.status.toUpperCase()} · Versión ${concept.version} · ${concept.provenance}`,
-        'muted',
-      ),
+      el('span', `0${index + 1} / A1`, 'eyebrow'),
+      el('span', index ? 'essere' : 'io · tu · noi', 'concept-mark'),
+      el('h2', theories[concept.id]?.title ?? concept.title),
+      support(theories[concept.id]?.goal ?? concept.objective, ''),
+      link('Scopri il concetto', '/concept?id=' + concept.id, true),
     );
-    const link = el('a', 'Practicar ' + concept.title, 'primary-link');
-    link.href = '/practice?concept=' + concept.id;
-    card.append(link);
-    page.append(card);
+    grid.append(card);
   }
+  page.append(grid);
+  if (concepts.some((c) => c.status === 'candidate'))
+    page.append(previewNotice());
   return page;
 }

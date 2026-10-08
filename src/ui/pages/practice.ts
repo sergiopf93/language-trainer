@@ -3,14 +3,11 @@ import { button, el, heading, message } from '../dom';
 import type { LocalStore } from '../../persistence/local';
 import type { DraftFact } from '../../../shared/protocol';
 export async function practice(store: LocalStore, saved: () => void) {
-  const page = heading(
-    'Practicar',
-    'Practica un concepto o conserva una intención para más adelante.',
-  );
+  const page = heading('Pratica', 'Un passo alla volta, al tuo ritmo.');
   const guided = await learning(store, saved);
   page.append(guided.page);
   const card = el('section', undefined, 'card');
-  const label = el('label', '¿Qué te gustaría practicar?');
+  const label = el('label', 'Che cosa vuoi praticare?');
   label.htmlFor = 'intention';
   const input = el('textarea');
   input.id = 'intention';
@@ -22,7 +19,7 @@ export async function practice(store: LocalStore, saved: () => void) {
   let editing = 0;
   const status = el(
     'p',
-    'El borrador se guarda solo cuando pulsas Guardar.',
+    'La nota se guarda cuando pulsas «Salva la nota».',
     'muted',
   );
   status.setAttribute('role', 'status');
@@ -69,7 +66,7 @@ export async function practice(store: LocalStore, saved: () => void) {
       choices.append(pick);
     }
   };
-  const save = button('Guardar borrador', async () => {
+  const save = button('Salva la nota', async () => {
     save.disabled = true;
     const revision = editing;
     try {
@@ -87,7 +84,7 @@ export async function practice(store: LocalStore, saved: () => void) {
     }
   });
   const reload = button(
-    'Buscar borradores guardados',
+    'Cerca le note salvate',
     async () => {
       try {
         await refresh();
@@ -102,26 +99,19 @@ export async function practice(store: LocalStore, saved: () => void) {
     input,
     save,
     status,
-    el('h2', 'Continuar un borrador'),
+    el('h2', 'Riprendi una nota'),
     choices,
     reload,
   );
   let draftSection: HTMLElement = card;
   if (location.search) {
     const details = el('details');
-    details.append(
-      el('summary', 'Guardar una intención para otra sesión'),
-      card,
-    );
+    details.append(el('summary', 'Una nota per la prossima volta'), card);
     draftSection = details;
   }
   page.append(
     draftSection,
-    el(
-      'p',
-      'Guardar una intención no genera evidencia de aprendizaje.',
-      'muted',
-    ),
+    el('p', 'Tu nota te ayuda a organizar la próxima práctica.', 'muted'),
   );
   await refresh();
   return { page, isDirty: () => dirty || guided.isDirty() };

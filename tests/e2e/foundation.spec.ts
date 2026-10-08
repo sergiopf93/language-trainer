@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 const accessCode = process.env.E2E_ACCESS_CODE;
 async function link(page: import('@playwright/test').Page) {
-  await page.getByRole('button', { name: 'Ajustes', exact: true }).click();
+  await page.getByRole('button', { name: 'Impostazioni', exact: true }).click();
   await page.getByLabel('Código privado de acceso').fill(accessCode!);
   await page
     .getByRole('button', { name: 'Vincular dispositivo', exact: true })
@@ -21,34 +21,34 @@ test('mobile shell, deep routes, offline reload and draft continuity', async ({
   ).toBeVisible();
   await page.evaluate(() => navigator.serviceWorker.ready);
   await page.reload();
-  await page.getByRole('link', { name: 'Practicar', exact: true }).click();
-  await page.getByLabel('¿Qué te gustaría practicar?').fill('Borrador offline');
+  await page.getByRole('link', { name: 'Pratica', exact: true }).click();
+  await page.getByLabel('Che cosa vuoi praticare?').fill('Borrador offline');
   await page
-    .getByRole('button', { name: 'Guardar borrador', exact: true })
+    .getByRole('button', { name: 'Salva la nota', exact: true })
     .click();
   await expect(
     page.getByText('Guardado en este dispositivo', { exact: true }),
   ).toBeVisible();
   await context.setOffline(true);
   await page.reload();
-  await expect(page.getByLabel('¿Qué te gustaría practicar?')).toHaveValue(
+  await expect(page.getByLabel('Che cosa vuoi praticare?')).toHaveValue(
     'Borrador offline',
   );
-  await page.getByLabel('¿Qué te gustaría practicar?').fill('Revisión sin red');
+  await page.getByLabel('Che cosa vuoi praticare?').fill('Revisión sin red');
   await page
-    .getByRole('button', { name: 'Guardar borrador', exact: true })
+    .getByRole('button', { name: 'Salva la nota', exact: true })
     .click();
   await expect(
     page.getByText('Guardado en este dispositivo', { exact: true }),
   ).toBeVisible();
   await page.reload();
-  await expect(page.getByLabel('¿Qué te gustaría practicar?')).toHaveValue(
+  await expect(page.getByLabel('Che cosa vuoi praticare?')).toHaveValue(
     'Revisión sin red',
   );
-  await page.getByRole('link', { name: 'Progreso', exact: true }).click();
+  await page.getByRole('link', { name: 'Progressi', exact: true }).click();
   await expect(
     page.getByRole('heading', {
-      name: 'Aún no hay valoraciones de aprendizaje',
+      name: 'Il primo passo ti aspetta',
     }),
   ).toBeVisible();
   expect(
@@ -79,7 +79,7 @@ test('mobile shell, deep routes, offline reload and draft continuity', async ({
     ),
   ).toBe(true);
   await page.setViewportSize({ width: 1280, height: 900 });
-  await page.getByRole('link', { name: 'Inicio', exact: true }).click();
+  await page.getByRole('link', { name: 'Home', exact: true }).click();
   await expect(page.getByRole('main')).toBeFocused();
   await page.screenshot({
     path: 'test-results/shell-desktop.png',
@@ -99,31 +99,25 @@ test('two devices restore synced drafts, preserve forks and recover after access
   const pb = await b.newPage();
   await pa.goto('/');
   await link(pa);
-  await pa.getByRole('link', { name: 'Practicar', exact: true }).click();
+  await pa.getByRole('link', { name: 'Pratica', exact: true }).click();
   const text = 'Compartido ' + Date.now();
-  await pa.getByLabel('¿Qué te gustaría practicar?').fill(text);
-  await pa
-    .getByRole('button', { name: 'Guardar borrador', exact: true })
-    .click();
+  await pa.getByLabel('Che cosa vuoi praticare?').fill(text);
+  await pa.getByRole('button', { name: 'Salva la nota', exact: true }).click();
   await expect(pa.locator('.sync-status')).toHaveText('Sincronizado');
   await pb.goto('/');
   await link(pb);
-  await pb.getByRole('link', { name: 'Practicar', exact: true }).click();
+  await pb.getByRole('link', { name: 'Pratica', exact: true }).click();
   await pb.getByRole('button', { name: text, exact: true }).click();
-  await expect(pb.getByLabel('¿Qué te gustaría practicar?')).toHaveValue(text);
+  await expect(pb.getByLabel('Che cosa vuoi praticare?')).toHaveValue(text);
   await a.setOffline(true);
   await b.setOffline(true);
-  await pa.getByLabel('¿Qué te gustaría practicar?').fill(text + ' A');
-  await pa
-    .getByRole('button', { name: 'Guardar borrador', exact: true })
-    .click();
+  await pa.getByLabel('Che cosa vuoi praticare?').fill(text + ' A');
+  await pa.getByRole('button', { name: 'Salva la nota', exact: true }).click();
   await expect(
     pa.getByText('Guardado en este dispositivo', { exact: true }),
   ).toBeVisible();
-  await pb.getByLabel('¿Qué te gustaría practicar?').fill(text + ' B');
-  await pb
-    .getByRole('button', { name: 'Guardar borrador', exact: true })
-    .click();
+  await pb.getByLabel('Che cosa vuoi praticare?').fill(text + ' B');
+  await pb.getByRole('button', { name: 'Salva la nota', exact: true }).click();
   await expect(
     pb.getByText('Guardado en este dispositivo', { exact: true }),
   ).toBeVisible();
@@ -131,14 +125,14 @@ test('two devices restore synced drafts, preserve forks and recover after access
   await expect(pa.locator('.sync-status')).toHaveText('Sincronizado');
   await b.setOffline(false);
   await expect(pb.locator('.sync-status')).toHaveText('Sincronizado');
-  await pb.getByRole('button', { name: 'Buscar borradores guardados' }).click();
+  await pb.getByRole('button', { name: 'Cerca le note salvate' }).click();
   await expect(
     pb.getByRole('button', { name: text + ' A', exact: true }),
   ).toBeVisible();
   await expect(
     pb.getByRole('button', { name: text + ' B', exact: true }),
   ).toBeVisible();
-  await pb.getByRole('button', { name: 'Ajustes', exact: true }).click();
+  await pb.getByRole('button', { name: 'Impostazioni', exact: true }).click();
   await pb
     .getByRole('button', {
       name: 'Cerrar acceso en este dispositivo',
@@ -147,7 +141,7 @@ test('two devices restore synced drafts, preserve forks and recover after access
     .click();
   await expect(pb.locator('.sync-status')).toContainText('Acceso cerrado');
   await pb.getByRole('button', { name: 'Cerrar', exact: true }).click();
-  await expect(pb.getByLabel('¿Qué te gustaría practicar?')).toHaveValue(
+  await expect(pb.getByLabel('Che cosa vuoi praticare?')).toHaveValue(
     text + ' B',
   );
   await link(pb);

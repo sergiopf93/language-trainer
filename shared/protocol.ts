@@ -251,6 +251,7 @@ export function validLinks(fact: Fact, known: Map<string, Fact>): boolean {
       s.status !== 'active' ||
       s.phase !== 'answer' ||
       s.hintShown !== p.hintShown ||
+      s.theoryVersion !== p.theoryVersion ||
       s.attemptId !== p.retryOf ||
       p.solutionSeen !==
         (p.retryOf !== null ||
@@ -264,8 +265,14 @@ export function validLinks(fact: Fact, known: Map<string, Fact>): boolean {
         exposure.payload.activityId === p.activityId &&
         exposure.payload.activityVersion === p.activityVersion;
       const hint =
-        exposure?.kind === 'practice-state' && exposure.payload.state.hintShown;
-      if (!correction && !hint) return false;
+        exposure?.kind === 'practice-state' &&
+        (exposure.payload.state.hintShown ||
+          !!exposure.payload.state.theoryVersion);
+      const theory =
+        exposure?.kind === 'theory-exposure' &&
+        exposure.payload.conceptId === root.payload.conceptId &&
+        exposure.payload.conceptVersion === root.payload.conceptVersion;
+      if (!correction && !hint && !theory) return false;
     }
     if (p.retryOf) {
       const previous = known.get(p.retryOf);
@@ -308,7 +315,8 @@ export function validLinks(fact: Fact, known: Map<string, Fact>): boolean {
       e.judgment !== p.judgment ||
       session.payload.contentStatus !== p.contentStatus ||
       p.independent !==
-        (!attempt.payload.hintShown &&
+        (!attempt.payload.theoryVersion &&
+          !attempt.payload.hintShown &&
           !attempt.payload.solutionSeen &&
           !attempt.payload.exposureId)
     )

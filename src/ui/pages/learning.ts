@@ -1,16 +1,25 @@
+import { copy, language, instruction } from '../language';
+import {
+  link,
+  metric,
+  previewNotice,
+  support,
+  theoryPanel,
+} from '../components';
+import { theories } from '../../content/theory';
 import { button, el, message } from '../dom';
 import type { LocalStore } from '../../persistence/local';
 import { catalog } from '../../content/validation-fixture';
 import { SessionEngine, type SessionView } from '../../learning/session';
 export const judgmentLabels = {
-  correct: 'Respuesta correcta',
-  'verifiable-error': 'Error verificable',
-  'not-evaluable': 'Respuesta no evaluable',
-  'no-opportunity': 'Sin respuesta evaluable',
+  correct: copy.correct,
+  'verifiable-error': copy.error,
+  'not-evaluable': copy.unknown,
+  'no-opportunity': copy.empty,
 };
 export async function learning(store: LocalStore, saved: () => void) {
   const page = el('section', undefined, 'card');
-  page.setAttribute('aria-label', 'Práctica del concepto');
+  page.setAttribute('aria-label', 'Pratica del concetto');
   const engine = new SessionEngine(store, catalog);
   const content = el('div');
   const status = el('p', '', 'muted');
@@ -21,13 +30,14 @@ export async function learning(store: LocalStore, saved: () => void) {
   let pending = 0;
   let failed = false;
   let busy = false;
+  let theoryOpen = false;
   const remember = () => {
     if (view && page.isConnected && location.pathname === '/practice')
       history.replaceState({}, '', '/practice?session=' + view.head.id);
   };
   const enqueue = (action: () => Promise<void>, redraw: boolean) => {
     pending++;
-    status.textContent = 'Guardando…';
+    if (redraw) status.textContent = 'Salvataggio…';
     queue = queue
       .then(async () => {
         if (failed) return;
@@ -37,14 +47,18 @@ export async function learning(store: LocalStore, saved: () => void) {
         if (redraw) {
           draw();
           const target = content.querySelector<HTMLElement>(
-            view?.state.phase === 'feedback' ? '[role=status] h3' : 'h2',
+            theoryOpen
+              ? '.theory-panel h3'
+              : view?.state.phase === 'feedback'
+                ? '[role=status] h3'
+                : 'h2',
           );
           if (target) {
             target.tabIndex = -1;
             target.focus();
           }
         }
-        status.textContent = 'Práctica guardada en este dispositivo';
+        status.textContent = copy.saved;
       })
       .catch((error) => {
         failed = true;
@@ -79,6 +93,7 @@ export async function learning(store: LocalStore, saved: () => void) {
       secondary,
     );
   const change = (action: 'hint' | 'retry' | 'next' | 'finish') => async () => {
+    theoryOpen = false;
     view = await engine.update(view!, action);
   };
   const draw = () => {
@@ -88,16 +103,9 @@ export async function learning(store: LocalStore, saved: () => void) {
     const title =
       catalog.concepts.find((c) => c.id === root.payload.conceptId)?.title ??
       root.payload.conceptId;
-    content.append(
-      el('h2', title),
-      el(
-        'p',
-        root.payload.contentStatus === 'candidate'
-          ? 'CANDIDATE · Validación técnica. Sin aprobación editorial; no es contenido definitivo de V1.'
-          : 'Contenido publicado',
-        'muted',
-      ),
-    );
+    content.append(el('h2', theories[root.payload.conceptId]?.title ?? title));
+    if (root.payload.contentStatus === 'candidate')
+      content.append(el('span', 'Contenuti di prova', 'pill'));
     if (state.status === 'completed') {
       const attempts = facts.filter(
         (f) => f.kind === 'attempt' && f.payload.sessionId === root.id,
@@ -107,28 +115,88 @@ export async function learning(store: LocalStore, saved: () => void) {
         (f) => f.kind === 'evaluation' && attemptIds.has(f.payload.attemptId),
       );
       content.append(
-        el('h3', 'Resumen de sesión'),
+        el('h3', copy.summary),
         el(
           'p',
-          `${new Set(attempts.flatMap((f) => (f.kind === 'attempt' ? [f.payload.itemIndex] : []))).size} de ${root.payload.activities.length} actividades respondidas · ${attempts.length} intentos conservados.`,
+          `${new Set(attempts.flatMap((f) => (f.kind === 'attempt' ? [f.payload.itemIndex] : []))).size} di ${root.payload.activities.length} esercizi · ${attempts.length} tentativi.`,
         ),
       );
-      for (const [judgment, label] of Object.entries(judgmentLabels))
-        content.append(
-          el(
-            'p',
-            `${label}: ${evaluations.filter((f) => f.kind === 'evaluation' && f.payload.judgment === judgment).length}`,
-          ),
-        );
+      const answered = new Set(
+        attempts.flatMap((f) =>
+          f.kind === 'attempt' ? [f.payload.itemIndex] : [],
+        ),
+      ).size;
+      const ring = el(
+        'div',
+        `${answered} / ${root.payload.activities.length}`,
+        'completion-ring',
+      );
+      ring.style.setProperty(
+        '--completion',
+        `${(answered / root.payload.activities.length) * 100}%`,
+      );
+      ring.setAttribute('role', 'img');
+      ring.setAttribute(
+        'aria-label',
+        `${answered} di ${root.payload.activities.length} esercizi con risposta inviata`,
+      );
+      content.append(ring);
+      const stats = el('div', undefined, 'metrics');
+      const evidence = facts.filter(
+        (f) => f.kind === 'evidence' && f.payload.sessionId === root.id,
+      );
+      stats.append(
+        metric(
+          evidence.filter(
+            (f) =>
+              f.kind === 'evidence' &&
+              f.payload.independent &&
+              f.payload.judgment === 'correct',
+          ).length,
+          'corrette senza aiuto',
+        ),
+        metric(
+          attempts.filter(
+            (f) =>
+              f.kind === 'attempt' &&
+              (f.payload.theoryVersion ||
+                f.payload.hintShown ||
+                f.payload.solutionSeen ||
+                f.payload.exposureId),
+          ).length,
+          'risposte con aiuto',
+        ),
+        metric(
+          evaluations.filter(
+            (f) =>
+              f.kind === 'evaluation' &&
+              f.payload.judgment === 'verifiable-error',
+          ).length,
+          'da rivedere',
+        ),
+        metric(
+          evaluations.filter(
+            (f) =>
+              f.kind === 'evaluation' &&
+              ['not-evaluable', 'no-opportunity'].includes(f.payload.judgment),
+          ).length,
+          'senza valutazione',
+        ),
+      );
       content.append(
-        el(
-          'p',
-          'Los aciertos con pista o tras ver la corrección son asistidos. Completar esta sesión no demuestra dominio estable.',
+        stats,
+        support(
+          'Cada cifra cuenta respuestas, incluidos reintentos; las respuestas con ayuda pueden incluir errores.',
         ),
       );
-      const progress = el('a', 'Ver progreso del concepto', 'primary-link');
+      content.append(
+        support(
+          'Buen trabajo: has dedicado tiempo a practicar. Consultar teoría, pistas o correcciones cuenta como ayuda. Una sesión no demuestra que ya lo recuerdes a largo plazo.',
+        ),
+      );
+      const progress = el('a', 'Vedi i progressi', 'primary-link');
       progress.href = '/progress?concept=' + root.payload.conceptId;
-      const back = el('a', 'Volver a Biblioteca');
+      const back = el('a', 'Torna alla biblioteca');
       back.href = '/library';
       content.append(progress, el('p'), back);
       return;
@@ -137,22 +205,67 @@ export async function learning(store: LocalStore, saved: () => void) {
     content.append(
       el(
         'p',
-        `Actividad ${state.index + 1} de ${root.payload.activities.length}`,
+        `Esercizio ${state.index + 1} di ${root.payload.activities.length}`,
       ),
-      el('h3', activity.prompt),
+      el('h3', instruction(activity)),
     );
+    const meter = el('progress');
+    meter.max = root.payload.activities.length;
+    meter.value = state.index;
+    meter.setAttribute('aria-label', 'Esercizi completati');
+    content.insertBefore(meter, content.lastElementChild);
+    if (theories[root.payload.conceptId]) {
+      const panel = theoryPanel(root.payload.conceptId);
+      panel.hidden = true;
+      panel.id = 'session-theory';
+      const toggle = command(
+        copy.theory,
+        async () => {
+          view = await engine.update(
+            view!,
+            'theory',
+            theories[root.payload.conceptId].version,
+          );
+          theoryOpen = true;
+        },
+        true,
+      );
+      toggle.setAttribute('aria-controls', panel.id);
+      toggle.setAttribute('aria-expanded', String(theoryOpen));
+      content.append(toggle);
+      if (theoryOpen) {
+        panel.hidden = false;
+        panel.prepend(
+          support(
+            'Consultar esta ficha cuenta como ayuda en lo que queda de sesión. Puedes volver a responder cuando quieras.',
+          ),
+        );
+        panel.append(
+          button(
+            'Torna all’esercizio',
+            () => {
+              theoryOpen = false;
+              draw();
+              content.querySelector<HTMLButtonElement>('button')?.focus();
+            },
+            true,
+          ),
+        );
+      }
+      content.append(panel);
+    }
     if (state.phase === 'answer') {
       if (state.attemptId)
         content.append(
           el(
             'p',
-            'Reintento tras corrección: se registrará como reparación asistida.',
+            'Riprova con la correzione: questa risposta conta come pratica con aiuto.',
             'muted',
           ),
         );
       if (activity.format === 'selection') {
         const choices = el('fieldset');
-        choices.append(el('legend', 'Selecciona tu respuesta'));
+        choices.append(el('legend', 'Scegli la risposta'));
         for (const [i, option] of activity.options.entries()) {
           const label = el('label', undefined, 'answer-choice');
           const input = el('input');
@@ -176,8 +289,8 @@ export async function learning(store: LocalStore, saved: () => void) {
         const label = el(
           'label',
           activity.format === 'cloze'
-            ? 'Completa el hueco'
-            : 'Tu respuesta breve',
+            ? 'Completa lo spazio'
+            : 'La tua risposta',
         );
         label.htmlFor = 'learning-answer';
         const input = el('input');
@@ -186,7 +299,7 @@ export async function learning(store: LocalStore, saved: () => void) {
         input.maxLength = 4000;
         input.autocomplete = 'off';
         input.spellcheck = false;
-        input.lang = 'it';
+        input.lang = language.targetLanguage;
         input.addEventListener('input', () => {
           const value = input.value;
           void enqueue(async () => {
@@ -195,10 +308,10 @@ export async function learning(store: LocalStore, saved: () => void) {
         });
         content.append(label, input);
       }
-      if (state.hintShown) content.append(el('p', 'Pista: ' + activity.hint));
-      else content.append(command('Ver pista', change('hint'), true));
+      if (state.hintShown) content.append(support('Ayuda: ' + activity.hint));
+      else content.append(command(copy.hint, change('hint'), true));
       content.append(
-        command('Comprobar respuesta', async () => {
+        command(copy.check, async () => {
           view = await engine.submit(view!);
         }),
       );
@@ -209,40 +322,71 @@ export async function learning(store: LocalStore, saved: () => void) {
           f.kind === 'evaluation' && f.payload.attemptId === state.attemptId,
       );
       if (attempt?.kind === 'attempt' && evaluation?.kind === 'evaluation') {
-        const feedback = el('div');
+        const feedback = el(
+          'div',
+          undefined,
+          'feedback ' +
+            (evaluation.payload.judgment === 'correct'
+              ? 'positive'
+              : evaluation.payload.judgment === 'verifiable-error'
+                ? 'negative'
+                : 'neutral'),
+        );
+        const symbol = el(
+          'span',
+          evaluation.payload.judgment === 'correct'
+            ? '✓'
+            : evaluation.payload.judgment === 'verifiable-error'
+              ? '✕'
+              : '?',
+          'feedback-symbol',
+        );
+        symbol.setAttribute('aria-hidden', 'true');
+        feedback.append(symbol);
         feedback.setAttribute('role', 'status');
         feedback.append(
           el('h3', judgmentLabels[evaluation.payload.judgment]),
-          el('p', 'Tu respuesta: ' + (attempt.payload.response || '(vacía)')),
-          el('p', evaluation.payload.explanation),
+          el(
+            'p',
+            'La tua risposta: ' + (attempt.payload.response || '(vuota)'),
+          ),
+          support(
+            evaluation.payload.judgment === 'no-opportunity'
+              ? 'Todavía no has enviado una respuesta. Puedes volver a intentarlo.'
+              : evaluation.payload.judgment === 'not-evaluable'
+                ? 'No podemos comprobar esta respuesta con seguridad. No cuenta como error. Consulta la teoría si necesitas ayuda.'
+                : evaluation.payload.explanation.replace(
+                    'La consigna pide el pronombre; este ítem no evalúa la omisión del sujeto.',
+                    'En este ejercicio, escribe también el pronombre noi.',
+                  ),
+            '',
+          ),
         );
         feedback.append(
           el(
             'p',
-            attempt.payload.hintShown ||
+            attempt.payload.theoryVersion ||
+              attempt.payload.hintShown ||
               attempt.payload.solutionSeen ||
               attempt.payload.exposureId
-              ? 'Observación asistida o ítem ya expuesto: no acredita recuperación independiente.'
-              : 'Intento sin ayudas de este ítem; no demuestra retención ni dominio estable.',
+              ? 'Con aiuto · Hai consultato un supporto o già visto questo esercizio.'
+              : 'Senza aiuto · Un passo avanti nella pratica.',
             'muted',
           ),
         );
         content.append(feedback);
       }
       content.append(
-        command('Reintentar', change('retry'), true),
+        command(copy.retry, change('retry'), true),
         command(
           state.index + 1 === root.payload.activities.length
-            ? 'Finalizar y ver resumen'
-            : 'Siguiente actividad',
+            ? 'Vedi il riepilogo'
+            : copy.next,
           change('next'),
         ),
       );
     }
-    content.append(
-      el('p'),
-      command('Terminar sesión ahora', change('finish'), true),
-    );
+    content.append(el('p'), command(copy.finish, change('finish'), true));
   };
   const params = new URLSearchParams(location.search);
   try {
@@ -264,15 +408,11 @@ export async function learning(store: LocalStore, saved: () => void) {
       if (!concept)
         throw new Error('Concepto no habilitado en esta compilación.');
       content.append(
-        el('h2', concept.title),
-        el('p', concept.objective),
-        el('p', concept.scope),
-        el(
-          'p',
-          'CANDIDATE · Solo validación técnica. No revisado ni publicado.',
-          'muted',
-        ),
+        el('h2', theories[conceptId]?.title ?? concept.title),
+        support(theories[concept.id]?.goal ?? concept.objective, ''),
       );
+      content.append(link('← Teoria ed esempi', '/concept?id=' + conceptId));
+      if (concept.status === 'candidate') content.append(previewNotice());
       for (const r of catalog.relations.filter(
         (r) => r.from === conceptId && r.type === 'prerequisite',
       ))
@@ -286,13 +426,13 @@ export async function learning(store: LocalStore, saved: () => void) {
           ),
         );
       content.append(
-        command('Iniciar práctica', async () => {
+        command(copy.start, async () => {
           view = await engine.start(conceptId);
         }),
       );
     } else {
-      content.append(el('h2', 'Práctica por concepto'));
-      const link = el('a', 'Elegir concepto en Biblioteca', 'primary-link');
+      content.append(el('h2', 'Scegli la tua pratica'));
+      const link = el('a', 'Esplora la biblioteca', 'primary-link');
       link.href = '/library';
       content.append(link);
       const history = await store.allFacts();
@@ -305,7 +445,7 @@ export async function learning(store: LocalStore, saved: () => void) {
           continue;
         const link = el(
           'a',
-          `${head.payload.state.status === 'completed' ? 'Resumen' : 'Continuar'}: ${catalog.concepts.find((c) => c.id === root.payload.conceptId)?.title ?? root.payload.conceptId} · ${head.occurredAt} · ${head.id.slice(0, 8)}`,
+          `${head.payload.state.status === 'completed' ? 'Riepilogo' : 'Continua'}: ${catalog.concepts.find((c) => c.id === root.payload.conceptId)?.title ?? root.payload.conceptId} · ${new Date(head.occurredAt).toLocaleString(language.targetLanguage)}`,
         );
         link.href = '/practice?session=' + head.id;
         content.append(el('p'));
@@ -314,7 +454,7 @@ export async function learning(store: LocalStore, saved: () => void) {
       content.append(
         el(
           'p',
-          'Cada versión concurrente se conserva como una opción separada.',
+          'Se hai praticato su più dispositivi, puoi ritrovare qui le diverse sessioni.',
           'muted',
         ),
       );

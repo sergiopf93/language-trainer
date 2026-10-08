@@ -1,23 +1,26 @@
 import { test, expect, type Page } from '@playwright/test';
 async function start(page: Page) {
   await page.goto('/library');
+  await page.screenshot({
+    path: 'test-results/library-mobile.png',
+    fullPage: true,
+  });
   await page
-    .getByRole('link', { name: 'Practicar Presente de essere', exact: true })
+    .getByRole('link', { name: 'Scopri il concetto', exact: true })
+    .nth(1)
     .click();
   await page
-    .getByRole('button', { name: 'Iniciar práctica', exact: true })
+    .getByRole('button', { name: 'Inizia la pratica', exact: true })
     .click();
   await expect(
-    page.getByRole('heading', { name: /Selecciona la forma/ }),
+    page.getByRole('heading', { name: /Scegli la forma/ }),
   ).toBeVisible();
 }
 const answer = (page: Page) =>
-  page
-    .getByRole('button', { name: 'Comprobar respuesta', exact: true })
-    .click();
+  page.getByRole('button', { name: 'Controlla', exact: true }).click();
 const saved = (page: Page) =>
   expect(
-    page.getByText('Práctica guardada en este dispositivo', { exact: true }),
+    page.getByText('Pratica salvata su questo dispositivo', { exact: true }),
   ).toBeVisible();
 test('candidate loop on mobile: offline reload, repair, hints, summary and projection', async ({
   page,
@@ -34,37 +37,35 @@ test('candidate loop on mobile: offline reload, repair, hints, summary and proje
   await context.setOffline(true);
   await answer(page);
   await expect(
-    page.getByRole('heading', { name: 'Error verificable', exact: true }),
+    page.getByRole('heading', { name: 'Da rivedere', exact: true }),
   ).toBeVisible();
   await page.reload();
   await expect(
-    page.getByRole('heading', { name: 'Error verificable', exact: true }),
+    page.getByRole('heading', { name: 'Da rivedere', exact: true }),
   ).toBeVisible();
-  await page.getByRole('button', { name: 'Reintentar', exact: true }).click();
+  await page.getByRole('button', { name: 'Riprova', exact: true }).click();
   await page.getByLabel('sono', { exact: true }).check();
   await answer(page);
   await expect(
     page.getByText(
-      'Observación asistida o ítem ya expuesto: no acredita recuperación independiente.',
+      'Con aiuto · Hai consultato un supporto o già visto questo esercizio.',
     ),
   ).toBeVisible();
+  await page.getByRole('button', { name: 'Continua', exact: true }).click();
   await page
-    .getByRole('button', { name: 'Siguiente actividad', exact: true })
+    .getByRole('button', { name: 'Mostra un aiuto', exact: true })
     .click();
-  await page.getByRole('button', { name: 'Ver pista', exact: true }).click();
-  await page.getByLabel('Completa el hueco').fill('sei');
+  await page.getByLabel('Completa lo spazio').fill('sei');
   await saved(page);
   await page.reload();
-  await expect(page.getByLabel('Completa el hueco')).toHaveValue('sei');
-  await expect(page.getByText(/^Pista:/)).toBeVisible();
+  await expect(page.getByLabel('Completa lo spazio')).toHaveValue('sei');
+  await expect(page.getByText(/^Ayuda:/)).toBeVisible();
   await answer(page);
-  await page
-    .getByRole('button', { name: 'Siguiente actividad', exact: true })
-    .click();
-  await page.getByLabel('Tu respuesta breve').fill('Noi siamo');
+  await page.getByRole('button', { name: 'Continua', exact: true }).click();
+  await page.getByLabel('La tua risposta').fill('Noi siamo');
   await answer(page);
   await expect(
-    page.getByRole('heading', { name: 'Respuesta correcta', exact: true }),
+    page.getByRole('heading', { name: 'Corretto!', exact: true }),
   ).toBeVisible();
   await page.evaluate(() => window.scrollTo(0, 0));
   await page.screenshot({
@@ -72,28 +73,49 @@ test('candidate loop on mobile: offline reload, repair, hints, summary and proje
     fullPage: true,
   });
   await page
-    .getByRole('button', { name: 'Finalizar y ver resumen', exact: true })
+    .getByRole('button', { name: 'Vedi il riepilogo', exact: true })
     .click();
   await expect(
-    page.getByRole('heading', { name: 'Resumen de sesión', exact: true }),
+    page.getByRole('heading', {
+      name: 'Riepilogo della sessione',
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(page.getByText('3 di 3 esercizi · 4 tentativi.')).toBeVisible();
+  await expect(
+    page.getByRole('img', { name: '3 di 3 esercizi con risposta inviata' }),
   ).toBeVisible();
   await expect(
-    page.getByText('3 de 3 actividades respondidas · 4 intentos conservados.'),
-  ).toBeVisible();
+    page
+      .locator('.metric')
+      .filter({ hasText: 'corrette senza aiuto' })
+      .locator('strong'),
+  ).toHaveText('1');
+  await expect(
+    page
+      .locator('.metric')
+      .filter({ hasText: 'risposte con aiuto' })
+      .locator('strong'),
+  ).toHaveText('2');
+  await page.screenshot({
+    path: 'test-results/summary-mobile.png',
+    fullPage: true,
+  });
   await page.reload();
   await expect(
-    page.getByRole('heading', { name: 'Resumen de sesión', exact: true }),
+    page.getByRole('heading', {
+      name: 'Riepilogo della sessione',
+      exact: true,
+    }),
   ).toBeVisible();
   await page
-    .getByRole('link', { name: 'Ver progreso del concepto', exact: true })
+    .getByRole('link', { name: 'Vedi i progressi', exact: true })
     .click();
   await expect(
-    page.getByText(
-      '1 aciertos y 0 errores sin ayuda; 1 observaciones asistidas. 2 ítems distintos.',
-    ),
+    page.getByText('1 aciertos · 0 errores sin ayuda · 1 respuestas con ayuda'),
   ).toBeVisible();
   await expect(
-    page.getByRole('heading', { name: 'Retención diferida', exact: true }),
+    page.getByRole('heading', { name: 'Ricordare nel tempo', exact: true }),
   ).toBeVisible();
   await page.setViewportSize({ width: 320, height: 740 });
   expect(
@@ -114,22 +136,18 @@ test('unknown response stays unevaluable and a partial session can finish', asyn
   await start(page);
   await answer(page);
   await expect(
-    page.getByRole('heading', { name: 'Sin respuesta evaluable', exact: true }),
+    page.getByRole('heading', { name: 'Nessuna risposta', exact: true }),
   ).toBeVisible();
-  await page
-    .getByRole('button', { name: 'Siguiente actividad', exact: true })
-    .click();
-  await page.getByLabel('Completa el hueco').fill('risposta fuori criterio');
+  await page.getByRole('button', { name: 'Continua', exact: true }).click();
+  await page.getByLabel('Completa lo spazio').fill('risposta fuori criterio');
   await answer(page);
   await expect(
-    page.getByRole('heading', { name: 'Respuesta no evaluable', exact: true }),
+    page.getByRole('heading', { name: 'Da verificare', exact: true }),
   ).toBeVisible();
   await page
-    .getByRole('button', { name: 'Terminar sesión ahora', exact: true })
+    .getByRole('button', { name: 'Termina la sessione', exact: true })
     .click();
-  await expect(
-    page.getByText('2 de 3 actividades respondidas · 2 intentos conservados.'),
-  ).toBeVisible();
+  await expect(page.getByText('2 di 3 esercizi · 2 tentativi.')).toBeVisible();
 });
 
 test('two browsers sync learning facts and resume without duplicate attempts', async ({
@@ -144,7 +162,9 @@ test('two browsers sync learning facts and resume without duplicate attempts', a
   const pa = await a.newPage();
   const pb = await b.newPage();
   const link = async (page: Page) => {
-    await page.getByRole('button', { name: 'Ajustes', exact: true }).click();
+    await page
+      .getByRole('button', { name: 'Impostazioni', exact: true })
+      .click();
     await page
       .getByLabel('Código privado de acceso')
       .fill(process.env.E2E_ACCESS_CODE!);
@@ -156,10 +176,14 @@ test('two browsers sync learning facts and resume without duplicate attempts', a
   };
   await start(pa);
   await link(pa);
+  await pa
+    .getByRole('button', { name: 'Rivedi la teoria', exact: true })
+    .click();
+  await pa.getByRole('button', { name: 'Torna all’esercizio' }).click();
   await pa.getByLabel('sono', { exact: true }).check();
   await answer(pa);
   await expect(
-    pa.getByRole('heading', { name: 'Respuesta correcta', exact: true }),
+    pa.getByRole('heading', { name: 'Corretto!', exact: true }),
   ).toBeVisible();
   await expect(pa.locator('.sync-status')).toHaveText('Sincronizado');
   const sessionPath = new URL(pa.url()).pathname + new URL(pa.url()).search;
@@ -167,18 +191,16 @@ test('two browsers sync learning facts and resume without duplicate attempts', a
   await link(pb);
   await pb.goto(sessionPath);
   await expect(
-    pb.getByRole('heading', { name: 'Respuesta correcta', exact: true }),
+    pb.getByRole('heading', { name: 'Corretto!', exact: true }),
   ).toBeVisible();
-  await pb
-    .getByRole('button', { name: 'Siguiente actividad', exact: true })
-    .click();
-  await pb.getByLabel('Completa el hueco').fill('sei');
+  await pb.getByRole('button', { name: 'Continua', exact: true }).click();
+  await pb.getByLabel('Completa lo spazio').fill('sei');
   await answer(pb);
   await expect(pb.locator('.sync-status')).toHaveText('Sincronizado');
   await link(pa);
   await pa.reload();
   await expect(
-    pa.getByText('Tu respuesta: sei', { exact: true }),
+    pa.getByText('La tua risposta: sei', { exact: true }),
   ).toBeVisible();
   const counts = await pa.evaluate(async () => {
     const db = await new Promise<IDBDatabase>((resolve, reject) => {
@@ -209,7 +231,7 @@ test('production build excludes candidate content', async ({ page }) => {
   ).toBeVisible();
   await expect(
     page.getByRole('link', {
-      name: 'Practicar Presente de essere',
+      name: 'Scopri il concetto',
       exact: true,
     }),
   ).toHaveCount(0);
@@ -220,6 +242,52 @@ test('production build excludes candidate content', async ({ page }) => {
     }),
   ).toBeVisible();
   await expect(
-    page.getByRole('button', { name: 'Iniciar práctica', exact: true }),
+    page.getByRole('button', { name: 'Inizia la pratica', exact: true }),
   ).toHaveCount(0);
+});
+
+test('theory detail and in-session help keep the draft and mark assisted answers', async ({
+  page,
+  context,
+}) => {
+  await page.goto('/library');
+  await page.getByRole('link', { name: 'Scopri il concetto' }).nth(1).click();
+  await expect(page.getByRole('heading', { name: 'La regola' })).toBeVisible();
+  await expect(page.locator('.theory-panel')).toContainText('Noi siamo');
+  await page.screenshot({
+    path: 'test-results/concept-mobile.png',
+    fullPage: true,
+  });
+  await page
+    .getByRole('button', { name: 'Inizia la pratica', exact: true })
+    .click();
+  await page.getByLabel('sono', { exact: true }).check();
+  await saved(page);
+  await page
+    .getByRole('button', { name: 'Rivedi la teoria', exact: true })
+    .click();
+  await expect(page.getByRole('heading', { name: 'La regola' })).toBeVisible();
+  await page.getByRole('button', { name: 'Torna all’esercizio' }).click();
+  await expect(page.getByLabel('sono', { exact: true })).toBeChecked();
+  await context.setOffline(true);
+  await page.reload();
+  await answer(page);
+  await expect(page.locator('.feedback')).toContainText('Con aiuto');
+  await expect(page.locator('.feedback-symbol')).toHaveText('✓');
+  await page.getByRole('button', { name: 'Continua', exact: true }).click();
+  await page.getByLabel('Completa lo spazio').fill('sei');
+  await answer(page);
+  await expect(page.locator('.feedback')).toContainText('Con aiuto');
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  expect(
+    await page
+      .locator('.feedback')
+      .evaluate((el) => getComputedStyle(el).animationName),
+  ).toBe('none');
+  await page.setViewportSize({ width: 320, height: 740 });
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+  ).toBe(true);
 });
