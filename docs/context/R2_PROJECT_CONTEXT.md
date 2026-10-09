@@ -191,6 +191,14 @@ Mantiene `Lesson → materialize`, cinco archivos de lote, extensiones léxicas 
 
 Validación: 112 pruebas locales; tipos, formato y builds; 16 E2E candidate y 1 E2E de exclusión de producción, con regresiones de C01–C05, offline/sync y ficha a 320 px. Todo candidate, sin reviewed/published. Pendientes validación manual del lote y revisión editorial; Cloudflare nativo/remoto no comprobado en este entorno. Sin merge, push ni despliegue. Siguiente lote recomendado **C11–C15**, solo tras autorización; detenerse tras C06–C10. V1 sigue siendo C01–C34 y los 99 conceptos.
 
+## Tercer lote curricular — C11–C17 (2026-10-09)
+
+C01–C10 confirmados por Sergio al autorizar este bloque. Rama `feat/italian-a1-c11-c17`, desde `d970489`; pack activo `it-A1-candidate-6`. Añadidos **22 Concepts** (2/1/3/2/3/8/3), 22 Theory, 206 actividades explícitas y 76 entradas léxicas; 38 entradas anteriores reutilizadas. Coverage: **29→51/99 Concepts, 29→51 Theory, 225→431 actividades, 96→172 entradas; 0 ready**. Baseline, distribución y límites en [A1_COVERAGE_MATRIX](../product/A1_COVERAGE_MATRIX.md). Quedan **48 Concepts ausentes en C18–C34**; no se modifica el inventario de V1.
+
+Mantiene Lesson→materialize, sin nuevos templates: 2 templates/9 variantes previos. Añade 55 relaciones recomendadas/relacionadas/de contraste/refuerzo (33 hacia C01–C10), sin hard locks. Recuperación, transformación y producción controlada acompañan al reconocimiento; formas verbales y numerales tienen Theory previa. Un grupo nominal o modal integrado atribuye la oportunidad únicamente al concepto objetivo. C01–C10 conservan teoría, enunciados y criterios; cambian asociaciones léxicas y metadatos de pack. Sin cambios de UI, evaluación, mastery/review, persistencia ni despliegue.
+
+Validación: **139 pruebas locales**; la batería completa de 137 pasó y se repitieron las 65 curriculares afectadas tras añadir dos comprobaciones de atribución/repair. Typecheck, formato, builds, coverage, diff, **18 E2E candidate y 1 de exclusión de producción**, con regresiones offline/sync y ficha C17 a 320 px inspeccionada. Todo candidate, sin reviewed/published. Pendientes validación manual del usuario y revisión editorial independiente; Cloudflare nativo/remoto no ejecutado. Sin merge, push ni despliegue. Detenerse tras C17; siguiente lote recomendado **C18–C22**, solo con autorización. V1 sigue siendo C01–C34 y sus 99 conceptos.
+
 ## Reglas y mantenimiento
 
 Hablar español; implementar solo el bloque autorizado y detenerse al entregarlo. No merge a main ni gasto sin autorización explícita. No sobrescribir trabajo ni ocultar fallos. No presentar propuesta/publicación como funcionalidad probada. Mantener trazabilidad del A1, canon, ayudas y versiones. Modificar reglas globales únicamente dentro de una autorización explícita de Sergio.
