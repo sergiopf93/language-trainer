@@ -1,6 +1,6 @@
 # Matriz de cobertura — V1 italiano A1 completo
 
-Estado: inventario de V1 conservado. C01–C17 implementados como contenido candidate para estudio y práctica focal; no publicado ni validado editorialmente. Fuente de alcance: [Research 02](../research/02_Italian_A1_Curriculum.md). Las casillas CC continúan pendientes: la carga técnica no acredita por sí sola todo el contrato de V1.
+Estado: inventario de V1 conservado. C01–C25 implementados como contenido candidate para estudio y práctica focal; no publicado ni validado editorialmente. Fuente de alcance: [Research 02](../research/02_Italian_A1_Curriculum.md). Las casillas CC continúan pendientes: la carga técnica no acredita por sí sola todo el contrato de V1.
 
 ## Inventario y uso de la checklist
 
@@ -100,6 +100,39 @@ C01–C10 conservan sus 29 Theory y 225 actividades, IDs, versiones y criterios 
 Validación: **139 pruebas locales** (137 de la batería completa y repetición de las 65 pruebas curriculares afectadas tras añadir dos casos de atribución), typecheck, formato, builds normal/candidate, **18 E2E candidate + 1 E2E de exclusión en producción**; el caso de producción se omite intencionalmente durante la ejecución candidate y se ejecuta por separado. Integración Theory→práctica→Evidence de cada concepto, respuestas alternativas, errores/acento, abstención/vacío, ayudas/reintentos, procedencia/versiones, regresiones C01–C10 y offline/sync; captura C17 inspeccionada a 320 px. Sin incidencias abiertas en estas comprobaciones.
 
 Todo permanece **candidate**, nada reviewed/published. `coverage=complete` acredita aquí el alcance focal escrito implementado, no publicación ni todo CC1–CC10. **48 Concepts pendientes, C18–C34**; C18 no iniciado. Pendientes validación manual del usuario y revisión editorial independiente; Reading/Writing extensos y Review avanzado fuera de este lote. Cloudflare nativo/remoto no ejecutado. Siguiente lote recomendado: **C18–C22**, sujeto a autorización.
+
+## Control de carga — lote C18–C25
+
+Baseline ejecutado: commit `94c920b`, pack `it-A1-candidate-6`: **51/99 Concepts, 51 Theory, 431 actividades, 172 entradas léxicas, 0 ready**. Resultado: pack `it-A1-candidate-7`: **73/99 Concepts, 73 Theory, 613 actividades, 234 entradas léxicas, 0 ready**. Se añaden los 22 conceptos previstos sin cambiar V1: 34 bloques/99 conceptos. Coverage inicial y final sin errores con Node 22.23.3; el Node antiguo de la terminal no ejecuta el script.
+
+| Bloque | Concepts nuevos | Theory nuevas | Actividades nuevas | Entradas vinculadas (compartidas) |
+|---|---:|---:|---:|---:|
+| C18 | 2 | 2 | 16 | 21 |
+| C19 | 2 | 2 | 16 | 12 |
+| C20 | 6 | 6 | 48 | 49 |
+| C21 | 2 | 2 | 18 | 20 |
+| C22 | 4 | 4 | 34 | 48 |
+| C23 | 2 | 2 | 17 | 19 |
+| C24 | 2 | 2 | 17 | 10 |
+| C25 | 2 | 2 | 16 | 14 |
+
+**62 entradas nuevas y 65 anteriores reutilizadas**. Ratio de reutilización: **65 / (65 + 62) ≈ 51 %**, medido sobre entradas léxicas distintas vinculadas a las fichas del lote, no sobre tokens de texto ni frecuencia de aparición. No sumar las columnas léxicas por bloque. El crecimiento es deliberado: 19 entradas corresponden a los siete días y doce meses; las demás cubren construcciones objetivo, palabras temporales, parentesco y apoyo limitado. Las formas flexionadas se agrupan en la misma entrada. Vocabulario nuevo:
+
+- Construcciones/preposiciones/pronombres: vorrei, esserci, da, su, tra, fra, per, me, te, mi, ti, mio, tuo, suo, nostro, vostro, questo, quello, piacere.
+- Calendario: lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica; gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, ottobre, novembre, dicembre.
+- Tiempo/frecuencia: ora, giorno, volta, settimana, appuntamento, mezzogiorno, mezzanotte, primo, quarto, mezza, sempre, spesso, qualche volta, mai.
+- Parentesco y apoyo: padre, madre, fratello, sorella, sorellina, caro, Italia, treno, centro, là.
+
+**182 actividades explícitas, sin nuevos templates**; se conservan los 2 templates y 9 variantes. Formatos: selection 22, cloze 42, short 19, transformation 25, error-correction 19, controlled-production 24, translation 20, error-detection 11. Familias nuevas F1 33, F2 61, F3 44, F4 44; F7 se conserva en el contenido anterior. Habilidades: reconocimiento 22, recuperación 61, transformación 44, producción controlada 44, discriminación 11. Recuperación/transformación/producción suman 149/182 (82 %). No se fuerza matching ni ordering para aumentar variedad nominal.
+
+**46 relaciones nuevas**, 31 con C01–C17; grafo total 150. Tipos prerequisite (recomendado, sin hard locks), related, contrast y reinforces. Se conectan cortesía/modales, existencia/essere locativo, preposiciones/origen/desplazamiento, articuladas/artículos, calendario/números/rutinas, posesivos/grupo nominal, demostrativos/artículos y gustos/infinitivos/número. Una oportunidad por actividad, atribuida solo al concepto objetivo: los errores de la cita no se propagan a calendario, modal o preposiciones.
+
+Conservación comprobada contra el pack baseline: las 51 Theory previas son idénticas; las 431 actividades conservan IDs/versiones, enunciados, aceptadas/rechazadas, feedback y tareas. Solo se actualizan canonVersion/packVersion del pack activo. Las asociaciones léxicas crecen; di, a, in, con y loro amplían glosa/uso con versión incrementada (loro añade su uso posesivo). Sin cambios en los archivos C01–C17, UI, evaluador, Evidence, Review/Mastery, infraestructura ni dependencias.
+
+Validación: **194 pruebas locales**, typecheck, formato y builds normal/candidate correctos; **19 E2E candidate y 1 E2E de exclusión en producción**, incluidas regresiones C01–C17, offline/sync y cita incompatible con persistencia del feedback. Pruebas data-driven de IDs/referencias/versiones/grafo/Theory/léxico/respuestas/templates/provenance/estado/coverage; sesiones de los 73 conceptos con ayudas/reintentos y Evidence. Una carencia inicial de variedad contextual en C23-02 se corrigió con mensajería de visita y se repitió la batería completa. Ficha C22-04 a 320 px comprobada. Tras aclarar notas didácticas, se repitieron las 112 pruebas curriculares afectadas, el build candidate y el E2E de citas, todos correctos. El build advierte de un chunk minificado superior a 500 kB; no se introduce refactor en esta carga curricular.
+
+Todo **candidate**, nada reviewed/published, 0 listo para producción. `coverage=complete` acredita aquí el objetivo focal escrito, no revisión editorial ni CC1–CC10 completos. Pendientes validación humana y revisión editorial; Cloudflare nativo/remoto no ejecutado. **26 conceptos ausentes en C26–C34**; C26 no iniciado. Siguiente lote sugerido: C26–C30, solo tras autorización. Sin merge ni despliegue.
+
 
 ## Contrato común CC — heredado explícitamente por cada uno de los 99 Concepts
 
@@ -383,7 +416,7 @@ Siete familias, no siete motores aislados; F5/F6 componen interacciones reutiliz
 
 **Familias, modos y errores:** F1/F2/F3/F4/F5/F6. Focus: intención/destinatario; Mixed: petición/declaración; Review: objeto/interlocutor nuevo; Reading: intercambio; Writing: reserva/pedido. Errores: registro, referencia/persona, propósito; formalidad no solo cambiar pronombre.
 
-**Estado de cada Concept:** contenido planificado; implementación no implementada. Hereda CC1–CC10 completos.
+**Estado de cada Concept:** contenido candidate; Theory y práctica focal implementadas en `src/content/italian-a1/c18.ts`. Validación técnica registrada en el control C18–C25; revisión editorial/publicación y CC1–CC10 completos pendientes.
 
 ### C19 — Existencia · Topic it-a1-t19
 
@@ -396,7 +429,7 @@ Siete familias, no siete motores aislados; F5/F6 componen interacciones reutiliz
 
 **Familias, modos y errores:** F1/F2/F3/F4/F5/F6. Focus: número/función; Mixed: essere locativo; Review: otro lugar; Reading: anuncio; Writing: vivienda/disponibilidad. Errores: número, construcción, referencia, grafía.
 
-**Estado de cada Concept:** contenido planificado; implementación no implementada. Hereda CC1–CC10 completos.
+**Estado de cada Concept:** contenido candidate; Theory y práctica focal implementadas en `src/content/italian-a1/c19.ts`. Validación técnica registrada en el control C18–C25; revisión editorial/publicación y CC1–CC10 completos pendientes.
 
 ### C20 — Preposiciones simples por uso · Topic it-a1-t20
 
@@ -413,7 +446,7 @@ Siete familias, no siete motores aislados; F5/F6 componen interacciones reutiliz
 
 **Familias, modos y errores:** F1/F2/F3/F4/F5/F6. Focus: función/subalcance; Mixed: elección contextual; Review: combinaciones nuevas válidas conocidas; Reading: indicaciones/horarios; Writing: ubicación/cita/desplazamiento. Errores: preposición, régimen, relación semántica.
 
-**Estado de cada Concept:** contenido planificado; implementación no implementada. Hereda CC1–CC10 completos.
+**Estado de cada Concept:** contenido candidate; Theory y práctica focal implementadas en `src/content/italian-a1/c20.ts`. Validación técnica registrada en el control C18–C25; revisión editorial/publicación y CC1–CC10 completos pendientes.
 
 ### C21 — Preposiciones articuladas · Topic it-a1-t21
 
@@ -426,7 +459,7 @@ Siete familias, no siete motores aislados; F5/F6 componen interacciones reutiliz
 
 **Familias, modos y errores:** F1/F2/F3/F4/F5/F6. Focus: forma/uso; Mixed: C20/artículos; Review: otro referente; Reading: anuncio/indicaciones; Writing: descripción/destino. Errores: fusión, artículo, régimen; relacionar sin castigo múltiple.
 
-**Estado de cada Concept:** contenido planificado; implementación no implementada. Hereda CC1–CC10 completos.
+**Estado de cada Concept:** contenido candidate; Theory y práctica focal implementadas en `src/content/italian-a1/c21.ts`. Validación técnica registrada en el control C18–C25; revisión editorial/publicación y CC1–CC10 completos pendientes.
 
 ### C22 — Calendario, hora y frecuencia · Topic it-a1-t22
 
@@ -441,7 +474,7 @@ Siete familias, no siete motores aislados; F5/F6 componen interacciones reutiliz
 
 **Familias, modos y errores:** F1/F2/F4/F5/F6/F7. Focus: dato/concertación; Mixed: preposiciones/presente; Review: nuevo horario; Reading: calendario/aviso; Writing: disponibilidad/cita. Errores: dato/comprensión, expresión temporal, pertinencia.
 
-**Estado de cada Concept:** contenido planificado; implementación no implementada. Hereda CC1–CC10 completos.
+**Estado de cada Concept:** contenido candidate; Theory y práctica focal implementadas en `src/content/italian-a1/c22.ts`. Validación técnica registrada en el control C18–C25; revisión editorial/publicación y CC1–CC10 completos pendientes.
 
 ### C23 — Posesivos · Topic it-a1-t23
 
@@ -454,7 +487,7 @@ Siete familias, no siete motores aislados; F5/F6 componen interacciones reutiliz
 
 **Familias, modos y errores:** F1/F2/F3/F4/F5/F6. Focus: poseedor/construcción; Mixed: nominales; Review: otro poseedor/referente; Reading: familia; Writing: relaciones. Errores: referencia, posesivo, género/número/artículo relacionados.
 
-**Estado de cada Concept:** contenido planificado; implementación no implementada. Hereda CC1–CC10 completos.
+**Estado de cada Concept:** contenido candidate; Theory y práctica focal implementadas en `src/content/italian-a1/c23.ts`. Validación técnica registrada en el control C18–C25; revisión editorial/publicación y CC1–CC10 completos pendientes.
 
 ### C24 — Questo/quello · Topic it-a1-t24
 
@@ -467,7 +500,7 @@ Siete familias, no siete motores aislados; F5/F6 componen interacciones reutiliz
 
 **Familias, modos y errores:** F1/F2/F3/F4/F5/F6. Focus: forma/referente; Mixed: artículos/pronombres conocidos; Review: otra selección; Reading: elección; Writing: elegir producto. Errores: referencia, forma, concordancia.
 
-**Estado de cada Concept:** contenido planificado; implementación no implementada. Hereda CC1–CC10 completos.
+**Estado de cada Concept:** contenido candidate; Theory y práctica focal implementadas en `src/content/italian-a1/c24.ts`. Validación técnica registrada en el control C18–C25; revisión editorial/publicación y CC1–CC10 completos pendientes.
 
 ### C25 — Gustos · Topic it-a1-t25
 
@@ -480,7 +513,7 @@ Siete familias, no siete motores aislados; F5/F6 componen interacciones reutiliz
 
 **Familias, modos y errores:** F1/F2/F3/F4/F5/F6. Focus: construcción; Mixed: actividad/entidades; Review: otra preferencia; Reading: gustos; Writing: preferencia/respuesta a invitación. Errores: número, destinatario/referencia, construcción.
 
-**Estado de cada Concept:** contenido planificado; implementación no implementada. Hereda CC1–CC10 completos.
+**Estado de cada Concept:** contenido candidate; Theory y práctica focal implementadas en `src/content/italian-a1/c25.ts`. Validación técnica registrada en el control C18–C25; revisión editorial/publicación y CC1–CC10 completos pendientes.
 
 ### C26 — Reflexivos frecuentes · Topic it-a1-t26
 
