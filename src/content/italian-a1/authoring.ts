@@ -1,7 +1,7 @@
 import type { Activity, Skill } from '../../../shared/learning';
 import type { Concept } from '../catalog';
 import type { Theory } from '../theory';
-export const batchVersion = 'it-A1-candidate-5';
+export const batchVersion = 'it-A1-candidate-6';
 export const provenance =
   'Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.';
 export const sources = {
@@ -51,9 +51,11 @@ export const conceptId = (code: string) => 'it-a1-c' + code;
 export function materialize(lesson: Lesson) {
   const id = conceptId(lesson.code);
   const lessonProvenance =
-    Number(lesson.code.slice(0, 2)) >= 6
-      ? 'Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.'
-      : provenance;
+    Number(lesson.code.slice(0, 2)) >= 11
+      ? 'Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.'
+      : Number(lesson.code.slice(0, 2)) >= 6
+        ? 'Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.'
+        : provenance;
   const version = ['03-01', '04-01'].includes(lesson.code) ? '2' : '1';
   const activities: Activity[] = lesson.items.map((item) => {
     const format = item.format;

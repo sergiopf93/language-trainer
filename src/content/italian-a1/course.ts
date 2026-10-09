@@ -13,6 +13,15 @@ import { c07 } from './c07';
 import { c08 } from './c08';
 import { c09 } from './c09';
 import { c10 } from './c10';
+import { c11 } from './c11';
+import { c12 } from './c12';
+import { c13 } from './c13';
+import { c14 } from './c14';
+import { c15 } from './c15';
+import { c16 } from './c16';
+import { c17 } from './c17';
+import { extendC11C17Vocabulary } from './vocabulary-c11-c17';
+import { c11C17Relations } from './relations-c11-c17';
 import { extendVocabulary } from './vocabulary-c06-c10';
 import { vocabularyFor } from './vocabulary';
 export const lessons = [
@@ -26,10 +35,20 @@ export const lessons = [
   ...c08,
   ...c09,
   ...c10,
+  ...c11,
+  ...c12,
+  ...c13,
+  ...c14,
+  ...c15,
+  ...c16,
+  ...c17,
 ];
 const content = lessons.map(materialize);
-const vocabulary = extendVocabulary(vocabularyFor(lessons), lessons);
-const relations: ConceptRelation[] = [];
+const vocabulary = extendC11C17Vocabulary(
+  extendVocabulary(vocabularyFor(lessons), lessons),
+  lessons,
+);
+const relations: ConceptRelation[] = [...c11C17Relations];
 function connect(
   from: string,
   to: string,
@@ -384,9 +403,9 @@ export const italianCourse: LanguagePack = {
   status: 'candidate',
   provenance:
     provenance +
-    ' Ampliación candidate C06–C10: Research 02 y A1_COVERAGE_MATRIX; revisión editorial pendiente.',
+    ' Ampliación candidate C06–C17: Research 02 y A1_COVERAGE_MATRIX; revisión editorial pendiente.',
   curriculum: italianCurriculum,
-  topics: italianCurriculum.levels[0].units.slice(0, 10).map((unit) => ({
+  topics: italianCurriculum.levels[0].units.slice(0, 17).map((unit) => ({
     id: unit.topicId,
     packId: fixture.id,
     title: unit.title,

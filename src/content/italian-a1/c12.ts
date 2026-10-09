@@ -1,0 +1,158 @@
+import type { Lesson } from './authoring';
+export const c12: Lesson[] = [
+  {
+    code: '12-01',
+    title: 'Una camera tranquilla',
+    objective:
+      'Construir artículo + nombre + adjetivo coherentes para nombrar, describir y pedir con reglas conocidas.',
+    introduction:
+      'Un grupo nominal reúne una referencia y su descripción. Elige el nombre y su género, decide singular o plural y si introduces o identificas el referente; después ajusta artículo y adjetivo.',
+    rules: [
+      'Para presentar una habitación: una camera tranquilla. Para retomar esa habitación conocida: la camera tranquilla.',
+      'En plural determinado cambian los componentes necesarios: il letto piccolo → i letti piccoli; la camera grande → le camere grandi.',
+      'El artículo se elige por el inicio de la palabra que sigue: lo studente italiano, uno studente italiano. Las prácticas usan nombre seguido de adjetivo.',
+      'Con nombres invariantes el número se ve en otras palabras: la città grande → le città grandi. No añadas -s al nombre.',
+      'No hay plural único de una: para varias habitaciones nuevas se puede dar una cantidad, due camere tranquille. El plural determinado le camere se usa si las habitaciones son identificables.',
+    ],
+    forms: [
+      ['una camera tranquilla', 'una habitación tranquila'],
+      ['le camere tranquille', 'las habitaciones tranquilas'],
+      ['gli studenti italiani', 'los estudiantes italianos'],
+    ],
+    examples: [
+      [
+        'Una camera tranquilla, per favore.',
+        'Una habitación tranquila, por favor.',
+      ],
+      ['Le città sono grandi.', 'Las ciudades son grandes.'],
+    ],
+    frequentErrors: [
+      '«Le camera tranquilli» mezcla género y número.',
+      'No uses «uni» como plural de un.',
+    ],
+    usageNotes: [
+      'Una respuesta observa el grupo nominal integrado: no genera tres errores independientes para artículo, nombre y adjetivo.',
+    ],
+    vocabularyIds: [
+      'it-camera',
+      'it-tranquillo',
+      'it-letto',
+      'it-piccolo',
+      'it-citta',
+      'it-grande',
+      'it-studente',
+      'it-italiano',
+      'it-penna',
+      'it-rosso',
+      'it-per-favore',
+      'it-articolo-determinativo',
+      'it-articolo-indeterminativo',
+    ],
+    facets: ['introducción', 'referencia', 'plural', 'integración'],
+    source:
+      'Research 02 C12; A1_COVERAGE_MATRIX C12. https://www.treccani.it/enciclopedia/aggettivi_(Enciclopedia-dell%27Italiano)/',
+    items: [
+      {
+        key: 'scegli',
+        format: 'selection',
+        prompt:
+          'Presenti una camera nuova, femminile singolare. Scegli il gruppo.',
+        accepted: ['una camera tranquilla'],
+        hint: 'Una y tranquilla concuerdan con camera.',
+        explanation: 'Una y tranquilla concuerdan con camera.',
+        facets: ['introducción', 'integración'],
+        context: 'hotel',
+        options: [
+          'una camera tranquilla',
+          'un camera tranquillo',
+          'una camera tranquilli',
+        ],
+      },
+      {
+        key: 'letti',
+        format: 'transformation',
+        prompt: 'Metti al plurale determinato: il letto piccolo.',
+        accepted: ['i letti piccoli'],
+        hint: 'Il diventa i; letto e piccolo prendono il plural -i.',
+        explanation: 'Il diventa i; letto e piccolo prendono il plural -i.',
+        facets: ['plural'],
+        context: 'vivienda',
+        rejected: ['i letto piccoli', 'i letti piccole'],
+      },
+      {
+        key: 'citta',
+        format: 'short',
+        prompt: 'Scrivi al plurale determinato: la città grande.',
+        accepted: ['le città grandi'],
+        hint: 'Città es invariable; le y grandi marcan el plural.',
+        explanation: 'Città es invariable; le y grandi marcan el plural.',
+        facets: ['plural'],
+        context: 'viaje',
+        rejected: ['le città grande', 'le cittàs grandi'],
+      },
+      {
+        key: 'riprendi',
+        format: 'controlled-production',
+        prompt:
+          'Hai già identificato una penna rossa. Scrivi il gruppo con articolo determinativo: ___ penna rossa.',
+        accepted: ['la penna rossa'],
+        hint: 'La retoma el referente femenino singular ya identificado.',
+        explanation:
+          'La retoma el referente femenino singular ya identificado.',
+        facets: ['referencia'],
+        context: 'estudio',
+        rejected: ['una penna rossa'],
+      },
+      {
+        key: 'chiedi',
+        format: 'translation',
+        prompt:
+          'Pide «una habitación tranquila, por favor» usando camera y tranquillo, sin verbo.',
+        accepted: [
+          'Una camera tranquilla, per favore',
+          'Una camera tranquilla, per favore.',
+          'Una camera tranquilla per favore',
+          'Una camera tranquilla per favore.',
+        ],
+        hint: 'El grupo introduce una habitación y concuerda en femenino singular.',
+        explanation:
+          'El grupo introduce una habitación y concuerda en femenino singular.',
+        facets: ['introducción', 'integración'],
+        context: 'hotel',
+      },
+      {
+        key: 'studenti',
+        format: 'error-correction',
+        prompt: 'Correggi il gruppo: «i studenti italiano».',
+        accepted: ['gli studenti italiani'],
+        hint: 'Ante st se usa gli; italiano concuerda en plural.',
+        explanation: 'Ante st se usa gli; italiano concuerda en plural.',
+        facets: ['integración'],
+        context: 'estudio',
+        rejected: ['i studenti italiani', 'gli studenti italiano'],
+      },
+      {
+        key: 'ordina',
+        format: 'ordering',
+        prompt: 'Ordina il gruppo con nome prima dell’aggettivo.',
+        accepted: ['le camere grandi'],
+        hint: 'El grupo determinado plural es le camere grandi.',
+        explanation: 'El grupo determinado plural es le camere grandi.',
+        facets: ['integración'],
+        context: 'hotel',
+        options: ['grandi', 'le', 'camere'],
+      },
+      {
+        key: 'quantita',
+        format: 'cloze',
+        prompt: 'Due camere ___ (tranquillo).',
+        accepted: ['tranquille'],
+        hint: 'La cantidad due requiere femenino plural tranquille.',
+        explanation: 'La cantidad due requiere femenino plural tranquille.',
+        facets: ['plural'],
+        context: 'hotel',
+        rejected: ['tranquilla', 'tranquilli'],
+      },
+    ],
+  },
+];

@@ -50,7 +50,9 @@ describe('C06–C10 authored linguistic boundaries', () => {
     expect(old).toHaveLength(138);
     expect(italianCourse.curriculum.levels[0].units).toHaveLength(34);
     expect(
-      italianCourse.concepts.filter((c) => Number(c.id.slice(7, 9)) >= 6),
+      italianCourse.concepts.filter(
+        (c) => Number(c.id.slice(7, 9)) >= 6 && Number(c.id.slice(7, 9)) <= 10,
+      ),
     ).toHaveLength(12);
     expect(curriculumCoverage(italianCourse).totals.expectedConcepts).toBe(99);
     expect(italianCourse.concepts.every((c) => c.status === 'candidate')).toBe(
@@ -92,7 +94,8 @@ describe('C06–C10 authored linguistic boundaries', () => {
       italianCourse.vocabulary.find((v) => v.id === 'it-mano')?.gender,
     ).toBe('feminine');
     for (const lesson of lessons.filter(
-      (l) => Number(l.code.slice(0, 2)) >= 6,
+      (l) =>
+        Number(l.code.slice(0, 2)) >= 6 && Number(l.code.slice(0, 2)) <= 10,
     )) {
       expect(
         lesson.items.some((i) =>
