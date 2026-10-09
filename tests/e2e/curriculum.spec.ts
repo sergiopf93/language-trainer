@@ -17,7 +17,7 @@ for (const id of [
     await page.goto('/library');
     await expect(
       page.getByRole('link', { name: 'Scopri il concetto', exact: true }),
-    ).toHaveCount(51);
+    ).toHaveCount(73);
     await page.locator(`a[href="/concept?id=${id}"]`).click();
     await expect(page.locator('.theory-panel')).toBeVisible();
     await expect(page.locator('.theory-panel')).toContainText(
@@ -110,3 +110,39 @@ for (const id of [
     ).toBe(true);
   });
 }
+
+test('appointment: rejects a conflicting time, preserves feedback and accepts an alternative', async ({
+  page,
+}) => {
+  await page.goto('/concept?id=it-a1-c22-04');
+  await expect(page.locator('.theory-panel')).toContainText(
+    'Non posso alle due',
+  );
+  await page.setViewportSize({ width: 320, height: 740 });
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+  ).toBe(true);
+  await page.screenshot({
+    path: 'test-results/c22-appointment-theory.png',
+    fullPage: true,
+  });
+  await page
+    .getByRole('button', { name: 'Inizia la pratica', exact: true })
+    .click();
+  await page.getByLabel('lunedì alle 15', { exact: true }).check();
+  await page.getByRole('button', { name: 'Controlla', exact: true }).click();
+  await expect(page.locator('.feedback-symbol')).toHaveText('✕');
+  await page.reload();
+  await expect(page.locator('.feedback-symbol')).toHaveText('✕');
+  await expect(page.locator('.feedback')).toContainText(
+    'Solo el martes a las 18',
+  );
+  await page.getByRole('button', { name: 'Continua', exact: true }).click();
+  await page
+    .getByLabel('La tua risposta', { exact: true })
+    .fill('Puoi venire lunedì alle tre?');
+  await page.getByRole('button', { name: 'Controlla', exact: true }).click();
+  await expect(page.locator('.feedback-symbol')).toHaveText('✓');
+});

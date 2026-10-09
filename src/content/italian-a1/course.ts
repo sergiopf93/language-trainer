@@ -20,6 +20,16 @@ import { c14 } from './c14';
 import { c15 } from './c15';
 import { c16 } from './c16';
 import { c17 } from './c17';
+import { c18 } from './c18';
+import { c19 } from './c19';
+import { c20 } from './c20';
+import { c21 } from './c21';
+import { c22 } from './c22';
+import { c23 } from './c23';
+import { c24 } from './c24';
+import { c25 } from './c25';
+import { extendC18C25Vocabulary } from './vocabulary-c18-c25';
+import { c18C25Relations } from './relations-c18-c25';
 import { extendC11C17Vocabulary } from './vocabulary-c11-c17';
 import { c11C17Relations } from './relations-c11-c17';
 import { extendVocabulary } from './vocabulary-c06-c10';
@@ -42,13 +52,24 @@ export const lessons = [
   ...c15,
   ...c16,
   ...c17,
+  ...c18,
+  ...c19,
+  ...c20,
+  ...c21,
+  ...c22,
+  ...c23,
+  ...c24,
+  ...c25,
 ];
 const content = lessons.map(materialize);
-const vocabulary = extendC11C17Vocabulary(
-  extendVocabulary(vocabularyFor(lessons), lessons),
+const vocabulary = extendC18C25Vocabulary(
+  extendC11C17Vocabulary(
+    extendVocabulary(vocabularyFor(lessons), lessons),
+    lessons,
+  ),
   lessons,
 );
-const relations: ConceptRelation[] = [...c11C17Relations];
+const relations: ConceptRelation[] = [...c11C17Relations, ...c18C25Relations];
 function connect(
   from: string,
   to: string,
@@ -403,9 +424,9 @@ export const italianCourse: LanguagePack = {
   status: 'candidate',
   provenance:
     provenance +
-    ' Ampliación candidate C06–C17: Research 02 y A1_COVERAGE_MATRIX; revisión editorial pendiente.',
+    ' Ampliación candidate C06–C25: Research 02 y A1_COVERAGE_MATRIX; revisión editorial pendiente.',
   curriculum: italianCurriculum,
-  topics: italianCurriculum.levels[0].units.slice(0, 17).map((unit) => ({
+  topics: italianCurriculum.levels[0].units.slice(0, 25).map((unit) => ({
     id: unit.topicId,
     packId: fixture.id,
     title: unit.title,

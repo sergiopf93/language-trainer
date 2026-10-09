@@ -70,20 +70,37 @@ describe('C11–C17 linguistic and attribution boundaries', () => {
     expect(report.units.slice(10, 17).map((u) => u.concepts.length)).toEqual([
       2, 1, 3, 2, 3, 8, 3,
     ]);
-    expect(italianCourse.concepts).toHaveLength(51);
-    expect(Object.keys(italianCourse.theories)).toHaveLength(51);
+    expect(
+      italianCourse.concepts.filter((c) => Number(c.id.slice(7, 9)) <= 17),
+    ).toHaveLength(51);
+    expect(
+      Object.keys(italianCourse.theories).filter(
+        (id) => Number(id.slice(7, 9)) <= 17,
+      ),
+    ).toHaveLength(51);
     expect(
       italianCourse.canonicalActivities.filter(
         (a) => Number(a.conceptId.slice(7, 9)) <= 10,
       ),
     ).toHaveLength(225);
-    expect(italianCourse.canonicalActivities).toHaveLength(431);
-    expect(italianCourse.vocabulary).toHaveLength(172);
+    expect(
+      italianCourse.canonicalActivities.filter(
+        (a) => Number(a.conceptId.slice(7, 9)) <= 17,
+      ),
+    ).toHaveLength(431);
+    expect(
+      italianCourse.vocabulary.filter((v) =>
+        v.conceptIds.some((id) => Number(id.slice(7, 9)) <= 17),
+      ),
+    ).toHaveLength(172);
     expect(italianCourse.templates).toHaveLength(2);
     expect(
-      report.units.slice(17).every((u) => u.concepts.every((c) => !c.concept)),
+      report.units.slice(25).every((u) => u.concepts.every((c) => !c.concept)),
     ).toBe(true);
-    for (const l of lessons.filter((l) => Number(l.code.slice(0, 2)) >= 11)) {
+    for (const l of lessons.filter(
+      (l) =>
+        Number(l.code.slice(0, 2)) >= 11 && Number(l.code.slice(0, 2)) <= 17,
+    )) {
       const id = 'it-a1-c' + l.code;
       expect(italianCourse.theories[id].provenance).toContain('C11–C17');
       expect(repository.connections(id).length, id).toBeGreaterThan(0);
