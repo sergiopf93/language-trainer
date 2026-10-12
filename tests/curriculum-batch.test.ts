@@ -19,13 +19,13 @@ function answerFor(a: Activity, accepted = a.criterion.accepted[0]) {
     accepted.split(' ').map((word) => a.options.indexOf(word)),
   );
 }
-describe('sequential Italian A1 lots C01–C25', () => {
-  it('loads precisely the granular C01–C25 inventory without filling later blocks', () => {
+describe('sequential Italian A1 lots C01–C34', () => {
+  it('loads precisely the granular C01–C34 inventory with all final blocks', () => {
     expect(validatePack(italianCourse)).toEqual([]);
     for (const id of Object.keys(baseline.theories))
       expect(italianCourse.theories[id].id).toBe(baseline.theories[id].id);
     const expected = italianCourse.curriculum.levels[0].units
-      .slice(0, 25)
+      .slice(0, 34)
       .flatMap((u) => u.expectedConceptIds);
     expect(italianCourse.concepts.map((c) => c.id)).toEqual(expected);
     expect(curriculumCoverage(baseline).totals.existingConcepts).toBe(2);
@@ -33,7 +33,7 @@ describe('sequential Italian A1 lots C01–C25', () => {
     expect(after.totals).toEqual({
       units: 34,
       expectedConcepts: 99,
-      existingConcepts: 73,
+      existingConcepts: 99,
       productionReady: 0,
     });
     expect(after.units.slice(0, 25).map((u) => u.concepts.length)).toEqual([
@@ -56,7 +56,7 @@ describe('sequential Italian A1 lots C01–C25', () => {
         ),
     ).toBe(true);
     expect(
-      after.units.slice(25).every((u) => u.concepts.every((c) => !c.concept)),
+      after.units.slice(25).every((u) => u.concepts.every((c) => c.concept)),
     ).toBe(true);
     expect(loadLanguagePack(italianCourse).repository.available()).toEqual([]);
   });
@@ -104,10 +104,12 @@ describe('sequential Italian A1 lots C01–C25', () => {
         new Set(items.map((a) => a.task!.context)).size,
         c.id,
       ).toBeGreaterThan(1);
-      expect(
-        items.some((a) => a.task?.scaffolding === 'visible-options'),
-        c.id,
-      ).toBe(true);
+      // Earlier lots include visible options; final A1 deliberately emphasizes recall.
+      if (Number(c.id.slice(7, 9)) <= 25)
+        expect(
+          items.some((a) => a.task?.scaffolding === 'visible-options'),
+          c.id,
+        ).toBe(true);
       expect(
         items.some((a) => a.task?.scaffolding === 'none'),
         c.id,

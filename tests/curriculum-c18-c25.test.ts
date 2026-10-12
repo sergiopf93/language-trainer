@@ -82,19 +82,25 @@ describe('C18–C25: linguistic boundaries and cumulative targets', () => {
     expect(coverage.totals).toEqual({
       units: 34,
       expectedConcepts: 99,
-      existingConcepts: 73,
+      existingConcepts: 99,
       productionReady: 0,
     });
     expect(coverage.units.slice(17, 25).map((u) => u.concepts.length)).toEqual([
       2, 2, 6, 2, 4, 2, 2, 2,
     ]);
     expect(
-      coverage.units
-        .slice(25)
-        .every((u) => u.concepts.every((c) => !c.concept)),
+      coverage.units.slice(25).every((u) => u.concepts.every((c) => c.concept)),
     ).toBe(true);
-    expect(italianCourse.canonicalActivities).toHaveLength(613);
-    expect(italianCourse.vocabulary).toHaveLength(234);
+    expect(
+      italianCourse.canonicalActivities.filter(
+        (a) => Number(a.conceptId.slice(7, 9)) <= 25,
+      ),
+    ).toHaveLength(613);
+    expect(
+      italianCourse.vocabulary.filter((v) =>
+        v.conceptIds.some((id) => Number(id.slice(7, 9)) <= 25),
+      ),
+    ).toHaveLength(234);
     expect(italianCourse.templates).toHaveLength(2);
     const earlier = new Set(
       italianCourse.vocabulary
@@ -103,13 +109,17 @@ describe('C18–C25: linguistic boundaries and cumulative targets', () => {
     );
     const used = new Set(
       lessons
-        .filter((l) => Number(l.code.slice(0, 2)) >= 18)
+        .filter(
+          (l) =>
+            Number(l.code.slice(0, 2)) >= 18 &&
+            Number(l.code.slice(0, 2)) <= 25,
+        )
         .flatMap((l) => l.vocabularyIds),
     );
     expect([...used].filter((id) => earlier.has(id))).toHaveLength(65);
     expect([...used].filter((id) => !earlier.has(id))).toHaveLength(62);
     for (const c of italianCourse.concepts.filter(
-      (c) => Number(c.id.slice(7, 9)) >= 18,
+      (c) => Number(c.id.slice(7, 9)) >= 18 && Number(c.id.slice(7, 9)) <= 25,
     )) {
       expect(c.status).toBe('candidate');
       expect(italianCourse.theories[c.id].provenance).toContain('C18–C25');

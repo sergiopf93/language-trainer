@@ -95,7 +95,7 @@ describe('C11–C17 linguistic and attribution boundaries', () => {
     ).toHaveLength(172);
     expect(italianCourse.templates).toHaveLength(2);
     expect(
-      report.units.slice(25).every((u) => u.concepts.every((c) => !c.concept)),
+      report.units.slice(25).every((u) => u.concepts.every((c) => c.concept)),
     ).toBe(true);
     for (const l of lessons.filter(
       (l) =>

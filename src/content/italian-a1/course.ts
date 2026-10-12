@@ -28,6 +28,17 @@ import { c22 } from './c22';
 import { c23 } from './c23';
 import { c24 } from './c24';
 import { c25 } from './c25';
+import { c26 } from './c26';
+import { c27 } from './c27';
+import { c28 } from './c28';
+import { c29 } from './c29';
+import { c30 } from './c30';
+import { c31 } from './c31';
+import { c32 } from './c32';
+import { c33 } from './c33';
+import { c34 } from './c34';
+import { extendC26C34Vocabulary } from './vocabulary-c26-c34';
+import { c26C34Relations } from './relations-c26-c34';
 import { extendC18C25Vocabulary } from './vocabulary-c18-c25';
 import { c18C25Relations } from './relations-c18-c25';
 import { extendC11C17Vocabulary } from './vocabulary-c11-c17';
@@ -60,16 +71,32 @@ export const lessons = [
   ...c23,
   ...c24,
   ...c25,
+  ...c26,
+  ...c27,
+  ...c28,
+  ...c29,
+  ...c30,
+  ...c31,
+  ...c32,
+  ...c33,
+  ...c34,
 ];
 const content = lessons.map(materialize);
-const vocabulary = extendC18C25Vocabulary(
-  extendC11C17Vocabulary(
-    extendVocabulary(vocabularyFor(lessons), lessons),
+const vocabulary = extendC26C34Vocabulary(
+  extendC18C25Vocabulary(
+    extendC11C17Vocabulary(
+      extendVocabulary(vocabularyFor(lessons), lessons),
+      lessons,
+    ),
     lessons,
   ),
   lessons,
 );
-const relations: ConceptRelation[] = [...c11C17Relations, ...c18C25Relations];
+const relations: ConceptRelation[] = [
+  ...c11C17Relations,
+  ...c18C25Relations,
+  ...c26C34Relations,
+];
 function connect(
   from: string,
   to: string,
@@ -424,9 +451,9 @@ export const italianCourse: LanguagePack = {
   status: 'candidate',
   provenance:
     provenance +
-    ' Ampliación candidate C06–C25: Research 02 y A1_COVERAGE_MATRIX; revisión editorial pendiente.',
+    ' Ampliación candidate C06–C34: Research 02 y A1_COVERAGE_MATRIX; revisión editorial pendiente.',
   curriculum: italianCurriculum,
-  topics: italianCurriculum.levels[0].units.slice(0, 25).map((unit) => ({
+  topics: italianCurriculum.levels[0].units.slice(0, 34).map((unit) => ({
     id: unit.topicId,
     packId: fixture.id,
     title: unit.title,
