@@ -1,6 +1,6 @@
 # R2 — contexto operativo de language-trainer
 
-Actualizado: 2026-10-09. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
+Actualizado: 2026-10-12. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
 
 ## Política de lectura y delegación
 
@@ -206,6 +206,16 @@ C01–C17 validados por Sergio al autorizar este lote. Rama `feat/italian-a1-c18
 Mantiene Lesson→materialize y 2 templates/9 variantes; sin nuevos templates ni generación runtime. Nuevas actividades F1/F2/F3/F4, con 149/182 de recuperación/transformación/producción; F7 previo conservado. Añade 46 relaciones (31 con C01–C17), total 150; preparación recomendada sin hard locks. La cita evalúa coherencia entre disponibilidad, fecha y hora con una sola oportunidad objetivo. Las 51 Theory y enunciados/criterios previos permanecen intactos; solo metadata del pack, asociaciones y ampliación versionada de glosas/usos de di/a/in/con/loro. Sin cambios de UI, motor, evaluación, persistencia, Review/Mastery ni dependencias.
 
 Validación: **194 pruebas locales**, typecheck, formato, builds normal/candidate, coverage y diff; **19 E2E candidate y 1 de exclusión de producción**, con regresiones offline/sync y cita incompatible, ficha C22-04 a 320 px. Corregida falta inicial de variedad contextual de C23-02; batería completa repetida. Tras aclarar notas didácticas pasaron de nuevo 112 pruebas curriculares, build candidate y E2E de citas. Aviso de build: chunk minificado >500 kB, sin refactor fuera de alcance. Todo candidate; revisión editorial y validación humana pendientes. Cloudflare nativo/remoto no ejecutado; sin merge, push ni despliegue. **Detenerse en C25: quedan 26 Concepts C26–C34; C26 no iniciado.** Próximo lote sugerido C26–C30, solo tras autorización. V1 sigue siendo los 99 conceptos de C01–C34.
+
+## Cierre de carga curricular — C26–C34 (2026-10-12)
+
+Lote autorizado para intentar los 26 conceptos restantes, sin subagentes ni auditoría global. Rama `feat/italian-a1-c26-c34`, desde `1e4afa3`; pack `it-A1-candidate-8`. **C26–C34 implementados íntegros: 73→99/99 conceptos, 73→99 Theory, 613→849 actividades, 234→316 entradas, 150→207 relaciones; 0 ready**. Fuente y granularidad coinciden: 2/3/2/4/2/2/3/1/7. Sin bloques parciales, Theory/práctica ausentes ni referencias rotas. Baseline, detalle y vocabulario en [A1_COVERAGE_MATRIX](../product/A1_COVERAGE_MATRIX.md).
+
+Añade 82 entradas y reutiliza 87 anteriores (≈51,5 % de entradas distintas vinculadas, no tokens). 236 actividades explícitas; 229 de recuperación/transformación/producción. Conserva Lesson→materialize y 2 templates/9 variantes. Repertorios de C34 explícitos y limitados; comprensión del imperativo, forma de participio, construcción del pasado, auxiliar, uso temporal y concordancia permanecen como objetivos separados. Evidence solo del objetivo, sin penalizar conocimientos incidentales. 73 Theory y 613 actividades previas intactas salvo metadata de pack; 234 entradas previas conservan glosas/formas/versiones y amplían asociaciones.
+
+Validación: **252 pruebas locales**; tras precisar metadatos y habilidad receptiva, **137 pruebas afectadas repetidas**. Tipos, formato, builds y coverage correctos. **21 E2E candidate + 1 exclusión de producción**, con regresiones offline/sync y fichas C33-01/C34-07 inspeccionadas a 320 px. [Hallazgos](../product/A1_COVERAGE_FINDINGS.md): reservas de 6–7 actividades en 21 conceptos anteriores, C03-02 sin retrieval explícita, repetición previa de enunciado C09/C10, límites de producción guiada y reserva diferida. Sin Theory vacías, vocabulario huérfano ni actividades sin trace/versionado. Aviso de bundle ≈667 kB, deuda posterior; Cloudflare nativo/remoto no ejecutado.
+
+**Todo candidate. 99/99 = currículo focal implementado, no aprobado editorialmente ni V1 íntegra entregada.** Validación humana y editorial pendientes; no se inicia Reading/Writing completo, Review avanzado, revisión editorial ni publicación. Sin cambios de UI, evaluación, persistencia o dependencias. Sin merge, push ni despliegue. **Detenerse tras esta entrega.** Próxima fase recomendada: validación humana y revisión pedagógica/editorial acotada, con nueva autorización.
 
 ## Reglas y mantenimiento
 
