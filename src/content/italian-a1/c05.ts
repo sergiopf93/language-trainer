@@ -117,8 +117,10 @@ export const c05: Lesson[] = [
       },
       {
         key: 'nominale',
+        version: '2',
         format: 'transformation',
-        prompt: 'Trasforma «Anna ha una chiave»: parla di Anna e Luca.',
+        prompt:
+          'Trasforma «Anna ha una chiave»: usa i nomi Anna e Luca come soggetto.',
         accepted: [
           'Anna e Luca hanno una chiave',
           'Anna e Luca hanno una chiave.',
@@ -257,9 +259,10 @@ export const c05: Lesson[] = [
       },
       {
         key: 'correggi',
+        version: '2',
         format: 'error-correction',
         prompt:
-          'Per dire «Tengo una llave», correggi solo il verbo: «Sono una chiave».',
+          'Per dire «Tengo una llave», riscrivi la frase cambiando solo il verbo: «Sono una chiave».',
         accepted: ['ho una chiave', 'ho una chiave.'],
         hint: 'Se trata de posesión, no identidad.',
         explanation:
@@ -364,8 +367,9 @@ export const c05: Lesson[] = [
       },
       {
         key: 'quanti',
+        version: '2',
         format: 'cloze',
-        prompt: 'Completa la domanda studiata: Quanti anni ___?',
+        prompt: 'Chiedi l’età a un amico (tu): Quanti anni ___?',
         accepted: ['hai'],
         rejected: ['sei', 'ho'],
         hint: 'Preguntas a una persona con trato informal.',
@@ -375,10 +379,16 @@ export const c05: Lesson[] = [
       },
       {
         key: 'loro',
+        version: '2',
         format: 'transformation',
         prompt:
           'Anna e Luca hanno entrambi 40 anni. Scrivi la frase usando loro e 40 in cifre.',
-        accepted: ['loro hanno 40 anni', 'loro hanno 40 anni.'],
+        accepted: [
+          'loro hanno 40 anni',
+          'loro hanno 40 anni.',
+          'loro hanno entrambi 40 anni',
+          'loro hanno entrambi 40 anni.',
+        ],
         rejected: ['loro ha 40 anni'],
         hint: 'Loro requiere hanno.',
         explanation:

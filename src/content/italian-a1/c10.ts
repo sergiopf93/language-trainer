@@ -116,8 +116,10 @@ export const c10: Lesson[] = [
       },
       {
         key: 'studentessa',
+        version: '2',
         format: 'cloze',
-        prompt: 'Studentessa è femminile: ___ studentessa.',
+        prompt:
+          'Completa con l’articolo indeterminativo: ___ studentessa (femminile).',
         accepted: ['una'],
         explanation:
           'La regla de uno no se aplica al femenino, aunque empiece por st.',
@@ -128,6 +130,7 @@ export const c10: Lesson[] = [
       },
       {
         key: 'plurale',
+        version: '2',
         format: 'selection',
         prompt:
           'Un amico → più persone: esiste una forma plurale unica dell’articolo indeterminativo?',
@@ -137,7 +140,7 @@ export const c10: Lesson[] = [
         facets: ['sin-plural'],
         context: 'conversación',
         hint: 'No hay un plural morfológico universal de un; el contexto decide la construcción.',
-        options: ['sì: uns', 'sì: uni', 'no'],
+        options: ['sì: sempre dei', 'sì: sempre gli', 'no'],
         skill: 'discrimination',
       },
       {
@@ -228,6 +231,7 @@ export const c10: Lesson[] = [
       },
       {
         key: 'chiedi',
+        version: '2',
         format: 'controlled-production',
         prompt:
           'Al bar, ordina «un café, por favor» con la formula senza verbo.',
@@ -236,6 +240,10 @@ export const c10: Lesson[] = [
           'Un caffè, per favore.',
           'Un caffè per favore',
           'Un caffè per favore.',
+          'Per favore, un caffè',
+          'Per favore, un caffè.',
+          'Per favore un caffè',
+          'Per favore un caffè.',
         ],
         explanation: 'Un caffè introduce el pedido; per favore añade cortesía.',
         facets: ['petición'],
@@ -261,9 +269,10 @@ export const c10: Lesson[] = [
       },
       {
         key: 'presenta',
+        version: '2',
         format: 'translation',
         prompt:
-          'Traduci «Tengo una llave» para introducir una llave no identificada; usa chiave, senza io.',
+          'Introduci una chiave non ancora identificata: traduci «Tengo una llave» usando chiave, senza io.',
         accepted: ['Ho una chiave', 'Ho una chiave.'],
         explanation:
           'Una chiave presenta un referente nuevo para el interlocutor.',

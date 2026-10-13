@@ -119,8 +119,8 @@ describe('confirmed pedagogical regressions', () => {
         type: 'contrast',
       }),
     );
-    expect(activity('04-01-engine-1').version).toBe('2');
-    expect(activity('04-01-engine-1').trace?.sourceVersion).toBe('2');
+    expect(activity('04-01-engine-1').version).toBe('3');
+    expect(activity('04-01-engine-1').trace?.sourceVersion).toBe('3');
     expect(evaluate(activity('04-01-engine-1'), 'tu sei').judgment).toBe(
       'correct',
     );

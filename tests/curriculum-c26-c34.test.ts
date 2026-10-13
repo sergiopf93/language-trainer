@@ -136,7 +136,13 @@ describe('C26–C34: final A1 candidate curriculum', () => {
       true,
     );
     expect(
-      italianCourse.vocabulary.every((v) => v.status === 'candidate'),
+      italianCourse.vocabulary.every(
+        (v) =>
+          v.status ===
+          (v.conceptIds.some((id) => /^it-a1-c(0[1-9]|10)-/.test(id))
+            ? 'reviewed'
+            : 'candidate'),
+      ),
     ).toBe(true);
     const items = repository.activities.filter(
       (a) => Number(a.conceptId.slice(7, 9)) >= 26,

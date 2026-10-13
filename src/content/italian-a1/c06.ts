@@ -2,6 +2,7 @@ import type { Lesson } from './authoring';
 export const c06: Lesson[] = [
   {
     code: '06-01',
+    theoryRevision: 'editorial-1',
     title: 'Non ho fame',
     objective:
       'Negar declaraciones sencillas con non delante de essere o avere.',
@@ -10,7 +11,7 @@ export const c06: Lesson[] = [
     rules: [
       'Coloca non inmediatamente antes del verbo en estas frases: non sono, non hai, non è, non abbiamo.',
       'Si expresas el sujeto, va antes de non en el orden neutro: Anna non è qui. El sujeto puede omitirse cuando se entiende.',
-      'No sirve como respuesta independiente negativa; non acompaña al verbo: No, non ho fame.',
+      '«No» sirve como respuesta independiente negativa; «non» acompaña al verbo: No, non ho fame.',
     ],
     forms: [
       [
@@ -48,13 +49,14 @@ export const c06: Lesson[] = [
     items: [
       {
         key: 'riconosci',
+        version: '2',
         format: 'selection',
         prompt: 'Scegli «No tengo hambre».',
         accepted: ['Non ho fame'],
-        explanation: 'Non va antes de ho; no solo responde por sí mismo.',
+        explanation: '«Non» va antes de ho; «no» puede responder por sí solo.',
         facets: ['no/non'],
         context: 'conversación',
-        hint: 'Non va antes de ho; no solo responde por sí mismo.',
+        hint: '«Non» va antes de ho; «no» puede responder por sí solo.',
         options: ['Non ho fame', 'No ho fame', 'Ho non fame'],
       },
       {
@@ -219,9 +221,10 @@ export const c06: Lesson[] = [
       },
       {
         key: 'chiedi',
+        version: '2',
         format: 'controlled-production',
         prompt:
-          'Chiedi a una persona se ha una chiave. Usa avere, senza tu; termina con ?.',
+          'Chiedi a un amico (tu) se ha una chiave. Usa avere, senza scrivere tu; termina con ?.',
         accepted: ['Hai una chiave?'],
         explanation:
           'Hai pregunta por la disponibilidad del objeto a tu interlocutor.',
@@ -329,8 +332,9 @@ export const c06: Lesson[] = [
       },
       {
         key: 'cosa',
+        version: '2',
         format: 'short',
-        prompt: 'Chiedi «¿Qué tienes?» con avere, senza tu.',
+        prompt: 'Chiedi «¿Qué tienes?» con avere, senza tu; termina con ?.',
         accepted: ['Che cosa hai?', 'Cosa hai?', 'Che hai?'],
         explanation:
           'Che cosa, cosa y che pueden preguntar por el objeto que tienes.',
@@ -362,8 +366,10 @@ export const c06: Lesson[] = [
       },
       {
         key: 'eta',
+        version: '2',
         format: 'controlled-production',
-        prompt: 'Chiedi l’età a una persona con la formula studiata.',
+        prompt:
+          'Chiedi l’età a un amico (tu) con la formula studiata; termina con ?.',
         accepted: [
           'Quanti anni hai?',
           'Tu quanti anni hai?',

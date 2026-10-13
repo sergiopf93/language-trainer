@@ -55,21 +55,37 @@ describe('C06–C10 authored linguistic boundaries', () => {
       ),
     ).toHaveLength(12);
     expect(curriculumCoverage(italianCourse).totals.expectedConcepts).toBe(99);
-    expect(italianCourse.concepts.every((c) => c.status === 'candidate')).toBe(
-      true,
-    );
     expect(
-      italianCourse.canonicalActivities.every((a) => a.status === 'candidate'),
+      italianCourse.concepts.every(
+        (c) =>
+          c.status ===
+          (/^it-a1-c(0[1-9]|10)-/.test(c.id) ? 'reviewed' : 'candidate'),
+      ),
     ).toBe(true);
     expect(
-      italianCourse.vocabulary.every((v) => v.status === 'candidate'),
+      italianCourse.canonicalActivities.every(
+        (a) =>
+          a.status ===
+          (/^it-a1-c(0[1-9]|10)-/.test(a.conceptId) ? 'reviewed' : 'candidate'),
+      ),
+    ).toBe(true);
+    expect(
+      italianCourse.vocabulary.every(
+        (v) =>
+          v.status ===
+          (v.conceptIds.some((id) => /^it-a1-c(0[1-9]|10)-/.test(id))
+            ? 'reviewed'
+            : 'candidate'),
+      ),
     ).toBe(true);
     expect(
       Object.values(italianCourse.theories).every(
-        (t) => t.status === 'candidate',
+        (t) =>
+          t.status ===
+          (/^it-a1-c(0[1-9]|10)-/.test(t.conceptId) ? 'reviewed' : 'candidate'),
       ),
     ).toBe(true);
-    expect(italianCourse.templates.every((t) => t.status === 'candidate')).toBe(
+    expect(italianCourse.templates.every((t) => t.status === 'reviewed')).toBe(
       true,
     );
   });

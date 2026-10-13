@@ -2,6 +2,7 @@ import type { Lesson } from './authoring';
 export const c08: Lesson[] = [
   {
     code: '08-01',
+    theoryRevision: 'editorial-1',
     title: 'Una penna, due penne',
     objective:
       'Formar y recuperar plurales regulares de nombres enseñados en -o, -a y -e.',
@@ -9,7 +10,7 @@ export const c08: Lesson[] = [
       'El plural italiano suele cambiar la vocal final. No se forma añadiendo una s como en muchos nombres españoles.',
     rules: [
       'Los nombres masculinos regulares en -o pasan a -i: biglietto → biglietti.',
-      'Los femeninos regulares en -a pasan a -e: penna → penne. Los nombres en -e de ambos géneros pasan a -i: chiave → chiavi; nome → nomi.',
+      'Los femeninos regulares en -a pasan a -e: penna → penne. Los nombres regulares en -e de ambos géneros pasan a -i: chiave → chiavi; nome → nomi.',
       'La regla depende de la clase: problema es masculino y forma problemi; mano es femenino y forma mani. Estas excepciones se muestran como apoyo, no como una regla nueva universal.',
     ],
     forms: [
@@ -127,6 +128,7 @@ export const c08: Lesson[] = [
   },
   {
     code: '08-02',
+    theoryRevision: 'editorial-1',
     title: 'Due caffè, due città',
     objective:
       'Interpretar y usar nombres invariantes frecuentes con número indicado por el contexto.',
@@ -147,7 +149,7 @@ export const c08: Lesson[] = [
     examples: [
       ['Ho due foto.', 'Tengo dos fotos.'],
       ['Due caffè, per favore.', 'Dos cafés, por favor.'],
-      ['Due hotel sono qui.', 'Dos hoteles están aquí.'],
+      ['Un hotel, due hotel.', 'Un hotel, dos hoteles.'],
     ],
     frequentErrors: [
       'No añadas -s: en este repertorio son due film, no films.',
@@ -217,8 +219,9 @@ export const c08: Lesson[] = [
       },
       {
         key: 'numero',
+        version: '2',
         format: 'selection',
-        prompt: '«Due hotel sono qui»: quanti hotel indica la frase?',
+        prompt: '«Un hotel, due hotel»: il secondo gruppo indica…',
         accepted: ['più di uno'],
         explanation: 'Due hace explícito el plural aunque hotel no cambie.',
         facets: ['contexto', 'préstamos'],
@@ -229,17 +232,19 @@ export const c08: Lesson[] = [
       },
       {
         key: 'ripara',
+        version: '2',
         format: 'error-correction',
-        prompt: 'Correggi solo il nome: «Due bars sono qui».',
-        accepted: ['Due bar sono qui', 'Due bar sono qui.'],
+        prompt: 'Correggi il plurale e riscrivi le due parole: «due bars».',
+        accepted: ['due bar'],
         explanation: 'Bar no recibe -s en el plural italiano enseñado.',
         facets: ['préstamos'],
         context: 'viaje',
         hint: 'Bar no recibe -s en el plural italiano enseñado.',
-        rejected: ['Due bari sono qui'],
+        rejected: ['due bari', 'due bars'],
       },
       {
         key: 'ordine',
+        version: '2',
         format: 'controlled-production',
         prompt: 'Ordina «dos cafés, por favor» usando due e per favore.',
         accepted: [
@@ -247,6 +252,10 @@ export const c08: Lesson[] = [
           'Due caffè, per favore.',
           'Due caffè per favore',
           'Due caffè per favore.',
+          'Per favore, due caffè',
+          'Per favore, due caffè.',
+          'Per favore due caffè',
+          'Per favore due caffè.',
         ],
         explanation: 'El numeral expresa plural y caffè conserva su forma.',
         facets: ['acento', 'contexto'],

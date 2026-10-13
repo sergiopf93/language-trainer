@@ -93,8 +93,9 @@ export const c04: Lesson[] = [
       },
       {
         key: 'nominale',
+        version: '2',
         format: 'transformation',
-        prompt: 'Trasforma «Luca è qui»: parla di Luca e Anna.',
+        prompt: 'Trasforma «Luca è qui»: usa i nomi Luca e Anna come soggetto.',
         accepted: [
           'Luca e Anna sono qui',
           'Luca e Anna sono qui.',
@@ -190,8 +191,10 @@ export const c04: Lesson[] = [
       },
       {
         key: 'insegnante',
+        version: '2',
         format: 'controlled-production',
-        prompt: 'Presentati: scrivi «Soy profesor/a» usando insegnante.',
+        prompt:
+          'Presentati: scrivi «Soy profesor/a» usando insegnante, senza articolo.',
         accepted: [
           'sono insegnante',
           'sono insegnante.',

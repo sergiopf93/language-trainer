@@ -1,7 +1,7 @@
 import type { Activity, Skill } from '../../../shared/learning';
 import type { Concept } from '../catalog';
 import type { Theory } from '../theory';
-export const batchVersion = 'it-A1-candidate-9';
+export const batchVersion = 'it-A1-editorial-1';
 export const provenance =
   'Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.';
 export const sources = {
@@ -139,7 +139,10 @@ export function materialize(lesson: Lesson) {
     objective: lesson.objective,
     scope: lesson.objective,
     exclusions:
-      'Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.',
+      'Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases.' +
+      (Number(lesson.code.slice(0, 2)) <= 10
+        ? ' Sin revisión editorial independiente para publicación.'
+        : ' Revisión editorial pendiente.'),
     dimensions: [...new Set(activities.map((a) => a.dimension))],
     status: 'candidate',
     provenance: `${lessonProvenance} ${lesson.source}`,

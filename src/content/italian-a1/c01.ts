@@ -387,12 +387,14 @@ export const c01: Lesson[] = [
       },
       {
         key: 'caffe',
+        version: '2',
         format: 'selection',
         prompt: 'Nel menu: scegli la grafia corretta.',
-        options: ['caffè', 'cafè', 'cafffee'],
+        options: ['caffè', 'cafè', 'caffe'],
         accepted: ['caffè'],
         hint: 'Dos f y è final.',
-        explanation: 'Caffè lleva ff; no una f ni tres.',
+        explanation:
+          'Caffè lleva ff y acento grave final; cafè pierde una f y caffe pierde el acento.',
         context: 'bar',
         facets: ['dobles'],
       },
@@ -422,10 +424,11 @@ export const c01: Lesson[] = [
       },
       {
         key: 'pena',
+        version: '2',
         format: 'cloze',
-        prompt:
-          'Scrivi la parola italiana per «pena», non lo strumento per scrivere.',
+        prompt: 'Scrivi la parola della tabella per «pena» (non «bolígrafo»).',
         accepted: ['pena'],
+        rejected: ['penna'],
         hint: 'Pena y penna son palabras distintas; penna es el instrumento para escribir.',
         explanation:
           'Pena y penna son palabras distintas; penna es el instrumento para escribir.',

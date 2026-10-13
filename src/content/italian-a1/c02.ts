@@ -58,10 +58,11 @@ export const c02: Lesson[] = [
       },
       {
         key: 'amica',
+        version: '2',
         format: 'short',
         prompt:
           'Saluta un’amica con la formula informale studiata (una parola).',
-        accepted: ['ciao'],
+        accepted: ['ciao', 'ciao.', 'ciao!'],
         hint: 'Sirve también para despedirse de amigos.',
         explanation: 'Ciao es la fórmula informal solicitada.',
         context: 'amistad',
@@ -69,8 +70,10 @@ export const c02: Lesson[] = [
       },
       {
         key: 'sera',
+        version: '2',
         format: 'cloze',
-        prompt: 'È sera. Entri al ristorante: «___!» Usa una sola parola.',
+        prompt:
+          'È sera. Entri al ristorante: «___!» Scrivi la formula studiata per «buenas tardes/noches» (una parola).',
         accepted: ['buonasera'],
         rejected: ['buonanotte', 'arrivederci'],
         hint: 'Estás saludando, no yéndote a dormir.',
@@ -80,10 +83,11 @@ export const c02: Lesson[] = [
       },
       {
         key: 'uscita',
+        version: '2',
         format: 'controlled-production',
         prompt:
           'Esci dall’hotel. Scrivi la formula studiata che significa «adiós / hasta luego» (una parola).',
-        accepted: ['arrivederci'],
+        accepted: ['arrivederci', 'arrivederci.', 'arrivederci!'],
         hint: 'Comienza por arri-.',
         explanation: 'Arrivederci cierra el intercambio cortésmente.',
         context: 'hotel',
@@ -179,9 +183,10 @@ export const c02: Lesson[] = [
       },
       {
         key: 'prego',
+        version: '2',
         format: 'short',
         prompt: '«Grazie!» Rispondi con la formula studiata per «de nada».',
-        accepted: ['prego'],
+        accepted: ['prego', 'prego.', 'prego!'],
         hint: 'Empieza por pr-.',
         explanation: 'Prego responde al agradecimiento en este diálogo.',
         context: 'hotel',
@@ -200,10 +205,11 @@ export const c02: Lesson[] = [
       },
       {
         key: 'scusi',
+        version: '2',
         format: 'controlled-production',
         prompt:
-          'Vuoi attirare l’attenzione di una persona sconosciuta. Scrivi «disculpe» con la formula studiata.',
-        accepted: ['scusi'],
+          'Con una persona sconosciuta: scrivi «disculpe» con la formula studiata (una parola).',
+        accepted: ['scusi', 'scusi.', 'scusi!'],
         rejected: ['scusa'],
         hint: 'Usa la fórmula cortés.',
         explanation:
@@ -213,9 +219,10 @@ export const c02: Lesson[] = [
       },
       {
         key: 'scusa',
+        version: '2',
         format: 'short',
         prompt: 'Con un amico, scrivi «disculpa» usando la formula informale.',
-        accepted: ['scusa'],
+        accepted: ['scusa', 'scusa.', 'scusa!'],
         rejected: ['scusi'],
         hint: 'Termina en a.',
         explanation: 'Scusa se dirige a una persona con trato informal.',
@@ -294,9 +301,10 @@ export const c02: Lesson[] = [
     items: [
       {
         key: 'intenzione',
+        version: '2',
         format: 'selection',
         prompt:
-          'Non hai capito le parole alla reception. Quale frase esprime questo problema?',
+          'Alla reception: non capisci (no entiendes). Scegli la frase adatta.',
         options: ['Non capisco', 'Non lo so', 'Arrivederci'],
         accepted: ['Non capisco'],
         hint: 'El problema es entender el mensaje.',
@@ -319,8 +327,10 @@ export const c02: Lesson[] = [
       },
       {
         key: 'ripetere',
+        version: '2',
         format: 'cloze',
-        prompt: 'Alla reception: Può ___, per favore?',
+        prompt:
+          'Completa la formula per «¿Puede repetir, por favor?»: Può ___, per favore?',
         accepted: ['ripetere'],
         hint: 'Quieres oír otra vez el mensaje.',
         explanation: 'Può ripetere, per favore? pide una repetición cortés.',
@@ -329,14 +339,17 @@ export const c02: Lesson[] = [
       },
       {
         key: 'formula',
+        version: '2',
         format: 'controlled-production',
         prompt:
-          'Una persona sconosciuta parla. Chiedi «¿Puede repetir?» usando la formula studiata.',
+          'Una persona sconosciuta parla. Chiedi «¿Puede repetir?» con la formula studiata di due parole. Puoi aggiungere per favore alla fine.',
         accepted: [
           'può ripetere',
           'può ripetere?',
           'può ripetere, per favore?',
           'può ripetere per favore?',
+          'può ripetere, per favore',
+          'può ripetere per favore',
         ],
         rejected: ['puo ripetere', 'puoi ripetere'],
         hint: 'Empieza por può, con acento.',
@@ -359,8 +372,10 @@ export const c02: Lesson[] = [
       },
       {
         key: 'lentamente',
+        version: '2',
         format: 'cloze',
-        prompt: 'Completa «más despacio, por favor»: Più ___, per favore.',
+        prompt:
+          'Completa con la parola della formula studiata: «más despacio, por favor» → Più ___, per favore.',
         accepted: ['lentamente'],
         hint: 'La palabra empieza por lenta-.',
         explanation:
@@ -370,14 +385,17 @@ export const c02: Lesson[] = [
       },
       {
         key: 'amico',
+        version: '2',
         format: 'controlled-production',
         prompt:
-          'Con un amico: scrivi «¿Puedes repetir?» con la formula informale studiata.',
+          'Con un amico: scrivi «¿Puedes repetir?» con la formula studiata di due parole. Puoi aggiungere per favore alla fine.',
         accepted: [
           'puoi ripetere',
           'puoi ripetere?',
           'puoi ripetere, per favore?',
           'puoi ripetere per favore?',
+          'puoi ripetere, per favore',
+          'puoi ripetere per favore',
         ],
         rejected: ['può ripetere'],
         hint: 'Informal: puoi, sin acento.',

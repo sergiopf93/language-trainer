@@ -2,6 +2,7 @@ import type { Lesson } from './authoring';
 export const c09: Lesson[] = [
   {
     code: '09-01',
+    theoryRevision: 'editorial-1',
     title: 'Il, lo, la, l’',
     objective:
       'Elegir el artículo determinado singular según género e inicio del nombre en el repertorio A1 enseñado.',
@@ -30,7 +31,7 @@ export const c09: Lesson[] = [
       'La studentessa es femenino: la regla de lo afecta a nombres masculinos.',
     ],
     usageNotes: [
-      'Los grupos gn/ps se enseñan con gnocco y psicologo; x, pn y semiconsonantes son extensiones de la misma selección y requieren repertorio específico. No se generan combinaciones nuevas automáticamente.',
+      'Los grupos gn/ps se enseñan con gnocco y psicologo; x, pn e i/j con valor de semiconsonante requieren repertorio específico; no todas las semiconsonantes seleccionan lo. No se generan combinaciones nuevas automáticamente.',
     ],
     vocabularyIds: [
       'it-letto',
@@ -109,8 +110,9 @@ export const c09: Lesson[] = [
       },
       {
         key: 'sonno',
+        version: '2',
         format: 'cloze',
-        prompt: 'Sonno è maschile: ___ sonno.',
+        prompt: 'Completa con l’articolo determinativo: ___ sonno (maschile).',
         accepted: ['il'],
         explanation: 'S seguida de vocal no es s + consonante: il sonno.',
         facets: ['il', 'grupos-iniciales'],
@@ -120,9 +122,10 @@ export const c09: Lesson[] = [
       },
       {
         key: 'gnocco',
+        version: '2',
         format: 'short',
         prompt:
-          'Gnocco (ñoqui) è maschile. Scrivi il gruppo con articolo determinativo.',
+          'Gnocco (ñoqui) è maschile. Scrivi articolo determinativo + nome secondo la regola dell’italiano standard studiata.',
         accepted: ['lo gnocco'],
         explanation: 'Gn inicial pertenece a los grupos que seleccionan lo.',
         facets: ['lo', 'grupos-iniciales'],
@@ -217,8 +220,10 @@ export const c09: Lesson[] = [
       },
       {
         key: 'studenti',
+        version: '2',
         format: 'cloze',
-        prompt: 'Studenti (estudiantes, maschile): ___ studenti.',
+        prompt:
+          'Completa con l’articolo determinativo: ___ studenti (estudiantes, maschile plurale).',
         accepted: ['gli'],
         explanation: 'S + consonante requiere gli en masculino plural.',
         facets: ['gli'],
@@ -274,9 +279,10 @@ export const c09: Lesson[] = [
       },
       {
         key: 'zaini',
+        version: '2',
         format: 'controlled-production',
         prompt:
-          'Indica le due mochilas già note: scrivi articolo determinativo + zaini (maschile).',
+          'Due zaini già noti (dos mochilas ya conocidas): scrivi articolo determinativo + zaini (maschile plurale).',
         accepted: ['gli zaini'],
         explanation: 'Z inicial selecciona gli en masculino plural.',
         facets: ['gli'],
@@ -303,9 +309,10 @@ export const c09: Lesson[] = [
       },
       {
         key: 'gruppi',
+        version: '2',
         format: 'selection',
         prompt:
-          'Gn y ps: scegli gli articoli di gnocchi e psicologi (maschili plurali).',
+          'Gn e ps: scegli gli articoli di gnocchi e psicologi (maschili plurali).',
         accepted: ['gli gnocchi / gli psicologi'],
         explanation:
           'Los grupos que seleccionan lo mantienen la serie gli en plural.',
@@ -422,9 +429,10 @@ export const c09: Lesson[] = [
       },
       {
         key: 'messaggio',
+        version: '2',
         format: 'controlled-production',
         prompt:
-          'Ho una chiave. Scrivi «La llave está aquí» para retomar esa misma llave; usa qui.',
+          'Ho una chiave. Scrivi «La llave está aquí»: parla della stessa chiave e usa qui.',
         accepted: ['La chiave è qui', 'La chiave è qui.'],
         explanation:
           'La chiave recupera el referente ya disponible en el diálogo.',

@@ -6,7 +6,7 @@ import { avereForms } from './c05';
 // Pedagogical senses and inflections for this lot only. Associations come from authored lessons.
 const words: [string, string, string, string, string?][] = [
   ['chiave', 'chiave', 'llave', 'noun', 'feminine'],
-  ['amico', 'amico', 'amigo / amiga', 'noun', 'masculine'],
+  ['amico', 'amico', 'amigo; femenino amica: amiga', 'noun', 'masculine'],
   ['gelato', 'gelato', 'helado', 'noun', 'masculine'],
   ['spaghetti', 'spaghetti', 'espaguetis', 'noun', 'masculine'],
   ['ghiaccio', 'ghiaccio', 'hielo', 'noun', 'masculine'],
@@ -53,7 +53,7 @@ const words: [string, string, string, string, string?][] = [
   ['voi', 'voi', 'vosotros / vosotras / ustedes', 'pronoun'],
   ['loro', 'loro', 'ellos / ellas', 'pronoun'],
   ['qui', 'qui', 'aquí', 'adverb'],
-  ['insegnante', 'insegnante', 'profesor / profesora', 'noun'],
+  ['insegnante', 'insegnante', 'profesor / profesora', 'noun', 'common'],
   ['alto', 'alto', 'alto (estatura)', 'adjective'],
   ['di', 'di', 'de, en la construcción de origen enseñada', 'preposition'],
   ['roma', 'Roma', 'Roma', 'proper-noun'],
@@ -148,7 +148,15 @@ export function vocabularyFor(lessons: Lesson[]): VocabularyEntry[] {
     ...words.map(
       ([key, lemma, gloss, partOfSpeech, gender]): VocabularyEntry => ({
         id: 'it-' + key,
-        version: ['italiano', 'spagnolo', 'avere'].includes(key) ? '2' : '1',
+        version: [
+          'italiano',
+          'spagnolo',
+          'avere',
+          'amico',
+          'insegnante',
+        ].includes(key)
+          ? '2'
+          : '1',
         language: 'it',
         supportLanguage: 'es',
         lemma,

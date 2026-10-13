@@ -1,3 +1,5 @@
+import { applyReviewBatch } from '../editorial-review';
+import { editorialC01C10 } from './editorial-c01-c10';
 import type { LanguagePack, ExerciseTemplate } from '../model';
 import type { Activity } from '../../../shared/learning';
 import type { ConceptRelation } from '../catalog';
@@ -382,7 +384,7 @@ function courseFixture(source: Activity): Activity {
   const item = structuredClone(source);
   if (item.id === 'it-a1-c04-01-engine-1') {
     item.prompt = 'Trasforma «io sono»: usa tu e il verbo essere.';
-    item.criterion.accepted = ['tu sei'];
+    item.criterion.accepted = ['tu sei', 'tu sei.'];
     item.criterion.rejected = ['tu sono', 'tu è'];
     item.hint = 'La segunda persona singular tiene su propia forma.';
     item.explanation = 'Con tu se usa sei: tu sei.';
@@ -393,11 +395,34 @@ function courseFixture(source: Activity): Activity {
     item.criterion.rejected = ['lei e qui', 'lei sono qui'];
     item.hint = 'Usa la tercera persona singular con acento.';
     item.explanation = 'Lei è qui: è concuerda con lei; qui indica aquí.';
+  } else if (item.id === 'it-a1-c04-01-engine-0') {
+    item.prompt = 'Ordina le parole: «nosotros somos». Inizia con noi.';
+  } else if (item.id === 'it-a1-c04-01-engine-2') {
+    item.prompt = 'Trova il verbo che non concorda con noi: «noi sono».';
+  } else if (item.id === 'it-a1-c04-01-engine-6') {
+    item.prompt =
+      'Qualcuno ti cerca: «Sei tu?». Conferma con la formula che termina con io. Puoi aggiungere sì all’inizio.';
+    item.criterion.accepted = [
+      'sono io',
+      'sono io.',
+      'sì, sono io',
+      'sì, sono io.',
+      'sì sono io',
+      'sì sono io.',
+    ];
+  } else if (
+    item.id === 'it-a1-c04-01-engine-3' ||
+    item.id === 'it-a1-c04-01-siamo'
+  ) {
+    item.criterion.accepted = ['noi siamo', 'noi siamo.'];
   } else return item;
-  item.version = '2';
-  item.criterion.version = '2';
+  item.version =
+    item.id === 'it-a1-c04-01-engine-1'
+      ? '3'
+      : String(Number(source.version) + 1);
+  item.criterion.version = item.version;
   item.provenance +=
-    ' Auditoría pedagógica A1: variante contextual del fixture; candidate.';
+    ' Variante del curso: auditorías pedagógica/editorial; fixture histórico conservado.';
   return item;
 }
 const activities = content
@@ -466,7 +491,7 @@ const templates: ExerciseTemplate[] = ['04-01', '05-01'].map((code) => {
     })),
   };
 });
-export const italianCourse: LanguagePack = {
+export const authoredItalianCourse: LanguagePack = {
   id: fixture.id,
   version: batchVersion,
   targetLanguage: 'it',
@@ -505,3 +530,8 @@ export const italianCourse: LanguagePack = {
   templates,
   canonicalActivities: activities,
 };
+
+export const italianCourse = applyReviewBatch(
+  authoredItalianCourse,
+  editorialC01C10,
+);

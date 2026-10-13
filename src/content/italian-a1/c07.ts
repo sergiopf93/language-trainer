@@ -2,6 +2,7 @@ import type { Lesson } from './authoring';
 export const c07: Lesson[] = [
   {
     code: '07-01',
+    theoryRevision: 'editorial-1',
     title: 'Il genere: -o e -a',
     objective:
       'Recuperar género de nombres familiares en -o/-a como tendencia y no como regla universal.',
@@ -9,7 +10,7 @@ export const c07: Lesson[] = [
       'Cada sustantivo tiene género gramatical. En muchos nombres, -o orienta al masculino y -a al femenino; aprende la palabra con su género, incluso cuando se refiere a un objeto.',
     rules: [
       'Gatto, letto y biglietto son masculinos; casa, penna y famiglia son femeninos.',
-      'El género gramatical no depende del sexo de una persona ni de la traducción española: penna es femenino aunque bolígrafo sea masculino.',
+      'El género de los objetos no se deduce de la traducción española: penna es femenino aunque bolígrafo sea masculino. En nombres de personas, el género puede distinguir referentes: amico/amica.',
       'Los artículos il y la se muestran como pistas de género. Su selección completa se estudia en C09; aquí puedes responder maschile o femminile.',
     ],
     forms: [
@@ -130,6 +131,7 @@ export const c07: Lesson[] = [
   },
   {
     code: '07-02',
+    theoryRevision: 'editorial-1',
     title: 'La chiave, il problema',
     objective:
       'Recuperar género de nombres en -e y excepciones frecuentes: mano y problema.',
@@ -147,7 +149,7 @@ export const c07: Lesson[] = [
     ],
     examples: [
       ['La chiave è qui.', 'La llave está aquí.'],
-      ['Il problema è qui.', 'El problema está aquí.'],
+      ['La notte.', 'La noche.'],
     ],
     frequentErrors: [
       'No todos los nombres en -e son masculinos.',

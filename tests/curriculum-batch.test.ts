@@ -51,7 +51,8 @@ describe('sequential Italian A1 lots C01–C34', () => {
               c.exercises &&
               c.vocabulary &&
               c.fullScope &&
-              c.editorialStatus === 'candidate',
+              c.editorialStatus ===
+                (/^it-a1-c(0[1-9]|10)-/.test(c.id) ? 'reviewed' : 'candidate'),
           ),
         ),
     ).toBe(true);
