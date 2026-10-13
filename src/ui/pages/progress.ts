@@ -120,7 +120,7 @@ export async function progress(store: LocalStore) {
       'Recordar hoy no garantiza recordarlo más adelante. Aún no hay una programación de repasos ni comprobaciones diferidas para mostrar.',
     ),
   );
-  if (concepts.some((c) => c.status === 'candidate'))
+  if (concepts.some((c) => c.status !== 'published'))
     page.append(previewNotice());
   return page;
 }

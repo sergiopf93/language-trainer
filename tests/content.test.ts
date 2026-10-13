@@ -94,8 +94,10 @@ describe('content and curriculum engine', () => {
       '2026-10-08',
     );
     expect(
-      loadLanguagePack(pack, true).repository.concept(pack.concepts[0].id),
-    ).toBeUndefined();
+      loadLanguagePack(pack, true).repository.concept(pack.concepts[0].id)
+        ?.status,
+    ).toBe('reviewed');
+    expect(loadLanguagePack(pack).repository.available()).toEqual([]);
   });
   it('requires reviewed before published and invalidates review after version changes', () => {
     const candidate = clone().concepts[0];

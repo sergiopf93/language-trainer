@@ -38,7 +38,7 @@ export function library() {
     grid.append(card);
   }
   page.append(grid);
-  if (concepts.some((c) => c.status === 'candidate'))
+  if (concepts.some((c) => c.status !== 'published'))
     page.append(previewNotice());
   return page;
 }

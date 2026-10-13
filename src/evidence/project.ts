@@ -25,7 +25,8 @@ export function project(
         (f) =>
           f.kind === 'practice-session' &&
           (f.payload.contentStatus === 'published' ||
-            (allowCandidates && f.payload.contentStatus === 'candidate')),
+            (allowCandidates &&
+              ['candidate', 'reviewed'].includes(f.payload.contentStatus))),
       )
       .map((f) => f.id),
   );

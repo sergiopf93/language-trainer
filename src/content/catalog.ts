@@ -102,7 +102,9 @@ export class ContentRepository {
   }
   allowed(status: EditorialStatus) {
     return (
-      status === 'published' || (this.allowCandidates && status === 'candidate')
+      status === 'published' ||
+      (this.allowCandidates &&
+        (status === 'candidate' || status === 'reviewed'))
     );
   }
   concept(id: string) {

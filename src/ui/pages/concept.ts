@@ -110,6 +110,6 @@ export async function conceptDetail(
   );
   progress.append(detail);
   page.append(progress);
-  if (concept.status === 'candidate') page.append(previewNotice());
+  if (concept.status !== 'published') page.append(previewNotice());
   return page;
 }

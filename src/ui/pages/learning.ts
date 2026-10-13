@@ -117,7 +117,7 @@ export async function learning(store: LocalStore, saved: () => void) {
       catalog.concepts.find((c) => c.id === root.payload.conceptId)?.title ??
       root.payload.conceptId;
     content.append(el('h2', theories[root.payload.conceptId]?.title ?? title));
-    if (root.payload.contentStatus === 'candidate')
+    if (root.payload.contentStatus !== 'published')
       content.append(el('span', 'Contenuti di prova', 'pill'));
     if (state.status === 'completed') {
       const attempts = facts.filter(
@@ -448,7 +448,7 @@ export async function learning(store: LocalStore, saved: () => void) {
         support(theories[concept.id]?.goal ?? concept.objective, ''),
       );
       content.append(link('← Teoria ed esempi', '/concept?id=' + conceptId));
-      if (concept.status === 'candidate') content.append(previewNotice());
+      if (concept.status !== 'published') content.append(previewNotice());
       for (const r of catalog.relations.filter(
         (r) => r.from === conceptId && r.type === 'prerequisite',
       ))
