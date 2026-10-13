@@ -32,3 +32,7 @@ Conceptos con 6–7 actividades: C01-02, C01-03, C02-01, C02-02, C02-03, C03-02,
 - Node 22.23.3 requerido en esta máquina; el Node antiguo del terminal falla antes de ejecutar coverage.
 - Cloudflare remoto/nativo no ejecutado. E2E usa el fallback local Worker/SQLite; no acredita un despliegue real.
 - Validación humana y revisión editorial independiente pendientes. No iniciar automáticamente revisión, publicación ni otra fase.
+
+## Seguimiento — auditoría pedagógica 2026-10-13
+
+El estado anterior se conserva como baseline histórico. La [auditoría pedagógica](A1_PEDAGOGICAL_AUDIT.md) clasifica los 21 conceptos de reserva pequeña, contrasta los 99 y documenta las correcciones: 865 actividades, 210 relaciones, sin cambio de alcance ni publicación. C03-02 incorpora retrieval contextual y C09/C10 especifican el tipo de artículo. No equivale a revisión editorial 5B ni a eficacia validada. El nuevo reporte se ejecuta con `npm run content:pedagogy`.

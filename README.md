@@ -66,6 +66,18 @@ npm run build
 E2E_PRODUCTION=1 PLAYWRIGHT_CHANNEL=chrome E2E_NODE_FALLBACK=1 npm run test:e2e -- --grep 'production build'
 ```
 
+## Auditoría curricular candidate
+
+El pack focal contiene C01–C34: 99 conceptos, 99 fichas, 316 entradas y 865 actividades. Todo permanece `candidate`; presencia no acredita suficiencia pedagógica ni publicación. La [auditoría 5A](docs/product/A1_PEDAGOGICAL_AUDIT.md) conserva el baseline y las decisiones por concepto; validación humana/editorial pendiente.
+
+```sh
+npm run content:coverage
+npm run content:pedagogy
+npm run content:pedagogy -- --json
+```
+
+El reporte pedagógico distingue habilidades, familias, teoría, relaciones y vocabulario; sus flags requieren interpretación según el objetivo, sin puntuación automática de suficiencia. Para analizar un LanguagePack JSON previo: `npm run content:pedagogy -- --input /ruta/pack.json --json`.
+
 ## Historial y sincronización
 
 - Hecho y outbox se guardan en una transacción IndexedDB. UUID, dispositivo, secuencia, versiones, referencias y revisiones mantienen procedencia; el servidor deriva el propietario de la sesión.

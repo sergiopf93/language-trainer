@@ -1,6 +1,6 @@
 # R2 — contexto operativo de language-trainer
 
-Actualizado: 2026-10-12. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
+Actualizado: 2026-10-13. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
 
 ## Política de lectura y delegación
 
@@ -216,6 +216,18 @@ Añade 82 entradas y reutiliza 87 anteriores (≈51,5 % de entradas distintas vi
 Validación: **252 pruebas locales**; tras precisar metadatos y habilidad receptiva, **137 pruebas afectadas repetidas**. Tipos, formato, builds y coverage correctos. **21 E2E candidate + 1 exclusión de producción**, con regresiones offline/sync y fichas C33-01/C34-07 inspeccionadas a 320 px. [Hallazgos](../product/A1_COVERAGE_FINDINGS.md): reservas de 6–7 actividades en 21 conceptos anteriores, C03-02 sin retrieval explícita, repetición previa de enunciado C09/C10, límites de producción guiada y reserva diferida. Sin Theory vacías, vocabulario huérfano ni actividades sin trace/versionado. Aviso de bundle ≈667 kB, deuda posterior; Cloudflare nativo/remoto no ejecutado.
 
 **Todo candidate. 99/99 = currículo focal implementado, no aprobado editorialmente ni V1 íntegra entregada.** Validación humana y editorial pendientes; no se inicia Reading/Writing completo, Review avanzado, revisión editorial ni publicación. Sin cambios de UI, evaluación, persistencia o dependencias. Sin merge, push ni despliegue. **Detenerse tras esta entrega.** Próxima fase recomendada: validación humana y revisión pedagógica/editorial acotada, con nueva autorización.
+
+## Auditoría pedagógica de cobertura — 2026-10-13
+
+Fase autorizada de auditoría/corrección, no ampliación ni editorial final. Rama `feat/a1-pedagogical-audit`, baseline `c3f9019`; pack `it-A1-candidate-9`. **99/99 Concepts, 99 Theory, 316 entradas, 865 actividades, 210 relaciones; todo candidate, 0 ready/publicado.** No confundir recorrido focal implementado con A1 pedagógicamente validado.
+
+Revisados progresión, los 99 objetivos/Theory/práctica, las 316 entradas y las 207 relaciones iniciales; inspección lingüística distribuida, no editorial exhaustiva. De los 21 con 6–7 actividades: 18 suficientes para práctica focal, C01-03/C11-02 mejorables y C03-02 insuficiente en recuperación contextual. Se añaden 16 actividades únicamente en C01-03, C03-02, C13-01, C22-01 y C32-02; 38 modificadas, ninguna eliminada. Se corrigen duplicado C09/C10, redundancia de fixtures de essere, respuesta suministrada, nueve listas de variantes y 20 etiquetas de habilidad. Reconocimiento/recuperación/discriminación/transformación/producción: 90/392/58/139/170 → 107/381/67/139/171; parte del cambio es corrección de metadata, no dificultad nueva.
+
+Cuatro enlaces mal dirigidos corregidos y tres prerequisites recomendados añadidos, sin ciclos/hard locks. Cuatro glosas completan sentidos ya exigidos (caro, italiano, spagnolo, avere); Theory C29-02 prepara caro como precio. Ítems/criterios modificados versionados; fixtures históricos y snapshots preservados. `npm run content:pedagogy` (+ `-- --json`) ofrece señales explicables por Concept y vocabulario, sin score. [Auditoría y juicio por los 99](../product/A1_PEDAGOGICAL_AUDIT.md); [baseline conservado](../product/A1_PEDAGOGY_BASELINE.json).
+
+Validación: 259 pruebas locales, tipos/formato, builds, coverage y 21 E2E candidate + 1 producción correctos; diff revisado. Continúa aviso bundle ≈675 kB, sin optimización. Sin cambios de motor/evaluación/Evidence/infraestructura/UX ni dependencias. No Cloudflare remoto/nativo, publicación, merge a main ni despliegue.
+
+Pendiente 5B: naturalidad/paráfrasis, retirada de apoyos (C11-02 y producción con piezas), reserva diferida, ritmo de C16 y transversalidad de C34; revisión humana/editorial independiente. Hay práctica escrita de las funciones previstas, no prueba de autonomía, retención ni habilidades orales. **Detenerse tras esta fase; no iniciar 5B, Reading/Writing completos ni Review avanzado automáticamente.**
 
 ## Reglas y mantenimiento
 

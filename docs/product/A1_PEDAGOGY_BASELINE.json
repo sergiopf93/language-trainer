@@ -1,0 +1,3362 @@
+{
+  "sourceCommit": "c3f9019",
+  "command": "npm run content:coverage; npm run content:pedagogy -- --json",
+  "note": "Structural baseline captured before edits; pedagogical signals applied retrospectively to that exact pack. Full source remains in Git.",
+  "packVersion": "it-A1-candidate-8",
+  "totals": {
+    "concepts": 99,
+    "activities": 849,
+    "theories": 99,
+    "vocabulary": 316,
+    "relations": 207,
+    "productionReady": 0,
+    "skills": {
+      "recognition": 90,
+      "retrieval": 392,
+      "discrimination": 58,
+      "transformation": 139,
+      "controlled-production": 170
+    }
+  },
+  "stages": [
+    {
+      "stage": "C1–C10",
+      "activities": 225,
+      "skills": {
+        "recognition": 44,
+        "retrieval": 93,
+        "discrimination": 21,
+        "transformation": 29,
+        "controlled-production": 38
+      }
+    },
+    {
+      "stage": "C11–C17",
+      "activities": 206,
+      "skills": {
+        "recognition": 22,
+        "retrieval": 107,
+        "discrimination": 21,
+        "transformation": 26,
+        "controlled-production": 30
+      }
+    },
+    {
+      "stage": "C18–C25",
+      "activities": 182,
+      "skills": {
+        "recognition": 22,
+        "retrieval": 61,
+        "discrimination": 11,
+        "transformation": 44,
+        "controlled-production": 44
+      }
+    },
+    {
+      "stage": "C26–C32",
+      "activities": 153,
+      "skills": {
+        "recognition": 2,
+        "retrieval": 81,
+        "discrimination": 5,
+        "transformation": 36,
+        "controlled-production": 29
+      }
+    },
+    {
+      "stage": "C33–C34",
+      "activities": 83,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 50,
+        "discrimination": 0,
+        "transformation": 4,
+        "controlled-production": 29
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "id": "it-a1-c01-01",
+      "activities": 11,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 8,
+        "discrimination": 0,
+        "transformation": 2,
+        "controlled-production": 0
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-chiave",
+        "it-amico",
+        "it-gelato",
+        "it-spaghetti",
+        "it-ghiaccio",
+        "it-pesce",
+        "it-scimmia",
+        "it-bagno",
+        "it-famiglia",
+        "it-biglietto",
+        "it-casa",
+        "it-gatto",
+        "it-ciao"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention"
+      ]
+    },
+    {
+      "id": "it-a1-c01-02",
+      "activities": 7,
+      "skills": {
+        "recognition": 2,
+        "retrieval": 3,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 0
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-citta",
+        "it-caffe",
+        "it-perche",
+        "it-si",
+        "it-e"
+      ],
+      "flags": [
+        "small-reserve: inspect facets, not an automatic failure"
+      ]
+    },
+    {
+      "id": "it-a1-c01-03",
+      "activities": 7,
+      "skills": {
+        "recognition": 2,
+        "retrieval": 4,
+        "discrimination": 0,
+        "transformation": 1,
+        "controlled-production": 0
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-biglietto",
+        "it-gatto",
+        "it-caffe",
+        "it-pala",
+        "it-palla",
+        "it-pena",
+        "it-penna",
+        "it-letto"
+      ],
+      "flags": [
+        "small-reserve: inspect facets, not an automatic failure",
+        "retrieval-answer-visible: inspect copying or incidental mention"
+      ]
+    },
+    {
+      "id": "it-a1-c02-01",
+      "activities": 7,
+      "skills": {
+        "recognition": 2,
+        "retrieval": 3,
+        "discrimination": 1,
+        "transformation": 0,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-ciao",
+        "it-buongiorno",
+        "it-buonasera",
+        "it-arrivederci",
+        "it-buonanotte",
+        "it-a-presto"
+      ],
+      "flags": [
+        "small-reserve: inspect facets, not an automatic failure"
+      ]
+    },
+    {
+      "id": "it-a1-c02-02",
+      "activities": 7,
+      "skills": {
+        "recognition": 2,
+        "retrieval": 3,
+        "discrimination": 0,
+        "transformation": 0,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F4",
+        "F7"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-caffe",
+        "it-grazie",
+        "it-prego",
+        "it-per-favore",
+        "it-scusa",
+        "it-scusi"
+      ],
+      "flags": [
+        "small-reserve: inspect facets, not an automatic failure",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c02-03",
+      "activities": 7,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 3,
+        "discrimination": 1,
+        "transformation": 0,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-per-favore",
+        "it-scusi",
+        "it-non-capisco",
+        "it-puo-ripetere",
+        "it-puoi-ripetere",
+        "it-piu-lentamente",
+        "it-non-lo-so"
+      ],
+      "flags": [
+        "small-reserve: inspect facets, not an automatic failure"
+      ]
+    },
+    {
+      "id": "it-a1-c03-01",
+      "activities": 10,
+      "skills": {
+        "recognition": 3,
+        "retrieval": 6,
+        "discrimination": 0,
+        "transformation": 0,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-io",
+        "it-tu",
+        "it-noi",
+        "it-lui",
+        "it-lei",
+        "it-voi",
+        "it-loro",
+        "it-qui"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c03-02",
+      "activities": 7,
+      "skills": {
+        "recognition": 3,
+        "retrieval": 0,
+        "discrimination": 1,
+        "transformation": 2,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-io",
+        "it-tu",
+        "it-noi",
+        "it-essere",
+        "it-loro",
+        "it-qui"
+      ],
+      "flags": [
+        "small-reserve: inspect facets, not an automatic failure",
+        "no-explicit-retrieval: justify for this objective"
+      ]
+    },
+    {
+      "id": "it-a1-c04-01",
+      "activities": 18,
+      "skills": {
+        "recognition": 3,
+        "retrieval": 7,
+        "discrimination": 2,
+        "transformation": 3,
+        "controlled-production": 3
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F7",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-io",
+        "it-tu",
+        "it-noi",
+        "it-essere",
+        "it-lui",
+        "it-lei",
+        "it-voi",
+        "it-loro",
+        "it-qui"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c04-02",
+      "activities": 6,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 3,
+        "discrimination": 0,
+        "transformation": 0,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-essere",
+        "it-amico",
+        "it-insegnante",
+        "it-alto"
+      ],
+      "flags": [
+        "small-reserve: inspect facets, not an automatic failure"
+      ]
+    },
+    {
+      "id": "it-a1-c04-03",
+      "activities": 7,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 2,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 3
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F4",
+        "F3"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-essere",
+        "it-di",
+        "it-roma",
+        "it-madrid",
+        "it-italiano",
+        "it-spagnolo"
+      ],
+      "flags": [
+        "small-reserve: inspect facets, not an automatic failure"
+      ]
+    },
+    {
+      "id": "it-a1-c04-04",
+      "activities": 7,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 3,
+        "discrimination": 1,
+        "transformation": 0,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-essere",
+        "it-chiave",
+        "it-casa",
+        "it-qui",
+        "it-roma",
+        "it-madrid",
+        "it-a",
+        "it-in",
+        "it-hotel"
+      ],
+      "flags": [
+        "small-reserve: inspect facets, not an automatic failure"
+      ]
+    },
+    {
+      "id": "it-a1-c04-05",
+      "activities": 6,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 2,
+        "discrimination": 1,
+        "transformation": 0,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-essere",
+        "it-stanco",
+        "it-contento",
+        "it-pronto",
+        "it-sto-bene"
+      ],
+      "flags": [
+        "small-reserve: inspect facets, not an automatic failure"
+      ]
+    },
+    {
+      "id": "it-a1-c05-01",
+      "activities": 8,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 6,
+        "discrimination": 0,
+        "transformation": 1,
+        "controlled-production": 0
+      },
+      "families": [
+        "F1",
+        "F3",
+        "F2"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-io",
+        "it-tu",
+        "it-noi",
+        "it-chiave",
+        "it-biglietto",
+        "it-penna",
+        "it-lui",
+        "it-lei",
+        "it-voi",
+        "it-loro",
+        "it-avere",
+        "it-due",
+        "it-anno"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c05-02",
+      "activities": 7,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 2,
+        "discrimination": 0,
+        "transformation": 1,
+        "controlled-production": 3
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F4",
+        "F7",
+        "F3"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-chiave",
+        "it-biglietto",
+        "it-penna",
+        "it-avere",
+        "it-due"
+      ],
+      "flags": [
+        "small-reserve: inspect facets, not an automatic failure",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c05-03",
+      "activities": 8,
+      "skills": {
+        "recognition": 2,
+        "retrieval": 3,
+        "discrimination": 0,
+        "transformation": 1,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F4",
+        "F3"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-avere",
+        "it-anno",
+        "it-venti",
+        "it-trenta",
+        "it-quaranta",
+        "it-quanti-anni"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c05-04",
+      "activities": 8,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 4,
+        "discrimination": 1,
+        "transformation": 0,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F4",
+        "F2"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-stanco",
+        "it-avere",
+        "it-fame",
+        "it-sete",
+        "it-sonno",
+        "it-caldo",
+        "it-freddo",
+        "it-paura"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c06-01",
+      "activities": 6,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 1,
+        "discrimination": 0,
+        "transformation": 2,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F7",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-essere",
+        "it-chiave",
+        "it-casa",
+        "it-qui",
+        "it-avere",
+        "it-fame",
+        "it-sonno",
+        "it-non",
+        "it-no"
+      ],
+      "flags": [
+        "small-reserve: inspect facets, not an automatic failure",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c06-02",
+      "activities": 6,
+      "skills": {
+        "recognition": 2,
+        "retrieval": 2,
+        "discrimination": 0,
+        "transformation": 1,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-essere",
+        "it-chiave",
+        "it-casa",
+        "it-si",
+        "it-penna",
+        "it-qui",
+        "it-avere",
+        "it-non",
+        "it-no"
+      ],
+      "flags": [
+        "small-reserve: inspect facets, not an automatic failure"
+      ]
+    },
+    {
+      "id": "it-a1-c06-03",
+      "activities": 8,
+      "skills": {
+        "recognition": 2,
+        "retrieval": 4,
+        "discrimination": 1,
+        "transformation": 0,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-essere",
+        "it-chiave",
+        "it-casa",
+        "it-perche",
+        "it-roma",
+        "it-sto-bene",
+        "it-avere",
+        "it-quanti-anni",
+        "it-chi",
+        "it-dove",
+        "it-come",
+        "it-che-cosa",
+        "it-quando",
+        "it-oggi"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c07-01",
+      "activities": 6,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 3,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 0
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-famiglia",
+        "it-biglietto",
+        "it-casa",
+        "it-gatto",
+        "it-penna",
+        "it-letto",
+        "it-mano",
+        "it-problema"
+      ],
+      "flags": [
+        "small-reserve: inspect facets, not an automatic failure",
+        "retrieval-answer-visible: inspect copying or incidental mention"
+      ]
+    },
+    {
+      "id": "it-a1-c07-02",
+      "activities": 7,
+      "skills": {
+        "recognition": 2,
+        "retrieval": 3,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 0
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-chiave",
+        "it-pesce",
+        "it-insegnante",
+        "it-mano",
+        "it-problema",
+        "it-notte",
+        "it-nome"
+      ],
+      "flags": [
+        "small-reserve: inspect facets, not an automatic failure",
+        "retrieval-answer-visible: inspect copying or incidental mention"
+      ]
+    },
+    {
+      "id": "it-a1-c08-01",
+      "activities": 7,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 2,
+        "discrimination": 0,
+        "transformation": 3,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-chiave",
+        "it-biglietto",
+        "it-casa",
+        "it-gatto",
+        "it-penna",
+        "it-due",
+        "it-mano",
+        "it-problema",
+        "it-nome"
+      ],
+      "flags": [
+        "small-reserve: inspect facets, not an automatic failure"
+      ]
+    },
+    {
+      "id": "it-a1-c08-02",
+      "activities": 7,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 2,
+        "discrimination": 1,
+        "transformation": 2,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-citta",
+        "it-caffe",
+        "it-per-favore",
+        "it-hotel",
+        "it-due",
+        "it-bar",
+        "it-film",
+        "it-foto"
+      ],
+      "flags": [
+        "small-reserve: inspect facets, not an automatic failure",
+        "retrieval-answer-visible: inspect copying or incidental mention"
+      ]
+    },
+    {
+      "id": "it-a1-c09-01",
+      "activities": 9,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 5,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-amico",
+        "it-penna",
+        "it-letto",
+        "it-sonno",
+        "it-studente",
+        "it-studentessa",
+        "it-zaino",
+        "it-gnocco",
+        "it-psicologo",
+        "it-articolo-determinativo"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing",
+        "duplicate-prompt"
+      ]
+    },
+    {
+      "id": "it-a1-c09-02",
+      "activities": 9,
+      "skills": {
+        "recognition": 2,
+        "retrieval": 2,
+        "discrimination": 1,
+        "transformation": 3,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-chiave",
+        "it-amico",
+        "it-biglietto",
+        "it-penna",
+        "it-letto",
+        "it-studente",
+        "it-zaino",
+        "it-gnocco",
+        "it-psicologo",
+        "it-articolo-determinativo"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c09-03",
+      "activities": 6,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 1,
+        "discrimination": 2,
+        "transformation": 1,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-chiave",
+        "it-biglietto",
+        "it-casa",
+        "it-penna",
+        "it-letto",
+        "it-articolo-determinativo",
+        "it-articolo-indeterminativo"
+      ],
+      "flags": [
+        "small-reserve: inspect facets, not an automatic failure"
+      ]
+    },
+    {
+      "id": "it-a1-c10-01",
+      "activities": 9,
+      "skills": {
+        "recognition": 2,
+        "retrieval": 4,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-amico",
+        "it-penna",
+        "it-letto",
+        "it-studente",
+        "it-studentessa",
+        "it-zaino",
+        "it-gnocco",
+        "it-psicologo",
+        "it-articolo-indeterminativo"
+      ],
+      "flags": [
+        "duplicate-prompt"
+      ]
+    },
+    {
+      "id": "it-a1-c10-02",
+      "activities": 7,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 2,
+        "discrimination": 2,
+        "transformation": 0,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-chiave",
+        "it-biglietto",
+        "it-caffe",
+        "it-penna",
+        "it-per-favore",
+        "it-articolo-determinativo",
+        "it-articolo-indeterminativo"
+      ],
+      "flags": [
+        "small-reserve: inspect facets, not an automatic failure",
+        "retrieval-answer-visible: inspect copying or incidental mention"
+      ]
+    },
+    {
+      "id": "it-a1-c11-01",
+      "activities": 9,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 4,
+        "discrimination": 1,
+        "transformation": 2,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-essere",
+        "it-amico",
+        "it-casa",
+        "it-citta",
+        "it-alto",
+        "it-stanco",
+        "it-studente",
+        "it-studentessa",
+        "it-piccolo",
+        "it-tranquillo",
+        "it-grande",
+        "it-giovane",
+        "it-camera"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention"
+      ]
+    },
+    {
+      "id": "it-a1-c11-02",
+      "activities": 7,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 2,
+        "discrimination": 1,
+        "transformation": 0,
+        "controlled-production": 3
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F7",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-amico",
+        "it-casa",
+        "it-penna",
+        "it-italiano",
+        "it-studente",
+        "it-tranquillo",
+        "it-rosso",
+        "it-bello",
+        "it-vecchio",
+        "it-camera"
+      ],
+      "flags": [
+        "small-reserve: inspect facets, not an automatic failure",
+        "retrieval-answer-visible: inspect copying or incidental mention",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c12-01",
+      "activities": 8,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 2,
+        "discrimination": 0,
+        "transformation": 2,
+        "controlled-production": 3
+      },
+      "families": [
+        "F1",
+        "F3",
+        "F2",
+        "F4",
+        "F7"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-citta",
+        "it-penna",
+        "it-letto",
+        "it-per-favore",
+        "it-italiano",
+        "it-studente",
+        "it-articolo-determinativo",
+        "it-articolo-indeterminativo",
+        "it-piccolo",
+        "it-tranquillo",
+        "it-grande",
+        "it-rosso",
+        "it-camera"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c13-01",
+      "activities": 12,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 8,
+        "discrimination": 2,
+        "transformation": 1,
+        "controlled-production": 0
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-biglietto",
+        "it-due",
+        "it-anno",
+        "it-venti",
+        "it-trenta",
+        "it-quaranta",
+        "it-zero",
+        "it-uno",
+        "it-tre",
+        "it-quattro",
+        "it-cinque",
+        "it-sei",
+        "it-sette",
+        "it-otto",
+        "it-nove",
+        "it-dieci",
+        "it-undici",
+        "it-dodici",
+        "it-tredici",
+        "it-quattordici",
+        "it-quindici",
+        "it-sedici",
+        "it-diciassette",
+        "it-diciotto",
+        "it-diciannove",
+        "it-cinquanta",
+        "it-sessanta",
+        "it-settanta",
+        "it-ottanta",
+        "it-novanta",
+        "it-cento"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c13-02",
+      "activities": 10,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 7,
+        "discrimination": 0,
+        "transformation": 1,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-cento",
+        "it-duecento",
+        "it-trecento",
+        "it-quattrocento",
+        "it-cinquecento",
+        "it-seicento",
+        "it-settecento",
+        "it-ottocento",
+        "it-novecento",
+        "it-mille",
+        "it-euro"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c13-03",
+      "activities": 8,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 3,
+        "discrimination": 0,
+        "transformation": 1,
+        "controlled-production": 3
+      },
+      "families": [
+        "F1",
+        "F4",
+        "F2",
+        "F3"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-biglietto",
+        "it-avere",
+        "it-due",
+        "it-anno",
+        "it-venti",
+        "it-trenta",
+        "it-zero",
+        "it-tre",
+        "it-cinquanta",
+        "it-euro",
+        "it-centesimo",
+        "it-numero"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c14-01",
+      "activities": 11,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 8,
+        "discrimination": 0,
+        "transformation": 1,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-roma",
+        "it-italiano",
+        "it-spagnolo",
+        "it-hotel",
+        "it-non",
+        "it-parlare",
+        "it-lavorare",
+        "it-abitare",
+        "it-studiare",
+        "it-con"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c14-02",
+      "activities": 7,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 1,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 3
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F4",
+        "F3"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-roma",
+        "it-italiano",
+        "it-hotel",
+        "it-non",
+        "it-parlare",
+        "it-lavorare",
+        "it-abitare",
+        "it-studiare",
+        "it-ogni-giorno"
+      ],
+      "flags": [
+        "small-reserve: inspect facets, not an automatic failure"
+      ]
+    },
+    {
+      "id": "it-a1-c15-01",
+      "activities": 11,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 7,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-amico",
+        "it-caffe",
+        "it-italiano",
+        "it-nome",
+        "it-numero",
+        "it-leggere",
+        "it-prendere",
+        "it-libro",
+        "it-messaggio"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c15-02",
+      "activities": 9,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 5,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-casa",
+        "it-qui",
+        "it-hotel",
+        "it-dormire",
+        "it-bambino"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c15-03",
+      "activities": 9,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 5,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-non-capisco",
+        "it-italiano",
+        "it-non",
+        "it-nome",
+        "it-studente",
+        "it-dormire",
+        "it-capire",
+        "it-messaggio"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c16-01",
+      "activities": 9,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 5,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-casa",
+        "it-hotel",
+        "it-studente",
+        "it-fare",
+        "it-colazione",
+        "it-pausa",
+        "it-esercizio"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c16-02",
+      "activities": 9,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 5,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-amico",
+        "it-casa",
+        "it-roma",
+        "it-a",
+        "it-in",
+        "it-hotel",
+        "it-andare"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c16-03",
+      "activities": 9,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 5,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-essere",
+        "it-amico",
+        "it-casa",
+        "it-grazie",
+        "it-stanco",
+        "it-sto-bene",
+        "it-oggi",
+        "it-stare",
+        "it-bene",
+        "it-male"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c16-04",
+      "activities": 9,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 5,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-amico",
+        "it-casa",
+        "it-qui",
+        "it-roma",
+        "it-hotel",
+        "it-andare",
+        "it-venire"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c16-05",
+      "activities": 9,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 5,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-chiave",
+        "it-amico",
+        "it-biglietto",
+        "it-penna",
+        "it-a",
+        "it-libro",
+        "it-dare"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c16-06",
+      "activities": 9,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 5,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-amico",
+        "it-caffe",
+        "it-hotel",
+        "it-non",
+        "it-bere",
+        "it-acqua"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c16-07",
+      "activities": 9,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 5,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-ciao",
+        "it-buongiorno",
+        "it-grazie",
+        "it-nome",
+        "it-studente",
+        "it-numero",
+        "it-parlare",
+        "it-dire"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c16-08",
+      "activities": 9,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 5,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-amico",
+        "it-casa",
+        "it-oggi",
+        "it-con",
+        "it-uscire"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c17-01",
+      "activities": 11,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 5,
+        "discrimination": 1,
+        "transformation": 2,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-puoi-ripetere",
+        "it-italiano",
+        "it-oggi",
+        "it-studente",
+        "it-parlare",
+        "it-studiare",
+        "it-leggere",
+        "it-libro",
+        "it-uscire",
+        "it-potere",
+        "it-ripetere"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c17-02",
+      "activities": 11,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 5,
+        "discrimination": 2,
+        "transformation": 2,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-caffe",
+        "it-italiano",
+        "it-non",
+        "it-parlare",
+        "it-studiare",
+        "it-con",
+        "it-leggere",
+        "it-dormire",
+        "it-bere",
+        "it-uscire",
+        "it-acqua",
+        "it-potere",
+        "it-volere"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c17-03",
+      "activities": 11,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 5,
+        "discrimination": 2,
+        "transformation": 2,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-roma",
+        "it-oggi",
+        "it-studente",
+        "it-lavorare",
+        "it-studiare",
+        "it-leggere",
+        "it-messaggio",
+        "it-fare",
+        "it-andare",
+        "it-esercizio",
+        "it-potere",
+        "it-volere",
+        "it-dovere"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c18-01",
+      "activities": 8,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 2,
+        "discrimination": 1,
+        "transformation": 2,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-biglietto",
+        "it-caffe",
+        "it-per-favore",
+        "it-camera",
+        "it-parlare",
+        "it-bere",
+        "it-acqua",
+        "it-volere",
+        "it-vorrei"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c18-02",
+      "activities": 8,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 2,
+        "discrimination": 1,
+        "transformation": 3,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-tu",
+        "it-essere",
+        "it-ciao",
+        "it-buongiorno",
+        "it-scusa",
+        "it-scusi",
+        "it-puo-ripetere",
+        "it-puoi-ripetere",
+        "it-lei",
+        "it-roma",
+        "it-avere",
+        "it-potere"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c19-01",
+      "activities": 8,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 1,
+        "discrimination": 1,
+        "transformation": 3,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-essere",
+        "it-chiave",
+        "it-bagno",
+        "it-letto",
+        "it-hotel",
+        "it-due",
+        "it-camera",
+        "it-esserci"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c19-02",
+      "activities": 8,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 3,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F4",
+        "F3"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-essere",
+        "it-chiave",
+        "it-casa",
+        "it-gatto",
+        "it-qui",
+        "it-due",
+        "it-camera",
+        "it-libro",
+        "it-esserci"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c20-01",
+      "activities": 8,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 3,
+        "discrimination": 0,
+        "transformation": 2,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F4",
+        "F3"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-essere",
+        "it-penna",
+        "it-letto",
+        "it-di",
+        "it-roma",
+        "it-madrid",
+        "it-italiano",
+        "it-camera",
+        "it-libro",
+        "it-venire",
+        "it-da"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c20-02",
+      "activities": 8,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 3,
+        "discrimination": 0,
+        "transformation": 2,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-casa",
+        "it-penna",
+        "it-roma",
+        "it-a",
+        "it-in",
+        "it-hotel",
+        "it-due",
+        "it-bar",
+        "it-lavorare",
+        "it-libro",
+        "it-su",
+        "it-tra",
+        "it-fra",
+        "it-italia"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c20-03",
+      "activities": 8,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 4,
+        "discrimination": 0,
+        "transformation": 1,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-casa",
+        "it-roma",
+        "it-a",
+        "it-in",
+        "it-prendere",
+        "it-andare",
+        "it-venire",
+        "it-da",
+        "it-per",
+        "it-italia",
+        "it-treno"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c20-04",
+      "activities": 8,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 3,
+        "discrimination": 0,
+        "transformation": 2,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-noi",
+        "it-amico",
+        "it-lui",
+        "it-lei",
+        "it-voi",
+        "it-loro",
+        "it-parlare",
+        "it-studiare",
+        "it-con",
+        "it-uscire",
+        "it-potere",
+        "it-me",
+        "it-te"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c20-05",
+      "activities": 8,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 2,
+        "discrimination": 1,
+        "transformation": 2,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-caffe",
+        "it-studiare",
+        "it-leggere",
+        "it-capire",
+        "it-libro",
+        "it-volere",
+        "it-per",
+        "it-me",
+        "it-te"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c20-06",
+      "activities": 8,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 4,
+        "discrimination": 0,
+        "transformation": 1,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F4",
+        "F3"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-di",
+        "it-italiano",
+        "it-a",
+        "it-in",
+        "it-due",
+        "it-anno",
+        "it-notte",
+        "it-lavorare",
+        "it-studiare",
+        "it-venire",
+        "it-da",
+        "it-tra",
+        "it-fra",
+        "it-per",
+        "it-ora",
+        "it-giorno",
+        "it-agosto",
+        "it-mezzogiorno"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c21-01",
+      "activities": 10,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 3,
+        "discrimination": 1,
+        "transformation": 3,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-amico",
+        "it-casa",
+        "it-letto",
+        "it-di",
+        "it-a",
+        "it-in",
+        "it-bar",
+        "it-studente",
+        "it-articolo-determinativo",
+        "it-camera",
+        "it-libro",
+        "it-da",
+        "it-su"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c21-02",
+      "activities": 8,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 3,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-casa",
+        "it-citta",
+        "it-di",
+        "it-roma",
+        "it-a",
+        "it-in",
+        "it-hotel",
+        "it-bar",
+        "it-studente",
+        "it-lavorare",
+        "it-libro",
+        "it-andare",
+        "it-italia",
+        "it-centro"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c22-01",
+      "activities": 9,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 4,
+        "discrimination": 0,
+        "transformation": 2,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F4",
+        "F3"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-due",
+        "it-lavorare",
+        "it-venire",
+        "it-lunedi",
+        "it-martedi",
+        "it-mercoledi",
+        "it-giovedi",
+        "it-venerdi",
+        "it-sabato",
+        "it-domenica",
+        "it-gennaio",
+        "it-febbraio",
+        "it-marzo",
+        "it-aprile",
+        "it-maggio",
+        "it-giugno",
+        "it-luglio",
+        "it-agosto",
+        "it-settembre",
+        "it-ottobre",
+        "it-novembre",
+        "it-dicembre",
+        "it-primo"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c22-02",
+      "activities": 9,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 4,
+        "discrimination": 0,
+        "transformation": 2,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-due",
+        "it-uno",
+        "it-tre",
+        "it-quattro",
+        "it-diciotto",
+        "it-venire",
+        "it-ora",
+        "it-mezzogiorno",
+        "it-mezzanotte",
+        "it-quarto",
+        "it-mezza"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c22-03",
+      "activities": 8,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 3,
+        "discrimination": 0,
+        "transformation": 2,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-caffe",
+        "it-studiare",
+        "it-ogni-giorno",
+        "it-leggere",
+        "it-bere",
+        "it-uscire",
+        "it-volta",
+        "it-settimana",
+        "it-lunedi",
+        "it-sempre",
+        "it-spesso",
+        "it-qualche-volta",
+        "it-mai"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c22-04",
+      "activities": 8,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 2,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 3
+      },
+      "families": [
+        "F1",
+        "F4",
+        "F3",
+        "F2"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-si",
+        "it-due",
+        "it-non",
+        "it-tre",
+        "it-diciotto",
+        "it-venire",
+        "it-potere",
+        "it-appuntamento",
+        "it-lunedi",
+        "it-martedi",
+        "it-maggio"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c23-01",
+      "activities": 9,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 3,
+        "discrimination": 0,
+        "transformation": 2,
+        "controlled-production": 3
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-chiave",
+        "it-casa",
+        "it-penna",
+        "it-loro",
+        "it-leggere",
+        "it-libro",
+        "it-mio",
+        "it-tuo",
+        "it-suo",
+        "it-nostro",
+        "it-vostro"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c23-02",
+      "activities": 8,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 2,
+        "discrimination": 1,
+        "transformation": 2,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-casa",
+        "it-loro",
+        "it-qui",
+        "it-roma",
+        "it-padre",
+        "it-madre",
+        "it-fratello",
+        "it-sorella",
+        "it-sorellina",
+        "it-caro",
+        "it-mio",
+        "it-tuo",
+        "it-suo",
+        "it-nostro"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c24-01",
+      "activities": 8,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 2,
+        "discrimination": 1,
+        "transformation": 3,
+        "controlled-production": 1
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-amico",
+        "it-casa",
+        "it-penna",
+        "it-qui",
+        "it-libro",
+        "it-vorrei",
+        "it-questo"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c24-02",
+      "activities": 9,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 3,
+        "discrimination": 0,
+        "transformation": 3,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-amico",
+        "it-penna",
+        "it-qui",
+        "it-zaino",
+        "it-libro",
+        "it-vorrei",
+        "it-la-luogo",
+        "it-questo",
+        "it-quello"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c25-01",
+      "activities": 8,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 3,
+        "discrimination": 0,
+        "transformation": 2,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-caffe",
+        "it-italiano",
+        "it-notte",
+        "it-lavorare",
+        "it-studiare",
+        "it-leggere",
+        "it-bere",
+        "it-mi",
+        "it-ti",
+        "it-piacere"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c25-02",
+      "activities": 8,
+      "skills": {
+        "recognition": 1,
+        "retrieval": 2,
+        "discrimination": 1,
+        "transformation": 2,
+        "controlled-production": 2
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-gelato",
+        "it-spaghetti",
+        "it-caffe",
+        "it-penna",
+        "it-leggere",
+        "it-libro",
+        "it-mi",
+        "it-ti",
+        "it-piacere"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c26-01",
+      "activities": 8,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 4,
+        "discrimination": 0,
+        "transformation": 2,
+        "controlled-production": 2
+      },
+      "families": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-io",
+        "it-tu",
+        "it-noi",
+        "it-voi",
+        "it-loro",
+        "it-spagnolo",
+        "it-nome",
+        "it-fratello",
+        "it-sorella",
+        "it-chiamarsi"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c26-02",
+      "activities": 9,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 4,
+        "discrimination": 0,
+        "transformation": 3,
+        "controlled-production": 2
+      },
+      "families": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-non",
+        "it-mano",
+        "it-sei",
+        "it-sette",
+        "it-otto",
+        "it-ogni-giorno",
+        "it-andare",
+        "it-uscire",
+        "it-alzarsi",
+        "it-lavarsi",
+        "it-vestirsi",
+        "it-lavoro",
+        "it-presto",
+        "it-prima"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c27-01",
+      "activities": 8,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 4,
+        "discrimination": 0,
+        "transformation": 2,
+        "controlled-production": 2
+      },
+      "families": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-caffe",
+        "it-per-favore",
+        "it-prendere",
+        "it-acqua",
+        "it-vorrei",
+        "it-un-po-di",
+        "it-litro",
+        "it-chilo",
+        "it-pane",
+        "it-mela",
+        "it-bottiglia"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c27-02",
+      "activities": 8,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 4,
+        "discrimination": 0,
+        "transformation": 2,
+        "controlled-production": 2
+      },
+      "families": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-penna",
+        "it-grande",
+        "it-camera",
+        "it-lavorare",
+        "it-dormire",
+        "it-libro",
+        "it-acqua",
+        "it-pane",
+        "it-mela",
+        "it-molto",
+        "it-poco",
+        "it-comprare"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c27-03",
+      "activities": 8,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 4,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 2
+      },
+      "families": [
+        "F2",
+        "F4",
+        "F3",
+        "F1"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-amico",
+        "it-di",
+        "it-due",
+        "it-articolo-determinativo",
+        "it-libro",
+        "it-acqua",
+        "it-pane",
+        "it-mela",
+        "it-zucchero",
+        "it-pasta",
+        "it-invitare",
+        "it-ragazzo"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c28-01",
+      "activities": 8,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 4,
+        "discrimination": 0,
+        "transformation": 2,
+        "controlled-production": 2
+      },
+      "families": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-noi",
+        "it-caffe",
+        "it-lui",
+        "it-lei",
+        "it-voi",
+        "it-loro",
+        "it-parlare",
+        "it-con",
+        "it-messaggio",
+        "it-andare",
+        "it-venire",
+        "it-per",
+        "it-me",
+        "it-te"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c28-02",
+      "activities": 9,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 4,
+        "discrimination": 0,
+        "transformation": 3,
+        "controlled-production": 2
+      },
+      "families": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-caffe",
+        "it-penna",
+        "it-non",
+        "it-leggere",
+        "it-prendere",
+        "it-libro",
+        "it-mela",
+        "it-comprare",
+        "it-lo-pronome",
+        "it-la-pronome",
+        "it-li-pronome",
+        "it-le-pronome"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c29-01",
+      "activities": 8,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 3,
+        "discrimination": 1,
+        "transformation": 2,
+        "controlled-production": 2
+      },
+      "families": [
+        "F2",
+        "F3",
+        "F4",
+        "F1"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-essere",
+        "it-famiglia",
+        "it-e",
+        "it-penna",
+        "it-tranquillo",
+        "it-grande",
+        "it-camera",
+        "it-lavorare",
+        "it-studiare",
+        "it-libro",
+        "it-acqua",
+        "it-fratello",
+        "it-sorella",
+        "it-pane",
+        "it-pasta"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention"
+      ]
+    },
+    {
+      "id": "it-a1-c29-02",
+      "activities": 8,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 2,
+        "discrimination": 1,
+        "transformation": 3,
+        "controlled-production": 2
+      },
+      "families": [
+        "F2",
+        "F3",
+        "F4",
+        "F1"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-penna",
+        "it-oggi",
+        "it-piccolo",
+        "it-bello",
+        "it-camera",
+        "it-parlare",
+        "it-lavorare",
+        "it-studiare",
+        "it-libro",
+        "it-venire",
+        "it-potere",
+        "it-vorrei",
+        "it-caro",
+        "it-ma",
+        "it-domani",
+        "it-libero"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c29-03",
+      "activities": 8,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 4,
+        "discrimination": 0,
+        "transformation": 2,
+        "controlled-production": 2
+      },
+      "families": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-perche",
+        "it-roma",
+        "it-italiano",
+        "it-stanco",
+        "it-fame",
+        "it-sete",
+        "it-lavorare",
+        "it-studiare",
+        "it-venire",
+        "it-bere",
+        "it-uscire",
+        "it-acqua",
+        "it-mangiare",
+        "it-panino"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention"
+      ]
+    },
+    {
+      "id": "it-a1-c29-04",
+      "activities": 8,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 3,
+        "discrimination": 1,
+        "transformation": 2,
+        "controlled-production": 2
+      },
+      "families": [
+        "F2",
+        "F3",
+        "F1",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-casa",
+        "it-hotel",
+        "it-lavorare",
+        "it-leggere",
+        "it-prendere",
+        "it-dormire",
+        "it-messaggio",
+        "it-fare",
+        "it-uscire",
+        "it-colazione",
+        "it-treno",
+        "it-prima",
+        "it-poi",
+        "it-rispondere",
+        "it-tornare"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention"
+      ]
+    },
+    {
+      "id": "it-a1-c30-01",
+      "activities": 8,
+      "skills": {
+        "recognition": 2,
+        "retrieval": 6,
+        "discrimination": 0,
+        "transformation": 0,
+        "controlled-production": 0
+      },
+      "families": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-prendere",
+        "it-libro",
+        "it-acqua",
+        "it-pane",
+        "it-poi",
+        "it-girare",
+        "it-destra",
+        "it-sinistra",
+        "it-dritto",
+        "it-aggiungere",
+        "it-mescolare",
+        "it-formaggio",
+        "it-latte"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention"
+      ]
+    },
+    {
+      "id": "it-a1-c30-02",
+      "activities": 9,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 4,
+        "discrimination": 0,
+        "transformation": 3,
+        "controlled-production": 2
+      },
+      "families": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-parlare",
+        "it-leggere",
+        "it-prendere",
+        "it-dormire",
+        "it-libro",
+        "it-messaggio",
+        "it-fare",
+        "it-andare",
+        "it-pausa",
+        "it-girare",
+        "it-destra",
+        "it-dritto",
+        "it-mescolare",
+        "it-finire"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c31-01",
+      "activities": 8,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 6,
+        "discrimination": 0,
+        "transformation": 2,
+        "controlled-production": 0
+      },
+      "families": [
+        "F2",
+        "F3"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-italiano",
+        "it-parlare",
+        "it-lavorare",
+        "it-studiare",
+        "it-dormire",
+        "it-capire",
+        "it-messaggio",
+        "it-finire",
+        "it-ricevere"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention"
+      ]
+    },
+    {
+      "id": "it-a1-c31-02",
+      "activities": 10,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 8,
+        "discrimination": 1,
+        "transformation": 1,
+        "controlled-production": 0
+      },
+      "families": [
+        "F2",
+        "F3",
+        "F1"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-essere",
+        "it-caffe",
+        "it-film",
+        "it-leggere",
+        "it-prendere",
+        "it-libro",
+        "it-messaggio",
+        "it-fare",
+        "it-bere",
+        "it-dire",
+        "it-colazione",
+        "it-treno",
+        "it-vedere",
+        "it-scrivere"
+      ],
+      "flags": []
+    },
+    {
+      "id": "it-a1-c32-01",
+      "activities": 9,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 5,
+        "discrimination": 0,
+        "transformation": 3,
+        "controlled-production": 1
+      },
+      "families": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-essere",
+        "it-avere",
+        "it-film",
+        "it-lavorare",
+        "it-studiare",
+        "it-leggere",
+        "it-prendere",
+        "it-dormire",
+        "it-libro",
+        "it-fare",
+        "it-colazione",
+        "it-treno",
+        "it-vedere",
+        "it-arrivare",
+        "it-ieri"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c32-02",
+      "activities": 10,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 8,
+        "discrimination": 0,
+        "transformation": 1,
+        "controlled-production": 1
+      },
+      "families": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-essere",
+        "it-avere",
+        "it-lavorare",
+        "it-leggere",
+        "it-prendere",
+        "it-dormire",
+        "it-fare",
+        "it-andare",
+        "it-venire",
+        "it-bere",
+        "it-uscire",
+        "it-arrivare",
+        "it-camminare",
+        "it-partire"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c32-03",
+      "activities": 9,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 4,
+        "discrimination": 0,
+        "transformation": 2,
+        "controlled-production": 3
+      },
+      "families": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-caffe",
+        "it-roma",
+        "it-film",
+        "it-lavorare",
+        "it-studiare",
+        "it-ogni-giorno",
+        "it-prendere",
+        "it-bere",
+        "it-colazione",
+        "it-treno",
+        "it-poi",
+        "it-vedere",
+        "it-ieri",
+        "it-ieri-sera",
+        "it-settimana-scorsa"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c33-01",
+      "activities": 10,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 6,
+        "discrimination": 0,
+        "transformation": 2,
+        "controlled-production": 2
+      },
+      "families": [
+        "F2",
+        "F4",
+        "F3"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-essere",
+        "it-hotel",
+        "it-lavorare",
+        "it-andare",
+        "it-venire",
+        "it-uscire",
+        "it-arrivare",
+        "it-ieri",
+        "it-partire"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c34-01",
+      "activities": 10,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 7,
+        "discrimination": 0,
+        "transformation": 0,
+        "controlled-production": 3
+      },
+      "families": [
+        "F2",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-insegnante",
+        "it-italiano",
+        "it-spagnolo",
+        "it-nome",
+        "it-studente",
+        "it-studentessa",
+        "it-numero",
+        "it-abitare",
+        "it-italia",
+        "it-padre",
+        "it-madre",
+        "it-fratello",
+        "it-sorella",
+        "it-chiamarsi",
+        "it-spagna"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c34-02",
+      "activities": 10,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 6,
+        "discrimination": 0,
+        "transformation": 0,
+        "controlled-production": 4
+      },
+      "families": [
+        "F2",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-bagno",
+        "it-casa",
+        "it-letto",
+        "it-hotel",
+        "it-camera",
+        "it-vorrei",
+        "it-esserci",
+        "it-cucina",
+        "it-tavolo",
+        "it-sedia",
+        "it-singolo",
+        "it-doppio"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c34-03",
+      "activities": 11,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 7,
+        "discrimination": 0,
+        "transformation": 0,
+        "controlled-production": 4
+      },
+      "families": [
+        "F2",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-caffe",
+        "it-acqua",
+        "it-vorrei",
+        "it-litro",
+        "it-chilo",
+        "it-pane",
+        "it-mela",
+        "it-zucchero",
+        "it-pasta",
+        "it-formaggio",
+        "it-latte",
+        "it-riso",
+        "it-bottiglia",
+        "it-conto",
+        "it-piatto"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c34-04",
+      "activities": 10,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 5,
+        "discrimination": 0,
+        "transformation": 1,
+        "controlled-production": 4
+      },
+      "families": [
+        "F2",
+        "F4",
+        "F3"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-penna",
+        "it-zaino",
+        "it-rosso",
+        "it-libro",
+        "it-questo",
+        "it-maglietta",
+        "it-pantaloni",
+        "it-scarpa",
+        "it-taglia",
+        "it-nero",
+        "it-blu"
+      ],
+      "flags": [
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c34-05",
+      "activities": 10,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 6,
+        "discrimination": 0,
+        "transformation": 0,
+        "controlled-production": 4
+      },
+      "families": [
+        "F2",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-film",
+        "it-sette",
+        "it-lavorare",
+        "it-studiare",
+        "it-leggere",
+        "it-dormire",
+        "it-colazione",
+        "it-pausa",
+        "it-lavoro",
+        "it-vedere",
+        "it-studio",
+        "it-musica",
+        "it-cinema",
+        "it-ascoltare",
+        "it-dopo"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c34-06",
+      "activities": 11,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 8,
+        "discrimination": 0,
+        "transformation": 0,
+        "controlled-production": 3
+      },
+      "families": [
+        "F2",
+        "F4"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-biglietto",
+        "it-citta",
+        "it-hotel",
+        "it-andare",
+        "it-treno",
+        "it-centro",
+        "it-arrivare",
+        "it-stazione",
+        "it-autobus",
+        "it-partenza",
+        "it-arrivo",
+        "it-albergo",
+        "it-piazza"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    },
+    {
+      "id": "it-a1-c34-07",
+      "activities": 11,
+      "skills": {
+        "recognition": 0,
+        "retrieval": 5,
+        "discrimination": 0,
+        "transformation": 1,
+        "controlled-production": 5
+      },
+      "families": [
+        "F2",
+        "F4",
+        "F3"
+      ],
+      "theory": true,
+      "vocabularyIds": [
+        "it-avere",
+        "it-messaggio",
+        "it-appuntamento",
+        "it-libero",
+        "it-telefono",
+        "it-medico",
+        "it-farmacia",
+        "it-mal-di-testa",
+        "it-febbre",
+        "it-bisogno-di-aiuto"
+      ],
+      "flags": [
+        "retrieval-answer-visible: inspect copying or incidental mention",
+        "production-with-supplied-parts: not autonomous writing"
+      ]
+    }
+  ],
+  "duplicatePrompts": [
+    {
+      "value": "studente è maschile: ___ studente.",
+      "activityIds": [
+        "it-a1-c09-01-studente",
+        "it-a1-c10-01-studente"
+      ]
+    }
+  ],
+  "graph": {
+    "prerequisiteCycles": [],
+    "duplicateRelations": [],
+    "forwardPrerequisites": []
+  }
+}
