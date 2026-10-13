@@ -47,7 +47,7 @@ describe('C06–C10 authored linguistic boundaries', () => {
     const old = italianCourse.canonicalActivities.filter(
       (a) => Number(a.conceptId.slice(7, 9)) <= 5,
     );
-    expect(old).toHaveLength(138);
+    expect(old).toHaveLength(140);
     expect(italianCourse.curriculum.levels[0].units).toHaveLength(34);
     expect(
       italianCourse.concepts.filter(

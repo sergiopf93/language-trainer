@@ -1213,9 +1213,15 @@ export const c34: Lesson[] = [
       },
       {
         key: 'testa',
+        version: '2',
         format: 'translation',
         prompt: 'Traduci con la formula della scheda: «Me duele la cabeza».',
-        accepted: ['Ho mal di testa', 'Ho mal di testa.'],
+        accepted: [
+          'Ho mal di testa',
+          'Ho mal di testa.',
+          'Io ho mal di testa',
+          'Io ho mal di testa.',
+        ],
         rejected: ['Sono mal di testa'],
         hint: 'La fórmula es avere mal di testa.',
         explanation: 'La fórmula es avere mal di testa.',
@@ -1247,8 +1253,10 @@ export const c34: Lesson[] = [
       },
       {
         key: 'disponibile',
+        version: '2',
         format: 'cloze',
-        prompt: 'Marco è disponibile: «Sono ___ alle cinque». Usa libero.',
+        prompt:
+          'Marco è disponibile: «Sono ___ alle cinque». Scrivi l’aggettivo italiano per «libre».',
         accepted: ['libero'],
         rejected: ['libera'],
         hint: 'Libero concuerda con Marco.',

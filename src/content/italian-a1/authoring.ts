@@ -1,7 +1,7 @@
 import type { Activity, Skill } from '../../../shared/learning';
 import type { Concept } from '../catalog';
 import type { Theory } from '../theory';
-export const batchVersion = 'it-A1-candidate-8';
+export const batchVersion = 'it-A1-candidate-9';
 export const provenance =
   'Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.';
 export const sources = {
@@ -18,6 +18,7 @@ export const sources = {
 };
 export type Item = {
   key: string;
+  version?: string;
   format: Activity['format'];
   prompt: string;
   accepted: string[];
@@ -32,6 +33,7 @@ export type Item = {
 };
 export interface Lesson {
   code: string;
+  theoryRevision?: string;
   title: string;
   objective: string;
   introduction: string;
@@ -88,7 +90,7 @@ export function materialize(lesson: Lesson) {
               : 'retrieval');
     return {
       id: `${id}-${item.key}`,
-      version: '1',
+      version: item.version ?? '1',
       conceptId: id,
       conceptVersion: version,
       family,
@@ -114,7 +116,7 @@ export function materialize(lesson: Lesson) {
         matchingPrompts: item.matchingPrompts ?? [],
       },
       criterion: {
-        version: '1',
+        version: item.version ?? '1',
         canonVersion: batchVersion,
         accepted: item.accepted,
         rejected: item.rejected ?? [],
@@ -150,7 +152,7 @@ export function materialize(lesson: Lesson) {
   };
   const theory: Theory = {
     id: `it-a1-theory-c${['03-01', '04-01'].includes(lesson.code) ? lesson.code.slice(0, 2) : lesson.code}`,
-    version: `theory-c${lesson.code}-${version}`,
+    version: `theory-c${lesson.code}-${version}${lesson.theoryRevision ? `-${lesson.theoryRevision}` : ''}`,
     conceptId: id,
     conceptVersion: version,
     targetLanguage: 'it',

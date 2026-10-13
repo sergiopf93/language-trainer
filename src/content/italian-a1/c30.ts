@@ -67,6 +67,7 @@ export const c30: Lesson[] = [
       },
       {
         key: 'dritto',
+        version: '2',
         format: 'short',
         prompt: '«Vai dritto»: ¿sigues recto o giras? Responde en español.',
         accepted: ['sigues recto'],
@@ -75,9 +76,11 @@ export const c30: Lesson[] = [
         explanation: 'Dritto indica continuar recto.',
         facets: ['direccion'],
         context: 'ciudad',
+        skill: 'recognition',
       },
       {
         key: 'acqua',
+        version: '2',
         format: 'short',
         prompt: '«Aggiungi l’acqua»: copia l’ingrediente con il suo articolo.',
         accepted: ["l'acqua", 'l’acqua'],
@@ -86,9 +89,11 @@ export const c30: Lesson[] = [
         explanation: 'Acqua es lo que debes añadir.',
         facets: ['accion'],
         context: 'restaurante',
+        skill: 'recognition',
       },
       {
         key: 'sequenza',
+        version: '2',
         format: 'short',
         prompt:
           '«Prendi il pane, poi aggiungi il formaggio». Copia solo la prima istruzione.',
@@ -98,6 +103,7 @@ export const c30: Lesson[] = [
         explanation: 'El paso antes de poi se hace primero.',
         facets: ['secuencia'],
         context: 'vivienda',
+        skill: 'recognition',
       },
       {
         key: 'mescola',
@@ -137,6 +143,7 @@ export const c30: Lesson[] = [
       },
       {
         key: 'ordine',
+        version: '2',
         format: 'short',
         prompt:
           '«Aggiungi il latte, poi mescola». Copia l’azione da fare dopo, senza poi.',
@@ -146,6 +153,7 @@ export const c30: Lesson[] = [
         explanation: 'Se mezcla después de añadir la leche.',
         facets: ['secuencia'],
         context: 'vivienda',
+        skill: 'recognition',
       },
     ],
   },

@@ -1,4 +1,5 @@
 import type { LanguagePack, ExerciseTemplate } from '../model';
+import type { Activity } from '../../../shared/learning';
 import type { ConceptRelation } from '../catalog';
 import { italianPack as fixture } from '../validation-fixture';
 import { italianCurriculum } from '../italian-curriculum';
@@ -377,12 +378,34 @@ connect(
   'reinforces',
   'La petición de café reutiliza per favore.',
 );
+function courseFixture(source: Activity): Activity {
+  const item = structuredClone(source);
+  if (item.id === 'it-a1-c04-01-engine-1') {
+    item.prompt = 'Trasforma «io sono»: usa tu e il verbo essere.';
+    item.criterion.accepted = ['tu sei'];
+    item.criterion.rejected = ['tu sono', 'tu è'];
+    item.hint = 'La segunda persona singular tiene su propia forma.';
+    item.explanation = 'Con tu se usa sei: tu sei.';
+  } else if (item.id === 'it-a1-c04-01-engine-4') {
+    item.prompt =
+      'Traduci «ella está aquí». Usa essere e scrivi anche il pronome lei.';
+    item.criterion.accepted = ['lei è qui', 'lei è qui.'];
+    item.criterion.rejected = ['lei e qui', 'lei sono qui'];
+    item.hint = 'Usa la tercera persona singular con acento.';
+    item.explanation = 'Lei è qui: è concuerda con lei; qui indica aquí.';
+  } else return item;
+  item.version = '2';
+  item.criterion.version = '2';
+  item.provenance +=
+    ' Auditoría pedagógica A1: variante contextual del fixture; candidate.';
+  return item;
+}
 const activities = content
   .flatMap(({ concept, activities }) => [
     // Keep the existing authored items and their stable IDs as the opening practice.
     ...fixture.canonicalActivities
       .filter((a) => a.conceptId === concept.id)
-      .map((a) => ({ ...structuredClone(a), conceptVersion: concept.version })),
+      .map((a) => ({ ...courseFixture(a), conceptVersion: concept.version })),
     ...activities,
   ])
   .map((a) => ({

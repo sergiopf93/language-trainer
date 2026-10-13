@@ -15,7 +15,7 @@ export const c11C17Relations: ConceptRelation[] = [
     from: 'it-a1-c11-01',
   },
   {
-    to: 'it-a1-c04-04',
+    to: 'it-a1-c04-02',
     type: 'reinforces',
     reason: 'Las descripciones recuperan essere con adjetivos.',
     from: 'it-a1-c11-01',
@@ -245,13 +245,13 @@ export const c11C17Relations: ConceptRelation[] = [
     from: 'it-a1-c16-02',
   },
   {
-    to: 'it-a1-c04-04',
+    to: 'it-a1-c04-05',
     type: 'contrast',
     reason: 'Stare bene contrasta con essere stanco.',
     from: 'it-a1-c16-03',
   },
   {
-    to: 'it-a1-c04-03',
+    to: 'it-a1-c04-04',
     type: 'contrast',
     reason: 'Permanecer y localizar no son usos idénticos.',
     from: 'it-a1-c16-03',

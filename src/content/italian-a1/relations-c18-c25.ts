@@ -307,4 +307,25 @@ export const c18C25Relations: ConceptRelation[] = [
     reason: 'Entidad plural con piacciono frente a infinitivo con piace.',
     from: 'it-a1-c25-02',
   },
+  {
+    from: 'it-a1-c19-01',
+    to: 'it-a1-c04-01',
+    type: 'prerequisite',
+    strength: 'recommended',
+    reason: 'È/sono se reutilizan en la construcción existencial.',
+  },
+  {
+    from: 'it-a1-c21-01',
+    to: 'it-a1-c20-01',
+    type: 'prerequisite',
+    strength: 'recommended',
+    reason: 'Di/da conservan su relación al unirse al artículo.',
+  },
+  {
+    from: 'it-a1-c21-01',
+    to: 'it-a1-c20-02',
+    type: 'prerequisite',
+    strength: 'recommended',
+    reason: 'A/in/su aportan significado a las formas articuladas.',
+  },
 ];

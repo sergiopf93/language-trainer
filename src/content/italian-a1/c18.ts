@@ -112,6 +112,7 @@ export const c18: Lesson[] = [
       },
       {
         key: 'registro',
+        version: '2',
         format: 'short',
         prompt:
           '«Voglio un caffè» o «Vorrei un caffè»: quale frase usa la formula cortese studiata?',
@@ -121,6 +122,7 @@ export const c18: Lesson[] = [
         explanation: 'Vorrei suaviza la petición; voglio es más directo.',
         facets: ['registro'],
         context: 'bar',
+        skill: 'discrimination',
       },
       {
         key: 'controlla',
@@ -254,6 +256,7 @@ export const c18: Lesson[] = [
       },
       {
         key: 'riferimento',
+        version: '2',
         format: 'short',
         prompt:
           'Un cliente dice a un uomo: «Lei è di Roma?». Lei indica «usted» o «ella»? Rispondi in spagnolo.',
@@ -263,6 +266,7 @@ export const c18: Lesson[] = [
         explanation: 'El contexto dirige la pregunta al interlocutor.',
         facets: ['referencia'],
         context: 'hotel',
+        skill: 'discrimination',
       },
       {
         key: 'coerenza',

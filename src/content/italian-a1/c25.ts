@@ -92,6 +92,7 @@ export const c25: Lesson[] = [
       },
       {
         key: 'destinatario',
+        version: '2',
         format: 'short',
         prompt:
           'In «Mi piace leggere», mi significa «a mí» o «yo»? Rispondi in spagnolo.',
@@ -101,6 +102,7 @@ export const c25: Lesson[] = [
         explanation: 'Mi indica a quién gusta la actividad.',
         facets: ['destinatario'],
         context: 'ocio',
+        skill: 'discrimination',
       },
       {
         key: 'domanda',

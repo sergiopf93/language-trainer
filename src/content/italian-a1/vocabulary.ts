@@ -58,8 +58,18 @@ const words: [string, string, string, string, string?][] = [
   ['di', 'di', 'de, en la construcción de origen enseñada', 'preposition'],
   ['roma', 'Roma', 'Roma', 'proper-noun'],
   ['madrid', 'Madrid', 'Madrid', 'proper-noun'],
-  ['italiano', 'italiano', 'italiano (nacionalidad)', 'adjective'],
-  ['spagnolo', 'spagnolo', 'español (nacionalidad)', 'adjective'],
+  [
+    'italiano',
+    'italiano',
+    'italiano: nacionalidad; lengua en parlare/studiare italiano',
+    'adjective',
+  ],
+  [
+    'spagnolo',
+    'spagnolo',
+    'español: nacionalidad; lengua en parlare spagnolo',
+    'adjective',
+  ],
   ['a', 'a', 'en, dentro de a Roma / a casa', 'preposition'],
   ['in', 'in', 'en, dentro de in hotel', 'preposition'],
   ['hotel', 'hotel', 'hotel', 'noun', 'masculine'],
@@ -67,7 +77,12 @@ const words: [string, string, string, string, string?][] = [
   ['contento', 'contento', 'contento', 'adjective'],
   ['pronto', 'pronto', 'listo, preparado', 'adjective'],
   ['sto-bene', 'sto bene', 'estoy bien', 'formula'],
-  ['avere', 'avere', 'tener, en los usos enseñados', 'verb'],
+  [
+    'avere',
+    'avere',
+    'tener; auxiliar del passato prossimo en las construcciones enseñadas',
+    'verb',
+  ],
   ['due', 'due', 'dos', 'numeral'],
   ['anno', 'anno', 'año', 'noun', 'masculine'],
   ['venti', 'venti', 'veinte', 'numeral'],
@@ -133,7 +148,7 @@ export function vocabularyFor(lessons: Lesson[]): VocabularyEntry[] {
     ...words.map(
       ([key, lemma, gloss, partOfSpeech, gender]): VocabularyEntry => ({
         id: 'it-' + key,
-        version: '1',
+        version: ['italiano', 'spagnolo', 'avere'].includes(key) ? '2' : '1',
         language: 'it',
         supportLanguage: 'es',
         lemma,

@@ -95,7 +95,7 @@ describe('C18–C25: linguistic boundaries and cumulative targets', () => {
       italianCourse.canonicalActivities.filter(
         (a) => Number(a.conceptId.slice(7, 9)) <= 25,
       ),
-    ).toHaveLength(613);
+    ).toHaveLength(628);
     expect(
       italianCourse.vocabulary.filter((v) =>
         v.conceptIds.some((id) => Number(id.slice(7, 9)) <= 25),

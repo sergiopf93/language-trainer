@@ -82,12 +82,12 @@ describe('C11–C17 linguistic and attribution boundaries', () => {
       italianCourse.canonicalActivities.filter(
         (a) => Number(a.conceptId.slice(7, 9)) <= 10,
       ),
-    ).toHaveLength(225);
+    ).toHaveLength(227);
     expect(
       italianCourse.canonicalActivities.filter(
         (a) => Number(a.conceptId.slice(7, 9)) <= 17,
       ),
-    ).toHaveLength(431);
+    ).toHaveLength(439);
     expect(
       italianCourse.vocabulary.filter((v) =>
         v.conceptIds.some((id) => Number(id.slice(7, 9)) <= 17),

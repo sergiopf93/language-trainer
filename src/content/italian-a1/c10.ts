@@ -59,8 +59,10 @@ export const c10: Lesson[] = [
       },
       {
         key: 'studente',
+        version: '2',
         format: 'cloze',
-        prompt: 'Studente è maschile: ___ studente.',
+        prompt:
+          'Completa con l’articolo indeterminativo: ___ studente (maschile).',
         accepted: ['uno'],
         explanation: 'S + consonante requiere uno en masculino.',
         facets: ['uno'],

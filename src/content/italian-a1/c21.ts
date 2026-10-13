@@ -284,9 +284,15 @@ export const c21: Lesson[] = [
       },
       {
         key: 'origine',
+        version: '2',
         format: 'translation',
         prompt: 'Traduci: «Soy de Roma».',
-        accepted: ['Sono di Roma'],
+        accepted: [
+          'Sono di Roma',
+          'Io sono di Roma',
+          'Sono di Roma.',
+          'Io sono di Roma.',
+        ],
         rejected: ['Sono della Roma'],
         hint: 'La ciudad Roma no lleva artículo en esta construcción.',
         explanation: 'La ciudad Roma no lleva artículo en esta construcción.',

@@ -283,6 +283,7 @@ export const c28: Lesson[] = [
       },
       {
         key: 'referente',
+        version: '2',
         format: 'short',
         prompt:
           'In «Le penne sono qui. Le prendo», a che cosa si riferisce Le?',
@@ -292,12 +293,14 @@ export const c28: Lesson[] = [
         explanation: 'Le retoma el objeto femenino plural, no el lugar.',
         facets: ['referente'],
         context: 'estudio',
+        skill: 'recognition',
       },
       {
         key: 'traduci',
+        version: '2',
         format: 'translation',
         prompt: 'Traduci «Los leo», riferendoti a i libri.',
-        accepted: ['Li leggo', 'Li leggo.'],
+        accepted: ['Li leggo', 'Li leggo.', 'Io li leggo', 'Io li leggo.'],
         rejected: ['Lo leggo'],
         hint: 'El plural masculino se retoma con li.',
         explanation: 'El plural masculino se retoma con li.',

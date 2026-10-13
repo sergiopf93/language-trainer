@@ -35,13 +35,13 @@ test('new interactions: keyboard ordering, matching reload and all feedback', as
     await page.getByRole('button', { name: 'Continua', exact: true }).click();
   };
   await check();
-  await page.getByLabel('La tua risposta').fill('noi siamo');
+  await page.getByLabel('La tua risposta').fill('tu sei');
   await check();
   await page.getByLabel('sono', { exact: true }).check();
   await check();
   await page.getByLabel('La tua risposta').fill('noi siamo');
   await check();
-  await page.getByLabel('La tua risposta').fill('noi siamo');
+  await page.getByLabel('La tua risposta').fill('lei è qui');
   await check();
   await page.getByLabel('io', { exact: true }).selectOption('1');
   await page.getByLabel('tu', { exact: true }).selectOption('2');

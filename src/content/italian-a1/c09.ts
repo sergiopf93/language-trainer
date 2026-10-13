@@ -61,8 +61,10 @@ export const c09: Lesson[] = [
       },
       {
         key: 'studente',
+        version: '2',
         format: 'cloze',
-        prompt: 'Studente è maschile: ___ studente.',
+        prompt:
+          'Completa con l’articolo determinativo: ___ studente (maschile).',
         accepted: ['lo'],
         explanation: 'S + consonante en masculino requiere lo.',
         facets: ['lo', 'grupos-iniciales'],

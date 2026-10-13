@@ -230,21 +230,29 @@ export const c20: Lesson[] = [
       },
       {
         key: 'casa',
-        format: 'error-correction',
-        prompt: 'Correggi: «Sono in casa» → usa la locuzione a casa.',
+        version: '2',
+        format: 'transformation',
+        prompt:
+          'Riscrivi «Sono in casa» usando la locuzione a casa, senza cambiare il verbo.',
         accepted: ['Sono a casa'],
-        rejected: ['Sono in casa'],
+        rejected: [],
         hint: 'In casa es posible como dentro de casa; la consigna pide la locución a casa.',
-        explanation:
-          'In casa es posible como dentro de casa; la consigna pide la locución a casa.',
         facets: ['a'],
         context: 'vivienda',
+        explanation:
+          'Sono in casa puede ser correcto. Aquí se pide reformular con a casa; no corregir una regla universal.',
       },
       {
         key: 'hotel',
+        version: '2',
         format: 'translation',
         prompt: 'Traduci con in hotel: «Trabajo en un hotel».',
-        accepted: ['Lavoro in hotel'],
+        accepted: [
+          'Lavoro in hotel',
+          'Io lavoro in hotel',
+          'Lavoro in hotel.',
+          'Io lavoro in hotel.',
+        ],
         rejected: ['Lavoro a hotel'],
         hint: 'In hotel es la combinación practicada.',
         explanation: 'In hotel es la combinación practicada.',
@@ -378,9 +386,15 @@ export const c20: Lesson[] = [
       },
       {
         key: 'casa',
+        version: '2',
         format: 'translation',
         prompt: 'Traduci: «Voy a casa».',
-        accepted: ['Vado a casa'],
+        accepted: [
+          'Vado a casa',
+          'Io vado a casa',
+          'Vado a casa.',
+          'Io vado a casa.',
+        ],
         rejected: ['Vado in casa'],
         hint: 'La locución pedida es andare a casa.',
         explanation: 'La locución pedida es andare a casa.',
@@ -400,6 +414,7 @@ export const c20: Lesson[] = [
       },
       {
         key: 'direzione',
+        version: '2',
         format: 'short',
         prompt:
           '«Vado da Anna»: Anna è il punto di partenza o la destinazione?',
@@ -409,6 +424,7 @@ export const c20: Lesson[] = [
         explanation: 'Con vado, da Anna indica la meta personal.',
         facets: ['da'],
         context: 'visita',
+        skill: 'discrimination',
       },
     ],
   },
@@ -519,9 +535,15 @@ export const c20: Lesson[] = [
       },
       {
         key: 'traduci',
+        version: '2',
         format: 'translation',
         prompt: 'Traduci usando il pronome: «Hablo con ella».',
-        accepted: ['Parlo con lei'],
+        accepted: [
+          'Parlo con lei',
+          'Io parlo con lei',
+          'Parlo con lei.',
+          'Io parlo con lei.',
+        ],
         rejected: ['Parlo con la'],
         hint: 'Tras con se utiliza lei.',
         explanation: 'Tras con se utiliza lei.',
@@ -541,6 +563,7 @@ export const c20: Lesson[] = [
       },
       {
         key: 'funzione',
+        version: '2',
         format: 'short',
         prompt: 'In «Parlo con Anna», Anna è interlocutrice o destinazione?',
         accepted: ['interlocutrice'],
@@ -549,6 +572,7 @@ export const c20: Lesson[] = [
         explanation: 'Con Anna señala con quién hablo.',
         facets: ['interlocutor'],
         context: 'trabajo',
+        skill: 'discrimination',
       },
     ],
   },
@@ -824,6 +848,7 @@ export const c20: Lesson[] = [
       },
       {
         key: 'completamento',
+        version: '2',
         format: 'short',
         prompt:
           '«Leggo il libro in due ore»: due ore indica il tempo necessario o un momento futuro?',
@@ -833,6 +858,7 @@ export const c20: Lesson[] = [
         explanation: 'In due ore mide el tiempo para completar la lectura.',
         facets: ['in'],
         context: 'estudio',
+        skill: 'discrimination',
       },
     ],
   },

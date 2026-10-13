@@ -259,6 +259,7 @@ export const c19: Lesson[] = [
       },
       {
         key: 'distingui',
+        version: '2',
         format: 'short',
         prompt:
           'Quale frase risponde a «Dov’è il libro?»: «Il libro è qui» o «C’è un libro»?',
@@ -268,6 +269,7 @@ export const c19: Lesson[] = [
         explanation: 'La pregunta pide la ubicación de un libro conocido.',
         facets: ['contraste'],
         context: 'estudio',
+        skill: 'discrimination',
       },
     ],
   },

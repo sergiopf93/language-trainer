@@ -22,7 +22,7 @@ export const c26C34Relations: ConceptRelation[] = [
     from: 'it-a1-c26-02',
   },
   {
-    to: 'it-a1-c15-01',
+    to: 'it-a1-c15-02',
     type: 'prerequisite',
     reason: 'Vestirsi reutiliza el presente en -ire sin -isc-.',
     strength: 'recommended',

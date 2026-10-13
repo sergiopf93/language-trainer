@@ -277,6 +277,7 @@ export const c32: Lesson[] = [
       },
       {
         key: 'uscire',
+        version: '2',
         format: 'short',
         prompt:
           'Scegli l’ausiliare all’infinito per «Marco è uscito»: essere o avere?',
@@ -286,6 +287,7 @@ export const c32: Lesson[] = [
         explanation: 'Uscire pertenece al repertorio con essere.',
         facets: ['essere'],
         context: 'ocio',
+        skill: 'recognition',
       },
       {
         key: 'stato',
@@ -300,8 +302,10 @@ export const c32: Lesson[] = [
       },
       {
         key: 'cammina-frase',
+        version: '2',
         format: 'controlled-production',
-        prompt: 'Marco racconta: usa Ho + participio di camminare + in centro.',
+        prompt:
+          'Marco racconta di ieri. Traduci al passato prossimo: «He caminado por el centro». Usa camminare e in centro, senza io.',
         accepted: ['Ho camminato in centro', 'Ho camminato in centro.'],
         rejected: ['Sono camminato in centro'],
         hint: 'Movimiento no implica necesariamente essere.',
@@ -319,6 +323,17 @@ export const c32: Lesson[] = [
         explanation: 'Arrivare usa essere.',
         facets: ['essere'],
         context: 'hotel',
+      },
+      {
+        key: 'viaggio',
+        format: 'controlled-production',
+        prompt:
+          'Marco racconta di ieri. Traduci al passato prossimo: «He ido a Roma». Usa andare, senza io.',
+        accepted: ['Sono andato a Roma', 'Sono andato a Roma.'],
+        hint: 'Andare a Roma usa essere; Marco es masculino singular.',
+        explanation: 'Andare a Roma usa essere; Marco es masculino singular.',
+        context: 'viaje',
+        facets: ['essere'],
       },
     ],
   },
@@ -461,6 +476,7 @@ export const c32: Lesson[] = [
       },
       {
         key: 'comprendi',
+        version: '2',
         format: 'short',
         prompt:
           '«Ieri ho lavorato. Oggi studio». Copia solo il fatto di ieri, senza ieri.',
@@ -470,6 +486,7 @@ export const c32: Lesson[] = [
         explanation: 'La primera acción pertenece al día anterior.',
         facets: ['comprension'],
         context: 'estudio',
+        skill: 'recognition',
       },
       {
         key: 'sera',

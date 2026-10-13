@@ -143,6 +143,7 @@ export const c29: Lesson[] = [
       },
       {
         key: 'verbo',
+        version: '2',
         format: 'short',
         prompt:
           'In «La casa è grande e bella», scrivi la parola che unisce le due qualità.',
@@ -152,11 +153,13 @@ export const c29: Lesson[] = [
         explanation: 'È es el verbo; e une grande y bella.',
         facets: ['grafia'],
         context: 'vivienda',
+        skill: 'recognition',
       },
     ],
   },
   {
     code: '29-02',
+    theoryRevision: 'audit-1',
     title: 'Un contrasto con ma',
     objective: 'Expresar una oposición sencilla entre dos datos con ma.',
     introduction:
@@ -168,6 +171,7 @@ export const c29: Lesson[] = [
     ],
     forms: [
       ['ma', 'pero'],
+      ['caro / bello', 'costoso / bonito; al describir un objeto'],
       ['vorrei…, ma non posso', 'quisiera…, pero no puedo'],
     ],
     examples: [
@@ -410,9 +414,15 @@ export const c29: Lesson[] = [
       },
       {
         key: 'traduci',
+        version: '2',
         format: 'translation',
         prompt: 'Traduci «Bebo porque tengo sed».',
-        accepted: ['Bevo perché ho sete', 'Bevo perché ho sete.'],
+        accepted: [
+          'Bevo perché ho sete',
+          'Bevo perché ho sete.',
+          'Io bevo perché ho sete',
+          'Io bevo perché ho sete.',
+        ],
         rejected: ['Bevo ma ho sete'],
         hint: 'Perché enlaza la acción con su motivo.',
         explanation: 'Perché enlaza la acción con su motivo.',
@@ -421,6 +431,7 @@ export const c29: Lesson[] = [
       },
       {
         key: 'motivo',
+        version: '2',
         format: 'short',
         prompt:
           '«Studio italiano perché lavoro a Roma». Copia solo il motivo, senza perché.',
@@ -430,6 +441,7 @@ export const c29: Lesson[] = [
         explanation: 'El trabajo en Roma explica el estudio.',
         facets: ['sentido'],
         context: 'estudio',
+        skill: 'recognition',
       },
       {
         key: 'domanda',
@@ -588,6 +600,7 @@ export const c29: Lesson[] = [
       },
       {
         key: 'secondo',
+        version: '2',
         format: 'short',
         prompt:
           '«Vado al bar, poi torno a casa». Copia solo la seconda azione, senza poi.',
@@ -597,6 +610,7 @@ export const c29: Lesson[] = [
         explanation: 'Tornar a casa ocurre después.',
         facets: ['sentido'],
         context: 'ciudad',
+        skill: 'recognition',
       },
       {
         key: 'connettore',

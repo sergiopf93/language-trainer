@@ -132,9 +132,15 @@ export const c26: Lesson[] = [
       },
       {
         key: 'presenta',
+        version: '2',
         format: 'translation',
         prompt: 'Traduci usando chiamarsi: «Me llamo Marco».',
-        accepted: ['Mi chiamo Marco', 'Mi chiamo Marco.'],
+        accepted: [
+          'Mi chiamo Marco',
+          'Mi chiamo Marco.',
+          'Io mi chiamo Marco',
+          'Io mi chiamo Marco.',
+        ],
         rejected: ['Io chiamo Marco'],
         hint: 'El pronombre mi es necesario en esta construcción.',
         explanation: 'El pronombre mi es necesario en esta construcción.',
@@ -294,9 +300,15 @@ export const c26: Lesson[] = [
       },
       {
         key: 'traduce',
+        version: '2',
         format: 'translation',
         prompt: 'Traduci: «Nos vestimos».',
-        accepted: ['Ci vestiamo', 'Ci vestiamo.'],
+        accepted: [
+          'Ci vestiamo',
+          'Ci vestiamo.',
+          'Noi ci vestiamo',
+          'Noi ci vestiamo.',
+        ],
         rejected: ['Si vestiamo'],
         hint: 'Se recupera la forma neutral ci vestiamo.',
         explanation: 'Se recupera la forma neutral ci vestiamo.',

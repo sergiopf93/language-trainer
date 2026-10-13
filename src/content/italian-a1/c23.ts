@@ -140,6 +140,7 @@ export const c23: Lesson[] = [
       },
       {
         key: 'ambiguita',
+        version: '2',
         format: 'short',
         prompt:
           '«Il suo libro»: senza contesto, sappiamo se il proprietario è uomo o donna? sì/no.',
@@ -150,6 +151,7 @@ export const c23: Lesson[] = [
           'Suo concuerda con libro, no revela el género del propietario.',
         facets: ['referencia'],
         context: 'estudio',
+        skill: 'discrimination',
       },
       {
         key: 'mie',
@@ -239,10 +241,12 @@ export const c23: Lesson[] = [
       },
       {
         key: 'madre',
+        version: '2',
         format: 'cloze',
-        prompt: 'Completa senza articolo: «___ madre» (mia).',
-        accepted: ['mia'],
-        rejected: ['la mia'],
+        prompt:
+          'Traduci «mi madre»: scrivi il gruppo completo nella forma standard del repertorio.',
+        accepted: ['mia madre'],
+        rejected: ['la mia madre'],
         hint: 'Madre singular sin modificadores sigue el patrón sin artículo.',
         explanation:
           'Madre singular sin modificadores sigue el patrón sin artículo.',

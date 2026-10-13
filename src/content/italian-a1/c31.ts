@@ -129,6 +129,7 @@ export const c31: Lesson[] = [
       },
       {
         key: 'identifica',
+        version: '2',
         format: 'short',
         prompt: 'In «Ho ricevuto un messaggio», copia solo il participio.',
         accepted: ['ricevuto'],
@@ -137,6 +138,7 @@ export const c31: Lesson[] = [
         explanation: 'Ho es el auxiliar; ricevuto es el participio.',
         facets: ['reconocer'],
         context: 'mensajeria',
+        skill: 'recognition',
       },
     ],
   },

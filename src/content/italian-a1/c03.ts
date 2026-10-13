@@ -253,6 +253,18 @@ export const c03: Lesson[] = [
         context: 'encuentro',
         facets: ['omisión'],
       },
+      {
+        key: 'referente',
+        format: 'cloze',
+        prompt:
+          'Anna e Luca? Sono qui. Scrivi il pronome soggetto sottinteso nella seconda frase.',
+        accepted: ['loro'],
+        hint: 'Anna e Luca son varias personas de las que se habla: loro; el contexto resuelve sono.',
+        explanation:
+          'Anna e Luca son varias personas de las que se habla: loro; el contexto resuelve sono.',
+        context: 'encuentro',
+        facets: ['omisión', 'referente'],
+      },
     ],
   },
 ];

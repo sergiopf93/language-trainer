@@ -62,8 +62,10 @@ export const c24: Lesson[] = [
       },
       {
         key: 'penna',
+        version: '2',
         format: 'cloze',
-        prompt: '___ penna qui (questa/questo).',
+        prompt:
+          'La penna è vicina a chi parla: ___ penna qui. Usa la forma femminile del dimostrativo di vicinanza.',
         accepted: ['questa'],
         rejected: ['questo'],
         hint: 'Penna es femenino singular.',

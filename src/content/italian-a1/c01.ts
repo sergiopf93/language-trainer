@@ -420,6 +420,18 @@ export const c01: Lesson[] = [
         context: 'transporte',
         facets: ['dobles'],
       },
+      {
+        key: 'pena',
+        format: 'cloze',
+        prompt:
+          'Scrivi la parola italiana per «pena», non lo strumento per scrivere.',
+        accepted: ['pena'],
+        hint: 'Pena y penna son palabras distintas; penna es el instrumento para escribir.',
+        explanation:
+          'Pena y penna son palabras distintas; penna es el instrumento para escribir.',
+        context: 'cotidiano',
+        facets: ['contraste de significado'],
+      },
     ],
   },
 ];

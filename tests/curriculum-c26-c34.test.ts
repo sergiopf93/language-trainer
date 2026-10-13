@@ -87,9 +87,9 @@ describe('C26–C34: final A1 candidate curriculum', () => {
     ]);
     expect(finalLessons).toHaveLength(26);
     expect(Object.keys(italianCourse.theories)).toHaveLength(99);
-    expect(italianCourse.canonicalActivities).toHaveLength(849);
+    expect(italianCourse.canonicalActivities).toHaveLength(865);
     expect(italianCourse.vocabulary).toHaveLength(316);
-    expect(italianCourse.relations).toHaveLength(207);
+    expect(italianCourse.relations).toHaveLength(210);
     expect(italianCourse.templates).toHaveLength(2);
     for (const lesson of finalLessons) {
       const id = 'it-a1-c' + lesson.code;
@@ -111,8 +111,10 @@ describe('C26–C34: final A1 candidate curriculum', () => {
       expect(italianCourse.theories[id].provenance).toContain('C26–C34');
       for (const a of items) {
         expect(a.status).toBe('candidate');
-        expect(a.version).toBe('1');
-        expect(a.criterion.version).toBe('1');
+        expect(a.version).toBe(
+          lesson.items.find((i) => a.id.endsWith('-' + i.key))?.version ?? '1',
+        );
+        expect(a.criterion.version).toBe(a.version);
         expect(a.trace?.kind).toBe('canonical');
         expect(a.task?.opportunityId).toBe(a.id + ':target');
       }
