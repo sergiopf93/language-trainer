@@ -1,11 +1,11 @@
 import type { ReviewBatch } from '../editorial-review';
 // Explicit receipts recorded after the pilot review; never regenerate to make a check pass.
 export const editorialC01C10 = {
-  id: 'it-a1-editorial-c01-c10-2026-10-13-cross-review-2',
+  id: 'it-a1-editorial-c01-c10-2026-10-13-cross-review-3',
   reviewer: 'R2 · autorrevisión editorial asistida 5B.1, no independiente',
   date: '2026-10-13',
   provenance:
-    'Solicitud explícita de Sergio: piloto C01–C10, revisión integral por Concept; baseline e902653. Lectura editorial de 29 Theory, 227 actividades y 96 entradas, contraste puntual Treccani/Crusca. Decisiones razonadas en docs/product/A1_EDITORIAL_REVIEW_C01_C10.md. No aprobación humana ni publicación. 5B.2: R2 conserva 27 decisiones de 5B.1 y retiene C06-01/C10-02 como candidate por IR-01/IR-02 del dictamen ciego independiente; docs/product/editorial-cross-review-c01-c10/independent-verdict.json. No se renueva la aprobación de los otros conceptos. Decisión posterior explícita de Sergio: IR-01 resuelto mediante consigna de negación simple y feedback contextual; revisión completa de c06-01-nega v2 y nuevo recibo de C06-01. C10-02 pendiente de resolver respuesta revelada en la consigna propuesta.',
+    'Solicitud explícita de Sergio: piloto C01–C10, revisión integral por Concept; baseline e902653. Lectura editorial de 29 Theory, 227 actividades y 96 entradas, contraste puntual Treccani/Crusca. Decisiones razonadas en docs/product/A1_EDITORIAL_REVIEW_C01_C10.md. No aprobación humana ni publicación. 5B.2: R2 conserva 27 decisiones de 5B.1 y retiene C06-01/C10-02 como candidate por IR-01/IR-02 del dictamen ciego independiente; docs/product/editorial-cross-review-c01-c10/independent-verdict.json. No se renueva la aprobación de los otros conceptos. Decisión posterior explícita de Sergio: IR-01 resuelto mediante consigna de negación simple y feedback contextual; revisión completa de c06-01-nega v2 y nuevo recibo de C06-01. Cierre IR-02: Sergio proporciona enunciado definitivo sin modelo un caffè; R2 revisa actividad v2 completa y renueva únicamente su recibo e inventario. Ambos conceptos vuelven a reviewed; sin publicación.',
   concepts: [
     {
       concept: {
@@ -2886,13 +2886,11 @@ export const editorialC01C10 = {
         id: 'it-a1-c10-02',
         version: '1',
       },
-      decision: 'candidate',
+      decision: 'reviewed',
       reason:
-        '5B.2: candidate por ambigüedad relevante en c10-02-caffe; el contexto no excluye suficientemente Il. IR-03 es opcional y no bloqueante. Sin corrección lingüística ni cambio de versión; conserva inventario y huella de 5B.1.',
-      flags: [
-        'IR-02: referencia identificable en la petición de café pendiente de validación humana.',
-      ],
-      fingerprint: '444b1f0e21a744aa',
+        'IR-02 resuelto por decisión explícita de Sergio: c10-02-caffe v2 revisada completa, pedido nuevo sin consumición identificada, consigna sin modelo de respuesta y feedback contextual. Un aceptado; Il y Uno rechazados para esta tarea. IR-03 permanece opcional y no bloqueante.',
+      flags: [],
+      fingerprint: 'cb2ea57444850e30',
       entities: [
         {
           kind: 'concept',
@@ -2912,7 +2910,7 @@ export const editorialC01C10 = {
         {
           kind: 'activity',
           id: 'it-a1-c10-02-caffe',
-          version: '1',
+          version: '2',
         },
         {
           kind: 'activity',

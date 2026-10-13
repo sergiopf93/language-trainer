@@ -1,6 +1,6 @@
 # Fase 5B.2 — validación cruzada C01–C10
 
-Estado actual: **IR-01 resuelto por decisión explícita de Sergio; C10-02 pendiente de aclaración sobre respuesta revelada en la nueva consigna propuesta**. Las secciones originales siguientes conservan el resultado histórico de la revisión ciega; el cierre parcial al final registra el estado vigente. Revisión asistida por IA, no aprobación humana ni publicación.
+Estado actual: **IR-01 e IR-02 resueltos mediante decisiones explícitas de Sergio y revisión de las actividades v2; 29 conceptos reviewed, 70 candidate, 0 published**. Las secciones originales conservan el resultado histórico del dictamen ciego y el cierre parcial; el cierre definitivo al final registra el estado vigente. Revisión asistida, no aprobación humana cualificada para publicación.
 
 Fecha: 2026-10-13. Baseline de contenido: `5c122d7`; preparación recuperada: `3118ee5`; rama `feat/editorial-cross-review-c01-c10`.
 
@@ -78,3 +78,25 @@ Sergio autorizó resolver IR-01/IR-02 mediante consignas concretas, mantener acc
 Lote `it-a1-editorial-c01-c10-2026-10-13-cross-review-2`; solo nuevo recibo de C06-01. Estado vigente: **28 Concepts/Theory reviewed, 71 candidate, 0 published; 220 actividades reviewed y 645 candidate**. Vocabulario y templates sin cambios. Paquetes y dictamen ciego se conservan como evidencia histórica de v1, no como revisión independiente de v2.
 
 Validaciones: 9/9 pruebas editoriales; tipos y formato correctos; reporte editorial sin errores. Comparación del pack antes/después: solo cambia C06-01-nega; accepted/rejected idénticos, las otras 28 huellas intactas, Theory/vocabulario/templates/relaciones y C11–C34 idénticos. Diff revisado. Sin repetición de E2E/build generales por alcance localizado. No publicación, merge, push ni despliegue. Cierre de ambas decisiones pendiente de la aclaración de C10-02.
+
+## Cierre definitivo de IR-02 — decisión explícita de Sergio
+
+Enunciado definitivo aplicado literalmente a `it-a1-c10-02-caffe`:
+
+> Entri in un bar e fai una nuova ordinazione. Chiedi la bevanda indicata, senza riferirti a una consumazione già identificata: ___ caffè, per favore.
+
+Feedback y pista contextual:
+
+> Un caffè, per favore es la forma neutra para solicitar una consumición nueva no identificada. Il caffè, per favore puede usarse en otros contextos con una consumición identificable; no corresponde al contexto indicado aquí.
+
+Actividad, criterio y trace.sourceVersion **1 → 2**. Accepted `Un`, rejected `Il`/`Uno`, exhaustive false, IDs, objetivo, contexto bar y formato cloze permanecen intactos. Theory, vocabulario y relaciones no cambian.
+
+**Revisión completa satisfactoria de R2:** contrastados enunciado, contexto, respuestas, pista, explicación, formato, atribución y Theory C10-02. El texto no presenta «un caffè» antes del hueco ni ordena usar un indeterminado. «Un bar» identifica el establecimiento y no proporciona el grupo nominal que debe completarse. «La bevanda indicata» señala el tipo de bebida escrito tras el hueco, no una consumición ya identificada. La exclusión explícita de esa consumición permite justificar Un frente a Il dentro de esta tarea; no se formula una prohibición general de Il caffè. Uno conserva su rechazo ante caffè. La pista consultable y el feedback sí explican la solución, conforme a su función de ayuda/corrección, no como parte del enunciado inicial. No queda bloqueo IR-02.
+
+Recibo nuevo de C10-02: inventario con actividad v2 y huella actualizada; decision reviewed, flags vacíos. Lote `it-a1-editorial-c01-c10-2026-10-13-cross-review-3`. Se conserva el recibo vigente de C06-01 y los otros 27; no se regeneran sus huellas. Paquetes originales y dictamen independiente permanecen congelados sobre v1: esta revisión posterior de v2 corresponde a R2 aplicando la decisión del usuario, no a un nuevo dictamen ciego. IR-03 continúa como mejora opcional no aplicada.
+
+**Estado final:** Concepts y Theory 29 reviewed/70 candidate/0 published; actividades 227 reviewed/638 candidate; vocabulario 96 reviewed/220 candidate; 2 templates reviewed. Sin publicación. La aprobación editorial humana cualificada antes de publicar sigue pendiente.
+
+**Validación:** 9/9 pruebas editoriales, con casos Un correcto e Il/Uno incorrectos para este contexto y regresión de IR-01; tipos y formato correctos. Reporte editorial sin errores ni recibos obsoletos. Comparación de snapshots del pack authored: solo cambia C10-02-caffe; las otras 28 huellas, Theory, vocabulario, templates, relaciones y todo C11–C34 permanecen idénticos. Versiones del criterio y trace coherentes. Diff revisado. No se repiten E2E/build generales por alcance localizado; no cambia el motor ni la interfaz.
+
+Cierre en `feat/editorial-cross-review-c01-c10`, commit con mensaje `fix(content): resolve IR-02 with contextual article prompt`; hash entregado al usuario tras crearlo. **Detenerse: sin C11–C34, publicación, merge, push ni despliegue.**

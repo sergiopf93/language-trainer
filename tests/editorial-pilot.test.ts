@@ -26,9 +26,8 @@ describe('C01–C10 editorial pilot receipts', () => {
     expect(italianCourse.status).toBe('candidate');
     expect(loadLanguagePack(italianCourse).repository.available()).toEqual([]);
     for (const receipt of editorialC01C10.concepts) {
-      const held = ['it-a1-c10-02'].includes(receipt.concept.id);
-      expect(receipt.decision).toBe(held ? 'candidate' : 'reviewed');
-      expect(receipt.flags).toHaveLength(held ? 1 : 0);
+      expect(receipt.decision).toBe('reviewed');
+      expect(receipt.flags).toEqual([]);
       expect(
         italianCourse.concepts.find((c) => c.id === receipt.concept.id)?.status,
       ).toBe(receipt.decision);
@@ -112,9 +111,14 @@ describe('C01–C10 editorial pilot receipts', () => {
       ['05-03-loro', 'loro hanno entrambi 40 anni'],
       ['08-02-ordine', 'Per favore, due caffè.'],
       ['10-02-chiedi', 'Per favore un caffè'],
+      ['10-02-caffe', 'Un'],
+      ['06-01-nega', 'Non sono a casa.'],
     ])
       expect(evaluate(activity(id), answer).judgment, id).toBe('correct');
     for (const [id, answer] of [
+      ['10-02-caffe', 'Il'],
+      ['10-02-caffe', 'Uno'],
+      ['06-01-nega', 'Sono non a casa'],
       ['01-02-essere', 'e'],
       ['01-03-pena', 'penna'],
       ['03-01-noi', 'voi'],

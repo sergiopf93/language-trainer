@@ -243,17 +243,11 @@ Recibos por Concept con inventario/versiones, motivo, fecha, revisor, provenance
 
 ## Validación cruzada 5B.2 — C01–C10 (2026-10-13)
 
-Rama `feat/editorial-cross-review-c01-c10`, baseline de contenido `5c122d7`, preparación recuperada `3118ee5`. Reutilizados los diez paquetes congelados con hashes vigentes, sin regeneración. Revisor aislado emitió dictamen antes de comparar 5B.1: **29 Theory y 148/227 actividades efectivamente revisadas**, incluidos 42 cambios y 15 listas accepted; 79 actividades sin revisión independiente. [Dictamen, comparación y cobertura](../product/A1_EDITORIAL_CROSS_REVIEW_C01_C10.md).
+Rama `feat/editorial-cross-review-c01-c10`. Dictamen independiente ciego sobre 29 Theory y 148/227 actividades (42 cambios y 15 listas incluidos); 79 actividades sin revisión independiente. Paquetes originales conservados. [Informe, decisiones y cobertura](../product/A1_EDITORIAL_CROSS_REVIEW_C01_C10.md).
 
-**0 errores inequívocos, 2 ambigüedades relevantes, 1 preferencia opcional.** IR-01: rechazo de negación contrastiva en C06-01-nega sin exigir orden neutro. IR-02: rechazo de Il en C10-02-caffe sin excluir suficientemente referente identificable. IR-03: exclamación en C10-02-chiedi produce abstención; ampliación opcional. Sin correcciones lingüísticas; C06-01 y C10-02 retenidos candidate con flags para decisión humana, conservando contenido/versiones/huellas. Lote editorial `it-a1-editorial-c01-c10-2026-10-13-cross-review-1`; otras decisiones no renovadas.
+IR-01 e IR-02 resueltos por decisiones explícitas de Sergio y revisión completa posterior de R2. C06-01-nega y C10-02-caffe v1→v2, incluidos criterio y trace, respuestas conservadas. Negación simple delimitada y pedido de consumición nueva no identificada, con feedback contextual y sin modelo de respuesta en las consignas. Recibos nuevos de ambos conceptos; lote final `it-a1-editorial-c01-c10-2026-10-13-cross-review-3`. No se presenta la revisión de v2 como nuevo dictamen independiente. IR-03 (exclamación) permanece opcional y sin aplicar.
 
-Estado: **27 reviewed/72 candidate/0 published**; Theory igual; actividades 214 reviewed/651 candidate; vocabulario 96 reviewed/220 candidate; 2 templates reviewed. C11–C34 intactos. 9 pruebas editoriales, tipos, formato, reproducción de los tres resultados y reporte editorial correctos. Sin E2E/build generales por alcance acotado. Validación humana pendiente; revisión IA no autoriza publicación. Resolver IR-01/IR-02 antes de recuperar reviewed o escalar. **Detenerse; sin C11–C34 editorial, merge, push ni despliegue.**
-
-### Decisión posterior de Sergio — IR-01 resuelto; IR-02 pendiente
-
-C06-01-nega v1→v2 (actividad/criterio/trace), consigna explícita de negación simple y feedback contextual; respuestas conservadas. Revisión completa satisfactoria, C06-01 reviewed con huella nueva. Lote `it-a1-editorial-c01-c10-2026-10-13-cross-review-2`. Estado vigente sustituye los totales anteriores: **28 reviewed/71 candidate/0 published**, actividades 220 reviewed/645 candidate. Las otras 28 huellas y C11–C34 intactos; 9 pruebas editoriales, tipos, formato y reporte correctos.
-
-C10-02 sigue candidate y su actividad v1 intacta: el texto propuesto por Sergio incluye «Chiedi un caffè» y revela Un antes del hueco, contrario a la validación exigida. Pregunta pendiente: sustituir ese fragmento por «Ordina questa bevanda» o conservar literal con bloqueo. No asumir respuesta. Continuar únicamente esa decisión; no publicar ni escalar.
+**Estado vigente: 29 Concepts/Theory reviewed, 70 candidate, 0 published; 227 actividades reviewed/638 candidate; 96 entradas reviewed/220 candidate; 2 templates reviewed.** En el cierre IR-02 solo cambia C10-02-caffe, las otras 28 huellas y C11–C34 intactos. 9 pruebas editoriales (incluidas respuestas de ambos casos), tipos, formato y reporte editorial correctos. Sin repetición de E2E/build generales por alcance localizado. Validación humana cualificada antes de publicar pendiente. **Detenerse; no iniciar C11–C34 editorial, publicar, merge, push ni desplegar.**
 
 ## Reglas y mantenimiento
 

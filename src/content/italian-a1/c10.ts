@@ -219,14 +219,16 @@ export const c10: Lesson[] = [
       },
       {
         key: 'caffe',
+        version: '2',
         format: 'cloze',
         prompt:
-          'Ordina un solo caffè, senza indicarne uno già pronto: ___ caffè, per favore.',
+          'Entri in un bar e fai una nuova ordinazione. Chiedi la bevanda indicata, senza riferirti a una consumazione già identificata: ___ caffè, per favore.',
         accepted: ['Un'],
-        explanation: 'Un introduce la unidad solicitada.',
+        explanation:
+          'Un caffè, per favore es la forma neutra para solicitar una consumición nueva no identificada. Il caffè, per favore puede usarse en otros contextos con una consumición identificable; no corresponde al contexto indicado aquí.',
         facets: ['petición'],
         context: 'bar',
-        hint: 'Un introduce la unidad solicitada.',
+        hint: 'Un caffè, per favore es la forma neutra para solicitar una consumición nueva no identificada. Il caffè, per favore puede usarse en otros contextos con una consumición identificable; no corresponde al contexto indicado aquí.',
         rejected: ['Il', 'Uno'],
       },
       {
