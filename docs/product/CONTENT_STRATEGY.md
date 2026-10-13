@@ -31,6 +31,12 @@ Los distractores incorrectos se etiquetan como tales y se revisan por plausibili
 
 Estados de contenido: planificado → borrador → en revisión → validado → publicado; también retenido/retirado. Estado de implementación: no implementado → parcial → integrado → verificado. No se marca un estado por mera presencia de una fila de documentación. Cada avance enlaza evidencia real (artefacto, versión, revisión y comprobación).
 
+## Aplicación del piloto 5B.1 (2026-10-13)
+
+Por autorización explícita de Sergio, el estado operativo es `candidate → reviewed → published`. En este piloto, reviewed significa revisión integral explícita y trazable por Concept, realizada por R2 y declarada como autorrevisión asistida. No significa validación independiente ni autorización de producción. El paso 6 del flujo anterior sigue siendo requisito para publicación definitiva; no bloquea esta revisión piloto autorizada.
+
+Los recibos de C01–C10 registran entidades y versiones, fecha, responsable, motivo, provenance, flags y huella del conjunto revisado. Candidate se conserva si hay dudas relevantes. Reviewed requiere Theory, ejemplos, actividades, criterios y vocabulario revisados, sin errores editoriales conocidos que afecten al aprendizaje. Las comprobaciones técnicas no deciden el estado. Solo published puede entrar en producción; desarrollo y builds de validación admiten candidate y reviewed. [Resultado y límites del piloto](A1_EDITORIAL_REVIEW_C01_C10.md).
+
 ## Matriz editorial de suficiencia por Concept
 
 Esta tabla se instancia para **cada ID evaluable**, con referencias a actividades/artefactos reales. No basta una marca global por Cxx cuando contiene varios Concepts.

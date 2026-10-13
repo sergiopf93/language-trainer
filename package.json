@@ -20,7 +20,8 @@
     "test:cloudflare": "CF_RUNTIME=1 vitest run tests/worker.test.ts",
     "format:check": "prettier --check src worker shared tests scripts *.ts *.json *.jsonc index.html public/manifest.webmanifest",
     "content:coverage": "node scripts/content-coverage.mjs",
-    "content:pedagogy": "node scripts/content-pedagogy.mjs"
+    "content:pedagogy": "node scripts/content-pedagogy.mjs",
+    "content:editorial": "node scripts/content-editorial.mjs"
   },
   "dependencies": {
     "idb": "8.0.4"

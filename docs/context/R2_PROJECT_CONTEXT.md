@@ -229,6 +229,18 @@ Validación: 259 pruebas locales, tipos/formato, builds, coverage y 21 E2E candi
 
 Pendiente 5B: naturalidad/paráfrasis, retirada de apoyos (C11-02 y producción con piezas), reserva diferida, ritmo de C16 y transversalidad de C34; revisión humana/editorial independiente. Hay práctica escrita de las funciones previstas, no prueba de autonomía, retención ni habilidades orales. **Detenerse tras esta fase; no iniciar 5B, Reading/Writing completos ni Review avanzado automáticamente.**
 
+## Piloto editorial 5B.1 — C01–C10 (2026-10-13)
+
+Rama `feat/editorial-review-c01-c10`, baseline `e902653`, pack `it-A1-editorial-1`. Revisión integral de 29 Concepts/Theory, todas las 227 actividades, 96 entradas léxicas, 2 templates/9 variantes y 115 relaciones incidentes. **29 Concepts reviewed, 0 candidate en el piloto; C11–C34 conserva 70 candidate. 0 published y 0 ready.** Reviewed es autorrevisión editorial asistida explícitamente autorizada, no aprobación humana independiente ni publicación.
+
+Correcciones: 6 Theory, 42 actividades, 15 listas accepted y 2 entradas léxicas. Consignas acotadas por registro/formato, variantes equivalentes, errores de mezcla de lenguas, generalizaciones de género/plural/semiconsonantes y ejemplos poco contextualizados. Alcance curricular, evaluator/typos y grafo conservados. No se reaudita C11–C34.
+
+Recibos por Concept con inventario/versiones, motivo, fecha, revisor, provenance, flags y huella del contenido/relaciones. Reutilizan reviewContent; recibos obsoletos fallan explícitamente. `npm run content:editorial` (+ `-- --json`) informa sin score. Reviewed queda habilitado en desarrollo y proyecciones de validación; producción sigue excluyendo candidate/reviewed. Sesiones históricas intactas. [Reporte editorial](../product/A1_EDITORIAL_REVIEW_C01_C10.md) e [inventario de cambios](../product/A1_EDITORIAL_CHANGES_C01_C10.json).
+
+268 pruebas locales, tipos/formato, ambos builds, coverage/pedagogy/editorial, 21 E2E de validación + 1 E2E de exclusión en producción correctos. Revisión del diff y comparación con baseline confirman conservación de C11–C34 (salvo sello global de pack), 220 entradas fuera del piloto y las 210 relaciones. Aviso bundle >500 kB conservado; sin Cloudflare remoto/nativo, dependencias nuevas ni despliegue.
+
+0 flags lingüísticos bloqueantes conocidos. Pendiente validación humana del proceso y revisión independiente antes de publicar. No son revisión con alumnos ni eficacia demostrada. **Detenerse tras 5B.1: no C11–C34 editorial, publicación, merge ni push.**
+
 ## Reglas y mantenimiento
 
 Hablar español; implementar solo el bloque autorizado y detenerse al entregarlo. No merge a main ni gasto sin autorización explícita. No sobrescribir trabajo ni ocultar fallos. No presentar propuesta/publicación como funcionalidad probada. Mantener trazabilidad del A1, canon, ayudas y versiones. Modificar reglas globales únicamente dentro de una autorización explícita de Sergio.

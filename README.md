@@ -1,6 +1,6 @@
 # Language Trainer
 
-Base técnica de una PWA personal para italiano A1, con interfaz en español. La V1 prevista mantiene **todo el currículo A1 del proyecto**. La Fase 2 añade práctica focal, evaluación canónica y progreso por dimensiones. No hay contenido publicado ni acreditación de dominio estable; el lote `candidate` es exclusivamente de validación técnica.
+Base técnica de una PWA personal para italiano A1, con interfaz en español. La V1 prevista mantiene **todo el currículo A1 del proyecto**. La Fase 2 añade práctica focal, evaluación canónica y progreso por dimensiones. No hay contenido publicado ni acreditación de dominio estable; el contenido `candidate`/`reviewed` solo está habilitado en desarrollo y builds de validación.
 
 ## Requisitos y arranque
 
@@ -59,24 +59,28 @@ PLAYWRIGHT_CHANNEL=chrome E2E_NODE_FALLBACK=1 E2E_ACCESS_CODE=local-test-only np
 
 Recorrido: Biblioteca → elegir concepto → Iniciar práctica → responder/ver pista → comprobar/reintentar → avanzar → resumen → progreso. Practicar lista sesiones y versiones concurrentes. Respuesta, ayudas y corrección sobreviven a la recarga. Los borradores de intención anteriores siguen disponibles. Las respuestas fuera del criterio se declaran no evaluables; las vacías no aportan evidencia. La política provisional separa observaciones por dimensión, asistencia e ítems distintos; no demuestra dominio estable ni retención. No utiliza IA ni llamadas externas para corregir.
 
-Un build normal excluye candidate del catálogo y de las proyecciones. Para comprobarlo:
+Un build normal excluye tanto candidate como reviewed del catálogo y de las proyecciones. Para comprobarlo:
 
 ```sh
 npm run build
 E2E_PRODUCTION=1 PLAYWRIGHT_CHANNEL=chrome E2E_NODE_FALLBACK=1 npm run test:e2e -- --grep 'production build'
 ```
 
-## Auditoría curricular candidate
+## Cobertura y revisión editorial A1
 
-El pack focal contiene C01–C34: 99 conceptos, 99 fichas, 316 entradas y 865 actividades. Todo permanece `candidate`; presencia no acredita suficiencia pedagógica ni publicación. La [auditoría 5A](docs/product/A1_PEDAGOGICAL_AUDIT.md) conserva el baseline y las decisiones por concepto; validación humana/editorial pendiente.
+El pack focal contiene C01–C34: 99 conceptos, 99 fichas, 316 entradas y 865 actividades. El [piloto editorial 5B.1](docs/product/A1_EDITORIAL_REVIEW_C01_C10.md) revisa los 29 conceptos de C01–C10: 29 reviewed, 227 actividades revisadas y 96 entradas léxicas revisadas. Los 70 conceptos C11–C34 siguen candidate; 0 publicados. La [auditoría 5A](docs/product/A1_PEDAGOGICAL_AUDIT.md) conserva el baseline anterior. Reviewed acredita una decisión editorial explícita y trazable de este piloto asistido; no sustituye revisión humana independiente ni autoriza publicación.
 
 ```sh
 npm run content:coverage
 npm run content:pedagogy
 npm run content:pedagogy -- --json
+npm run content:editorial
+npm run content:editorial -- --json
 ```
 
 El reporte pedagógico distingue habilidades, familias, teoría, relaciones y vocabulario; sus flags requieren interpretación según el objetivo, sin puntuación automática de suficiencia. Para analizar un LanguagePack JSON previo: `npm run content:pedagogy -- --input /ruta/pack.json --json`.
+
+Los recibos editoriales conservan versiones, motivos y huellas de la experiencia completa. Un cambio de contenido o dependencias invalida el recibo; no se regenera para silenciar el control. El reporte no calcula un quality score. El vocabulario compartido revisado no aprueba C11–C34.
 
 ## Historial y sincronización
 
