@@ -1,35 +1,68 @@
 # Fase 5B.2 — validación cruzada C01–C10
 
-Estado: **preparación completada; dictamen independiente pendiente por límite de uso del subagente**. No es una revisión completada ni una aprobación de 5B.1.
+Estado: **dictamen independiente emitido y comparado; dos ambigüedades retenidas para decisión humana**. Revisión asistida por IA, no aprobación humana ni publicación.
 
-Baseline: `5c122d7`; rama `feat/editorial-cross-review-c01-c10`. Fecha: 2026-10-13. Sin cambios de contenido ni estados editoriales.
+Fecha: 2026-10-13. Baseline de contenido: `5c122d7`; preparación recuperada: `3118ee5`; rama `feat/editorial-cross-review-c01-c10`.
 
-## Alcance preparado y alcance efectivamente revisado
+## Material efectivamente revisado
 
-[Manifiesto exacto](editorial-cross-review-c01-c10/manifest.json): 29 conceptos y 29 Theory completas; muestra de 148/227 actividades, con las 42 modificadas en 5B.1 y las 15 listas accepted modificadas. Incluye al menos una actividad por concepto/formato presente en ese concepto, todas las translation, controlled-production, error-correction y transformation, y las cinco familias existentes F1/F2/F3/F4/F7. Diez formatos representados. Las 79 no seleccionadas figuran en `notSelectedActivityIds`.
+Reutilizados sin regeneración los diez paquetes originales, con sus SHA-256 verificados contra el [manifiesto](editorial-cross-review-c01-c10/manifest.json). Desde el baseline hasta la reanudación solo había documentación de preparación; no habían cambiado las fuentes de contenido. La muestra conserva 29 conceptos, 10 formatos, 5 familias y las modalidades de respuesta seleccionada, textual, asociación y ordenación. No se necesitó ampliarla.
 
-**No hay ninguna Theory, actividad ni lista accepted con dictamen independiente emitido.** Los campos `reviewed*Ids` están vacíos y `unreviewedActivityIds` contiene las 227 actividades. Selección no equivale a revisión. Vocabulario y templates se entregan como contexto; su revisión exhaustiva tampoco está acreditada.
+El revisor aislado `/root/italian_independent_review_resume`, con `fork_turns: none`, emitió y guardó su [dictamen independiente íntegro](editorial-cross-review-c01-c10/independent-verdict.json) antes de que R2 leyera el informe detallado y el inventario de cambios de 5B.1 para compararlos. Recibió únicamente criterios, manifiesto y C01.json–C10.json, sin conclusiones anteriores. El manifiesto original revela qué IDs habían cambiado, pero no los motivos ni conclusiones: independencia respecto del dictamen previo, no cegamiento respecto de la selección.
 
-Los paquetes C01.json–C10.json congelan el contenido seleccionado, sus respuestas y explicaciones. El manifiesto conserva SHA-256 de cada paquete. Se excluyen estados, recibos, provenance y exclusiones que revelaban la revisión anterior. Los [criterios](editorial-cross-review-c01-c10/criteria.md) incluyen el extracto C01–C10 del currículo Work, contratos editoriales neutrales y el comportamiento efectivo del evaluador. No se entregaron las conclusiones ni razones de 5B.1.
+**Revisión acreditada: 29/29 Theory completas y 148/227 actividades**, con respuestas, distractores y explicaciones; incluye 42/42 actividades modificadas y 15/15 listas accepted modificadas. Cobertura por ID en dictamen y manifiesto. Quedan **79 actividades sin revisión independiente**, enumeradas en `notSelectedActivityIds` y `unreviewedActivityIds`. Vocabulario y templates fueron contexto; no se acredita una auditoría independiente exhaustiva de ambos. El intento anterior bloqueado sigue sin aportar cobertura.
 
-## Revisor y bloqueo
+## Dictamen y decisión de R2
 
-Se lanzó `/root/italian_independent_review` con `fork_turns: none`, rol especializado en italiano A1 para hispanohablantes y prohibición de consultar informes previos, contexto, recibos o historial. El subagente terminó con el error `You've hit your usage limit` antes de entregar dictamen o registro de cobertura. No se infiere de ello que haya revisado ningún elemento. R2 no sustituye la valoración independiente por la suya.
+Cero errores inequívocos confirmados, dos ambigüedades relevantes y una preferencia opcional. Cada hallazgo conserva concepto, ficha/actividad, problema, gravedad, evidencia, propuesta y certeza en el JSON del revisor.
 
-## Resultado disponible
+| ID / clase | Concepto y actividad | Evidencia y problema | Gravedad / certeza | Propuesta y resolución |
+|---|---|---|---|---|
+| IR-01 · ambigüedad relevante | C06-01 · `it-a1-c06-01-nega`; Theory `it-a1-theory-c06-01` | «Nega la frase senza cambiare le altre parole: “Sono a casa”» rechaza `Sono non a casa`. La Theory limita la regla al orden neutro; la consigna no explicita ese límite frente a una lectura contrastiva. | Media / media; construcción marcada sin continuación, no error gramatical confirmado. | Explicitar orden neutro o retirar rechazo. **Sin corrección automática; candidate y validación humana.** |
+| IR-02 · ambigüedad relevante | C10-02 · `it-a1-c10-02-caffe` | «Ordina un solo caffè, senza indicarne uno già pronto: ___ caffè, per favore» rechaza `Il`. El contexto no excluye plenamente una bebida identificable en la situación compartida. | Media / media-alta sobre insuficiencia contextual. | Delimitar primera mención/referente no identificable o retirar rechazo; pedir indeterminado explícito reduciría la demanda de selección contextual y debe valorarse. **Sin corrección automática; candidate y validación humana.** |
+| IR-03 · preferencia estilística | C10-02 · `it-a1-c10-02-chiedi` | `Un caffè, per favore!` produce abstención, no error lingüístico. | Baja, opcional / alta. | Ampliar accepted si se decide reducir abstenciones. **No aplicado ni considerado bloqueo.** |
 
-- Errores confirmados y ambigüedades: **sin dictamen**, no significa cero problemas.
-- Comparación con 5B.1, aciertos, omisiones y falsos positivos: no realizada; debe esperar al dictamen.
-- Correcciones: ninguna. No hay evidencia independiente suficiente para aplicarlas.
-- Estados: conservados, 29 conceptos reviewed y 70 candidate, 0 published. No se han renovado recibos ni mejorado métricas.
-- Validación humana: sigue pendiente; una futura revisión independiente asistida por IA no debe presentarse como validación humana cualificada.
-- Comprobaciones de preparación: unicidad de IDs; 29 Theory; 148 seleccionadas +79 no seleccionadas =227; inclusión de 42/42 cambios y 15/15 listas; cobertura de 29 conceptos, 10 formatos y 5 familias; hashes correctos. No se repiten tests de aplicación porque no se modifica código ejecutable.
+La categoría «requiere validación humana» se aplica como disposición pendiente a IR-01/IR-02, sin duplicarlos como hallazgos adicionales. R2 retiene las dudas; no transforma la recomendación del revisor en una afirmación de error confirmado. No se consultaron fuentes lingüísticas adicionales para adjudicarlas: permanecen sin resolver.
 
-## Reanudación
+## Comparación posterior con 5B.1
 
-1. Lanzar un nuevo revisor aislado cuando esté disponible. Entregar **solo** `editorial-cross-review-c01-c10/criteria.md`, `manifest.json` y `C01.json`–`C10.json`. No entregar este informe, el contexto del proyecto ni los informes/recibos anteriores como material lingüístico.
-2. Pedir revisión íntegra de las 29 Theory y todas sus reglas, ejemplos y generalizaciones, y de las 148 actividades seleccionadas; guardar dictamen propio y cobertura exacta antes de revelar 5B.1. Clasificar evidencia y propuestas en error confirmado, ambigüedad relevante, mejora estilística opcional o cuestión que requiere validación humana. Distinguir abstención de rechazo lingüístico.
-3. Solo después, comparar con `A1_EDITORIAL_REVIEW_C01_C10.md` y el inventario de cambios de 5B.1. Resolver errores inequívocos, versionar entidades y dejar candidate los conceptos afectados por errores materiales conforme al contrato existente. No mantener aprobaciones sobre contenido modificado sin revalidación.
-4. Ejecutar tests pertinentes, revisar diff, actualizar contexto y entregar los diez puntos solicitados, incluyendo commits.
+Comparación con [informe](A1_EDITORIAL_REVIEW_C01_C10.md) e [inventario](A1_EDITORIAL_CHANGES_C01_C10.json), realizada después del dictamen ciego:
 
-Recomendación provisional: **no escalar todavía a C11–C34**. La puerta de validación independiente sigue pendiente. Sin merge, push, despliegue ni publicación. C11 no iniciado en esta fase.
+- **Omisión C06-01:** 5B.1 corrigió las comillas de no/non en Theory y feedback de `riconosci`; no modificó `nega`. Declaró seis actividades revisadas sin flags. IR-01 identifica una duda residual entre alcance neutro y contraste, no invalida aquella corrección de español.
+- **Omisión C10-02:** 5B.1 revisó introducción/petición/identificación, pero `caffe` no figura entre los cambios. IR-02 cuestiona la suficiencia de su contexto y obliga a retener la aprobación mientras se resuelve.
+- **Diferencia no bloqueante:** `chiedi` sí cambió en 5B.1 para aceptar posiciones de `per favore`. IR-03 propone además exclamación; el comportamiento es abstención conforme al contrato, no falso rechazo confirmado.
+- **Concordancia limitada:** el revisor no encontró errores inequívocos en las versiones actuales de las 29 Theory ni en las 148 actividades. Esto no prueba que todos los cambios anteriores fueran necesarios, ni certifica las 79 actividades no muestreadas. No hay falsos positivos de 5B.1 demostrados por este dictamen.
+- **Discrepancia operativa:** «0 flags conocidos» describía el cierre de 5B.1; ahora hay dos dudas abiertas. El informe histórico se conserva y este documento registra el nuevo estado.
+
+Mejoras necesarias para el proceso: contrastar cada rechazo explícito con el contexto exacto de la consigna; distinguir negación neutra y contrastiva; comprobar identificabilidad discursiva sin reducir inadvertidamente la capacidad evaluada a elegir una forma dada; separar abstenciones de errores; guardar cobertura exacta, dictamen previo a comparación y límite del muestreo. Las preferencias de puntuación deben separarse de bloqueos y nunca normalizar globalmente signos relevantes para C06.
+
+## Correcciones, versiones y estados
+
+**Ninguna corrección lingüística aplicada**, al no existir errores inequívocos. No se alteran enunciados, Theory, accepted/rejected, canon, currículo, evaluador ni snapshots históricos.
+
+Se actualiza únicamente la decisión editorial de C06-01 y C10-02 a candidate, con flags IR-01/IR-02, conforme al contrato que impide reviewed con dudas abiertas. Lote identificado como `it-a1-editorial-c01-c10-2026-10-13-cross-review-1`; provenance distingue las 27 decisiones conservadas de 5B.1 de las dos retenciones de 5B.2. Los recibos anteriores permanecen en Git. Inventarios, versiones y huellas originales se conservan porque el contenido no cambió; no se regeneran aprobaciones ni se presenta la muestra independiente como revisión integral de 227 actividades.
+
+| Entidad | reviewed | candidate | published |
+|---|---:|---:|---:|
+| Concept | 27 | 72 | 0 |
+| Theory | 27 | 72 | 0 |
+| Actividad | 214 | 651 | 0 |
+| Vocabulario | 96 | 220 | 0 |
+| Template | 2 | 0 | 0 |
+
+Las 13 actividades de los dos conceptos retenidos quedan candidate. El vocabulario compartido conserva sus decisiones por otros conceptos revisados. Los 70 conceptos de C11–C34 siguen intactos. Ningún elemento publicado; no se habilita producción.
+
+## Validaciones y tests
+
+- Diez hashes originales correctos; cobertura exacta del dictamen cotejada con manifiesto: 29 Theory, 148 actividades, 42 cambios y 15 listas, sin regeneración.
+- **9/9 pruebas editoriales** (`editorial-pilot` y `editorial-review`), incluida la transición efectiva de Concept/Theory/actividades a candidate, huellas, versiones, aislamiento de C11–C34, exclusión en producción y conservación de snapshots.
+- Typecheck y formato de los dos archivos TypeScript modificados correctos. `content:editorial -- --json`: sin errores, huellas vigentes y totales de la tabla.
+- Reproducción directa con el evaluador actual: IR-01 e IR-02 → `linguistic-error`; IR-03 → `not-evaluable`. Confirma comportamiento técnico, no resuelve el juicio lingüístico.
+- Primer intento de tests/tipos falló por Node antiguo activado por el shell; repetido correctamente con Node 22.23.3. Vitest necesitó autorización de escritura para su caché en el repositorio, fuera del workspace inicial; ejecución posterior correcta.
+- Sin repetición de auditorías estructurales, Research Pack, E2E ni builds generales: cambios limitados a decisiones editoriales y trazabilidad, cubiertos por pruebas específicas. Sin cambios de UX, infraestructura o dependencias. Diff revisado.
+
+## Git y continuación
+
+Commit de cierre en esta rama con mensaje `docs(content): complete blind C01-C10 cross-review and hold ambiguities`; el hash se entrega al usuario después de crearlo. Sin merge, push, publicación ni despliegue.
+
+Recomendación: resolver IR-01/IR-02 con validación editorial humana antes de recuperar reviewed o escalar el proceso. IR-03 es opcional. La revisión humana cualificada para publicación sigue pendiente. **Detenerse tras esta entrega; no iniciar C11–C34.**

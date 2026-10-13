@@ -26,8 +26,22 @@ describe('C01–C10 editorial pilot receipts', () => {
     expect(italianCourse.status).toBe('candidate');
     expect(loadLanguagePack(italianCourse).repository.available()).toEqual([]);
     for (const receipt of editorialC01C10.concepts) {
-      expect(receipt.decision).toBe('reviewed');
-      expect(receipt.flags).toEqual([]);
+      const held = ['it-a1-c06-01', 'it-a1-c10-02'].includes(
+        receipt.concept.id,
+      );
+      expect(receipt.decision).toBe(held ? 'candidate' : 'reviewed');
+      expect(receipt.flags).toHaveLength(held ? 1 : 0);
+      expect(
+        italianCourse.concepts.find((c) => c.id === receipt.concept.id)?.status,
+      ).toBe(receipt.decision);
+      expect(italianCourse.theories[receipt.concept.id].status).toBe(
+        receipt.decision,
+      );
+      expect(
+        italianCourse.canonicalActivities
+          .filter((a) => a.conceptId === receipt.concept.id)
+          .every((a) => a.status === receipt.decision),
+      ).toBe(true);
       expect(reviewFingerprint(italianCourse, receipt.concept.id)).toBe(
         receipt.fingerprint,
       );

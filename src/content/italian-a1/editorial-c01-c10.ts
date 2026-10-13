@@ -1,11 +1,11 @@
 import type { ReviewBatch } from '../editorial-review';
 // Explicit receipts recorded after the pilot review; never regenerate to make a check pass.
 export const editorialC01C10 = {
-  id: 'it-a1-editorial-c01-c10-2026-10-13',
+  id: 'it-a1-editorial-c01-c10-2026-10-13-cross-review-1',
   reviewer: 'R2 · autorrevisión editorial asistida 5B.1, no independiente',
   date: '2026-10-13',
   provenance:
-    'Solicitud explícita de Sergio: piloto C01–C10, revisión integral por Concept; baseline e902653. Lectura editorial de 29 Theory, 227 actividades y 96 entradas, contraste puntual Treccani/Crusca. Decisiones razonadas en docs/product/A1_EDITORIAL_REVIEW_C01_C10.md. No aprobación humana ni publicación.',
+    'Solicitud explícita de Sergio: piloto C01–C10, revisión integral por Concept; baseline e902653. Lectura editorial de 29 Theory, 227 actividades y 96 entradas, contraste puntual Treccani/Crusca. Decisiones razonadas en docs/product/A1_EDITORIAL_REVIEW_C01_C10.md. No aprobación humana ni publicación. 5B.2: R2 conserva 27 decisiones de 5B.1 y retiene C06-01/C10-02 como candidate por IR-01/IR-02 del dictamen ciego independiente; docs/product/editorial-cross-review-c01-c10/independent-verdict.json. No se renueva la aprobación de los otros conceptos.',
   concepts: [
     {
       concept: {
@@ -1733,10 +1733,12 @@ export const editorialC01C10 = {
         id: 'it-a1-c06-01',
         version: '1',
       },
-      decision: 'reviewed',
+      decision: 'candidate',
       reason:
-        'Negación, perspectiva y seis actividades revisadas. Comillas desambiguan no italiano frente a negación española de la explicación.',
-      flags: [],
+        '5B.2: candidate por ambigüedad relevante en c06-01-nega; rejected contiene Sono non a casa sin exigir orden neutro. Sin corrección lingüística ni cambio de versión; conserva inventario y huella de 5B.1.',
+      flags: [
+        'IR-01: alcance de la negación contrastiva pendiente de validación humana.',
+      ],
       fingerprint: 'e78de8cf37b332ae',
       entities: [
         {
@@ -2886,10 +2888,12 @@ export const editorialC01C10 = {
         id: 'it-a1-c10-02',
         version: '1',
       },
-      decision: 'reviewed',
+      decision: 'candidate',
       reason:
-        'Introducción, petición e identificación revisadas. Se admiten dos posiciones de per favore; traducción de llave mantiene explícita la omisión de io.',
-      flags: [],
+        '5B.2: candidate por ambigüedad relevante en c10-02-caffe; el contexto no excluye suficientemente Il. IR-03 es opcional y no bloqueante. Sin corrección lingüística ni cambio de versión; conserva inventario y huella de 5B.1.',
+      flags: [
+        'IR-02: referencia identificable en la petición de café pendiente de validación humana.',
+      ],
       fingerprint: '444b1f0e21a744aa',
       entities: [
         {
