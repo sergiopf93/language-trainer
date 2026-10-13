@@ -26,9 +26,7 @@ describe('C01–C10 editorial pilot receipts', () => {
     expect(italianCourse.status).toBe('candidate');
     expect(loadLanguagePack(italianCourse).repository.available()).toEqual([]);
     for (const receipt of editorialC01C10.concepts) {
-      const held = ['it-a1-c06-01', 'it-a1-c10-02'].includes(
-        receipt.concept.id,
-      );
+      const held = ['it-a1-c10-02'].includes(receipt.concept.id);
       expect(receipt.decision).toBe(held ? 'candidate' : 'reviewed');
       expect(receipt.flags).toHaveLength(held ? 1 : 0);
       expect(

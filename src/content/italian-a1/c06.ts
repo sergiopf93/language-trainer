@@ -72,13 +72,16 @@ export const c06: Lesson[] = [
       },
       {
         key: 'nega',
+        version: '2',
         format: 'transformation',
-        prompt: 'Nega la frase senza cambiare le altre parole: «Sono a casa».',
+        prompt:
+          'Trasforma «Sono a casa» in una frase negativa semplice, senza aggiungere altre parole.',
         accepted: ['Non sono a casa', 'Non sono a casa.'],
-        explanation: 'Se conserva sono y se coloca non antes del verbo.',
+        explanation:
+          'En la negación simple enseñada, non se coloca antes de sono: Non sono a casa. Las construcciones contrastivas tienen otro alcance.',
         facets: ['posición'],
         context: 'vivienda',
-        hint: 'Se conserva sono y se coloca non antes del verbo.',
+        hint: 'En la negación simple enseñada, non se coloca antes de sono: Non sono a casa. Las construcciones contrastivas tienen otro alcance.',
         rejected: ['Sono non a casa'],
       },
       {

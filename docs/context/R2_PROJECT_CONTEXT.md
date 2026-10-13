@@ -249,6 +249,12 @@ Rama `feat/editorial-cross-review-c01-c10`, baseline de contenido `5c122d7`, pre
 
 Estado: **27 reviewed/72 candidate/0 published**; Theory igual; actividades 214 reviewed/651 candidate; vocabulario 96 reviewed/220 candidate; 2 templates reviewed. C11–C34 intactos. 9 pruebas editoriales, tipos, formato, reproducción de los tres resultados y reporte editorial correctos. Sin E2E/build generales por alcance acotado. Validación humana pendiente; revisión IA no autoriza publicación. Resolver IR-01/IR-02 antes de recuperar reviewed o escalar. **Detenerse; sin C11–C34 editorial, merge, push ni despliegue.**
 
+### Decisión posterior de Sergio — IR-01 resuelto; IR-02 pendiente
+
+C06-01-nega v1→v2 (actividad/criterio/trace), consigna explícita de negación simple y feedback contextual; respuestas conservadas. Revisión completa satisfactoria, C06-01 reviewed con huella nueva. Lote `it-a1-editorial-c01-c10-2026-10-13-cross-review-2`. Estado vigente sustituye los totales anteriores: **28 reviewed/71 candidate/0 published**, actividades 220 reviewed/645 candidate. Las otras 28 huellas y C11–C34 intactos; 9 pruebas editoriales, tipos, formato y reporte correctos.
+
+C10-02 sigue candidate y su actividad v1 intacta: el texto propuesto por Sergio incluye «Chiedi un caffè» y revela Un antes del hueco, contrario a la validación exigida. Pregunta pendiente: sustituir ese fragmento por «Ordina questa bevanda» o conservar literal con bloqueo. No asumir respuesta. Continuar únicamente esa decisión; no publicar ni escalar.
+
 ## Reglas y mantenimiento
 
 Hablar español; implementar solo el bloque autorizado y detenerse al entregarlo. No merge a main ni gasto sin autorización explícita. No sobrescribir trabajo ni ocultar fallos. No presentar propuesta/publicación como funcionalidad probada. Mantener trazabilidad del A1, canon, ayudas y versiones. Modificar reglas globales únicamente dentro de una autorización explícita de Sergio.

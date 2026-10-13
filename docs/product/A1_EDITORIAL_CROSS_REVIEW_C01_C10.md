@@ -1,6 +1,6 @@
 # Fase 5B.2 — validación cruzada C01–C10
 
-Estado: **dictamen independiente emitido y comparado; dos ambigüedades retenidas para decisión humana**. Revisión asistida por IA, no aprobación humana ni publicación.
+Estado actual: **IR-01 resuelto por decisión explícita de Sergio; C10-02 pendiente de aclaración sobre respuesta revelada en la nueva consigna propuesta**. Las secciones originales siguientes conservan el resultado histórico de la revisión ciega; el cierre parcial al final registra el estado vigente. Revisión asistida por IA, no aprobación humana ni publicación.
 
 Fecha: 2026-10-13. Baseline de contenido: `5c122d7`; preparación recuperada: `3118ee5`; rama `feat/editorial-cross-review-c01-c10`.
 
@@ -66,3 +66,15 @@ Las 13 actividades de los dos conceptos retenidos quedan candidate. El vocabular
 Commit de cierre en esta rama con mensaje `docs(content): complete blind C01-C10 cross-review and hold ambiguities`; el hash se entrega al usuario después de crearlo. Sin merge, push, publicación ni despliegue.
 
 Recomendación: resolver IR-01/IR-02 con validación editorial humana antes de recuperar reviewed o escalar el proceso. IR-03 es opcional. La revisión humana cualificada para publicación sigue pendiente. **Detenerse tras esta entrega; no iniciar C11–C34.**
+
+## Decisiones explícitas posteriores — cierre parcial
+
+Sergio autorizó resolver IR-01/IR-02 mediante consignas concretas, mantener accepted/rejected y restaurar reviewed solo tras revisión satisfactoria sin respuesta revelada.
+
+**IR-01 aplicado:** `it-a1-c06-01-nega` pasa de versión 1 a 2, incluido criterion.version y trace.sourceVersion. Enunciado literal: «Trasforma «Sono a casa» in una frase negativa semplice, senza aggiungere altre parole.» Feedback y pista: «En la negación simple enseñada, non se coloca antes de sono: Non sono a casa. Las construcciones contrastivas tienen otro alcance.» Accepted/rejected sin cambios. Revisión completa de actividad, contexto, pista, explicación, criterio y Theory: la consigna no muestra non ni su posición; se entiende que la transformación agrega la negación requerida y no amplía el resto de la oración. La exclusión de construcciones contrastivas se limita a esta tarea. C06-01 vuelve a reviewed con inventario actualizado y huella nueva.
+
+**IR-02 pendiente de aclaración:** el texto solicitado incluye «Chiedi un caffè» antes de «___ caffè», que permite copiar Un y contradice la validación de no revelar directamente la respuesta. Se ha pedido elegir entre sustituir ese fragmento por «Ordina questa bevanda» o conservar el literal y mantener candidate. No se interpreta la ausencia de respuesta como aprobación. C10-02-caffe permanece en versión 1, sin cambios de texto, criterio o feedback; su recibo candidate sigue vigente. La situación discursiva propuesta resuelve la duda de referencia, pero no puede darse por superada la validación pedagógica con ese modelo explícito.
+
+Lote `it-a1-editorial-c01-c10-2026-10-13-cross-review-2`; solo nuevo recibo de C06-01. Estado vigente: **28 Concepts/Theory reviewed, 71 candidate, 0 published; 220 actividades reviewed y 645 candidate**. Vocabulario y templates sin cambios. Paquetes y dictamen ciego se conservan como evidencia histórica de v1, no como revisión independiente de v2.
+
+Validaciones: 9/9 pruebas editoriales; tipos y formato correctos; reporte editorial sin errores. Comparación del pack antes/después: solo cambia C06-01-nega; accepted/rejected idénticos, las otras 28 huellas intactas, Theory/vocabulario/templates/relaciones y C11–C34 idénticos. Diff revisado. Sin repetición de E2E/build generales por alcance localizado. No publicación, merge, push ni despliegue. Cierre de ambas decisiones pendiente de la aclaración de C10-02.
