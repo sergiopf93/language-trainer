@@ -1,0 +1,1945 @@
+{
+  "concepts": [
+    {
+      "id": "it-a1-c06-01",
+      "version": "1",
+      "topicId": "it-a1-t06",
+      "title": "Non ho fame",
+      "objective": "Negar declaraciones sencillas con non delante de essere o avere.",
+      "scope": "Negar declaraciones sencillas con non delante de essere o avere.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use"
+      ],
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "posición",
+        "sujeto",
+        "no/non"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F7",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c06-02",
+      "version": "1",
+      "topicId": "it-a1-t06",
+      "title": "Hai una chiave?",
+      "objective": "Comprender, formular y responder preguntas cerradas escritas con essere y avere.",
+      "scope": "Comprender, formular y responder preguntas cerradas escritas con essere y avere.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use"
+      ],
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "pregunta",
+        "respuesta",
+        "persona"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c06-03",
+      "version": "1",
+      "topicId": "it-a1-t06",
+      "title": "Chi, dove, come?",
+      "objective": "Elegir y recuperar interrogativos para persona, lugar, manera, cosa, tiempo, motivo y edad.",
+      "scope": "Elegir y recuperar interrogativos para persona, lugar, manera, cosa, tiempo, motivo y edad.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use",
+        "discrimination"
+      ],
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "persona",
+        "lugar",
+        "manera",
+        "cosa",
+        "tiempo",
+        "motivo",
+        "edad"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "coverage": "complete"
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c06-01",
+      "version": "theory-c06-01-1-editorial-1",
+      "conceptId": "it-a1-c06-01",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Non ho fame",
+      "goal": "Negar declaraciones sencillas con non delante de essere o avere.",
+      "introduction": "Non niega lo que dice el verbo. Reutiliza las formas de essere y avere que ya conoces: no cambia la persona ni la forma verbal.",
+      "rules": [
+        "Coloca non inmediatamente antes del verbo en estas frases: non sono, non hai, non è, non abbiamo.",
+        "Si expresas el sujeto, va antes de non en el orden neutro: Anna non è qui. El sujeto puede omitirse cuando se entiende.",
+        "«No» sirve como respuesta independiente negativa; «non» acompaña al verbo: No, non ho fame."
+      ],
+      "forms": [
+        [
+          "non sono / non sei / non è",
+          "no soy-estoy / no eres-estás / no es-está"
+        ],
+        [
+          "non ho / non hai / non ha",
+          "no tengo / no tienes / no tiene"
+        ]
+      ],
+      "examples": [
+        [
+          "Non sono a casa.",
+          "No estoy en casa."
+        ],
+        [
+          "Anna non ha sonno.",
+          "Anna no tiene sueño."
+        ],
+        [
+          "No, non ho una chiave.",
+          "No, no tengo una llave."
+        ]
+      ],
+      "frequentErrors": [
+        "«Sono non a casa» no es el orden neutro enseñado; escribe non sono a casa.",
+        "«No ho fame» confunde la respuesta no con la negación non."
+      ],
+      "usageNotes": [
+        "Se practica una negación simple; nadie, nada y negaciones complejas quedan fuera de este concepto."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-non",
+        "it-no",
+        "it-essere",
+        "it-avere",
+        "it-casa",
+        "it-qui",
+        "it-sonno",
+        "it-fame",
+        "it-chiave"
+      ]
+    },
+    {
+      "id": "it-a1-theory-c06-02",
+      "version": "theory-c06-02-1",
+      "conceptId": "it-a1-c06-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Hai una chiave?",
+      "goal": "Comprender, formular y responder preguntas cerradas escritas con essere y avere.",
+      "introduction": "Una pregunta cerrada permite confirmar o negar un dato. En italiano escrito puede mantener el orden de la afirmación y terminar con ?.",
+      "rules": [
+        "Hai una chiave. afirma; Hai una chiave? pregunta. No se añade un verbo auxiliar para preguntar.",
+        "El signo de interrogación se escribe al final; no se usa ¿ al principio en italiano.",
+        "Al responder a sei/hai sobre ti, usa sono/ho. Sì confirma; no niega y puede continuar con non + verbo."
+      ],
+      "forms": [
+        [
+          "Sei a casa?",
+          "¿Estás en casa?"
+        ],
+        [
+          "Sì, sono a casa. / No, non sono a casa.",
+          "Sí, estoy en casa. / No, no estoy en casa."
+        ]
+      ],
+      "examples": [
+        [
+          "Hai una penna? Sì, ho una penna.",
+          "¿Tienes un bolígrafo? Sí, tengo un bolígrafo."
+        ],
+        [
+          "Anna è qui? No, Anna non è qui.",
+          "¿Anna está aquí? No, Anna no está aquí."
+        ]
+      ],
+      "frequentErrors": [
+        "No copies hai al contestar sobre ti: la respuesta usa ho.",
+        "Sì lleva acento cuando significa sí; si sin acento no es la afirmación."
+      ],
+      "usageNotes": [
+        "La entonación oral es importante, pero aquí solo se evalúa la pregunta escrita."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-avere",
+        "it-essere",
+        "it-si",
+        "it-no",
+        "it-non",
+        "it-chiave",
+        "it-penna",
+        "it-casa",
+        "it-qui"
+      ]
+    },
+    {
+      "id": "it-a1-theory-c06-03",
+      "version": "theory-c06-03-1",
+      "conceptId": "it-a1-c06-03",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Chi, dove, come?",
+      "goal": "Elegir y recuperar interrogativos para persona, lugar, manera, cosa, tiempo, motivo y edad.",
+      "introduction": "El interrogativo indica qué información falta. Aprende cada palabra junto con la respuesta que solicita, no como una lista aislada.",
+      "rules": [
+        "Chi pregunta por una persona; dove por un lugar; come por una manera o un estado: Come stai? es una fórmula.",
+        "Che cosa (también cosa o che) pregunta qué; quando pregunta cuándo; perché pregunta por qué. Perché también introduce una causa en respuestas, uso que se ampliará en C29.",
+        "Quanto cambia en preguntas como Quanti anni hai?; aquí la edad se recupera como fórmula ya aprendida. Di dove sei? pregunta origen, Dove sei? ubicación."
+      ],
+      "forms": [
+        [
+          "chi / dove / come",
+          "quién / dónde / cómo"
+        ],
+        [
+          "che cosa / quando / perché",
+          "qué / cuándo / por qué"
+        ],
+        [
+          "quanti anni hai?",
+          "¿cuántos años tienes?"
+        ],
+        [
+          "come stai? / sto bene",
+          "¿cómo estás? / estoy bien"
+        ]
+      ],
+      "examples": [
+        [
+          "Chi è? È Anna.",
+          "¿Quién es? Es Anna."
+        ],
+        [
+          "Dove sei? Sono a casa.",
+          "¿Dónde estás? Estoy en casa."
+        ],
+        [
+          "Quando sei a casa? Oggi.",
+          "¿Cuándo estás en casa? Hoy."
+        ],
+        [
+          "Che cosa hai? Ho una chiave.",
+          "¿Qué tienes? Tengo una llave."
+        ]
+      ],
+      "frequentErrors": [
+        "Chi solicita una persona, no un lugar. Dove sei? y Di dove sei? no piden el mismo dato."
+      ],
+      "usageNotes": [
+        "Oggi significa hoy. Come stai? se aprende como fórmula; aquí no se introduce el paradigma de stare."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-chi",
+        "it-dove",
+        "it-come",
+        "it-che-cosa",
+        "it-quando",
+        "it-perche",
+        "it-quanti-anni",
+        "it-oggi",
+        "it-sto-bene",
+        "it-essere",
+        "it-avere",
+        "it-casa",
+        "it-roma",
+        "it-chiave"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c06-01-riconosci",
+      "version": "2",
+      "conceptId": "it-a1-c06-01",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Scegli «No tengo hambre».",
+      "options": [
+        "Non ho fame",
+        "No ho fame",
+        "Ho non fame"
+      ],
+      "hint": "«Non» va antes de ho; «no» puede responder por sí solo.",
+      "explanation": "«Non» va antes de ho; «no» puede responder por sí solo.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "conversación",
+        "facets": [
+          "no/non"
+        ],
+        "opportunityId": "it-a1-c06-01-riconosci:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Non ho fame"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c06-01-riconosci",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c06-01-completa",
+      "version": "1",
+      "conceptId": "it-a1-c06-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Anna ___ è qui. Completa con la negazione.",
+      "options": [],
+      "hint": "Non precede è y sigue al sujeto Anna.",
+      "explanation": "Non precede è y sigue al sujeto Anna.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "conversación",
+        "facets": [
+          "posición",
+          "sujeto"
+        ],
+        "opportunityId": "it-a1-c06-01-completa:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "non"
+        ],
+        "rejected": [
+          "no"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c06-01-completa",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c06-01-nega",
+      "version": "1",
+      "conceptId": "it-a1-c06-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Nega la frase senza cambiare le altre parole: «Sono a casa».",
+      "options": [],
+      "hint": "Se conserva sono y se coloca non antes del verbo.",
+      "explanation": "Se conserva sono y se coloca non antes del verbo.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "vivienda",
+        "facets": [
+          "posición"
+        ],
+        "opportunityId": "it-a1-c06-01-nega:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Non sono a casa",
+          "Non sono a casa."
+        ],
+        "rejected": [
+          "Sono non a casa"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c06-01-nega",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c06-01-ordina",
+      "version": "1",
+      "conceptId": "it-a1-c06-01",
+      "conceptVersion": "1",
+      "family": "F7",
+      "format": "ordering",
+      "prompt": "Ordina iniziando da Anna.",
+      "options": [
+        "sonno",
+        "non",
+        "Anna",
+        "ha"
+      ],
+      "hint": "El sujeto Anna precede non ha.",
+      "explanation": "El sujeto Anna precede non ha.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "hotel",
+        "facets": [
+          "sujeto"
+        ],
+        "opportunityId": "it-a1-c06-01-ordina:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Anna non ha sonno"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c06-01-ordina",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c06-01-ripara",
+      "version": "1",
+      "conceptId": "it-a1-c06-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Correggi solo la negazione: «No ho una chiave».",
+      "options": [],
+      "hint": "Non es el adverbio que niega ho; no sería una respuesta separada.",
+      "explanation": "Non es el adverbio que niega ho; no sería una respuesta separada.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "hotel",
+        "facets": [
+          "no/non"
+        ],
+        "opportunityId": "it-a1-c06-01-ripara:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Non ho una chiave",
+          "Non ho una chiave."
+        ],
+        "rejected": [
+          "No ho una chiave"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c06-01-ripara",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c06-01-rispondi",
+      "version": "1",
+      "conceptId": "it-a1-c06-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Hai fame? Rispondi negativamente con una frase completa, senza il soggetto e senza il no iniziale.",
+      "options": [],
+      "hint": "La pregunta hai pasa a ho al responder sobre ti; non niega la declaración.",
+      "explanation": "La pregunta hai pasa a ho al responder sobre ti; non niega la declaración.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "conversación",
+        "facets": [
+          "posición",
+          "no/non"
+        ],
+        "opportunityId": "it-a1-c06-01-rispondi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Non ho fame",
+          "Non ho fame."
+        ],
+        "rejected": [
+          "Non hai fame",
+          "Ho fame"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c06-01-rispondi",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c06-02-intenzione",
+      "version": "1",
+      "conceptId": "it-a1-c06-02",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Quale frase chiede una conferma?",
+      "options": [
+        "Hai una chiave?",
+        "Hai una chiave.",
+        "Ho una chiave."
+      ],
+      "hint": "El signo final convierte la frase escrita en pregunta.",
+      "explanation": "El signo final convierte la frase escrita en pregunta.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "hotel",
+        "facets": [
+          "pregunta"
+        ],
+        "opportunityId": "it-a1-c06-02-intenzione:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Hai una chiave?"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c06-02-intenzione",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c06-02-persona",
+      "version": "1",
+      "conceptId": "it-a1-c06-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Hai una penna? Sì, ___ una penna.",
+      "options": [],
+      "hint": "Respondes sobre ti: io ho.",
+      "explanation": "Respondes sobre ti: io ho.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "estudio",
+        "facets": [
+          "persona",
+          "respuesta"
+        ],
+        "opportunityId": "it-a1-c06-02-persona:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "ho"
+        ],
+        "rejected": [
+          "hai",
+          "ha"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c06-02-persona",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c06-02-domanda",
+      "version": "1",
+      "conceptId": "it-a1-c06-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Trasforma in domanda scritta, mantenendo le parole: «Anna è qui.»",
+      "options": [],
+      "hint": "Se conserva el orden y se cambia el punto por ?.",
+      "explanation": "Se conserva el orden y se cambia el punto por ?.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "conversación",
+        "facets": [
+          "pregunta"
+        ],
+        "opportunityId": "it-a1-c06-02-domanda:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Anna è qui?"
+        ],
+        "rejected": [
+          "Anna è qui."
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c06-02-domanda",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c06-02-chiedi",
+      "version": "2",
+      "conceptId": "it-a1-c06-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Chiedi a un amico (tu) se ha una chiave. Usa avere, senza scrivere tu; termina con ?.",
+      "options": [],
+      "hint": "Hai pregunta por la disponibilidad del objeto a tu interlocutor.",
+      "explanation": "Hai pregunta por la disponibilidad del objeto a tu interlocutor.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "hotel",
+        "facets": [
+          "pregunta"
+        ],
+        "opportunityId": "it-a1-c06-02-chiedi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Hai una chiave?"
+        ],
+        "rejected": [
+          "Ho una chiave?"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c06-02-chiedi",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c06-02-conferma",
+      "version": "1",
+      "conceptId": "it-a1-c06-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "Sei a Roma? Conferma: scrivi solo la frase completa senza sì e senza io.",
+      "options": [],
+      "hint": "Sono a Roma confirma tu ubicación.",
+      "explanation": "Sono a Roma confirma tu ubicación.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "viaje",
+        "facets": [
+          "respuesta",
+          "persona"
+        ],
+        "opportunityId": "it-a1-c06-02-conferma:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Sono a Roma",
+          "Sono a Roma."
+        ],
+        "rejected": [
+          "Sei a Roma"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c06-02-conferma",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c06-03-persona",
+      "version": "1",
+      "conceptId": "it-a1-c06-03",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "___ è? È Anna. Scegli la domanda sulla persona.",
+      "options": [
+        "Chi",
+        "Dove",
+        "Quando"
+      ],
+      "hint": "Chi pide identificar una persona.",
+      "explanation": "Chi pide identificar una persona.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "conversación",
+        "facets": [
+          "persona"
+        ],
+        "opportunityId": "it-a1-c06-03-persona:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Chi"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c06-03-persona",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c06-03-luogo",
+      "version": "1",
+      "conceptId": "it-a1-c06-03",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "___ sei? Sono a casa. Chiedi il luogo, non l’origine.",
+      "options": [],
+      "hint": "Dove pregunta ubicación; di dove preguntaría origen.",
+      "explanation": "Dove pregunta ubicación; di dove preguntaría origen.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "vivienda",
+        "facets": [
+          "lugar"
+        ],
+        "opportunityId": "it-a1-c06-03-luogo:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Dove"
+        ],
+        "rejected": [
+          "Chi",
+          "Quando",
+          "Di dove"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c06-03-luogo",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c06-03-cosa",
+      "version": "2",
+      "conceptId": "it-a1-c06-03",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "Chiedi «¿Qué tienes?» con avere, senza tu; termina con ?.",
+      "options": [],
+      "hint": "Che cosa, cosa y che pueden preguntar por el objeto que tienes.",
+      "explanation": "Che cosa, cosa y che pueden preguntar por el objeto que tienes.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "hotel",
+        "facets": [
+          "cosa"
+        ],
+        "opportunityId": "it-a1-c06-03-cosa:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Che cosa hai?",
+          "Cosa hai?",
+          "Che hai?"
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c06-03-cosa",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c06-03-eta",
+      "version": "2",
+      "conceptId": "it-a1-c06-03",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Chiedi l’età a un amico (tu) con la formula studiata; termina con ?.",
+      "options": [],
+      "hint": "Quanti anni hai? solicita la edad con avere.",
+      "explanation": "Quanti anni hai? solicita la edad con avere.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "conversación",
+        "facets": [
+          "edad"
+        ],
+        "opportunityId": "it-a1-c06-03-eta:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Quanti anni hai?",
+          "Tu quanti anni hai?",
+          "Quanti anni hai tu?"
+        ],
+        "rejected": [
+          "Quanti anni sei?"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c06-03-eta",
+        "sourceVersion": "2"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "it-essere",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "essere",
+      "displayForm": "essere",
+      "gloss": "ser / estar (según construcción)",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "sono",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "sei",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "è",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "siamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "siete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "sono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "identidad",
+        "C03",
+        "C04",
+        "C06",
+        "C11",
+        "C16",
+        "C18",
+        "C19",
+        "C20",
+        "C29",
+        "C31",
+        "C32",
+        "C33"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c04-02",
+        "it-a1-c04-03",
+        "it-a1-c04-04",
+        "it-a1-c04-05",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c06-03",
+        "it-a1-c11-01",
+        "it-a1-c16-03",
+        "it-a1-c18-02",
+        "it-a1-c19-01",
+        "it-a1-c19-02",
+        "it-a1-c20-01",
+        "it-a1-c29-01",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c33-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t11",
+        "it-a1-t16",
+        "it-a1-t18",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t33"
+      ],
+      "examples": [
+        {
+          "target": "Io sono Ana.",
+          "support": "Yo soy Ana."
+        }
+      ]
+    },
+    {
+      "id": "it-chiave",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "chiave",
+      "displayForm": "chiave",
+      "gloss": "llave",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "chiavi",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C16",
+        "C19",
+        "C23"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c04-04",
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c06-03",
+        "it-a1-c07-02",
+        "it-a1-c08-01",
+        "it-a1-c09-02",
+        "it-a1-c09-03",
+        "it-a1-c10-02",
+        "it-a1-c16-05",
+        "it-a1-c19-01",
+        "it-a1-c19-02",
+        "it-a1-c23-01"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t06",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t23"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-casa",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "casa",
+      "displayForm": "casa",
+      "gloss": "casa",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "case",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C04",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C11",
+        "C15",
+        "C16",
+        "C19",
+        "C20",
+        "C21",
+        "C23",
+        "C24",
+        "C29",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c04-04",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c06-03",
+        "it-a1-c07-01",
+        "it-a1-c08-01",
+        "it-a1-c09-03",
+        "it-a1-c11-01",
+        "it-a1-c11-02",
+        "it-a1-c15-02",
+        "it-a1-c16-01",
+        "it-a1-c16-02",
+        "it-a1-c16-03",
+        "it-a1-c16-04",
+        "it-a1-c16-08",
+        "it-a1-c19-02",
+        "it-a1-c20-02",
+        "it-a1-c20-03",
+        "it-a1-c21-01",
+        "it-a1-c21-02",
+        "it-a1-c23-01",
+        "it-a1-c23-02",
+        "it-a1-c24-01",
+        "it-a1-c29-04",
+        "it-a1-c34-02"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t09",
+        "it-a1-t11",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t23",
+        "it-a1-t24",
+        "it-a1-t29",
+        "it-a1-t34"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-perche",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "perché",
+      "displayForm": "perché",
+      "gloss": "por qué / porque",
+      "partOfSpeech": "function-word",
+      "forms": [],
+      "tags": [
+        "function-word",
+        "C01",
+        "C06",
+        "C29"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-02",
+        "it-a1-c06-03",
+        "it-a1-c29-03"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t06",
+        "it-a1-t29"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-si",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "sì",
+      "displayForm": "sì",
+      "gloss": "sí (afirmación)",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C01",
+        "C06",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-02",
+        "it-a1-c06-02",
+        "it-a1-c22-04"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t06",
+        "it-a1-t22"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-penna",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "penna",
+      "displayForm": "penna",
+      "gloss": "bolígrafo / pluma para escribir",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "penne",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C16",
+        "C20",
+        "C23",
+        "C24",
+        "C25",
+        "C27",
+        "C28",
+        "C29",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-03",
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c06-02",
+        "it-a1-c07-01",
+        "it-a1-c08-01",
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c09-03",
+        "it-a1-c10-01",
+        "it-a1-c10-02",
+        "it-a1-c11-02",
+        "it-a1-c12-01",
+        "it-a1-c16-05",
+        "it-a1-c20-01",
+        "it-a1-c20-02",
+        "it-a1-c23-01",
+        "it-a1-c24-01",
+        "it-a1-c24-02",
+        "it-a1-c25-02",
+        "it-a1-c27-02",
+        "it-a1-c28-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c34-04"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t05",
+        "it-a1-t06",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t11",
+        "it-a1-t12",
+        "it-a1-t16",
+        "it-a1-t20",
+        "it-a1-t23",
+        "it-a1-t24",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t34"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-qui",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "qui",
+      "displayForm": "qui",
+      "gloss": "aquí",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C03",
+        "C04",
+        "C06",
+        "C15",
+        "C16",
+        "C19",
+        "C23",
+        "C24"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c04-04",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c15-02",
+        "it-a1-c16-04",
+        "it-a1-c19-02",
+        "it-a1-c23-02",
+        "it-a1-c24-01",
+        "it-a1-c24-02"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t23",
+        "it-a1-t24"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-roma",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "Roma",
+      "displayForm": "Roma",
+      "gloss": "Roma",
+      "partOfSpeech": "proper-noun",
+      "forms": [],
+      "tags": [
+        "proper-noun",
+        "C04",
+        "C06",
+        "C14",
+        "C16",
+        "C17",
+        "C18",
+        "C20",
+        "C21",
+        "C23",
+        "C29",
+        "C32"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-03",
+        "it-a1-c04-04",
+        "it-a1-c06-03",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c16-02",
+        "it-a1-c16-04",
+        "it-a1-c17-03",
+        "it-a1-c18-02",
+        "it-a1-c20-01",
+        "it-a1-c20-02",
+        "it-a1-c20-03",
+        "it-a1-c21-02",
+        "it-a1-c23-02",
+        "it-a1-c29-03",
+        "it-a1-c32-03"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t14",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t23",
+        "it-a1-t29",
+        "it-a1-t32"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-sto-bene",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "sto bene",
+      "displayForm": "sto bene",
+      "gloss": "estoy bien",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C04",
+        "C06",
+        "C16"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-05",
+        "it-a1-c06-03",
+        "it-a1-c16-03"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t16"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-avere",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "avere",
+      "displayForm": "avere",
+      "gloss": "tener; auxiliar del passato prossimo en las construcciones enseñadas",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "ho",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "hai",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "ha",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "abbiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "avete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "hanno",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C05",
+        "C06",
+        "C13",
+        "C18",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c05-03",
+        "it-a1-c05-04",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c06-03",
+        "it-a1-c13-03",
+        "it-a1-c18-02",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c34-07"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t06",
+        "it-a1-t13",
+        "it-a1-t18",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-quanti-anni",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "quanti anni hai?",
+      "displayForm": "quanti anni hai?",
+      "gloss": "¿cuántos años tienes?",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C05",
+        "C06"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-03",
+        "it-a1-c06-03"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t06"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-fame",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "fame",
+      "displayForm": "fame",
+      "gloss": "hambre",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C05",
+        "C06",
+        "C29"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-04",
+        "it-a1-c06-01",
+        "it-a1-c29-03"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t06",
+        "it-a1-t29"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-sonno",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "sonno",
+      "displayForm": "sonno",
+      "gloss": "sueño, ganas de dormir",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C05",
+        "C06",
+        "C09"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-04",
+        "it-a1-c06-01",
+        "it-a1-c09-01"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t06",
+        "it-a1-t09"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-non",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "non",
+      "displayForm": "non",
+      "gloss": "no, ante el verbo",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C06",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C22",
+        "C26",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c15-03",
+        "it-a1-c16-06",
+        "it-a1-c17-02",
+        "it-a1-c22-04",
+        "it-a1-c26-02",
+        "it-a1-c28-02"
+      ],
+      "topicIds": [
+        "it-a1-t06",
+        "it-a1-t14",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t22",
+        "it-a1-t26",
+        "it-a1-t28"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-no",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "no",
+      "displayForm": "no",
+      "gloss": "no, respuesta negativa",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C06"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c06-01",
+        "it-a1-c06-02"
+      ],
+      "topicIds": [
+        "it-a1-t06"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-chi",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "chi",
+      "displayForm": "chi",
+      "gloss": "quién",
+      "partOfSpeech": "interrogative",
+      "forms": [],
+      "tags": [
+        "interrogative",
+        "C06"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c06-03"
+      ],
+      "topicIds": [
+        "it-a1-t06"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-dove",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "dove",
+      "displayForm": "dove",
+      "gloss": "dónde",
+      "partOfSpeech": "interrogative",
+      "forms": [],
+      "tags": [
+        "interrogative",
+        "C06"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c06-03"
+      ],
+      "topicIds": [
+        "it-a1-t06"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-come",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "come",
+      "displayForm": "come",
+      "gloss": "cómo",
+      "partOfSpeech": "interrogative",
+      "forms": [],
+      "tags": [
+        "interrogative",
+        "C06"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c06-03"
+      ],
+      "topicIds": [
+        "it-a1-t06"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-che-cosa",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "che cosa",
+      "displayForm": "che cosa",
+      "gloss": "qué; variantes cosa y che",
+      "partOfSpeech": "interrogative",
+      "forms": [],
+      "tags": [
+        "interrogative",
+        "C06"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c06-03"
+      ],
+      "topicIds": [
+        "it-a1-t06"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-quando",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "quando",
+      "displayForm": "quando",
+      "gloss": "cuándo",
+      "partOfSpeech": "interrogative",
+      "forms": [],
+      "tags": [
+        "interrogative",
+        "C06"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c06-03"
+      ],
+      "topicIds": [
+        "it-a1-t06"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-oggi",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "oggi",
+      "displayForm": "oggi",
+      "gloss": "hoy",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C06",
+        "C16",
+        "C17",
+        "C29"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c06-03",
+        "it-a1-c16-03",
+        "it-a1-c16-08",
+        "it-a1-c17-01",
+        "it-a1-c17-03",
+        "it-a1-c29-02"
+      ],
+      "topicIds": [
+        "it-a1-t06",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t29"
+      ],
+      "examples": []
+    }
+  ],
+  "templates": []
+}

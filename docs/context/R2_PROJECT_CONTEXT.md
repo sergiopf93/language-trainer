@@ -241,6 +241,12 @@ Recibos por Concept con inventario/versiones, motivo, fecha, revisor, provenance
 
 0 flags lingüísticos bloqueantes conocidos. Pendiente validación humana del proceso y revisión independiente antes de publicar. No son revisión con alumnos ni eficacia demostrada. **Detenerse tras 5B.1: no C11–C34 editorial, publicación, merge ni push.**
 
+## Validación cruzada 5B.2 — C01–C10 (2026-10-13, pendiente)
+
+Rama `feat/editorial-cross-review-c01-c10`, baseline `5c122d7`. Preparada muestra trazable de 29 Theory completas y 148/227 actividades: 42/42 modificadas, 15/15 listas accepted, 29 conceptos, 10 formatos, 5 familias. Paquetes congelados con hashes y criterios neutrales, sin conclusiones de 5B.1. Las 79 no seleccionadas constan por ID. [Estado y reanudación](../product/A1_EDITORIAL_CROSS_REVIEW_C01_C10.md).
+
+El revisor italiano aislado (`fork_turns: none`) falló por límite de uso antes de emitir dictamen. **0 elementos con revisión independiente acreditada; fase incompleta.** No hay comparación histórica, correcciones ni cambios de estado: 29 reviewed/70 candidate/0 published se conservan, sin nuevos recibos. Integridad de muestra comprobada; sin cambios ejecutables ni repetición de tests de aplicación. Reanudar con nuevo revisor aislado y solo los paquetes/criterios/manifiesto; dictamen primero, comparación 5B.1 después. No sustituirlo por valoración de R2. No escalar ni iniciar C11, publicar, merge, push o desplegar.
+
 ## Reglas y mantenimiento
 
 Hablar español; implementar solo el bloque autorizado y detenerse al entregarlo. No merge a main ni gasto sin autorización explícita. No sobrescribir trabajo ni ocultar fallos. No presentar propuesta/publicación como funcionalidad probada. Mantener trazabilidad del A1, canon, ayudas y versiones. Modificar reglas globales únicamente dentro de una autorización explícita de Sergio.

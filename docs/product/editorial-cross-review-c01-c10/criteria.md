@@ -1,0 +1,132 @@
+# Paquete independiente C01–C10
+
+# 02 — Italian A1 Curriculum
+
+## 1. Criterio curricular
+
+**REF:** el MCER describe actividades y competencias, no prescribe un índice gramatical de italiano [S15]. Se contrastaron guías CILS, un ejemplo CILS A1 standard, CELI Impatto, programa universitario de Bolonia y un manual reconocido [S16–S20]. Son referencias de cobertura; sus secuencias no prueban un orden óptimo.
+
+**R:** organizar la progresión en espiral: formas frecuentes para comunicar desde el inicio, ampliación de variantes, contraste y reutilización en otros contextos. El orden siguiente es una propuesta, no un orden natural demostrado. No son semanas obligatorias.
+
+Objetivo inicial: entender información cotidiana breve y escribir frases y mensajes sencillos sobre personas, necesidades y actividades. La aplicación centrada en lectura/escritura no puede afirmar que evalúa por completo comprensión oral, interacción oral o pronunciación.
+
+## 2. Currículo inicial y dependencias
+
+En «prerrequisitos», se exige familiaridad suficiente para la tarea, no dominio absoluto. Los ID sirven para referenciar conceptos pedagógicos, no representan un diseño de datos.
+
+| ID / orden | Concepto y alcance | Prerrequisitos | Utilidad comunicativa |
+|---|---|---|---|
+| C01 / 1 | Grafía y correspondencias básicas: c/ch, g/gh, sc, gn, gli; acento, dobles | Ninguno | Leer nombres, reconocer palabras y deletrear. No evaluar pronunciación automáticamente. |
+| C02 / 1 | Saludos, cortesía, reparación: grazie, scusi, non capisco | Ninguno; apoyo C01 | Abrir/cerrar intercambios y pedir ayuda. Aprender inicialmente como expresiones. |
+| C03 / 1 | Personas gramaticales y pronombres sujeto; omisión habitual | Ejemplos C02 | Identificar quién habla y a quién se refiere. |
+| C04 / 1–2 | Essere: presente; identidad, origen, ubicación y estados frecuentes | C03, léxico mínimo de personas/lugares | Presentarse y situar personas. Separar usos del paradigma. |
+| C05 / 1–2 | Avere: presente; posesión, edad y expresiones frecuentes | C03 | «Ho due biglietti», «Ho trent'anni», «Ho fame». |
+| C06 / 2 | Negación non y pregunta simple; interrogativos frecuentes | C04 o C05 | Preguntar quién, dónde, cómo; responder y negar. |
+| C07 / 2 | Género de sustantivos: tendencias -o/-a/-e y excepciones frecuentes | Sustantivos conocidos | Nombrar objetos; aprender el género de cada palabra. |
+| C08 / 2 | Número: plurales regulares e invariantes frecuentes | C07 | Hablar de una o varias cosas; no «solo añadir una s». |
+| C09 / 2–3 | Determinados: il/lo/l'/la/i/gli/le; forma y referencia | C07, C08; sonidos iniciales C01 | Referirse a elementos identificables. Distinguir selección de forma y uso. |
+| C10 / 2–3 | Indeterminados un/uno/una/un'; introducir referentes | C07, C01; contraste C09 | Pedir e introducir algo. El indeterminado no tiene un plural morfológico equivalente. |
+
+# Estrategia editorial de V1 A1
+
+Estado: diseño, no contenido lingüístico publicado. Base: Research 02, 03, 04 y 05. El alcance es todo el A1 del pack; [A1_COVERAGE_MATRIX](A1_COVERAGE_MATRIX.md) controla la cobertura.
+
+## Unidad de producción
+
+Trabajar por Concept y conjuntos de construcciones compatibles, no por miles de frases aisladas. Cada unidad enlaza regla canónica versionada, teoría, ejemplos, variables tipadas, lexical sets, restricciones, familias de actividad, criterios de aceptación/abstención, errores/feedback y requisitos de cobertura. La misma regla puede servir a varias tareas, sin equiparar sus evidencias.
+
+ActivityTemplate + variables + lexical sets + restricciones de ConstructionSpec + reglas canónicas → combinaciones candidatas → validación editorial → ActivityVariants publicadas. No hay sustitución libre de sustantivos/verbos en cualquier hueco.
+
+Ejemplo conceptual: un patrón de posesión necesita un sujeto compatible con la forma de avere y un complemento que tenga sentido poseer; un patrón locativo usa otra construcción y restricciones. La concordancia sintáctica sola no garantiza naturalidad semántica. Los datos incluyen compatibilidad de sentido, referentes, registro, función, género/número, régimen y alcance léxico.
+
+## Garantía operativa de generación determinista
+
+La publicación delimita un espacio finito de combinaciones permitido. Validar referencias, restricciones, formas, respuestas alternativas y distractores antes de publicar. Enumerar y comprobar el espacio finito de cada plantilla; si no puede revisarse de manera suficiente, reducir el espacio o publicar variantes explícitamente aprobadas. Las plantillas reducen autoría duplicada, no eliminan revisión lingüística.
+
+En ejecución solo se seleccionan variantes publicadas o combinaciones de un espacio íntegramente validado y ligado a canon exacto. Una combinación sin validación no llega al alumno ni se usa para evaluar. No afirmar que el determinismo por sí solo prueba corrección: una regla errónea puede generar muchas frases erróneas. Un cambio de canon o lexical set invalida la aprobación de combinaciones afectadas hasta revalidarlas.
+
+Los distractores incorrectos se etiquetan como tales y se revisan por plausibilidad y ausencia de variantes válidas rechazadas. El requisito de corrección lingüística de los modelos no prohíbe ejemplos de error claramente señalados en actividades de detección/reparación.
+
+## Flujo editorial
+
+1. Inventariar fuente Cxx, Concept, alcance, facetas y función.
+2. Redactar/revisar canon, teoría, paradigmas y repertorio lexical necesario.
+3. Definir plantilla, variables, restricciones semánticas/gramaticales y oportunidades evaluables.
+4. Producir candidatos manualmente, determinísticamente o mediante ayuda IA offline opcional. Guardar origen, versión y condiciones; no se contratan APIs ni herramientas.
+5. Validar contra el canon, resolver actividades sin depender de la respuesta sugerida y revisar alternativas, naturalidad adulta y adecuación al nivel.
+6. Revisar con persona cualificada las reglas, rúbricas y variantes; registrar responsable/fecha. El modelo que genera no es autoridad independiente para aprobarse.
+7. Publicar manifiesto y variantes aprobadas; reservar material equivalente para revisión diferida y transferencia cercana.
+8. Registrar incidencias y retirar/revisar lo afectado, conservando historial y recalculando inferencias inválidas.
+
+Estados de contenido: planificado → borrador → en revisión → validado → publicado; también retenido/retirado. Estado de implementación: no implementado → parcial → integrado → verificado. No se marca un estado por mera presencia de una fila de documentación. Cada avance enlaza evidencia real (artefacto, versión, revisión y comprobación).
+
+## Matriz editorial de suficiencia por Concept
+
+Esta tabla se instancia para **cada ID evaluable**, con referencias a actividades/artefactos reales. No basta una marca global por Cxx cuando contiene varios Concepts.
+
+| Requisito | Evidencia de suficiencia para publicar |
+|---|---|
+| Teoría y canon | Regla/uso, límites, variantes, ejemplos, paradigma/excepciones A1 cuando procedan; revisión y versión. |
+| Introducción | Ejemplos comprensibles que conectan forma y significado; léxico objetivo/apoyo declarado. |
+| Guía | Actividad con apoyos identificados y retirada prevista. |
+| Recuperación | Oportunidad pertinente sin respuesta revelada; adaptación receptiva/productiva según capacidad. |
+| Uso contextual | Tarea con propósito que requiere el objetivo; no solo presencia incidental. |
+| Contraste | Alternativa conocida pertinente; si no aplica, motivo explícito y tarea equivalente de discriminación donde tenga sentido. |
+| Variación | Cubrir facetas exigidas (personas, sentidos, funciones, registros, contexto, etc.) sin exigir todas sus combinaciones posibles. |
+| Revisión diferida | Conjuntos equivalentes reservados y no expuestos para ocasiones posteriores; renovación suficiente para el plan de revisión acordado. |
+| Error learning | Error verificable, explicación, vínculo a concepto y actividad de reparación; no inventar error cuando solo hay incertidumbre. |
+| Evaluación | Válidas, variantes, errores conocidos, ambigüedad, fuera de alcance y objetivo ausente; controlar falsos positivos/rechazos y abstención. |
+| Integración | Focus, Mixed accesible, Review, Evidence y recomendación ejecutables para el Concept; no temas exclusivamente teóricos. |
+| Reading/Writing | Oportunidades enlazadas al tramo/función; apropiadas al objetivo, sin atribuir producción a copia ni oralidad a grafía. |
+
+La suficiencia exige cubrir cada faceta obligatoria y fases aplicables con tareas reales revisadas, tener formas de comprobar en ocasiones nuevas y resolver fallos conocidos del conjunto editorial. No se fija ahora un número universal de textos/ítems. Antes de publicar se declara el horizonte de reserva y se verifica que el selector puede satisfacerlo; si se agota, la app declara repetición y no la presenta como evidencia de novedad. Esta salida protege al alumno, pero no sustituye la obligación de preparar un banco útil para todo el recorrido.
+
+## Reading: matriz progresiva
+
+Cruzar tramo × función/contexto de Research 02 §5 × demanda (global, detalle, referente, forma-significado, inferencia local cuando proceda) × cobertura lexical/gramatical. Cada celda requerida referencia texto/versión, tareas, conceptos realmente evaluados, apoyos y variante equivalente de revisión. No se necesita el producto cartesiano completo; justificar celdas no pertinentes, sin eliminar un contexto o tramo.
+
+| Tramo | Textos/propósitos que deben estar cubiertos | Progresión de tareas |
+|---|---|---|
+| Entrada | Saludos, perfiles, datos, precios y mensajes breves | Significado global y dato explícito; grafía y léxico accesibles. |
+| Descripción y necesidades | Familia, vivienda, objetos, bar, compra | Referentes, singular/plural, posesión, descripción y petición. |
+| Vida cotidiana | Trabajo/estudio, gustos, rutinas, transporte, horarios y contacto | Relaciones entre datos, preposición contextual, elección de respuesta. |
+| Integración | Reservas, instrucciones, necesidades elementales, mensajes cotidianos | Secuencia, referencia pronominal, cantidades, intención e inferencia local. |
+| Relato breve | Viaje y hechos pasados en contextos familiares | Relación temporal, auxiliar/participio en contexto y respuesta posterior. |
+
+Estos tramos se superponen y espiralan; no son niveles certificados ni requisitos rígidos. El inventario de 14 contextos de la matriz impide que esta agrupación oculte alguno. Las bandas de palabras de Research 03 son H orientativas, no cuotas de publicación.
+
+## Writing: progresión completa y evaluación honesta
+
+| Progresión requerida | Artefacto editorial y evaluación |
+|---|---|
+| Completar con significado | Formulario/mensaje con intención; no solo copia. |
+| Construir frase | Datos o apoyos léxicos, criterios de forma y propósito. |
+| Frase propia | Consigna que permita elección y haga necesario el objetivo. |
+| Varias frases | Destinatario y contenido; relaciones básicas entre mensajes. |
+| Mensaje guiado | Propósito, requisitos, modelo opcional registrado como ayuda. |
+| Mensaje más autónomo A1 | Situación/lector, selección propia y revisión con rúbrica; incluye relatos breves en pasado dentro del pack. |
+
+Cada tramo y función pertinente tiene propuestas, rúbricas y oportunidades nuevas, no tres encargos únicos. Corregir solo lo verificable, mostrar evaluación parcial y mantener visibles los aspectos sin evaluar. Una rúbrica/modelo puede guiar autoevaluación sin atribuirla al evaluador automático. Ante abstención, ofrecer una actividad alternativa acotada del mismo Concept para conseguir evidencia fiable. Un Concept sin ninguna vía fiable no cumple V1 aunque su editor de texto funcione.
+
+## Taxonomía Research 03 → familias V1
+
+| Actividades del Research | Familia y demanda preservada |
+|---|---|
+| Multiple choice, selección binaria, detectar error, contraste de significado | F1 selección; reconocimiento/juicio, no producción por defecto. |
+| Hueco con/sin banco, cloze, conjugación | F2 recuperación; banco/opciones cuentan como apoyo. |
+| Transformación, corrección de error, reformulación para destinatario | F3 transformación/reparación; registro y significado además de forma. |
+| Traducción ES→IT, frase, short answer, diálogo, information gap, formulario breve, ejemplo propio breve con explicación | F4 construcción situada; declarar límites, intención y oportunidad real. |
+| Reading comprehension, traducción IT→ES, respuesta a dato textual | F5 lectura con tareas; escritura en L1/copiar dato no acredita producción L2. |
+| Guided/free writing, respuesta a mensaje, reconstrucción de microtexto, formulario compuesto, ejemplo propio desarrollado + explicación | F6 composición; demanda ajustada, memoria/metaconocimiento separados de dominio lingüístico. |
+| Matching, emparejar situación/mensaje, sentence ordering | F7 asociación/ordenación; evidencia de relación/secuencia con apoyos, alternativa a arrastre. |
+
+Formulario y ejemplo propio + explicación pueden ser F4 si solicitan una respuesta breve situada, o F6 si requieren composición/revisión de varios campos o frases. El contrato de demanda decide el subtipo y la evidencia, sin duplicar la actividad ni el juicio.
+
+Una actividad puede componer varias familias; la pertenencia no crea doble evidencia. Formatos con escaso valor para un objetivo concreto no se fuerzan. Añadir una familia requiere necesidad pedagógica/contrato distinto, no solo otra apariencia.
+
+
+## Evaluador efectivo
+NFC, minúsculas, trim y espacios consecutivos neutros. Acentos, apóstrofos y puntuación significativos. Accepted coincide => correct; rejected coincide => linguistic-error; typos explícitos => typo; exhaustive dentro del alcance cerrado => linguistic-error. Cualquier otra respuesta => not-evaluable (no se registra como error), no rechazo lingüístico. En selection/error-detection exhaustive solo aplica si la respuesta figura entre options.
+
+## Dictamen
+Clasifica cada hallazgo como error confirmado, ambigüedad relevante, mejora estilística opcional o cuestión que requiere validación humana. Incluye ID, cita concreta, argumento, respuesta que lo reproduce cuando proceda, corrección propuesta y materialidad. Comprueba TODAS las Theory y todas sus reglas, ejemplos, traducciones y generalizaciones. Resuelve las actividades seleccionadas contrastando después accepted/rejected y explicación; examina opciones/distractores. No es aprobación para publicar. No consultar conclusiones previas, recibos editoriales, historial Git, informes o contexto del repositorio.

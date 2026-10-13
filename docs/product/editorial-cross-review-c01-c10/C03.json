@@ -1,0 +1,1059 @@
+{
+  "concepts": [
+    {
+      "id": "it-a1-c03-01",
+      "version": "2",
+      "topicId": "it-a1-t03",
+      "title": "Io, tu, lui, lei, noi, voi, loro",
+      "objective": "Identificar persona y número con los pronombres sujeto y con sujetos nominales.",
+      "scope": "Identificar persona y número con los pronombres sujeto y con sujetos nominales.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use"
+      ],
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "persona",
+        "numero",
+        "sujeto nominal"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c03-02",
+      "version": "1",
+      "topicId": "it-a1-t03",
+      "title": "Il soggetto può restare sottinteso",
+      "objective": "Interpretar sujetos omitidos cuando el contexto basta y conservar o explicitar el referente cuando puede haber ambigüedad.",
+      "scope": "Interpretar sujetos omitidos cuando el contexto basta y conservar o explicitar el referente cuando puede haber ambigüedad.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use",
+        "discrimination"
+      ],
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "omisión",
+        "referente",
+        "ambigüedad",
+        "contraste"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F3",
+        "F4",
+        "F2"
+      ],
+      "coverage": "complete"
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c03",
+      "version": "theory-c03-01-2",
+      "conceptId": "it-a1-c03-01",
+      "conceptVersion": "2",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Io, tu, lui, lei, noi, voi, loro",
+      "goal": "Identificar persona y número con los pronombres sujeto y con sujetos nominales.",
+      "introduction": "El sujeto permite saber de quién se habla. Un nombre como Anna o un grupo como Anna e Luca también pueden ser sujeto. Las personas gramaticales dependen de quién habla y a quién se dirige.",
+      "rules": [
+        "Io es quien habla; tu, una persona con quien habla informalmente. Noi incluye a quien habla; voi se dirige a varias personas.",
+        "Lui y lei remiten a una persona de la que se habla; loro, a varias. Anna se puede retomar con lei, Luca con lui y Anna e Luca con loro."
+      ],
+      "forms": [
+        [
+          "io / tu",
+          "yo / tú"
+        ],
+        [
+          "lui / lei",
+          "él / ella"
+        ],
+        [
+          "noi / voi",
+          "nosotros o nosotras / vosotros, vosotras o ustedes"
+        ],
+        [
+          "loro",
+          "ellos / ellas"
+        ],
+        [
+          "Anna / Anna e Luca",
+          "una persona / varias personas"
+        ]
+      ],
+      "examples": [
+        [
+          "Io sono Ana.",
+          "Yo soy Ana."
+        ],
+        [
+          "Voi siete Anna e Luca.",
+          "Vosotros sois Anna y Luca."
+        ],
+        [
+          "Anna e Luca sono qui. Loro sono qui.",
+          "Anna y Luca están aquí. Ellos están aquí."
+        ]
+      ],
+      "frequentErrors": [
+        "Noi incluye a quien habla; voi no lo incluye. Loro sirve para grupos masculinos, femeninos o mixtos."
+      ],
+      "usageNotes": [
+        "En el trato cortés, Lei se dirige a una sola persona con verbo de tercera persona; se profundizará en C18. Aquí se enseña como nota para reconocerlo, sin exigir todo su sistema.",
+        "Las formas de essere de los ejemplos se estudian en C04. Estas actividades observan el referente, no todo el verbo."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-io",
+        "it-tu",
+        "it-lui",
+        "it-lei",
+        "it-noi",
+        "it-voi",
+        "it-loro",
+        "it-qui"
+      ]
+    },
+    {
+      "id": "it-a1-theory-c03-02",
+      "version": "theory-c03-02-1",
+      "conceptId": "it-a1-c03-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Il soggetto può restare sottinteso",
+      "goal": "Interpretar sujetos omitidos cuando el contexto basta y conservar o explicitar el referente cuando puede haber ambigüedad.",
+      "introduction": "Como en español, en italiano a menudo no hace falta repetir el pronombre sujeto. El verbo y el contexto ayudan. Omitir no significa borrar información necesaria.",
+      "rules": [
+        "En una presentación propia, Sono Ana tiene el mismo referente que Io sono Ana. El pronombre explícito también puede ser correcto.",
+        "Sono corresponde tanto a io como a loro: sin contexto no siempre sabemos quién es el sujeto. Repetir un nombre o un pronombre puede aclararlo.",
+        "Cuando contrastas personas, io y tu pueden aportar énfasis útil. No hay una regla que prohíba los pronombres explícitos."
+      ],
+      "forms": [
+        [
+          "Io sono Ana. / Sono Ana.",
+          "mismo referente en una presentación"
+        ],
+        [
+          "Noi siamo qui. / Siamo qui.",
+          "nosotros, por la forma verbal"
+        ],
+        [
+          "Sono qui.",
+          "yo o ellos/ellas, según contexto"
+        ]
+      ],
+      "examples": [
+        [
+          "Mi chiamo Ana. Sono qui.",
+          "Me llamo Ana. Estoy aquí."
+        ],
+        [
+          "Anna e Luca? Sono qui.",
+          "¿Anna y Luca? Están aquí."
+        ],
+        [
+          "Io sono a Roma, tu sei a Madrid.",
+          "Yo estoy en Roma, tú estás en Madrid."
+        ]
+      ],
+      "frequentErrors": [
+        "No identifiques automáticamente sono con yo. Tampoco consideres incorrecta cualquier frase con io explícito."
+      ],
+      "usageNotes": [
+        "Mi chiamo se presenta como fórmula de apoyo, sin evaluar reflexivos. Cuando hay dos posibles referentes singulares, el contexto puede necesitar un nombre; no basta siempre con decir lei o lui."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-io",
+        "it-tu",
+        "it-noi",
+        "it-loro",
+        "it-qui",
+        "it-essere"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c03-01-io",
+      "version": "2",
+      "family": "F1",
+      "format": "selection",
+      "conceptId": "it-a1-c03-01",
+      "conceptVersion": "2",
+      "dimension": "comprehension",
+      "prompt": "¿Qué pronombre italiano se refiere a la persona que habla («yo»)?",
+      "options": [
+        "io",
+        "tu",
+        "noi"
+      ],
+      "hint": "Es la primera persona del singular.",
+      "explanation": "Io significa «yo». Tu se refiere a quien escucha y noi incluye a quien habla y otras personas.",
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "io"
+        ],
+        "rejected": [
+          "tu",
+          "noi"
+        ],
+        "exhaustive": true
+      },
+      "task": {
+        "skill": "recognition",
+        "context": "persona y concordancia",
+        "facets": [
+          "persona",
+          "numero"
+        ],
+        "opportunityId": "it-a1-c03-01-io:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c03-01-io",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c03-01-tu",
+      "version": "2",
+      "family": "F2",
+      "format": "cloze",
+      "conceptId": "it-a1-c03-01",
+      "conceptVersion": "2",
+      "dimension": "retrieval",
+      "prompt": "Completa con el pronombre sujeto: ___ = tú (una persona, trato informal).",
+      "options": [],
+      "hint": "Tiene dos letras y comienza por t.",
+      "explanation": "Tu corresponde a «tú» en el trato informal singular.",
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "tu"
+        ],
+        "rejected": [
+          "io",
+          "noi",
+          "voi",
+          "lui",
+          "lei",
+          "loro"
+        ],
+        "exhaustive": false
+      },
+      "task": {
+        "skill": "retrieval",
+        "context": "persona y concordancia",
+        "facets": [
+          "persona",
+          "numero"
+        ],
+        "opportunityId": "it-a1-c03-01-tu:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c03-01-tu",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c03-01-noi",
+      "version": "2",
+      "family": "F2",
+      "format": "short",
+      "conceptId": "it-a1-c03-01",
+      "conceptVersion": "2",
+      "dimension": "retrieval",
+      "prompt": "Scrivi il pronome: «nosotros / nosotras» in italiano.",
+      "options": [],
+      "hint": "La primera persona del plural empieza por n.",
+      "explanation": "Noi incluye a la persona que habla y al menos otra persona, sin distinción de género.",
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "noi"
+        ],
+        "rejected": [
+          "io",
+          "tu",
+          "voi",
+          "lui",
+          "lei",
+          "loro"
+        ],
+        "exhaustive": false,
+        "typos": [
+          "noe"
+        ]
+      },
+      "task": {
+        "skill": "retrieval",
+        "context": "persona y concordancia",
+        "facets": [
+          "persona",
+          "numero"
+        ],
+        "opportunityId": "it-a1-c03-01-noi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c03-01-noi",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c03-01-voi-noi",
+      "version": "1",
+      "conceptId": "it-a1-c03-01",
+      "conceptVersion": "2",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Tu parli a due amiche. Scrivi solo il pronome italiano per «vosotras».",
+      "options": [],
+      "hint": "El género del grupo no cambia este pronombre.",
+      "explanation": "Voi sirve para dirigirse a varias personas, sea cual sea su género.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "amistad",
+        "facets": [
+          "persona",
+          "numero"
+        ],
+        "opportunityId": "it-a1-c03-01-voi-noi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "voi"
+        ],
+        "rejected": [
+          "noi",
+          "loro"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c03-01-voi-noi",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c03-02-presentazione",
+      "version": "1",
+      "conceptId": "it-a1-c03-02",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Ana parla di sé: «Sono qui». Chi è il soggetto?",
+      "options": [
+        "Ana",
+        "Anna e Luca",
+        "non è possibile in questo contesto"
+      ],
+      "hint": "Sabes quién está hablando y de quién habla.",
+      "explanation": "En esta presentación, sono se refiere a Ana aunque no aparezca io.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "presentación",
+        "facets": [
+          "omisión",
+          "referente"
+        ],
+        "opportunityId": "it-a1-c03-02-presentazione:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Ana"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c03-02-presentazione",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c03-02-ometti",
+      "version": "1",
+      "conceptId": "it-a1-c03-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Riscrivi «Io sono Ana» senza il pronome soggetto.",
+      "options": [],
+      "hint": "Retira solo io.",
+      "explanation": "Sono Ana mantiene el referente de esta presentación.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "presentación",
+        "facets": [
+          "omisión"
+        ],
+        "opportunityId": "it-a1-c03-02-ometti:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "sono Ana",
+          "sono Ana."
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c03-02-ometti",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c03-02-esplicita",
+      "version": "1",
+      "conceptId": "it-a1-c03-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Anna e Luca sono qui. Riscrivi usando loro al posto dei nomi.",
+      "options": [],
+      "hint": "Conserva sono qui y cambia solo los nombres.",
+      "explanation": "Loro aclara el referente plural y es correcto como sujeto explícito.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "encuentro",
+        "facets": [
+          "referente"
+        ],
+        "opportunityId": "it-a1-c03-02-esplicita:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "loro sono qui",
+          "loro sono qui."
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c03-02-esplicita",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c03-02-noi",
+      "version": "1",
+      "conceptId": "it-a1-c03-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Riscrivi «Noi siamo qui» senza il pronome.",
+      "options": [],
+      "hint": "La forma siamo mantiene la primera persona plural.",
+      "explanation": "Siamo qui permite omitir noi cuando el contexto es claro.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "encuentro",
+        "facets": [
+          "omisión"
+        ],
+        "opportunityId": "it-a1-c03-02-noi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "siamo qui",
+          "siamo qui."
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c03-02-noi",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c03-02-referente",
+      "version": "1",
+      "conceptId": "it-a1-c03-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Anna e Luca? Sono qui. Scrivi il pronome soggetto sottinteso nella seconda frase.",
+      "options": [],
+      "hint": "Anna e Luca son varias personas de las que se habla: loro; el contexto resuelve sono.",
+      "explanation": "Anna e Luca son varias personas de las que se habla: loro; el contexto resuelve sono.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "encuentro",
+        "facets": [
+          "omisión",
+          "referente"
+        ],
+        "opportunityId": "it-a1-c03-02-referente:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "loro"
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c03-02-referente",
+        "sourceVersion": "1"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "it-io",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "io",
+      "displayForm": "io",
+      "gloss": "yo",
+      "partOfSpeech": "pronoun",
+      "number": "singular",
+      "forms": [],
+      "tags": [
+        "personas",
+        "C03",
+        "C04",
+        "C05",
+        "C26"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c26-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t26"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-tu",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "tu",
+      "displayForm": "tu",
+      "gloss": "tú",
+      "partOfSpeech": "pronoun",
+      "number": "singular",
+      "forms": [],
+      "tags": [
+        "personas",
+        "C03",
+        "C04",
+        "C05",
+        "C18",
+        "C26"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c18-02",
+        "it-a1-c26-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t18",
+        "it-a1-t26"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-noi",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "noi",
+      "displayForm": "noi",
+      "gloss": "nosotros / nosotras",
+      "partOfSpeech": "pronoun",
+      "number": "plural",
+      "forms": [],
+      "tags": [
+        "personas",
+        "C03",
+        "C04",
+        "C05",
+        "C20",
+        "C26",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c20-04",
+        "it-a1-c26-01",
+        "it-a1-c28-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t20",
+        "it-a1-t26",
+        "it-a1-t28"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-essere",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "essere",
+      "displayForm": "essere",
+      "gloss": "ser / estar (según construcción)",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "sono",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "sei",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "è",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "siamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "siete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "sono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "identidad",
+        "C03",
+        "C04",
+        "C06",
+        "C11",
+        "C16",
+        "C18",
+        "C19",
+        "C20",
+        "C29",
+        "C31",
+        "C32",
+        "C33"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c04-02",
+        "it-a1-c04-03",
+        "it-a1-c04-04",
+        "it-a1-c04-05",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c06-03",
+        "it-a1-c11-01",
+        "it-a1-c16-03",
+        "it-a1-c18-02",
+        "it-a1-c19-01",
+        "it-a1-c19-02",
+        "it-a1-c20-01",
+        "it-a1-c29-01",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c33-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t11",
+        "it-a1-t16",
+        "it-a1-t18",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t33"
+      ],
+      "examples": [
+        {
+          "target": "Io sono Ana.",
+          "support": "Yo soy Ana."
+        }
+      ]
+    },
+    {
+      "id": "it-lui",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "lui",
+      "displayForm": "lui",
+      "gloss": "él",
+      "partOfSpeech": "pronoun",
+      "forms": [],
+      "tags": [
+        "pronoun",
+        "C03",
+        "C04",
+        "C05",
+        "C20",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c20-04",
+        "it-a1-c28-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t20",
+        "it-a1-t28"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-lei",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "lei",
+      "displayForm": "lei",
+      "gloss": "ella; usted en trato cortés",
+      "partOfSpeech": "pronoun",
+      "forms": [],
+      "tags": [
+        "pronoun",
+        "C03",
+        "C04",
+        "C05",
+        "C18",
+        "C20",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c18-02",
+        "it-a1-c20-04",
+        "it-a1-c28-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t18",
+        "it-a1-t20",
+        "it-a1-t28"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-voi",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "voi",
+      "displayForm": "voi",
+      "gloss": "vosotros / vosotras / ustedes",
+      "partOfSpeech": "pronoun",
+      "forms": [],
+      "tags": [
+        "pronoun",
+        "C03",
+        "C04",
+        "C05",
+        "C20",
+        "C26",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c20-04",
+        "it-a1-c26-01",
+        "it-a1-c28-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t20",
+        "it-a1-t26",
+        "it-a1-t28"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-loro",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "loro",
+      "displayForm": "loro",
+      "gloss": "ellos / ellas; su/sus de ellos o ellas, posesivo invariable",
+      "partOfSpeech": "pronoun",
+      "forms": [
+        {
+          "key": "possessive",
+          "text": "loro",
+          "features": {
+            "use": "possessive"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "pronoun",
+        "C03",
+        "C04",
+        "C05",
+        "C20",
+        "C23",
+        "C26",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c20-04",
+        "it-a1-c23-01",
+        "it-a1-c23-02",
+        "it-a1-c26-01",
+        "it-a1-c28-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t20",
+        "it-a1-t23",
+        "it-a1-t26",
+        "it-a1-t28"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-qui",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "qui",
+      "displayForm": "qui",
+      "gloss": "aquí",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C03",
+        "C04",
+        "C06",
+        "C15",
+        "C16",
+        "C19",
+        "C23",
+        "C24"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c04-04",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c15-02",
+        "it-a1-c16-04",
+        "it-a1-c19-02",
+        "it-a1-c23-02",
+        "it-a1-c24-01",
+        "it-a1-c24-02"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t23",
+        "it-a1-t24"
+      ],
+      "examples": []
+    }
+  ],
+  "templates": []
+}

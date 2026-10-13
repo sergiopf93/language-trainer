@@ -1,0 +1,1532 @@
+{
+  "concepts": [
+    {
+      "id": "it-a1-c02-01",
+      "version": "1",
+      "topicId": "it-a1-t02",
+      "title": "Salutare e congedarsi",
+      "objective": "Elegir y escribir saludos y despedidas adecuados a intercambios cotidianos formales e informales.",
+      "scope": "Elegir y escribir saludos y despedidas adecuados a intercambios cotidianos formales e informales.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use",
+        "discrimination"
+      ],
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "apertura",
+        "despedida",
+        "registro"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c02-02",
+      "version": "1",
+      "topicId": "it-a1-t02",
+      "title": "Grazie, prego, scusi",
+      "objective": "Agradecer, responder a un agradecimiento y llamar la atención o disculparse con el registro adecuado.",
+      "scope": "Agradecer, responder a un agradecimiento y llamar la atención o disculparse con el registro adecuado.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use"
+      ],
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "agradecimiento",
+        "respuesta",
+        "atención",
+        "registro"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F4",
+        "F7"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c02-03",
+      "version": "1",
+      "topicId": "it-a1-t02",
+      "title": "Non capisco. Può ripetere?",
+      "objective": "Señalar incomprensión y pedir repetición o menor velocidad mediante fórmulas enseñadas.",
+      "scope": "Señalar incomprensión y pedir repetición o menor velocidad mediante fórmulas enseñadas.",
+      "dimensions": [
+        "discrimination",
+        "retrieval",
+        "contextual-use",
+        "comprehension"
+      ],
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "incomprensión",
+        "repetición",
+        "velocidad",
+        "registro"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "coverage": "complete"
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c02-01",
+      "version": "theory-c02-01-1",
+      "conceptId": "it-a1-c02-01",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Salutare e congedarsi",
+      "goal": "Elegir y escribir saludos y despedidas adecuados a intercambios cotidianos formales e informales.",
+      "introduction": "Aprende estas expresiones como unidades. La relación con la otra persona y el momento del intercambio ayudan a elegir: entrar, despedirse o desear buenas noches no son la misma acción.",
+      "rules": [
+        "Ciao sirve para saludar y despedirse en trato informal. Con una persona desconocida, buongiorno o buonasera suelen ser opciones más adecuadas al abrir el intercambio.",
+        "Arrivederci es una despedida de uso amplio. Buonanotte se usa al despedirse para ir a dormir; no es el saludo normal al entrar en un hotel por la noche."
+      ],
+      "forms": [
+        [
+          "ciao",
+          "hola / adiós informal"
+        ],
+        [
+          "buongiorno",
+          "buenos días"
+        ],
+        [
+          "buonasera",
+          "buenas tardes / noches al saludar"
+        ],
+        [
+          "arrivederci",
+          "adiós / hasta luego"
+        ],
+        [
+          "buonanotte",
+          "buenas noches al ir a dormir"
+        ],
+        [
+          "a presto",
+          "hasta pronto"
+        ]
+      ],
+      "examples": [
+        [
+          "Buongiorno!",
+          "¡Buenos días!"
+        ],
+        [
+          "Ciao, Anna!",
+          "¡Hola, Anna! / ¡Adiós, Anna!"
+        ],
+        [
+          "Arrivederci, a presto!",
+          "¡Hasta luego, hasta pronto!"
+        ],
+        [
+          "Buonanotte!",
+          "¡Buenas noches, que descanses!"
+        ]
+      ],
+      "frequentErrors": [
+        "No traduzcas todas las situaciones de «buenas noches» con buonanotte: al llegar, buonasera es una fórmula útil."
+      ],
+      "usageNotes": [
+        "No fijamos una hora exacta universal para cambiar de buongiorno a buonasera; el uso varía. Las actividades dan un contexto claro."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-ciao",
+        "it-buongiorno",
+        "it-buonasera",
+        "it-arrivederci",
+        "it-buonanotte",
+        "it-a-presto"
+      ]
+    },
+    {
+      "id": "it-a1-theory-c02-02",
+      "version": "theory-c02-02-1",
+      "conceptId": "it-a1-c02-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Grazie, prego, scusi",
+      "goal": "Agradecer, responder a un agradecimiento y llamar la atención o disculparse con el registro adecuado.",
+      "introduction": "Estas fórmulas ayudan a pedir atención y mantener un intercambio cortés. No necesitas conjugar sus verbos todavía: aprende qué hace cada expresión.",
+      "rules": [
+        "Grazie agradece; prego es una respuesta habitual a un agradecimiento. Per favore acompaña una petición.",
+        "Scusa se usa con trato informal; scusi es una fórmula cortés al dirigirse a una persona de usted. Pueden introducir una petición de atención o una disculpa breve."
+      ],
+      "forms": [
+        [
+          "grazie",
+          "gracias"
+        ],
+        [
+          "prego",
+          "de nada, al responder a gracias"
+        ],
+        [
+          "per favore",
+          "por favor"
+        ],
+        [
+          "scusa",
+          "disculpa, trato informal"
+        ],
+        [
+          "scusi",
+          "disculpe, trato cortés"
+        ]
+      ],
+      "examples": [
+        [
+          "Grazie! — Prego!",
+          "¡Gracias! — ¡De nada!"
+        ],
+        [
+          "Un caffè, per favore.",
+          "Un café, por favor."
+        ],
+        [
+          "Scusi!",
+          "¡Disculpe!"
+        ]
+      ],
+      "frequentErrors": [
+        "No intercambies grazie y prego: en el pequeño diálogo hacen funciones distintas. Scusi no es una forma plural de scusa."
+      ],
+      "usageNotes": [
+        "Prego tiene otros usos; aquí se practica como respuesta a gracias. No se presentan todos sus significados como equivalentes."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-grazie",
+        "it-prego",
+        "it-per-favore",
+        "it-scusa",
+        "it-scusi",
+        "it-caffe"
+      ]
+    },
+    {
+      "id": "it-a1-theory-c02-03",
+      "version": "theory-c02-03-1",
+      "conceptId": "it-a1-c02-03",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Non capisco. Può ripetere?",
+      "goal": "Señalar incomprensión y pedir repetición o menor velocidad mediante fórmulas enseñadas.",
+      "introduction": "Puedes pedir ayuda desde el primer día. Estas frases permiten continuar la conversación sin fingir que has entendido. Se aprenden como expresiones completas.",
+      "rules": [
+        "Non capisco comunica que no entiendes. Non lo so comunica que no lo sabes: son intenciones distintas.",
+        "Può ripetere? pide repetición cortésmente. Puoi ripetere? corresponde al trato informal. Più lentamente, per favore pide menor velocidad."
+      ],
+      "forms": [
+        [
+          "non capisco",
+          "no entiendo"
+        ],
+        [
+          "può ripetere?",
+          "¿puede repetir?"
+        ],
+        [
+          "puoi ripetere?",
+          "¿puedes repetir?"
+        ],
+        [
+          "più lentamente, per favore",
+          "más despacio, por favor"
+        ],
+        [
+          "non lo so",
+          "no lo sé; contraste de intención"
+        ]
+      ],
+      "examples": [
+        [
+          "Scusi, non capisco.",
+          "Disculpe, no entiendo."
+        ],
+        [
+          "Può ripetere, per favore?",
+          "¿Puede repetir, por favor?"
+        ],
+        [
+          "Più lentamente, per favore.",
+          "Más despacio, por favor."
+        ]
+      ],
+      "frequentErrors": [
+        "«Non lo so» no pide aclarar algo que no has entendido. En può hay acento; puoi no lo lleva."
+      ],
+      "usageNotes": [
+        "No se evalúa aún el paradigma de capire o potere ni la formación general de preguntas. La práctica se centra en elegir y recuperar estas fórmulas."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-non-capisco",
+        "it-puo-ripetere",
+        "it-puoi-ripetere",
+        "it-piu-lentamente",
+        "it-non-lo-so",
+        "it-per-favore",
+        "it-scusi"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c02-01-hotel-mattina",
+      "version": "1",
+      "conceptId": "it-a1-c02-01",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Alle 9 entri in hotel. Saluti una persona che non conosci. Scegli la formula più adatta.",
+      "options": [
+        "Buongiorno",
+        "Buonanotte",
+        "Arrivederci"
+      ],
+      "hint": "Estás llegando por la mañana.",
+      "explanation": "Buongiorno abre este intercambio. Arrivederci lo cerraría; buonanotte se reserva aquí para ir a dormir.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "hotel",
+        "facets": [
+          "apertura",
+          "registro"
+        ],
+        "opportunityId": "it-a1-c02-01-hotel-mattina:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Buongiorno"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c02-01-hotel-mattina",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c02-01-amica",
+      "version": "2",
+      "conceptId": "it-a1-c02-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "Saluta un’amica con la formula informale studiata (una parola).",
+      "options": [],
+      "hint": "Sirve también para despedirse de amigos.",
+      "explanation": "Ciao es la fórmula informal solicitada.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "amistad",
+        "facets": [
+          "registro"
+        ],
+        "opportunityId": "it-a1-c02-01-amica:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "ciao",
+          "ciao.",
+          "ciao!"
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c02-01-amica",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c02-01-sera",
+      "version": "2",
+      "conceptId": "it-a1-c02-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "È sera. Entri al ristorante: «___!» Scrivi la formula studiata per «buenas tardes/noches» (una parola).",
+      "options": [],
+      "hint": "Estás saludando, no yéndote a dormir.",
+      "explanation": "Buonasera es adecuada al entrar por la tarde/noche.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "restaurante",
+        "facets": [
+          "apertura"
+        ],
+        "opportunityId": "it-a1-c02-01-sera:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "buonasera"
+        ],
+        "rejected": [
+          "buonanotte",
+          "arrivederci"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c02-01-sera",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c02-01-uscita",
+      "version": "2",
+      "conceptId": "it-a1-c02-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Esci dall’hotel. Scrivi la formula studiata che significa «adiós / hasta luego» (una parola).",
+      "options": [],
+      "hint": "Comienza por arri-.",
+      "explanation": "Arrivederci cierra el intercambio cortésmente.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "hotel",
+        "facets": [
+          "despedida"
+        ],
+        "opportunityId": "it-a1-c02-01-uscita:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "arrivederci",
+          "arrivederci.",
+          "arrivederci!"
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c02-01-uscita",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c02-02-grazie",
+      "version": "1",
+      "conceptId": "it-a1-c02-02",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Una persona ti dà la chiave. Vuoi ringraziare. Scegli.",
+      "options": [
+        "Grazie",
+        "Scusi",
+        "Arrivederci"
+      ],
+      "hint": "La intención es agradecer.",
+      "explanation": "Grazie agradece la ayuda recibida.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "hotel",
+        "facets": [
+          "agradecimiento"
+        ],
+        "opportunityId": "it-a1-c02-02-grazie:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Grazie"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c02-02-grazie",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c02-02-prego",
+      "version": "2",
+      "conceptId": "it-a1-c02-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "«Grazie!» Rispondi con la formula studiata per «de nada».",
+      "options": [],
+      "hint": "Empieza por pr-.",
+      "explanation": "Prego responde al agradecimiento en este diálogo.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "hotel",
+        "facets": [
+          "respuesta"
+        ],
+        "opportunityId": "it-a1-c02-02-prego:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "prego",
+          "prego.",
+          "prego!"
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c02-02-prego",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c02-02-favore",
+      "version": "1",
+      "conceptId": "it-a1-c02-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Completa la richiesta: Un caffè, per ___.",
+      "options": [],
+      "hint": "La expresión corresponde a por favor.",
+      "explanation": "Per favore acompaña la petición; no sustituye al agradecimiento posterior.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "bar",
+        "facets": [
+          "atención"
+        ],
+        "opportunityId": "it-a1-c02-02-favore:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "favore"
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c02-02-favore",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c02-02-scusi",
+      "version": "2",
+      "conceptId": "it-a1-c02-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Con una persona sconosciuta: scrivi «disculpe» con la formula studiata (una parola).",
+      "options": [],
+      "hint": "Usa la fórmula cortés.",
+      "explanation": "Scusi corresponde al trato cortés solicitado. Scusa sería informal.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "transporte",
+        "facets": [
+          "atención",
+          "registro"
+        ],
+        "opportunityId": "it-a1-c02-02-scusi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "scusi",
+          "scusi.",
+          "scusi!"
+        ],
+        "rejected": [
+          "scusa"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c02-02-scusi",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c02-02-scusa",
+      "version": "2",
+      "conceptId": "it-a1-c02-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "Con un amico, scrivi «disculpa» usando la formula informale.",
+      "options": [],
+      "hint": "Termina en a.",
+      "explanation": "Scusa se dirige a una persona con trato informal.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "amistad",
+        "facets": [
+          "registro"
+        ],
+        "opportunityId": "it-a1-c02-02-scusa:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "scusa",
+          "scusa.",
+          "scusa!"
+        ],
+        "rejected": [
+          "scusi"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c02-02-scusa",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c02-02-dialogo",
+      "version": "1",
+      "conceptId": "it-a1-c02-02",
+      "conceptVersion": "1",
+      "family": "F7",
+      "format": "matching",
+      "prompt": "Abbina l’intenzione alla formula.",
+      "options": [
+        "Prego",
+        "Grazie",
+        "Per favore"
+      ],
+      "hint": "Piensa quién recibe la ayuda y quién responde.",
+      "explanation": "Grazie agradece; prego responde; per favore acompaña una petición.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "interacción cotidiana",
+        "facets": [
+          "agradecimiento",
+          "respuesta",
+          "atención"
+        ],
+        "opportunityId": "it-a1-c02-02-dialogo:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": [
+          "Agradecer",
+          "Responder a gracias",
+          "Por favor"
+        ]
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "[1,0,2]"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c02-02-dialogo",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c02-02-petizione",
+      "version": "1",
+      "conceptId": "it-a1-c02-02",
+      "conceptVersion": "1",
+      "family": "F7",
+      "format": "ordering",
+      "prompt": "Ordina: «Un café, por favor». La punteggiatura non è richiesta.",
+      "options": [
+        "per",
+        "caffè",
+        "favore",
+        "un"
+      ],
+      "hint": "Empieza por un caffè.",
+      "explanation": "Un caffè per favore y per favore un caffè son peticiones válidas. En escritura continua puede separarse per favore con coma.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "bar",
+        "facets": [
+          "atención"
+        ],
+        "opportunityId": "it-a1-c02-02-petizione:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "un caffè per favore",
+          "per favore un caffè"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c02-02-petizione",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c02-03-intenzione",
+      "version": "2",
+      "conceptId": "it-a1-c02-03",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Alla reception: non capisci (no entiendes). Scegli la frase adatta.",
+      "options": [
+        "Non capisco",
+        "Non lo so",
+        "Arrivederci"
+      ],
+      "hint": "El problema es entender el mensaje.",
+      "explanation": "Non capisco señala incomprensión; non lo so indica que desconoces una respuesta.",
+      "dimension": "discrimination",
+      "task": {
+        "skill": "discrimination",
+        "context": "hotel",
+        "facets": [
+          "incomprensión"
+        ],
+        "opportunityId": "it-a1-c02-03-intenzione:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Non capisco"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c02-03-intenzione",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c02-03-ripetere",
+      "version": "2",
+      "conceptId": "it-a1-c02-03",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Completa la formula per «¿Puede repetir, por favor?»: Può ___, per favore?",
+      "options": [],
+      "hint": "Quieres oír otra vez el mensaje.",
+      "explanation": "Può ripetere, per favore? pide una repetición cortés.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "hotel",
+        "facets": [
+          "repetición",
+          "registro"
+        ],
+        "opportunityId": "it-a1-c02-03-ripetere:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "ripetere"
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c02-03-ripetere",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c02-03-formula",
+      "version": "2",
+      "conceptId": "it-a1-c02-03",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Una persona sconosciuta parla. Chiedi «¿Puede repetir?» con la formula studiata di due parole. Puoi aggiungere per favore alla fine.",
+      "options": [],
+      "hint": "Empieza por può, con acento.",
+      "explanation": "Può ripetere? corresponde al trato cortés; puedes añadir per favore.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "transporte",
+        "facets": [
+          "repetición",
+          "registro"
+        ],
+        "opportunityId": "it-a1-c02-03-formula:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "può ripetere",
+          "può ripetere?",
+          "può ripetere, per favore?",
+          "può ripetere per favore?",
+          "può ripetere, per favore",
+          "può ripetere per favore"
+        ],
+        "rejected": [
+          "puo ripetere",
+          "puoi ripetere"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c02-03-formula",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c02-03-lentamente",
+      "version": "2",
+      "conceptId": "it-a1-c02-03",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Completa con la parola della formula studiata: «más despacio, por favor» → Più ___, per favore.",
+      "options": [],
+      "hint": "La palabra empieza por lenta-.",
+      "explanation": "Più lentamente indica más despacio; es una fórmula útil para regular el intercambio.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "interacción cotidiana",
+        "facets": [
+          "velocidad"
+        ],
+        "opportunityId": "it-a1-c02-03-lentamente:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "lentamente"
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c02-03-lentamente",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c02-03-amico",
+      "version": "2",
+      "conceptId": "it-a1-c02-03",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Con un amico: scrivi «¿Puedes repetir?» con la formula studiata di due parole. Puoi aggiungere per favore alla fine.",
+      "options": [],
+      "hint": "Informal: puoi, sin acento.",
+      "explanation": "Puoi ripetere? usa el trato informal pedido.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "amistad",
+        "facets": [
+          "registro",
+          "repetición"
+        ],
+        "opportunityId": "it-a1-c02-03-amico:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "puoi ripetere",
+          "puoi ripetere?",
+          "puoi ripetere, per favore?",
+          "puoi ripetere per favore?",
+          "puoi ripetere, per favore",
+          "puoi ripetere per favore"
+        ],
+        "rejected": [
+          "può ripetere"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c02-03-amico",
+        "sourceVersion": "2"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "it-caffe",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "caffè",
+      "displayForm": "caffè",
+      "gloss": "café",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "caffè",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C02",
+        "C08",
+        "C10",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C20",
+        "C22",
+        "C25",
+        "C27",
+        "C28",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-02",
+        "it-a1-c01-03",
+        "it-a1-c02-02",
+        "it-a1-c08-02",
+        "it-a1-c10-02",
+        "it-a1-c15-01",
+        "it-a1-c16-06",
+        "it-a1-c17-02",
+        "it-a1-c18-01",
+        "it-a1-c20-05",
+        "it-a1-c22-03",
+        "it-a1-c25-01",
+        "it-a1-c25-02",
+        "it-a1-c27-01",
+        "it-a1-c28-01",
+        "it-a1-c28-02",
+        "it-a1-c31-02",
+        "it-a1-c32-03",
+        "it-a1-c34-03"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t02",
+        "it-a1-t08",
+        "it-a1-t10",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-ciao",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "ciao",
+      "displayForm": "ciao",
+      "gloss": "hola / adiós informal",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C01",
+        "C02",
+        "C16",
+        "C18"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c02-01",
+        "it-a1-c16-07",
+        "it-a1-c18-02"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t02",
+        "it-a1-t16",
+        "it-a1-t18"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-buongiorno",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "buongiorno",
+      "displayForm": "buongiorno",
+      "gloss": "buenos días",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C02",
+        "C16",
+        "C18"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c02-01",
+        "it-a1-c16-07",
+        "it-a1-c18-02"
+      ],
+      "topicIds": [
+        "it-a1-t02",
+        "it-a1-t16",
+        "it-a1-t18"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-buonasera",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "buonasera",
+      "displayForm": "buonasera",
+      "gloss": "buenas tardes / noches al saludar",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C02"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c02-01"
+      ],
+      "topicIds": [
+        "it-a1-t02"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-arrivederci",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "arrivederci",
+      "displayForm": "arrivederci",
+      "gloss": "adiós / hasta luego",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C02"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c02-01"
+      ],
+      "topicIds": [
+        "it-a1-t02"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-buonanotte",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "buonanotte",
+      "displayForm": "buonanotte",
+      "gloss": "buenas noches al despedirse para dormir",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C02"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c02-01"
+      ],
+      "topicIds": [
+        "it-a1-t02"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-a-presto",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "a presto",
+      "displayForm": "a presto",
+      "gloss": "hasta pronto",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C02"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c02-01"
+      ],
+      "topicIds": [
+        "it-a1-t02"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-grazie",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "grazie",
+      "displayForm": "grazie",
+      "gloss": "gracias",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C02",
+        "C16"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c02-02",
+        "it-a1-c16-03",
+        "it-a1-c16-07"
+      ],
+      "topicIds": [
+        "it-a1-t02",
+        "it-a1-t16"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-prego",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "prego",
+      "displayForm": "prego",
+      "gloss": "de nada, como respuesta a gracias",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C02"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c02-02"
+      ],
+      "topicIds": [
+        "it-a1-t02"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-per-favore",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "per favore",
+      "displayForm": "per favore",
+      "gloss": "por favor",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C02",
+        "C08",
+        "C10",
+        "C12",
+        "C18",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c02-02",
+        "it-a1-c02-03",
+        "it-a1-c08-02",
+        "it-a1-c10-02",
+        "it-a1-c12-01",
+        "it-a1-c18-01",
+        "it-a1-c27-01"
+      ],
+      "topicIds": [
+        "it-a1-t02",
+        "it-a1-t08",
+        "it-a1-t10",
+        "it-a1-t12",
+        "it-a1-t18",
+        "it-a1-t27"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-scusa",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "scusa",
+      "displayForm": "scusa",
+      "gloss": "disculpa, informal",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C02",
+        "C18"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c02-02",
+        "it-a1-c18-02"
+      ],
+      "topicIds": [
+        "it-a1-t02",
+        "it-a1-t18"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-scusi",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "scusi",
+      "displayForm": "scusi",
+      "gloss": "disculpe, cortés",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C02",
+        "C18"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c02-02",
+        "it-a1-c02-03",
+        "it-a1-c18-02"
+      ],
+      "topicIds": [
+        "it-a1-t02",
+        "it-a1-t18"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-non-capisco",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "non capisco",
+      "displayForm": "non capisco",
+      "gloss": "no entiendo",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C02",
+        "C15"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c02-03",
+        "it-a1-c15-03"
+      ],
+      "topicIds": [
+        "it-a1-t02",
+        "it-a1-t15"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-puo-ripetere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "può ripetere?",
+      "displayForm": "può ripetere?",
+      "gloss": "¿puede repetir?, cortés",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C02",
+        "C18"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c02-03",
+        "it-a1-c18-02"
+      ],
+      "topicIds": [
+        "it-a1-t02",
+        "it-a1-t18"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-puoi-ripetere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "puoi ripetere?",
+      "displayForm": "puoi ripetere?",
+      "gloss": "¿puedes repetir?, informal",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C02",
+        "C17",
+        "C18"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c02-03",
+        "it-a1-c17-01",
+        "it-a1-c18-02"
+      ],
+      "topicIds": [
+        "it-a1-t02",
+        "it-a1-t17",
+        "it-a1-t18"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-piu-lentamente",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "più lentamente",
+      "displayForm": "più lentamente",
+      "gloss": "más despacio",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C02"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c02-03"
+      ],
+      "topicIds": [
+        "it-a1-t02"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-non-lo-so",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "non lo so",
+      "displayForm": "non lo so",
+      "gloss": "no lo sé",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C02"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c02-03"
+      ],
+      "topicIds": [
+        "it-a1-t02"
+      ],
+      "examples": []
+    }
+  ],
+  "templates": []
+}

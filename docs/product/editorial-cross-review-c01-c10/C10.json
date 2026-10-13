@@ -1,0 +1,1392 @@
+{
+  "concepts": [
+    {
+      "id": "it-a1-c10-01",
+      "version": "1",
+      "topicId": "it-a1-t10",
+      "title": "Un amico, un’amica",
+      "objective": "Elegir un/uno/una/un’ según género e inicio, distinguiendo el apóstrofo femenino.",
+      "scope": "Elegir un/uno/una/un’ según género e inicio, distinguiendo el apóstrofo femenino.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use",
+        "discrimination"
+      ],
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "un",
+        "uno",
+        "una",
+        "elisión",
+        "sin-plural"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c10-02",
+      "version": "1",
+      "topicId": "it-a1-t10",
+      "title": "Una chiave: introduciamo qualcosa",
+      "objective": "Introducir un referente con indeterminado y contrastar su posterior identificación con determinado.",
+      "scope": "Introducir un referente con indeterminado y contrastar su posterior identificación con determinado.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use",
+        "discrimination"
+      ],
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "introducción",
+        "petición",
+        "contraste-referencia"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "coverage": "complete"
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c10-01",
+      "version": "theory-c10-01-1",
+      "conceptId": "it-a1-c10-01",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Un amico, un’amica",
+      "goal": "Elegir un/uno/una/un’ según género e inicio, distinguiendo el apóstrofo femenino.",
+      "introduction": "El artículo indeterminado singular tiene formas masculinas y femeninas. Primero decide el género; después aplica la forma apropiada al inicio del nombre.",
+      "rules": [
+        "Masculino: un ante consonante habitual o vocal (un letto, un amico); uno ante los grupos de lo: uno studente, uno zaino, uno gnocco, uno psicologo.",
+        "Femenino: una ante consonante (una penna, una studentessa). Ante vocal se puede elidir: un’amica. La forma plena una amica también es posible; las consignas que pidan elisión requieren apóstrofo.",
+        "Un masculino nunca lleva apóstrofo: un amico. Un’ con apóstrofo procede del femenino una. No copies l’ del determinado masculino.",
+        "No existe un plural morfológico universal de un/uno/una. Aquí se practica el singular; cantidades y partitivos tendrán su propio alcance en C27."
+      ],
+      "forms": [
+        [
+          "un letto / un amico",
+          "una cama / un amigo"
+        ],
+        [
+          "uno studente / uno zaino",
+          "un estudiante / una mochila"
+        ],
+        [
+          "una penna / un’amica",
+          "un bolígrafo / una amiga"
+        ]
+      ],
+      "examples": [
+        [
+          "Ho un amico.",
+          "Tengo un amigo."
+        ],
+        [
+          "Ho un’amica.",
+          "Tengo una amiga."
+        ],
+        [
+          "Ho uno zaino.",
+          "Tengo una mochila."
+        ]
+      ],
+      "frequentErrors": [
+        "«Un’amico» es incorrecto: amico es masculino.",
+        "«Un amica» omite el apóstrofo de la elisión femenina.",
+        "«Uno penna» no concuerda con el femenino penna."
+      ],
+      "usageNotes": [
+        "El género italiano gobierna el artículo, aunque la traducción tenga otro género. Se admiten apóstrofos rectos y tipográficos."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-amico",
+        "it-letto",
+        "it-studente",
+        "it-studentessa",
+        "it-zaino",
+        "it-penna",
+        "it-gnocco",
+        "it-psicologo",
+        "it-articolo-indeterminativo"
+      ]
+    },
+    {
+      "id": "it-a1-theory-c10-02",
+      "version": "theory-c10-02-1",
+      "conceptId": "it-a1-c10-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Una chiave: introduciamo qualcosa",
+      "goal": "Introducir un referente con indeterminado y contrastar su posterior identificación con determinado.",
+      "introduction": "Cuando presentas algo que el interlocutor todavía no identifica, el indeterminado permite introducirlo. No significa que el hablante desconozca de qué objeto se trata.",
+      "rules": [
+        "Ho una chiave introduce una llave; La chiave è qui puede continuar hablando de la misma.",
+        "Una petición de una unidad sin identificar un ejemplar concreto usa indeterminado: Un caffè, per favore. La fórmula permite pedir sin aprender otro verbo.",
+        "El contraste es discursivo: una penna presenta; la penna retoma o identifica. No se decide únicamente por si el nombre aparece por primera vez en la frase."
+      ],
+      "forms": [
+        [
+          "un caffè, per favore",
+          "un café, por favor"
+        ],
+        [
+          "ho una chiave → la chiave è qui",
+          "introducción → referencia conocida"
+        ]
+      ],
+      "examples": [
+        [
+          "Un caffè, per favore.",
+          "Un café, por favor."
+        ],
+        [
+          "Ho un biglietto. Il biglietto è qui.",
+          "Tengo un billete. El billete está aquí."
+        ]
+      ],
+      "frequentErrors": [
+        "El indeterminado no significa necesariamente desconocido para quien habla.",
+        "No trates dei como plural universal de un: esa construcción se verá con cantidades y contexto."
+      ],
+      "usageNotes": [
+        "Las situaciones especifican si se introduce o retoma el objeto para evitar evaluar preferencias ambiguas."
+      ],
+      "exceptions": [],
+      "contrasts": [
+        {
+          "conceptId": "it-a1-c09-03",
+          "explanation": "Un/una introducen; il/la pueden retomar lo introducido o identificar algo compartido."
+        }
+      ],
+      "vocabularyIds": [
+        "it-chiave",
+        "it-penna",
+        "it-biglietto",
+        "it-caffe",
+        "it-per-favore",
+        "it-articolo-indeterminativo",
+        "it-articolo-determinativo"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c10-01-amico",
+      "version": "1",
+      "conceptId": "it-a1-c10-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "Scrivi articolo indeterminativo + amico (maschile).",
+      "options": [],
+      "hint": "El masculino un ante vocal no lleva apóstrofo.",
+      "explanation": "El masculino un ante vocal no lleva apóstrofo.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "conversación",
+        "facets": [
+          "un"
+        ],
+        "opportunityId": "it-a1-c10-01-amico:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "un amico"
+        ],
+        "rejected": [
+          "un'amico",
+          "un’amico",
+          "uno amico"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c10-01-amico",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c10-01-correggi",
+      "version": "1",
+      "conceptId": "it-a1-c10-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Correggi l’apostrofo: «Ho un’amico».",
+      "options": [],
+      "hint": "Amico es masculino; un no necesita apóstrofo.",
+      "explanation": "Amico es masculino; un no necesita apóstrofo.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "conversación",
+        "facets": [
+          "un"
+        ],
+        "opportunityId": "it-a1-c10-01-correggi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Ho un amico",
+          "Ho un amico."
+        ],
+        "rejected": [
+          "Ho un’amico",
+          "Ho un'amico"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c10-01-correggi",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c10-01-zaino",
+      "version": "1",
+      "conceptId": "it-a1-c10-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Scrivi «Tengo una mochila» usando zaino (maschile), senza io.",
+      "options": [],
+      "hint": "Zaino selecciona uno por z inicial y género masculino.",
+      "explanation": "Zaino selecciona uno por z inicial y género masculino.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "viaje",
+        "facets": [
+          "uno"
+        ],
+        "opportunityId": "it-a1-c10-01-zaino:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Ho uno zaino",
+          "Ho uno zaino."
+        ],
+        "rejected": [
+          "Ho un zaino",
+          "Ho una zaino"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c10-01-zaino",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c10-01-studentessa",
+      "version": "2",
+      "conceptId": "it-a1-c10-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Completa con l’articolo indeterminativo: ___ studentessa (femminile).",
+      "options": [],
+      "hint": "La regla de uno no se aplica al femenino, aunque empiece por st.",
+      "explanation": "La regla de uno no se aplica al femenino, aunque empiece por st.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "estudio",
+        "facets": [
+          "una"
+        ],
+        "opportunityId": "it-a1-c10-01-studentessa:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "una"
+        ],
+        "rejected": [
+          "uno",
+          "un"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c10-01-studentessa",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c10-01-plurale",
+      "version": "2",
+      "conceptId": "it-a1-c10-01",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Un amico → più persone: esiste una forma plurale unica dell’articolo indeterminativo?",
+      "options": [
+        "sì: sempre dei",
+        "sì: sempre gli",
+        "no"
+      ],
+      "hint": "No hay un plural morfológico universal de un; el contexto decide la construcción.",
+      "explanation": "No hay un plural morfológico universal de un; el contexto decide la construcción.",
+      "dimension": "discrimination",
+      "task": {
+        "skill": "discrimination",
+        "context": "conversación",
+        "facets": [
+          "sin-plural"
+        ],
+        "opportunityId": "it-a1-c10-01-plurale:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "no"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c10-01-plurale",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c10-02-introduci",
+      "version": "1",
+      "conceptId": "it-a1-c10-02",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Parli per la prima volta di una penna che l’altra persona non può identificare: Ho ___ penna.",
+      "options": [
+        "una",
+        "la"
+      ],
+      "hint": "Una introduce un ejemplar sin suponer que el interlocutor lo identifica.",
+      "explanation": "Una introduce un ejemplar sin suponer que el interlocutor lo identifica.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "estudio",
+        "facets": [
+          "introducción"
+        ],
+        "opportunityId": "it-a1-c10-02-introduci:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "una"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c10-02-introduci",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c10-02-caffe",
+      "version": "1",
+      "conceptId": "it-a1-c10-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Ordina un solo caffè, senza indicarne uno già pronto: ___ caffè, per favore.",
+      "options": [],
+      "hint": "Un introduce la unidad solicitada.",
+      "explanation": "Un introduce la unidad solicitada.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "bar",
+        "facets": [
+          "petición"
+        ],
+        "opportunityId": "it-a1-c10-02-caffe:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Un"
+        ],
+        "rejected": [
+          "Il",
+          "Uno"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c10-02-caffe",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c10-02-chiedi",
+      "version": "2",
+      "conceptId": "it-a1-c10-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Al bar, ordina «un café, por favor» con la formula senza verbo.",
+      "options": [],
+      "hint": "Un caffè introduce el pedido; per favore añade cortesía.",
+      "explanation": "Un caffè introduce el pedido; per favore añade cortesía.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "bar",
+        "facets": [
+          "petición"
+        ],
+        "opportunityId": "it-a1-c10-02-chiedi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Un caffè, per favore",
+          "Un caffè, per favore.",
+          "Un caffè per favore",
+          "Un caffè per favore.",
+          "Per favore, un caffè",
+          "Per favore, un caffè.",
+          "Per favore un caffè",
+          "Per favore un caffè."
+        ],
+        "rejected": [
+          "Il caffè, per favore"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c10-02-chiedi",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c10-02-presenta",
+      "version": "2",
+      "conceptId": "it-a1-c10-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Introduci una chiave non ancora identificata: traduci «Tengo una llave» usando chiave, senza io.",
+      "options": [],
+      "hint": "Una chiave presenta un referente nuevo para el interlocutor.",
+      "explanation": "Una chiave presenta un referente nuevo para el interlocutor.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "hotel",
+        "facets": [
+          "introducción"
+        ],
+        "opportunityId": "it-a1-c10-02-presenta:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Ho una chiave",
+          "Ho una chiave."
+        ],
+        "rejected": [
+          "Ho la chiave"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c10-02-presenta",
+        "sourceVersion": "2"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "it-chiave",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "chiave",
+      "displayForm": "chiave",
+      "gloss": "llave",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "chiavi",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C16",
+        "C19",
+        "C23"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c04-04",
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c06-03",
+        "it-a1-c07-02",
+        "it-a1-c08-01",
+        "it-a1-c09-02",
+        "it-a1-c09-03",
+        "it-a1-c10-02",
+        "it-a1-c16-05",
+        "it-a1-c19-01",
+        "it-a1-c19-02",
+        "it-a1-c23-01"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t06",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t23"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-amico",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "amico",
+      "displayForm": "amico",
+      "gloss": "amigo; femenino amica: amiga",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "feminine",
+          "text": "amica",
+          "features": {
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "irregular": false
+        },
+        {
+          "key": "plural",
+          "text": "amici",
+          "features": {
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "irregular": false
+        },
+        {
+          "key": "feminine-plural",
+          "text": "amiche",
+          "features": {
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C04",
+        "C09",
+        "C10",
+        "C11",
+        "C15",
+        "C16",
+        "C20",
+        "C21",
+        "C24",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c04-02",
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c10-01",
+        "it-a1-c11-01",
+        "it-a1-c11-02",
+        "it-a1-c15-01",
+        "it-a1-c16-02",
+        "it-a1-c16-03",
+        "it-a1-c16-04",
+        "it-a1-c16-05",
+        "it-a1-c16-06",
+        "it-a1-c16-08",
+        "it-a1-c20-04",
+        "it-a1-c21-01",
+        "it-a1-c24-01",
+        "it-a1-c24-02",
+        "it-a1-c27-03"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t04",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t11",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t24",
+        "it-a1-t27"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-biglietto",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "biglietto",
+      "displayForm": "biglietto",
+      "gloss": "billete",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "biglietti",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C05",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C13",
+        "C16",
+        "C18",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c01-03",
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c07-01",
+        "it-a1-c08-01",
+        "it-a1-c09-02",
+        "it-a1-c09-03",
+        "it-a1-c10-02",
+        "it-a1-c13-01",
+        "it-a1-c13-03",
+        "it-a1-c16-05",
+        "it-a1-c18-01",
+        "it-a1-c34-06"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t05",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t13",
+        "it-a1-t16",
+        "it-a1-t18",
+        "it-a1-t34"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-caffe",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "caffè",
+      "displayForm": "caffè",
+      "gloss": "café",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "caffè",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C02",
+        "C08",
+        "C10",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C20",
+        "C22",
+        "C25",
+        "C27",
+        "C28",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-02",
+        "it-a1-c01-03",
+        "it-a1-c02-02",
+        "it-a1-c08-02",
+        "it-a1-c10-02",
+        "it-a1-c15-01",
+        "it-a1-c16-06",
+        "it-a1-c17-02",
+        "it-a1-c18-01",
+        "it-a1-c20-05",
+        "it-a1-c22-03",
+        "it-a1-c25-01",
+        "it-a1-c25-02",
+        "it-a1-c27-01",
+        "it-a1-c28-01",
+        "it-a1-c28-02",
+        "it-a1-c31-02",
+        "it-a1-c32-03",
+        "it-a1-c34-03"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t02",
+        "it-a1-t08",
+        "it-a1-t10",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-penna",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "penna",
+      "displayForm": "penna",
+      "gloss": "bolígrafo / pluma para escribir",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "penne",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C16",
+        "C20",
+        "C23",
+        "C24",
+        "C25",
+        "C27",
+        "C28",
+        "C29",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-03",
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c06-02",
+        "it-a1-c07-01",
+        "it-a1-c08-01",
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c09-03",
+        "it-a1-c10-01",
+        "it-a1-c10-02",
+        "it-a1-c11-02",
+        "it-a1-c12-01",
+        "it-a1-c16-05",
+        "it-a1-c20-01",
+        "it-a1-c20-02",
+        "it-a1-c23-01",
+        "it-a1-c24-01",
+        "it-a1-c24-02",
+        "it-a1-c25-02",
+        "it-a1-c27-02",
+        "it-a1-c28-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c34-04"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t05",
+        "it-a1-t06",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t11",
+        "it-a1-t12",
+        "it-a1-t16",
+        "it-a1-t20",
+        "it-a1-t23",
+        "it-a1-t24",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t34"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-letto",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "letto",
+      "displayForm": "letto",
+      "gloss": "cama",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "letti",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C07",
+        "C09",
+        "C10",
+        "C12",
+        "C19",
+        "C20",
+        "C21",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-03",
+        "it-a1-c07-01",
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c09-03",
+        "it-a1-c10-01",
+        "it-a1-c12-01",
+        "it-a1-c19-01",
+        "it-a1-c20-01",
+        "it-a1-c21-01",
+        "it-a1-c34-02"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t07",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t12",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t34"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-per-favore",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "per favore",
+      "displayForm": "per favore",
+      "gloss": "por favor",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C02",
+        "C08",
+        "C10",
+        "C12",
+        "C18",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c02-02",
+        "it-a1-c02-03",
+        "it-a1-c08-02",
+        "it-a1-c10-02",
+        "it-a1-c12-01",
+        "it-a1-c18-01",
+        "it-a1-c27-01"
+      ],
+      "topicIds": [
+        "it-a1-t02",
+        "it-a1-t08",
+        "it-a1-t10",
+        "it-a1-t12",
+        "it-a1-t18",
+        "it-a1-t27"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-studente",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "studente",
+      "displayForm": "studente",
+      "gloss": "estudiante (masculino)",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "studenti",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C15",
+        "C16",
+        "C17",
+        "C21",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c10-01",
+        "it-a1-c11-01",
+        "it-a1-c11-02",
+        "it-a1-c12-01",
+        "it-a1-c15-03",
+        "it-a1-c16-01",
+        "it-a1-c16-07",
+        "it-a1-c17-01",
+        "it-a1-c17-03",
+        "it-a1-c21-01",
+        "it-a1-c21-02",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t11",
+        "it-a1-t12",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t21",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-studentessa",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "studentessa",
+      "displayForm": "studentessa",
+      "gloss": "estudiante (femenino)",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "studentesse",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C09",
+        "C10",
+        "C11",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c09-01",
+        "it-a1-c10-01",
+        "it-a1-c11-01",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t11",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-zaino",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "zaino",
+      "displayForm": "zaino",
+      "gloss": "mochila",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "zaini",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C09",
+        "C10",
+        "C24",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c10-01",
+        "it-a1-c24-02",
+        "it-a1-c34-04"
+      ],
+      "topicIds": [
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t24",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-gnocco",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "gnocco",
+      "displayForm": "gnocco",
+      "gloss": "ñoqui",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "gnocchi",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C09",
+        "C10"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c10-01"
+      ],
+      "topicIds": [
+        "it-a1-t09",
+        "it-a1-t10"
+      ],
+      "examples": [],
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-psicologo",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "psicologo",
+      "displayForm": "psicologo",
+      "gloss": "psicólogo",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "psicologi",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C09",
+        "C10"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c10-01"
+      ],
+      "topicIds": [
+        "it-a1-t09",
+        "it-a1-t10"
+      ],
+      "examples": [],
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-articolo-determinativo",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "il / lo / la / l’ / i / gli / le",
+      "displayForm": "il / lo / la / l’ / i / gli / le",
+      "gloss": "artículo determinado: el, la, los, las",
+      "partOfSpeech": "article",
+      "forms": [],
+      "tags": [
+        "article",
+        "C09",
+        "C10",
+        "C12",
+        "C21",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c09-03",
+        "it-a1-c10-02",
+        "it-a1-c12-01",
+        "it-a1-c21-01",
+        "it-a1-c27-03"
+      ],
+      "topicIds": [
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t12",
+        "it-a1-t21",
+        "it-a1-t27"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-articolo-indeterminativo",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "un / uno / una / un’",
+      "displayForm": "un / uno / una / un’",
+      "gloss": "artículo indeterminado singular: un, una",
+      "partOfSpeech": "article",
+      "forms": [],
+      "tags": [
+        "article",
+        "C09",
+        "C10",
+        "C12"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c09-03",
+        "it-a1-c10-01",
+        "it-a1-c10-02",
+        "it-a1-c12-01"
+      ],
+      "topicIds": [
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t12"
+      ],
+      "examples": []
+    }
+  ],
+  "templates": []
+}

@@ -1,0 +1,2378 @@
+{
+  "concepts": [
+    {
+      "id": "it-a1-c05-01",
+      "version": "1",
+      "topicId": "it-a1-t05",
+      "title": "Il presente di avere",
+      "objective": "Recuperar las seis personas de avere y relacionarlas con el sujeto y su número.",
+      "scope": "Recuperar las seis personas de avere y relacionarlas con el sujeto y su número.",
+      "dimensions": [
+        "comprehension",
+        "retrieval"
+      ],
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "persona",
+        "numero",
+        "h",
+        "sujeto nominal"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c05-02",
+      "version": "1",
+      "topicId": "it-a1-t05",
+      "title": "Ho una chiave",
+      "objective": "Expresar posesión o disponibilidad de objetos cotidianos con avere.",
+      "scope": "Expresar posesión o disponibilidad de objetos cotidianos con avere.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use"
+      ],
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "posesión",
+        "sujeto/objeto",
+        "disponibilidad"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F4",
+        "F7",
+        "F3"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c05-03",
+      "version": "1",
+      "topicId": "it-a1-t05",
+      "title": "Quanti anni hai?",
+      "objective": "Preguntar la edad con la fórmula enseñada y expresarla con avere + número + anni.",
+      "scope": "Preguntar la edad con la fórmula enseñada y expresarla con avere + número + anni.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use"
+      ],
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "edad",
+        "pregunta-fórmula",
+        "años/verbo"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F4",
+        "F3"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c05-04",
+      "version": "1",
+      "topicId": "it-a1-t05",
+      "title": "Ho fame, ho sete",
+      "objective": "Expresar necesidades y sensaciones frecuentes mediante las construcciones enseñadas con avere.",
+      "scope": "Expresar necesidades y sensaciones frecuentes mediante las construcciones enseñadas con avere.",
+      "dimensions": [
+        "comprehension",
+        "contextual-use",
+        "retrieval",
+        "discrimination"
+      ],
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "hambre",
+        "sed",
+        "sueño",
+        "temperatura",
+        "miedo",
+        "essere/avere"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F4",
+        "F2"
+      ],
+      "coverage": "complete"
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c05-01",
+      "version": "theory-c05-01-1",
+      "conceptId": "it-a1-c05-01",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Il presente di avere",
+      "goal": "Recuperar las seis personas de avere y relacionarlas con el sujeto y su número.",
+      "introduction": "Avere es irregular. Aprende ho, hai, ha, abbiamo, avete y hanno como formas de un mismo verbo; sus usos se practican en las siguientes fichas.",
+      "rules": [
+        "Ho, hai, ha y hanno llevan h inicial aunque esa h no se pronuncia. No son intercambiables con o, ai, a y anno.",
+        "Con un nombre singular como Anna se usa ha; con Anna e Luca, hanno. Noi incluye al hablante y requiere abbiamo."
+      ],
+      "forms": [
+        [
+          "io ho",
+          "yo tengo"
+        ],
+        [
+          "tu hai",
+          "tú tienes"
+        ],
+        [
+          "lui / lei ha",
+          "él / ella tiene"
+        ],
+        [
+          "noi abbiamo",
+          "nosotros tenemos"
+        ],
+        [
+          "voi avete",
+          "vosotros tenéis / ustedes tienen"
+        ],
+        [
+          "loro hanno",
+          "ellos / ellas tienen"
+        ]
+      ],
+      "examples": [
+        [
+          "Ho una chiave.",
+          "Tengo una llave."
+        ],
+        [
+          "Anna ha una penna.",
+          "Anna tiene un bolígrafo."
+        ],
+        [
+          "Anna e Luca hanno due biglietti.",
+          "Anna y Luca tienen dos billetes."
+        ]
+      ],
+      "frequentErrors": [
+        "«Noi hanno» no concuerda con noi. Anno significa año; hanno es el verbo de loro."
+      ],
+      "usageNotes": [
+        "Aquí avere se usa como verbo con significado propio; su función de auxiliar del pasado se estudiará en C32."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-avere",
+        "it-io",
+        "it-tu",
+        "it-lui",
+        "it-lei",
+        "it-noi",
+        "it-voi",
+        "it-loro",
+        "it-chiave",
+        "it-penna",
+        "it-biglietto",
+        "it-due",
+        "it-anno"
+      ]
+    },
+    {
+      "id": "it-a1-theory-c05-02",
+      "version": "theory-c05-02-1",
+      "conceptId": "it-a1-c05-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Ho una chiave",
+      "goal": "Expresar posesión o disponibilidad de objetos cotidianos con avere.",
+      "introduction": "Avere permite decir qué tienes. En estas actividades los objetos y sus formas se enseñan de antemano, para centrar la práctica en la relación entre persona, verbo y objeto.",
+      "rules": [
+        "Ho una chiave expresa que tienes una llave. La persona que tiene el objeto determina la forma de avere.",
+        "Noi abbiamo una chiave y io ho due chiavi muestran que el número de objetos no decide la forma del verbo: la decide el sujeto."
+      ],
+      "forms": [
+        [
+          "una chiave / due chiavi",
+          "una llave / dos llaves"
+        ],
+        [
+          "una penna / due penne",
+          "un bolígrafo / dos bolígrafos"
+        ],
+        [
+          "un biglietto / due biglietti",
+          "un billete / dos billetes"
+        ]
+      ],
+      "examples": [
+        [
+          "Ho due biglietti.",
+          "Tengo dos billetes."
+        ],
+        [
+          "Anna ha una chiave.",
+          "Anna tiene una llave."
+        ],
+        [
+          "Abbiamo una penna.",
+          "Tenemos un bolígrafo."
+        ]
+      ],
+      "frequentErrors": [
+        "No uses sono para decir que tienes una llave. No cambies ho por hanno solo porque haya dos objetos."
+      ],
+      "usageNotes": [
+        "Un/una y los plurales aparecen como grupos ya proporcionados. Su formación sistemática llegará en C07–C10."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-avere",
+        "it-chiave",
+        "it-penna",
+        "it-biglietto",
+        "it-due"
+      ]
+    },
+    {
+      "id": "it-a1-theory-c05-03",
+      "version": "theory-c05-03-1",
+      "conceptId": "it-a1-c05-03",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Quanti anni hai?",
+      "goal": "Preguntar la edad con la fórmula enseñada y expresarla con avere + número + anni.",
+      "introduction": "En italiano la edad se expresa con avere, como tener en español. Aprende Quanti anni hai? como pregunta completa y practica respuestas sobre ti y otras personas.",
+      "rules": [
+        "Ho 20 anni expresa edad. Cambia avere según la persona: Anna ha 30 anni; loro hanno 40 anni.",
+        "En las expresiones escritas vent’anni y trent’anni aparece un apóstrofo. También puedes escribir la edad con cifras: 20 anni, 30 anni. No confundas anni (años) con hanno (tienen)."
+      ],
+      "forms": [
+        [
+          "20 / venti",
+          "veinte"
+        ],
+        [
+          "30 / trenta",
+          "treinta"
+        ],
+        [
+          "40 / quaranta",
+          "cuarenta"
+        ],
+        [
+          "ho 20 anni / ho vent’anni",
+          "tengo veinte años"
+        ],
+        [
+          "quanti anni hai?",
+          "¿cuántos años tienes?"
+        ]
+      ],
+      "examples": [
+        [
+          "Ho 20 anni.",
+          "Tengo veinte años."
+        ],
+        [
+          "Anna ha 30 anni.",
+          "Anna tiene treinta años."
+        ],
+        [
+          "Quanti anni hai? Ho 40 anni.",
+          "¿Cuántos años tienes? Tengo cuarenta años."
+        ]
+      ],
+      "frequentErrors": [
+        "«Sono 20 anni» no expresa tu edad personal en esta presentación. Hanno es verbo, anni es el nombre que sigue al número."
+      ],
+      "usageNotes": [
+        "Las edades se proporcionan; no se infiere información real del usuario. El repertorio completo de números corresponde a C13."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-avere",
+        "it-anno",
+        "it-venti",
+        "it-trenta",
+        "it-quaranta",
+        "it-quanti-anni"
+      ]
+    },
+    {
+      "id": "it-a1-theory-c05-04",
+      "version": "theory-c05-04-1",
+      "conceptId": "it-a1-c05-04",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Ho fame, ho sete",
+      "goal": "Expresar necesidades y sensaciones frecuentes mediante las construcciones enseñadas con avere.",
+      "introduction": "Avere no solo expresa posesión. En expresiones como ho fame o ho sonno, comunica una necesidad o sensación. Aprende la combinación completa, sin traducir palabra por palabra.",
+      "rules": [
+        "Se usan avere fame (hambre), sete (sed), sonno (sueño), caldo (calor), freddo (frío) y paura (miedo). En las expresiones básicas mostradas no se añade artículo.",
+        "Cambia el verbo según la persona: io ho fame, Anna ha sete, noi abbiamo freddo. La necesidad o sensación se mantiene."
+      ],
+      "forms": [
+        [
+          "ho fame / ho sete",
+          "tengo hambre / tengo sed"
+        ],
+        [
+          "ho sonno",
+          "tengo sueño"
+        ],
+        [
+          "ho caldo / ho freddo",
+          "tengo calor / tengo frío"
+        ],
+        [
+          "ho paura",
+          "tengo miedo"
+        ]
+      ],
+      "examples": [
+        [
+          "Ho sete.",
+          "Tengo sed."
+        ],
+        [
+          "Anna ha sonno.",
+          "Anna tiene sueño."
+        ],
+        [
+          "Abbiamo freddo.",
+          "Tenemos frío."
+        ]
+      ],
+      "frequentErrors": [
+        "«Sono fame» no expresa tengo hambre. En cambio, «sono stanco» sí usa essere con un adjetivo: aprende la construcción correspondiente."
+      ],
+      "usageNotes": [
+        "Estas frases expresan sensaciones, no diagnósticos. No se generaliza que cualquier estado use avere; las combinaciones nuevas deberán aprenderse y revisarse por separado."
+      ],
+      "exceptions": [],
+      "contrasts": [
+        {
+          "conceptId": "it-a1-c04-05",
+          "explanation": "Ho sonno expresa sueño con avere; sono stanco expresa cansancio con essere. No son una regla universal para todos los estados."
+        }
+      ],
+      "vocabularyIds": [
+        "it-avere",
+        "it-fame",
+        "it-sete",
+        "it-sonno",
+        "it-caldo",
+        "it-freddo",
+        "it-paura",
+        "it-stanco"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c05-01-io",
+      "version": "1",
+      "conceptId": "it-a1-c05-01",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Io ___ una penna.",
+      "options": [
+        "ho",
+        "ha",
+        "hanno"
+      ],
+      "hint": "Primera persona singular.",
+      "explanation": "Io ho lleva h inicial y concuerda con io.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "estudio",
+        "facets": [
+          "persona",
+          "h"
+        ],
+        "opportunityId": "it-a1-c05-01-io:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "ho"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c05-01-io",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c05-01-tu",
+      "version": "1",
+      "conceptId": "it-a1-c05-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Tu ___ una chiave. Completa con avere.",
+      "options": [],
+      "hint": "Segunda persona singular, con h.",
+      "explanation": "Tu hai es la forma correspondiente a tu.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "hotel",
+        "facets": [
+          "persona",
+          "h"
+        ],
+        "opportunityId": "it-a1-c05-01-tu:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "hai"
+        ],
+        "rejected": [
+          "ai",
+          "ha",
+          "ho"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c05-01-tu",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c05-01-nominale",
+      "version": "2",
+      "conceptId": "it-a1-c05-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Trasforma «Anna ha una chiave»: usa i nomi Anna e Luca come soggetto.",
+      "options": [],
+      "hint": "Cambia ha por la forma plural.",
+      "explanation": "Anna e Luca es un sujeto plural y requiere hanno. El objeto puede seguir siendo una sola llave compartida.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "hotel",
+        "facets": [
+          "sujeto nominal",
+          "numero"
+        ],
+        "opportunityId": "it-a1-c05-01-nominale:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Anna e Luca hanno una chiave",
+          "Anna e Luca hanno una chiave.",
+          "Luca e Anna hanno una chiave",
+          "Luca e Anna hanno una chiave."
+        ],
+        "rejected": [
+          "Anna e Luca ha una chiave"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c05-01-nominale",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c05-02-possesso",
+      "version": "1",
+      "conceptId": "it-a1-c05-02",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Vuoi dire «Tengo una llave». Scegli.",
+      "options": [
+        "Ho una chiave",
+        "Sono una chiave",
+        "Hai una chiave"
+      ],
+      "hint": "Quien habla tiene el objeto.",
+      "explanation": "Ho una chiave expresa posesión o disponibilidad de la llave.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "hotel",
+        "facets": [
+          "posesión"
+        ],
+        "opportunityId": "it-a1-c05-02-possesso:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Ho una chiave"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c05-02-possesso",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c05-02-biglietti",
+      "version": "1",
+      "conceptId": "it-a1-c05-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Io ___ due biglietti. Completa con avere.",
+      "options": [],
+      "hint": "Mira el sujeto io, no los dos billetes.",
+      "explanation": "Io ho sigue siendo singular aunque el objeto sea plural.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "transporte",
+        "facets": [
+          "sujeto/objeto"
+        ],
+        "opportunityId": "it-a1-c05-02-biglietti:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "ho"
+        ],
+        "rejected": [
+          "hanno",
+          "sono"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c05-02-biglietti",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c05-02-penna",
+      "version": "1",
+      "conceptId": "it-a1-c05-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Per scrivere: comunica «Tengo un bolígrafo» usando una penna.",
+      "options": [],
+      "hint": "Ho + el objeto proporcionado.",
+      "explanation": "Ho una penna indica que dispones del bolígrafo.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "estudio",
+        "facets": [
+          "disponibilidad"
+        ],
+        "opportunityId": "it-a1-c05-02-penna:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "ho una penna",
+          "ho una penna.",
+          "io ho una penna",
+          "io ho una penna."
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c05-02-penna",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c05-02-anna",
+      "version": "1",
+      "conceptId": "it-a1-c05-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci «Anna tiene dos billetes» usando due biglietti.",
+      "options": [],
+      "hint": "Anna es singular.",
+      "explanation": "Anna ha due biglietti concuerda el verbo con Anna, no con biglietti.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "transporte",
+        "facets": [
+          "posesión",
+          "sujeto/objeto"
+        ],
+        "opportunityId": "it-a1-c05-02-anna:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Anna ha due biglietti",
+          "Anna ha due biglietti."
+        ],
+        "rejected": [
+          "Anna hanno due biglietti"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c05-02-anna",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c05-02-ordina",
+      "version": "1",
+      "conceptId": "it-a1-c05-02",
+      "conceptVersion": "1",
+      "family": "F7",
+      "format": "ordering",
+      "prompt": "Ordina per dire «Tenemos una llave», iniziando da noi.",
+      "options": [
+        "chiave",
+        "abbiamo",
+        "noi",
+        "una"
+      ],
+      "hint": "Primero sujeto, después verbo y objeto.",
+      "explanation": "Noi abbiamo una chiave reúne quién tiene y qué tiene.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "hotel",
+        "facets": [
+          "posesión"
+        ],
+        "opportunityId": "it-a1-c05-02-ordina:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "noi abbiamo una chiave"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c05-02-ordina",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c05-02-correggi",
+      "version": "2",
+      "conceptId": "it-a1-c05-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Per dire «Tengo una llave», riscrivi la frase cambiando solo il verbo: «Sono una chiave».",
+      "options": [],
+      "hint": "Se trata de posesión, no identidad.",
+      "explanation": "Ho una chiave expresa posesión. Sono una chiave identificaría al hablante como una llave.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "hotel",
+        "facets": [
+          "posesión"
+        ],
+        "opportunityId": "it-a1-c05-02-correggi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "ho una chiave",
+          "ho una chiave."
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c05-02-correggi",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c05-03-eta",
+      "version": "1",
+      "conceptId": "it-a1-c05-03",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Scegli la frase per «Tengo veinte años».",
+      "options": [
+        "Ho 20 anni",
+        "Sono 20 anni",
+        "Ho 20 hanno"
+      ],
+      "hint": "La edad personal usa avere.",
+      "explanation": "Ho 20 anni es la construcción para expresar esta edad.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "presentación",
+        "facets": [
+          "edad"
+        ],
+        "opportunityId": "it-a1-c05-03-eta:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Ho 20 anni"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c05-03-eta",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c05-03-risposta",
+      "version": "1",
+      "conceptId": "it-a1-c05-03",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Quanti anni hai? Hai 20 anni. Rispondi usando 20 in cifre.",
+      "options": [],
+      "hint": "Responde sobre ti, con ho.",
+      "explanation": "Ho 20 anni responde a la pregunta con la forma de primera persona.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "presentación",
+        "facets": [
+          "edad"
+        ],
+        "opportunityId": "it-a1-c05-03-risposta:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "ho 20 anni",
+          "ho 20 anni.",
+          "io ho 20 anni",
+          "io ho 20 anni."
+        ],
+        "rejected": [
+          "sono 20 anni"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c05-03-risposta",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c05-03-quanti",
+      "version": "2",
+      "conceptId": "it-a1-c05-03",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Chiedi l’età a un amico (tu): Quanti anni ___?",
+      "options": [],
+      "hint": "Preguntas a una persona con trato informal.",
+      "explanation": "Quanti anni hai? pregunta la edad con avere.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "conversación",
+        "facets": [
+          "pregunta-fórmula"
+        ],
+        "opportunityId": "it-a1-c05-03-quanti:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "hai"
+        ],
+        "rejected": [
+          "sei",
+          "ho"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c05-03-quanti",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c05-03-loro",
+      "version": "2",
+      "conceptId": "it-a1-c05-03",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Anna e Luca hanno entrambi 40 anni. Scrivi la frase usando loro e 40 in cifre.",
+      "options": [],
+      "hint": "Loro requiere hanno.",
+      "explanation": "Loro hanno 40 anni puede decir que ambos tienen esa edad, como aclara el contexto.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "familia",
+        "facets": [
+          "edad"
+        ],
+        "opportunityId": "it-a1-c05-03-loro:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "loro hanno 40 anni",
+          "loro hanno 40 anni.",
+          "loro hanno entrambi 40 anni",
+          "loro hanno entrambi 40 anni."
+        ],
+        "rejected": [
+          "loro ha 40 anni"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c05-03-loro",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c05-03-trenta",
+      "version": "1",
+      "conceptId": "it-a1-c05-03",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Scrivi «Tengo treinta años», con il numero in lettere.",
+      "options": [],
+      "hint": "Usa ho y la expresión trent’anni.",
+      "explanation": "Ho trent’anni expresa edad con avere. También se admite la forma sin elisión, trenta anni.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "presentación",
+        "facets": [
+          "edad"
+        ],
+        "opportunityId": "it-a1-c05-03-trenta:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "ho trent'anni",
+          "ho trent'anni.",
+          "ho trent’anni",
+          "ho trent’anni.",
+          "ho trenta anni",
+          "ho trenta anni.",
+          "io ho trent'anni",
+          "io ho trent'anni.",
+          "io ho trent’anni",
+          "io ho trent’anni.",
+          "io ho trenta anni",
+          "io ho trenta anni."
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c05-03-trenta",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c05-04-fame",
+      "version": "1",
+      "conceptId": "it-a1-c05-04",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Vuoi mangiare: scegli «Tengo hambre».",
+      "options": [
+        "Ho fame",
+        "Sono fame",
+        "Ho sonno"
+      ],
+      "hint": "La palabra fame significa hambre.",
+      "explanation": "Ho fame expresa esta necesidad con avere.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "restaurante",
+        "facets": [
+          "hambre"
+        ],
+        "opportunityId": "it-a1-c05-04-fame:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Ho fame"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c05-04-fame",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c05-04-sete",
+      "version": "1",
+      "conceptId": "it-a1-c05-04",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Vuoi bere: scrivi «Tengo sed» con la formula studiata.",
+      "options": [],
+      "hint": "Usa ho y sete.",
+      "explanation": "Ho sete combina avere con sete.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "bar",
+        "facets": [
+          "sed"
+        ],
+        "opportunityId": "it-a1-c05-04-sete:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "ho sete",
+          "ho sete.",
+          "io ho sete",
+          "io ho sete."
+        ],
+        "rejected": [
+          "sono sete"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c05-04-sete",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c05-04-sonno",
+      "version": "1",
+      "conceptId": "it-a1-c05-04",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Anna ___ sonno. Completa con avere.",
+      "options": [],
+      "hint": "Anna es singular.",
+      "explanation": "Anna ha sonno expresa que tiene sueño.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "hotel",
+        "facets": [
+          "sueño"
+        ],
+        "opportunityId": "it-a1-c05-04-sonno:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "ha"
+        ],
+        "rejected": [
+          "è",
+          "a"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c05-04-sonno",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c05-04-freddo",
+      "version": "1",
+      "conceptId": "it-a1-c05-04",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci «Tenemos frío» usando freddo.",
+      "options": [],
+      "hint": "Usa avere con noi.",
+      "explanation": "Abbiamo freddo expresa la sensación de frío del grupo.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "viaje",
+        "facets": [
+          "temperatura"
+        ],
+        "opportunityId": "it-a1-c05-04-freddo:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "abbiamo freddo",
+          "abbiamo freddo.",
+          "noi abbiamo freddo",
+          "noi abbiamo freddo."
+        ],
+        "rejected": [
+          "siamo freddo"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c05-04-freddo",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c05-04-paura",
+      "version": "1",
+      "conceptId": "it-a1-c05-04",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "Scrivi «Tengo miedo» usando paura.",
+      "options": [],
+      "hint": "Avere + paura.",
+      "explanation": "Ho paura expresa miedo en esta construcción.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "necesidades personales",
+        "facets": [
+          "miedo"
+        ],
+        "opportunityId": "it-a1-c05-04-paura:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "ho paura",
+          "ho paura.",
+          "io ho paura",
+          "io ho paura."
+        ],
+        "rejected": [
+          "sono paura"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c05-04-paura",
+        "sourceVersion": "1"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "it-io",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "io",
+      "displayForm": "io",
+      "gloss": "yo",
+      "partOfSpeech": "pronoun",
+      "number": "singular",
+      "forms": [],
+      "tags": [
+        "personas",
+        "C03",
+        "C04",
+        "C05",
+        "C26"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c26-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t26"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-tu",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "tu",
+      "displayForm": "tu",
+      "gloss": "tú",
+      "partOfSpeech": "pronoun",
+      "number": "singular",
+      "forms": [],
+      "tags": [
+        "personas",
+        "C03",
+        "C04",
+        "C05",
+        "C18",
+        "C26"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c18-02",
+        "it-a1-c26-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t18",
+        "it-a1-t26"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-noi",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "noi",
+      "displayForm": "noi",
+      "gloss": "nosotros / nosotras",
+      "partOfSpeech": "pronoun",
+      "number": "plural",
+      "forms": [],
+      "tags": [
+        "personas",
+        "C03",
+        "C04",
+        "C05",
+        "C20",
+        "C26",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c20-04",
+        "it-a1-c26-01",
+        "it-a1-c28-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t20",
+        "it-a1-t26",
+        "it-a1-t28"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-chiave",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "chiave",
+      "displayForm": "chiave",
+      "gloss": "llave",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "chiavi",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C16",
+        "C19",
+        "C23"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c04-04",
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c06-03",
+        "it-a1-c07-02",
+        "it-a1-c08-01",
+        "it-a1-c09-02",
+        "it-a1-c09-03",
+        "it-a1-c10-02",
+        "it-a1-c16-05",
+        "it-a1-c19-01",
+        "it-a1-c19-02",
+        "it-a1-c23-01"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t06",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t23"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-biglietto",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "biglietto",
+      "displayForm": "biglietto",
+      "gloss": "billete",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "biglietti",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C05",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C13",
+        "C16",
+        "C18",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c01-03",
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c07-01",
+        "it-a1-c08-01",
+        "it-a1-c09-02",
+        "it-a1-c09-03",
+        "it-a1-c10-02",
+        "it-a1-c13-01",
+        "it-a1-c13-03",
+        "it-a1-c16-05",
+        "it-a1-c18-01",
+        "it-a1-c34-06"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t05",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t13",
+        "it-a1-t16",
+        "it-a1-t18",
+        "it-a1-t34"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-penna",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "penna",
+      "displayForm": "penna",
+      "gloss": "bolígrafo / pluma para escribir",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "penne",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C16",
+        "C20",
+        "C23",
+        "C24",
+        "C25",
+        "C27",
+        "C28",
+        "C29",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-03",
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c06-02",
+        "it-a1-c07-01",
+        "it-a1-c08-01",
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c09-03",
+        "it-a1-c10-01",
+        "it-a1-c10-02",
+        "it-a1-c11-02",
+        "it-a1-c12-01",
+        "it-a1-c16-05",
+        "it-a1-c20-01",
+        "it-a1-c20-02",
+        "it-a1-c23-01",
+        "it-a1-c24-01",
+        "it-a1-c24-02",
+        "it-a1-c25-02",
+        "it-a1-c27-02",
+        "it-a1-c28-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c34-04"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t05",
+        "it-a1-t06",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t11",
+        "it-a1-t12",
+        "it-a1-t16",
+        "it-a1-t20",
+        "it-a1-t23",
+        "it-a1-t24",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t34"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-lui",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "lui",
+      "displayForm": "lui",
+      "gloss": "él",
+      "partOfSpeech": "pronoun",
+      "forms": [],
+      "tags": [
+        "pronoun",
+        "C03",
+        "C04",
+        "C05",
+        "C20",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c20-04",
+        "it-a1-c28-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t20",
+        "it-a1-t28"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-lei",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "lei",
+      "displayForm": "lei",
+      "gloss": "ella; usted en trato cortés",
+      "partOfSpeech": "pronoun",
+      "forms": [],
+      "tags": [
+        "pronoun",
+        "C03",
+        "C04",
+        "C05",
+        "C18",
+        "C20",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c18-02",
+        "it-a1-c20-04",
+        "it-a1-c28-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t18",
+        "it-a1-t20",
+        "it-a1-t28"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-voi",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "voi",
+      "displayForm": "voi",
+      "gloss": "vosotros / vosotras / ustedes",
+      "partOfSpeech": "pronoun",
+      "forms": [],
+      "tags": [
+        "pronoun",
+        "C03",
+        "C04",
+        "C05",
+        "C20",
+        "C26",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c20-04",
+        "it-a1-c26-01",
+        "it-a1-c28-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t20",
+        "it-a1-t26",
+        "it-a1-t28"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-loro",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "loro",
+      "displayForm": "loro",
+      "gloss": "ellos / ellas; su/sus de ellos o ellas, posesivo invariable",
+      "partOfSpeech": "pronoun",
+      "forms": [
+        {
+          "key": "possessive",
+          "text": "loro",
+          "features": {
+            "use": "possessive"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "pronoun",
+        "C03",
+        "C04",
+        "C05",
+        "C20",
+        "C23",
+        "C26",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c20-04",
+        "it-a1-c23-01",
+        "it-a1-c23-02",
+        "it-a1-c26-01",
+        "it-a1-c28-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t20",
+        "it-a1-t23",
+        "it-a1-t26",
+        "it-a1-t28"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-stanco",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "stanco",
+      "displayForm": "stanco",
+      "gloss": "cansado",
+      "partOfSpeech": "adjective",
+      "forms": [
+        {
+          "key": "feminine",
+          "text": "stanca",
+          "features": {
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "adjective",
+        "C04",
+        "C05",
+        "C11",
+        "C16",
+        "C29"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-05",
+        "it-a1-c05-04",
+        "it-a1-c11-01",
+        "it-a1-c16-03",
+        "it-a1-c29-03"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t11",
+        "it-a1-t16",
+        "it-a1-t29"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-avere",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "avere",
+      "displayForm": "avere",
+      "gloss": "tener; auxiliar del passato prossimo en las construcciones enseñadas",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "ho",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "hai",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "ha",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "abbiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "avete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "hanno",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C05",
+        "C06",
+        "C13",
+        "C18",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c05-03",
+        "it-a1-c05-04",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c06-03",
+        "it-a1-c13-03",
+        "it-a1-c18-02",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c34-07"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t06",
+        "it-a1-t13",
+        "it-a1-t18",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-due",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "due",
+      "displayForm": "due",
+      "gloss": "dos",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C05",
+        "C08",
+        "C13",
+        "C19",
+        "C20",
+        "C22",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c08-01",
+        "it-a1-c08-02",
+        "it-a1-c13-01",
+        "it-a1-c13-03",
+        "it-a1-c19-01",
+        "it-a1-c19-02",
+        "it-a1-c20-02",
+        "it-a1-c20-06",
+        "it-a1-c22-01",
+        "it-a1-c22-02",
+        "it-a1-c22-04",
+        "it-a1-c27-03"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t08",
+        "it-a1-t13",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t27"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-anno",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "anno",
+      "displayForm": "anno",
+      "gloss": "año",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "anni",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C05",
+        "C13",
+        "C20"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-01",
+        "it-a1-c05-03",
+        "it-a1-c13-01",
+        "it-a1-c13-03",
+        "it-a1-c20-06"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t13",
+        "it-a1-t20"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-venti",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "venti",
+      "displayForm": "venti",
+      "gloss": "veinte",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C05",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-03",
+        "it-a1-c13-01",
+        "it-a1-c13-03"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t13"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-trenta",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "trenta",
+      "displayForm": "trenta",
+      "gloss": "treinta",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C05",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-03",
+        "it-a1-c13-01",
+        "it-a1-c13-03"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t13"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-quaranta",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "quaranta",
+      "displayForm": "quaranta",
+      "gloss": "cuarenta",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C05",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-03",
+        "it-a1-c13-01"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t13"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-quanti-anni",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "quanti anni hai?",
+      "displayForm": "quanti anni hai?",
+      "gloss": "¿cuántos años tienes?",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C05",
+        "C06"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-03",
+        "it-a1-c06-03"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t06"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-fame",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "fame",
+      "displayForm": "fame",
+      "gloss": "hambre",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C05",
+        "C06",
+        "C29"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-04",
+        "it-a1-c06-01",
+        "it-a1-c29-03"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t06",
+        "it-a1-t29"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-sete",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "sete",
+      "displayForm": "sete",
+      "gloss": "sed",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C05",
+        "C29"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-04",
+        "it-a1-c29-03"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t29"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-sonno",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "sonno",
+      "displayForm": "sonno",
+      "gloss": "sueño, ganas de dormir",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C05",
+        "C06",
+        "C09"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-04",
+        "it-a1-c06-01",
+        "it-a1-c09-01"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t06",
+        "it-a1-t09"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-caldo",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "caldo",
+      "displayForm": "caldo",
+      "gloss": "calor, en avere caldo",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C05"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-04"
+      ],
+      "topicIds": [
+        "it-a1-t05"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-freddo",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "freddo",
+      "displayForm": "freddo",
+      "gloss": "frío, en avere freddo",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C05"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-04"
+      ],
+      "topicIds": [
+        "it-a1-t05"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-paura",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "paura",
+      "displayForm": "paura",
+      "gloss": "miedo",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C05"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-04"
+      ],
+      "topicIds": [
+        "it-a1-t05"
+      ],
+      "examples": []
+    }
+  ],
+  "templates": [
+    {
+      "id": "it-avere-present-cloze",
+      "version": "2",
+      "family": "F2",
+      "format": "cloze",
+      "concept": {
+        "id": "it-a1-c05-01",
+        "version": "1"
+      },
+      "objective": "Recuperar formas del paradigma en los sujetos y contextos explícitos.",
+      "constraints": [
+        "Solo fuentes versionadas y sujetos escritos en cada consigna.",
+        "Respuesta única idéntica a la forma léxica canónica; sin permutación de contextos."
+      ],
+      "variants": [
+        {
+          "key": "tu",
+          "source": {
+            "id": "it-a1-c05-01-tu",
+            "version": "1"
+          },
+          "vocabulary": [
+            {
+              "id": "it-avere",
+              "version": "2"
+            }
+          ],
+          "answerFrom": {
+            "entryId": "it-avere",
+            "formKey": "tu"
+          }
+        },
+        {
+          "key": "lui-lei",
+          "source": {
+            "id": "it-a1-c05-01-lei",
+            "version": "1"
+          },
+          "vocabulary": [
+            {
+              "id": "it-avere",
+              "version": "2"
+            }
+          ],
+          "answerFrom": {
+            "entryId": "it-avere",
+            "formKey": "lui-lei"
+          }
+        },
+        {
+          "key": "noi",
+          "source": {
+            "id": "it-a1-c05-01-noi",
+            "version": "1"
+          },
+          "vocabulary": [
+            {
+              "id": "it-avere",
+              "version": "2"
+            }
+          ],
+          "answerFrom": {
+            "entryId": "it-avere",
+            "formKey": "noi"
+          }
+        },
+        {
+          "key": "voi",
+          "source": {
+            "id": "it-a1-c05-01-voi",
+            "version": "1"
+          },
+          "vocabulary": [
+            {
+              "id": "it-avere",
+              "version": "2"
+            }
+          ],
+          "answerFrom": {
+            "entryId": "it-avere",
+            "formKey": "voi"
+          }
+        },
+        {
+          "key": "loro",
+          "source": {
+            "id": "it-a1-c05-01-loro",
+            "version": "1"
+          },
+          "vocabulary": [
+            {
+              "id": "it-avere",
+              "version": "2"
+            }
+          ],
+          "answerFrom": {
+            "entryId": "it-avere",
+            "formKey": "loro"
+          }
+        }
+      ]
+    }
+  ]
+}

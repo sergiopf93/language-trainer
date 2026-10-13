@@ -1,0 +1,1918 @@
+{
+  "baseline": "5c122d7",
+  "selectionRule": "All 42 changed activities; at least one activity per concept and format; all translation, controlled-production, error-correction and transformation items; each existing family.",
+  "conceptIds": [
+    "it-a1-c01-01",
+    "it-a1-c01-02",
+    "it-a1-c01-03",
+    "it-a1-c02-01",
+    "it-a1-c02-02",
+    "it-a1-c02-03",
+    "it-a1-c03-01",
+    "it-a1-c03-02",
+    "it-a1-c04-01",
+    "it-a1-c04-02",
+    "it-a1-c04-03",
+    "it-a1-c04-04",
+    "it-a1-c04-05",
+    "it-a1-c05-01",
+    "it-a1-c05-02",
+    "it-a1-c05-03",
+    "it-a1-c05-04",
+    "it-a1-c06-01",
+    "it-a1-c06-02",
+    "it-a1-c06-03",
+    "it-a1-c07-01",
+    "it-a1-c07-02",
+    "it-a1-c08-01",
+    "it-a1-c08-02",
+    "it-a1-c09-01",
+    "it-a1-c09-02",
+    "it-a1-c09-03",
+    "it-a1-c10-01",
+    "it-a1-c10-02"
+  ],
+  "theoryIds": [
+    "it-a1-theory-c01-01",
+    "it-a1-theory-c01-02",
+    "it-a1-theory-c01-03",
+    "it-a1-theory-c02-01",
+    "it-a1-theory-c02-02",
+    "it-a1-theory-c02-03",
+    "it-a1-theory-c03",
+    "it-a1-theory-c03-02",
+    "it-a1-theory-c04",
+    "it-a1-theory-c04-02",
+    "it-a1-theory-c04-03",
+    "it-a1-theory-c04-04",
+    "it-a1-theory-c04-05",
+    "it-a1-theory-c05-01",
+    "it-a1-theory-c05-02",
+    "it-a1-theory-c05-03",
+    "it-a1-theory-c05-04",
+    "it-a1-theory-c06-01",
+    "it-a1-theory-c06-02",
+    "it-a1-theory-c06-03",
+    "it-a1-theory-c07-01",
+    "it-a1-theory-c07-02",
+    "it-a1-theory-c08-01",
+    "it-a1-theory-c08-02",
+    "it-a1-theory-c09-01",
+    "it-a1-theory-c09-02",
+    "it-a1-theory-c09-03",
+    "it-a1-theory-c10-01",
+    "it-a1-theory-c10-02"
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c01-01-chiave",
+      "conceptId": "it-a1-c01-01",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage",
+        "family-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c01-01-ciao",
+      "conceptId": "it-a1-c01-01",
+      "format": "short",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage",
+        "family-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c01-01-amiche",
+      "conceptId": "it-a1-c01-01",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c01-01-spaghetti",
+      "conceptId": "it-a1-c01-01",
+      "format": "error-correction",
+      "family": "F3",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk",
+        "family-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c01-01-famiglia",
+      "conceptId": "it-a1-c01-01",
+      "format": "error-correction",
+      "family": "F3",
+      "reasons": [
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c01-02-e",
+      "conceptId": "it-a1-c01-02",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c01-02-essere",
+      "conceptId": "it-a1-c01-02",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c01-02-caffe",
+      "conceptId": "it-a1-c01-02",
+      "format": "error-correction",
+      "family": "F3",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c01-02-citta",
+      "conceptId": "it-a1-c01-02",
+      "format": "short",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c01-02-contrast",
+      "conceptId": "it-a1-c01-02",
+      "format": "error-detection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c01-03-penna",
+      "conceptId": "it-a1-c01-03",
+      "format": "short",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c01-03-letto",
+      "conceptId": "it-a1-c01-03",
+      "format": "error-correction",
+      "family": "F3",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c01-03-caffe",
+      "conceptId": "it-a1-c01-03",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c01-03-pena",
+      "conceptId": "it-a1-c01-03",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c02-01-hotel-mattina",
+      "conceptId": "it-a1-c02-01",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c02-01-amica",
+      "conceptId": "it-a1-c02-01",
+      "format": "short",
+      "family": "F2",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c02-01-sera",
+      "conceptId": "it-a1-c02-01",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c02-01-uscita",
+      "conceptId": "it-a1-c02-01",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage",
+        "open-response-risk",
+        "family-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c02-02-grazie",
+      "conceptId": "it-a1-c02-02",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c02-02-prego",
+      "conceptId": "it-a1-c02-02",
+      "format": "short",
+      "family": "F2",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c02-02-favore",
+      "conceptId": "it-a1-c02-02",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c02-02-scusi",
+      "conceptId": "it-a1-c02-02",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c02-02-scusa",
+      "conceptId": "it-a1-c02-02",
+      "format": "short",
+      "family": "F2",
+      "reasons": [
+        "mandatory-changed-item"
+      ]
+    },
+    {
+      "id": "it-a1-c02-02-dialogo",
+      "conceptId": "it-a1-c02-02",
+      "format": "matching",
+      "family": "F7",
+      "reasons": [
+        "concept-format-coverage",
+        "family-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c02-02-petizione",
+      "conceptId": "it-a1-c02-02",
+      "format": "ordering",
+      "family": "F7",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c02-03-intenzione",
+      "conceptId": "it-a1-c02-03",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c02-03-ripetere",
+      "conceptId": "it-a1-c02-03",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c02-03-formula",
+      "conceptId": "it-a1-c02-03",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c02-03-lentamente",
+      "conceptId": "it-a1-c02-03",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "mandatory-changed-item"
+      ]
+    },
+    {
+      "id": "it-a1-c02-03-amico",
+      "conceptId": "it-a1-c02-03",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "mandatory-changed-item",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c03-01-io",
+      "conceptId": "it-a1-c03-01",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c03-01-tu",
+      "conceptId": "it-a1-c03-01",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c03-01-noi",
+      "conceptId": "it-a1-c03-01",
+      "format": "short",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c03-01-voi-noi",
+      "conceptId": "it-a1-c03-01",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c03-02-presentazione",
+      "conceptId": "it-a1-c03-02",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c03-02-ometti",
+      "conceptId": "it-a1-c03-02",
+      "format": "transformation",
+      "family": "F3",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c03-02-esplicita",
+      "conceptId": "it-a1-c03-02",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c03-02-noi",
+      "conceptId": "it-a1-c03-02",
+      "format": "transformation",
+      "family": "F3",
+      "reasons": [
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c03-02-referente",
+      "conceptId": "it-a1-c03-02",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c04-01-sono",
+      "conceptId": "it-a1-c04-01",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c04-01-sei",
+      "conceptId": "it-a1-c04-01",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c04-01-siamo",
+      "conceptId": "it-a1-c04-01",
+      "format": "short",
+      "family": "F2",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c04-01-engine-0",
+      "conceptId": "it-a1-c04-01",
+      "format": "ordering",
+      "family": "F7",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c04-01-engine-1",
+      "conceptId": "it-a1-c04-01",
+      "format": "transformation",
+      "family": "F3",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c04-01-engine-2",
+      "conceptId": "it-a1-c04-01",
+      "format": "error-detection",
+      "family": "F1",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c04-01-engine-3",
+      "conceptId": "it-a1-c04-01",
+      "format": "error-correction",
+      "family": "F3",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c04-01-engine-4",
+      "conceptId": "it-a1-c04-01",
+      "format": "translation",
+      "family": "F4",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c04-01-engine-5",
+      "conceptId": "it-a1-c04-01",
+      "format": "matching",
+      "family": "F7",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c04-01-engine-6",
+      "conceptId": "it-a1-c04-01",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c04-01-nominale",
+      "conceptId": "it-a1-c04-01",
+      "format": "transformation",
+      "family": "F3",
+      "reasons": [
+        "mandatory-changed-item",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c04-02-presentati",
+      "conceptId": "it-a1-c04-02",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c04-02-professione",
+      "conceptId": "it-a1-c04-02",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c04-02-insegnante",
+      "conceptId": "it-a1-c04-02",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c04-02-descrivi",
+      "conceptId": "it-a1-c04-02",
+      "format": "translation",
+      "family": "F4",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c04-03-origine",
+      "conceptId": "it-a1-c04-03",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c04-03-di",
+      "conceptId": "it-a1-c04-03",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c04-03-risposta",
+      "conceptId": "it-a1-c04-03",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c04-03-spagnola",
+      "conceptId": "it-a1-c04-03",
+      "format": "translation",
+      "family": "F4",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c04-03-gruppo",
+      "conceptId": "it-a1-c04-03",
+      "format": "transformation",
+      "family": "F3",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c04-03-italiano",
+      "conceptId": "it-a1-c04-03",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c04-04-ora",
+      "conceptId": "it-a1-c04-04",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c04-04-casa",
+      "conceptId": "it-a1-c04-04",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c04-04-hotel",
+      "conceptId": "it-a1-c04-04",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c04-04-noi",
+      "conceptId": "it-a1-c04-04",
+      "format": "translation",
+      "family": "F4",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c04-05-stanco",
+      "conceptId": "it-a1-c04-05",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c04-05-stanca",
+      "conceptId": "it-a1-c04-05",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c04-05-contenta",
+      "conceptId": "it-a1-c04-05",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c04-05-pronto",
+      "conceptId": "it-a1-c04-05",
+      "format": "translation",
+      "family": "F4",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c05-01-io",
+      "conceptId": "it-a1-c05-01",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c05-01-tu",
+      "conceptId": "it-a1-c05-01",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c05-01-nominale",
+      "conceptId": "it-a1-c05-01",
+      "format": "transformation",
+      "family": "F3",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c05-02-possesso",
+      "conceptId": "it-a1-c05-02",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c05-02-biglietti",
+      "conceptId": "it-a1-c05-02",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c05-02-penna",
+      "conceptId": "it-a1-c05-02",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c05-02-anna",
+      "conceptId": "it-a1-c05-02",
+      "format": "translation",
+      "family": "F4",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c05-02-ordina",
+      "conceptId": "it-a1-c05-02",
+      "format": "ordering",
+      "family": "F7",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c05-02-correggi",
+      "conceptId": "it-a1-c05-02",
+      "format": "error-correction",
+      "family": "F3",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c05-03-eta",
+      "conceptId": "it-a1-c05-03",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c05-03-risposta",
+      "conceptId": "it-a1-c05-03",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c05-03-quanti",
+      "conceptId": "it-a1-c05-03",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c05-03-loro",
+      "conceptId": "it-a1-c05-03",
+      "format": "transformation",
+      "family": "F3",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c05-03-trenta",
+      "conceptId": "it-a1-c05-03",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c05-04-fame",
+      "conceptId": "it-a1-c05-04",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c05-04-sete",
+      "conceptId": "it-a1-c05-04",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c05-04-sonno",
+      "conceptId": "it-a1-c05-04",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c05-04-freddo",
+      "conceptId": "it-a1-c05-04",
+      "format": "translation",
+      "family": "F4",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c05-04-paura",
+      "conceptId": "it-a1-c05-04",
+      "format": "short",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c06-01-riconosci",
+      "conceptId": "it-a1-c06-01",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c06-01-completa",
+      "conceptId": "it-a1-c06-01",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c06-01-nega",
+      "conceptId": "it-a1-c06-01",
+      "format": "transformation",
+      "family": "F3",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c06-01-ordina",
+      "conceptId": "it-a1-c06-01",
+      "format": "ordering",
+      "family": "F7",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c06-01-ripara",
+      "conceptId": "it-a1-c06-01",
+      "format": "error-correction",
+      "family": "F3",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c06-01-rispondi",
+      "conceptId": "it-a1-c06-01",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c06-02-intenzione",
+      "conceptId": "it-a1-c06-02",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c06-02-persona",
+      "conceptId": "it-a1-c06-02",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c06-02-domanda",
+      "conceptId": "it-a1-c06-02",
+      "format": "transformation",
+      "family": "F3",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c06-02-chiedi",
+      "conceptId": "it-a1-c06-02",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c06-02-conferma",
+      "conceptId": "it-a1-c06-02",
+      "format": "short",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c06-03-persona",
+      "conceptId": "it-a1-c06-03",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c06-03-luogo",
+      "conceptId": "it-a1-c06-03",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c06-03-cosa",
+      "conceptId": "it-a1-c06-03",
+      "format": "short",
+      "family": "F2",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c06-03-eta",
+      "conceptId": "it-a1-c06-03",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c07-01-riconosci",
+      "conceptId": "it-a1-c07-01",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c07-01-letto",
+      "conceptId": "it-a1-c07-01",
+      "format": "short",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c07-01-famiglia",
+      "conceptId": "it-a1-c07-01",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c07-01-ripara",
+      "conceptId": "it-a1-c07-01",
+      "format": "error-correction",
+      "family": "F3",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c07-02-chiave",
+      "conceptId": "it-a1-c07-02",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c07-02-pesce",
+      "conceptId": "it-a1-c07-02",
+      "format": "short",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c07-02-mano",
+      "conceptId": "it-a1-c07-02",
+      "format": "error-correction",
+      "family": "F3",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c07-02-problema",
+      "conceptId": "it-a1-c07-02",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c08-01-riconosci",
+      "conceptId": "it-a1-c08-01",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c08-01-penne",
+      "conceptId": "it-a1-c08-01",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c08-01-chiavi",
+      "conceptId": "it-a1-c08-01",
+      "format": "short",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c08-01-trasforma",
+      "conceptId": "it-a1-c08-01",
+      "format": "transformation",
+      "family": "F3",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c08-01-ripara",
+      "conceptId": "it-a1-c08-01",
+      "format": "error-correction",
+      "family": "F3",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c08-01-singolare",
+      "conceptId": "it-a1-c08-01",
+      "format": "transformation",
+      "family": "F3",
+      "reasons": [
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c08-01-lista",
+      "conceptId": "it-a1-c08-01",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c08-02-citta",
+      "conceptId": "it-a1-c08-02",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c08-02-film",
+      "conceptId": "it-a1-c08-02",
+      "format": "short",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c08-02-foto",
+      "conceptId": "it-a1-c08-02",
+      "format": "transformation",
+      "family": "F3",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c08-02-numero",
+      "conceptId": "it-a1-c08-02",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c08-02-ripara",
+      "conceptId": "it-a1-c08-02",
+      "format": "error-correction",
+      "family": "F3",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c08-02-ordine",
+      "conceptId": "it-a1-c08-02",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c09-01-letto",
+      "conceptId": "it-a1-c09-01",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c09-01-amica",
+      "conceptId": "it-a1-c09-01",
+      "format": "error-correction",
+      "family": "F3",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c09-01-sonno",
+      "conceptId": "it-a1-c09-01",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c09-01-gnocco",
+      "conceptId": "it-a1-c09-01",
+      "format": "short",
+      "family": "F2",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c09-01-amico",
+      "conceptId": "it-a1-c09-01",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c09-02-studenti",
+      "conceptId": "it-a1-c09-02",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c09-02-chiavi",
+      "conceptId": "it-a1-c09-02",
+      "format": "short",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c09-02-amica",
+      "conceptId": "it-a1-c09-02",
+      "format": "transformation",
+      "family": "F3",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c09-02-amici",
+      "conceptId": "it-a1-c09-02",
+      "format": "error-correction",
+      "family": "F3",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c09-02-letti",
+      "conceptId": "it-a1-c09-02",
+      "format": "transformation",
+      "family": "F3",
+      "reasons": [
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c09-02-zaini",
+      "conceptId": "it-a1-c09-02",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c09-02-gruppi",
+      "conceptId": "it-a1-c09-02",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c09-03-riprendi",
+      "conceptId": "it-a1-c09-03",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c09-03-biglietto",
+      "conceptId": "it-a1-c09-03",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c09-03-ripara",
+      "conceptId": "it-a1-c09-03",
+      "format": "error-correction",
+      "family": "F3",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c09-03-messaggio",
+      "conceptId": "it-a1-c09-03",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c10-01-amico",
+      "conceptId": "it-a1-c10-01",
+      "format": "short",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c10-01-correggi",
+      "conceptId": "it-a1-c10-01",
+      "format": "error-correction",
+      "family": "F3",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c10-01-zaino",
+      "conceptId": "it-a1-c10-01",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c10-01-studentessa",
+      "conceptId": "it-a1-c10-01",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c10-01-plurale",
+      "conceptId": "it-a1-c10-01",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c10-02-introduci",
+      "conceptId": "it-a1-c10-02",
+      "format": "selection",
+      "family": "F1",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c10-02-caffe",
+      "conceptId": "it-a1-c10-02",
+      "format": "cloze",
+      "family": "F2",
+      "reasons": [
+        "concept-format-coverage"
+      ]
+    },
+    {
+      "id": "it-a1-c10-02-chiedi",
+      "conceptId": "it-a1-c10-02",
+      "format": "controlled-production",
+      "family": "F4",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    },
+    {
+      "id": "it-a1-c10-02-presenta",
+      "conceptId": "it-a1-c10-02",
+      "format": "translation",
+      "family": "F4",
+      "reasons": [
+        "mandatory-changed-item",
+        "concept-format-coverage",
+        "open-response-risk"
+      ]
+    }
+  ],
+  "modifiedActivityIds": [
+    "it-a1-c01-03-caffe",
+    "it-a1-c01-03-pena",
+    "it-a1-c02-01-amica",
+    "it-a1-c02-01-sera",
+    "it-a1-c02-01-uscita",
+    "it-a1-c02-02-prego",
+    "it-a1-c02-02-scusi",
+    "it-a1-c02-02-scusa",
+    "it-a1-c02-03-intenzione",
+    "it-a1-c02-03-ripetere",
+    "it-a1-c02-03-formula",
+    "it-a1-c02-03-lentamente",
+    "it-a1-c02-03-amico",
+    "it-a1-c04-01-siamo",
+    "it-a1-c04-01-engine-0",
+    "it-a1-c04-01-engine-1",
+    "it-a1-c04-01-engine-2",
+    "it-a1-c04-01-engine-3",
+    "it-a1-c04-01-engine-6",
+    "it-a1-c04-01-nominale",
+    "it-a1-c04-02-insegnante",
+    "it-a1-c05-01-nominale",
+    "it-a1-c05-02-correggi",
+    "it-a1-c05-03-quanti",
+    "it-a1-c05-03-loro",
+    "it-a1-c06-01-riconosci",
+    "it-a1-c06-02-chiedi",
+    "it-a1-c06-03-cosa",
+    "it-a1-c06-03-eta",
+    "it-a1-c08-02-numero",
+    "it-a1-c08-02-ripara",
+    "it-a1-c08-02-ordine",
+    "it-a1-c09-01-sonno",
+    "it-a1-c09-01-gnocco",
+    "it-a1-c09-02-studenti",
+    "it-a1-c09-02-zaini",
+    "it-a1-c09-02-gruppi",
+    "it-a1-c09-03-messaggio",
+    "it-a1-c10-01-studentessa",
+    "it-a1-c10-01-plurale",
+    "it-a1-c10-02-chiedi",
+    "it-a1-c10-02-presenta"
+  ],
+  "modifiedAcceptedIds": [
+    "it-a1-c02-01-amica",
+    "it-a1-c02-01-uscita",
+    "it-a1-c02-02-prego",
+    "it-a1-c02-02-scusi",
+    "it-a1-c02-02-scusa",
+    "it-a1-c02-03-formula",
+    "it-a1-c02-03-amico",
+    "it-a1-c04-01-siamo",
+    "it-a1-c04-01-engine-1",
+    "it-a1-c04-01-engine-3",
+    "it-a1-c04-01-engine-6",
+    "it-a1-c05-03-loro",
+    "it-a1-c08-02-ripara",
+    "it-a1-c08-02-ordine",
+    "it-a1-c10-02-chiedi"
+  ],
+  "packetHashes": {
+    "C01.json": "6eb4f5a014116156adcc25219cb916b6cf4a2b2e95e5db00974fbf55739b923f",
+    "C02.json": "c222f229151afabc6af4ed2e3aaaa58e00be1fb0cc6ca98bfeec2c822022a50c",
+    "C03.json": "5bd05e8d898a6b55008197e63920a264e70cb85e550e2416da24ffd1023ea2f4",
+    "C04.json": "fabcfa1982807689f276d1dfdd20bc6c86a7cc43eaf824e666a4e176b1ffb106",
+    "C05.json": "ee52a86ffc8b1712a6997bea28b3ae20d5a93eb26c50cfa25e58cc2532290182",
+    "C06.json": "e873e1413e87c6ee8f9a0a03492a8034c6b7d78fef5ec477084144cc2584cc7a",
+    "C07.json": "dba5b356916a41a24685a0d43f0962933bc21df68c198f7bb68c3a6846ad201d",
+    "C08.json": "01cccd7b423bbcc2158735110ed61a973450fd5b425c7617d6f8b1a4a6241775",
+    "C09.json": "82226084b99d0b22232f98e3b6e6d993b2ca4795a7a858828a8a0f1ab4abb2fb",
+    "C10.json": "b2b6890e12b90b87b8ceadf7612b57816c448bc8037ab6d8fa067e863e032a90"
+  },
+  "status": "prepared; independent review blocked by subagent usage limit; no verdict issued",
+  "reviewedTheoryIds": [],
+  "reviewedActivityIds": [],
+  "reviewedAcceptedListIds": [],
+  "notSelectedActivityIds": [
+    "it-a1-c01-01-gelato",
+    "it-a1-c01-01-ghiaccio",
+    "it-a1-c01-01-pesce",
+    "it-a1-c01-01-scimmia",
+    "it-a1-c01-01-bagno",
+    "it-a1-c01-01-biglietto",
+    "it-a1-c01-02-si",
+    "it-a1-c01-02-perche",
+    "it-a1-c01-03-palla",
+    "it-a1-c01-03-gatto",
+    "it-a1-c01-03-pala",
+    "it-a1-c01-03-biglietto",
+    "it-a1-c02-01-notte",
+    "it-a1-c02-01-presto",
+    "it-a1-c02-01-ciao-contesto",
+    "it-a1-c02-03-capisco",
+    "it-a1-c02-03-velocita",
+    "it-a1-c03-01-lui",
+    "it-a1-c03-01-lei",
+    "it-a1-c03-01-voi",
+    "it-a1-c03-01-loro",
+    "it-a1-c03-01-noi-gruppo",
+    "it-a1-c03-01-loro-femminile",
+    "it-a1-c03-02-plural",
+    "it-a1-c03-02-isolata",
+    "it-a1-c03-02-contrasto",
+    "it-a1-c04-01-engine-7",
+    "it-a1-c04-01-lei-e",
+    "it-a1-c04-01-voi-siete",
+    "it-a1-c04-01-loro-sono",
+    "it-a1-c04-01-anna",
+    "it-a1-c04-01-senza-soggetto",
+    "it-a1-c04-01-lui",
+    "it-a1-c04-02-descrizione",
+    "it-a1-c04-02-amici",
+    "it-a1-c04-03-italiana",
+    "it-a1-c04-04-chiave",
+    "it-a1-c04-04-chiavi",
+    "it-a1-c04-04-preposizione",
+    "it-a1-c04-05-pronte",
+    "it-a1-c04-05-bene",
+    "it-a1-c05-01-lei",
+    "it-a1-c05-01-noi",
+    "it-a1-c05-01-voi",
+    "it-a1-c05-01-loro",
+    "it-a1-c05-01-lui",
+    "it-a1-c05-02-noi",
+    "it-a1-c05-03-anni",
+    "it-a1-c05-03-anna",
+    "it-a1-c05-03-apostrofo",
+    "it-a1-c05-04-caldo",
+    "it-a1-c05-04-contrasto",
+    "it-a1-c05-04-loro",
+    "it-a1-c06-02-negativa",
+    "it-a1-c06-03-come",
+    "it-a1-c06-03-tempo",
+    "it-a1-c06-03-motivo",
+    "it-a1-c06-03-origine",
+    "it-a1-c07-01-limite",
+    "it-a1-c07-01-casa",
+    "it-a1-c07-02-notte",
+    "it-a1-c07-02-nome",
+    "it-a1-c07-02-insegnante",
+    "it-a1-c08-02-riconosci",
+    "it-a1-c09-01-studente",
+    "it-a1-c09-01-zaino",
+    "it-a1-c09-01-studentessa",
+    "it-a1-c09-01-psicologo",
+    "it-a1-c09-02-biglietti",
+    "it-a1-c09-02-vocale",
+    "it-a1-c09-03-situazione",
+    "it-a1-c09-03-nuovo",
+    "it-a1-c10-01-penna",
+    "it-a1-c10-01-studente",
+    "it-a1-c10-01-amica",
+    "it-a1-c10-01-gruppi",
+    "it-a1-c10-02-sequenza",
+    "it-a1-c10-02-significato",
+    "it-a1-c10-02-riprendi"
+  ],
+  "unreviewedActivityIds": [
+    "it-a1-c01-01-chiave",
+    "it-a1-c01-01-ciao",
+    "it-a1-c01-01-amiche",
+    "it-a1-c01-01-spaghetti",
+    "it-a1-c01-01-famiglia",
+    "it-a1-c01-02-e",
+    "it-a1-c01-02-essere",
+    "it-a1-c01-02-caffe",
+    "it-a1-c01-02-citta",
+    "it-a1-c01-02-contrast",
+    "it-a1-c01-03-penna",
+    "it-a1-c01-03-letto",
+    "it-a1-c01-03-caffe",
+    "it-a1-c01-03-pena",
+    "it-a1-c02-01-hotel-mattina",
+    "it-a1-c02-01-amica",
+    "it-a1-c02-01-sera",
+    "it-a1-c02-01-uscita",
+    "it-a1-c02-02-grazie",
+    "it-a1-c02-02-prego",
+    "it-a1-c02-02-favore",
+    "it-a1-c02-02-scusi",
+    "it-a1-c02-02-scusa",
+    "it-a1-c02-02-dialogo",
+    "it-a1-c02-02-petizione",
+    "it-a1-c02-03-intenzione",
+    "it-a1-c02-03-ripetere",
+    "it-a1-c02-03-formula",
+    "it-a1-c02-03-lentamente",
+    "it-a1-c02-03-amico",
+    "it-a1-c03-01-io",
+    "it-a1-c03-01-tu",
+    "it-a1-c03-01-noi",
+    "it-a1-c03-01-voi-noi",
+    "it-a1-c03-02-presentazione",
+    "it-a1-c03-02-ometti",
+    "it-a1-c03-02-esplicita",
+    "it-a1-c03-02-noi",
+    "it-a1-c03-02-referente",
+    "it-a1-c04-01-sono",
+    "it-a1-c04-01-sei",
+    "it-a1-c04-01-siamo",
+    "it-a1-c04-01-engine-0",
+    "it-a1-c04-01-engine-1",
+    "it-a1-c04-01-engine-2",
+    "it-a1-c04-01-engine-3",
+    "it-a1-c04-01-engine-4",
+    "it-a1-c04-01-engine-5",
+    "it-a1-c04-01-engine-6",
+    "it-a1-c04-01-nominale",
+    "it-a1-c04-02-presentati",
+    "it-a1-c04-02-professione",
+    "it-a1-c04-02-insegnante",
+    "it-a1-c04-02-descrivi",
+    "it-a1-c04-03-origine",
+    "it-a1-c04-03-di",
+    "it-a1-c04-03-risposta",
+    "it-a1-c04-03-spagnola",
+    "it-a1-c04-03-gruppo",
+    "it-a1-c04-03-italiano",
+    "it-a1-c04-04-ora",
+    "it-a1-c04-04-casa",
+    "it-a1-c04-04-hotel",
+    "it-a1-c04-04-noi",
+    "it-a1-c04-05-stanco",
+    "it-a1-c04-05-stanca",
+    "it-a1-c04-05-contenta",
+    "it-a1-c04-05-pronto",
+    "it-a1-c05-01-io",
+    "it-a1-c05-01-tu",
+    "it-a1-c05-01-nominale",
+    "it-a1-c05-02-possesso",
+    "it-a1-c05-02-biglietti",
+    "it-a1-c05-02-penna",
+    "it-a1-c05-02-anna",
+    "it-a1-c05-02-ordina",
+    "it-a1-c05-02-correggi",
+    "it-a1-c05-03-eta",
+    "it-a1-c05-03-risposta",
+    "it-a1-c05-03-quanti",
+    "it-a1-c05-03-loro",
+    "it-a1-c05-03-trenta",
+    "it-a1-c05-04-fame",
+    "it-a1-c05-04-sete",
+    "it-a1-c05-04-sonno",
+    "it-a1-c05-04-freddo",
+    "it-a1-c05-04-paura",
+    "it-a1-c06-01-riconosci",
+    "it-a1-c06-01-completa",
+    "it-a1-c06-01-nega",
+    "it-a1-c06-01-ordina",
+    "it-a1-c06-01-ripara",
+    "it-a1-c06-01-rispondi",
+    "it-a1-c06-02-intenzione",
+    "it-a1-c06-02-persona",
+    "it-a1-c06-02-domanda",
+    "it-a1-c06-02-chiedi",
+    "it-a1-c06-02-conferma",
+    "it-a1-c06-03-persona",
+    "it-a1-c06-03-luogo",
+    "it-a1-c06-03-cosa",
+    "it-a1-c06-03-eta",
+    "it-a1-c07-01-riconosci",
+    "it-a1-c07-01-letto",
+    "it-a1-c07-01-famiglia",
+    "it-a1-c07-01-ripara",
+    "it-a1-c07-02-chiave",
+    "it-a1-c07-02-pesce",
+    "it-a1-c07-02-mano",
+    "it-a1-c07-02-problema",
+    "it-a1-c08-01-riconosci",
+    "it-a1-c08-01-penne",
+    "it-a1-c08-01-chiavi",
+    "it-a1-c08-01-trasforma",
+    "it-a1-c08-01-ripara",
+    "it-a1-c08-01-singolare",
+    "it-a1-c08-01-lista",
+    "it-a1-c08-02-citta",
+    "it-a1-c08-02-film",
+    "it-a1-c08-02-foto",
+    "it-a1-c08-02-numero",
+    "it-a1-c08-02-ripara",
+    "it-a1-c08-02-ordine",
+    "it-a1-c09-01-letto",
+    "it-a1-c09-01-amica",
+    "it-a1-c09-01-sonno",
+    "it-a1-c09-01-gnocco",
+    "it-a1-c09-01-amico",
+    "it-a1-c09-02-studenti",
+    "it-a1-c09-02-chiavi",
+    "it-a1-c09-02-amica",
+    "it-a1-c09-02-amici",
+    "it-a1-c09-02-letti",
+    "it-a1-c09-02-zaini",
+    "it-a1-c09-02-gruppi",
+    "it-a1-c09-03-riprendi",
+    "it-a1-c09-03-biglietto",
+    "it-a1-c09-03-ripara",
+    "it-a1-c09-03-messaggio",
+    "it-a1-c10-01-amico",
+    "it-a1-c10-01-correggi",
+    "it-a1-c10-01-zaino",
+    "it-a1-c10-01-studentessa",
+    "it-a1-c10-01-plurale",
+    "it-a1-c10-02-introduci",
+    "it-a1-c10-02-caffe",
+    "it-a1-c10-02-chiedi",
+    "it-a1-c10-02-presenta",
+    "it-a1-c01-01-gelato",
+    "it-a1-c01-01-ghiaccio",
+    "it-a1-c01-01-pesce",
+    "it-a1-c01-01-scimmia",
+    "it-a1-c01-01-bagno",
+    "it-a1-c01-01-biglietto",
+    "it-a1-c01-02-si",
+    "it-a1-c01-02-perche",
+    "it-a1-c01-03-palla",
+    "it-a1-c01-03-gatto",
+    "it-a1-c01-03-pala",
+    "it-a1-c01-03-biglietto",
+    "it-a1-c02-01-notte",
+    "it-a1-c02-01-presto",
+    "it-a1-c02-01-ciao-contesto",
+    "it-a1-c02-03-capisco",
+    "it-a1-c02-03-velocita",
+    "it-a1-c03-01-lui",
+    "it-a1-c03-01-lei",
+    "it-a1-c03-01-voi",
+    "it-a1-c03-01-loro",
+    "it-a1-c03-01-noi-gruppo",
+    "it-a1-c03-01-loro-femminile",
+    "it-a1-c03-02-plural",
+    "it-a1-c03-02-isolata",
+    "it-a1-c03-02-contrasto",
+    "it-a1-c04-01-engine-7",
+    "it-a1-c04-01-lei-e",
+    "it-a1-c04-01-voi-siete",
+    "it-a1-c04-01-loro-sono",
+    "it-a1-c04-01-anna",
+    "it-a1-c04-01-senza-soggetto",
+    "it-a1-c04-01-lui",
+    "it-a1-c04-02-descrizione",
+    "it-a1-c04-02-amici",
+    "it-a1-c04-03-italiana",
+    "it-a1-c04-04-chiave",
+    "it-a1-c04-04-chiavi",
+    "it-a1-c04-04-preposizione",
+    "it-a1-c04-05-pronte",
+    "it-a1-c04-05-bene",
+    "it-a1-c05-01-lei",
+    "it-a1-c05-01-noi",
+    "it-a1-c05-01-voi",
+    "it-a1-c05-01-loro",
+    "it-a1-c05-01-lui",
+    "it-a1-c05-02-noi",
+    "it-a1-c05-03-anni",
+    "it-a1-c05-03-anna",
+    "it-a1-c05-03-apostrofo",
+    "it-a1-c05-04-caldo",
+    "it-a1-c05-04-contrasto",
+    "it-a1-c05-04-loro",
+    "it-a1-c06-02-negativa",
+    "it-a1-c06-03-come",
+    "it-a1-c06-03-tempo",
+    "it-a1-c06-03-motivo",
+    "it-a1-c06-03-origine",
+    "it-a1-c07-01-limite",
+    "it-a1-c07-01-casa",
+    "it-a1-c07-02-notte",
+    "it-a1-c07-02-nome",
+    "it-a1-c07-02-insegnante",
+    "it-a1-c08-02-riconosci",
+    "it-a1-c09-01-studente",
+    "it-a1-c09-01-zaino",
+    "it-a1-c09-01-studentessa",
+    "it-a1-c09-01-psicologo",
+    "it-a1-c09-02-biglietti",
+    "it-a1-c09-02-vocale",
+    "it-a1-c09-03-situazione",
+    "it-a1-c09-03-nuovo",
+    "it-a1-c10-01-penna",
+    "it-a1-c10-01-studente",
+    "it-a1-c10-01-amica",
+    "it-a1-c10-01-gruppi",
+    "it-a1-c10-02-sequenza",
+    "it-a1-c10-02-significato",
+    "it-a1-c10-02-riprendi"
+  ],
+  "unreviewedTheoryIds": [
+    "it-a1-theory-c01-01",
+    "it-a1-theory-c01-02",
+    "it-a1-theory-c01-03",
+    "it-a1-theory-c02-01",
+    "it-a1-theory-c02-02",
+    "it-a1-theory-c02-03",
+    "it-a1-theory-c03",
+    "it-a1-theory-c03-02",
+    "it-a1-theory-c04",
+    "it-a1-theory-c04-02",
+    "it-a1-theory-c04-03",
+    "it-a1-theory-c04-04",
+    "it-a1-theory-c04-05",
+    "it-a1-theory-c05-01",
+    "it-a1-theory-c05-02",
+    "it-a1-theory-c05-03",
+    "it-a1-theory-c05-04",
+    "it-a1-theory-c06-01",
+    "it-a1-theory-c06-02",
+    "it-a1-theory-c06-03",
+    "it-a1-theory-c07-01",
+    "it-a1-theory-c07-02",
+    "it-a1-theory-c08-01",
+    "it-a1-theory-c08-02",
+    "it-a1-theory-c09-01",
+    "it-a1-theory-c09-02",
+    "it-a1-theory-c09-03",
+    "it-a1-theory-c10-01",
+    "it-a1-theory-c10-02"
+  ]
+}

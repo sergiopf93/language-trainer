@@ -1,0 +1,3205 @@
+{
+  "concepts": [
+    {
+      "id": "it-a1-c04-01",
+      "version": "2",
+      "topicId": "it-a1-t04",
+      "title": "Il presente di essere",
+      "objective": "Recuperar las seis personas de essere y concordarlas con sujetos explícitos, nominales u omitidos.",
+      "scope": "Recuperar las seis personas de essere y concordarlas con sujetos explícitos, nominales u omitidos.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use",
+        "discrimination"
+      ],
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "persona",
+        "numero",
+        "sujeto nominal",
+        "sujeto omitido"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F7",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c04-02",
+      "version": "1",
+      "topicId": "it-a1-t04",
+      "title": "Dire chi sei e come sei",
+      "objective": "Usar essere para identificar a una persona y describirla con el repertorio personal enseñado.",
+      "scope": "Usar essere para identificar a una persona y describirla con el repertorio personal enseñado.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use"
+      ],
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "identidad",
+        "profesión",
+        "descripción"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c04-03",
+      "version": "1",
+      "topicId": "it-a1-t04",
+      "title": "Di dove sei?",
+      "objective": "Expresar origen mediante essere di + ciudad y essere + nacionalidad del repertorio enseñado.",
+      "scope": "Expresar origen mediante essere di + ciudad y essere + nacionalidad del repertorio enseñado.",
+      "dimensions": [
+        "discrimination",
+        "retrieval",
+        "contextual-use"
+      ],
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "origen-ciudad",
+        "nacionalidad",
+        "origen/ubicación"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F4",
+        "F3"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c04-04",
+      "version": "1",
+      "topicId": "it-a1-t04",
+      "title": "Dove sei? Sono qui",
+      "objective": "Situar personas y cosas identificadas mediante essere y expresiones de lugar enseñadas.",
+      "scope": "Situar personas y cosas identificadas mediante essere y expresiones de lugar enseñadas.",
+      "dimensions": [
+        "discrimination",
+        "retrieval",
+        "contextual-use",
+        "comprehension"
+      ],
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "persona-lugar",
+        "objeto-lugar",
+        "ubicación/origen"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c04-05",
+      "version": "1",
+      "topicId": "it-a1-t04",
+      "title": "Sono stanco, sono pronta",
+      "objective": "Expresar estados personales frecuentes con essere y los adjetivos enseñados, sin equiparar siempre ser/estar.",
+      "scope": "Expresar estados personales frecuentes con essere y los adjetivos enseñados, sin equiparar siempre ser/estar.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use",
+        "discrimination"
+      ],
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "cansancio",
+        "estado afectivo",
+        "preparación"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "coverage": "complete"
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c04",
+      "version": "theory-c04-01-2",
+      "conceptId": "it-a1-c04-01",
+      "conceptVersion": "2",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Il presente di essere",
+      "goal": "Recuperar las seis personas de essere y concordarlas con sujetos explícitos, nominales u omitidos.",
+      "introduction": "Essere cambia con el sujeto. Estas formas son irregulares: aprende cada pareja y después recupérala sin mirar la tabla. Identidad, origen, lugar y estado se practican por separado.",
+      "rules": [
+        "Sono sirve para io y para loro; el contexto indica cuál corresponde. È, con acento, corresponde a lui, lei y a un nombre singular como Anna.",
+        "Anna e Luca equivalen a loro; Anna e io, a noi. Un sujeto omitido no cambia la forma que necesita el verbo."
+      ],
+      "forms": [
+        [
+          "io sono",
+          "yo soy / estoy"
+        ],
+        [
+          "tu sei",
+          "tú eres / estás"
+        ],
+        [
+          "lui / lei è",
+          "él / ella es / está"
+        ],
+        [
+          "noi siamo",
+          "nosotros somos / estamos"
+        ],
+        [
+          "voi siete",
+          "vosotros sois / estáis; ustedes son / están"
+        ],
+        [
+          "loro sono",
+          "ellos / ellas son / están"
+        ]
+      ],
+      "examples": [
+        [
+          "Io sono Ana.",
+          "Yo soy Ana."
+        ],
+        [
+          "Voi siete qui.",
+          "Vosotros estáis aquí."
+        ],
+        [
+          "Anna e Luca sono qui.",
+          "Anna y Luca están aquí."
+        ],
+        [
+          "Siamo a Roma.",
+          "Estamos en Roma."
+        ]
+      ],
+      "frequentErrors": [
+        "Con noi se usa siamo, no sono. È no se escribe e. Con voi se usa siete, aunque «ustedes» use tercera persona en español."
+      ],
+      "usageNotes": [
+        "Esta ficha enseña el paradigma completo del presente; todavía no el uso de essere como auxiliar del pasado. La forma verbal por sí sola no demuestra dominio de todos sus usos."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-essere",
+        "it-io",
+        "it-tu",
+        "it-lui",
+        "it-lei",
+        "it-noi",
+        "it-voi",
+        "it-loro",
+        "it-qui"
+      ]
+    },
+    {
+      "id": "it-a1-theory-c04-02",
+      "version": "theory-c04-02-1",
+      "conceptId": "it-a1-c04-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Dire chi sei e come sei",
+      "goal": "Usar essere para identificar a una persona y describirla con el repertorio personal enseñado.",
+      "introduction": "Essere permite decir quién eres y cómo eres. Practica primero pequeñas presentaciones; no necesitas aprender de golpe todas las reglas de adjetivos y artículos.",
+      "rules": [
+        "Para identificarte puedes usar Sono Ana. Para hablar de otra persona: Lei è Anna.",
+        "Una profesión puede aparecer sin artículo después de essere: Sono insegnante. En las descripciones enseñadas, Luca è alto y Anna è alta cambian la terminación del adjetivo; la concordancia general se ampliará en C11."
+      ],
+      "forms": [
+        [
+          "sono Ana",
+          "soy Ana"
+        ],
+        [
+          "sono insegnante",
+          "soy profesor / profesora"
+        ],
+        [
+          "è alto / è alta",
+          "es alto / es alta"
+        ],
+        [
+          "siamo amici",
+          "somos amigos"
+        ]
+      ],
+      "examples": [
+        [
+          "Sono Ana. Sono insegnante.",
+          "Soy Ana. Soy profesora."
+        ],
+        [
+          "Anna è alta.",
+          "Anna es alta."
+        ],
+        [
+          "Luca e Marco sono amici.",
+          "Luca y Marco son amigos."
+        ]
+      ],
+      "frequentErrors": [
+        "«Ho insegnante» no dice que seas profesor. Al describir a Anna con el adjetivo enseñado, usa alta."
+      ],
+      "usageNotes": [
+        "Insegnante se aplica aquí a una persona de cualquier género. No se generaliza que todos los nombres de profesión sean iguales ni que nunca lleven artículo."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-essere",
+        "it-insegnante",
+        "it-alto",
+        "it-amico"
+      ]
+    },
+    {
+      "id": "it-a1-theory-c04-03",
+      "version": "theory-c04-03-1",
+      "conceptId": "it-a1-c04-03",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Di dove sei?",
+      "goal": "Expresar origen mediante essere di + ciudad y essere + nacionalidad del repertorio enseñado.",
+      "introduction": "Para decir de dónde eres puedes mencionar tu ciudad o tu nacionalidad. La pregunta Di dove sei? se aprende aquí como una fórmula completa.",
+      "rules": [
+        "Con ciudad, la construcción enseñada es essere di: Sono di Roma.",
+        "Con nacionalidad se usa essere y el adjetivo: Sono spagnolo / spagnola. No añadas di delante del adjetivo."
+      ],
+      "forms": [
+        [
+          "sono di Roma / Madrid",
+          "soy de Roma / Madrid"
+        ],
+        [
+          "italiano / italiana",
+          "italiano / italiana"
+        ],
+        [
+          "spagnolo / spagnola",
+          "español / española"
+        ],
+        [
+          "siamo di Roma",
+          "somos de Roma"
+        ]
+      ],
+      "examples": [
+        [
+          "Di dove sei? Sono di Madrid.",
+          "¿De dónde eres? Soy de Madrid."
+        ],
+        [
+          "Anna è italiana.",
+          "Anna es italiana."
+        ],
+        [
+          "Luca è di Roma.",
+          "Luca es de Roma."
+        ]
+      ],
+      "frequentErrors": [
+        "Sono a Roma indica ubicación; sono di Roma, origen. «Sono di italiana» mezcla las dos construcciones."
+      ],
+      "usageNotes": [
+        "Se limita el repertorio a ciudades y las nacionalidades mostradas. El sistema general de países y preposiciones se estudiará más adelante."
+      ],
+      "exceptions": [],
+      "contrasts": [
+        {
+          "conceptId": "it-a1-c04-04",
+          "explanation": "Di Roma expresa origen; a Roma expresa dónde se está."
+        }
+      ],
+      "vocabularyIds": [
+        "it-essere",
+        "it-di",
+        "it-roma",
+        "it-madrid",
+        "it-italiano",
+        "it-spagnolo"
+      ]
+    },
+    {
+      "id": "it-a1-theory-c04-04",
+      "version": "theory-c04-04-1",
+      "conceptId": "it-a1-c04-04",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Dove sei? Sono qui",
+      "goal": "Situar personas y cosas identificadas mediante essere y expresiones de lugar enseñadas.",
+      "introduction": "Essere puede decir dónde está alguien o algo que ya identificamos. Aprende las expresiones de lugar completas para concentrarte primero en la función del verbo.",
+      "rules": [
+        "Sono a Roma, sono a casa y sono in hotel sitúan a una persona. No todas las expresiones de lugar llevan la misma preposición.",
+        "La chiave è qui sitúa una cosa identificada; le chiavi sono qui sitúa varias. La existencia con c’è / ci sono se estudiará en C19."
+      ],
+      "forms": [
+        [
+          "a Roma / a Madrid",
+          "en Roma / en Madrid"
+        ],
+        [
+          "a casa",
+          "en casa"
+        ],
+        [
+          "in hotel",
+          "en el hotel"
+        ],
+        [
+          "qui",
+          "aquí"
+        ],
+        [
+          "la chiave / le chiavi",
+          "la llave / las llaves"
+        ]
+      ],
+      "examples": [
+        [
+          "Sono a casa.",
+          "Estoy en casa."
+        ],
+        [
+          "Anna è in hotel.",
+          "Anna está en el hotel."
+        ],
+        [
+          "Le chiavi sono qui.",
+          "Las llaves están aquí."
+        ]
+      ],
+      "frequentErrors": [
+        "Di Roma indica origen, no ubicación. No traduzcas todas las apariciones de «en» con la misma preposición."
+      ],
+      "usageNotes": [
+        "A casa e in hotel se memorizan aquí como grupos. No se pretende enseñar todavía todas las preposiciones ni los artículos."
+      ],
+      "exceptions": [],
+      "contrasts": [
+        {
+          "conceptId": "it-a1-c04-03",
+          "explanation": "Puedes ser de Madrid y estar en Roma: el origen y la ubicación son informaciones distintas."
+        }
+      ],
+      "vocabularyIds": [
+        "it-essere",
+        "it-a",
+        "it-in",
+        "it-roma",
+        "it-madrid",
+        "it-casa",
+        "it-hotel",
+        "it-chiave",
+        "it-qui"
+      ]
+    },
+    {
+      "id": "it-a1-theory-c04-05",
+      "version": "theory-c04-05-1",
+      "conceptId": "it-a1-c04-05",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Sono stanco, sono pronta",
+      "goal": "Expresar estados personales frecuentes con essere y los adjetivos enseñados, sin equiparar siempre ser/estar.",
+      "introduction": "Para algunos estados se usa essere: sono stanco, sono contenta, sono pronto. Aprende las combinaciones completas y ajusta únicamente las formas que ya aparecen en esta ficha.",
+      "rules": [
+        "Stanco/stanca expresa cansancio; contento/contenta, estar contento; pronto/pronta, estar listo. Con estos adjetivos se usa essere.",
+        "El español estar no corresponde siempre a essere: «estoy bien» se dice normalmente sto bene. Esa expresión se ofrece como contraste, no como regla para todos los estados."
+      ],
+      "forms": [
+        [
+          "sono stanco / stanca",
+          "estoy cansado / cansada"
+        ],
+        [
+          "è contento / contenta",
+          "está contento / contenta"
+        ],
+        [
+          "siamo pronti / pronte",
+          "estamos listos / listas"
+        ]
+      ],
+      "examples": [
+        [
+          "Luca è stanco.",
+          "Luca está cansado."
+        ],
+        [
+          "Anna è contenta.",
+          "Anna está contenta."
+        ],
+        [
+          "Anna e Maria sono pronte.",
+          "Anna y Maria están listas."
+        ]
+      ],
+      "frequentErrors": [
+        "«Ho stanco» no es la combinación enseñada. No extiendas essere a todas las sensaciones: ho fame se aprenderá en C05."
+      ],
+      "usageNotes": [
+        "Las terminaciones se proporcionan en las consignas cuando lo evaluado es el uso de essere. La concordancia adjetival general corresponde a C11."
+      ],
+      "exceptions": [],
+      "contrasts": [
+        {
+          "conceptId": "it-a1-c05-04",
+          "explanation": "Sono stanco usa adjetivo; ho fame usa una expresión con avere. Se aprenden como construcciones distintas."
+        }
+      ],
+      "vocabularyIds": [
+        "it-essere",
+        "it-stanco",
+        "it-contento",
+        "it-pronto",
+        "it-sto-bene"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c04-01-sono",
+      "version": "2",
+      "family": "F1",
+      "format": "selection",
+      "conceptId": "it-a1-c04-01",
+      "conceptVersion": "2",
+      "dimension": "comprehension",
+      "prompt": "Selecciona la forma de essere que concuerda con io: Io ___.",
+      "options": [
+        "sono",
+        "sei",
+        "siamo"
+      ],
+      "hint": "Primera persona singular: io sono.",
+      "explanation": "Io sono es la primera persona singular del presente de essere.",
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "sono"
+        ],
+        "rejected": [
+          "sei",
+          "siamo"
+        ],
+        "exhaustive": true
+      },
+      "task": {
+        "skill": "recognition",
+        "context": "persona y concordancia",
+        "facets": [
+          "persona",
+          "numero"
+        ],
+        "opportunityId": "it-a1-c04-01-sono:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-01-sono",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c04-01-sei",
+      "version": "2",
+      "family": "F2",
+      "format": "cloze",
+      "conceptId": "it-a1-c04-01",
+      "conceptVersion": "2",
+      "dimension": "retrieval",
+      "prompt": "Completa con essere en presente: Tu ___.",
+      "options": [],
+      "hint": "La forma para tu comienza por s y tiene tres letras.",
+      "explanation": "Tu sei es la segunda persona singular del presente de essere.",
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "sei"
+        ],
+        "rejected": [
+          "sono",
+          "siamo",
+          "siete",
+          "è",
+          "e",
+          "essere"
+        ],
+        "exhaustive": false
+      },
+      "task": {
+        "skill": "retrieval",
+        "context": "persona y concordancia",
+        "facets": [
+          "persona",
+          "numero"
+        ],
+        "opportunityId": "it-a1-c04-01-sei:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-01-sei",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c04-01-siamo",
+      "version": "3",
+      "family": "F2",
+      "format": "short",
+      "conceptId": "it-a1-c04-01",
+      "conceptVersion": "2",
+      "dimension": "retrieval",
+      "prompt": "Escribe en italiano «nosotros somos», usando pronombre sujeto y essere en presente.",
+      "options": [],
+      "hint": "Usa noi y la forma siamo.",
+      "explanation": "Noi siamo concuerda en primera persona plural. La consigna pide el pronombre; este ítem no evalúa la omisión del sujeto.",
+      "criterion": {
+        "version": "3",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "noi siamo",
+          "noi siamo."
+        ],
+        "rejected": [
+          "noi sono",
+          "noi sei",
+          "noi siete",
+          "noi è",
+          "noi e"
+        ],
+        "exhaustive": false
+      },
+      "task": {
+        "skill": "retrieval",
+        "context": "persona y concordancia",
+        "facets": [
+          "persona",
+          "numero"
+        ],
+        "opportunityId": "it-a1-c04-01-siamo:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-01-siamo",
+        "sourceVersion": "3"
+      }
+    },
+    {
+      "id": "it-a1-c04-01-engine-0",
+      "version": "2",
+      "family": "F7",
+      "format": "ordering",
+      "conceptId": "it-a1-c04-01",
+      "conceptVersion": "2",
+      "dimension": "contextual-use",
+      "prompt": "Ordina le parole: «nosotros somos». Inizia con noi.",
+      "options": [
+        "siamo",
+        "noi"
+      ],
+      "hint": "Comienza por el pronombre noi.",
+      "explanation": "Para esta afirmación con sujeto explícito: noi siamo.",
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "noi siamo"
+        ],
+        "rejected": [
+          "siamo noi"
+        ],
+        "exhaustive": true
+      },
+      "task": {
+        "skill": "controlled-production",
+        "context": "persona y concordancia de essere; validación técnica",
+        "facets": [
+          "persona",
+          "numero"
+        ],
+        "opportunityId": "it-a1-c04-01-engine-0:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-01-engine-0",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c04-01-engine-1",
+      "version": "3",
+      "family": "F3",
+      "format": "transformation",
+      "conceptId": "it-a1-c04-01",
+      "conceptVersion": "2",
+      "dimension": "retrieval",
+      "prompt": "Trasforma «io sono»: usa tu e il verbo essere.",
+      "options": [],
+      "hint": "La segunda persona singular tiene su propia forma.",
+      "explanation": "Con tu se usa sei: tu sei.",
+      "criterion": {
+        "version": "3",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "tu sei",
+          "tu sei."
+        ],
+        "rejected": [
+          "tu sono",
+          "tu è"
+        ],
+        "exhaustive": false
+      },
+      "task": {
+        "skill": "transformation",
+        "context": "persona y concordancia de essere; validación técnica",
+        "facets": [
+          "persona",
+          "numero"
+        ],
+        "opportunityId": "it-a1-c04-01-engine-1:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-01-engine-1",
+        "sourceVersion": "3"
+      }
+    },
+    {
+      "id": "it-a1-c04-01-engine-2",
+      "version": "2",
+      "family": "F1",
+      "format": "error-detection",
+      "conceptId": "it-a1-c04-01",
+      "conceptVersion": "2",
+      "dimension": "discrimination",
+      "prompt": "Trova il verbo che non concorda con noi: «noi sono».",
+      "options": [
+        "noi",
+        "sono",
+        "nessun errore"
+      ],
+      "hint": "Comprueba la concordancia del verbo.",
+      "explanation": "Noi necesita siamo. Sono no concuerda con noi.",
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "sono"
+        ],
+        "rejected": [
+          "noi",
+          "nessun errore"
+        ],
+        "exhaustive": true
+      },
+      "task": {
+        "skill": "discrimination",
+        "context": "persona y concordancia de essere; validación técnica",
+        "facets": [
+          "persona",
+          "numero"
+        ],
+        "opportunityId": "it-a1-c04-01-engine-2:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-01-engine-2",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c04-01-engine-3",
+      "version": "2",
+      "family": "F3",
+      "format": "error-correction",
+      "conceptId": "it-a1-c04-01",
+      "conceptVersion": "2",
+      "dimension": "retrieval",
+      "prompt": "Correggi «noi sono». Mantieni noi.",
+      "options": [],
+      "hint": "Primera persona plural de essere.",
+      "explanation": "Se conserva noi y se cambia sono por siamo.",
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "noi siamo",
+          "noi siamo."
+        ],
+        "rejected": [
+          "noi sono",
+          "noi sei"
+        ],
+        "exhaustive": false
+      },
+      "task": {
+        "skill": "transformation",
+        "context": "persona y concordancia de essere; validación técnica",
+        "facets": [
+          "persona",
+          "numero"
+        ],
+        "opportunityId": "it-a1-c04-01-engine-3:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-01-engine-3",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c04-01-engine-4",
+      "version": "2",
+      "family": "F4",
+      "format": "translation",
+      "conceptId": "it-a1-c04-01",
+      "conceptVersion": "2",
+      "dimension": "contextual-use",
+      "prompt": "Traduci «ella está aquí». Usa essere e scrivi anche il pronome lei.",
+      "options": [],
+      "hint": "Usa la tercera persona singular con acento.",
+      "explanation": "Lei è qui: è concuerda con lei; qui indica aquí.",
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "lei è qui",
+          "lei è qui."
+        ],
+        "rejected": [
+          "lei e qui",
+          "lei sono qui"
+        ],
+        "exhaustive": false
+      },
+      "task": {
+        "skill": "controlled-production",
+        "context": "persona y concordancia de essere; validación técnica",
+        "facets": [
+          "persona",
+          "numero"
+        ],
+        "opportunityId": "it-a1-c04-01-engine-4:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-01-engine-4",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c04-01-engine-5",
+      "version": "1",
+      "family": "F7",
+      "format": "matching",
+      "conceptId": "it-a1-c04-01",
+      "conceptVersion": "2",
+      "dimension": "comprehension",
+      "prompt": "Abbina il pronome alla forma di essere.",
+      "options": [
+        "siamo",
+        "sono",
+        "sei"
+      ],
+      "hint": "Io sono, tu sei, noi siamo.",
+      "explanation": "Las parejas son io → sono, tu → sei, noi → siamo.",
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "[1,2,0]"
+        ],
+        "rejected": [
+          "[0,1,2]"
+        ],
+        "exhaustive": true
+      },
+      "task": {
+        "skill": "recognition",
+        "context": "persona y concordancia de essere; validación técnica",
+        "facets": [
+          "persona",
+          "numero"
+        ],
+        "opportunityId": "it-a1-c04-01-engine-5:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": [
+          "io",
+          "tu",
+          "noi"
+        ]
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-01-engine-5",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c04-01-engine-6",
+      "version": "2",
+      "family": "F4",
+      "format": "controlled-production",
+      "conceptId": "it-a1-c04-01",
+      "conceptVersion": "2",
+      "dimension": "contextual-use",
+      "prompt": "Qualcuno ti cerca: «Sei tu?». Conferma con la formula che termina con io. Puoi aggiungere sì all’inizio.",
+      "options": [],
+      "hint": "Habla en primera persona singular.",
+      "explanation": "Para confirmar que eres tú: sono io. Sono concuerda con io; también puedes comenzar con sì.",
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "sono io",
+          "sono io.",
+          "sì, sono io",
+          "sì, sono io.",
+          "sì sono io",
+          "sì sono io."
+        ],
+        "rejected": [
+          "sei io",
+          "siamo io"
+        ],
+        "exhaustive": false
+      },
+      "task": {
+        "skill": "controlled-production",
+        "context": "persona y concordancia de essere; validación técnica",
+        "facets": [
+          "persona",
+          "numero"
+        ],
+        "opportunityId": "it-a1-c04-01-engine-6:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-01-engine-6",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c04-01-nominale",
+      "version": "2",
+      "conceptId": "it-a1-c04-01",
+      "conceptVersion": "2",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Trasforma «Luca è qui»: usa i nomi Luca e Anna come soggetto.",
+      "options": [],
+      "hint": "Dos personas requieren tercera persona plural.",
+      "explanation": "El sujeto plural Luca e Anna requiere sono.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "encuentro",
+        "facets": [
+          "sujeto nominal",
+          "numero"
+        ],
+        "opportunityId": "it-a1-c04-01-nominale:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Luca e Anna sono qui",
+          "Luca e Anna sono qui.",
+          "Anna e Luca sono qui",
+          "Anna e Luca sono qui."
+        ],
+        "rejected": [
+          "Luca e Anna è qui"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-01-nominale",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c04-02-presentati",
+      "version": "1",
+      "conceptId": "it-a1-c04-02",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Vuoi dire «Soy Ana». Scegli.",
+      "options": [
+        "Sono Ana",
+        "Ho Ana",
+        "Siete Ana"
+      ],
+      "hint": "Se trata de tu identidad.",
+      "explanation": "Sono Ana identifica a quien habla.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "presentación",
+        "facets": [
+          "identidad"
+        ],
+        "opportunityId": "it-a1-c04-02-presentati:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Sono Ana"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-02-presentati",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c04-02-professione",
+      "version": "1",
+      "conceptId": "it-a1-c04-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Io ___ insegnante. Completa con il verbo per dire «soy».",
+      "options": [],
+      "hint": "Usa essere con io.",
+      "explanation": "Sono insegnante expresa tu profesión; ho no cumple esta función.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "trabajo",
+        "facets": [
+          "profesión"
+        ],
+        "opportunityId": "it-a1-c04-02-professione:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "sono"
+        ],
+        "rejected": [
+          "ho",
+          "sei"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-02-professione",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c04-02-insegnante",
+      "version": "2",
+      "conceptId": "it-a1-c04-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Presentati: scrivi «Soy profesor/a» usando insegnante, senza articolo.",
+      "options": [],
+      "hint": "Puedes omitir io.",
+      "explanation": "Sono insegnante e io sono insegnante expresan la profesión. Ambas formas de sujeto son posibles.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "trabajo",
+        "facets": [
+          "profesión"
+        ],
+        "opportunityId": "it-a1-c04-02-insegnante:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "sono insegnante",
+          "sono insegnante.",
+          "io sono insegnante",
+          "io sono insegnante."
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-02-insegnante",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c04-02-descrivi",
+      "version": "1",
+      "conceptId": "it-a1-c04-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci usando il nome e alta: «Anna es alta».",
+      "options": [],
+      "hint": "È y alta corresponden al ejemplo de la ficha.",
+      "explanation": "Anna è alta usa la forma singular de essere y el adjetivo femenino enseñado.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "personas",
+        "facets": [
+          "descripción"
+        ],
+        "opportunityId": "it-a1-c04-02-descrivi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Anna è alta",
+          "Anna è alta."
+        ],
+        "rejected": [
+          "Anna ha alta",
+          "Anna è alto"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-02-descrivi",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c04-03-origine",
+      "version": "1",
+      "conceptId": "it-a1-c04-03",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Quale frase indica l’origine di Anna, non il luogo dove si trova ora?",
+      "options": [
+        "Anna è di Roma",
+        "Anna è a Roma",
+        "Anna è qui"
+      ],
+      "hint": "Busca la construcción con di.",
+      "explanation": "Di Roma indica origen; a Roma y qui sitúan a la persona.",
+      "dimension": "discrimination",
+      "task": {
+        "skill": "discrimination",
+        "context": "presentación",
+        "facets": [
+          "origen/ubicación"
+        ],
+        "opportunityId": "it-a1-c04-03-origine:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Anna è di Roma"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-03-origine",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c04-03-di",
+      "version": "1",
+      "conceptId": "it-a1-c04-03",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Sono ___ Madrid. Completa per indicare la tua città d’origine.",
+      "options": [],
+      "hint": "La construcción enseñada es essere di.",
+      "explanation": "Sono di Madrid indica la ciudad de origen.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "presentación",
+        "facets": [
+          "origen-ciudad"
+        ],
+        "opportunityId": "it-a1-c04-03-di:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "di"
+        ],
+        "rejected": [
+          "a",
+          "in"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-03-di",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c04-03-risposta",
+      "version": "1",
+      "conceptId": "it-a1-c04-03",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Di dove sei? Rispondi «Soy de Roma» usando essere di.",
+      "options": [],
+      "hint": "Puedes empezar por sono.",
+      "explanation": "Sono di Roma responde sobre el origen; io es opcional.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "presentación",
+        "facets": [
+          "origen-ciudad"
+        ],
+        "opportunityId": "it-a1-c04-03-risposta:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "sono di Roma",
+          "sono di Roma.",
+          "io sono di Roma",
+          "io sono di Roma."
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-03-risposta",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c04-03-spagnola",
+      "version": "1",
+      "conceptId": "it-a1-c04-03",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Parla Ana: traduci «Soy española» usando spagnola.",
+      "options": [],
+      "hint": "El adjetivo va directamente después de sono.",
+      "explanation": "Sono spagnola usa el adjetivo femenino indicado.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "presentación",
+        "facets": [
+          "nacionalidad"
+        ],
+        "opportunityId": "it-a1-c04-03-spagnola:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "sono spagnola",
+          "sono spagnola.",
+          "io sono spagnola",
+          "io sono spagnola."
+        ],
+        "rejected": [
+          "sono di spagnola"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-03-spagnola",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c04-03-gruppo",
+      "version": "1",
+      "conceptId": "it-a1-c04-03",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Trasforma «Io sono di Roma»: usa noi.",
+      "options": [],
+      "hint": "Cambia sono por siamo.",
+      "explanation": "Noi siamo di Roma expresa el origen de un grupo que incluye a quien habla.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "viaje",
+        "facets": [
+          "origen-ciudad"
+        ],
+        "opportunityId": "it-a1-c04-03-gruppo:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "noi siamo di Roma",
+          "noi siamo di Roma."
+        ],
+        "rejected": [
+          "noi sono di Roma"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-03-gruppo",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c04-03-italiano",
+      "version": "1",
+      "conceptId": "it-a1-c04-03",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Presenta Luca: scrivi «Luca es italiano» usando italiano.",
+      "options": [],
+      "hint": "No añadas di delante de italiano.",
+      "explanation": "Luca è italiano utiliza essere + nacionalidad.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "personas",
+        "facets": [
+          "nacionalidad"
+        ],
+        "opportunityId": "it-a1-c04-03-italiano:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Luca è italiano",
+          "Luca è italiano."
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-03-italiano",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c04-04-ora",
+      "version": "1",
+      "conceptId": "it-a1-c04-04",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Anna è di Madrid, ma ora si trova a Roma. Scegli dove si trova ora.",
+      "options": [
+        "Anna è a Roma",
+        "Anna è di Roma",
+        "Anna è Madrid"
+      ],
+      "hint": "Se pregunta por la ubicación actual.",
+      "explanation": "A Roma sitúa a Anna; di Roma cambiaría la información a origen.",
+      "dimension": "discrimination",
+      "task": {
+        "skill": "discrimination",
+        "context": "viaje",
+        "facets": [
+          "ubicación/origen"
+        ],
+        "opportunityId": "it-a1-c04-04-ora:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Anna è a Roma"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-04-ora",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c04-04-casa",
+      "version": "1",
+      "conceptId": "it-a1-c04-04",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Io ___ a casa. Completa con essere.",
+      "options": [],
+      "hint": "Primera persona singular.",
+      "explanation": "Sono a casa expresa ubicación.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "casa",
+        "facets": [
+          "persona-lugar"
+        ],
+        "opportunityId": "it-a1-c04-04-casa:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "sono"
+        ],
+        "rejected": [
+          "ho",
+          "sei"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-04-casa",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c04-04-hotel",
+      "version": "1",
+      "conceptId": "it-a1-c04-04",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Dove sei? Rispondi «Estoy en el hotel» usando in hotel.",
+      "options": [],
+      "hint": "Usa essere con la expresión in hotel.",
+      "explanation": "Sono in hotel sitúa a quien habla.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "hotel",
+        "facets": [
+          "persona-lugar"
+        ],
+        "opportunityId": "it-a1-c04-04-hotel:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "sono in hotel",
+          "sono in hotel.",
+          "io sono in hotel",
+          "io sono in hotel."
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-04-hotel",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c04-04-noi",
+      "version": "1",
+      "conceptId": "it-a1-c04-04",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci «Estamos en Roma» usando a Roma.",
+      "options": [],
+      "hint": "La forma de noi es siamo.",
+      "explanation": "Siamo a Roma expresa ubicación de un grupo que incluye al hablante.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "viaje",
+        "facets": [
+          "persona-lugar"
+        ],
+        "opportunityId": "it-a1-c04-04-noi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "siamo a Roma",
+          "siamo a Roma.",
+          "noi siamo a Roma",
+          "noi siamo a Roma."
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-04-noi",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c04-05-stanco",
+      "version": "1",
+      "conceptId": "it-a1-c04-05",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Luca vuole dire «Estoy cansado». Scegli la frase con stanco.",
+      "options": [
+        "Sono stanco",
+        "Ho stanco",
+        "Siete stanco"
+      ],
+      "hint": "Con stanco usamos essere.",
+      "explanation": "Sono stanco expresa el cansancio de Luca.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "viaje",
+        "facets": [
+          "cansancio"
+        ],
+        "opportunityId": "it-a1-c04-05-stanco:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Sono stanco"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-05-stanco",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c04-05-stanca",
+      "version": "1",
+      "conceptId": "it-a1-c04-05",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Anna ___ stanca. Completa con essere.",
+      "options": [],
+      "hint": "Sujeto singular.",
+      "explanation": "Anna è stanca usa essere con el adjetivo enseñado.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "trabajo",
+        "facets": [
+          "cansancio"
+        ],
+        "opportunityId": "it-a1-c04-05-stanca:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "è"
+        ],
+        "rejected": [
+          "ha",
+          "e"
+        ],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-05-stanca",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c04-05-contenta",
+      "version": "1",
+      "conceptId": "it-a1-c04-05",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Parla Anna: scrivi «Estoy contenta» usando contenta.",
+      "options": [],
+      "hint": "Sono + el adjetivo dado.",
+      "explanation": "Sono contenta expresa este estado personal.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "amistad",
+        "facets": [
+          "estado afectivo"
+        ],
+        "opportunityId": "it-a1-c04-05-contenta:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "sono contenta",
+          "sono contenta.",
+          "io sono contenta",
+          "io sono contenta."
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-05-contenta",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c04-05-pronto",
+      "version": "1",
+      "conceptId": "it-a1-c04-05",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Parla Luca: traduci «Estoy listo» usando pronto.",
+      "options": [],
+      "hint": "Usa la construcción con essere.",
+      "explanation": "Sono pronto expresa que Luca está listo.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "viaje",
+        "facets": [
+          "preparación"
+        ],
+        "opportunityId": "it-a1-c04-05-pronto:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "sono pronto",
+          "sono pronto.",
+          "io sono pronto",
+          "io sono pronto."
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c04-05-pronto",
+        "sourceVersion": "1"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "it-io",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "io",
+      "displayForm": "io",
+      "gloss": "yo",
+      "partOfSpeech": "pronoun",
+      "number": "singular",
+      "forms": [],
+      "tags": [
+        "personas",
+        "C03",
+        "C04",
+        "C05",
+        "C26"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c26-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t26"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-tu",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "tu",
+      "displayForm": "tu",
+      "gloss": "tú",
+      "partOfSpeech": "pronoun",
+      "number": "singular",
+      "forms": [],
+      "tags": [
+        "personas",
+        "C03",
+        "C04",
+        "C05",
+        "C18",
+        "C26"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c18-02",
+        "it-a1-c26-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t18",
+        "it-a1-t26"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-noi",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "noi",
+      "displayForm": "noi",
+      "gloss": "nosotros / nosotras",
+      "partOfSpeech": "pronoun",
+      "number": "plural",
+      "forms": [],
+      "tags": [
+        "personas",
+        "C03",
+        "C04",
+        "C05",
+        "C20",
+        "C26",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c20-04",
+        "it-a1-c26-01",
+        "it-a1-c28-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t20",
+        "it-a1-t26",
+        "it-a1-t28"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-essere",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "essere",
+      "displayForm": "essere",
+      "gloss": "ser / estar (según construcción)",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "sono",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "sei",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "è",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "siamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "siete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "sono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "identidad",
+        "C03",
+        "C04",
+        "C06",
+        "C11",
+        "C16",
+        "C18",
+        "C19",
+        "C20",
+        "C29",
+        "C31",
+        "C32",
+        "C33"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c04-02",
+        "it-a1-c04-03",
+        "it-a1-c04-04",
+        "it-a1-c04-05",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c06-03",
+        "it-a1-c11-01",
+        "it-a1-c16-03",
+        "it-a1-c18-02",
+        "it-a1-c19-01",
+        "it-a1-c19-02",
+        "it-a1-c20-01",
+        "it-a1-c29-01",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c33-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t11",
+        "it-a1-t16",
+        "it-a1-t18",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t33"
+      ],
+      "examples": [
+        {
+          "target": "Io sono Ana.",
+          "support": "Yo soy Ana."
+        }
+      ]
+    },
+    {
+      "id": "it-chiave",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "chiave",
+      "displayForm": "chiave",
+      "gloss": "llave",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "chiavi",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C16",
+        "C19",
+        "C23"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c04-04",
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c06-03",
+        "it-a1-c07-02",
+        "it-a1-c08-01",
+        "it-a1-c09-02",
+        "it-a1-c09-03",
+        "it-a1-c10-02",
+        "it-a1-c16-05",
+        "it-a1-c19-01",
+        "it-a1-c19-02",
+        "it-a1-c23-01"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t06",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t23"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-amico",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "amico",
+      "displayForm": "amico",
+      "gloss": "amigo; femenino amica: amiga",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "feminine",
+          "text": "amica",
+          "features": {
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "irregular": false
+        },
+        {
+          "key": "plural",
+          "text": "amici",
+          "features": {
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "irregular": false
+        },
+        {
+          "key": "feminine-plural",
+          "text": "amiche",
+          "features": {
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C04",
+        "C09",
+        "C10",
+        "C11",
+        "C15",
+        "C16",
+        "C20",
+        "C21",
+        "C24",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c04-02",
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c10-01",
+        "it-a1-c11-01",
+        "it-a1-c11-02",
+        "it-a1-c15-01",
+        "it-a1-c16-02",
+        "it-a1-c16-03",
+        "it-a1-c16-04",
+        "it-a1-c16-05",
+        "it-a1-c16-06",
+        "it-a1-c16-08",
+        "it-a1-c20-04",
+        "it-a1-c21-01",
+        "it-a1-c24-01",
+        "it-a1-c24-02",
+        "it-a1-c27-03"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t04",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t11",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t24",
+        "it-a1-t27"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-casa",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "casa",
+      "displayForm": "casa",
+      "gloss": "casa",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "case",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C04",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C11",
+        "C15",
+        "C16",
+        "C19",
+        "C20",
+        "C21",
+        "C23",
+        "C24",
+        "C29",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c04-04",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c06-03",
+        "it-a1-c07-01",
+        "it-a1-c08-01",
+        "it-a1-c09-03",
+        "it-a1-c11-01",
+        "it-a1-c11-02",
+        "it-a1-c15-02",
+        "it-a1-c16-01",
+        "it-a1-c16-02",
+        "it-a1-c16-03",
+        "it-a1-c16-04",
+        "it-a1-c16-08",
+        "it-a1-c19-02",
+        "it-a1-c20-02",
+        "it-a1-c20-03",
+        "it-a1-c21-01",
+        "it-a1-c21-02",
+        "it-a1-c23-01",
+        "it-a1-c23-02",
+        "it-a1-c24-01",
+        "it-a1-c29-04",
+        "it-a1-c34-02"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t09",
+        "it-a1-t11",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t23",
+        "it-a1-t24",
+        "it-a1-t29",
+        "it-a1-t34"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-lui",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "lui",
+      "displayForm": "lui",
+      "gloss": "él",
+      "partOfSpeech": "pronoun",
+      "forms": [],
+      "tags": [
+        "pronoun",
+        "C03",
+        "C04",
+        "C05",
+        "C20",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c20-04",
+        "it-a1-c28-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t20",
+        "it-a1-t28"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-lei",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "lei",
+      "displayForm": "lei",
+      "gloss": "ella; usted en trato cortés",
+      "partOfSpeech": "pronoun",
+      "forms": [],
+      "tags": [
+        "pronoun",
+        "C03",
+        "C04",
+        "C05",
+        "C18",
+        "C20",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c18-02",
+        "it-a1-c20-04",
+        "it-a1-c28-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t18",
+        "it-a1-t20",
+        "it-a1-t28"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-voi",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "voi",
+      "displayForm": "voi",
+      "gloss": "vosotros / vosotras / ustedes",
+      "partOfSpeech": "pronoun",
+      "forms": [],
+      "tags": [
+        "pronoun",
+        "C03",
+        "C04",
+        "C05",
+        "C20",
+        "C26",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c20-04",
+        "it-a1-c26-01",
+        "it-a1-c28-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t20",
+        "it-a1-t26",
+        "it-a1-t28"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-loro",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "loro",
+      "displayForm": "loro",
+      "gloss": "ellos / ellas; su/sus de ellos o ellas, posesivo invariable",
+      "partOfSpeech": "pronoun",
+      "forms": [
+        {
+          "key": "possessive",
+          "text": "loro",
+          "features": {
+            "use": "possessive"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "pronoun",
+        "C03",
+        "C04",
+        "C05",
+        "C20",
+        "C23",
+        "C26",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c20-04",
+        "it-a1-c23-01",
+        "it-a1-c23-02",
+        "it-a1-c26-01",
+        "it-a1-c28-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t20",
+        "it-a1-t23",
+        "it-a1-t26",
+        "it-a1-t28"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-qui",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "qui",
+      "displayForm": "qui",
+      "gloss": "aquí",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C03",
+        "C04",
+        "C06",
+        "C15",
+        "C16",
+        "C19",
+        "C23",
+        "C24"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c04-04",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c15-02",
+        "it-a1-c16-04",
+        "it-a1-c19-02",
+        "it-a1-c23-02",
+        "it-a1-c24-01",
+        "it-a1-c24-02"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t23",
+        "it-a1-t24"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-insegnante",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "insegnante",
+      "displayForm": "insegnante",
+      "gloss": "profesor / profesora",
+      "partOfSpeech": "noun",
+      "gender": "common",
+      "number": "singular",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C04",
+        "C07",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-02",
+        "it-a1-c07-02",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t07",
+        "it-a1-t34"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-alto",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "alto",
+      "displayForm": "alto",
+      "gloss": "alto (estatura)",
+      "partOfSpeech": "adjective",
+      "forms": [
+        {
+          "key": "feminine",
+          "text": "alta",
+          "features": {
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "adjective",
+        "C04",
+        "C11"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-02",
+        "it-a1-c11-01"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t11"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-di",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "di",
+      "displayForm": "di",
+      "gloss": "de: origen con essere, pertenencia y contenido; di notte",
+      "partOfSpeech": "preposition",
+      "forms": [],
+      "tags": [
+        "preposition",
+        "C04",
+        "C20",
+        "C21",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-03",
+        "it-a1-c20-01",
+        "it-a1-c20-06",
+        "it-a1-c21-01",
+        "it-a1-c21-02",
+        "it-a1-c27-03"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t27"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-roma",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "Roma",
+      "displayForm": "Roma",
+      "gloss": "Roma",
+      "partOfSpeech": "proper-noun",
+      "forms": [],
+      "tags": [
+        "proper-noun",
+        "C04",
+        "C06",
+        "C14",
+        "C16",
+        "C17",
+        "C18",
+        "C20",
+        "C21",
+        "C23",
+        "C29",
+        "C32"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-03",
+        "it-a1-c04-04",
+        "it-a1-c06-03",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c16-02",
+        "it-a1-c16-04",
+        "it-a1-c17-03",
+        "it-a1-c18-02",
+        "it-a1-c20-01",
+        "it-a1-c20-02",
+        "it-a1-c20-03",
+        "it-a1-c21-02",
+        "it-a1-c23-02",
+        "it-a1-c29-03",
+        "it-a1-c32-03"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t14",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t23",
+        "it-a1-t29",
+        "it-a1-t32"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-madrid",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "Madrid",
+      "displayForm": "Madrid",
+      "gloss": "Madrid",
+      "partOfSpeech": "proper-noun",
+      "forms": [],
+      "tags": [
+        "proper-noun",
+        "C04",
+        "C20"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-03",
+        "it-a1-c04-04",
+        "it-a1-c20-01"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t20"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-italiano",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "italiano",
+      "displayForm": "italiano",
+      "gloss": "italiano: nacionalidad; lengua en parlare/studiare italiano",
+      "partOfSpeech": "adjective",
+      "forms": [
+        {
+          "key": "feminine",
+          "text": "italiana",
+          "features": {
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "adjective",
+        "C04",
+        "C11",
+        "C12",
+        "C14",
+        "C15",
+        "C17",
+        "C20",
+        "C25",
+        "C29",
+        "C31",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-03",
+        "it-a1-c11-02",
+        "it-a1-c12-01",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c15-01",
+        "it-a1-c15-03",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c20-01",
+        "it-a1-c20-06",
+        "it-a1-c25-01",
+        "it-a1-c29-03",
+        "it-a1-c31-01",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t11",
+        "it-a1-t12",
+        "it-a1-t14",
+        "it-a1-t15",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t25",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t34"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-spagnolo",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "spagnolo",
+      "displayForm": "spagnolo",
+      "gloss": "español: nacionalidad; lengua en parlare spagnolo",
+      "partOfSpeech": "adjective",
+      "forms": [
+        {
+          "key": "feminine",
+          "text": "spagnola",
+          "features": {
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "adjective",
+        "C04",
+        "C14",
+        "C26",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-03",
+        "it-a1-c14-01",
+        "it-a1-c26-01",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t14",
+        "it-a1-t26",
+        "it-a1-t34"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-a",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "a",
+      "displayForm": "a",
+      "gloss": "a/en: ciudad, a casa, destino; a mezzogiorno",
+      "partOfSpeech": "preposition",
+      "forms": [],
+      "tags": [
+        "preposition",
+        "C04",
+        "C16",
+        "C20",
+        "C21"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-04",
+        "it-a1-c16-02",
+        "it-a1-c16-05",
+        "it-a1-c20-02",
+        "it-a1-c20-03",
+        "it-a1-c20-06",
+        "it-a1-c21-01",
+        "it-a1-c21-02"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t16",
+        "it-a1-t20",
+        "it-a1-t21"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-in",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "in",
+      "displayForm": "in",
+      "gloss": "en: país, in hotel; mes y tiempo de realización",
+      "partOfSpeech": "preposition",
+      "forms": [],
+      "tags": [
+        "preposition",
+        "C04",
+        "C16",
+        "C20",
+        "C21"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-04",
+        "it-a1-c16-02",
+        "it-a1-c20-02",
+        "it-a1-c20-03",
+        "it-a1-c20-06",
+        "it-a1-c21-01",
+        "it-a1-c21-02"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t16",
+        "it-a1-t20",
+        "it-a1-t21"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-hotel",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "hotel",
+      "displayForm": "hotel",
+      "gloss": "hotel",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "hotel",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "noun",
+        "C04",
+        "C08",
+        "C14",
+        "C15",
+        "C16",
+        "C19",
+        "C20",
+        "C21",
+        "C29",
+        "C33",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-04",
+        "it-a1-c08-02",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c15-02",
+        "it-a1-c16-01",
+        "it-a1-c16-02",
+        "it-a1-c16-04",
+        "it-a1-c16-06",
+        "it-a1-c19-01",
+        "it-a1-c20-02",
+        "it-a1-c21-02",
+        "it-a1-c29-04",
+        "it-a1-c33-01",
+        "it-a1-c34-02",
+        "it-a1-c34-06"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t08",
+        "it-a1-t14",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t29",
+        "it-a1-t33",
+        "it-a1-t34"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-stanco",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "stanco",
+      "displayForm": "stanco",
+      "gloss": "cansado",
+      "partOfSpeech": "adjective",
+      "forms": [
+        {
+          "key": "feminine",
+          "text": "stanca",
+          "features": {
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "adjective",
+        "C04",
+        "C05",
+        "C11",
+        "C16",
+        "C29"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-05",
+        "it-a1-c05-04",
+        "it-a1-c11-01",
+        "it-a1-c16-03",
+        "it-a1-c29-03"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t11",
+        "it-a1-t16",
+        "it-a1-t29"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-contento",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "contento",
+      "displayForm": "contento",
+      "gloss": "contento",
+      "partOfSpeech": "adjective",
+      "forms": [
+        {
+          "key": "feminine",
+          "text": "contenta",
+          "features": {
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "adjective",
+        "C04"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-05"
+      ],
+      "topicIds": [
+        "it-a1-t04"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-pronto",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "pronto",
+      "displayForm": "pronto",
+      "gloss": "listo, preparado",
+      "partOfSpeech": "adjective",
+      "forms": [
+        {
+          "key": "feminine",
+          "text": "pronta",
+          "features": {
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "irregular": false
+        },
+        {
+          "key": "plural",
+          "text": "pronti",
+          "features": {
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "irregular": false
+        },
+        {
+          "key": "feminine-plural",
+          "text": "pronte",
+          "features": {
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "adjective",
+        "C04"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-05"
+      ],
+      "topicIds": [
+        "it-a1-t04"
+      ],
+      "examples": []
+    },
+    {
+      "id": "it-sto-bene",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "sto bene",
+      "displayForm": "sto bene",
+      "gloss": "estoy bien",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C04",
+        "C06",
+        "C16"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-05",
+        "it-a1-c06-03",
+        "it-a1-c16-03"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t16"
+      ],
+      "examples": []
+    }
+  ],
+  "templates": [
+    {
+      "id": "it-essere-present-cloze",
+      "version": "2",
+      "family": "F2",
+      "format": "cloze",
+      "concept": {
+        "id": "it-a1-c04-01",
+        "version": "2"
+      },
+      "objective": "Recuperar formas del paradigma en los sujetos y contextos explícitos.",
+      "constraints": [
+        "Solo fuentes versionadas y sujetos escritos en cada consigna.",
+        "Respuesta única idéntica a la forma léxica canónica; sin permutación de contextos."
+      ],
+      "variants": [
+        {
+          "key": "tu",
+          "source": {
+            "id": "it-a1-c04-01-sei",
+            "version": "2"
+          },
+          "vocabulary": [
+            {
+              "id": "it-essere",
+              "version": "2"
+            }
+          ],
+          "answerFrom": {
+            "entryId": "it-essere",
+            "formKey": "tu"
+          }
+        },
+        {
+          "key": "lui-lei",
+          "source": {
+            "id": "it-a1-c04-01-lei-e",
+            "version": "1"
+          },
+          "vocabulary": [
+            {
+              "id": "it-essere",
+              "version": "2"
+            }
+          ],
+          "answerFrom": {
+            "entryId": "it-essere",
+            "formKey": "lui-lei"
+          }
+        },
+        {
+          "key": "voi",
+          "source": {
+            "id": "it-a1-c04-01-voi-siete",
+            "version": "1"
+          },
+          "vocabulary": [
+            {
+              "id": "it-essere",
+              "version": "2"
+            }
+          ],
+          "answerFrom": {
+            "entryId": "it-essere",
+            "formKey": "voi"
+          }
+        },
+        {
+          "key": "loro",
+          "source": {
+            "id": "it-a1-c04-01-loro-sono",
+            "version": "1"
+          },
+          "vocabulary": [
+            {
+              "id": "it-essere",
+              "version": "2"
+            }
+          ],
+          "answerFrom": {
+            "entryId": "it-essere",
+            "formKey": "loro"
+          }
+        }
+      ]
+    }
+  ]
+}
