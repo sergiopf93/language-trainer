@@ -279,13 +279,15 @@ export const c26: Lesson[] = [
       {
         key: 'negativo',
         format: 'transformation',
-        prompt: 'Metti al negativo: «Mi alzo alle sei».',
+        prompt:
+          'Metti al negativo semplice l’intera frase, senza contrasti: «Mi alzo alle sei».',
         accepted: ['Non mi alzo alle sei', 'Non mi alzo alle sei.'],
         rejected: ['Mi non alzo alle sei'],
         hint: 'Non va antes del pronombre.',
         explanation: 'Non va antes del pronombre.',
         facets: ['negacion'],
         context: 'rutina',
+        version: '2',
       },
       {
         key: 'orario',

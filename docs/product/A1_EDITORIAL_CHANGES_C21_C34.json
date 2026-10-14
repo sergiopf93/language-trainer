@@ -1,0 +1,1705 @@
+{
+  "baseline": "164bdc7",
+  "phase": "5B.4",
+  "changes": [
+    {
+      "conceptId": "it-a1-c22-01",
+      "id": "it-a1-c22-01-data-intera",
+      "kind": "activity",
+      "classification": "Ambigüedad relevante",
+      "severity": "media",
+      "problem": "A: La traducción abierta rechaza una fecha con di sin delimitar el modelo.",
+      "evidence": {
+        "key": "data-intera",
+        "format": "translation",
+        "prompt": "Traduci in parole: «el quince de agosto».",
+        "accepted": [
+          "il quindici agosto"
+        ],
+        "rejected": [
+          "il quindici di agosto"
+        ],
+        "hint": "La fecha se construye con número seguido directamente del mes.",
+        "explanation": "La fecha se construye con número seguido directamente del mes.",
+        "facets": [
+          "fecha"
+        ],
+        "context": "viaje"
+      },
+      "proposal": {
+        "prompt": "Traduci in parole seguendo il modello della scheda, senza preposizione tra numero e mese: «el quince de agosto».",
+        "rejected": [],
+        "hint": "En el modelo practicado, el número precede directamente al mes.",
+        "explanation": "Il quindici agosto es el modelo pedido; no se declara incorrecto todo uso de di en fechas."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt",
+        "rejected",
+        "hint",
+        "explanation"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c22-01",
+      "id": "it-a1-c22-01-appuntamento",
+      "kind": "activity",
+      "classification": "Ambigüedad relevante",
+      "severity": "media",
+      "problem": "A: Rechazo innecesario de di en fecha; la tarea ya fija componentes.",
+      "evidence": {
+        "key": "appuntamento",
+        "format": "controlled-production",
+        "prompt": "Comunica la data con parole: usa vengo + il + 2 + maggio.",
+        "accepted": [
+          "Vengo il due maggio"
+        ],
+        "rejected": [
+          "Vengo il due di maggio"
+        ],
+        "hint": "El mes sigue directamente al número.",
+        "explanation": "El mes sigue directamente al número.",
+        "facets": [
+          "fecha"
+        ],
+        "context": "cita"
+      },
+      "proposal": {
+        "rejected": [],
+        "hint": "Une los elementos dados: número y mes quedan contiguos.",
+        "explanation": "Con los elementos pedidos se obtiene Vengo il due maggio; no se generaliza el rechazo a otras formulaciones de fecha."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "rejected",
+        "hint",
+        "explanation"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c22-02",
+      "id": "it-a1-c22-02-tre",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "La consigna proporciona la locución objetivo.",
+      "evidence": {
+        "key": "tre",
+        "format": "short",
+        "prompt": "Sono le 03:15. Scrivi l’ora con e un quarto.",
+        "accepted": [
+          "Sono le tre e un quarto"
+        ],
+        "rejected": [
+          "Sono le tre meno un quarto"
+        ],
+        "hint": "Quince minutos después se expresa con e un quarto.",
+        "explanation": "Quince minutos después se expresa con e un quarto.",
+        "facets": [
+          "cuarto"
+        ],
+        "context": "cita"
+      },
+      "proposal": {
+        "prompt": "Sono le 03:15. Scrivi una frase completa in parole usando una frazione dell’ora."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c22-02",
+      "id": "it-a1-c22-02-meno",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "La consigna proporciona la locución objetivo.",
+      "evidence": {
+        "key": "meno",
+        "format": "short",
+        "prompt": "03:45: scrivi l’ora con meno un quarto.",
+        "accepted": [
+          "Sono le quattro meno un quarto"
+        ],
+        "rejected": [
+          "Sono le tre meno un quarto"
+        ],
+        "hint": "Se resta un cuarto a la hora siguiente.",
+        "explanation": "Se resta un cuarto a la hora siguiente.",
+        "facets": [
+          "cuarto"
+        ],
+        "context": "transporte"
+      },
+      "proposal": {
+        "prompt": "03:45: scrivi una frase completa in parole, indicando quanto manca all’ora successiva."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c22-02",
+      "id": "it-a1-c22-02-evento",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna poco natural a appuntamento.",
+      "evidence": {
+        "key": "evento",
+        "format": "transformation",
+        "prompt": "Da ora attuale a appuntamento: «Sono le due» → usa vengo.",
+        "accepted": [
+          "Vengo alle due"
+        ],
+        "rejected": [
+          "Vengo le due"
+        ],
+        "hint": "El evento requiere a + le = alle.",
+        "explanation": "El evento requiere a + le = alle.",
+        "facets": [
+          "evento"
+        ],
+        "context": "cita"
+      },
+      "proposal": {
+        "prompt": "Trasforma l’ora attuale in quella di un appuntamento: «Sono le due» → usa venire alla prima persona singolare."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c22-03",
+      "id": "it-a1-c22-03-mai",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna entrega non, forma que debe recuperarse.",
+      "evidence": {
+        "key": "mai",
+        "format": "error-correction",
+        "prompt": "Aggiungi non: «Bevo mai caffè». Scrivi la frase completa.",
+        "accepted": [
+          "Non bevo mai caffè"
+        ],
+        "rejected": [
+          "Bevo non mai caffè"
+        ],
+        "hint": "Non va delante del verbo y mai detrás en este orden.",
+        "explanation": "Non va delante del verbo y mai detrás en este orden.",
+        "facets": [
+          "negacion"
+        ],
+        "context": "bar"
+      },
+      "proposal": {
+        "prompt": "Correggi la negazione semplice: «Bevo mai caffè». Scrivi la frase completa."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c22-03",
+      "id": "it-a1-c22-03-periodica",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna entrega la expresión de frecuencia completa.",
+      "evidence": {
+        "key": "periodica",
+        "format": "translation",
+        "prompt": "Traduci con due volte alla settimana: «Estudio dos veces por semana».",
+        "accepted": [
+          "Studio due volte alla settimana"
+        ],
+        "rejected": [
+          "Studio per due settimane"
+        ],
+        "hint": "La primera indica frecuencia; la segunda duración.",
+        "explanation": "La primera indica frecuencia; la segunda duración.",
+        "facets": [
+          "periodicidad"
+        ],
+        "context": "estudio"
+      },
+      "proposal": {
+        "prompt": "Traduci: «Estudio dos veces por semana».",
+        "accepted": [
+          "Studio due volte alla settimana",
+          "Studio due volte a settimana",
+          "Studio due volte la settimana"
+        ],
+        "explanation": "Due volte alla settimana expresa frecuencia; per due settimane expresa duración."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt",
+        "accepted",
+        "explanation"
+      ],
+      "acceptedChanged": true
+    },
+    {
+      "conceptId": "it-a1-c22-03",
+      "id": "it-a1-c22-03-giorno",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna entrega la expresión objetivo.",
+      "evidence": {
+        "key": "giorno",
+        "format": "transformation",
+        "prompt": "Sostituisci «tutti i giorni» con ogni giorno: «Leggo tutti i giorni».",
+        "accepted": [
+          "Leggo ogni giorno"
+        ],
+        "rejected": [
+          "Leggo ogni giorni"
+        ],
+        "hint": "Ogni se combina con el nombre singular giorno.",
+        "explanation": "Ogni se combina con el nombre singular giorno.",
+        "facets": [
+          "periodicidad"
+        ],
+        "context": "ocio"
+      },
+      "proposal": {
+        "prompt": "Riscrivi «Leggo tutti i giorni» usando ogni al posto di tutti i."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c22-03",
+      "id": "it-a1-c22-03-qualche",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna permite copiar la respuesta íntegra.",
+      "evidence": {
+        "key": "qualche",
+        "format": "controlled-production",
+        "prompt": "Scrivi nell’ordine dato: qualche volta + esco.",
+        "accepted": [
+          "Qualche volta esco"
+        ],
+        "rejected": [
+          "Qualche volte esco"
+        ],
+        "hint": "Qualche volta es la expresión para a veces.",
+        "explanation": "Qualche volta es la expresión para a veces.",
+        "facets": [
+          "adverbio"
+        ],
+        "context": "ocio"
+      },
+      "proposal": {
+        "prompt": "Di’ in italiano «A veces salgo». Metti l’espressione di frequenza all’inizio e usa qualche e uscire."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c22-04",
+      "id": "it-a1-c22-04-proponi",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna entrega verbo y construcción completos.",
+      "evidence": {
+        "key": "proponi",
+        "format": "controlled-production",
+        "prompt": "Chiedi a un amico: usa puoi venire + lunedì + alle tre.",
+        "accepted": [
+          "Puoi venire lunedì alle tre?"
+        ],
+        "rejected": [
+          "Può venire lunedì alle tre?"
+        ],
+        "hint": "Con un amigo tratado de tú, puoi; día y hora completan la propuesta.",
+        "explanation": "Con un amigo tratado de tú, puoi; día y hora completan la propuesta.",
+        "facets": [
+          "propuesta"
+        ],
+        "context": "cita"
+      },
+      "proposal": {
+        "prompt": "Chiedi a un amico, dandogli del tu, se può venire lunedì alle 15. Usa potere e venire e scrivi l’ora in parole."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c22-04",
+      "id": "it-a1-c22-04-conferma",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna permite copiar toda la confirmación.",
+      "evidence": {
+        "key": "conferma",
+        "format": "controlled-production",
+        "prompt": "Puoi venire alle tre. Conferma con sì + posso venire alle tre.",
+        "accepted": [
+          "Sì, posso venire alle tre"
+        ],
+        "rejected": [
+          "No, non posso venire alle tre"
+        ],
+        "hint": "La confirmación debe respetar la disponibilidad dada.",
+        "explanation": "La confirmación debe respetar la disponibilidad dada.",
+        "facets": [
+          "confirmacion"
+        ],
+        "context": "cita"
+      },
+      "proposal": {
+        "prompt": "Un amico ti propone di venire alle 15 e tu sei disponibile. Conferma iniziando con sì e usando potere e venire alla prima persona singolare; scrivi l’ora in parole."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c23-02",
+      "id": "it-a1-c23-02-loro",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna proporciona el posesivo objetivo.",
+      "evidence": {
+        "key": "loro",
+        "format": "controlled-production",
+        "prompt": "Anna e Luca hanno lo stesso padre (el mismo padre). Scrivi articolo + loro + padre.",
+        "accepted": [
+          "Il loro padre"
+        ],
+        "rejected": [
+          "Loro padre"
+        ],
+        "hint": "Loro conserva el artículo también en singular.",
+        "explanation": "Loro conserva el artículo también en singular.",
+        "facets": [
+          "loro"
+        ],
+        "context": "familia"
+      },
+      "proposal": {
+        "prompt": "Anna e Luca hanno lo stesso padre. Indicalo con articolo + possessivo riferito a loro + padre."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c23-02",
+      "id": "it-a1-c23-02-cara",
+      "kind": "activity",
+      "classification": "Ambigüedad relevante",
+      "severity": "media",
+      "problem": "A: El grupo sin artículo puede ser vocativo; fijar función de sujeto.",
+      "evidence": {
+        "key": "cara",
+        "format": "error-correction",
+        "prompt": "Aggiungi l’articolo: «mia cara madre».",
+        "accepted": [
+          "la mia cara madre"
+        ],
+        "rejected": [
+          "mia cara madre"
+        ],
+        "hint": "El calificativo cara hace que el grupo lleve artículo.",
+        "explanation": "El calificativo cara hace que el grupo lleve artículo.",
+        "facets": [
+          "modificador"
+        ],
+        "context": "familia"
+      },
+      "proposal": {
+        "prompt": "Parli di tua madre, non ti rivolgi a lei. Aggiungi l’articolo al soggetto: «Mia cara madre è qui». Scrivi solo il gruppo del soggetto.",
+        "explanation": "En el sujeto de esta frase el calificativo lleva al uso de la mia cara madre. El vocativo Mia cara madre tiene otro uso."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt",
+        "explanation"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c24-01",
+      "id": "it-a1-c24-01-vicino",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna revela la forma correcta entre dos opciones.",
+      "evidence": {
+        "key": "vicino",
+        "format": "selection",
+        "prompt": "Il libro è vicino a chi parla. Scegli la forma con questo.",
+        "accepted": [
+          "questo libro"
+        ],
+        "rejected": [
+          "questa libro"
+        ],
+        "hint": "Libro es masculino singular.",
+        "explanation": "Libro es masculino singular.",
+        "facets": [
+          "masculino"
+        ],
+        "context": "compras",
+        "options": [
+          "questa libro",
+          "questo libro"
+        ]
+      },
+      "proposal": {
+        "prompt": "Il libro è vicino a chi parla. Scegli il gruppo concordato correttamente."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c24-01",
+      "id": "it-a1-c24-01-richiesta",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna entrega demostrativo ya concordado.",
+      "evidence": {
+        "key": "richiesta",
+        "format": "controlled-production",
+        "prompt": "Chiedi la penna vicina: usa vorrei + questa penna.",
+        "accepted": [
+          "Vorrei questa penna"
+        ],
+        "rejected": [
+          "Vorrei questo penna"
+        ],
+        "hint": "La petición reutiliza vorrei y questo concuerda en femenino.",
+        "explanation": "La petición reutiliza vorrei y questo concuerda en femenino.",
+        "facets": [
+          "femenino"
+        ],
+        "context": "compras"
+      },
+      "proposal": {
+        "prompt": "Chiedi un bolígrafo vicino a te: usa vorrei, il dimostrativo di vicinanza e penna."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c24-02",
+      "id": "it-a1-c24-02-zaino",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna muestra literalmente la solución.",
+      "evidence": {
+        "key": "zaino",
+        "format": "cloze",
+        "prompt": "___ zaino là (forma di quello).",
+        "accepted": [
+          "quello"
+        ],
+        "rejected": [
+          "quel"
+        ],
+        "hint": "Zaino sigue el patrón de lo y exige quello.",
+        "explanation": "Zaino sigue el patrón de lo y exige quello.",
+        "facets": [
+          "quello"
+        ],
+        "context": "compras"
+      },
+      "proposal": {
+        "prompt": "Completa con il dimostrativo di lontananza: ___ zaino là."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c24-02",
+      "id": "it-a1-c24-02-distanza",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna permite copiar las dos frases completas.",
+      "evidence": {
+        "key": "distanza",
+        "format": "controlled-production",
+        "prompt": "Contrasta le penne con i dati: questa penna + è qui; quella penna + è là.",
+        "accepted": [
+          "Questa penna è qui; quella penna è là"
+        ],
+        "rejected": [
+          "Quella penna è qui; questa penna è là"
+        ],
+        "hint": "Los datos fijan esta cerca y aquella lejos.",
+        "explanation": "Los datos fijan esta cerca y aquella lejos.",
+        "facets": [
+          "contraste"
+        ],
+        "context": "compras"
+      },
+      "proposal": {
+        "prompt": "Descrivi due penne: una vicino a te e una lontana. Scrivi due frasi separate da punto e virgola, prima la vicina; usa i dimostrativi, penna, essere, qui e là."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c25-01",
+      "id": "it-a1-c25-01-domanda",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna entrega la construcción conjugada.",
+      "evidence": {
+        "key": "domanda",
+        "format": "controlled-production",
+        "prompt": "Chiedi a un amico se gli piace leggere: usa ti piace + leggere.",
+        "accepted": [
+          "Ti piace leggere?"
+        ],
+        "rejected": [
+          "Mi piace leggere?"
+        ],
+        "hint": "Ti se refiere al interlocutor.",
+        "explanation": "Ti se refiere al interlocutor.",
+        "facets": [
+          "destinatario"
+        ],
+        "context": "ocio"
+      },
+      "proposal": {
+        "prompt": "Chiedi a un amico, dandogli del tu, se gli piace leggere. Usa piacere e leggere, senza soggetto esplicito."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c25-02",
+      "id": "it-a1-c25-02-domanda",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna entrega concordancia plural objetivo.",
+      "evidence": {
+        "key": "domanda",
+        "format": "controlled-production",
+        "prompt": "Chiedi a un amico: usa ti piacciono + i libri.",
+        "accepted": [
+          "Ti piacciono i libri?"
+        ],
+        "rejected": [
+          "Ti piace i libri?"
+        ],
+        "hint": "El destinatario ti no cambia la concordancia plural con libri.",
+        "explanation": "El destinatario ti no cambia la concordancia plural con libri.",
+        "facets": [
+          "destinatario"
+        ],
+        "context": "ocio"
+      },
+      "proposal": {
+        "prompt": "Chiedi a un amico, dandogli del tu, se apprezza i libri. Usa piacere e i libri, senza soggetto esplicito."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c27-01",
+      "id": "it-a1-c27-01-pane",
+      "kind": "activity",
+      "classification": "Ambigüedad relevante",
+      "severity": "media",
+      "problem": "A: Un po’ del pane puede señalar parte de un pan identificado; no excluirlo universalmente.",
+      "evidence": {
+        "key": "pane",
+        "format": "cloze",
+        "prompt": "Vorrei un po’ ___ pane.",
+        "accepted": [
+          "di"
+        ],
+        "rejected": [
+          "del"
+        ],
+        "hint": "La construcción de cantidad es un po’ di + nombre.",
+        "explanation": "La construcción de cantidad es un po’ di + nombre.",
+        "facets": [
+          "construccion"
+        ],
+        "context": "bar"
+      },
+      "proposal": {
+        "prompt": "Completa con una preposizione semplice: Vorrei un po’ ___ pane.",
+        "rejected": [
+          "da"
+        ],
+        "explanation": "La preposición simple de la fórmula de cantidad es di. Del puede aparecer si se habla de una parte de un pan identificado."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt",
+        "rejected",
+        "explanation"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c27-01",
+      "id": "it-a1-c27-01-ordine",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna entrega toda la construcción de cantidad y petición.",
+      "evidence": {
+        "key": "ordine",
+        "format": "controlled-production",
+        "prompt": "Chiedi pane con Vorrei + un po’ di + pane. Aggiungi per favore.",
+        "accepted": [
+          "Vorrei un po' di pane, per favore",
+          "Vorrei un po’ di pane, per favore",
+          "Vorrei un po' di pane, per favore.",
+          "Vorrei un po’ di pane, per favore."
+        ],
+        "rejected": [
+          "Vorrei un pò di pane, per favore"
+        ],
+        "hint": "Po’ conserva el apóstrofo en la petición.",
+        "explanation": "Po’ conserva el apóstrofo en la petición.",
+        "facets": [
+          "peticion"
+        ],
+        "context": "restaurante"
+      },
+      "proposal": {
+        "prompt": "Chiedi una piccola quantità di pane. Inizia con Vorrei, usa la forma breve di poco e termina con per favore."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c27-01",
+      "id": "it-a1-c27-01-mele",
+      "kind": "activity",
+      "classification": "Ambigüedad relevante",
+      "severity": "media",
+      "problem": "A: Chilo y chilogrammo expresan el mismo peso.",
+      "evidence": {
+        "key": "mele",
+        "format": "short",
+        "prompt": "Vuoi esattamente 1 kg di mele: scrivi la quantità tutta in lettere.",
+        "accepted": [
+          "un chilo di mele"
+        ],
+        "rejected": [
+          "un litro di mele"
+        ],
+        "hint": "Chilo expresa peso; litro expresa volumen.",
+        "explanation": "Chilo expresa peso; litro expresa volumen.",
+        "facets": [
+          "medida"
+        ],
+        "context": "supermercado"
+      },
+      "proposal": {
+        "accepted": [
+          "un chilo di mele",
+          "un chilogrammo di mele"
+        ]
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "accepted"
+      ],
+      "acceptedChanged": true
+    },
+    {
+      "conceptId": "it-a1-c28-01",
+      "id": "it-a1-c28-01-lui",
+      "kind": "activity",
+      "classification": "Ambigüedad relevante",
+      "severity": "media",
+      "problem": "A: La frase no establece que Marco sea destinatario del mensaje.",
+      "evidence": {
+        "key": "lui",
+        "format": "cloze",
+        "prompt": "Marco lavora qui. Il messaggio è per ___.",
+        "accepted": [
+          "lui"
+        ],
+        "rejected": [
+          "lei"
+        ],
+        "hint": "Marco es el referente de lui.",
+        "explanation": "Marco es el referente de lui.",
+        "facets": [
+          "referente"
+        ],
+        "context": "trabajo"
+      },
+      "proposal": {
+        "prompt": "Marco lavora qui. Il messaggio è destinato a Marco: è per ___. Usa un pronome tonico."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c28-02",
+      "id": "it-a1-c28-02-caffe",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna entrega pronombre y frase completos; su il es innecesario.",
+      "evidence": {
+        "key": "caffe",
+        "format": "controlled-production",
+        "prompt": "Rispondi su il caffè: usa lo + prendo + al bar.",
+        "accepted": [
+          "Lo prendo al bar",
+          "Lo prendo al bar."
+        ],
+        "rejected": [
+          "La prendo al bar"
+        ],
+        "hint": "Lo retoma il caffè.",
+        "explanation": "Lo retoma il caffè.",
+        "facets": [
+          "masculino-singular"
+        ],
+        "context": "bar"
+      },
+      "proposal": {
+        "prompt": "Dove prendi il caffè? Rispondi con un pronome diretto, prendere alla prima persona singolare e al bar. Ometti io."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c28-02",
+      "id": "it-a1-c28-02-traduci",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Contracción ausente a i en consigna.",
+      "evidence": {
+        "key": "traduci",
+        "version": "2",
+        "format": "translation",
+        "prompt": "Traduci «Los leo», riferendoti a i libri.",
+        "accepted": [
+          "Li leggo",
+          "Li leggo.",
+          "Io li leggo",
+          "Io li leggo."
+        ],
+        "rejected": [
+          "Lo leggo"
+        ],
+        "hint": "El plural masculino se retoma con li.",
+        "explanation": "El plural masculino se retoma con li.",
+        "facets": [
+          "masculino-plural"
+        ],
+        "context": "ocio"
+      },
+      "proposal": {
+        "prompt": "Traduci «Los leo», riferendoti ai libri."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "2",
+      "afterVersion": "3",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c29-02",
+      "id": "it-a1-c29-02-ripara",
+      "kind": "activity",
+      "classification": "Ambigüedad relevante",
+      "severity": "media",
+      "problem": "A: Per lavoro es una expresión válida; debe explicitarse el mensaje pretendido.",
+      "evidence": {
+        "key": "ripara",
+        "format": "error-correction",
+        "prompt": "Sostituisci il falso amico per con il connettore italiano per «pero»: «Vorrei venire, per lavoro».",
+        "accepted": [
+          "Vorrei venire, ma lavoro",
+          "Vorrei venire, ma lavoro."
+        ],
+        "rejected": [
+          "Vorrei venire, per lavoro"
+        ],
+        "hint": "Ma corresponde a pero; per no es una conjunción de contraste.",
+        "explanation": "Ma corresponde a pero; per no es una conjunción de contraste.",
+        "facets": [
+          "forma"
+        ],
+        "context": "ocio"
+      },
+      "proposal": {
+        "prompt": "Vuoi dire «Quisiera ir, pero trabajo». Sostituisci solo il collegamento in «Vorrei venire, per lavoro» e scrivi la frase completa.",
+        "explanation": "Para el contraste solicitado corresponde ma. Per lavoro es válido con el sentido por trabajo, pero expresa otro mensaje."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt",
+        "explanation"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c29-02",
+      "id": "it-a1-c29-02-invito",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna entrega la respuesta completa.",
+      "evidence": {
+        "key": "invito",
+        "format": "controlled-production",
+        "prompt": "Rifiuta usando questi elementi nell’ordine: Vorrei + venire + ma + non posso.",
+        "accepted": [
+          "Vorrei venire, ma non posso",
+          "Vorrei venire, ma non posso."
+        ],
+        "rejected": [
+          "Vorrei venire e non posso"
+        ],
+        "hint": "Se pide expresar contraste con ma.",
+        "explanation": "Se pide expresar contraste con ma.",
+        "facets": [
+          "oposicion"
+        ],
+        "context": "ocio"
+      },
+      "proposal": {
+        "prompt": "Rifiuta un invito: esprimi prima il desiderio di venire con vorrei, poi l’impossibilità con potere al presente. Collega le due parti con il connettore di contrasto della scheda, senza io."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c29-03",
+      "id": "it-a1-c29-03-risposta",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna proporciona respuesta entera.",
+      "evidence": {
+        "key": "risposta",
+        "format": "controlled-production",
+        "prompt": "«Perché non vieni?» Rispondi con Perché e il motivo: lavoro.",
+        "accepted": [
+          "Perché lavoro",
+          "Perché lavoro."
+        ],
+        "rejected": [
+          "Ma lavoro"
+        ],
+        "hint": "La respuesta introduce la causa.",
+        "explanation": "La respuesta introduce la causa.",
+        "facets": [
+          "respuesta"
+        ],
+        "context": "ocio"
+      },
+      "proposal": {
+        "prompt": "«Perché non vieni?» Rispondi con una frase causale breve: il motivo è che devi lavorare. Usa lavorare al presente, prima persona singolare, senza io."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c29-03",
+      "id": "it-a1-c29-03-unisci",
+      "kind": "activity",
+      "classification": "Ambigüedad relevante",
+      "severity": "media",
+      "problem": "A: Dos frases sueltas no fijan dirección causal con suficiente precisión.",
+      "evidence": {
+        "key": "unisci",
+        "format": "transformation",
+        "prompt": "Unisci con perché: «Non esco. Sono stanco».",
+        "accepted": [
+          "Non esco perché sono stanco",
+          "Non esco perché sono stanco."
+        ],
+        "rejected": [
+          "Sono stanco perché non esco"
+        ],
+        "hint": "Se conserva el cansancio como causa de no salir.",
+        "explanation": "Se conserva el cansancio como causa de no salir.",
+        "facets": [
+          "causa"
+        ],
+        "context": "rutina"
+      },
+      "proposal": {
+        "prompt": "Non esci a causa della stanchezza. Unisci con perché, senza cambiare le parole delle due frasi: «Non esco. Sono stanco»."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c30-02",
+      "id": "it-a1-c30-02-negativo",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna permite copiar non parlare.",
+      "evidence": {
+        "key": "negativo",
+        "format": "transformation",
+        "prompt": "Proibisci a tu di parlare: usa non + parlare.",
+        "accepted": [
+          "Non parlare",
+          "Non parlare."
+        ],
+        "rejected": [
+          "Non parla"
+        ],
+        "hint": "El negativo de tu se forma con el infinitivo.",
+        "explanation": "El negativo de tu se forma con el infinitivo.",
+        "facets": [
+          "negativo-tu"
+        ],
+        "context": "conversacion"
+      },
+      "proposal": {
+        "prompt": "Trasforma in un divieto rivolto a tu: «Parla!»."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c32-01",
+      "id": "it-a1-c32-01-non",
+      "kind": "activity",
+      "classification": "Ambigüedad relevante",
+      "severity": "media",
+      "problem": "A: Negación simple frente a alcance contrastivo.",
+      "evidence": {
+        "key": "non",
+        "format": "transformation",
+        "prompt": "Metti al negativo: «Ho fatto colazione».",
+        "accepted": [
+          "Non ho fatto colazione",
+          "Non ho fatto colazione."
+        ],
+        "rejected": [
+          "Ho non fatto colazione"
+        ],
+        "hint": "Non precede al auxiliar.",
+        "explanation": "Non precede al auxiliar.",
+        "facets": [
+          "negacion"
+        ],
+        "context": "rutina"
+      },
+      "proposal": {
+        "prompt": "Metti al negativo semplice l’intera frase: «Ho fatto colazione». Non creare un contrasto tra azioni.",
+        "explanation": "En la negación simple de toda la frase, non precede al auxiliar: Non ho fatto colazione. No se evalúan construcciones contrastivas."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt",
+        "explanation"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c34-01",
+      "id": "it-a1-c34-01-nazionalita",
+      "kind": "activity",
+      "classification": "Ambigüedad relevante",
+      "severity": "media",
+      "problem": "A: Procedencia de Madrid no determina nacionalidad jurídica.",
+      "evidence": {
+        "key": "nazionalita",
+        "format": "cloze",
+        "prompt": "Marco è di Madrid: è ___ (nazionalità, maschile).",
+        "accepted": [
+          "spagnolo"
+        ],
+        "rejected": [
+          "italiano"
+        ],
+        "hint": "Madrid está en España; la nacionalidad es spagnolo.",
+        "explanation": "Madrid está en España; la nacionalidad es spagnolo.",
+        "facets": [
+          "nacionalidad"
+        ],
+        "context": "presentacion"
+      },
+      "proposal": {
+        "prompt": "Marco ha nazionalità spagnola. Scrivi in italiano l’aggettivo maschile per «español»: è ___.",
+        "hint": "El dato dado es la nacionalidad española; usa el masculino singular.",
+        "explanation": "La nacionalidad está indicada explícitamente; el adjetivo masculino es spagnolo."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt",
+        "hint",
+        "explanation"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c34-02",
+      "id": "it-a1-c34-02-camera",
+      "kind": "activity",
+      "classification": "Ambigüedad relevante",
+      "severity": "media",
+      "problem": "A: Stanza es una traducción válida de habitación.",
+      "evidence": {
+        "key": "camera",
+        "format": "short",
+        "prompt": "Traduci con articolo: «la habitación».",
+        "accepted": [
+          "la camera"
+        ],
+        "rejected": [
+          "la casa"
+        ],
+        "hint": "Camera es una habitación; casa es la vivienda.",
+        "explanation": "Camera es una habitación; casa es la vivienda.",
+        "facets": [
+          "espacio"
+        ],
+        "context": "hotel"
+      },
+      "proposal": {
+        "accepted": [
+          "la camera",
+          "la stanza"
+        ]
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "accepted"
+      ],
+      "acceptedChanged": true
+    },
+    {
+      "conceptId": "it-a1-c34-02",
+      "id": "it-a1-c34-02-tavolo",
+      "kind": "activity",
+      "classification": "Ambigüedad relevante",
+      "severity": "media",
+      "problem": "A: Tavola también traduce mesa; restringir al lema focal sin rechazar sinónimo.",
+      "evidence": {
+        "key": "tavolo",
+        "format": "translation",
+        "prompt": "Traduci con articolo: «la mesa».",
+        "accepted": [
+          "il tavolo"
+        ],
+        "rejected": [
+          "la sedia"
+        ],
+        "hint": "Tavolo es masculino en italiano.",
+        "explanation": "Tavolo es masculino en italiano.",
+        "facets": [
+          "mueble"
+        ],
+        "context": "vivienda"
+      },
+      "proposal": {
+        "prompt": "Traduci con articolo «la mesa» usando il nome maschile del repertorio."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c34-03",
+      "id": "it-a1-c34-03-pasta",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna da el nombre focal pasta sin recuperación.",
+      "evidence": {
+        "key": "pasta",
+        "format": "translation",
+        "prompt": "Traduci «un plato de pasta» usando piatto.",
+        "accepted": [
+          "un piatto di pasta"
+        ],
+        "rejected": [
+          "un piatto di riso"
+        ],
+        "hint": "Se recupera pasta en un pedido.",
+        "explanation": "Se recupera pasta en un pedido.",
+        "facets": [
+          "plato"
+        ],
+        "context": "restaurante"
+      },
+      "proposal": {
+        "prompt": "Traduci «un plato de pasta». Usa il nome italiano del recipiente e la costruzione con di."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c34-05",
+      "id": "it-a1-c34-05-pausa",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna copia el término italiano como apoyo.",
+      "evidence": {
+        "key": "pausa",
+        "format": "cloze",
+        "prompt": "Ho lavorato molto: faccio una ___ (pausa).",
+        "accepted": [
+          "pausa"
+        ],
+        "rejected": [
+          "colazione"
+        ],
+        "hint": "Pausa es una interrupción breve.",
+        "explanation": "Pausa es una interrupción breve.",
+        "facets": [
+          "rutina"
+        ],
+        "context": "trabajo"
+      },
+      "proposal": {
+        "prompt": "Ho lavorato molto: interrompo brevemente l’attività e faccio una ___."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c34-06",
+      "id": "it-a1-c34-06-arrivo",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna rotula arrivo y permite copia sin recuperar léxico.",
+      "evidence": {
+        "key": "arrivo",
+        "format": "cloze",
+        "prompt": "Partenza 7:00, arrivo 8:00. Alle otto c’è l’___.",
+        "accepted": [
+          "arrivo"
+        ],
+        "rejected": [
+          "partenza"
+        ],
+        "hint": "La llegada corresponde a las ocho.",
+        "explanation": "La llegada corresponde a las ocho.",
+        "facets": [
+          "horario"
+        ],
+        "context": "transporte"
+      },
+      "proposal": {
+        "prompt": "Il treno parte alle 7:00 e raggiunge la destinazione alle 8:00. Alle otto c’è l’___. Scrivi il nome dell’evento."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c34-06",
+      "id": "it-a1-c34-06-albergo",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna entrega el lema léxico que debe recuperarse.",
+      "evidence": {
+        "key": "albergo",
+        "format": "translation",
+        "prompt": "Traduci «un hotel» usando albergo.",
+        "accepted": [
+          "un albergo"
+        ],
+        "rejected": [
+          "una stazione"
+        ],
+        "hint": "Albergo designa el alojamiento.",
+        "explanation": "Albergo designa el alojamiento.",
+        "facets": [
+          "alojamiento"
+        ],
+        "context": "hotel"
+      },
+      "proposal": {
+        "prompt": "Traduci «un hotel» usando il nome italiano che inizia per a."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c34-06",
+      "id": "it-a1-c34-06-centro",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna entrega el nombre objetivo.",
+      "evidence": {
+        "key": "centro",
+        "format": "cloze",
+        "prompt": "La piazza principale è in ___ (centro).",
+        "accepted": [
+          "centro"
+        ],
+        "rejected": [
+          "stazione"
+        ],
+        "hint": "In centro sitúa en la parte central de la ciudad.",
+        "explanation": "In centro sitúa en la parte central de la ciudad.",
+        "facets": [
+          "lugar"
+        ],
+        "context": "ciudad"
+      },
+      "proposal": {
+        "prompt": "La piazza principale è nella zona centrale della città: è in ___."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c34-06",
+      "id": "it-a1-c34-06-andare",
+      "kind": "activity",
+      "classification": "Ambigüedad relevante",
+      "severity": "media",
+      "problem": "A: Andare in stazione es alternativa natural a alla stazione.",
+      "evidence": {
+        "key": "andare",
+        "format": "translation",
+        "prompt": "Traduci «ir a la estación».",
+        "accepted": [
+          "andare alla stazione"
+        ],
+        "rejected": [
+          "arrivare alla stazione"
+        ],
+        "hint": "Andare expresa ir; arrivare, llegar.",
+        "explanation": "Andare expresa ir; arrivare, llegar.",
+        "facets": [
+          "desplazamiento"
+        ],
+        "context": "ciudad"
+      },
+      "proposal": {
+        "accepted": [
+          "andare alla stazione",
+          "andare in stazione"
+        ]
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "accepted"
+      ],
+      "acceptedChanged": true
+    },
+    {
+      "conceptId": "it-a1-c34-07",
+      "id": "it-a1-c34-07-appuntamento",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna entrega lema objetivo.",
+      "evidence": {
+        "key": "appuntamento",
+        "format": "translation",
+        "prompt": "Traduci «Quisiera una cita» usando appuntamento.",
+        "accepted": [
+          "Vorrei un appuntamento",
+          "Vorrei un appuntamento."
+        ],
+        "rejected": [
+          "Vorrei un messaggio"
+        ],
+        "hint": "Appuntamento es una cita acordada.",
+        "explanation": "Appuntamento es una cita acordada.",
+        "facets": [
+          "cita"
+        ],
+        "context": "medico"
+      },
+      "proposal": {
+        "prompt": "Traduci «Quisiera una cita» (un incontro concordato). Usa vorrei."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c34-07",
+      "id": "it-a1-c34-07-cita-medico",
+      "kind": "activity",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "Consigna entrega respuesta completa.",
+      "evidence": {
+        "key": "cita-medico",
+        "format": "controlled-production",
+        "prompt": "Chiedi una cita con el médico: usa Vorrei + un appuntamento + con il medico.",
+        "accepted": [
+          "Vorrei un appuntamento con il medico",
+          "Vorrei un appuntamento con il medico."
+        ],
+        "rejected": [
+          "Vorrei un appuntamento con la farmacia"
+        ],
+        "hint": "La persona solicitada es il medico.",
+        "explanation": "La persona solicitada es il medico.",
+        "facets": [
+          "cita"
+        ],
+        "context": "medico"
+      },
+      "proposal": {
+        "prompt": "Chiedi cortesemente «Quisiera una cita con el médico». Usa vorrei e traduci il resto in italiano."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c34-06",
+      "id": "it-a1-theory-c34-06",
+      "kind": "theory",
+      "classification": "Error confirmado",
+      "severity": "media",
+      "problem": "La oposición destino al centro / ubicación in centro presenta una distribución falsa: vado in centro es correcto.",
+      "evidence": [
+        "La stazione es la estación; il treno y l’autobus son medios de transporte. Autobus es invariable en plural.",
+        "Il biglietto es el billete; en transporte no se traduce aquí como banconota.",
+        "Partenza es salida de un trayecto; arrivo es llegada. En horarios, identifica primero cuál de los dos datos necesitas.",
+        "Albergo y hotel nombran alojamientos. En el repertorio: in hotel / in albergo; al centro para destino y in centro para ubicación."
+      ],
+      "proposal": [
+        "La stazione es la estación; il treno y l’autobus son medios de transporte. Autobus es invariable en plural.",
+        "Il biglietto es el billete; en transporte no se traduce aquí como banconota.",
+        "Partenza es salida de un trayecto; arrivo es llegada. En horarios, identifica primero cuál de los dos datos necesitas.",
+        "Albergo y hotel nombran alojamientos. In centro puede indicar ubicación o destino: sono in centro, vado in centro. Al centro se usa también según la construcción y el referente."
+      ],
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "fields": [
+        "rules"
+      ]
+    },
+    {
+      "conceptId": "it-a1-c25-01",
+      "id": "it-a1-c25-01-negazione",
+      "kind": "activity",
+      "classification": "Ambigüedad relevante",
+      "severity": "media",
+      "problem": "A: Delimitar negación simple y evitar lectura contrastiva.",
+      "evidence": {
+        "key": "negazione",
+        "format": "transformation",
+        "prompt": "Metti al negativo: «Mi piace lavorare di notte».",
+        "accepted": [
+          "Non mi piace lavorare di notte"
+        ],
+        "rejected": [
+          "Mi non piace lavorare di notte"
+        ],
+        "hint": "Non precede a mi.",
+        "explanation": "Non precede a mi.",
+        "facets": [
+          "negacion"
+        ],
+        "context": "trabajo"
+      },
+      "proposal": {
+        "prompt": "Metti al negativo semplice l’intera frase, senza contrasti: «Mi piace lavorare di notte»."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c25-02",
+      "id": "it-a1-c25-02-nega",
+      "kind": "activity",
+      "classification": "Ambigüedad relevante",
+      "severity": "media",
+      "problem": "A: Delimitar negación simple y evitar lectura contrastiva.",
+      "evidence": {
+        "key": "nega",
+        "format": "transformation",
+        "prompt": "Metti al negativo: «Mi piacciono i libri».",
+        "accepted": [
+          "Non mi piacciono i libri"
+        ],
+        "rejected": [
+          "Mi non piacciono i libri"
+        ],
+        "hint": "Non precede a mi; piacciono conserva el plural.",
+        "explanation": "Non precede a mi; piacciono conserva el plural.",
+        "facets": [
+          "negacion"
+        ],
+        "context": "ocio"
+      },
+      "proposal": {
+        "prompt": "Metti al negativo semplice l’intera frase, senza contrasti: «Mi piacciono i libri»."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c26-02",
+      "id": "it-a1-c26-02-negativo",
+      "kind": "activity",
+      "classification": "Ambigüedad relevante",
+      "severity": "media",
+      "problem": "A: Delimitar negación simple y evitar lectura contrastiva.",
+      "evidence": {
+        "key": "negativo",
+        "format": "transformation",
+        "prompt": "Metti al negativo: «Mi alzo alle sei».",
+        "accepted": [
+          "Non mi alzo alle sei",
+          "Non mi alzo alle sei."
+        ],
+        "rejected": [
+          "Mi non alzo alle sei"
+        ],
+        "hint": "Non va antes del pronombre.",
+        "explanation": "Non va antes del pronombre.",
+        "facets": [
+          "negacion"
+        ],
+        "context": "rutina"
+      },
+      "proposal": {
+        "prompt": "Metti al negativo semplice l’intera frase, senza contrasti: «Mi alzo alle sei»."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "conceptId": "it-a1-c28-02",
+      "id": "it-a1-c28-02-negativo",
+      "kind": "activity",
+      "classification": "Ambigüedad relevante",
+      "severity": "media",
+      "problem": "A: Delimitar negación simple y evitar lectura contrastiva.",
+      "evidence": {
+        "key": "negativo",
+        "format": "transformation",
+        "prompt": "Metti al negativo: «Le compro».",
+        "accepted": [
+          "Non le compro",
+          "Non le compro."
+        ],
+        "rejected": [
+          "Le non compro"
+        ],
+        "hint": "Non precede al pronombre.",
+        "explanation": "Non precede al pronombre.",
+        "facets": [
+          "negacion"
+        ],
+        "context": "compras"
+      },
+      "proposal": {
+        "prompt": "Metti al negativo semplice l’intera frase, senza contrasti: «Le compro»."
+      },
+      "decision": "Aplicado; revisión cruzada pendiente",
+      "beforeVersion": "1",
+      "afterVersion": "2",
+      "fields": [
+        "prompt"
+      ],
+      "acceptedChanged": false
+    }
+  ]
+}

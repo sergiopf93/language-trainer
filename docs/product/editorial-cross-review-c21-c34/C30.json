@@ -1,0 +1,2004 @@
+{
+  "concepts": [
+    {
+      "id": "it-a1-c30-01",
+      "version": "1",
+      "topicId": "it-a1-t30",
+      "title": "Capire le istruzioni",
+      "objective": "Comprender instrucciones frecuentes de rutas y recetas identificando la acción y su orden.",
+      "scope": "Comprender instrucciones frecuentes de rutas y recetas identificando la acción y su orden.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C30; A1_COVERAGE_MATRIX C30. Alcance A1; ejemplos originales candidate.",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "direccion",
+        "accion",
+        "secuencia",
+        "destinatario"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c30-02",
+      "version": "1",
+      "topicId": "it-a1-t30",
+      "title": "Dare istruzioni: tu e voi",
+      "objective": "Producir instrucciones afirmativas tu/voi y negativas con verbos del repertorio explícito.",
+      "scope": "Producir instrucciones afirmativas tu/voi y negativas con verbos del repertorio explícito.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "retrieval",
+        "contextual-use"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C30; A1_COVERAGE_MATRIX C30. Alcance A1; ejemplos originales candidate.",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "tu",
+        "voi",
+        "negativo-tu",
+        "negativo-voi",
+        "irregular"
+      ],
+      "compatibleFamilies": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c30-01",
+      "version": "theory-c30-01-1",
+      "conceptId": "it-a1-c30-01",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Capire le istruzioni",
+      "goal": "Comprender instrucciones frecuentes de rutas y recetas identificando la acción y su orden.",
+      "introduction": "Una instrucción indica qué debe hacer el destinatario. En una ruta o una receta importa reconocer la acción, la dirección o el ingrediente.",
+      "rules": [
+        "Gira a destra / a sinistra indica hacia qué lado girar; vai dritto indica seguir recto.",
+        "En recetas: prendi (toma), aggiungi (añade), mescola (mezcla). Poi introduce el siguiente paso.",
+        "Lee quién recibe la instrucción: prendi se dirige a una persona; prendete, a varias. Aquí se evalúa comprender, no memorizar todo el imperativo."
+      ],
+      "forms": [
+        [
+          "gira a destra / gira a sinistra",
+          "gira a la derecha / a la izquierda"
+        ],
+        [
+          "vai dritto",
+          "sigue recto"
+        ],
+        [
+          "prendi / aggiungi / mescola",
+          "toma / añade / mezcla"
+        ],
+        [
+          "prendete",
+          "tomad / tomen (vosotros)"
+        ]
+      ],
+      "examples": [
+        [
+          "Vai dritto, poi gira a destra.",
+          "Sigue recto, después gira a la derecha."
+        ],
+        [
+          "Aggiungi l’acqua e mescola.",
+          "Añade el agua y mezcla."
+        ]
+      ],
+      "frequentErrors": [
+        "No confundas destra y sinistra.",
+        "No ejecutes como primer paso el que aparece tras poi."
+      ],
+      "usageNotes": [
+        "Son instrucciones útiles de tu/voi; el imperativo formal y clíticos avanzados quedan fuera."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-girare",
+        "it-destra",
+        "it-sinistra",
+        "it-dritto",
+        "it-aggiungere",
+        "it-mescolare",
+        "it-prendere",
+        "it-acqua",
+        "it-poi",
+        "it-pane",
+        "it-formaggio",
+        "it-latte",
+        "it-libro"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C30; A1_COVERAGE_MATRIX C30. Alcance A1; ejemplos originales candidate."
+    },
+    {
+      "id": "it-a1-theory-c30-02",
+      "version": "theory-c30-02-1",
+      "conceptId": "it-a1-c30-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Dare istruzioni: tu e voi",
+      "goal": "Producir instrucciones afirmativas tu/voi y negativas con verbos del repertorio explícito.",
+      "introduction": "Para una instrucción informal cambia la forma según hables a una persona (tu) o a varias (voi). Las formas se aprenden por clase y con las excepciones frecuentes indicadas.",
+      "rules": [
+        "Tu en -are: parla, gira, mescola. En -ere: prendi, leggi. En -ire: dormi; con -isc-: finisci.",
+        "Voi coincide con el presente: parlate, girate, prendete, leggete, dormite, finite.",
+        "Negativo tu: non + infinitivo (non parlare). Negativo voi: non + forma voi (non parlate).",
+        "Formas útiles irregulares: vai / andate; fai / fate. Para tu también existen va’ y fa’, que se aceptan cuando corresponda."
+      ],
+      "forms": [
+        [
+          "parlare",
+          "tu parla / voi parlate"
+        ],
+        [
+          "prendere",
+          "tu prendi / voi prendete"
+        ],
+        [
+          "dormire",
+          "tu dormi / voi dormite"
+        ],
+        [
+          "finire",
+          "tu finisci / voi finite"
+        ],
+        [
+          "andare / fare",
+          "vai (va’) / andate; fai (fa’) / fate"
+        ]
+      ],
+      "examples": [
+        [
+          "Prendi il libro, per favore.",
+          "Toma el libro, por favor."
+        ],
+        [
+          "Non parlare!",
+          "¡No hables!"
+        ],
+        [
+          "Girate a destra.",
+          "Girad a la derecha."
+        ]
+      ],
+      "frequentErrors": [
+        "No uses tu parli como instrucción afirmativa de parlare: parla.",
+        "No uses non parla para prohibir a tu: non parlare."
+      ],
+      "usageNotes": [
+        "No se exige imperativo formal Lei ni combinación con pronombres. El contexto diferencia instrucción y descripción."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-parlare",
+        "it-girare",
+        "it-mescolare",
+        "it-prendere",
+        "it-leggere",
+        "it-dormire",
+        "it-finire",
+        "it-andare",
+        "it-fare",
+        "it-destra",
+        "it-libro",
+        "it-dritto",
+        "it-pausa",
+        "it-messaggio"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C30; A1_COVERAGE_MATRIX C30. Alcance A1; ejemplos originales candidate."
+    }
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c30-01-destra",
+      "version": "1",
+      "conceptId": "it-a1-c30-01",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "«Gira a destra»: ¿derecha o izquierda? Responde en español.",
+      "options": [
+        "izquierda",
+        "derecha"
+      ],
+      "hint": "Destra significa derecha.",
+      "explanation": "Destra significa derecha.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "transporte",
+        "facets": [
+          "direccion"
+        ],
+        "opportunityId": "it-a1-c30-01-destra:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "derecha"
+        ],
+        "rejected": [
+          "izquierda"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C30; A1_COVERAGE_MATRIX C30. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c30-01-destra",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c30-01-dritto",
+      "version": "2",
+      "conceptId": "it-a1-c30-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "«Vai dritto»: ¿sigues recto o giras? Responde en español.",
+      "options": [],
+      "hint": "Dritto indica continuar recto.",
+      "explanation": "Dritto indica continuar recto.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "ciudad",
+        "facets": [
+          "direccion"
+        ],
+        "opportunityId": "it-a1-c30-01-dritto:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "sigues recto"
+        ],
+        "rejected": [
+          "giras"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C30; A1_COVERAGE_MATRIX C30. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c30-01-dritto",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c30-01-mescola",
+      "version": "1",
+      "conceptId": "it-a1-c30-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci in spagnolo l’istruzione «Mescola».",
+      "options": [],
+      "hint": "Mescolare indica mezclar.",
+      "explanation": "Mescolare indica mezclar.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "restaurante",
+        "facets": [
+          "accion"
+        ],
+        "opportunityId": "it-a1-c30-01-mescola:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Mezcla"
+        ],
+        "rejected": [
+          "Toma"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C30; A1_COVERAGE_MATRIX C30. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c30-01-mescola",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c30-01-sinistra",
+      "version": "1",
+      "conceptId": "it-a1-c30-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "L’indicazione significa «gira a la izquierda»: Gira a ___.",
+      "options": [],
+      "hint": "Sinistra indica izquierda.",
+      "explanation": "Sinistra indica izquierda.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "transporte",
+        "facets": [
+          "direccion"
+        ],
+        "opportunityId": "it-a1-c30-01-sinistra:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "sinistra"
+        ],
+        "rejected": [
+          "destra"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C30; A1_COVERAGE_MATRIX C30. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c30-01-sinistra",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c30-02-parla",
+      "version": "1",
+      "conceptId": "it-a1-c30-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Dai un’istruzione a tu: ___ lentamente! (parlare)",
+      "options": [],
+      "hint": "Los verbos en -are usan -a con tu.",
+      "explanation": "Los verbos en -are usan -a con tu.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "estudio",
+        "facets": [
+          "tu"
+        ],
+        "opportunityId": "it-a1-c30-02-parla:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Parla"
+        ],
+        "rejected": [
+          "Parli"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C30; A1_COVERAGE_MATRIX C30. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c30-02-parla",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c30-02-voi",
+      "version": "1",
+      "conceptId": "it-a1-c30-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Rivolgiti a voi: «Gira a destra».",
+      "options": [],
+      "hint": "La instrucción plural usa girate.",
+      "explanation": "La instrucción plural usa girate.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "transporte",
+        "facets": [
+          "voi"
+        ],
+        "opportunityId": "it-a1-c30-02-voi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Girate a destra",
+          "Girate a destra."
+        ],
+        "rejected": [
+          "Girano a destra"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C30; A1_COVERAGE_MATRIX C30. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c30-02-voi",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c30-02-negativo",
+      "version": "2",
+      "conceptId": "it-a1-c30-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Trasforma in un divieto rivolto a tu: «Parla!».",
+      "options": [],
+      "hint": "El negativo de tu se forma con el infinitivo.",
+      "explanation": "El negativo de tu se forma con el infinitivo.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "conversacion",
+        "facets": [
+          "negativo-tu"
+        ],
+        "opportunityId": "it-a1-c30-02-negativo:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Non parlare",
+          "Non parlare."
+        ],
+        "rejected": [
+          "Non parla"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C30; A1_COVERAGE_MATRIX C30. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c30-02-negativo",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c30-02-vai",
+      "version": "1",
+      "conceptId": "it-a1-c30-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Indica a un amico di andare dritto. Usa l’imperativo di andare + dritto.",
+      "options": [],
+      "hint": "Con tu se usa vai o va’.",
+      "explanation": "Con tu se usa vai o va’.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "ciudad",
+        "facets": [
+          "irregular"
+        ],
+        "opportunityId": "it-a1-c30-02-vai:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Vai dritto",
+          "Va' dritto",
+          "Va’ dritto",
+          "Vai dritto.",
+          "Va' dritto.",
+          "Va’ dritto."
+        ],
+        "rejected": [
+          "Vada dritto"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C30; A1_COVERAGE_MATRIX C30. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c30-02-vai",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c30-02-fate",
+      "version": "1",
+      "conceptId": "it-a1-c30-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci per voi: «Haced una pausa».",
+      "options": [],
+      "hint": "Voi requiere fate.",
+      "explanation": "Voi requiere fate.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "trabajo",
+        "facets": [
+          "voi"
+        ],
+        "opportunityId": "it-a1-c30-02-fate:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Fate una pausa",
+          "Fate una pausa."
+        ],
+        "rejected": [
+          "Fai una pausa"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C30; A1_COVERAGE_MATRIX C30. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c30-02-fate",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c30-02-leggi",
+      "version": "1",
+      "conceptId": "it-a1-c30-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Correggi il verbo per dare un ordine a tu: «Legge il messaggio!».",
+      "options": [],
+      "hint": "Tu requiere leggi; leggete corresponde a voi.",
+      "explanation": "Tu requiere leggi; leggete corresponde a voi.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "mensajeria",
+        "facets": [
+          "tu"
+        ],
+        "opportunityId": "it-a1-c30-02-leggi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Leggi"
+        ],
+        "rejected": [
+          "Leggete"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C30; A1_COVERAGE_MATRIX C30. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c30-02-leggi",
+        "sourceVersion": "1"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "it-parlare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "parlare",
+      "displayForm": "parlare",
+      "gloss": "hablar",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "parlo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "parli",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "parla",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "parliamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "parlate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "parlano",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C14",
+        "C16",
+        "C17",
+        "C18",
+        "C20",
+        "C28",
+        "C29",
+        "C30",
+        "C31"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c16-07",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c18-01",
+        "it-a1-c20-04",
+        "it-a1-c28-01",
+        "it-a1-c29-02",
+        "it-a1-c30-02",
+        "it-a1-c31-01"
+      ],
+      "topicIds": [
+        "it-a1-t14",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t20",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-leggere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "leggere",
+      "displayForm": "leggere",
+      "gloss": "leer",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "leggo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "leggi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "legge",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "leggiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "leggete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "leggono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C15",
+        "C17",
+        "C20",
+        "C22",
+        "C23",
+        "C25",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-01",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c17-03",
+        "it-a1-c20-05",
+        "it-a1-c22-03",
+        "it-a1-c23-01",
+        "it-a1-c25-01",
+        "it-a1-c25-02",
+        "it-a1-c28-02",
+        "it-a1-c29-04",
+        "it-a1-c30-02",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t23",
+        "it-a1-t25",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-prendere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "prendere",
+      "displayForm": "prendere",
+      "gloss": "tomar",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "prendo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "prendi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "prende",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "prendiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "prendete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "prendono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C15",
+        "C20",
+        "C27",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-01",
+        "it-a1-c20-03",
+        "it-a1-c27-01",
+        "it-a1-c28-02",
+        "it-a1-c29-04",
+        "it-a1-c30-01",
+        "it-a1-c30-02",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c32-03"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t20",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-dormire",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "dormire",
+      "displayForm": "dormire",
+      "gloss": "dormir",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "dormo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "dormi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "dorme",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "dormiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "dormite",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "dormono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C15",
+        "C17",
+        "C27",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-02",
+        "it-a1-c15-03",
+        "it-a1-c17-02",
+        "it-a1-c27-02",
+        "it-a1-c29-04",
+        "it-a1-c30-02",
+        "it-a1-c31-01",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t17",
+        "it-a1-t27",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-libro",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "libro",
+      "displayForm": "libro",
+      "gloss": "libro",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "libri",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C15",
+        "C16",
+        "C17",
+        "C19",
+        "C20",
+        "C21",
+        "C23",
+        "C24",
+        "C25",
+        "C27",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-01",
+        "it-a1-c16-05",
+        "it-a1-c17-01",
+        "it-a1-c19-02",
+        "it-a1-c20-01",
+        "it-a1-c20-02",
+        "it-a1-c20-05",
+        "it-a1-c21-01",
+        "it-a1-c21-02",
+        "it-a1-c23-01",
+        "it-a1-c24-01",
+        "it-a1-c24-02",
+        "it-a1-c25-02",
+        "it-a1-c27-02",
+        "it-a1-c27-03",
+        "it-a1-c28-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c30-01",
+        "it-a1-c30-02",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c34-04"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t23",
+        "it-a1-t24",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-messaggio",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "messaggio",
+      "displayForm": "messaggio",
+      "gloss": "mensaje",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "messaggi",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C15",
+        "C17",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-01",
+        "it-a1-c15-03",
+        "it-a1-c17-03",
+        "it-a1-c28-01",
+        "it-a1-c29-04",
+        "it-a1-c30-02",
+        "it-a1-c31-01",
+        "it-a1-c31-02",
+        "it-a1-c34-07"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t17",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-fare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "fare",
+      "displayForm": "fare",
+      "gloss": "hacer en actividades cotidianas",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "faccio",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "fai",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "fa",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "facciamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "fate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "fanno",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C16",
+        "C17",
+        "C29",
+        "C30",
+        "C31",
+        "C32"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c16-01",
+        "it-a1-c17-03",
+        "it-a1-c29-04",
+        "it-a1-c30-02",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c32-02"
+      ],
+      "topicIds": [
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-andare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "andare",
+      "displayForm": "andare",
+      "gloss": "ir hacia un destino",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "vado",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "vai",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "va",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "andiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "andate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "vanno",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C16",
+        "C17",
+        "C20",
+        "C21",
+        "C26",
+        "C28",
+        "C30",
+        "C32",
+        "C33",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c16-02",
+        "it-a1-c16-04",
+        "it-a1-c17-03",
+        "it-a1-c20-03",
+        "it-a1-c21-02",
+        "it-a1-c26-02",
+        "it-a1-c28-01",
+        "it-a1-c30-02",
+        "it-a1-c32-02",
+        "it-a1-c33-01",
+        "it-a1-c34-06"
+      ],
+      "topicIds": [
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t26",
+        "it-a1-t28",
+        "it-a1-t30",
+        "it-a1-t32",
+        "it-a1-t33",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-pausa",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "pausa",
+      "displayForm": "pausa",
+      "gloss": "pausa",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "pause",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C16",
+        "C30",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c16-01",
+        "it-a1-c30-02",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t16",
+        "it-a1-t30",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-acqua",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "acqua",
+      "displayForm": "acqua",
+      "gloss": "agua",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C16",
+        "C17",
+        "C18",
+        "C27",
+        "C29",
+        "C30",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c16-06",
+        "it-a1-c17-02",
+        "it-a1-c18-01",
+        "it-a1-c27-01",
+        "it-a1-c27-02",
+        "it-a1-c27-03",
+        "it-a1-c29-01",
+        "it-a1-c29-03",
+        "it-a1-c30-01",
+        "it-a1-c34-03"
+      ],
+      "topicIds": [
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t27",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-pane",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "pane",
+      "displayForm": "pane",
+      "gloss": "pan; masculino",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C27",
+        "C29",
+        "C30",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c27-01",
+        "it-a1-c27-02",
+        "it-a1-c27-03",
+        "it-a1-c29-01",
+        "it-a1-c30-01",
+        "it-a1-c34-03"
+      ],
+      "topicIds": [
+        "it-a1-t27",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t34"
+      ],
+      "examples": [
+        {
+          "target": "Vorrei del pane.",
+          "support": "Quisiera algo de pan."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-poi",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "poi",
+      "displayForm": "poi",
+      "gloss": "luego, después",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C29",
+        "C30",
+        "C32"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c29-04",
+        "it-a1-c30-01",
+        "it-a1-c32-03"
+      ],
+      "topicIds": [
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t32"
+      ],
+      "examples": [
+        {
+          "target": "Studio, poi esco.",
+          "support": "Estudio, después salgo."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente."
+    },
+    {
+      "id": "it-girare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "girare",
+      "displayForm": "girare",
+      "gloss": "girar",
+      "partOfSpeech": "verb",
+      "forms": [],
+      "tags": [
+        "verb",
+        "C30"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c30-01",
+        "it-a1-c30-02"
+      ],
+      "topicIds": [
+        "it-a1-t30"
+      ],
+      "examples": [
+        {
+          "target": "Gira a destra.",
+          "support": "Gira a la derecha."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente."
+    },
+    {
+      "id": "it-destra",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "destra",
+      "displayForm": "destra",
+      "gloss": "derecha, en a destra",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C30"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c30-01",
+        "it-a1-c30-02"
+      ],
+      "topicIds": [
+        "it-a1-t30"
+      ],
+      "examples": [
+        {
+          "target": "Gira a destra.",
+          "support": "Gira a la derecha."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-sinistra",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "sinistra",
+      "displayForm": "sinistra",
+      "gloss": "izquierda, en a sinistra",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C30"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c30-01"
+      ],
+      "topicIds": [
+        "it-a1-t30"
+      ],
+      "examples": [
+        {
+          "target": "Gira a sinistra.",
+          "support": "Gira a la izquierda."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-dritto",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "dritto",
+      "displayForm": "dritto",
+      "gloss": "recto, en vai dritto",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C30"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c30-01",
+        "it-a1-c30-02"
+      ],
+      "topicIds": [
+        "it-a1-t30"
+      ],
+      "examples": [
+        {
+          "target": "Vai dritto.",
+          "support": "Sigue recto."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente."
+    },
+    {
+      "id": "it-aggiungere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "aggiungere",
+      "displayForm": "aggiungere",
+      "gloss": "añadir",
+      "partOfSpeech": "verb",
+      "forms": [],
+      "tags": [
+        "verb",
+        "C30"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c30-01"
+      ],
+      "topicIds": [
+        "it-a1-t30"
+      ],
+      "examples": [
+        {
+          "target": "Aggiungi l’acqua.",
+          "support": "Añade el agua."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente."
+    },
+    {
+      "id": "it-mescolare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "mescolare",
+      "displayForm": "mescolare",
+      "gloss": "mezclar",
+      "partOfSpeech": "verb",
+      "forms": [],
+      "tags": [
+        "verb",
+        "C30"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c30-01",
+        "it-a1-c30-02"
+      ],
+      "topicIds": [
+        "it-a1-t30"
+      ],
+      "examples": [
+        {
+          "target": "Mescola il latte.",
+          "support": "Mezcla la leche."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente."
+    },
+    {
+      "id": "it-formaggio",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "formaggio",
+      "displayForm": "formaggio",
+      "gloss": "queso; masculino",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "formaggi",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C30",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c30-01",
+        "it-a1-c34-03"
+      ],
+      "topicIds": [
+        "it-a1-t30",
+        "it-a1-t34"
+      ],
+      "examples": [
+        {
+          "target": "Vorrei del formaggio.",
+          "support": "Quisiera algo de queso."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-latte",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "latte",
+      "displayForm": "latte",
+      "gloss": "leche; masculino",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C30",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c30-01",
+        "it-a1-c34-03"
+      ],
+      "topicIds": [
+        "it-a1-t30",
+        "it-a1-t34"
+      ],
+      "examples": [
+        {
+          "target": "Un caffè con latte.",
+          "support": "Un café con leche."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-finire",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "finire",
+      "displayForm": "finire",
+      "gloss": "terminar",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "past-participle",
+          "text": "finito",
+          "features": {
+            "verbForm": "participle",
+            "tense": "past"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C30",
+        "C31"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c30-02",
+        "it-a1-c31-01"
+      ],
+      "topicIds": [
+        "it-a1-t30",
+        "it-a1-t31"
+      ],
+      "examples": [
+        {
+          "target": "Finisci l’esercizio.",
+          "support": "Termina el ejercicio."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente."
+    }
+  ],
+  "relations": [
+    {
+      "to": "it-a1-c29-04",
+      "type": "prerequisite",
+      "reason": "Poi ordena pasos de una instrucción.",
+      "strength": "recommended",
+      "from": "it-a1-c30-01"
+    },
+    {
+      "to": "it-a1-c30-01",
+      "type": "prerequisite",
+      "reason": "Producir instrucciones reutiliza su significado.",
+      "strength": "recommended",
+      "from": "it-a1-c30-02"
+    },
+    {
+      "to": "it-a1-c14-01",
+      "type": "prerequisite",
+      "reason": "Se relacionan las formas de -are con las del presente.",
+      "strength": "recommended",
+      "from": "it-a1-c30-02"
+    },
+    {
+      "to": "it-a1-c18-02",
+      "type": "related",
+      "reason": "El destinatario orienta el registro; no se amplía el imperativo formal.",
+      "from": "it-a1-c30-02"
+    }
+  ]
+}

@@ -246,13 +246,14 @@ export const c30: Lesson[] = [
       {
         key: 'negativo',
         format: 'transformation',
-        prompt: 'Proibisci a tu di parlare: usa non + parlare.',
+        prompt: 'Trasforma in un divieto rivolto a tu: «Parla!».',
         accepted: ['Non parlare', 'Non parlare.'],
         rejected: ['Non parla'],
         hint: 'El negativo de tu se forma con el infinitivo.',
         explanation: 'El negativo de tu se forma con el infinitivo.',
         facets: ['negativo-tu'],
         context: 'conversacion',
+        version: '2',
       },
       {
         key: 'negativo-voi',

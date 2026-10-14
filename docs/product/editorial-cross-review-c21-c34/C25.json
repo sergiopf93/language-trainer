@@ -1,0 +1,1906 @@
+{
+  "concepts": [
+    {
+      "id": "it-a1-c25-01",
+      "version": "1",
+      "topicId": "it-a1-t25",
+      "title": "Mi piace + infinito",
+      "objective": "Expresar gusto por actividades y entender mi como la persona a la que algo gusta.",
+      "scope": "Expresar gusto por actividades y entender mi como la persona a la que algo gusta.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "discrimination",
+        "contextual-use"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "infinitivo",
+        "construccion",
+        "negacion",
+        "destinatario"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c25-02",
+      "version": "1",
+      "topicId": "it-a1-t25",
+      "title": "Mi piace o mi piacciono?",
+      "objective": "Expresar gusto por entidades haciendo concordar piacere con lo que gusta.",
+      "scope": "Expresar gusto por entidades haciendo concordar piacere con lo que gusta.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use",
+        "discrimination"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "singular",
+        "plural",
+        "negacion",
+        "destinatario",
+        "contraste"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c25-01",
+      "version": "theory-c25-01-1",
+      "conceptId": "it-a1-c25-01",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Mi piace + infinito",
+      "goal": "Expresar gusto por actividades y entender mi como la persona a la que algo gusta.",
+      "introduction": "En mi piace leggere, leggere es la actividad que gusta y mi significa a mí. No se conjuga piacere como si io fuese el sujeto de gustar.",
+      "rules": [
+        "Usa mi piace + infinitivo: mi piace leggere. No añadas di ni conjugues el infinitivo.",
+        "Para negar: non mi piace leggere. Non va delante de mi.",
+        "Mi = a mí, ti = a ti en la pregunta ti piace leggere? Para otro destinatario puedes usar a Anna piace leggere. No se exige aquí el sistema completo de pronombres indirectos."
+      ],
+      "forms": [
+        [
+          "mi piace leggere",
+          "me gusta leer"
+        ],
+        [
+          "non mi piace lavorare di notte",
+          "no me gusta trabajar de noche"
+        ],
+        [
+          "ti piace…?",
+          "¿te gusta…?"
+        ],
+        [
+          "a Anna piace leggere",
+          "a Anna le gusta leer"
+        ]
+      ],
+      "examples": [
+        [
+          "Mi piace studiare italiano.",
+          "Me gusta estudiar italiano."
+        ],
+        [
+          "Ti piace leggere?",
+          "¿Te gusta leer?"
+        ]
+      ],
+      "frequentErrors": [
+        "No uses io piaccio leggere: io piaccio significa que yo gusto a alguien.",
+        "No escribas mi piace di leggere ni mi piace leggo."
+      ],
+      "usageNotes": [
+        "La actividad singular mantiene piace. El contraste con entidades plurales aparece en C25-02."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-piacere",
+        "it-mi",
+        "it-ti",
+        "it-leggere",
+        "it-studiare",
+        "it-italiano",
+        "it-lavorare",
+        "it-notte",
+        "it-bere",
+        "it-caffe"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/"
+    },
+    {
+      "id": "it-a1-theory-c25-02",
+      "version": "theory-c25-02-1",
+      "conceptId": "it-a1-c25-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Mi piace o mi piacciono?",
+      "goal": "Expresar gusto por entidades haciendo concordar piacere con lo que gusta.",
+      "introduction": "Elige piace o piacciono por el número de la cosa que gusta, no por la persona que experimenta el gusto.",
+      "rules": [
+        "Mi piace + nombre singular: mi piace il caffè. Mi piacciono + plural: mi piacciono i libri.",
+        "Para gustos generales se usa normalmente el artículo: il caffè, i libri, gli spaghetti.",
+        "Mi, ti o a Anna indican a quién gusta. Mi piacciono i libri / a Anna piacciono i libri mantienen plural por libri.",
+        "Para negar: non mi piace / non mi piacciono. Un infinitivo sigue usando piace."
+      ],
+      "forms": [
+        [
+          "mi piace il caffè",
+          "me gusta el café"
+        ],
+        [
+          "mi piacciono i libri",
+          "me gustan los libros"
+        ],
+        [
+          "ti piacciono gli spaghetti?",
+          "¿te gustan los espaguetis?"
+        ]
+      ],
+      "examples": [
+        [
+          "Mi piace il gelato.",
+          "Me gusta el helado."
+        ],
+        [
+          "Non mi piacciono gli spaghetti.",
+          "No me gustan los espaguetis."
+        ]
+      ],
+      "frequentErrors": [
+        "No uses mi piace i libri: libri exige piacciono.",
+        "No cambies a piaccio porque hablas de tus gustos."
+      ],
+      "usageNotes": [
+        "Identifica primero lo que gusta y su número; después elige piace o piacciono."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-piacere",
+        "it-mi",
+        "it-ti",
+        "it-caffe",
+        "it-libro",
+        "it-spaghetti",
+        "it-gelato",
+        "it-penna",
+        "it-leggere"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/"
+    }
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c25-01-infinito",
+      "version": "1",
+      "conceptId": "it-a1-c25-01",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Scegli la costruzione corretta.",
+      "options": [
+        "Mi piace leggo",
+        "Mi piace leggere"
+      ],
+      "hint": "La actividad se expresa con infinitivo.",
+      "explanation": "La actividad se expresa con infinitivo.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "ocio",
+        "facets": [
+          "infinitivo"
+        ],
+        "opportunityId": "it-a1-c25-01-infinito:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Mi piace leggere"
+        ],
+        "rejected": [
+          "Mi piace leggo"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c25-01-infinito",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c25-01-piace",
+      "version": "1",
+      "conceptId": "it-a1-c25-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Mi ___ studiare italiano (piacere).",
+      "options": [],
+      "hint": "La actividad es lo que gusta; mi es el destinatario.",
+      "explanation": "La actividad es lo que gusta; mi es el destinatario.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "estudio",
+        "facets": [
+          "construccion"
+        ],
+        "opportunityId": "it-a1-c25-01-piace:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "piace"
+        ],
+        "rejected": [
+          "piaccio"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c25-01-piace",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c25-01-negazione",
+      "version": "2",
+      "conceptId": "it-a1-c25-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Metti al negativo semplice l’intera frase, senza contrasti: «Mi piace lavorare di notte».",
+      "options": [],
+      "hint": "Non precede a mi.",
+      "explanation": "Non precede a mi.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "trabajo",
+        "facets": [
+          "negacion"
+        ],
+        "opportunityId": "it-a1-c25-01-negazione:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Non mi piace lavorare di notte"
+        ],
+        "rejected": [
+          "Mi non piace lavorare di notte"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c25-01-negazione",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c25-01-ripara",
+      "version": "1",
+      "conceptId": "it-a1-c25-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Elimina la preposizione: «Mi piace di leggere».",
+      "options": [],
+      "hint": "El infinitivo sigue directamente a piace.",
+      "explanation": "El infinitivo sigue directamente a piace.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "ocio",
+        "facets": [
+          "infinitivo"
+        ],
+        "opportunityId": "it-a1-c25-01-ripara:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Mi piace leggere"
+        ],
+        "rejected": [
+          "Mi piace di leggere"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c25-01-ripara",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c25-01-destinatario",
+      "version": "2",
+      "conceptId": "it-a1-c25-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "In «Mi piace leggere», mi significa «a mí» o «yo»? Rispondi in spagnolo.",
+      "options": [],
+      "hint": "Mi indica a quién gusta la actividad.",
+      "explanation": "Mi indica a quién gusta la actividad.",
+      "dimension": "discrimination",
+      "task": {
+        "skill": "discrimination",
+        "context": "ocio",
+        "facets": [
+          "destinatario"
+        ],
+        "opportunityId": "it-a1-c25-01-destinatario:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "a mí"
+        ],
+        "rejected": [
+          "yo"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c25-01-destinatario",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c25-01-domanda",
+      "version": "2",
+      "conceptId": "it-a1-c25-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Chiedi a un amico, dandogli del tu, se gli piace leggere. Usa piacere e leggere, senza soggetto esplicito.",
+      "options": [],
+      "hint": "Ti se refiere al interlocutor.",
+      "explanation": "Ti se refiere al interlocutor.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "ocio",
+        "facets": [
+          "destinatario"
+        ],
+        "opportunityId": "it-a1-c25-01-domanda:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Ti piace leggere?"
+        ],
+        "rejected": [
+          "Mi piace leggere?"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c25-01-domanda",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c25-01-traduci",
+      "version": "1",
+      "conceptId": "it-a1-c25-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci: «Me gusta beber café».",
+      "options": [],
+      "hint": "Una actividad en infinitivo se combina con piace.",
+      "explanation": "Una actividad en infinitivo se combina con piace.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "bar",
+        "facets": [
+          "infinitivo"
+        ],
+        "opportunityId": "it-a1-c25-01-traduci:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Mi piace bere caffè"
+        ],
+        "rejected": [
+          "Mi piacciono bere caffè"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c25-01-traduci",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c25-02-singolare",
+      "version": "1",
+      "conceptId": "it-a1-c25-02",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Mi ___ il caffè.",
+      "options": [
+        "piacciono",
+        "piace"
+      ],
+      "hint": "Caffè es singular en este grupo.",
+      "explanation": "Caffè es singular en este grupo.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "bar",
+        "facets": [
+          "singular"
+        ],
+        "opportunityId": "it-a1-c25-02-singolare:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "piace"
+        ],
+        "rejected": [
+          "piacciono"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c25-02-singolare",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c25-02-libri",
+      "version": "1",
+      "conceptId": "it-a1-c25-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Mi ___ i libri.",
+      "options": [],
+      "hint": "Libri es plural, por tanto piacciono.",
+      "explanation": "Libri es plural, por tanto piacciono.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "ocio",
+        "facets": [
+          "plural"
+        ],
+        "opportunityId": "it-a1-c25-02-libri:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "piacciono"
+        ],
+        "rejected": [
+          "piace"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c25-02-libri",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c25-02-spaghetti",
+      "version": "1",
+      "conceptId": "it-a1-c25-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Correggi solo il verbo: «Mi piace gli spaghetti».",
+      "options": [],
+      "hint": "Spaghetti es plural aunque designe un plato.",
+      "explanation": "Spaghetti es plural aunque designe un plato.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "restaurante",
+        "facets": [
+          "plural"
+        ],
+        "opportunityId": "it-a1-c25-02-spaghetti:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "piacciono"
+        ],
+        "rejected": [
+          "piace"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c25-02-spaghetti",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c25-02-nega",
+      "version": "2",
+      "conceptId": "it-a1-c25-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Metti al negativo semplice l’intera frase, senza contrasti: «Mi piacciono i libri».",
+      "options": [],
+      "hint": "Non precede a mi; piacciono conserva el plural.",
+      "explanation": "Non precede a mi; piacciono conserva el plural.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "ocio",
+        "facets": [
+          "negacion"
+        ],
+        "opportunityId": "it-a1-c25-02-nega:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Non mi piacciono i libri"
+        ],
+        "rejected": [
+          "Mi non piacciono i libri"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c25-02-nega",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c25-02-traduci",
+      "version": "1",
+      "conceptId": "it-a1-c25-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci: «Me gusta el helado».",
+      "options": [],
+      "hint": "Gelato es el sujeto singular de piace; mi indica a mí.",
+      "explanation": "Gelato es el sujeto singular de piace; mi indica a mí.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "restaurante",
+        "facets": [
+          "singular"
+        ],
+        "opportunityId": "it-a1-c25-02-traduci:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Mi piace il gelato"
+        ],
+        "rejected": [
+          "Io piaccio il gelato"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c25-02-traduci",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c25-02-domanda",
+      "version": "2",
+      "conceptId": "it-a1-c25-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Chiedi a un amico, dandogli del tu, se apprezza i libri. Usa piacere e i libri, senza soggetto esplicito.",
+      "options": [],
+      "hint": "El destinatario ti no cambia la concordancia plural con libri.",
+      "explanation": "El destinatario ti no cambia la concordancia plural con libri.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "ocio",
+        "facets": [
+          "destinatario"
+        ],
+        "opportunityId": "it-a1-c25-02-domanda:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Ti piacciono i libri?"
+        ],
+        "rejected": [
+          "Ti piace i libri?"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c25-02-domanda",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c25-02-attivita",
+      "version": "1",
+      "conceptId": "it-a1-c25-02",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "error-detection",
+      "prompt": "«Mi piacciono leggere»: la concordanza è corretta? sì/no.",
+      "options": [
+        "sì",
+        "no"
+      ],
+      "hint": "El infinitivo leggere se construye con piace.",
+      "explanation": "El infinitivo leggere se construye con piace.",
+      "dimension": "discrimination",
+      "task": {
+        "skill": "discrimination",
+        "context": "ocio",
+        "facets": [
+          "contraste"
+        ],
+        "opportunityId": "it-a1-c25-02-attivita:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "no"
+        ],
+        "rejected": [
+          "sì"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c25-02-attivita",
+        "sourceVersion": "1"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "it-gelato",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "gelato",
+      "displayForm": "gelato",
+      "gloss": "helado",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C01",
+        "C25"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c25-02"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t25"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-spaghetti",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "spaghetti",
+      "displayForm": "spaghetti",
+      "gloss": "espaguetis",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "plural",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C01",
+        "C25"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c25-02"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t25"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-caffe",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "caffè",
+      "displayForm": "caffè",
+      "gloss": "café",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "caffè",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C02",
+        "C08",
+        "C10",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C20",
+        "C22",
+        "C25",
+        "C27",
+        "C28",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-02",
+        "it-a1-c01-03",
+        "it-a1-c02-02",
+        "it-a1-c08-02",
+        "it-a1-c10-02",
+        "it-a1-c15-01",
+        "it-a1-c16-06",
+        "it-a1-c17-02",
+        "it-a1-c18-01",
+        "it-a1-c20-05",
+        "it-a1-c22-03",
+        "it-a1-c25-01",
+        "it-a1-c25-02",
+        "it-a1-c27-01",
+        "it-a1-c28-01",
+        "it-a1-c28-02",
+        "it-a1-c31-02",
+        "it-a1-c32-03",
+        "it-a1-c34-03"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t02",
+        "it-a1-t08",
+        "it-a1-t10",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación C08: plural canónico del repertorio; candidate."
+    },
+    {
+      "id": "it-penna",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "penna",
+      "displayForm": "penna",
+      "gloss": "bolígrafo / pluma para escribir",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "penne",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C16",
+        "C20",
+        "C23",
+        "C24",
+        "C25",
+        "C27",
+        "C28",
+        "C29",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-03",
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c06-02",
+        "it-a1-c07-01",
+        "it-a1-c08-01",
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c09-03",
+        "it-a1-c10-01",
+        "it-a1-c10-02",
+        "it-a1-c11-02",
+        "it-a1-c12-01",
+        "it-a1-c16-05",
+        "it-a1-c20-01",
+        "it-a1-c20-02",
+        "it-a1-c23-01",
+        "it-a1-c24-01",
+        "it-a1-c24-02",
+        "it-a1-c25-02",
+        "it-a1-c27-02",
+        "it-a1-c28-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c34-04"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t05",
+        "it-a1-t06",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t11",
+        "it-a1-t12",
+        "it-a1-t16",
+        "it-a1-t20",
+        "it-a1-t23",
+        "it-a1-t24",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-italiano",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "italiano",
+      "displayForm": "italiano",
+      "gloss": "italiano: nacionalidad; lengua en parlare/studiare italiano",
+      "partOfSpeech": "adjective",
+      "forms": [
+        {
+          "key": "feminine",
+          "text": "italiana",
+          "features": {
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "adjective",
+        "C04",
+        "C11",
+        "C12",
+        "C14",
+        "C15",
+        "C17",
+        "C20",
+        "C25",
+        "C29",
+        "C31",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-03",
+        "it-a1-c11-02",
+        "it-a1-c12-01",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c15-01",
+        "it-a1-c15-03",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c20-01",
+        "it-a1-c20-06",
+        "it-a1-c25-01",
+        "it-a1-c29-03",
+        "it-a1-c31-01",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t11",
+        "it-a1-t12",
+        "it-a1-t14",
+        "it-a1-t15",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t25",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-notte",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "notte",
+      "displayForm": "notte",
+      "gloss": "noche",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "notti",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C07",
+        "C20",
+        "C25"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c07-02",
+        "it-a1-c20-06",
+        "it-a1-c25-01"
+      ],
+      "topicIds": [
+        "it-a1-t07",
+        "it-a1-t20",
+        "it-a1-t25"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-lavorare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "lavorare",
+      "displayForm": "lavorare",
+      "gloss": "trabajar",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "lavoro",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "lavori",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "lavora",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "lavoriamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "lavorate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "lavorano",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C14",
+        "C17",
+        "C20",
+        "C21",
+        "C22",
+        "C25",
+        "C27",
+        "C29",
+        "C31",
+        "C32",
+        "C33",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c17-03",
+        "it-a1-c20-02",
+        "it-a1-c20-06",
+        "it-a1-c21-02",
+        "it-a1-c22-01",
+        "it-a1-c25-01",
+        "it-a1-c27-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c29-03",
+        "it-a1-c29-04",
+        "it-a1-c31-01",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c32-03",
+        "it-a1-c33-01",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t14",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t22",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t33",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-studiare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "studiare",
+      "displayForm": "studiare",
+      "gloss": "estudiar",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "studio",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "studi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "studia",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "studiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "studiate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "studiano",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C14",
+        "C17",
+        "C20",
+        "C22",
+        "C25",
+        "C29",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c17-03",
+        "it-a1-c20-04",
+        "it-a1-c20-05",
+        "it-a1-c20-06",
+        "it-a1-c22-03",
+        "it-a1-c25-01",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c29-03",
+        "it-a1-c31-01",
+        "it-a1-c32-01",
+        "it-a1-c32-03",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t14",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t25",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-leggere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "leggere",
+      "displayForm": "leggere",
+      "gloss": "leer",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "leggo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "leggi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "legge",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "leggiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "leggete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "leggono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C15",
+        "C17",
+        "C20",
+        "C22",
+        "C23",
+        "C25",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-01",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c17-03",
+        "it-a1-c20-05",
+        "it-a1-c22-03",
+        "it-a1-c23-01",
+        "it-a1-c25-01",
+        "it-a1-c25-02",
+        "it-a1-c28-02",
+        "it-a1-c29-04",
+        "it-a1-c30-02",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t23",
+        "it-a1-t25",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-libro",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "libro",
+      "displayForm": "libro",
+      "gloss": "libro",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "libri",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C15",
+        "C16",
+        "C17",
+        "C19",
+        "C20",
+        "C21",
+        "C23",
+        "C24",
+        "C25",
+        "C27",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-01",
+        "it-a1-c16-05",
+        "it-a1-c17-01",
+        "it-a1-c19-02",
+        "it-a1-c20-01",
+        "it-a1-c20-02",
+        "it-a1-c20-05",
+        "it-a1-c21-01",
+        "it-a1-c21-02",
+        "it-a1-c23-01",
+        "it-a1-c24-01",
+        "it-a1-c24-02",
+        "it-a1-c25-02",
+        "it-a1-c27-02",
+        "it-a1-c27-03",
+        "it-a1-c28-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c30-01",
+        "it-a1-c30-02",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c34-04"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t23",
+        "it-a1-t24",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-bere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "bere",
+      "displayForm": "bere",
+      "gloss": "beber",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "bevo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "bevi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "beve",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "beviamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "bevete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "bevono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C16",
+        "C17",
+        "C18",
+        "C22",
+        "C25",
+        "C29",
+        "C31",
+        "C32"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c16-06",
+        "it-a1-c17-02",
+        "it-a1-c18-01",
+        "it-a1-c22-03",
+        "it-a1-c25-01",
+        "it-a1-c29-03",
+        "it-a1-c31-02",
+        "it-a1-c32-02",
+        "it-a1-c32-03"
+      ],
+      "topicIds": [
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t22",
+        "it-a1-t25",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t32"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-mi",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "mi",
+      "displayForm": "mi",
+      "gloss": "a mí; con piacere",
+      "partOfSpeech": "pronoun",
+      "forms": [],
+      "tags": [
+        "pronoun",
+        "C25"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c25-01",
+        "it-a1-c25-02"
+      ],
+      "topicIds": [
+        "it-a1-t25"
+      ],
+      "examples": [
+        {
+          "target": "Mi piace studiare italiano.",
+          "support": "Me gusta estudiar italiano."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-ti",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "ti",
+      "displayForm": "ti",
+      "gloss": "a ti; con piacere",
+      "partOfSpeech": "pronoun",
+      "forms": [],
+      "tags": [
+        "pronoun",
+        "C25"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c25-01",
+        "it-a1-c25-02"
+      ],
+      "topicIds": [
+        "it-a1-t25"
+      ],
+      "examples": [
+        {
+          "target": "Ti piace leggere?",
+          "support": "¿Te gusta leer?"
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-piacere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "piacere",
+      "displayForm": "piacere",
+      "gloss": "gustar; concordancia con lo que gusta",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "singular",
+          "text": "piace",
+          "features": {
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "plural",
+          "text": "piacciono",
+          "features": {
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C25"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c25-01",
+        "it-a1-c25-02"
+      ],
+      "topicIds": [
+        "it-a1-t25"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    }
+  ],
+  "relations": [
+    {
+      "to": "it-a1-c14-01",
+      "type": "prerequisite",
+      "reason": "El gusto por actividades usa infinitivos conocidos.",
+      "from": "it-a1-c25-01",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c25-01",
+      "type": "prerequisite",
+      "reason": "Se conserva el destinatario de la construcción de gusto.",
+      "from": "it-a1-c25-02",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c08-01",
+      "type": "prerequisite",
+      "reason": "Lo que gusta determina singular o plural.",
+      "from": "it-a1-c25-02",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c25-01",
+      "type": "contrast",
+      "reason": "Entidad plural con piacciono frente a infinitivo con piace.",
+      "from": "it-a1-c25-02"
+    },
+    {
+      "to": "it-a1-c25-02",
+      "type": "related",
+      "reason": "Los alimentos permiten expresar gustos.",
+      "from": "it-a1-c34-03"
+    },
+    {
+      "to": "it-a1-c25-01",
+      "type": "reinforces",
+      "reason": "Los gustos por actividades usan infinitivos.",
+      "from": "it-a1-c34-05"
+    }
+  ]
+}

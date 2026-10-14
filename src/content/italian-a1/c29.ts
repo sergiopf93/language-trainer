@@ -240,14 +240,15 @@ export const c29: Lesson[] = [
         key: 'ripara',
         format: 'error-correction',
         prompt:
-          'Sostituisci il falso amico per con il connettore italiano per «pero»: «Vorrei venire, per lavoro».',
+          'Vuoi dire «Quisiera ir, pero trabajo». Sostituisci solo il collegamento in «Vorrei venire, per lavoro» e scrivi la frase completa.',
         accepted: ['Vorrei venire, ma lavoro', 'Vorrei venire, ma lavoro.'],
         rejected: ['Vorrei venire, per lavoro'],
         hint: 'Ma corresponde a pero; per no es una conjunción de contraste.',
         explanation:
-          'Ma corresponde a pero; per no es una conjunción de contraste.',
+          'Para el contraste solicitado corresponde ma. Per lavoro es válido con el sentido por trabajo, pero expresa otro mensaje.',
         facets: ['forma'],
         context: 'ocio',
+        version: '2',
       },
       {
         key: 'traduci',
@@ -264,7 +265,7 @@ export const c29: Lesson[] = [
         key: 'invito',
         format: 'controlled-production',
         prompt:
-          'Rifiuta usando questi elementi nell’ordine: Vorrei + venire + ma + non posso.',
+          'Rifiuta un invito: esprimi prima il desiderio di venire con vorrei, poi l’impossibilità con potere al presente. Collega le due parti con il connettore di contrasto della scheda, senza io.',
         accepted: [
           'Vorrei venire, ma non posso',
           'Vorrei venire, ma non posso.',
@@ -274,6 +275,7 @@ export const c29: Lesson[] = [
         explanation: 'Se pide expresar contraste con ma.',
         facets: ['oposicion'],
         context: 'ocio',
+        version: '2',
       },
       {
         key: 'senso',
@@ -390,18 +392,21 @@ export const c29: Lesson[] = [
       {
         key: 'risposta',
         format: 'controlled-production',
-        prompt: '«Perché non vieni?» Rispondi con Perché e il motivo: lavoro.',
+        prompt:
+          '«Perché non vieni?» Rispondi con una frase causale breve: il motivo è che devi lavorare. Usa lavorare al presente, prima persona singolare, senza io.',
         accepted: ['Perché lavoro', 'Perché lavoro.'],
         rejected: ['Ma lavoro'],
         hint: 'La respuesta introduce la causa.',
         explanation: 'La respuesta introduce la causa.',
         facets: ['respuesta'],
         context: 'ocio',
+        version: '2',
       },
       {
         key: 'unisci',
         format: 'transformation',
-        prompt: 'Unisci con perché: «Non esco. Sono stanco».',
+        prompt:
+          'Non esci a causa della stanchezza. Unisci con perché, senza cambiare le parole delle due frasi: «Non esco. Sono stanco».',
         accepted: [
           'Non esco perché sono stanco',
           'Non esco perché sono stanco.',
@@ -411,6 +416,7 @@ export const c29: Lesson[] = [
         explanation: 'Se conserva el cansancio como causa de no salir.',
         facets: ['causa'],
         context: 'rutina',
+        version: '2',
       },
       {
         key: 'traduci',

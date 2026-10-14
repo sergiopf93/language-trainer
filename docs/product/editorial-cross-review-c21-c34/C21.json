@@ -1,0 +1,2106 @@
+{
+  "concepts": [
+    {
+      "id": "it-a1-c21-01",
+      "version": "1",
+      "topicId": "it-a1-t21",
+      "title": "Le preposizioni articolate",
+      "objective": "Formar las combinaciones de di/a/da/in/su con artículos determinados.",
+      "scope": "Formar las combinaciones de di/a/da/in/su con artículos determinados.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use",
+        "discrimination"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C21; A1_COVERAGE_MATRIX C21. https://www.treccani.it/enciclopedia/preposizione/",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "a",
+        "di",
+        "da",
+        "in",
+        "su",
+        "apostrofo",
+        "no-fusion"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c21-02",
+      "version": "1",
+      "topicId": "it-a1-t21",
+      "title": "Semplice o articolata?",
+      "objective": "Elegir preposición simple o articulada por construcción y referencia.",
+      "scope": "Elegir preposición simple o articulada por construcción y referencia.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use",
+        "discrimination"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C21; A1_COVERAGE_MATRIX C21. https://www.treccani.it/enciclopedia/preposizione/",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "articulada",
+        "simple",
+        "referencia"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c21-01",
+      "version": "theory-c21-01-1",
+      "conceptId": "it-a1-c21-01",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Le preposizioni articolate",
+      "goal": "Formar las combinaciones de di/a/da/in/su con artículos determinados.",
+      "introduction": "Cuando estas preposiciones preceden a un artículo determinado se funden en una sola palabra. Primero identifica el artículo que exige el nombre; luego forma la combinación.",
+      "rules": [
+        "Las columnas de la tabla siguen il, lo, la, l’, i, gli, le. Las bases di e in cambian a de- y ne-.",
+        "Ante vocal, la serie singular termina en l’ y se escribe unida al nombre: dell’amico, all’amica.",
+        "Con per, tra y fra se mantiene la separación: per il libro, tra le case. Con il y col son posibles; aquí usamos con il."
+      ],
+      "forms": [
+        [
+          "di + il/lo/la/l’/i/gli/le",
+          "del dello della dell’ dei degli delle"
+        ],
+        [
+          "a + il/lo/la/l’/i/gli/le",
+          "al allo alla all’ ai agli alle"
+        ],
+        [
+          "da + il/lo/la/l’/i/gli/le",
+          "dal dallo dalla dall’ dai dagli dalle"
+        ],
+        [
+          "in + il/lo/la/l’/i/gli/le",
+          "nel nello nella nell’ nei negli nelle"
+        ],
+        [
+          "su + il/lo/la/l’/i/gli/le",
+          "sul sullo sulla sull’ sui sugli sulle"
+        ]
+      ],
+      "examples": [
+        [
+          "Il libro è sul letto.",
+          "El libro está sobre la cama."
+        ],
+        [
+          "Parlo agli studenti.",
+          "Hablo a los estudiantes."
+        ]
+      ],
+      "frequentErrors": [
+        "No escribas a il ni in il cuando corresponde al o nel.",
+        "El plural gli produce degli/agli/dagli/negli/sugli, no deli/ali."
+      ],
+      "usageNotes": [
+        "La tabla documenta todas las formas; las actividades practican combinaciones frecuentes con nombres ya conocidos."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-di",
+        "it-a",
+        "it-da",
+        "it-in",
+        "it-su",
+        "it-articolo-determinativo",
+        "it-libro",
+        "it-letto",
+        "it-studente",
+        "it-amico",
+        "it-camera",
+        "it-casa",
+        "it-bar"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C21; A1_COVERAGE_MATRIX C21. https://www.treccani.it/enciclopedia/preposizione/"
+    },
+    {
+      "id": "it-a1-theory-c21-02",
+      "version": "theory-c21-02-1",
+      "conceptId": "it-a1-c21-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Semplice o articolata?",
+      "goal": "Elegir preposición simple o articulada por construcción y referencia.",
+      "introduction": "No basta con unir letras: hay que saber si la construcción lleva artículo. A casa es una locución sin artículo; al bar incluye a + il.",
+      "rules": [
+        "Repertorio: a casa, a Roma, in Italia; al bar, nel centro, della città.",
+        "In hotel expresa alojamiento o actividad en un hotel de forma general; nell’hotel indicado identifica un hotel concreto. Ambas construcciones son posibles según el contexto.",
+        "Para pertenencia, il libro dello studente usa di + lo; para origen sono di Roma no se añade artículo."
+      ],
+      "forms": [
+        [
+          "a casa / al bar",
+          "locución / nombre con artículo"
+        ],
+        [
+          "in hotel / nell’hotel indicato",
+          "general / hotel identificado"
+        ],
+        [
+          "nel centro della città",
+          "en el centro de la ciudad"
+        ]
+      ],
+      "examples": [
+        [
+          "Vado al bar.",
+          "Voy al bar."
+        ],
+        [
+          "Il bar è nel centro della città.",
+          "El bar está en el centro de la ciudad."
+        ]
+      ],
+      "frequentErrors": [
+        "No conviertas a casa automáticamente en alla casa.",
+        "No omitas el artículo en della città cuando se refiere a la ciudad identificada."
+      ],
+      "usageNotes": [
+        "Aprende juntos preposición y nombre: a casa, al bar, nel centro della città."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-a",
+        "it-in",
+        "it-di",
+        "it-casa",
+        "it-roma",
+        "it-italia",
+        "it-hotel",
+        "it-bar",
+        "it-centro",
+        "it-citta",
+        "it-libro",
+        "it-studente",
+        "it-andare",
+        "it-lavorare"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C21; A1_COVERAGE_MATRIX C21. https://www.treccani.it/enciclopedia/preposizione/"
+    }
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c21-01-al",
+      "version": "1",
+      "conceptId": "it-a1-c21-01",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "a + il bar = ___ bar",
+      "options": [
+        "a il",
+        "al"
+      ],
+      "hint": "A + il se funde en al.",
+      "explanation": "A + il se funde en al.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "bar",
+        "facets": [
+          "a"
+        ],
+        "opportunityId": "it-a1-c21-01-al:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "al"
+        ],
+        "rejected": [
+          "a il"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C21; A1_COVERAGE_MATRIX C21. https://www.treccani.it/enciclopedia/preposizione/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c21-01-al",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c21-01-dello",
+      "version": "1",
+      "conceptId": "it-a1-c21-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "di + lo studente = ___ studente",
+      "options": [],
+      "hint": "Di + lo produce dello, con doble l.",
+      "explanation": "Di + lo produce dello, con doble l.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "estudio",
+        "facets": [
+          "di"
+        ],
+        "opportunityId": "it-a1-c21-01-dello:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "dello"
+        ],
+        "rejected": [
+          "delo"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C21; A1_COVERAGE_MATRIX C21. https://www.treccani.it/enciclopedia/preposizione/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c21-01-dello",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c21-01-nel",
+      "version": "1",
+      "conceptId": "it-a1-c21-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Correggi «in il libro»: scrivi il gruppo completo.",
+      "options": [],
+      "hint": "In + il cambia a nel.",
+      "explanation": "In + il cambia a nel.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "estudio",
+        "facets": [
+          "in"
+        ],
+        "opportunityId": "it-a1-c21-01-nel:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "nel libro"
+        ],
+        "rejected": [
+          "in il libro"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C21; A1_COVERAGE_MATRIX C21. https://www.treccani.it/enciclopedia/preposizione/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c21-01-nel",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c21-01-apostrofo",
+      "version": "1",
+      "conceptId": "it-a1-c21-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Unisci di + l’amico. Scrivi tutto il gruppo.",
+      "options": [],
+      "hint": "Ante vocal se conserva el apóstrofo de la forma dell’.",
+      "explanation": "Ante vocal se conserva el apóstrofo de la forma dell’.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "vida cotidiana",
+        "facets": [
+          "apostrofo"
+        ],
+        "opportunityId": "it-a1-c21-01-apostrofo:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "dell'amico",
+          "dell’amico"
+        ],
+        "rejected": [
+          "del amico"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C21; A1_COVERAGE_MATRIX C21. https://www.treccani.it/enciclopedia/preposizione/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c21-01-apostrofo",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c21-01-letto",
+      "version": "1",
+      "conceptId": "it-a1-c21-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Unisci la frase: il libro + è + su + il letto.",
+      "options": [],
+      "hint": "Su + il debe fundirse en sul.",
+      "explanation": "Su + il debe fundirse en sul.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "vivienda",
+        "facets": [
+          "su"
+        ],
+        "opportunityId": "it-a1-c21-01-letto:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Il libro è sul letto"
+        ],
+        "rejected": [
+          "Il libro è su il letto"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C21; A1_COVERAGE_MATRIX C21. https://www.treccani.it/enciclopedia/preposizione/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c21-01-letto",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c21-01-agli",
+      "version": "1",
+      "conceptId": "it-a1-c21-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci con a + gli: «Hablo a los estudiantes».",
+      "options": [],
+      "hint": "A + gli se convierte en agli.",
+      "explanation": "A + gli se convierte en agli.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "estudio",
+        "facets": [
+          "a"
+        ],
+        "opportunityId": "it-a1-c21-01-agli:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Parlo agli studenti"
+        ],
+        "rejected": [
+          "Parlo a gli studenti"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C21; A1_COVERAGE_MATRIX C21. https://www.treccani.it/enciclopedia/preposizione/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c21-01-agli",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c21-01-per",
+      "version": "1",
+      "conceptId": "it-a1-c21-01",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "error-detection",
+      "prompt": "«Per il libro»: bisogna unire per e il? sì/no.",
+      "options": [
+        "sì",
+        "no"
+      ],
+      "hint": "Per y el artículo permanecen separados.",
+      "explanation": "Per y el artículo permanecen separados.",
+      "dimension": "discrimination",
+      "task": {
+        "skill": "discrimination",
+        "context": "estudio",
+        "facets": [
+          "no-fusion"
+        ],
+        "opportunityId": "it-a1-c21-01-per:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "no"
+        ],
+        "rejected": [
+          "sì"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C21; A1_COVERAGE_MATRIX C21. https://www.treccani.it/enciclopedia/preposizione/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c21-01-per",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c21-02-bar",
+      "version": "1",
+      "conceptId": "it-a1-c21-02",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Vado ___ bar.",
+      "options": [
+        "a",
+        "al"
+      ],
+      "hint": "Bar requiere aquí a + il.",
+      "explanation": "Bar requiere aquí a + il.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "bar",
+        "facets": [
+          "articulada"
+        ],
+        "opportunityId": "it-a1-c21-02-bar:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "al"
+        ],
+        "rejected": [
+          "a"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C21; A1_COVERAGE_MATRIX C21. https://www.treccani.it/enciclopedia/preposizione/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c21-02-bar",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c21-02-casa",
+      "version": "1",
+      "conceptId": "it-a1-c21-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Usa la locuzione studiata: «Vado ___ casa».",
+      "options": [],
+      "hint": "La locución andare a casa no lleva artículo.",
+      "explanation": "La locución andare a casa no lleva artículo.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "vivienda",
+        "facets": [
+          "simple"
+        ],
+        "opportunityId": "it-a1-c21-02-casa:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "a"
+        ],
+        "rejected": [
+          "alla"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C21; A1_COVERAGE_MATRIX C21. https://www.treccani.it/enciclopedia/preposizione/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c21-02-casa",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c21-02-hotel",
+      "version": "1",
+      "conceptId": "it-a1-c21-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Specifica l’hotel indicato: unisci «Lavoro in + l’hotel indicato».",
+      "options": [],
+      "hint": "In + l’ produce nell’. Indicato significa indicado.",
+      "explanation": "In + l’ produce nell’. Indicato significa indicado.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "trabajo",
+        "facets": [
+          "referencia"
+        ],
+        "opportunityId": "it-a1-c21-02-hotel:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Lavoro nell'hotel indicato",
+          "Lavoro nell’hotel indicato"
+        ],
+        "rejected": [
+          "Lavoro in l'hotel indicato",
+          "Lavoro in l’hotel indicato"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C21; A1_COVERAGE_MATRIX C21. https://www.treccani.it/enciclopedia/preposizione/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c21-02-hotel",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c21-02-studente",
+      "version": "1",
+      "conceptId": "it-a1-c21-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Esprimi appartenenza: il libro + di + lo studente.",
+      "options": [],
+      "hint": "El estudiante identificado lleva lo, que se une a di.",
+      "explanation": "El estudiante identificado lleva lo, que se une a di.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "estudio",
+        "facets": [
+          "referencia"
+        ],
+        "opportunityId": "it-a1-c21-02-studente:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Il libro dello studente"
+        ],
+        "rejected": [
+          "Il libro di studente"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C21; A1_COVERAGE_MATRIX C21. https://www.treccani.it/enciclopedia/preposizione/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c21-02-studente",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c21-02-origine",
+      "version": "2",
+      "conceptId": "it-a1-c21-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci: «Soy de Roma».",
+      "options": [],
+      "hint": "La ciudad Roma no lleva artículo en esta construcción.",
+      "explanation": "La ciudad Roma no lleva artículo en esta construcción.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "presentación",
+        "facets": [
+          "simple"
+        ],
+        "opportunityId": "it-a1-c21-02-origine:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Sono di Roma",
+          "Io sono di Roma",
+          "Sono di Roma.",
+          "Io sono di Roma."
+        ],
+        "rejected": [
+          "Sono della Roma"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C21; A1_COVERAGE_MATRIX C21. https://www.treccani.it/enciclopedia/preposizione/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c21-02-origine",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c21-02-contrasto",
+      "version": "1",
+      "conceptId": "it-a1-c21-02",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "error-detection",
+      "prompt": "«Lavoro in hotel» e «Lavoro nell’hotel indicato»: possono essere entrambe corrette? sì/no.",
+      "options": [
+        "sì",
+        "no"
+      ],
+      "hint": "Una es general; la otra identifica un hotel concreto.",
+      "explanation": "Una es general; la otra identifica un hotel concreto.",
+      "dimension": "discrimination",
+      "task": {
+        "skill": "discrimination",
+        "context": "trabajo",
+        "facets": [
+          "referencia"
+        ],
+        "opportunityId": "it-a1-c21-02-contrasto:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "sì"
+        ],
+        "rejected": [
+          "no"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C21; A1_COVERAGE_MATRIX C21. https://www.treccani.it/enciclopedia/preposizione/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c21-02-contrasto",
+        "sourceVersion": "1"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "it-amico",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "amico",
+      "displayForm": "amico",
+      "gloss": "amigo; femenino amica: amiga",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "feminine",
+          "text": "amica",
+          "features": {
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "irregular": false
+        },
+        {
+          "key": "plural",
+          "text": "amici",
+          "features": {
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "irregular": false
+        },
+        {
+          "key": "feminine-plural",
+          "text": "amiche",
+          "features": {
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C04",
+        "C09",
+        "C10",
+        "C11",
+        "C15",
+        "C16",
+        "C20",
+        "C21",
+        "C24",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c04-02",
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c10-01",
+        "it-a1-c11-01",
+        "it-a1-c11-02",
+        "it-a1-c15-01",
+        "it-a1-c16-02",
+        "it-a1-c16-03",
+        "it-a1-c16-04",
+        "it-a1-c16-05",
+        "it-a1-c16-06",
+        "it-a1-c16-08",
+        "it-a1-c20-04",
+        "it-a1-c21-01",
+        "it-a1-c24-01",
+        "it-a1-c24-02",
+        "it-a1-c27-03"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t04",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t11",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t24",
+        "it-a1-t27"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-casa",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "casa",
+      "displayForm": "casa",
+      "gloss": "casa",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "case",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C04",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C11",
+        "C15",
+        "C16",
+        "C19",
+        "C20",
+        "C21",
+        "C23",
+        "C24",
+        "C29",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c04-04",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c06-03",
+        "it-a1-c07-01",
+        "it-a1-c08-01",
+        "it-a1-c09-03",
+        "it-a1-c11-01",
+        "it-a1-c11-02",
+        "it-a1-c15-02",
+        "it-a1-c16-01",
+        "it-a1-c16-02",
+        "it-a1-c16-03",
+        "it-a1-c16-04",
+        "it-a1-c16-08",
+        "it-a1-c19-02",
+        "it-a1-c20-02",
+        "it-a1-c20-03",
+        "it-a1-c21-01",
+        "it-a1-c21-02",
+        "it-a1-c23-01",
+        "it-a1-c23-02",
+        "it-a1-c24-01",
+        "it-a1-c29-04",
+        "it-a1-c34-02"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t09",
+        "it-a1-t11",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t23",
+        "it-a1-t24",
+        "it-a1-t29",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación C08: plural canónico del repertorio; candidate."
+    },
+    {
+      "id": "it-citta",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "città",
+      "displayForm": "città",
+      "gloss": "ciudad",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "città",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C08",
+        "C11",
+        "C12",
+        "C21",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-02",
+        "it-a1-c08-02",
+        "it-a1-c11-01",
+        "it-a1-c12-01",
+        "it-a1-c21-02",
+        "it-a1-c34-06"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t08",
+        "it-a1-t11",
+        "it-a1-t12",
+        "it-a1-t21",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación C08: plural canónico del repertorio; candidate."
+    },
+    {
+      "id": "it-letto",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "letto",
+      "displayForm": "letto",
+      "gloss": "cama",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "letti",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C07",
+        "C09",
+        "C10",
+        "C12",
+        "C19",
+        "C20",
+        "C21",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-03",
+        "it-a1-c07-01",
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c09-03",
+        "it-a1-c10-01",
+        "it-a1-c12-01",
+        "it-a1-c19-01",
+        "it-a1-c20-01",
+        "it-a1-c21-01",
+        "it-a1-c34-02"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t07",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t12",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación C08: plural canónico del repertorio; candidate."
+    },
+    {
+      "id": "it-di",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "di",
+      "displayForm": "di",
+      "gloss": "de: origen con essere, pertenencia y contenido; di notte",
+      "partOfSpeech": "preposition",
+      "forms": [],
+      "tags": [
+        "preposition",
+        "C04",
+        "C20",
+        "C21",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-03",
+        "it-a1-c20-01",
+        "it-a1-c20-06",
+        "it-a1-c21-01",
+        "it-a1-c21-02",
+        "it-a1-c27-03"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t27"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación de usos C18–C25; candidate, revisión pendiente."
+    },
+    {
+      "id": "it-roma",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "Roma",
+      "displayForm": "Roma",
+      "gloss": "Roma",
+      "partOfSpeech": "proper-noun",
+      "forms": [],
+      "tags": [
+        "proper-noun",
+        "C04",
+        "C06",
+        "C14",
+        "C16",
+        "C17",
+        "C18",
+        "C20",
+        "C21",
+        "C23",
+        "C29",
+        "C32"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-03",
+        "it-a1-c04-04",
+        "it-a1-c06-03",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c16-02",
+        "it-a1-c16-04",
+        "it-a1-c17-03",
+        "it-a1-c18-02",
+        "it-a1-c20-01",
+        "it-a1-c20-02",
+        "it-a1-c20-03",
+        "it-a1-c21-02",
+        "it-a1-c23-02",
+        "it-a1-c29-03",
+        "it-a1-c32-03"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t14",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t23",
+        "it-a1-t29",
+        "it-a1-t32"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-a",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "a",
+      "displayForm": "a",
+      "gloss": "a/en: ciudad, a casa, destino; a mezzogiorno",
+      "partOfSpeech": "preposition",
+      "forms": [],
+      "tags": [
+        "preposition",
+        "C04",
+        "C16",
+        "C20",
+        "C21"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-04",
+        "it-a1-c16-02",
+        "it-a1-c16-05",
+        "it-a1-c20-02",
+        "it-a1-c20-03",
+        "it-a1-c20-06",
+        "it-a1-c21-01",
+        "it-a1-c21-02"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t16",
+        "it-a1-t20",
+        "it-a1-t21"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación de usos C18–C25; candidate, revisión pendiente."
+    },
+    {
+      "id": "it-in",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "in",
+      "displayForm": "in",
+      "gloss": "en: país, in hotel; mes y tiempo de realización",
+      "partOfSpeech": "preposition",
+      "forms": [],
+      "tags": [
+        "preposition",
+        "C04",
+        "C16",
+        "C20",
+        "C21"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-04",
+        "it-a1-c16-02",
+        "it-a1-c20-02",
+        "it-a1-c20-03",
+        "it-a1-c20-06",
+        "it-a1-c21-01",
+        "it-a1-c21-02"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t16",
+        "it-a1-t20",
+        "it-a1-t21"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación de usos C18–C25; candidate, revisión pendiente."
+    },
+    {
+      "id": "it-hotel",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "hotel",
+      "displayForm": "hotel",
+      "gloss": "hotel",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "hotel",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "noun",
+        "C04",
+        "C08",
+        "C14",
+        "C15",
+        "C16",
+        "C19",
+        "C20",
+        "C21",
+        "C29",
+        "C33",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-04",
+        "it-a1-c08-02",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c15-02",
+        "it-a1-c16-01",
+        "it-a1-c16-02",
+        "it-a1-c16-04",
+        "it-a1-c16-06",
+        "it-a1-c19-01",
+        "it-a1-c20-02",
+        "it-a1-c21-02",
+        "it-a1-c29-04",
+        "it-a1-c33-01",
+        "it-a1-c34-02",
+        "it-a1-c34-06"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t08",
+        "it-a1-t14",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t29",
+        "it-a1-t33",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación C08: plural canónico del repertorio; candidate."
+    },
+    {
+      "id": "it-bar",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "bar",
+      "displayForm": "bar",
+      "gloss": "bar",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "bar",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "noun",
+        "C08",
+        "C20",
+        "C21"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c08-02",
+        "it-a1-c20-02",
+        "it-a1-c21-01",
+        "it-a1-c21-02"
+      ],
+      "topicIds": [
+        "it-a1-t08",
+        "it-a1-t20",
+        "it-a1-t21"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-studente",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "studente",
+      "displayForm": "studente",
+      "gloss": "estudiante (masculino)",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "studenti",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C15",
+        "C16",
+        "C17",
+        "C21",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c10-01",
+        "it-a1-c11-01",
+        "it-a1-c11-02",
+        "it-a1-c12-01",
+        "it-a1-c15-03",
+        "it-a1-c16-01",
+        "it-a1-c16-07",
+        "it-a1-c17-01",
+        "it-a1-c17-03",
+        "it-a1-c21-01",
+        "it-a1-c21-02",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t11",
+        "it-a1-t12",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t21",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-articolo-determinativo",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "il / lo / la / l’ / i / gli / le",
+      "displayForm": "il / lo / la / l’ / i / gli / le",
+      "gloss": "artículo determinado: el, la, los, las",
+      "partOfSpeech": "article",
+      "forms": [],
+      "tags": [
+        "article",
+        "C09",
+        "C10",
+        "C12",
+        "C21",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c09-03",
+        "it-a1-c10-02",
+        "it-a1-c12-01",
+        "it-a1-c21-01",
+        "it-a1-c27-03"
+      ],
+      "topicIds": [
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t12",
+        "it-a1-t21",
+        "it-a1-t27"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-camera",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "camera",
+      "displayForm": "camera",
+      "gloss": "habitación",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "camere",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C11",
+        "C12",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "C27",
+        "C29",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c11-01",
+        "it-a1-c11-02",
+        "it-a1-c12-01",
+        "it-a1-c18-01",
+        "it-a1-c19-01",
+        "it-a1-c19-02",
+        "it-a1-c20-01",
+        "it-a1-c21-01",
+        "it-a1-c27-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c34-02"
+      ],
+      "topicIds": [
+        "it-a1-t11",
+        "it-a1-t12",
+        "it-a1-t18",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t27",
+        "it-a1-t29",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-lavorare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "lavorare",
+      "displayForm": "lavorare",
+      "gloss": "trabajar",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "lavoro",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "lavori",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "lavora",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "lavoriamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "lavorate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "lavorano",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C14",
+        "C17",
+        "C20",
+        "C21",
+        "C22",
+        "C25",
+        "C27",
+        "C29",
+        "C31",
+        "C32",
+        "C33",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c17-03",
+        "it-a1-c20-02",
+        "it-a1-c20-06",
+        "it-a1-c21-02",
+        "it-a1-c22-01",
+        "it-a1-c25-01",
+        "it-a1-c27-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c29-03",
+        "it-a1-c29-04",
+        "it-a1-c31-01",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c32-03",
+        "it-a1-c33-01",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t14",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t22",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t33",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-libro",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "libro",
+      "displayForm": "libro",
+      "gloss": "libro",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "libri",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C15",
+        "C16",
+        "C17",
+        "C19",
+        "C20",
+        "C21",
+        "C23",
+        "C24",
+        "C25",
+        "C27",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-01",
+        "it-a1-c16-05",
+        "it-a1-c17-01",
+        "it-a1-c19-02",
+        "it-a1-c20-01",
+        "it-a1-c20-02",
+        "it-a1-c20-05",
+        "it-a1-c21-01",
+        "it-a1-c21-02",
+        "it-a1-c23-01",
+        "it-a1-c24-01",
+        "it-a1-c24-02",
+        "it-a1-c25-02",
+        "it-a1-c27-02",
+        "it-a1-c27-03",
+        "it-a1-c28-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c30-01",
+        "it-a1-c30-02",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c34-04"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t23",
+        "it-a1-t24",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-andare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "andare",
+      "displayForm": "andare",
+      "gloss": "ir hacia un destino",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "vado",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "vai",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "va",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "andiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "andate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "vanno",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C16",
+        "C17",
+        "C20",
+        "C21",
+        "C26",
+        "C28",
+        "C30",
+        "C32",
+        "C33",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c16-02",
+        "it-a1-c16-04",
+        "it-a1-c17-03",
+        "it-a1-c20-03",
+        "it-a1-c21-02",
+        "it-a1-c26-02",
+        "it-a1-c28-01",
+        "it-a1-c30-02",
+        "it-a1-c32-02",
+        "it-a1-c33-01",
+        "it-a1-c34-06"
+      ],
+      "topicIds": [
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t26",
+        "it-a1-t28",
+        "it-a1-t30",
+        "it-a1-t32",
+        "it-a1-t33",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-da",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "da",
+      "displayForm": "da",
+      "gloss": "de / desde / a casa de, según construcción",
+      "partOfSpeech": "preposition",
+      "forms": [],
+      "tags": [
+        "preposition",
+        "C20",
+        "C21"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c20-01",
+        "it-a1-c20-03",
+        "it-a1-c20-06",
+        "it-a1-c21-01"
+      ],
+      "topicIds": [
+        "it-a1-t20",
+        "it-a1-t21"
+      ],
+      "examples": [
+        {
+          "target": "Vengo da Roma.",
+          "support": "Vengo de Roma."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-su",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "su",
+      "displayForm": "su",
+      "gloss": "sobre",
+      "partOfSpeech": "preposition",
+      "forms": [],
+      "tags": [
+        "preposition",
+        "C20",
+        "C21"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c20-02",
+        "it-a1-c21-01"
+      ],
+      "topicIds": [
+        "it-a1-t20",
+        "it-a1-t21"
+      ],
+      "examples": [
+        {
+          "target": "La penna è su un libro.",
+          "support": "El bolígrafo está sobre un libro."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-italia",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "Italia",
+      "displayForm": "Italia",
+      "gloss": "Italia",
+      "partOfSpeech": "proper-noun",
+      "forms": [],
+      "tags": [
+        "proper-noun",
+        "C20",
+        "C21",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c20-02",
+        "it-a1-c20-03",
+        "it-a1-c21-02",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-centro",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "centro",
+      "displayForm": "centro",
+      "gloss": "centro",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "centri",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C21",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c21-02",
+        "it-a1-c34-06"
+      ],
+      "topicIds": [
+        "it-a1-t21",
+        "it-a1-t34"
+      ],
+      "examples": [
+        {
+          "target": "Il bar è nel centro della città.",
+          "support": "El bar está en el centro de la ciudad."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    }
+  ],
+  "relations": [
+    {
+      "to": "it-a1-c09-01",
+      "type": "prerequisite",
+      "reason": "El artículo determina la forma de la fusión.",
+      "from": "it-a1-c21-01",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c09-02",
+      "type": "prerequisite",
+      "reason": "Las combinaciones plurales requieren i/gli/le.",
+      "from": "it-a1-c21-01",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c21-01",
+      "type": "prerequisite",
+      "reason": "La elección contextual requiere conocer las fusiones.",
+      "from": "it-a1-c21-02",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c20-02",
+      "type": "prerequisite",
+      "reason": "Se amplían las combinaciones locativas.",
+      "from": "it-a1-c21-02",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c21-01",
+      "type": "prerequisite",
+      "reason": "La hora del evento utiliza alle/all’.",
+      "from": "it-a1-c22-02",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c09-03",
+      "type": "reinforces",
+      "reason": "La referencia conocida orienta el artículo.",
+      "from": "it-a1-c21-02"
+    },
+    {
+      "from": "it-a1-c21-01",
+      "to": "it-a1-c20-01",
+      "type": "prerequisite",
+      "strength": "recommended",
+      "reason": "Di/da conservan su relación al unirse al artículo."
+    },
+    {
+      "from": "it-a1-c21-01",
+      "to": "it-a1-c20-02",
+      "type": "prerequisite",
+      "strength": "recommended",
+      "reason": "A/in/su aportan significado a las formas articuladas."
+    },
+    {
+      "to": "it-a1-c21-01",
+      "type": "contrast",
+      "reason": "La misma forma superficial puede expresar cantidad o una relación con di.",
+      "from": "it-a1-c27-03"
+    }
+  ]
+}

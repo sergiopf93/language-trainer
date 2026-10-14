@@ -122,14 +122,16 @@ export const c22: Lesson[] = [
       {
         key: 'data-intera',
         format: 'translation',
-        prompt: 'Traduci in parole: «el quince de agosto».',
+        prompt:
+          'Traduci in parole seguendo il modello della scheda, senza preposizione tra numero e mese: «el quince de agosto».',
         accepted: ['il quindici agosto'],
-        rejected: ['il quindici di agosto'],
-        hint: 'La fecha se construye con número seguido directamente del mes.',
+        rejected: [],
+        hint: 'En el modelo practicado, el número precede directamente al mes.',
         explanation:
-          'La fecha se construye con número seguido directamente del mes.',
+          'Il quindici agosto es el modelo pedido; no se declara incorrecto todo uso de di en fechas.',
         facets: ['fecha'],
         context: 'viaje',
+        version: '2',
       },
       {
         key: 'occasione',
@@ -148,11 +150,13 @@ export const c22: Lesson[] = [
         format: 'controlled-production',
         prompt: 'Comunica la data con parole: usa vengo + il + 2 + maggio.',
         accepted: ['Vengo il due maggio'],
-        rejected: ['Vengo il due di maggio'],
-        hint: 'El mes sigue directamente al número.',
-        explanation: 'El mes sigue directamente al número.',
+        rejected: [],
+        hint: 'Une los elementos dados: número y mes quedan contiguos.',
+        explanation:
+          'Con los elementos pedidos se obtiene Vengo il due maggio; no se generaliza el rechazo a otras formulaciones de fecha.',
         facets: ['fecha'],
         context: 'cita',
+        version: '2',
       },
       {
         key: 'maiuscola',
@@ -323,13 +327,15 @@ export const c22: Lesson[] = [
       {
         key: 'tre',
         format: 'short',
-        prompt: 'Sono le 03:15. Scrivi l’ora con e un quarto.',
+        prompt:
+          'Sono le 03:15. Scrivi una frase completa in parole usando una frazione dell’ora.',
         accepted: ['Sono le tre e un quarto'],
         rejected: ['Sono le tre meno un quarto'],
         hint: 'Quince minutos después se expresa con e un quarto.',
         explanation: 'Quince minutos después se expresa con e un quarto.',
         facets: ['cuarto'],
         context: 'cita',
+        version: '2',
       },
       {
         key: 'mezza',
@@ -345,24 +351,28 @@ export const c22: Lesson[] = [
       {
         key: 'meno',
         format: 'short',
-        prompt: '03:45: scrivi l’ora con meno un quarto.',
+        prompt:
+          '03:45: scrivi una frase completa in parole, indicando quanto manca all’ora successiva.',
         accepted: ['Sono le quattro meno un quarto'],
         rejected: ['Sono le tre meno un quarto'],
         hint: 'Se resta un cuarto a la hora siguiente.',
         explanation: 'Se resta un cuarto a la hora siguiente.',
         facets: ['cuarto'],
         context: 'transporte',
+        version: '2',
       },
       {
         key: 'evento',
         format: 'transformation',
-        prompt: 'Da ora attuale a appuntamento: «Sono le due» → usa vengo.',
+        prompt:
+          'Trasforma l’ora attuale in quella di un appuntamento: «Sono le due» → usa venire alla prima persona singolare.',
         accepted: ['Vengo alle due'],
         rejected: ['Vengo le due'],
         hint: 'El evento requiere a + le = alle.',
         explanation: 'El evento requiere a + le = alle.',
         facets: ['evento'],
         context: 'cita',
+        version: '2',
       },
       {
         key: 'una-evento',
@@ -494,48 +504,58 @@ export const c22: Lesson[] = [
       {
         key: 'mai',
         format: 'error-correction',
-        prompt: 'Aggiungi non: «Bevo mai caffè». Scrivi la frase completa.',
+        prompt:
+          'Correggi la negazione semplice: «Bevo mai caffè». Scrivi la frase completa.',
         accepted: ['Non bevo mai caffè'],
         rejected: ['Bevo non mai caffè'],
         hint: 'Non va delante del verbo y mai detrás en este orden.',
         explanation: 'Non va delante del verbo y mai detrás en este orden.',
         facets: ['negacion'],
         context: 'bar',
+        version: '2',
       },
       {
         key: 'periodica',
         format: 'translation',
-        prompt:
-          'Traduci con due volte alla settimana: «Estudio dos veces por semana».',
-        accepted: ['Studio due volte alla settimana'],
+        prompt: 'Traduci: «Estudio dos veces por semana».',
+        accepted: [
+          'Studio due volte alla settimana',
+          'Studio due volte a settimana',
+          'Studio due volte la settimana',
+        ],
         rejected: ['Studio per due settimane'],
         hint: 'La primera indica frecuencia; la segunda duración.',
-        explanation: 'La primera indica frecuencia; la segunda duración.',
+        explanation:
+          'Due volte alla settimana expresa frecuencia; per due settimane expresa duración.',
         facets: ['periodicidad'],
         context: 'estudio',
+        version: '2',
       },
       {
         key: 'giorno',
         format: 'transformation',
         prompt:
-          'Sostituisci «tutti i giorni» con ogni giorno: «Leggo tutti i giorni».',
+          'Riscrivi «Leggo tutti i giorni» usando ogni al posto di tutti i.',
         accepted: ['Leggo ogni giorno'],
         rejected: ['Leggo ogni giorni'],
         hint: 'Ogni se combina con el nombre singular giorno.',
         explanation: 'Ogni se combina con el nombre singular giorno.',
         facets: ['periodicidad'],
         context: 'ocio',
+        version: '2',
       },
       {
         key: 'qualche',
         format: 'controlled-production',
-        prompt: 'Scrivi nell’ordine dato: qualche volta + esco.',
+        prompt:
+          'Di’ in italiano «A veces salgo». Metti l’espressione di frequenza all’inizio e usa qualche e uscire.',
         accepted: ['Qualche volta esco'],
         rejected: ['Qualche volte esco'],
         hint: 'Qualche volta es la expresión para a veces.',
         explanation: 'Qualche volta es la expresión para a veces.',
         facets: ['adverbio'],
         context: 'ocio',
+        version: '2',
       },
       {
         key: 'lunedì',
@@ -621,7 +641,8 @@ export const c22: Lesson[] = [
       {
         key: 'proponi',
         format: 'controlled-production',
-        prompt: 'Chiedi a un amico: usa puoi venire + lunedì + alle tre.',
+        prompt:
+          'Chiedi a un amico, dandogli del tu, se può venire lunedì alle 15. Usa potere e venire e scrivi l’ora in parole.',
         accepted: ['Puoi venire lunedì alle tre?'],
         rejected: ['Può venire lunedì alle tre?'],
         hint: 'Con un amigo tratado de tú, puoi; día y hora completan la propuesta.',
@@ -629,18 +650,20 @@ export const c22: Lesson[] = [
           'Con un amigo tratado de tú, puoi; día y hora completan la propuesta.',
         facets: ['propuesta'],
         context: 'cita',
+        version: '2',
       },
       {
         key: 'conferma',
         format: 'controlled-production',
         prompt:
-          'Puoi venire alle tre. Conferma con sì + posso venire alle tre.',
+          'Un amico ti propone di venire alle 15 e tu sei disponibile. Conferma iniziando con sì e usando potere e venire alla prima persona singolare; scrivi l’ora in parole.',
         accepted: ['Sì, posso venire alle tre'],
         rejected: ['No, non posso venire alle tre'],
         hint: 'La confirmación debe respetar la disponibilidad dada.',
         explanation: 'La confirmación debe respetar la disponibilidad dada.',
         facets: ['confirmacion'],
         context: 'cita',
+        version: '2',
       },
       {
         key: 'alternativa',

@@ -1,0 +1,2045 @@
+{
+  "concepts": [
+    {
+      "id": "it-a1-c23-01",
+      "version": "1",
+      "topicId": "it-a1-t23",
+      "title": "Di chi è? I possessivi",
+      "objective": "Elegir el posesivo por el poseedor y concordarlo con lo poseído, usando artículo en los grupos generales.",
+      "scope": "Elegir el posesivo por el poseedor y concordarlo con lo poseído, usando artículo en los grupos generales.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use",
+        "discrimination"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C23; A1_COVERAGE_MATRIX C23. https://www.treccani.it/enciclopedia/possessivo/",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "concordancia",
+        "numero",
+        "poseedor",
+        "articulo",
+        "loro",
+        "referencia"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c23-02",
+      "version": "1",
+      "topicId": "it-a1-t23",
+      "title": "Possessivi e famiglia",
+      "objective": "Usar posesivos con parentesco y distinguir singular básico, plural y excepciones frecuentes.",
+      "scope": "Usar posesivos con parentesco y distinguir singular básico, plural y excepciones frecuentes.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use",
+        "discrimination"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C23; A1_COVERAGE_MATRIX C23. https://www.treccani.it/enciclopedia/possessivo/",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "singular",
+        "plural",
+        "loro",
+        "diminutivo",
+        "modificador",
+        "contraste"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c23-01",
+      "version": "theory-c23-01-1",
+      "conceptId": "it-a1-c23-01",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Di chi è? I possessivi",
+      "goal": "Elegir el posesivo por el poseedor y concordarlo con lo poseído, usando artículo en los grupos generales.",
+      "introduction": "Hay dos decisiones: quién posee determina la serie mio/tuo/suo…; el objeto determina género y número. El género del propietario no determina la terminación.",
+      "rules": [
+        "En estos grupos usa artículo + posesivo + nombre: il mio libro, la mia penna, i miei libri, le mie penne.",
+        "Las series concuerdan con lo poseído. Anna tiene un libro: il suo libro; Luca tiene una penna: la sua penna.",
+        "Loro es invariable: il loro libro, la loro casa, i loro libri, le loro case. El artículo y el nombre sí cambian.",
+        "Suo/sua puede ser de él, de ella o de usted: el contexto identifica al poseedor."
+      ],
+      "forms": [
+        [
+          "mio / mia / miei / mie",
+          "mi, mis"
+        ],
+        [
+          "tuo / tua / tuoi / tue",
+          "tu, tus"
+        ],
+        [
+          "suo / sua / suoi / sue",
+          "su, sus (de él/ella/usted)"
+        ],
+        [
+          "nostro / nostra / nostri / nostre",
+          "nuestro/a/os/as"
+        ],
+        [
+          "vostro / vostra / vostri / vostre",
+          "vuestro/a/os/as"
+        ],
+        [
+          "loro",
+          "su, sus (de ellos/ellas)"
+        ]
+      ],
+      "examples": [
+        [
+          "La mia casa è qui.",
+          "Mi casa está aquí."
+        ],
+        [
+          "Anna legge il suo libro.",
+          "Anna lee su libro."
+        ],
+        [
+          "Le loro penne sono qui.",
+          "Sus bolígrafos están aquí (de ellos)."
+        ]
+      ],
+      "frequentErrors": [
+        "No omitas el artículo por imitar el español mi casa.",
+        "No elijas sua solo porque la propietaria sea mujer."
+      ],
+      "usageNotes": [
+        "Las construcciones familiares tienen reglas propias en C23-02."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-mio",
+        "it-tuo",
+        "it-suo",
+        "it-nostro",
+        "it-vostro",
+        "it-loro",
+        "it-casa",
+        "it-libro",
+        "it-penna",
+        "it-chiave",
+        "it-leggere"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C23; A1_COVERAGE_MATRIX C23. https://www.treccani.it/enciclopedia/possessivo/"
+    },
+    {
+      "id": "it-a1-theory-c23-02",
+      "version": "theory-c23-02-1",
+      "conceptId": "it-a1-c23-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Possessivi e famiglia",
+      "goal": "Usar posesivos con parentesco y distinguir singular básico, plural y excepciones frecuentes.",
+      "introduction": "Con un nombre de parentesco cercano en singular sin modificadores, se omite normalmente el artículo: mio padre, mia madre. La regla no se aplica a todos los grupos familiares.",
+      "rules": [
+        "Sin artículo: mio padre, tua madre, suo fratello, nostra sorella.",
+        "Con plural se usa artículo: i miei fratelli, le tue sorelle.",
+        "Con loro se mantiene el artículo también en singular: il loro padre.",
+        "Con diminutivo o calificativo se usa artículo: la mia sorellina, la mia cara madre. Con mamma y papà el uso del artículo varía: puedes encontrar mia mamma y la mia mamma."
+      ],
+      "forms": [
+        [
+          "mio padre / mia madre",
+          "mi padre / mi madre"
+        ],
+        [
+          "i miei fratelli / le mie sorelle",
+          "mis hermanos / mis hermanas"
+        ],
+        [
+          "il loro padre",
+          "su padre (de ellos)"
+        ],
+        [
+          "la mia sorellina",
+          "mi hermanita"
+        ],
+        [
+          "la mia cara madre",
+          "mi querida madre"
+        ]
+      ],
+      "examples": [
+        [
+          "Mio padre è qui.",
+          "Mi padre está aquí."
+        ],
+        [
+          "I miei fratelli sono a casa.",
+          "Mis hermanos están en casa."
+        ],
+        [
+          "La loro madre è di Roma.",
+          "Su madre es de Roma (de ellos)."
+        ]
+      ],
+      "frequentErrors": [
+        "No extiendas la omisión del artículo a i miei fratelli.",
+        "Loro conserva el artículo: il loro padre."
+      ],
+      "usageNotes": [
+        "Se practica el patrón estándar de estas combinaciones; no se penalizan usos regionales fuera del criterio."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-mio",
+        "it-tuo",
+        "it-suo",
+        "it-nostro",
+        "it-loro",
+        "it-padre",
+        "it-madre",
+        "it-fratello",
+        "it-sorella",
+        "it-sorellina",
+        "it-caro",
+        "it-casa",
+        "it-roma",
+        "it-qui"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C23; A1_COVERAGE_MATRIX C23. https://www.treccani.it/enciclopedia/possessivo/"
+    }
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c23-01-genere",
+      "version": "1",
+      "conceptId": "it-a1-c23-01",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Il libro appartiene ad Anna: è il ___ libro.",
+      "options": [
+        "sua",
+        "suo"
+      ],
+      "hint": "Libro es masculino; Anna determina el poseedor, no la terminación.",
+      "explanation": "Libro es masculino; Anna determina el poseedor, no la terminación.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "estudio",
+        "facets": [
+          "concordancia"
+        ],
+        "opportunityId": "it-a1-c23-01-genere:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "suo"
+        ],
+        "rejected": [
+          "sua"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C23; A1_COVERAGE_MATRIX C23. https://www.treccani.it/enciclopedia/possessivo/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c23-01-genere",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c23-01-mia",
+      "version": "1",
+      "conceptId": "it-a1-c23-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "La penna appartiene a me: è la ___ penna.",
+      "options": [],
+      "hint": "Penna es femenino singular.",
+      "explanation": "Penna es femenino singular.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "trabajo",
+        "facets": [
+          "concordancia"
+        ],
+        "opportunityId": "it-a1-c23-01-mia:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "mia"
+        ],
+        "rejected": [
+          "mio"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C23; A1_COVERAGE_MATRIX C23. https://www.treccani.it/enciclopedia/possessivo/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c23-01-mia",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c23-01-miei",
+      "version": "1",
+      "conceptId": "it-a1-c23-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Passa al plurale: «il mio libro».",
+      "options": [],
+      "hint": "Cambian artículo, posesivo y nombre a masculino plural.",
+      "explanation": "Cambian artículo, posesivo y nombre a masculino plural.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "estudio",
+        "facets": [
+          "numero"
+        ],
+        "opportunityId": "it-a1-c23-01-miei:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "i miei libri"
+        ],
+        "rejected": [
+          "i mio libri"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C23; A1_COVERAGE_MATRIX C23. https://www.treccani.it/enciclopedia/possessivo/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c23-01-miei",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c23-01-nostro",
+      "version": "1",
+      "conceptId": "it-a1-c23-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci: «Nuestra casa».",
+      "options": [],
+      "hint": "El grupo general exige artículo y posesivo femenino singular.",
+      "explanation": "El grupo general exige artículo y posesivo femenino singular.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "vivienda",
+        "facets": [
+          "articulo"
+        ],
+        "opportunityId": "it-a1-c23-01-nostro:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "La nostra casa"
+        ],
+        "rejected": [
+          "Nostra casa"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C23; A1_COVERAGE_MATRIX C23. https://www.treccani.it/enciclopedia/possessivo/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c23-01-nostro",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c23-01-vostro",
+      "version": "1",
+      "conceptId": "it-a1-c23-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Scrivi il gruppo: la casa appartiene a voi. Usa articolo + possessivo + casa.",
+      "options": [],
+      "hint": "El poseedor voi exige la serie vostro.",
+      "explanation": "El poseedor voi exige la serie vostro.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "vivienda",
+        "facets": [
+          "poseedor"
+        ],
+        "opportunityId": "it-a1-c23-01-vostro:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "La vostra casa"
+        ],
+        "rejected": [
+          "La nostra casa"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C23; A1_COVERAGE_MATRIX C23. https://www.treccani.it/enciclopedia/possessivo/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c23-01-vostro",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c23-01-loro",
+      "version": "1",
+      "conceptId": "it-a1-c23-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Correggi solo il possessivo: «le lore penne».",
+      "options": [],
+      "hint": "Loro es invariable.",
+      "explanation": "Loro es invariable.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "trabajo",
+        "facets": [
+          "loro"
+        ],
+        "opportunityId": "it-a1-c23-01-loro:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "loro"
+        ],
+        "rejected": [
+          "lore"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C23; A1_COVERAGE_MATRIX C23. https://www.treccani.it/enciclopedia/possessivo/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c23-01-loro",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c23-01-ambiguita",
+      "version": "2",
+      "conceptId": "it-a1-c23-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "«Il suo libro»: senza contesto, sappiamo se il proprietario è uomo o donna? sì/no.",
+      "options": [],
+      "hint": "Suo concuerda con libro, no revela el género del propietario.",
+      "explanation": "Suo concuerda con libro, no revela el género del propietario.",
+      "dimension": "discrimination",
+      "task": {
+        "skill": "discrimination",
+        "context": "estudio",
+        "facets": [
+          "referencia"
+        ],
+        "opportunityId": "it-a1-c23-01-ambiguita:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "no"
+        ],
+        "rejected": [
+          "sì"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C23; A1_COVERAGE_MATRIX C23. https://www.treccani.it/enciclopedia/possessivo/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c23-01-ambiguita",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c23-02-padre",
+      "version": "1",
+      "conceptId": "it-a1-c23-02",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Forma standard del repertorio: scegli.",
+      "options": [
+        "il mio padre",
+        "mio padre"
+      ],
+      "hint": "Con padre singular sin modificadores se omite normalmente el artículo.",
+      "explanation": "Con padre singular sin modificadores se omite normalmente el artículo.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "familia",
+        "facets": [
+          "singular"
+        ],
+        "opportunityId": "it-a1-c23-02-padre:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "mio padre"
+        ],
+        "rejected": [
+          "il mio padre"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C23; A1_COVERAGE_MATRIX C23. https://www.treccani.it/enciclopedia/possessivo/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c23-02-padre",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c23-02-madre",
+      "version": "2",
+      "conceptId": "it-a1-c23-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Traduci «mi madre»: scrivi il gruppo completo nella forma standard del repertorio.",
+      "options": [],
+      "hint": "Madre singular sin modificadores sigue el patrón sin artículo.",
+      "explanation": "Madre singular sin modificadores sigue el patrón sin artículo.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "familia",
+        "facets": [
+          "singular"
+        ],
+        "opportunityId": "it-a1-c23-02-madre:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "mia madre"
+        ],
+        "rejected": [
+          "la mia madre"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C23; A1_COVERAGE_MATRIX C23. https://www.treccani.it/enciclopedia/possessivo/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c23-02-madre",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c23-02-fratelli",
+      "version": "1",
+      "conceptId": "it-a1-c23-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Passa al plurale: «mio fratello».",
+      "options": [],
+      "hint": "En plural se recupera el artículo.",
+      "explanation": "En plural se recupera el artículo.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "familia",
+        "facets": [
+          "plural"
+        ],
+        "opportunityId": "it-a1-c23-02-fratelli:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "i miei fratelli"
+        ],
+        "rejected": [
+          "miei fratelli"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C23; A1_COVERAGE_MATRIX C23. https://www.treccani.it/enciclopedia/possessivo/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c23-02-fratelli",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c23-02-loro",
+      "version": "2",
+      "conceptId": "it-a1-c23-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Anna e Luca hanno lo stesso padre. Indicalo con articolo + possessivo riferito a loro + padre.",
+      "options": [],
+      "hint": "Loro conserva el artículo también en singular.",
+      "explanation": "Loro conserva el artículo también en singular.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "familia",
+        "facets": [
+          "loro"
+        ],
+        "opportunityId": "it-a1-c23-02-loro:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Il loro padre"
+        ],
+        "rejected": [
+          "Loro padre"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C23; A1_COVERAGE_MATRIX C23. https://www.treccani.it/enciclopedia/possessivo/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c23-02-loro",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c23-02-cara",
+      "version": "2",
+      "conceptId": "it-a1-c23-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Parli di tua madre, non ti rivolgi a lei. Aggiungi l’articolo al soggetto: «Mia cara madre è qui». Scrivi solo il gruppo del soggetto.",
+      "options": [],
+      "hint": "El calificativo cara hace que el grupo lleve artículo.",
+      "explanation": "En el sujeto de esta frase el calificativo lleva al uso de la mia cara madre. El vocativo Mia cara madre tiene otro uso.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "familia",
+        "facets": [
+          "modificador"
+        ],
+        "opportunityId": "it-a1-c23-02-cara:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "la mia cara madre"
+        ],
+        "rejected": [
+          "mia cara madre"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C23; A1_COVERAGE_MATRIX C23. https://www.treccani.it/enciclopedia/possessivo/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c23-02-cara",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c23-02-sorelle",
+      "version": "1",
+      "conceptId": "it-a1-c23-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "In un messaggio per una visita, traduci: «Tus hermanas están en casa».",
+      "options": [],
+      "hint": "El parentesco plural requiere artículo y concordancia.",
+      "explanation": "El parentesco plural requiere artículo y concordancia.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "mensajería para una visita",
+        "facets": [
+          "plural"
+        ],
+        "opportunityId": "it-a1-c23-02-sorelle:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Le tue sorelle sono a casa"
+        ],
+        "rejected": [
+          "Tue sorelle sono a casa"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C23; A1_COVERAGE_MATRIX C23. https://www.treccani.it/enciclopedia/possessivo/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c23-02-sorelle",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c23-02-contrasto",
+      "version": "1",
+      "conceptId": "it-a1-c23-02",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "error-detection",
+      "prompt": "La regola «con tutti i nomi di famiglia si elimina sempre l’articolo» è corretta? sì/no.",
+      "options": [
+        "sì",
+        "no"
+      ],
+      "hint": "Plural, loro, diminutivos y modificadores impiden esa generalización.",
+      "explanation": "Plural, loro, diminutivos y modificadores impiden esa generalización.",
+      "dimension": "discrimination",
+      "task": {
+        "skill": "discrimination",
+        "context": "familia",
+        "facets": [
+          "contraste"
+        ],
+        "opportunityId": "it-a1-c23-02-contrasto:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "no"
+        ],
+        "rejected": [
+          "sì"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C23; A1_COVERAGE_MATRIX C23. https://www.treccani.it/enciclopedia/possessivo/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c23-02-contrasto",
+        "sourceVersion": "1"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "it-chiave",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "chiave",
+      "displayForm": "chiave",
+      "gloss": "llave",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "chiavi",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C16",
+        "C19",
+        "C23"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c04-04",
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c06-03",
+        "it-a1-c07-02",
+        "it-a1-c08-01",
+        "it-a1-c09-02",
+        "it-a1-c09-03",
+        "it-a1-c10-02",
+        "it-a1-c16-05",
+        "it-a1-c19-01",
+        "it-a1-c19-02",
+        "it-a1-c23-01"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t06",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t23"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-casa",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "casa",
+      "displayForm": "casa",
+      "gloss": "casa",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "case",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C04",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C11",
+        "C15",
+        "C16",
+        "C19",
+        "C20",
+        "C21",
+        "C23",
+        "C24",
+        "C29",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c04-04",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c06-03",
+        "it-a1-c07-01",
+        "it-a1-c08-01",
+        "it-a1-c09-03",
+        "it-a1-c11-01",
+        "it-a1-c11-02",
+        "it-a1-c15-02",
+        "it-a1-c16-01",
+        "it-a1-c16-02",
+        "it-a1-c16-03",
+        "it-a1-c16-04",
+        "it-a1-c16-08",
+        "it-a1-c19-02",
+        "it-a1-c20-02",
+        "it-a1-c20-03",
+        "it-a1-c21-01",
+        "it-a1-c21-02",
+        "it-a1-c23-01",
+        "it-a1-c23-02",
+        "it-a1-c24-01",
+        "it-a1-c29-04",
+        "it-a1-c34-02"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t09",
+        "it-a1-t11",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t23",
+        "it-a1-t24",
+        "it-a1-t29",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación C08: plural canónico del repertorio; candidate."
+    },
+    {
+      "id": "it-penna",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "penna",
+      "displayForm": "penna",
+      "gloss": "bolígrafo / pluma para escribir",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "penne",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C16",
+        "C20",
+        "C23",
+        "C24",
+        "C25",
+        "C27",
+        "C28",
+        "C29",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-03",
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c06-02",
+        "it-a1-c07-01",
+        "it-a1-c08-01",
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c09-03",
+        "it-a1-c10-01",
+        "it-a1-c10-02",
+        "it-a1-c11-02",
+        "it-a1-c12-01",
+        "it-a1-c16-05",
+        "it-a1-c20-01",
+        "it-a1-c20-02",
+        "it-a1-c23-01",
+        "it-a1-c24-01",
+        "it-a1-c24-02",
+        "it-a1-c25-02",
+        "it-a1-c27-02",
+        "it-a1-c28-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c34-04"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t05",
+        "it-a1-t06",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t11",
+        "it-a1-t12",
+        "it-a1-t16",
+        "it-a1-t20",
+        "it-a1-t23",
+        "it-a1-t24",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-loro",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "loro",
+      "displayForm": "loro",
+      "gloss": "ellos / ellas; su/sus de ellos o ellas, posesivo invariable",
+      "partOfSpeech": "pronoun",
+      "forms": [
+        {
+          "key": "possessive",
+          "text": "loro",
+          "features": {
+            "use": "possessive"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "pronoun",
+        "C03",
+        "C04",
+        "C05",
+        "C20",
+        "C23",
+        "C26",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c20-04",
+        "it-a1-c23-01",
+        "it-a1-c23-02",
+        "it-a1-c26-01",
+        "it-a1-c28-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t20",
+        "it-a1-t23",
+        "it-a1-t26",
+        "it-a1-t28"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación de usos C18–C25; candidate, revisión pendiente."
+    },
+    {
+      "id": "it-qui",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "qui",
+      "displayForm": "qui",
+      "gloss": "aquí",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C03",
+        "C04",
+        "C06",
+        "C15",
+        "C16",
+        "C19",
+        "C23",
+        "C24"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c04-04",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c15-02",
+        "it-a1-c16-04",
+        "it-a1-c19-02",
+        "it-a1-c23-02",
+        "it-a1-c24-01",
+        "it-a1-c24-02"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t23",
+        "it-a1-t24"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-roma",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "Roma",
+      "displayForm": "Roma",
+      "gloss": "Roma",
+      "partOfSpeech": "proper-noun",
+      "forms": [],
+      "tags": [
+        "proper-noun",
+        "C04",
+        "C06",
+        "C14",
+        "C16",
+        "C17",
+        "C18",
+        "C20",
+        "C21",
+        "C23",
+        "C29",
+        "C32"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-03",
+        "it-a1-c04-04",
+        "it-a1-c06-03",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c16-02",
+        "it-a1-c16-04",
+        "it-a1-c17-03",
+        "it-a1-c18-02",
+        "it-a1-c20-01",
+        "it-a1-c20-02",
+        "it-a1-c20-03",
+        "it-a1-c21-02",
+        "it-a1-c23-02",
+        "it-a1-c29-03",
+        "it-a1-c32-03"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t14",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t23",
+        "it-a1-t29",
+        "it-a1-t32"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-leggere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "leggere",
+      "displayForm": "leggere",
+      "gloss": "leer",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "leggo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "leggi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "legge",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "leggiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "leggete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "leggono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C15",
+        "C17",
+        "C20",
+        "C22",
+        "C23",
+        "C25",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-01",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c17-03",
+        "it-a1-c20-05",
+        "it-a1-c22-03",
+        "it-a1-c23-01",
+        "it-a1-c25-01",
+        "it-a1-c25-02",
+        "it-a1-c28-02",
+        "it-a1-c29-04",
+        "it-a1-c30-02",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t23",
+        "it-a1-t25",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-libro",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "libro",
+      "displayForm": "libro",
+      "gloss": "libro",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "libri",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C15",
+        "C16",
+        "C17",
+        "C19",
+        "C20",
+        "C21",
+        "C23",
+        "C24",
+        "C25",
+        "C27",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-01",
+        "it-a1-c16-05",
+        "it-a1-c17-01",
+        "it-a1-c19-02",
+        "it-a1-c20-01",
+        "it-a1-c20-02",
+        "it-a1-c20-05",
+        "it-a1-c21-01",
+        "it-a1-c21-02",
+        "it-a1-c23-01",
+        "it-a1-c24-01",
+        "it-a1-c24-02",
+        "it-a1-c25-02",
+        "it-a1-c27-02",
+        "it-a1-c27-03",
+        "it-a1-c28-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c30-01",
+        "it-a1-c30-02",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c34-04"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t23",
+        "it-a1-t24",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-padre",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "padre",
+      "displayForm": "padre",
+      "gloss": "padre",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "padri",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C23",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c23-02",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t23",
+        "it-a1-t34"
+      ],
+      "examples": [
+        {
+          "target": "Mio padre è qui.",
+          "support": "Mi padre está aquí."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-madre",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "madre",
+      "displayForm": "madre",
+      "gloss": "madre",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "madri",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C23",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c23-02",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t23",
+        "it-a1-t34"
+      ],
+      "examples": [
+        {
+          "target": "La loro madre è di Roma.",
+          "support": "Su madre es de Roma (de ellos)."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-fratello",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "fratello",
+      "displayForm": "fratello",
+      "gloss": "hermano",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "fratelli",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C23",
+        "C26",
+        "C29",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c23-02",
+        "it-a1-c26-01",
+        "it-a1-c29-01",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t23",
+        "it-a1-t26",
+        "it-a1-t29",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-sorella",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "sorella",
+      "displayForm": "sorella",
+      "gloss": "hermana",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "sorelle",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C23",
+        "C26",
+        "C29",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c23-02",
+        "it-a1-c26-01",
+        "it-a1-c29-01",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t23",
+        "it-a1-t26",
+        "it-a1-t29",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-sorellina",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "sorellina",
+      "displayForm": "sorellina",
+      "gloss": "hermanita",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "sorelline",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C23"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c23-02"
+      ],
+      "topicIds": [
+        "it-a1-t23"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-caro",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "caro",
+      "displayForm": "caro",
+      "gloss": "querido ante nombre familiar; caro/costoso al hablar del precio",
+      "partOfSpeech": "adjective",
+      "forms": [],
+      "tags": [
+        "adjective",
+        "C23",
+        "C29"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c23-02",
+        "it-a1-c29-02"
+      ],
+      "topicIds": [
+        "it-a1-t23",
+        "it-a1-t29"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-mio",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "mio",
+      "displayForm": "mio",
+      "gloss": "mi / mis",
+      "partOfSpeech": "determiner",
+      "forms": [
+        {
+          "key": "0",
+          "text": "mio",
+          "features": {},
+          "irregular": false
+        },
+        {
+          "key": "1",
+          "text": "mia",
+          "features": {},
+          "irregular": false
+        },
+        {
+          "key": "2",
+          "text": "miei",
+          "features": {},
+          "irregular": false
+        },
+        {
+          "key": "3",
+          "text": "mie",
+          "features": {},
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "determiner",
+        "C23"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c23-01",
+        "it-a1-c23-02"
+      ],
+      "topicIds": [
+        "it-a1-t23"
+      ],
+      "examples": [
+        {
+          "target": "Mio padre è qui.",
+          "support": "Mi padre está aquí."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-tuo",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "tuo",
+      "displayForm": "tuo",
+      "gloss": "tu / tus",
+      "partOfSpeech": "determiner",
+      "forms": [
+        {
+          "key": "0",
+          "text": "tuo",
+          "features": {},
+          "irregular": false
+        },
+        {
+          "key": "1",
+          "text": "tua",
+          "features": {},
+          "irregular": false
+        },
+        {
+          "key": "2",
+          "text": "tuoi",
+          "features": {},
+          "irregular": false
+        },
+        {
+          "key": "3",
+          "text": "tue",
+          "features": {},
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "determiner",
+        "C23"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c23-01",
+        "it-a1-c23-02"
+      ],
+      "topicIds": [
+        "it-a1-t23"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-suo",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "suo",
+      "displayForm": "suo",
+      "gloss": "su / sus; de él, ella o usted",
+      "partOfSpeech": "determiner",
+      "forms": [
+        {
+          "key": "0",
+          "text": "suo",
+          "features": {},
+          "irregular": false
+        },
+        {
+          "key": "1",
+          "text": "sua",
+          "features": {},
+          "irregular": false
+        },
+        {
+          "key": "2",
+          "text": "suoi",
+          "features": {},
+          "irregular": false
+        },
+        {
+          "key": "3",
+          "text": "sue",
+          "features": {},
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "determiner",
+        "C23"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c23-01",
+        "it-a1-c23-02"
+      ],
+      "topicIds": [
+        "it-a1-t23"
+      ],
+      "examples": [
+        {
+          "target": "Anna legge il suo libro.",
+          "support": "Anna lee su libro."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-nostro",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "nostro",
+      "displayForm": "nostro",
+      "gloss": "nuestro",
+      "partOfSpeech": "determiner",
+      "forms": [
+        {
+          "key": "0",
+          "text": "nostro",
+          "features": {},
+          "irregular": false
+        },
+        {
+          "key": "1",
+          "text": "nostra",
+          "features": {},
+          "irregular": false
+        },
+        {
+          "key": "2",
+          "text": "nostri",
+          "features": {},
+          "irregular": false
+        },
+        {
+          "key": "3",
+          "text": "nostre",
+          "features": {},
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "determiner",
+        "C23"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c23-01",
+        "it-a1-c23-02"
+      ],
+      "topicIds": [
+        "it-a1-t23"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-vostro",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "vostro",
+      "displayForm": "vostro",
+      "gloss": "vuestro",
+      "partOfSpeech": "determiner",
+      "forms": [
+        {
+          "key": "0",
+          "text": "vostro",
+          "features": {},
+          "irregular": false
+        },
+        {
+          "key": "1",
+          "text": "vostra",
+          "features": {},
+          "irregular": false
+        },
+        {
+          "key": "2",
+          "text": "vostri",
+          "features": {},
+          "irregular": false
+        },
+        {
+          "key": "3",
+          "text": "vostre",
+          "features": {},
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "determiner",
+        "C23"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c23-01"
+      ],
+      "topicIds": [
+        "it-a1-t23"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    }
+  ],
+  "relations": [
+    {
+      "to": "it-a1-c12-01",
+      "type": "prerequisite",
+      "reason": "El grupo posesivo integra artículo y concordancia.",
+      "from": "it-a1-c23-01",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c23-01",
+      "type": "prerequisite",
+      "reason": "La familia modifica la regla general del posesivo.",
+      "from": "it-a1-c23-02",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c23-01",
+      "type": "contrast",
+      "reason": "Artículo general frente a singular familiar y sus excepciones.",
+      "from": "it-a1-c23-02"
+    },
+    {
+      "to": "it-a1-c23-02",
+      "type": "reinforces",
+      "reason": "Parentescos se usan con posesivos.",
+      "from": "it-a1-c34-01"
+    }
+  ]
+}

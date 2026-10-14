@@ -63,13 +63,16 @@ export const c27: Lesson[] = [
       {
         key: 'pane',
         format: 'cloze',
-        prompt: 'Vorrei un po’ ___ pane.',
+        prompt:
+          'Completa con una preposizione semplice: Vorrei un po’ ___ pane.',
         accepted: ['di'],
-        rejected: ['del'],
+        rejected: ['da'],
         hint: 'La construcción de cantidad es un po’ di + nombre.',
-        explanation: 'La construcción de cantidad es un po’ di + nombre.',
+        explanation:
+          'La preposición simple de la fórmula de cantidad es di. Del puede aparecer si se habla de una parte de un pan identificado.',
         facets: ['construccion'],
         context: 'bar',
+        version: '2',
       },
       {
         key: 'litro',
@@ -98,7 +101,7 @@ export const c27: Lesson[] = [
         key: 'ordine',
         format: 'controlled-production',
         prompt:
-          'Chiedi pane con Vorrei + un po’ di + pane. Aggiungi per favore.',
+          'Chiedi una piccola quantità di pane. Inizia con Vorrei, usa la forma breve di poco e termina con per favore.',
         accepted: [
           "Vorrei un po' di pane, per favore",
           'Vorrei un po’ di pane, per favore',
@@ -110,6 +113,7 @@ export const c27: Lesson[] = [
         explanation: 'Po’ conserva el apóstrofo en la petición.',
         facets: ['peticion'],
         context: 'restaurante',
+        version: '2',
       },
       {
         key: 'acqua',
@@ -134,12 +138,13 @@ export const c27: Lesson[] = [
         format: 'short',
         prompt:
           'Vuoi esattamente 1 kg di mele: scrivi la quantità tutta in lettere.',
-        accepted: ['un chilo di mele'],
+        accepted: ['un chilo di mele', 'un chilogrammo di mele'],
         rejected: ['un litro di mele'],
         hint: 'Chilo expresa peso; litro expresa volumen.',
         explanation: 'Chilo expresa peso; litro expresa volumen.',
         facets: ['medida'],
         context: 'supermercado',
+        version: '2',
       },
       {
         key: 'ripara',

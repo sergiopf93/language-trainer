@@ -1,0 +1,14 @@
+{
+  "status": "incomplete-usage-limit",
+  "agent": "/root/italian_independent_c21_c34",
+  "priorR2ConclusionsReceived": false,
+  "verdictEmitted": false,
+  "coverageAccredited": false,
+  "lastProgressMessage": "Revisor comunicó lectura C21–C25; no entregó dictamen ni inventario formal. No acreditar esa lectura como revisión cruzada completada.",
+  "error": "You’ve hit your usage limit. Try again at 7:49 PM. (Texto del servicio; zona horaria no indicada.)",
+  "resume": "Crear revisor con fork_turns none; pasar únicamente criteria.md, manifest.json y C21.json–C34.json. Repetir lectura independiente íntegra del paquete: 38 Theory y 291 actividades. No mostrar informes, diff o registro inicial hasta que emita dictamen.",
+  "packetsHashVerified": true,
+  "reviewedConcepts": 61,
+  "candidateConcepts": 38,
+  "publishedConcepts": 0
+}

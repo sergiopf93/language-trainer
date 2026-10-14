@@ -268,13 +268,14 @@ export const c23: Lesson[] = [
         key: 'loro',
         format: 'controlled-production',
         prompt:
-          'Anna e Luca hanno lo stesso padre (el mismo padre). Scrivi articolo + loro + padre.',
+          'Anna e Luca hanno lo stesso padre. Indicalo con articolo + possessivo riferito a loro + padre.',
         accepted: ['Il loro padre'],
         rejected: ['Loro padre'],
         hint: 'Loro conserva el artículo también en singular.',
         explanation: 'Loro conserva el artículo también en singular.',
         facets: ['loro'],
         context: 'familia',
+        version: '2',
       },
       {
         key: 'sorellina',
@@ -290,13 +291,16 @@ export const c23: Lesson[] = [
       {
         key: 'cara',
         format: 'error-correction',
-        prompt: 'Aggiungi l’articolo: «mia cara madre».',
+        prompt:
+          'Parli di tua madre, non ti rivolgi a lei. Aggiungi l’articolo al soggetto: «Mia cara madre è qui». Scrivi solo il gruppo del soggetto.',
         accepted: ['la mia cara madre'],
         rejected: ['mia cara madre'],
         hint: 'El calificativo cara hace que el grupo lleve artículo.',
-        explanation: 'El calificativo cara hace que el grupo lleve artículo.',
+        explanation:
+          'En el sujeto de esta frase el calificativo lleva al uso de la mia cara madre. El vocativo Mia cara madre tiene otro uso.',
         facets: ['modificador'],
         context: 'familia',
+        version: '2',
       },
       {
         key: 'sorelle',

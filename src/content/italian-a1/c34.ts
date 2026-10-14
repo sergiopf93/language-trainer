@@ -93,13 +93,16 @@ export const c34: Lesson[] = [
       {
         key: 'nazionalita',
         format: 'cloze',
-        prompt: 'Marco è di Madrid: è ___ (nazionalità, maschile).',
+        prompt:
+          'Marco ha nazionalità spagnola. Scrivi in italiano l’aggettivo maschile per «español»: è ___.',
         accepted: ['spagnolo'],
         rejected: ['italiano'],
-        hint: 'Madrid está en España; la nacionalidad es spagnolo.',
-        explanation: 'Madrid está en España; la nacionalidad es spagnolo.',
+        hint: 'El dato dado es la nacionalidad española; usa el masculino singular.',
+        explanation:
+          'La nacionalidad está indicada explícitamente; el adjetivo masculino es spagnolo.',
         facets: ['nacionalidad'],
         context: 'presentacion',
+        version: '2',
       },
       {
         key: 'professione',
@@ -235,12 +238,13 @@ export const c34: Lesson[] = [
         key: 'camera',
         format: 'short',
         prompt: 'Traduci con articolo: «la habitación».',
-        accepted: ['la camera'],
+        accepted: ['la camera', 'la stanza'],
         rejected: ['la casa'],
         hint: 'Camera es una habitación; casa es la vivienda.',
         explanation: 'Camera es una habitación; casa es la vivienda.',
         facets: ['espacio'],
         context: 'hotel',
+        version: '2',
       },
       {
         key: 'bagno',
@@ -278,13 +282,15 @@ export const c34: Lesson[] = [
       {
         key: 'tavolo',
         format: 'translation',
-        prompt: 'Traduci con articolo: «la mesa».',
+        prompt:
+          'Traduci con articolo «la mesa» usando il nome maschile del repertorio.',
         accepted: ['il tavolo'],
         rejected: ['la sedia'],
         hint: 'Tavolo es masculino en italiano.',
         explanation: 'Tavolo es masculino en italiano.',
         facets: ['mueble'],
         context: 'vivienda',
+        version: '2',
       },
       {
         key: 'sedia',
@@ -442,13 +448,15 @@ export const c34: Lesson[] = [
       {
         key: 'pasta',
         format: 'translation',
-        prompt: 'Traduci «un plato de pasta» usando piatto.',
+        prompt:
+          'Traduci «un plato de pasta». Usa il nome italiano del recipiente e la costruzione con di.',
         accepted: ['un piatto di pasta'],
         rejected: ['un piatto di riso'],
         hint: 'Se recupera pasta en un pedido.',
         explanation: 'Se recupera pasta en un pedido.',
         facets: ['plato'],
         context: 'restaurante',
+        version: '2',
       },
       {
         key: 'formaggio',
@@ -792,13 +800,15 @@ export const c34: Lesson[] = [
       {
         key: 'pausa',
         format: 'cloze',
-        prompt: 'Ho lavorato molto: faccio una ___ (pausa).',
+        prompt:
+          'Ho lavorato molto: interrompo brevemente l’attività e faccio una ___.',
         accepted: ['pausa'],
         rejected: ['colazione'],
         hint: 'Pausa es una interrupción breve.',
         explanation: 'Pausa es una interrupción breve.',
         facets: ['rutina'],
         context: 'trabajo',
+        version: '2',
       },
       {
         key: 'colazione',
@@ -885,6 +895,7 @@ export const c34: Lesson[] = [
   },
   {
     code: '34-06',
+    theoryRevision: 'editorial-1',
     title: 'In città e in viaggio',
     objective:
       'Recuperar lugares, transporte, billete, salida y llegada del repertorio para desplazamientos breves.',
@@ -894,7 +905,7 @@ export const c34: Lesson[] = [
       'La stazione es la estación; il treno y l’autobus son medios de transporte. Autobus es invariable en plural.',
       'Il biglietto es el billete; en transporte no se traduce aquí como banconota.',
       'Partenza es salida de un trayecto; arrivo es llegada. En horarios, identifica primero cuál de los dos datos necesitas.',
-      'Albergo y hotel nombran alojamientos. En el repertorio: in hotel / in albergo; al centro para destino y in centro para ubicación.',
+      'Albergo y hotel nombran alojamientos. In centro puede indicar ubicación o destino: sono in centro, vado in centro. Al centro se usa también según la construcción y el referente.',
     ],
     forms: [
       [
@@ -1012,35 +1023,40 @@ export const c34: Lesson[] = [
       {
         key: 'arrivo',
         format: 'cloze',
-        prompt: 'Partenza 7:00, arrivo 8:00. Alle otto c’è l’___.',
+        prompt:
+          'Il treno parte alle 7:00 e raggiunge la destinazione alle 8:00. Alle otto c’è l’___. Scrivi il nome dell’evento.',
         accepted: ['arrivo'],
         rejected: ['partenza'],
         hint: 'La llegada corresponde a las ocho.',
         explanation: 'La llegada corresponde a las ocho.',
         facets: ['horario'],
         context: 'transporte',
+        version: '2',
       },
       {
         key: 'albergo',
         format: 'translation',
-        prompt: 'Traduci «un hotel» usando albergo.',
+        prompt: 'Traduci «un hotel» usando il nome italiano che inizia per a.',
         accepted: ['un albergo'],
         rejected: ['una stazione'],
         hint: 'Albergo designa el alojamiento.',
         explanation: 'Albergo designa el alojamiento.',
         facets: ['alojamiento'],
         context: 'hotel',
+        version: '2',
       },
       {
         key: 'centro',
         format: 'cloze',
-        prompt: 'La piazza principale è in ___ (centro).',
+        prompt:
+          'La piazza principale è nella zona centrale della città: è in ___.',
         accepted: ['centro'],
         rejected: ['stazione'],
         hint: 'In centro sitúa en la parte central de la ciudad.',
         explanation: 'In centro sitúa en la parte central de la ciudad.',
         facets: ['lugar'],
         context: 'ciudad',
+        version: '2',
       },
       {
         key: 'citta',
@@ -1068,12 +1084,13 @@ export const c34: Lesson[] = [
         key: 'andare',
         format: 'translation',
         prompt: 'Traduci «ir a la estación».',
-        accepted: ['andare alla stazione'],
+        accepted: ['andare alla stazione', 'andare in stazione'],
         rejected: ['arrivare alla stazione'],
         hint: 'Andare expresa ir; arrivare, llegar.',
         explanation: 'Andare expresa ir; arrivare, llegar.',
         facets: ['desplazamiento'],
         context: 'ciudad',
+        version: '2',
       },
     ],
   },
@@ -1181,13 +1198,15 @@ export const c34: Lesson[] = [
       {
         key: 'appuntamento',
         format: 'translation',
-        prompt: 'Traduci «Quisiera una cita» usando appuntamento.',
+        prompt:
+          'Traduci «Quisiera una cita» (un incontro concordato). Usa vorrei.',
         accepted: ['Vorrei un appuntamento', 'Vorrei un appuntamento.'],
         rejected: ['Vorrei un messaggio'],
         hint: 'Appuntamento es una cita acordada.',
         explanation: 'Appuntamento es una cita acordada.',
         facets: ['cita'],
         context: 'medico',
+        version: '2',
       },
       {
         key: 'medico',
@@ -1268,7 +1287,7 @@ export const c34: Lesson[] = [
         key: 'cita-medico',
         format: 'controlled-production',
         prompt:
-          'Chiedi una cita con el médico: usa Vorrei + un appuntamento + con il medico.',
+          'Chiedi cortesemente «Quisiera una cita con el médico». Usa vorrei e traduci il resto in italiano.',
         accepted: [
           'Vorrei un appuntamento con il medico',
           'Vorrei un appuntamento con il medico.',
@@ -1278,6 +1297,7 @@ export const c34: Lesson[] = [
         explanation: 'La persona solicitada es il medico.',
         facets: ['cita'],
         context: 'medico',
+        version: '2',
       },
     ],
   },

@@ -2,6 +2,14 @@
 
 Actualizado: 2026-10-14. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
 
+## Fase 5B.4 pausada por límite de uso — C21–C34 (2026-10-14)
+
+Primera lectura de R2 completada: 38 conceptos/Theory, 346 actividades, 226 entradas vinculadas y 85 relaciones incidentes. Cambios provisionales: una Theory, 46 actividades y cuatro listas accepted. **Sin dictamen independiente ni recibos nuevos; 61 reviewed, 38 candidate, 0 published. No cerrar A1.**
+
+Revisor aislado `/root/italian_independent_c21_c34` terminó por límite de uso antes de emitir dictamen. Se guardan 14 paquetes inmutables con hashes (38 Theory y 291 actividades; 55 excluidas de la muestra), criterios y `resume.json` en `docs/product/editorial-cross-review-c21-c34/`. Reanudar con un nuevo revisor `fork_turns: none`, pasando solo esos paquetes/criterios; no transmitir conclusiones R2 hasta el dictamen. No acreditar el mensaje parcial de avance como cobertura independiente.
+
+[Informe de avance y pasos pendientes](../product/A1_EDITORIAL_REVIEW_C21_C34.md), incluyendo observaciones de R2 aún no corregidas y validaciones. Rama `feat/editorial-review-c21-c34`, baseline `164bdc7`; sin merge/push/publicación/despliegue. Detención exigida expresamente por el usuario ante límite de uso del revisor; no continuar ni promover estados automáticamente.
+
 ## Fase 5B.3 cerrada — C11–C20 (2026-10-14)
 
 Revisión integral de 32 conceptos/Theory, 292 actividades, 144 entradas léxicas y 102 relaciones incidentes. Cambios: 3 Theory, 75 actividades, 27 listas accepted; sin cambios de vocabulario ni grafo. 32 conceptos pasan a reviewed tras revisión cruzada aislada y resolución satisfactoria. Revisor independiente: 32 Theory y 209 actividades únicas, todas las modificadas; 83 actividades tienen solo la lectura integral de R2. Dictamen ciego y seguimiento conservados con hashes.

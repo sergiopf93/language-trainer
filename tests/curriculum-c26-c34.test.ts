@@ -112,7 +112,7 @@ describe('C26–C34: final A1 candidate curriculum', () => {
       for (const a of items) {
         expect(a.status).toBe('candidate');
         expect(a.version).toBe(
-          lesson.items.find((i) => a.id.endsWith('-' + i.key))?.version ?? '1',
+          lesson.items.find((i) => a.id === id + '-' + i.key)?.version ?? '1',
         );
         expect(a.criterion.version).toBe(a.version);
         expect(a.trace?.kind).toBe('canonical');

@@ -1,0 +1,1380 @@
+{
+  "concepts": [
+    {
+      "id": "it-a1-c33-01",
+      "version": "1",
+      "topicId": "it-a1-t33",
+      "title": "Arrivato, arrivata, arrivati, arrivate",
+      "objective": "Concordar el participio con género y número del sujeto cuando el auxiliar es essere.",
+      "scope": "Concordar el participio con género y número del sujeto cuando el auxiliar es essere.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "retrieval",
+        "contextual-use"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C33; A1_COVERAGE_MATRIX C33. Alcance A1; ejemplos originales candidate.",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "femenino-singular",
+        "masculino-singular",
+        "femenino-plural",
+        "masculino-plural",
+        "referente",
+        "contraste"
+      ],
+      "compatibleFamilies": [
+        "F2",
+        "F4",
+        "F3"
+      ],
+      "coverage": "complete"
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c33-01",
+      "version": "theory-c33-01-1",
+      "conceptId": "it-a1-c33-01",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Arrivato, arrivata, arrivati, arrivate",
+      "goal": "Concordar el participio con género y número del sujeto cuando el auxiliar es essere.",
+      "introduction": "Con essere el participio concuerda con quien realiza la acción. El referente puede estar escrito o quedar claro por el contexto.",
+      "rules": [
+        "Masculino singular -o: Marco è arrivato; femenino singular -a: Anna è arrivata.",
+        "Masculino plural o grupo mixto -i: Marco e Anna sono arrivati; grupo femenino -e: Anna e Eva sono arrivate.",
+        "La persona se expresa en el auxiliar; género y número, en el participio: siamo arrivate si hablan varias mujeres.",
+        "En el alcance con avere sin clíticos antepuestos, no se hace esta concordancia con el sujeto: Anna ha lavorato."
+      ],
+      "forms": [
+        [
+          "Marco",
+          "è arrivato"
+        ],
+        [
+          "Anna",
+          "è arrivata"
+        ],
+        [
+          "Marco e Luca / Marco e Anna",
+          "sono arrivati"
+        ],
+        [
+          "Anna e Eva",
+          "sono arrivate"
+        ]
+      ],
+      "examples": [
+        [
+          "Anna è partita ieri.",
+          "Anna se fue ayer."
+        ],
+        [
+          "Siamo arrivate in hotel.",
+          "Hemos llegado al hotel (hablan mujeres)."
+        ],
+        [
+          "Luca e Anna sono usciti.",
+          "Luca y Anna salieron."
+        ]
+      ],
+      "frequentErrors": [
+        "No escribas Anna è arrivato ni le ragazze sono arrivati.",
+        "No extiendas la regla a Anna ha lavorata: con avere en este alcance es lavorato."
+      ],
+      "usageNotes": [
+        "Los sujetos y su género están fijados en las consignas. Las reglas de concordancia con clíticos quedan fuera."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-essere",
+        "it-arrivare",
+        "it-partire",
+        "it-uscire",
+        "it-andare",
+        "it-venire",
+        "it-lavorare",
+        "it-hotel",
+        "it-ieri"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C33; A1_COVERAGE_MATRIX C33. Alcance A1; ejemplos originales candidate."
+    }
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c33-01-anna",
+      "version": "1",
+      "conceptId": "it-a1-c33-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Anna è ___ in hotel (arrivare).",
+      "options": [],
+      "hint": "Anna es femenino singular.",
+      "explanation": "Anna es femenino singular.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "hotel",
+        "facets": [
+          "femenino-singular"
+        ],
+        "opportunityId": "it-a1-c33-01-anna:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "arrivata"
+        ],
+        "rejected": [
+          "arrivato"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C33; A1_COVERAGE_MATRIX C33. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c33-01-anna",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c33-01-marco",
+      "version": "1",
+      "conceptId": "it-a1-c33-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Marco è ___ ieri (partire).",
+      "options": [],
+      "hint": "Marco es masculino singular.",
+      "explanation": "Marco es masculino singular.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "viaje",
+        "facets": [
+          "masculino-singular"
+        ],
+        "opportunityId": "it-a1-c33-01-marco:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "partito"
+        ],
+        "rejected": [
+          "partita"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C33; A1_COVERAGE_MATRIX C33. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c33-01-marco",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c33-01-donne",
+      "version": "1",
+      "conceptId": "it-a1-c33-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Anna e Eva sono ___ (uscire).",
+      "options": [],
+      "hint": "El grupo está formado por dos mujeres.",
+      "explanation": "El grupo está formado por dos mujeres.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "ocio",
+        "facets": [
+          "femenino-plural"
+        ],
+        "opportunityId": "it-a1-c33-01-donne:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "uscite"
+        ],
+        "rejected": [
+          "usciti"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C33; A1_COVERAGE_MATRIX C33. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c33-01-donne",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c33-01-misto",
+      "version": "1",
+      "conceptId": "it-a1-c33-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Anna e Luca sono ___ a Roma (andare).",
+      "options": [],
+      "hint": "Un grupo mixto lleva masculino plural.",
+      "explanation": "Un grupo mixto lleva masculino plural.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "viaje",
+        "facets": [
+          "masculino-plural"
+        ],
+        "opportunityId": "it-a1-c33-01-misto:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "andati"
+        ],
+        "rejected": [
+          "andate"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C33; A1_COVERAGE_MATRIX C33. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c33-01-misto",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c33-01-noi",
+      "version": "1",
+      "conceptId": "it-a1-c33-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Parlano Anna e Eva. Scrivi: siamo + arrivare al participio concordato + in hotel.",
+      "options": [],
+      "hint": "Noi se refiere aquí a dos mujeres.",
+      "explanation": "Noi se refiere aquí a dos mujeres.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "hotel",
+        "facets": [
+          "referente"
+        ],
+        "opportunityId": "it-a1-c33-01-noi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Siamo arrivate in hotel",
+          "Siamo arrivate in hotel."
+        ],
+        "rejected": [
+          "Siamo arrivati in hotel"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C33; A1_COVERAGE_MATRIX C33. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c33-01-noi",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c33-01-tu",
+      "version": "1",
+      "conceptId": "it-a1-c33-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Parli a Marco: «Sei ___ qui ieri?» (venire).",
+      "options": [],
+      "hint": "El destinatario Marco fija masculino singular.",
+      "explanation": "El destinatario Marco fija masculino singular.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "conversacion",
+        "facets": [
+          "referente"
+        ],
+        "opportunityId": "it-a1-c33-01-tu:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "venuto"
+        ],
+        "rejected": [
+          "venuta"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C33; A1_COVERAGE_MATRIX C33. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c33-01-tu",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c33-01-voi",
+      "version": "1",
+      "conceptId": "it-a1-c33-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Parli a Anna e Eva: «Siete ___?» (partire).",
+      "options": [],
+      "hint": "Voi se refiere aquí a dos mujeres.",
+      "explanation": "Voi se refiere aquí a dos mujeres.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "transporte",
+        "facets": [
+          "femenino-plural"
+        ],
+        "opportunityId": "it-a1-c33-01-voi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "partite"
+        ],
+        "rejected": [
+          "partiti"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C33; A1_COVERAGE_MATRIX C33. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c33-01-voi",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c33-01-plurale",
+      "version": "1",
+      "conceptId": "it-a1-c33-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Passa da Anna a Anna e Eva: «Anna è arrivata».",
+      "options": [],
+      "hint": "Cambian auxiliar y terminación plural.",
+      "explanation": "Cambian auxiliar y terminación plural.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "familia",
+        "facets": [
+          "femenino-plural"
+        ],
+        "opportunityId": "it-a1-c33-01-plurale:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Anna e Eva sono arrivate",
+          "Anna e Eva sono arrivate."
+        ],
+        "rejected": [
+          "Anna e Eva è arrivata"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C33; A1_COVERAGE_MATRIX C33. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c33-01-plurale",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c33-01-avere",
+      "version": "1",
+      "conceptId": "it-a1-c33-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Correggi solo il participio: «Anna ha lavorata».",
+      "options": [],
+      "hint": "Con avere en esta construcción no concuerda con Anna.",
+      "explanation": "Con avere en esta construcción no concuerda con Anna.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "trabajo",
+        "facets": [
+          "contraste"
+        ],
+        "opportunityId": "it-a1-c33-01-avere:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "lavorato"
+        ],
+        "rejected": [
+          "lavorata"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C33; A1_COVERAGE_MATRIX C33. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c33-01-avere",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c33-01-traduci",
+      "version": "1",
+      "conceptId": "it-a1-c33-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci: «Marco y Luca han llegado».",
+      "options": [],
+      "hint": "El grupo masculino plural usa arrivati.",
+      "explanation": "El grupo masculino plural usa arrivati.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "viaje",
+        "facets": [
+          "masculino-plural"
+        ],
+        "opportunityId": "it-a1-c33-01-traduci:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Marco e Luca sono arrivati",
+          "Marco e Luca sono arrivati."
+        ],
+        "rejected": [
+          "Marco e Luca sono arrivate"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C33; A1_COVERAGE_MATRIX C33. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c33-01-traduci",
+        "sourceVersion": "1"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "it-essere",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "essere",
+      "displayForm": "essere",
+      "gloss": "ser / estar (según construcción)",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "sono",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "sei",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "è",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "siamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "siete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "sono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "identidad",
+        "C03",
+        "C04",
+        "C06",
+        "C11",
+        "C16",
+        "C18",
+        "C19",
+        "C20",
+        "C29",
+        "C31",
+        "C32",
+        "C33"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c04-02",
+        "it-a1-c04-03",
+        "it-a1-c04-04",
+        "it-a1-c04-05",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c06-03",
+        "it-a1-c11-01",
+        "it-a1-c16-03",
+        "it-a1-c18-02",
+        "it-a1-c19-01",
+        "it-a1-c19-02",
+        "it-a1-c20-01",
+        "it-a1-c29-01",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c33-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t11",
+        "it-a1-t16",
+        "it-a1-t18",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t33"
+      ],
+      "examples": [
+        {
+          "target": "Io sono Ana.",
+          "support": "Yo soy Ana."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidato creado por R2 para validación técnica; sin revisión editorial independiente. Fuentes de alcance: Research 02 C03/C04 y A1_COVERAGE_MATRIX C03-01/C04-01."
+    },
+    {
+      "id": "it-hotel",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "hotel",
+      "displayForm": "hotel",
+      "gloss": "hotel",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "hotel",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "noun",
+        "C04",
+        "C08",
+        "C14",
+        "C15",
+        "C16",
+        "C19",
+        "C20",
+        "C21",
+        "C29",
+        "C33",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-04",
+        "it-a1-c08-02",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c15-02",
+        "it-a1-c16-01",
+        "it-a1-c16-02",
+        "it-a1-c16-04",
+        "it-a1-c16-06",
+        "it-a1-c19-01",
+        "it-a1-c20-02",
+        "it-a1-c21-02",
+        "it-a1-c29-04",
+        "it-a1-c33-01",
+        "it-a1-c34-02",
+        "it-a1-c34-06"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t08",
+        "it-a1-t14",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t29",
+        "it-a1-t33",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación C08: plural canónico del repertorio; candidate."
+    },
+    {
+      "id": "it-lavorare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "lavorare",
+      "displayForm": "lavorare",
+      "gloss": "trabajar",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "lavoro",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "lavori",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "lavora",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "lavoriamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "lavorate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "lavorano",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C14",
+        "C17",
+        "C20",
+        "C21",
+        "C22",
+        "C25",
+        "C27",
+        "C29",
+        "C31",
+        "C32",
+        "C33",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c17-03",
+        "it-a1-c20-02",
+        "it-a1-c20-06",
+        "it-a1-c21-02",
+        "it-a1-c22-01",
+        "it-a1-c25-01",
+        "it-a1-c27-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c29-03",
+        "it-a1-c29-04",
+        "it-a1-c31-01",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c32-03",
+        "it-a1-c33-01",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t14",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t22",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t33",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-andare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "andare",
+      "displayForm": "andare",
+      "gloss": "ir hacia un destino",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "vado",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "vai",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "va",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "andiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "andate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "vanno",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C16",
+        "C17",
+        "C20",
+        "C21",
+        "C26",
+        "C28",
+        "C30",
+        "C32",
+        "C33",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c16-02",
+        "it-a1-c16-04",
+        "it-a1-c17-03",
+        "it-a1-c20-03",
+        "it-a1-c21-02",
+        "it-a1-c26-02",
+        "it-a1-c28-01",
+        "it-a1-c30-02",
+        "it-a1-c32-02",
+        "it-a1-c33-01",
+        "it-a1-c34-06"
+      ],
+      "topicIds": [
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t26",
+        "it-a1-t28",
+        "it-a1-t30",
+        "it-a1-t32",
+        "it-a1-t33",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-venire",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "venire",
+      "displayForm": "venire",
+      "gloss": "venir hacia el hablante o interlocutor en contextos explícitos",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "vengo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "vieni",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "viene",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "veniamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "venite",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "vengono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C16",
+        "C20",
+        "C22",
+        "C28",
+        "C29",
+        "C32",
+        "C33"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c16-04",
+        "it-a1-c20-01",
+        "it-a1-c20-03",
+        "it-a1-c20-06",
+        "it-a1-c22-01",
+        "it-a1-c22-02",
+        "it-a1-c22-04",
+        "it-a1-c28-01",
+        "it-a1-c29-02",
+        "it-a1-c29-03",
+        "it-a1-c32-02",
+        "it-a1-c33-01"
+      ],
+      "topicIds": [
+        "it-a1-t16",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t32",
+        "it-a1-t33"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-uscire",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "uscire",
+      "displayForm": "uscire",
+      "gloss": "salir",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "esco",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "esci",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "esce",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "usciamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "uscite",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "escono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C16",
+        "C17",
+        "C20",
+        "C22",
+        "C26",
+        "C29",
+        "C32",
+        "C33"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c16-08",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c20-04",
+        "it-a1-c22-03",
+        "it-a1-c26-02",
+        "it-a1-c29-03",
+        "it-a1-c29-04",
+        "it-a1-c32-02",
+        "it-a1-c33-01"
+      ],
+      "topicIds": [
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t26",
+        "it-a1-t29",
+        "it-a1-t32",
+        "it-a1-t33"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-arrivare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "arrivare",
+      "displayForm": "arrivare",
+      "gloss": "llegar; auxiliar essere",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "past-participle",
+          "text": "arrivato",
+          "features": {
+            "verbForm": "participle",
+            "tense": "past"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C32",
+        "C33",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c33-01",
+        "it-a1-c34-06"
+      ],
+      "topicIds": [
+        "it-a1-t32",
+        "it-a1-t33",
+        "it-a1-t34"
+      ],
+      "examples": [
+        {
+          "target": "Marco è arrivato.",
+          "support": "Marco ha llegado."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente."
+    },
+    {
+      "id": "it-ieri",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "ieri",
+      "displayForm": "ieri",
+      "gloss": "ayer",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C32",
+        "C33"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c32-01",
+        "it-a1-c32-03",
+        "it-a1-c33-01"
+      ],
+      "topicIds": [
+        "it-a1-t32",
+        "it-a1-t33"
+      ],
+      "examples": [
+        {
+          "target": "Ieri ho lavorato.",
+          "support": "Ayer trabajé."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente."
+    },
+    {
+      "id": "it-partire",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "partire",
+      "displayForm": "partire",
+      "gloss": "partir, salir de viaje; auxiliar essere",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "past-participle",
+          "text": "partito",
+          "features": {
+            "verbForm": "participle",
+            "tense": "past"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C32",
+        "C33"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c32-02",
+        "it-a1-c33-01"
+      ],
+      "topicIds": [
+        "it-a1-t32",
+        "it-a1-t33"
+      ],
+      "examples": [
+        {
+          "target": "Anna è partita ieri.",
+          "support": "Anna salió de viaje ayer."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente."
+    }
+  ],
+  "relations": [
+    {
+      "to": "it-a1-c32-02",
+      "type": "prerequisite",
+      "reason": "Se identifica primero la construcción con essere.",
+      "strength": "recommended",
+      "from": "it-a1-c33-01"
+    },
+    {
+      "to": "it-a1-c07-01",
+      "type": "prerequisite",
+      "reason": "El sujeto determina el género del participio.",
+      "strength": "recommended",
+      "from": "it-a1-c33-01"
+    },
+    {
+      "to": "it-a1-c08-01",
+      "type": "prerequisite",
+      "reason": "El sujeto determina el número del participio.",
+      "strength": "recommended",
+      "from": "it-a1-c33-01"
+    },
+    {
+      "to": "it-a1-c32-01",
+      "type": "contrast",
+      "reason": "La concordancia con essere no se extiende a avere en el alcance enseñado.",
+      "from": "it-a1-c33-01"
+    }
+  ]
+}

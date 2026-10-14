@@ -1,0 +1,4095 @@
+{
+  "concepts": [
+    {
+      "id": "it-a1-c22-01",
+      "version": "1",
+      "topicId": "it-a1-t22",
+      "title": "Giorni, mesi e date",
+      "objective": "Comprender y expresar días, meses y fechas de eventos.",
+      "scope": "Comprender y expresar días, meses y fechas de eventos.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "fecha",
+        "primero",
+        "dia",
+        "mes"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F4",
+        "F3",
+        "F7"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c22-02",
+      "version": "1",
+      "topicId": "it-a1-t22",
+      "title": "Che ore sono?",
+      "objective": "Preguntar y comunicar horas y distinguir hora actual de hora de un evento.",
+      "scope": "Preguntar y comunicar horas y distinguir hora actual de hora de un evento.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "singular",
+        "cuarto",
+        "media",
+        "evento",
+        "momento",
+        "24-horas",
+        "pregunta"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c22-03",
+      "version": "1",
+      "topicId": "it-a1-t22",
+      "title": "Quanto spesso?",
+      "objective": "Expresar frecuencia de actividades con siempre, a menudo, a veces, nunca y periodicidad.",
+      "scope": "Expresar frecuencia de actividades con siempre, a menudo, a veces, nunca y periodicidad.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use",
+        "discrimination"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "periodicidad",
+        "adverbio",
+        "negacion"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c22-04",
+      "version": "1",
+      "topicId": "it-a1-t22",
+      "title": "Fissare un appuntamento",
+      "objective": "Concertar una cita combinando fecha, hora y disponibilidad sin contradicciones.",
+      "scope": "Concertar una cita combinando fecha, hora y disponibilidad sin contradicciones.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "contextual-use",
+        "retrieval",
+        "discrimination"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "coherencia",
+        "propuesta",
+        "confirmacion",
+        "alternativa",
+        "fecha-hora"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F4",
+        "F3",
+        "F2"
+      ],
+      "coverage": "complete"
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c22-01",
+      "version": "theory-c22-01-1",
+      "conceptId": "it-a1-c22-01",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Giorni, mesi e date",
+      "goal": "Comprender y expresar días, meses y fechas de eventos.",
+      "introduction": "Los días y meses se escriben normalmente en minúscula. Se reutilizan los números aprendidos para expresar fechas.",
+      "rules": [
+        "Para una ocasión concreta: lunedì, sin artículo. Para una repetición semanal: il lunedì.",
+        "En fechas se usa il + número + mes: il due maggio. Para el día uno se usa il primo maggio.",
+        "En Italia, la fecha numérica se lee normalmente día/mes/año: 02/05 = dos de mayo. Si falta el año, no se deduce el día de la semana."
+      ],
+      "forms": [
+        [
+          "lunedì",
+          "lunes"
+        ],
+        [
+          "martedì",
+          "martes"
+        ],
+        [
+          "mercoledì",
+          "miércoles"
+        ],
+        [
+          "giovedì",
+          "jueves"
+        ],
+        [
+          "venerdì",
+          "viernes"
+        ],
+        [
+          "sabato",
+          "sábado"
+        ],
+        [
+          "domenica",
+          "domingo"
+        ],
+        [
+          "gennaio",
+          "enero"
+        ],
+        [
+          "febbraio",
+          "febrero"
+        ],
+        [
+          "marzo",
+          "marzo"
+        ],
+        [
+          "aprile",
+          "abril"
+        ],
+        [
+          "maggio",
+          "mayo"
+        ],
+        [
+          "giugno",
+          "junio"
+        ],
+        [
+          "luglio",
+          "julio"
+        ],
+        [
+          "agosto",
+          "agosto"
+        ],
+        [
+          "settembre",
+          "septiembre"
+        ],
+        [
+          "ottobre",
+          "octubre"
+        ],
+        [
+          "novembre",
+          "noviembre"
+        ],
+        [
+          "dicembre",
+          "diciembre"
+        ],
+        [
+          "il primo maggio",
+          "el uno de mayo"
+        ],
+        [
+          "il due maggio",
+          "el dos de mayo"
+        ]
+      ],
+      "examples": [
+        [
+          "Vengo lunedì.",
+          "Voy el lunes, en esa ocasión."
+        ],
+        [
+          "Lavoro il lunedì.",
+          "Trabajo los lunes."
+        ],
+        [
+          "Vengo il due maggio.",
+          "Voy el dos de mayo."
+        ]
+      ],
+      "frequentErrors": [
+        "No confundas 02/05 con el cinco de febrero en formato italiano.",
+        "Los días de lunes a viernes terminan en ì acentuada."
+      ],
+      "usageNotes": [
+        "No se exige calcular calendarios; solo interpretar fechas y expresiones."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-lunedi",
+        "it-martedi",
+        "it-mercoledi",
+        "it-giovedi",
+        "it-venerdi",
+        "it-sabato",
+        "it-domenica",
+        "it-gennaio",
+        "it-febbraio",
+        "it-marzo",
+        "it-aprile",
+        "it-maggio",
+        "it-giugno",
+        "it-luglio",
+        "it-agosto",
+        "it-settembre",
+        "it-ottobre",
+        "it-novembre",
+        "it-dicembre",
+        "it-primo",
+        "it-due",
+        "it-venire",
+        "it-lavorare"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22."
+    },
+    {
+      "id": "it-a1-theory-c22-02",
+      "version": "theory-c22-02-1",
+      "conceptId": "it-a1-c22-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Che ore sono?",
+      "goal": "Preguntar y comunicar horas y distinguir hora actual de hora de un evento.",
+      "introduction": "La hora actual se expresa con essere. Para decir a qué hora ocurre algo se usa a, que normalmente se une al artículo.",
+      "rules": [
+        "Pregunta che ore sono? o che ora è? Responde è l’una para la una; sono le due/tre… para las demás.",
+        "Usa e un quarto, e mezza/e mezzo, meno un quarto: le tre e un quarto = 3:15; le quattro meno un quarto = 3:45.",
+        "Para un evento: all’una, alle due. A mezzogiorno y a mezzanotte no llevan artículo.",
+        "Los horarios pueden usar 24 horas: alle diciotto equivale a las seis de la tarde."
+      ],
+      "forms": [
+        [
+          "è l’una / sono le due",
+          "es la una / son las dos"
+        ],
+        [
+          "alle tre e mezza / alle tre e mezzo",
+          "a las tres y media"
+        ],
+        [
+          "alle quattro meno un quarto",
+          "a las cuatro menos cuarto"
+        ],
+        [
+          "a mezzogiorno / a mezzanotte",
+          "al mediodía / a medianoche"
+        ]
+      ],
+      "examples": [
+        [
+          "Sono le tre e un quarto.",
+          "Son las tres y cuarto."
+        ],
+        [
+          "Vengo alle diciotto.",
+          "Voy a las dieciocho."
+        ]
+      ],
+      "frequentErrors": [
+        "No uses sono le una: è l’una.",
+        "Distingue sono le due de vengo alle due."
+      ],
+      "usageNotes": [
+        "E mezza y e mezzo se aceptan; se especifica el formato cuando la respuesta debe estar en palabras."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-ora",
+        "it-uno",
+        "it-due",
+        "it-tre",
+        "it-quattro",
+        "it-diciotto",
+        "it-quarto",
+        "it-mezza",
+        "it-mezzogiorno",
+        "it-mezzanotte",
+        "it-venire"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22."
+    },
+    {
+      "id": "it-a1-theory-c22-03",
+      "version": "theory-c22-03-1",
+      "conceptId": "it-a1-c22-03",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Quanto spesso?",
+      "goal": "Expresar frecuencia de actividades con siempre, a menudo, a veces, nunca y periodicidad.",
+      "introduction": "La frecuencia indica cuántas veces ocurre una actividad. No se confunde con cuánto dura o a qué hora empieza.",
+      "rules": [
+        "Repertorio: sempre, spesso, qualche volta, non… mai. En el orden practicado, non precede al verbo y mai lo sigue.",
+        "Ogni giorno indica todos los días; il lunedì, los lunes. Una volta/due volte alla settimana indica una/dos veces por semana.",
+        "Posiciones habituales: studio sempre, leggo spesso, qualche volta esco. Las consignas fijan el orden cuando se necesita una respuesta controlada."
+      ],
+      "forms": [
+        [
+          "sempre / spesso",
+          "siempre / a menudo"
+        ],
+        [
+          "qualche volta",
+          "a veces"
+        ],
+        [
+          "non… mai",
+          "nunca"
+        ],
+        [
+          "due volte alla settimana",
+          "dos veces por semana"
+        ],
+        [
+          "ogni giorno",
+          "todos los días"
+        ]
+      ],
+      "examples": [
+        [
+          "Non bevo mai caffè.",
+          "Nunca tomo café."
+        ],
+        [
+          "Studio due volte alla settimana.",
+          "Estudio dos veces por semana."
+        ]
+      ],
+      "frequentErrors": [
+        "No uses mai solo después del verbo en el orden negativo enseñado.",
+        "Dos horas expresa duración, dos veces expresa frecuencia."
+      ],
+      "usageNotes": [
+        "Otras posiciones de mai existen, pero no se exigen aquí."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-sempre",
+        "it-spesso",
+        "it-qualche-volta",
+        "it-mai",
+        "it-volta",
+        "it-settimana",
+        "it-ogni-giorno",
+        "it-lunedi",
+        "it-studiare",
+        "it-leggere",
+        "it-bere",
+        "it-caffe",
+        "it-uscire"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22."
+    },
+    {
+      "id": "it-a1-theory-c22-04",
+      "version": "theory-c22-04-1",
+      "conceptId": "it-a1-c22-04",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Fissare un appuntamento",
+      "goal": "Concertar una cita combinando fecha, hora y disponibilidad sin contradicciones.",
+      "introduction": "Una cita requiere coordinar cuándo puede cada persona. Lee todos los datos antes de responder: una frase correcta puede proponer una hora incompatible.",
+      "rules": [
+        "Para proponer: puoi venire lunedì alle tre? Para confirmar: sì, posso venire lunedì alle tre.",
+        "Para rechazar y ofrecer alternativa: non posso alle due. Posso alle tre. No confirmes un horario que los datos excluyen.",
+        "Una fecha concreta y una hora se combinan: il due maggio alle diciotto. La consigna puede pedir solo el dato faltante."
+      ],
+      "forms": [
+        [
+          "Puoi venire…?",
+          "¿Puedes venir…?"
+        ],
+        [
+          "Non posso alle due. Posso alle tre.",
+          "No puedo a las dos. Puedo a las tres."
+        ],
+        [
+          "il due maggio alle diciotto",
+          "el dos de mayo a las dieciocho"
+        ]
+      ],
+      "examples": [
+        [
+          "Puoi venire lunedì alle tre?",
+          "¿Puedes venir el lunes a las tres?"
+        ],
+        [
+          "Sì, posso venire alle tre.",
+          "Sí, puedo ir a las tres."
+        ]
+      ],
+      "frequentErrors": [
+        "No respondas sí a una hora que figura como no disponible.",
+        "No omitas alle al introducir una hora con le."
+      ],
+      "usageNotes": [
+        "Antes de confirmar, comprueba que el día y la hora estén disponibles para las dos personas."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-appuntamento",
+        "it-potere",
+        "it-venire",
+        "it-lunedi",
+        "it-martedi",
+        "it-maggio",
+        "it-due",
+        "it-tre",
+        "it-diciotto",
+        "it-non",
+        "it-si"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22."
+    }
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c22-01-data",
+      "version": "1",
+      "conceptId": "it-a1-c22-01",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Formato italiano 02/05: scegli.",
+      "options": [
+        "il cinque febbraio",
+        "il due maggio"
+      ],
+      "hint": "El orden es día/mes.",
+      "explanation": "El orden es día/mes.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "cita",
+        "facets": [
+          "fecha"
+        ],
+        "opportunityId": "it-a1-c22-01-data:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "il due maggio"
+        ],
+        "rejected": [
+          "il cinque febbraio"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-01-data",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c22-01-primo",
+      "version": "1",
+      "conceptId": "it-a1-c22-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "1 maggio in parole: il ___ maggio.",
+      "options": [],
+      "hint": "El primer día del mes se expresa con primo.",
+      "explanation": "El primer día del mes se expresa con primo.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "cita",
+        "facets": [
+          "primero"
+        ],
+        "opportunityId": "it-a1-c22-01-primo:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "primo"
+        ],
+        "rejected": [
+          "uno"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-01-primo",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c22-01-martedi",
+      "version": "1",
+      "conceptId": "it-a1-c22-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "Scrivi in italiano il giorno «martes».",
+      "options": [],
+      "hint": "Martedì lleva acento grave final.",
+      "explanation": "Martedì lleva acento grave final.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "trabajo",
+        "facets": [
+          "dia"
+        ],
+        "opportunityId": "it-a1-c22-01-martedi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "martedì"
+        ],
+        "rejected": [
+          "martedi"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-01-martedi",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c22-01-data-intera",
+      "version": "2",
+      "conceptId": "it-a1-c22-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci in parole seguendo il modello della scheda, senza preposizione tra numero e mese: «el quince de agosto».",
+      "options": [],
+      "hint": "En el modelo practicado, el número precede directamente al mes.",
+      "explanation": "Il quindici agosto es el modelo pedido; no se declara incorrecto todo uso de di en fechas.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "viaje",
+        "facets": [
+          "fecha"
+        ],
+        "opportunityId": "it-a1-c22-01-data-intera:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "il quindici agosto"
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-01-data-intera",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c22-01-occasione",
+      "version": "1",
+      "conceptId": "it-a1-c22-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Da abitudine a una sola occasione: togli il da «Lavoro il lunedì».",
+      "options": [],
+      "hint": "Sin artículo se refiere a ese lunes concreto.",
+      "explanation": "Sin artículo se refiere a ese lunes concreto.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "trabajo",
+        "facets": [
+          "dia"
+        ],
+        "opportunityId": "it-a1-c22-01-occasione:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Lavoro lunedì"
+        ],
+        "rejected": [
+          "Lavoro il lunedì"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-01-occasione",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c22-01-appuntamento",
+      "version": "2",
+      "conceptId": "it-a1-c22-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Comunica la data con parole: usa vengo + il + 2 + maggio.",
+      "options": [],
+      "hint": "Une los elementos dados: número y mes quedan contiguos.",
+      "explanation": "Con los elementos pedidos se obtiene Vengo il due maggio; no se generaliza el rechazo a otras formulaciones de fecha.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "cita",
+        "facets": [
+          "fecha"
+        ],
+        "opportunityId": "it-a1-c22-01-appuntamento:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Vengo il due maggio"
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-01-appuntamento",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c22-01-maiuscola",
+      "version": "1",
+      "conceptId": "it-a1-c22-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Correggi l’accento: «giovedi».",
+      "options": [],
+      "hint": "Giovedì lleva ì final.",
+      "explanation": "Giovedì lleva ì final.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "trabajo",
+        "facets": [
+          "dia"
+        ],
+        "opportunityId": "it-a1-c22-01-maiuscola:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "giovedì"
+        ],
+        "rejected": [
+          "giovedi"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-01-maiuscola",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c22-01-fine-settimana",
+      "version": "1",
+      "conceptId": "it-a1-c22-01",
+      "conceptVersion": "1",
+      "family": "F7",
+      "format": "matching",
+      "prompt": "Abbina le parole del calendario: sábado, domingo.",
+      "options": [
+        "domenica",
+        "sabato"
+      ],
+      "hint": "Recuerda las formas de la tabla; relaciona cada dato por su significado.",
+      "explanation": "Sábado = sabato; domingo = domenica.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "cita",
+        "facets": [
+          "dia"
+        ],
+        "opportunityId": "it-a1-c22-01-fine-settimana:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": [
+          "sábado",
+          "domingo"
+        ]
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "[1,0]"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-01-fine-settimana",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c22-02-una",
+      "version": "1",
+      "conceptId": "it-a1-c22-02",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "01:00, ora attuale: scegli.",
+      "options": [
+        "È l'una",
+        "Sono le una"
+      ],
+      "hint": "La una es singular.",
+      "explanation": "La una es singular.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "vida cotidiana",
+        "facets": [
+          "singular"
+        ],
+        "opportunityId": "it-a1-c22-02-una:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "È l'una",
+          "È l’una"
+        ],
+        "rejected": [
+          "Sono le una"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-02-una",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c22-02-tre",
+      "version": "2",
+      "conceptId": "it-a1-c22-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "Sono le 03:15. Scrivi una frase completa in parole usando una frazione dell’ora.",
+      "options": [],
+      "hint": "Quince minutos después se expresa con e un quarto.",
+      "explanation": "Quince minutos después se expresa con e un quarto.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "cita",
+        "facets": [
+          "cuarto"
+        ],
+        "opportunityId": "it-a1-c22-02-tre:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Sono le tre e un quarto"
+        ],
+        "rejected": [
+          "Sono le tre meno un quarto"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-02-tre",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c22-02-mezza",
+      "version": "1",
+      "conceptId": "it-a1-c22-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Sono le tre e ___ (03:30).",
+      "options": [],
+      "hint": "Media hora admite mezza o mezzo.",
+      "explanation": "Media hora admite mezza o mezzo.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "vida cotidiana",
+        "facets": [
+          "media"
+        ],
+        "opportunityId": "it-a1-c22-02-mezza:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "mezza",
+          "mezzo"
+        ],
+        "rejected": [
+          "quarto"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-02-mezza",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c22-02-meno",
+      "version": "2",
+      "conceptId": "it-a1-c22-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "03:45: scrivi una frase completa in parole, indicando quanto manca all’ora successiva.",
+      "options": [],
+      "hint": "Se resta un cuarto a la hora siguiente.",
+      "explanation": "Se resta un cuarto a la hora siguiente.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "transporte",
+        "facets": [
+          "cuarto"
+        ],
+        "opportunityId": "it-a1-c22-02-meno:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Sono le quattro meno un quarto"
+        ],
+        "rejected": [
+          "Sono le tre meno un quarto"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-02-meno",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c22-02-evento",
+      "version": "2",
+      "conceptId": "it-a1-c22-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Trasforma l’ora attuale in quella di un appuntamento: «Sono le due» → usa venire alla prima persona singolare.",
+      "options": [],
+      "hint": "El evento requiere a + le = alle.",
+      "explanation": "El evento requiere a + le = alle.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "cita",
+        "facets": [
+          "evento"
+        ],
+        "opportunityId": "it-a1-c22-02-evento:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Vengo alle due"
+        ],
+        "rejected": [
+          "Vengo le due"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-02-evento",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c22-02-una-evento",
+      "version": "1",
+      "conceptId": "it-a1-c22-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Correggi «Vengo alle una».",
+      "options": [],
+      "hint": "A + l’una produce all’una.",
+      "explanation": "A + l’una produce all’una.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "cita",
+        "facets": [
+          "singular"
+        ],
+        "opportunityId": "it-a1-c22-02-una-evento:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Vengo all'una",
+          "Vengo all’una"
+        ],
+        "rejected": [
+          "Vengo alle una"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-02-una-evento",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c22-02-mezzanotte",
+      "version": "1",
+      "conceptId": "it-a1-c22-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci: «Voy a medianoche» (venire).",
+      "options": [],
+      "hint": "A mezzanotte no lleva artículo.",
+      "explanation": "A mezzanotte no lleva artículo.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "viaje",
+        "facets": [
+          "momento"
+        ],
+        "opportunityId": "it-a1-c22-02-mezzanotte:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Vengo a mezzanotte"
+        ],
+        "rejected": [
+          "Vengo alla mezzanotte"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-02-mezzanotte",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c22-02-24ore",
+      "version": "1",
+      "conceptId": "it-a1-c22-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Comunica l’orario in parole: vengo + alle + 18.",
+      "options": [],
+      "hint": "18 se lee diciotto en el horario de 24 horas.",
+      "explanation": "18 se lee diciotto en el horario de 24 horas.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "cita",
+        "facets": [
+          "24-horas"
+        ],
+        "opportunityId": "it-a1-c22-02-24ore:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Vengo alle diciotto"
+        ],
+        "rejected": [
+          "Vengo alle otto"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-02-24ore",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c22-03-significato",
+      "version": "1",
+      "conceptId": "it-a1-c22-03",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Quale espressione indica frequenza?",
+      "options": [
+        "due ore",
+        "due volte alla settimana"
+      ],
+      "hint": "Volte cuenta ocurrencias; ore mide duración.",
+      "explanation": "Volte cuenta ocurrencias; ore mide duración.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "estudio",
+        "facets": [
+          "periodicidad"
+        ],
+        "opportunityId": "it-a1-c22-03-significato:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "due volte alla settimana"
+        ],
+        "rejected": [
+          "due ore"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-03-significato",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c22-03-sempre",
+      "version": "1",
+      "conceptId": "it-a1-c22-03",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Studio ___ (siempre).",
+      "options": [],
+      "hint": "Sempre expresa una frecuencia constante.",
+      "explanation": "Sempre expresa una frecuencia constante.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "estudio",
+        "facets": [
+          "adverbio"
+        ],
+        "opportunityId": "it-a1-c22-03-sempre:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "sempre"
+        ],
+        "rejected": [
+          "mai"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-03-sempre",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c22-03-spesso",
+      "version": "1",
+      "conceptId": "it-a1-c22-03",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "Scrivi in italiano «a menudo».",
+      "options": [],
+      "hint": "Spesso significa a menudo; no necesariamente siempre.",
+      "explanation": "Spesso significa a menudo; no necesariamente siempre.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "ocio",
+        "facets": [
+          "adverbio"
+        ],
+        "opportunityId": "it-a1-c22-03-spesso:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "spesso"
+        ],
+        "rejected": [
+          "sempre"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-03-spesso",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c22-03-mai",
+      "version": "2",
+      "conceptId": "it-a1-c22-03",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Correggi la negazione semplice: «Bevo mai caffè». Scrivi la frase completa.",
+      "options": [],
+      "hint": "Non va delante del verbo y mai detrás en este orden.",
+      "explanation": "Non va delante del verbo y mai detrás en este orden.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "bar",
+        "facets": [
+          "negacion"
+        ],
+        "opportunityId": "it-a1-c22-03-mai:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Non bevo mai caffè"
+        ],
+        "rejected": [
+          "Bevo non mai caffè"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-03-mai",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c22-03-periodica",
+      "version": "2",
+      "conceptId": "it-a1-c22-03",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci: «Estudio dos veces por semana».",
+      "options": [],
+      "hint": "La primera indica frecuencia; la segunda duración.",
+      "explanation": "Due volte alla settimana expresa frecuencia; per due settimane expresa duración.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "estudio",
+        "facets": [
+          "periodicidad"
+        ],
+        "opportunityId": "it-a1-c22-03-periodica:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Studio due volte alla settimana",
+          "Studio due volte a settimana",
+          "Studio due volte la settimana"
+        ],
+        "rejected": [
+          "Studio per due settimane"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-03-periodica",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c22-03-giorno",
+      "version": "2",
+      "conceptId": "it-a1-c22-03",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Riscrivi «Leggo tutti i giorni» usando ogni al posto di tutti i.",
+      "options": [],
+      "hint": "Ogni se combina con el nombre singular giorno.",
+      "explanation": "Ogni se combina con el nombre singular giorno.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "ocio",
+        "facets": [
+          "periodicidad"
+        ],
+        "opportunityId": "it-a1-c22-03-giorno:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Leggo ogni giorno"
+        ],
+        "rejected": [
+          "Leggo ogni giorni"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-03-giorno",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c22-03-qualche",
+      "version": "2",
+      "conceptId": "it-a1-c22-03",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Di’ in italiano «A veces salgo». Metti l’espressione di frequenza all’inizio e usa qualche e uscire.",
+      "options": [],
+      "hint": "Qualche volta es la expresión para a veces.",
+      "explanation": "Qualche volta es la expresión para a veces.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "ocio",
+        "facets": [
+          "adverbio"
+        ],
+        "opportunityId": "it-a1-c22-03-qualche:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Qualche volta esco"
+        ],
+        "rejected": [
+          "Qualche volte esco"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-03-qualche",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c22-04-incrocio",
+      "version": "1",
+      "conceptId": "it-a1-c22-04",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Anna può lunedì alle 15 o martedì alle 18. Luca può solo martedì alle 18. Scegli la possibilità comune.",
+      "options": [
+        "lunedì alle 15",
+        "martedì alle 18"
+      ],
+      "hint": "Solo el martes a las 18 coincide en ambos horarios.",
+      "explanation": "Solo el martes a las 18 coincide en ambos horarios.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "cita",
+        "facets": [
+          "coherencia"
+        ],
+        "opportunityId": "it-a1-c22-04-incrocio:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "martedì alle 18"
+        ],
+        "rejected": [
+          "lunedì alle 15"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-04-incrocio",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c22-04-proponi",
+      "version": "2",
+      "conceptId": "it-a1-c22-04",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Chiedi a un amico, dandogli del tu, se può venire lunedì alle 15. Usa potere e venire e scrivi l’ora in parole.",
+      "options": [],
+      "hint": "Con un amigo tratado de tú, puoi; día y hora completan la propuesta.",
+      "explanation": "Con un amigo tratado de tú, puoi; día y hora completan la propuesta.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "cita",
+        "facets": [
+          "propuesta"
+        ],
+        "opportunityId": "it-a1-c22-04-proponi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Puoi venire lunedì alle tre?"
+        ],
+        "rejected": [
+          "Può venire lunedì alle tre?"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-04-proponi",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c22-04-conferma",
+      "version": "2",
+      "conceptId": "it-a1-c22-04",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Un amico ti propone di venire alle 15 e tu sei disponibile. Conferma iniziando con sì e usando potere e venire alla prima persona singolare; scrivi l’ora in parole.",
+      "options": [],
+      "hint": "La confirmación debe respetar la disponibilidad dada.",
+      "explanation": "La confirmación debe respetar la disponibilidad dada.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "cita",
+        "facets": [
+          "confirmacion"
+        ],
+        "opportunityId": "it-a1-c22-04-conferma:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Sì, posso venire alle tre"
+        ],
+        "rejected": [
+          "No, non posso venire alle tre"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-04-conferma",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c22-04-alternativa",
+      "version": "1",
+      "conceptId": "it-a1-c22-04",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Alle due non puoi, alle tre sì. Completa in una frase: «Non posso alle due. ___».",
+      "options": [],
+      "hint": "La alternativa debe ser la hora disponible.",
+      "explanation": "La alternativa debe ser la hora disponible.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "cita",
+        "facets": [
+          "alternativa"
+        ],
+        "opportunityId": "it-a1-c22-04-alternativa:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Posso alle tre"
+        ],
+        "rejected": [
+          "Posso alle due"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-04-alternativa",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c22-04-data",
+      "version": "1",
+      "conceptId": "it-a1-c22-04",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "Appuntamento: 02/05 alle 18:00. Scrivi solo la data in parole, con il.",
+      "options": [],
+      "hint": "La fecha italiana se lee día/mes.",
+      "explanation": "La fecha italiana se lee día/mes.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "trabajo",
+        "facets": [
+          "fecha-hora"
+        ],
+        "opportunityId": "it-a1-c22-04-data:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "il due maggio"
+        ],
+        "rejected": [
+          "il cinque febbraio"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-04-data",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c22-04-traduci",
+      "version": "1",
+      "conceptId": "it-a1-c22-04",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci in parole: «Puedo ir el dos de mayo a las dieciocho» (venire).",
+      "options": [],
+      "hint": "La fecha con il y la hora con alle se combinan tras posso venire.",
+      "explanation": "La fecha con il y la hora con alle se combinan tras posso venire.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "cita",
+        "facets": [
+          "fecha-hora"
+        ],
+        "opportunityId": "it-a1-c22-04-traduci:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Posso venire il due maggio alle diciotto"
+        ],
+        "rejected": [
+          "Posso venire il due maggio le diciotto"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-04-traduci",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c22-04-incompatibile",
+      "version": "1",
+      "conceptId": "it-a1-c22-04",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "error-detection",
+      "prompt": "Puoi solo alle tre. Rispondi «Sì, posso alle due». La risposta rispetta i dati? sì/no.",
+      "options": [
+        "sì",
+        "no"
+      ],
+      "hint": "La frase es gramatical, pero contradice el horario disponible.",
+      "explanation": "La frase es gramatical, pero contradice el horario disponible.",
+      "dimension": "discrimination",
+      "task": {
+        "skill": "discrimination",
+        "context": "cita",
+        "facets": [
+          "coherencia"
+        ],
+        "opportunityId": "it-a1-c22-04-incompatibile:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "no"
+        ],
+        "rejected": [
+          "sì"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-04-incompatibile",
+        "sourceVersion": "1"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "it-caffe",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "caffè",
+      "displayForm": "caffè",
+      "gloss": "café",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "caffè",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C02",
+        "C08",
+        "C10",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C20",
+        "C22",
+        "C25",
+        "C27",
+        "C28",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-02",
+        "it-a1-c01-03",
+        "it-a1-c02-02",
+        "it-a1-c08-02",
+        "it-a1-c10-02",
+        "it-a1-c15-01",
+        "it-a1-c16-06",
+        "it-a1-c17-02",
+        "it-a1-c18-01",
+        "it-a1-c20-05",
+        "it-a1-c22-03",
+        "it-a1-c25-01",
+        "it-a1-c25-02",
+        "it-a1-c27-01",
+        "it-a1-c28-01",
+        "it-a1-c28-02",
+        "it-a1-c31-02",
+        "it-a1-c32-03",
+        "it-a1-c34-03"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t02",
+        "it-a1-t08",
+        "it-a1-t10",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación C08: plural canónico del repertorio; candidate."
+    },
+    {
+      "id": "it-si",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "sì",
+      "displayForm": "sì",
+      "gloss": "sí (afirmación)",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C01",
+        "C06",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-02",
+        "it-a1-c06-02",
+        "it-a1-c22-04"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t06",
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-due",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "due",
+      "displayForm": "due",
+      "gloss": "dos",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C05",
+        "C08",
+        "C13",
+        "C19",
+        "C20",
+        "C22",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c08-01",
+        "it-a1-c08-02",
+        "it-a1-c13-01",
+        "it-a1-c13-03",
+        "it-a1-c19-01",
+        "it-a1-c19-02",
+        "it-a1-c20-02",
+        "it-a1-c20-06",
+        "it-a1-c22-01",
+        "it-a1-c22-02",
+        "it-a1-c22-04",
+        "it-a1-c27-03"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t08",
+        "it-a1-t13",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t27"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-non",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "non",
+      "displayForm": "non",
+      "gloss": "no, ante el verbo",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C06",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C22",
+        "C26",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c15-03",
+        "it-a1-c16-06",
+        "it-a1-c17-02",
+        "it-a1-c22-04",
+        "it-a1-c26-02",
+        "it-a1-c28-02"
+      ],
+      "topicIds": [
+        "it-a1-t06",
+        "it-a1-t14",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t22",
+        "it-a1-t26",
+        "it-a1-t28"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-uno",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "uno",
+      "displayForm": "uno",
+      "gloss": "1",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01",
+        "it-a1-c22-02"
+      ],
+      "topicIds": [
+        "it-a1-t13",
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-tre",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "tre",
+      "displayForm": "tre",
+      "gloss": "3",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01",
+        "it-a1-c13-03",
+        "it-a1-c22-02",
+        "it-a1-c22-04"
+      ],
+      "topicIds": [
+        "it-a1-t13",
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-quattro",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "quattro",
+      "displayForm": "quattro",
+      "gloss": "4",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01",
+        "it-a1-c22-02"
+      ],
+      "topicIds": [
+        "it-a1-t13",
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-diciotto",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "diciotto",
+      "displayForm": "diciotto",
+      "gloss": "18",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01",
+        "it-a1-c22-02",
+        "it-a1-c22-04"
+      ],
+      "topicIds": [
+        "it-a1-t13",
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-lavorare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "lavorare",
+      "displayForm": "lavorare",
+      "gloss": "trabajar",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "lavoro",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "lavori",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "lavora",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "lavoriamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "lavorate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "lavorano",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C14",
+        "C17",
+        "C20",
+        "C21",
+        "C22",
+        "C25",
+        "C27",
+        "C29",
+        "C31",
+        "C32",
+        "C33",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c17-03",
+        "it-a1-c20-02",
+        "it-a1-c20-06",
+        "it-a1-c21-02",
+        "it-a1-c22-01",
+        "it-a1-c25-01",
+        "it-a1-c27-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c29-03",
+        "it-a1-c29-04",
+        "it-a1-c31-01",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c32-03",
+        "it-a1-c33-01",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t14",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t22",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t33",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-studiare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "studiare",
+      "displayForm": "studiare",
+      "gloss": "estudiar",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "studio",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "studi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "studia",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "studiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "studiate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "studiano",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C14",
+        "C17",
+        "C20",
+        "C22",
+        "C25",
+        "C29",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c17-03",
+        "it-a1-c20-04",
+        "it-a1-c20-05",
+        "it-a1-c20-06",
+        "it-a1-c22-03",
+        "it-a1-c25-01",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c29-03",
+        "it-a1-c31-01",
+        "it-a1-c32-01",
+        "it-a1-c32-03",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t14",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t25",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-ogni-giorno",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "ogni giorno",
+      "displayForm": "ogni giorno",
+      "gloss": "cada día",
+      "partOfSpeech": "expression",
+      "forms": [],
+      "tags": [
+        "expression",
+        "C14",
+        "C22",
+        "C26",
+        "C32"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c14-02",
+        "it-a1-c22-03",
+        "it-a1-c26-02",
+        "it-a1-c32-03"
+      ],
+      "topicIds": [
+        "it-a1-t14",
+        "it-a1-t22",
+        "it-a1-t26",
+        "it-a1-t32"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-leggere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "leggere",
+      "displayForm": "leggere",
+      "gloss": "leer",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "leggo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "leggi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "legge",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "leggiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "leggete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "leggono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C15",
+        "C17",
+        "C20",
+        "C22",
+        "C23",
+        "C25",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-01",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c17-03",
+        "it-a1-c20-05",
+        "it-a1-c22-03",
+        "it-a1-c23-01",
+        "it-a1-c25-01",
+        "it-a1-c25-02",
+        "it-a1-c28-02",
+        "it-a1-c29-04",
+        "it-a1-c30-02",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t23",
+        "it-a1-t25",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-venire",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "venire",
+      "displayForm": "venire",
+      "gloss": "venir hacia el hablante o interlocutor en contextos explícitos",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "vengo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "vieni",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "viene",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "veniamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "venite",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "vengono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C16",
+        "C20",
+        "C22",
+        "C28",
+        "C29",
+        "C32",
+        "C33"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c16-04",
+        "it-a1-c20-01",
+        "it-a1-c20-03",
+        "it-a1-c20-06",
+        "it-a1-c22-01",
+        "it-a1-c22-02",
+        "it-a1-c22-04",
+        "it-a1-c28-01",
+        "it-a1-c29-02",
+        "it-a1-c29-03",
+        "it-a1-c32-02",
+        "it-a1-c33-01"
+      ],
+      "topicIds": [
+        "it-a1-t16",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t32",
+        "it-a1-t33"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-bere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "bere",
+      "displayForm": "bere",
+      "gloss": "beber",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "bevo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "bevi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "beve",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "beviamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "bevete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "bevono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C16",
+        "C17",
+        "C18",
+        "C22",
+        "C25",
+        "C29",
+        "C31",
+        "C32"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c16-06",
+        "it-a1-c17-02",
+        "it-a1-c18-01",
+        "it-a1-c22-03",
+        "it-a1-c25-01",
+        "it-a1-c29-03",
+        "it-a1-c31-02",
+        "it-a1-c32-02",
+        "it-a1-c32-03"
+      ],
+      "topicIds": [
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t22",
+        "it-a1-t25",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t32"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-uscire",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "uscire",
+      "displayForm": "uscire",
+      "gloss": "salir",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "esco",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "esci",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "esce",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "usciamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "uscite",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "escono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C16",
+        "C17",
+        "C20",
+        "C22",
+        "C26",
+        "C29",
+        "C32",
+        "C33"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c16-08",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c20-04",
+        "it-a1-c22-03",
+        "it-a1-c26-02",
+        "it-a1-c29-03",
+        "it-a1-c29-04",
+        "it-a1-c32-02",
+        "it-a1-c33-01"
+      ],
+      "topicIds": [
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t26",
+        "it-a1-t29",
+        "it-a1-t32",
+        "it-a1-t33"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-potere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "potere",
+      "displayForm": "potere",
+      "gloss": "poder: posibilidad, permiso y petición",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "posso",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "puoi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "può",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "possiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "potete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "possono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C17",
+        "C18",
+        "C20",
+        "C22",
+        "C29"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c17-03",
+        "it-a1-c18-02",
+        "it-a1-c20-04",
+        "it-a1-c22-04",
+        "it-a1-c29-02"
+      ],
+      "topicIds": [
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t29"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-ora",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "ora",
+      "displayForm": "ora",
+      "gloss": "hora",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "ore",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C20",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c20-06",
+        "it-a1-c22-02"
+      ],
+      "topicIds": [
+        "it-a1-t20",
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-volta",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "volta",
+      "displayForm": "volta",
+      "gloss": "vez",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "volte",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-03"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-settimana",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "settimana",
+      "displayForm": "settimana",
+      "gloss": "semana",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "settimane",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-03"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [
+        {
+          "target": "Studio due volte alla settimana.",
+          "support": "Estudio dos veces por semana."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-appuntamento",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "appuntamento",
+      "displayForm": "appuntamento",
+      "gloss": "cita",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "appuntamenti",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C22",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-04",
+        "it-a1-c34-07"
+      ],
+      "topicIds": [
+        "it-a1-t22",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-lunedi",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "lunedì",
+      "displayForm": "lunedì",
+      "gloss": "lunes",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "lunedì",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-01",
+        "it-a1-c22-03",
+        "it-a1-c22-04"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [
+        {
+          "target": "Vengo lunedì.",
+          "support": "Voy el lunes, en esa ocasión."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-martedi",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "martedì",
+      "displayForm": "martedì",
+      "gloss": "martes",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "martedì",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-01",
+        "it-a1-c22-04"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-mercoledi",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "mercoledì",
+      "displayForm": "mercoledì",
+      "gloss": "miércoles",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "mercoledì",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-01"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-giovedi",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "giovedì",
+      "displayForm": "giovedì",
+      "gloss": "jueves",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "giovedì",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-01"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-venerdi",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "venerdì",
+      "displayForm": "venerdì",
+      "gloss": "viernes",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "venerdì",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-01"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-sabato",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "sabato",
+      "displayForm": "sabato",
+      "gloss": "sábado",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "sabati",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-01"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-domenica",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "domenica",
+      "displayForm": "domenica",
+      "gloss": "domingo",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "domeniche",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-01"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-gennaio",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "gennaio",
+      "displayForm": "gennaio",
+      "gloss": "enero",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-01"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-febbraio",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "febbraio",
+      "displayForm": "febbraio",
+      "gloss": "febrero",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-01"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-marzo",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "marzo",
+      "displayForm": "marzo",
+      "gloss": "marzo",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-01"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-aprile",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "aprile",
+      "displayForm": "aprile",
+      "gloss": "abril",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-01"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-maggio",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "maggio",
+      "displayForm": "maggio",
+      "gloss": "mayo",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-01",
+        "it-a1-c22-04"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [
+        {
+          "target": "Vengo il due maggio.",
+          "support": "Voy el dos de mayo."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-giugno",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "giugno",
+      "displayForm": "giugno",
+      "gloss": "junio",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-01"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-luglio",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "luglio",
+      "displayForm": "luglio",
+      "gloss": "julio",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-01"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-agosto",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "agosto",
+      "displayForm": "agosto",
+      "gloss": "agosto",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C20",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c20-06",
+        "it-a1-c22-01"
+      ],
+      "topicIds": [
+        "it-a1-t20",
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-settembre",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "settembre",
+      "displayForm": "settembre",
+      "gloss": "septiembre",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-01"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-ottobre",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "ottobre",
+      "displayForm": "ottobre",
+      "gloss": "octubre",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-01"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-novembre",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "novembre",
+      "displayForm": "novembre",
+      "gloss": "noviembre",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-01"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-dicembre",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "dicembre",
+      "displayForm": "dicembre",
+      "gloss": "diciembre",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-01"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-mezzogiorno",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "mezzogiorno",
+      "displayForm": "mezzogiorno",
+      "gloss": "mediodía",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C20",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c20-06",
+        "it-a1-c22-02"
+      ],
+      "topicIds": [
+        "it-a1-t20",
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-mezzanotte",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "mezzanotte",
+      "displayForm": "mezzanotte",
+      "gloss": "medianoche",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-02"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-primo",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "primo",
+      "displayForm": "primo",
+      "gloss": "primero; día uno en fechas",
+      "partOfSpeech": "adjective",
+      "forms": [],
+      "tags": [
+        "adjective",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-01"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-quarto",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "quarto",
+      "displayForm": "quarto",
+      "gloss": "cuarto de hora; en e/meno un quarto",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-02"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [
+        {
+          "target": "Sono le tre e un quarto.",
+          "support": "Son las tres y cuarto."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-mezza",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "mezza",
+      "displayForm": "mezza",
+      "gloss": "media hora; e mezza / e mezzo",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-02"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-sempre",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "sempre",
+      "displayForm": "sempre",
+      "gloss": "siempre",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-03"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-spesso",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "spesso",
+      "displayForm": "spesso",
+      "gloss": "a menudo",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-03"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-qualche-volta",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "qualche volta",
+      "displayForm": "qualche volta",
+      "gloss": "a veces",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-03"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-mai",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "mai",
+      "displayForm": "mai",
+      "gloss": "nunca; en non… mai",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c22-03"
+      ],
+      "topicIds": [
+        "it-a1-t22"
+      ],
+      "examples": [
+        {
+          "target": "Non bevo mai caffè.",
+          "support": "Nunca tomo café."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    }
+  ],
+  "relations": [
+    {
+      "to": "it-a1-c13-01",
+      "type": "prerequisite",
+      "reason": "Las fechas se expresan con números conocidos.",
+      "from": "it-a1-c22-01",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c21-01",
+      "type": "prerequisite",
+      "reason": "La hora del evento utiliza alle/all’.",
+      "from": "it-a1-c22-02",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c06-01",
+      "type": "prerequisite",
+      "reason": "Non… mai reutiliza la negación.",
+      "from": "it-a1-c22-03",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c22-01",
+      "type": "prerequisite",
+      "reason": "La cita combina fechas.",
+      "from": "it-a1-c22-04",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c22-02",
+      "type": "prerequisite",
+      "reason": "La cita combina horas.",
+      "from": "it-a1-c22-04",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c17-01",
+      "type": "prerequisite",
+      "reason": "La disponibilidad reutiliza potere.",
+      "from": "it-a1-c22-04",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c22-01",
+      "type": "related",
+      "reason": "Las preposiciones temporales se aplican al calendario.",
+      "from": "it-a1-c20-06"
+    },
+    {
+      "to": "it-a1-c13-01",
+      "type": "reinforces",
+      "reason": "La lectura de horas recupera números.",
+      "from": "it-a1-c22-02"
+    },
+    {
+      "to": "it-a1-c14-02",
+      "type": "reinforces",
+      "reason": "Las expresiones de frecuencia amplían las rutinas.",
+      "from": "it-a1-c22-03"
+    },
+    {
+      "to": "it-a1-c22-03",
+      "type": "prerequisite",
+      "reason": "La rutina proporciona acciones para secuenciar.",
+      "strength": "recommended",
+      "from": "it-a1-c29-04"
+    },
+    {
+      "to": "it-a1-c22-02",
+      "type": "reinforces",
+      "reason": "Las rutinas se sitúan a una hora.",
+      "from": "it-a1-c26-02"
+    },
+    {
+      "to": "it-a1-c22-04",
+      "type": "reinforces",
+      "reason": "Contacto y disponibilidad permiten concertar una cita.",
+      "from": "it-a1-c34-07"
+    }
+  ]
+}

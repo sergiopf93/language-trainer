@@ -1,0 +1,3 @@
+# Primera revisión C21–C34
+
+R2 completó lectura integral de 38 conceptos/Theory, 346 actividades, 226 entradas léxicas vinculadas y 85 relaciones incidentes, sobre baseline 164bdc7. Inventario de cambios en A1_EDITORIAL_CHANGES_C21_C34.json. Se corrigen consignas que entregan respuestas, referencias insuficientes, rechazos contextualmente defendibles y la falsa oposición al centro/in centro. Vocabulario y relaciones conservados. Variantes ausentes en tareas no exhaustivas producen abstención: no se confunden con errores. Se mantienen los apoyos de lectura/reconocimiento y la dificultad de transformación. Revisión cruzada y recibos pendientes; 38 conceptos siguen candidate. La revisión asistida no sustituye validación humana antes de publicar.

@@ -71,13 +71,15 @@ export const c25: Lesson[] = [
       {
         key: 'negazione',
         format: 'transformation',
-        prompt: 'Metti al negativo: «Mi piace lavorare di notte».',
+        prompt:
+          'Metti al negativo semplice l’intera frase, senza contrasti: «Mi piace lavorare di notte».',
         accepted: ['Non mi piace lavorare di notte'],
         rejected: ['Mi non piace lavorare di notte'],
         hint: 'Non precede a mi.',
         explanation: 'Non precede a mi.',
         facets: ['negacion'],
         context: 'trabajo',
+        version: '2',
       },
       {
         key: 'ripara',
@@ -108,13 +110,14 @@ export const c25: Lesson[] = [
         key: 'domanda',
         format: 'controlled-production',
         prompt:
-          'Chiedi a un amico se gli piace leggere: usa ti piace + leggere.',
+          'Chiedi a un amico, dandogli del tu, se gli piace leggere. Usa piacere e leggere, senza soggetto esplicito.',
         accepted: ['Ti piace leggere?'],
         rejected: ['Mi piace leggere?'],
         hint: 'Ti se refiere al interlocutor.',
         explanation: 'Ti se refiere al interlocutor.',
         facets: ['destinatario'],
         context: 'ocio',
+        version: '2',
       },
       {
         key: 'traduci',
@@ -222,13 +225,15 @@ export const c25: Lesson[] = [
       {
         key: 'nega',
         format: 'transformation',
-        prompt: 'Metti al negativo: «Mi piacciono i libri».',
+        prompt:
+          'Metti al negativo semplice l’intera frase, senza contrasti: «Mi piacciono i libri».',
         accepted: ['Non mi piacciono i libri'],
         rejected: ['Mi non piacciono i libri'],
         hint: 'Non precede a mi; piacciono conserva el plural.',
         explanation: 'Non precede a mi; piacciono conserva el plural.',
         facets: ['negacion'],
         context: 'ocio',
+        version: '2',
       },
       {
         key: 'anna',
@@ -255,7 +260,8 @@ export const c25: Lesson[] = [
       {
         key: 'domanda',
         format: 'controlled-production',
-        prompt: 'Chiedi a un amico: usa ti piacciono + i libri.',
+        prompt:
+          'Chiedi a un amico, dandogli del tu, se apprezza i libri. Usa piacere e i libri, senza soggetto esplicito.',
         accepted: ['Ti piacciono i libri?'],
         rejected: ['Ti piace i libri?'],
         hint: 'El destinatario ti no cambia la concordancia plural con libri.',
@@ -263,6 +269,7 @@ export const c25: Lesson[] = [
           'El destinatario ti no cambia la concordancia plural con libri.',
         facets: ['destinatario'],
         context: 'ocio',
+        version: '2',
       },
       {
         key: 'attivita',

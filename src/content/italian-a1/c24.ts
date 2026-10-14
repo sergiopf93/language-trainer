@@ -51,7 +51,8 @@ export const c24: Lesson[] = [
       {
         key: 'vicino',
         format: 'selection',
-        prompt: 'Il libro è vicino a chi parla. Scegli la forma con questo.',
+        prompt:
+          'Il libro è vicino a chi parla. Scegli il gruppo concordato correttamente.',
         accepted: ['questo libro'],
         rejected: ['questa libro'],
         hint: 'Libro es masculino singular.',
@@ -59,6 +60,7 @@ export const c24: Lesson[] = [
         facets: ['masculino'],
         context: 'compras',
         options: ['questa libro', 'questo libro'],
+        version: '2',
       },
       {
         key: 'penna',
@@ -109,7 +111,8 @@ export const c24: Lesson[] = [
       {
         key: 'richiesta',
         format: 'controlled-production',
-        prompt: 'Chiedi la penna vicina: usa vorrei + questa penna.',
+        prompt:
+          'Chiedi un bolígrafo vicino a te: usa vorrei, il dimostrativo di vicinanza e penna.',
         accepted: ['Vorrei questa penna'],
         rejected: ['Vorrei questo penna'],
         hint: 'La petición reutiliza vorrei y questo concuerda en femenino.',
@@ -117,6 +120,7 @@ export const c24: Lesson[] = [
           'La petición reutiliza vorrei y questo concuerda en femenino.',
         facets: ['femenino'],
         context: 'compras',
+        version: '2',
       },
       {
         key: 'pronome',
@@ -218,13 +222,14 @@ export const c24: Lesson[] = [
       {
         key: 'zaino',
         format: 'cloze',
-        prompt: '___ zaino là (forma di quello).',
+        prompt: 'Completa con il dimostrativo di lontananza: ___ zaino là.',
         accepted: ['quello'],
         rejected: ['quel'],
         hint: 'Zaino sigue el patrón de lo y exige quello.',
         explanation: 'Zaino sigue el patrón de lo y exige quello.',
         facets: ['quello'],
         context: 'compras',
+        version: '2',
       },
       {
         key: 'amico',
@@ -285,13 +290,14 @@ export const c24: Lesson[] = [
         key: 'distanza',
         format: 'controlled-production',
         prompt:
-          'Contrasta le penne con i dati: questa penna + è qui; quella penna + è là.',
+          'Descrivi due penne: una vicino a te e una lontana. Scrivi due frasi separate da punto e virgola, prima la vicina; usa i dimostrativi, penna, essere, qui e là.',
         accepted: ['Questa penna è qui; quella penna è là'],
         rejected: ['Quella penna è qui; questa penna è là'],
         hint: 'Los datos fijan esta cerca y aquella lejos.',
         explanation: 'Los datos fijan esta cerca y aquella lejos.',
         facets: ['contraste'],
         context: 'compras',
+        version: '2',
       },
       {
         key: 'amici',

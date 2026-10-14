@@ -112,13 +112,16 @@ export const c32: Lesson[] = [
       {
         key: 'non',
         format: 'transformation',
-        prompt: 'Metti al negativo: «Ho fatto colazione».',
+        prompt:
+          'Metti al negativo semplice l’intera frase: «Ho fatto colazione». Non creare un contrasto tra azioni.',
         accepted: ['Non ho fatto colazione', 'Non ho fatto colazione.'],
         rejected: ['Ho non fatto colazione'],
         hint: 'Non precede al auxiliar.',
-        explanation: 'Non precede al auxiliar.',
+        explanation:
+          'En la negación simple de toda la frase, non precede al auxiliar: Non ho fatto colazione. No se evalúan construcciones contrastivas.',
         facets: ['negacion'],
         context: 'rutina',
+        version: '2',
       },
       {
         key: 'essere',

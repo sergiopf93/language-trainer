@@ -1,0 +1,2156 @@
+{
+  "concepts": [
+    {
+      "id": "it-a1-c26-01",
+      "version": "1",
+      "topicId": "it-a1-t26",
+      "title": "Come ti chiami?",
+      "objective": "Presentarse y preguntar o indicar el nombre vinculando pronombre y persona de chiamarsi.",
+      "scope": "Presentarse y preguntar o indicar el nombre vinculando pronombre y persona de chiamarsi.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "retrieval",
+        "contextual-use"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate.",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "io",
+        "tu",
+        "tercera",
+        "noi",
+        "voi",
+        "trato"
+      ],
+      "compatibleFamilies": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c26-02",
+      "version": "1",
+      "topicId": "it-a1-t26",
+      "title": "La routine: mi alzo, mi lavo",
+      "objective": "Usar alzarsi, lavarsi y vestirsi en presente con pronombre, persona y posición adecuados.",
+      "scope": "Usar alzarsi, lavarsi y vestirsi en presente con pronombre, persona y posición adecuados.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "retrieval",
+        "contextual-use"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate.",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "alzarsi",
+        "lavarsi",
+        "vestirsi",
+        "negacion"
+      ],
+      "compatibleFamilies": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c26-01",
+      "version": "theory-c26-01-1",
+      "conceptId": "it-a1-c26-01",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Come ti chiami?",
+      "goal": "Presentarse y preguntar o indicar el nombre vinculando pronombre y persona de chiamarsi.",
+      "introduction": "Chiamarsi expresa cómo se llama una persona. Mi chiamo no significa que llamo a otra persona: el pronombre forma parte de esta construcción.",
+      "rules": [
+        "El pronombre precede al verbo conjugado: mi chiamo, ti chiami. Ambos corresponden a la misma persona.",
+        "Para preguntar usa come: Come ti chiami? Con trato de Lei: Come si chiama?",
+        "El sujeto puede omitirse si está claro; conserva el pronombre: siamo Marco e Anna no sustituye a ci chiamiamo Marco e Anna en un ejercicio sobre llamarse."
+      ],
+      "forms": [
+        [
+          "io",
+          "mi chiamo"
+        ],
+        [
+          "tu",
+          "ti chiami"
+        ],
+        [
+          "lui / lei / Lei",
+          "si chiama"
+        ],
+        [
+          "noi",
+          "ci chiamiamo"
+        ],
+        [
+          "voi",
+          "vi chiamate"
+        ],
+        [
+          "loro",
+          "si chiamano"
+        ]
+      ],
+      "examples": [
+        [
+          "Mi chiamo Elena e sono spagnola.",
+          "Me llamo Elena y soy española."
+        ],
+        [
+          "Come si chiama tuo fratello?",
+          "¿Cómo se llama tu hermano?"
+        ],
+        [
+          "Ci chiamiamo Anna e Luca.",
+          "Nos llamamos Anna y Luca."
+        ]
+      ],
+      "frequentErrors": [
+        "No escribas io chiamo Anna para decir me llamo Anna: falta mi.",
+        "No combines noi con si chiamiamo: corresponde ci."
+      ],
+      "usageNotes": [
+        "Chiamare alguien y chiamarsi se estudian como construcciones distintas. En esta ficha evaluamos solo el nombre."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-chiamarsi",
+        "it-nome",
+        "it-fratello",
+        "it-sorella",
+        "it-spagnolo",
+        "it-io",
+        "it-tu",
+        "it-noi",
+        "it-voi",
+        "it-loro"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate."
+    },
+    {
+      "id": "it-a1-theory-c26-02",
+      "version": "theory-c26-02-1",
+      "conceptId": "it-a1-c26-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "La routine: mi alzo, mi lavo",
+      "goal": "Usar alzarsi, lavarsi y vestirsi en presente con pronombre, persona y posición adecuados.",
+      "introduction": "En estas rutinas el sujeto realiza una acción sobre sí mismo. Se aprende cada verbo con su pronombre: alzarsi (levantarse), lavarsi (lavarse), vestirsi (vestirse).",
+      "rules": [
+        "Pronombres: mi, ti, si, ci, vi, si. Van delante del presente y concuerdan en persona con el verbo.",
+        "Alzarsi y lavarsi siguen -are; vestirsi sigue -ire sin -isc-.",
+        "Non precede al pronombre: non mi alzo. La hora se añade con alle: mi alzo alle sette."
+      ],
+      "forms": [
+        [
+          "alzarsi",
+          "mi alzo · ti alzi · si alza · ci alziamo · vi alzate · si alzano"
+        ],
+        [
+          "lavarsi",
+          "mi lavo · ti lavi · si lava · ci laviamo · vi lavate · si lavano"
+        ],
+        [
+          "vestirsi",
+          "mi vesto · ti vesti · si veste · ci vestiamo · vi vestite · si vestono"
+        ]
+      ],
+      "examples": [
+        [
+          "Mi alzo alle sette.",
+          "Me levanto a las siete."
+        ],
+        [
+          "Anna si veste e va al lavoro.",
+          "Anna se viste y va al trabajo."
+        ],
+        [
+          "Ci laviamo le mani.",
+          "Nos lavamos las manos."
+        ]
+      ],
+      "frequentErrors": [
+        "No omitas el pronombre: alzo y mi alzo no expresan lo mismo.",
+        "No uses ci vestiamo con voi: vi vestite.",
+        "Para partes del cuerpo se usa normalmente el artículo: mi lavo le mani."
+      ],
+      "usageNotes": [
+        "Alcance: presente de estas tres rutinas. Pasado reflexivo y pronombres unidos a infinitivos quedan fuera."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-alzarsi",
+        "it-lavarsi",
+        "it-vestirsi",
+        "it-mano",
+        "it-sette",
+        "it-lavoro",
+        "it-andare",
+        "it-non",
+        "it-ogni-giorno",
+        "it-presto",
+        "it-prima",
+        "it-uscire",
+        "it-otto",
+        "it-sei"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate."
+    }
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c26-01-nome",
+      "version": "1",
+      "conceptId": "it-a1-c26-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Io ___ Elena (chiamarsi: pronome + verbo).",
+      "options": [],
+      "hint": "Con io se usa mi chiamo.",
+      "explanation": "Con io se usa mi chiamo.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "presentacion",
+        "facets": [
+          "io"
+        ],
+        "opportunityId": "it-a1-c26-01-nome:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "mi chiamo"
+        ],
+        "rejected": [
+          "chiamo"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c26-01-nome",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c26-01-domanda",
+      "version": "1",
+      "conceptId": "it-a1-c26-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "Come si chiede il nome a un amico? Inizia con Come e usa chiamarsi.",
+      "options": [],
+      "hint": "Un amigo tratado de tu requiere ti chiami.",
+      "explanation": "Un amigo tratado de tu requiere ti chiami.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "presentacion",
+        "facets": [
+          "tu"
+        ],
+        "opportunityId": "it-a1-c26-01-domanda:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Come ti chiami?",
+          "Come ti chiami"
+        ],
+        "rejected": [
+          "Come si chiama?"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c26-01-domanda",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c26-01-noi",
+      "version": "1",
+      "conceptId": "it-a1-c26-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Passa a noi: «Mi chiamo Anna». Aggiungi Luca: «___ Anna e Luca».",
+      "options": [],
+      "hint": "Nosotros combina ci con chiamiamo.",
+      "explanation": "Nosotros combina ci con chiamiamo.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "presentacion",
+        "facets": [
+          "noi"
+        ],
+        "opportunityId": "it-a1-c26-01-noi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Ci chiamiamo",
+          "Ci chiamiamo."
+        ],
+        "rejected": [
+          "Si chiamiamo"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c26-01-noi",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c26-01-loro",
+      "version": "1",
+      "conceptId": "it-a1-c26-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Correggi solo il verbo: «Le mie sorelle si chiama Anna e Eva».",
+      "options": [],
+      "hint": "El sujeto plural requiere chiamano.",
+      "explanation": "El sujeto plural requiere chiamano.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "familia",
+        "facets": [
+          "tercera"
+        ],
+        "opportunityId": "it-a1-c26-01-loro:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "chiamano"
+        ],
+        "rejected": [
+          "chiama"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c26-01-loro",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c26-01-lei",
+      "version": "1",
+      "conceptId": "it-a1-c26-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Alla reception chiedi il nome a un ospite con Lei. Usa Come e chiamarsi.",
+      "options": [],
+      "hint": "El trato formal Lei usa si chiama.",
+      "explanation": "El trato formal Lei usa si chiama.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "hotel",
+        "facets": [
+          "trato"
+        ],
+        "opportunityId": "it-a1-c26-01-lei:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Come si chiama?",
+          "Come si chiama"
+        ],
+        "rejected": [
+          "Come ti chiami?"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c26-01-lei",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c26-01-presenta",
+      "version": "2",
+      "conceptId": "it-a1-c26-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci usando chiamarsi: «Me llamo Marco».",
+      "options": [],
+      "hint": "El pronombre mi es necesario en esta construcción.",
+      "explanation": "El pronombre mi es necesario en esta construcción.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "presentacion",
+        "facets": [
+          "io"
+        ],
+        "opportunityId": "it-a1-c26-01-presenta:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Mi chiamo Marco",
+          "Mi chiamo Marco.",
+          "Io mi chiamo Marco",
+          "Io mi chiamo Marco."
+        ],
+        "rejected": [
+          "Io chiamo Marco"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c26-01-presenta",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c26-02-mattina",
+      "version": "1",
+      "conceptId": "it-a1-c26-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Ogni giorno io ___ alle sette (alzarsi: pronome + verbo).",
+      "options": [],
+      "hint": "Alzarsi necesita mi con io.",
+      "explanation": "Alzarsi necesita mi con io.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "rutina",
+        "facets": [
+          "alzarsi"
+        ],
+        "opportunityId": "it-a1-c26-02-mattina:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "mi alzo"
+        ],
+        "rejected": [
+          "alzo"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c26-02-mattina",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c26-02-anna",
+      "version": "1",
+      "conceptId": "it-a1-c26-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "Completa con vestirsi: «Anna ___». Scrivi pronome e verbo.",
+      "options": [],
+      "hint": "Vestirsi no añade -isc-.",
+      "explanation": "Vestirsi no añade -isc-.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "rutina",
+        "facets": [
+          "vestirsi"
+        ],
+        "opportunityId": "it-a1-c26-02-anna:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "si veste"
+        ],
+        "rejected": [
+          "si vestisce"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c26-02-anna",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c26-02-noi",
+      "version": "1",
+      "conceptId": "it-a1-c26-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Passa a noi: «Mi alzo presto».",
+      "options": [],
+      "hint": "Cambian el pronombre y la terminación.",
+      "explanation": "Cambian el pronombre y la terminación.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "trabajo",
+        "facets": [
+          "alzarsi"
+        ],
+        "opportunityId": "it-a1-c26-02-noi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Ci alziamo presto",
+          "Ci alziamo presto."
+        ],
+        "rejected": [
+          "Si alziamo presto"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c26-02-noi",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c26-02-loro",
+      "version": "1",
+      "conceptId": "it-a1-c26-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Correggi il pronome: «I bambini ci lavano le mani» (lavano le proprie mani).",
+      "options": [],
+      "hint": "Los niños se lavan sus propias manos: si lavano.",
+      "explanation": "Los niños se lavan sus propias manos: si lavano.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "familia",
+        "facets": [
+          "lavarsi"
+        ],
+        "opportunityId": "it-a1-c26-02-loro:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "si"
+        ],
+        "rejected": [
+          "ci"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c26-02-loro",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c26-02-negativo",
+      "version": "2",
+      "conceptId": "it-a1-c26-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Metti al negativo semplice l’intera frase, senza contrasti: «Mi alzo alle sei».",
+      "options": [],
+      "hint": "Non va antes del pronombre.",
+      "explanation": "Non va antes del pronombre.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "rutina",
+        "facets": [
+          "negacion"
+        ],
+        "opportunityId": "it-a1-c26-02-negativo:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Non mi alzo alle sei",
+          "Non mi alzo alle sei."
+        ],
+        "rejected": [
+          "Mi non alzo alle sei"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c26-02-negativo",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c26-02-orario",
+      "version": "1",
+      "conceptId": "it-a1-c26-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Scrivi la tua routine con io, alzarsi e alle otto. Ometti io.",
+      "options": [],
+      "hint": "El sujeto puede omitirse; mi se mantiene.",
+      "explanation": "El sujeto puede omitirse; mi se mantiene.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "trabajo",
+        "facets": [
+          "alzarsi"
+        ],
+        "opportunityId": "it-a1-c26-02-orario:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Mi alzo alle otto",
+          "Mi alzo alle otto."
+        ],
+        "rejected": [
+          "Alzo alle otto"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c26-02-orario",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c26-02-traduce",
+      "version": "2",
+      "conceptId": "it-a1-c26-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci: «Nos vestimos».",
+      "options": [],
+      "hint": "Se recupera la forma neutral ci vestiamo.",
+      "explanation": "Se recupera la forma neutral ci vestiamo.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "rutina",
+        "facets": [
+          "vestirsi"
+        ],
+        "opportunityId": "it-a1-c26-02-traduce:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Ci vestiamo",
+          "Ci vestiamo.",
+          "Noi ci vestiamo",
+          "Noi ci vestiamo."
+        ],
+        "rejected": [
+          "Si vestiamo"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c26-02-traduce",
+        "sourceVersion": "2"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "it-io",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "io",
+      "displayForm": "io",
+      "gloss": "yo",
+      "partOfSpeech": "pronoun",
+      "number": "singular",
+      "forms": [],
+      "tags": [
+        "personas",
+        "C03",
+        "C04",
+        "C05",
+        "C26"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c26-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t26"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidato creado por R2 para validación técnica; sin revisión editorial independiente. Fuentes de alcance: Research 02 C03/C04 y A1_COVERAGE_MATRIX C03-01/C04-01."
+    },
+    {
+      "id": "it-tu",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "tu",
+      "displayForm": "tu",
+      "gloss": "tú",
+      "partOfSpeech": "pronoun",
+      "number": "singular",
+      "forms": [],
+      "tags": [
+        "personas",
+        "C03",
+        "C04",
+        "C05",
+        "C18",
+        "C26"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c18-02",
+        "it-a1-c26-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t18",
+        "it-a1-t26"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidato creado por R2 para validación técnica; sin revisión editorial independiente. Fuentes de alcance: Research 02 C03/C04 y A1_COVERAGE_MATRIX C03-01/C04-01."
+    },
+    {
+      "id": "it-noi",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "noi",
+      "displayForm": "noi",
+      "gloss": "nosotros / nosotras",
+      "partOfSpeech": "pronoun",
+      "number": "plural",
+      "forms": [],
+      "tags": [
+        "personas",
+        "C03",
+        "C04",
+        "C05",
+        "C20",
+        "C26",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c20-04",
+        "it-a1-c26-01",
+        "it-a1-c28-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t20",
+        "it-a1-t26",
+        "it-a1-t28"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidato creado por R2 para validación técnica; sin revisión editorial independiente. Fuentes de alcance: Research 02 C03/C04 y A1_COVERAGE_MATRIX C03-01/C04-01."
+    },
+    {
+      "id": "it-voi",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "voi",
+      "displayForm": "voi",
+      "gloss": "vosotros / vosotras / ustedes",
+      "partOfSpeech": "pronoun",
+      "forms": [],
+      "tags": [
+        "pronoun",
+        "C03",
+        "C04",
+        "C05",
+        "C20",
+        "C26",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c20-04",
+        "it-a1-c26-01",
+        "it-a1-c28-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t20",
+        "it-a1-t26",
+        "it-a1-t28"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-loro",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "loro",
+      "displayForm": "loro",
+      "gloss": "ellos / ellas; su/sus de ellos o ellas, posesivo invariable",
+      "partOfSpeech": "pronoun",
+      "forms": [
+        {
+          "key": "possessive",
+          "text": "loro",
+          "features": {
+            "use": "possessive"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "pronoun",
+        "C03",
+        "C04",
+        "C05",
+        "C20",
+        "C23",
+        "C26",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c05-01",
+        "it-a1-c20-04",
+        "it-a1-c23-01",
+        "it-a1-c23-02",
+        "it-a1-c26-01",
+        "it-a1-c28-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t20",
+        "it-a1-t23",
+        "it-a1-t26",
+        "it-a1-t28"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación de usos C18–C25; candidate, revisión pendiente."
+    },
+    {
+      "id": "it-spagnolo",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "spagnolo",
+      "displayForm": "spagnolo",
+      "gloss": "español: nacionalidad; lengua en parlare spagnolo",
+      "partOfSpeech": "adjective",
+      "forms": [
+        {
+          "key": "feminine",
+          "text": "spagnola",
+          "features": {
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "adjective",
+        "C04",
+        "C14",
+        "C26",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-03",
+        "it-a1-c14-01",
+        "it-a1-c26-01",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t14",
+        "it-a1-t26",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-non",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "non",
+      "displayForm": "non",
+      "gloss": "no, ante el verbo",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C06",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C22",
+        "C26",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c15-03",
+        "it-a1-c16-06",
+        "it-a1-c17-02",
+        "it-a1-c22-04",
+        "it-a1-c26-02",
+        "it-a1-c28-02"
+      ],
+      "topicIds": [
+        "it-a1-t06",
+        "it-a1-t14",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t22",
+        "it-a1-t26",
+        "it-a1-t28"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-mano",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "mano",
+      "displayForm": "mano",
+      "gloss": "mano",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "mani",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "noun",
+        "C07",
+        "C08",
+        "C26"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c07-01",
+        "it-a1-c07-02",
+        "it-a1-c08-01",
+        "it-a1-c26-02"
+      ],
+      "topicIds": [
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t26"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-nome",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "nome",
+      "displayForm": "nome",
+      "gloss": "nombre",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "nomi",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C07",
+        "C08",
+        "C15",
+        "C16",
+        "C26",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c07-02",
+        "it-a1-c08-01",
+        "it-a1-c15-01",
+        "it-a1-c15-03",
+        "it-a1-c16-07",
+        "it-a1-c26-01",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t26",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-sei",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "sei",
+      "displayForm": "sei",
+      "gloss": "6",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13",
+        "C26"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01",
+        "it-a1-c26-02"
+      ],
+      "topicIds": [
+        "it-a1-t13",
+        "it-a1-t26"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-sette",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "sette",
+      "displayForm": "sette",
+      "gloss": "7",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13",
+        "C26",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01",
+        "it-a1-c26-02",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t13",
+        "it-a1-t26",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-otto",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "otto",
+      "displayForm": "otto",
+      "gloss": "8",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13",
+        "C26"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01",
+        "it-a1-c26-02"
+      ],
+      "topicIds": [
+        "it-a1-t13",
+        "it-a1-t26"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-ogni-giorno",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "ogni giorno",
+      "displayForm": "ogni giorno",
+      "gloss": "cada día",
+      "partOfSpeech": "expression",
+      "forms": [],
+      "tags": [
+        "expression",
+        "C14",
+        "C22",
+        "C26",
+        "C32"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c14-02",
+        "it-a1-c22-03",
+        "it-a1-c26-02",
+        "it-a1-c32-03"
+      ],
+      "topicIds": [
+        "it-a1-t14",
+        "it-a1-t22",
+        "it-a1-t26",
+        "it-a1-t32"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-andare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "andare",
+      "displayForm": "andare",
+      "gloss": "ir hacia un destino",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "vado",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "vai",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "va",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "andiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "andate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "vanno",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C16",
+        "C17",
+        "C20",
+        "C21",
+        "C26",
+        "C28",
+        "C30",
+        "C32",
+        "C33",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c16-02",
+        "it-a1-c16-04",
+        "it-a1-c17-03",
+        "it-a1-c20-03",
+        "it-a1-c21-02",
+        "it-a1-c26-02",
+        "it-a1-c28-01",
+        "it-a1-c30-02",
+        "it-a1-c32-02",
+        "it-a1-c33-01",
+        "it-a1-c34-06"
+      ],
+      "topicIds": [
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t26",
+        "it-a1-t28",
+        "it-a1-t30",
+        "it-a1-t32",
+        "it-a1-t33",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-uscire",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "uscire",
+      "displayForm": "uscire",
+      "gloss": "salir",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "esco",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "esci",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "esce",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "usciamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "uscite",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "escono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C16",
+        "C17",
+        "C20",
+        "C22",
+        "C26",
+        "C29",
+        "C32",
+        "C33"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c16-08",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c20-04",
+        "it-a1-c22-03",
+        "it-a1-c26-02",
+        "it-a1-c29-03",
+        "it-a1-c29-04",
+        "it-a1-c32-02",
+        "it-a1-c33-01"
+      ],
+      "topicIds": [
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t26",
+        "it-a1-t29",
+        "it-a1-t32",
+        "it-a1-t33"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-fratello",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "fratello",
+      "displayForm": "fratello",
+      "gloss": "hermano",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "fratelli",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C23",
+        "C26",
+        "C29",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c23-02",
+        "it-a1-c26-01",
+        "it-a1-c29-01",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t23",
+        "it-a1-t26",
+        "it-a1-t29",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-sorella",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "sorella",
+      "displayForm": "sorella",
+      "gloss": "hermana",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "sorelle",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C23",
+        "C26",
+        "C29",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c23-02",
+        "it-a1-c26-01",
+        "it-a1-c29-01",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t23",
+        "it-a1-t26",
+        "it-a1-t29",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-chiamarsi",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "chiamarsi",
+      "displayForm": "chiamarsi",
+      "gloss": "llamarse, tener por nombre",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "mi chiamo",
+          "features": {
+            "person": "io",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "ti chiami",
+          "features": {
+            "person": "tu",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "si chiama",
+          "features": {
+            "person": "lui-lei",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "ci chiamiamo",
+          "features": {
+            "person": "noi",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "vi chiamate",
+          "features": {
+            "person": "voi",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "si chiamano",
+          "features": {
+            "person": "loro",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C26",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c26-01",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t26",
+        "it-a1-t34"
+      ],
+      "examples": [
+        {
+          "target": "Mi chiamo Anna.",
+          "support": "Me llamo Anna."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente."
+    },
+    {
+      "id": "it-alzarsi",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "alzarsi",
+      "displayForm": "alzarsi",
+      "gloss": "levantarse",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "mi alzo",
+          "features": {
+            "person": "io",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "ti alzi",
+          "features": {
+            "person": "tu",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "si alza",
+          "features": {
+            "person": "lui-lei",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "ci alziamo",
+          "features": {
+            "person": "noi",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "vi alzate",
+          "features": {
+            "person": "voi",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "si alzano",
+          "features": {
+            "person": "loro",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C26"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c26-02"
+      ],
+      "topicIds": [
+        "it-a1-t26"
+      ],
+      "examples": [
+        {
+          "target": "Mi alzo alle sette.",
+          "support": "Me levanto a las siete."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente."
+    },
+    {
+      "id": "it-lavarsi",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "lavarsi",
+      "displayForm": "lavarsi",
+      "gloss": "lavarse",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "mi lavo",
+          "features": {
+            "person": "io",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "ti lavi",
+          "features": {
+            "person": "tu",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "si lava",
+          "features": {
+            "person": "lui-lei",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "ci laviamo",
+          "features": {
+            "person": "noi",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "vi lavate",
+          "features": {
+            "person": "voi",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "si lavano",
+          "features": {
+            "person": "loro",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C26"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c26-02"
+      ],
+      "topicIds": [
+        "it-a1-t26"
+      ],
+      "examples": [
+        {
+          "target": "Ci laviamo le mani.",
+          "support": "Nos lavamos las manos."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente."
+    },
+    {
+      "id": "it-vestirsi",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "vestirsi",
+      "displayForm": "vestirsi",
+      "gloss": "vestirse",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "mi vesto",
+          "features": {
+            "person": "io",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "ti vesti",
+          "features": {
+            "person": "tu",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "si veste",
+          "features": {
+            "person": "lui-lei",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "ci vestiamo",
+          "features": {
+            "person": "noi",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "vi vestite",
+          "features": {
+            "person": "voi",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "si vestono",
+          "features": {
+            "person": "loro",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C26"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c26-02"
+      ],
+      "topicIds": [
+        "it-a1-t26"
+      ],
+      "examples": [
+        {
+          "target": "Anna si veste.",
+          "support": "Anna se viste."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente."
+    },
+    {
+      "id": "it-lavoro",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "lavoro",
+      "displayForm": "lavoro",
+      "gloss": "trabajo; sustantivo masculino",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "lavori",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C26",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c26-02",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t26",
+        "it-a1-t34"
+      ],
+      "examples": [
+        {
+          "target": "Vado al lavoro.",
+          "support": "Voy al trabajo."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-presto",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "presto",
+      "displayForm": "presto",
+      "gloss": "temprano",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C26"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c26-02"
+      ],
+      "topicIds": [
+        "it-a1-t26"
+      ],
+      "examples": [
+        {
+          "target": "Mi alzo presto.",
+          "support": "Me levanto temprano."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente."
+    },
+    {
+      "id": "it-prima",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "prima",
+      "displayForm": "prima",
+      "gloss": "primero; antes",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C26",
+        "C29"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c26-02",
+        "it-a1-c29-04"
+      ],
+      "topicIds": [
+        "it-a1-t26",
+        "it-a1-t29"
+      ],
+      "examples": [
+        {
+          "target": "Prima studio, poi esco.",
+          "support": "Primero estudio, después salgo."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente."
+    }
+  ],
+  "relations": [
+    {
+      "to": "it-a1-c03-01",
+      "type": "prerequisite",
+      "reason": "El nombre se expresa según la persona del referente.",
+      "strength": "recommended",
+      "from": "it-a1-c26-01"
+    },
+    {
+      "to": "it-a1-c26-01",
+      "type": "prerequisite",
+      "reason": "Se reutiliza el vínculo entre pronombre y persona.",
+      "strength": "recommended",
+      "from": "it-a1-c26-02"
+    },
+    {
+      "to": "it-a1-c14-01",
+      "type": "prerequisite",
+      "reason": "Las rutinas en -are recuperan terminaciones del presente.",
+      "strength": "recommended",
+      "from": "it-a1-c26-02"
+    },
+    {
+      "to": "it-a1-c15-02",
+      "type": "prerequisite",
+      "reason": "Vestirsi reutiliza el presente en -ire sin -isc-.",
+      "strength": "recommended",
+      "from": "it-a1-c26-02"
+    },
+    {
+      "to": "it-a1-c02-01",
+      "type": "related",
+      "reason": "Saludos y nombres permiten presentarse.",
+      "from": "it-a1-c26-01"
+    },
+    {
+      "to": "it-a1-c22-02",
+      "type": "reinforces",
+      "reason": "Las rutinas se sitúan a una hora.",
+      "from": "it-a1-c26-02"
+    },
+    {
+      "to": "it-a1-c26-01",
+      "type": "reinforces",
+      "reason": "El léxico personal da contenido a una presentación.",
+      "from": "it-a1-c34-01"
+    },
+    {
+      "to": "it-a1-c26-02",
+      "type": "related",
+      "reason": "Léxico de actividad y verbos reflexivos expresan rutina.",
+      "from": "it-a1-c34-05"
+    }
+  ]
+}

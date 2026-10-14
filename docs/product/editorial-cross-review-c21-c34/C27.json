@@ -1,0 +1,3120 @@
+{
+  "concepts": [
+    {
+      "id": "it-a1-c27-01",
+      "version": "1",
+      "topicId": "it-a1-t27",
+      "title": "Un po' di: chiedere una quantità",
+      "objective": "Pedir cantidades con un po’ di, un litro di y un chilo di conservando la construcción y el apóstrofo.",
+      "scope": "Pedir cantidades con un po’ di, un litro di y un chilo di conservando la construcción y el apóstrofo.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "retrieval",
+        "contextual-use"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "grafia",
+        "construccion",
+        "medida",
+        "peticion"
+      ],
+      "compatibleFamilies": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c27-02",
+      "version": "1",
+      "topicId": "it-a1-t27",
+      "title": "Molto e poco",
+      "objective": "Distinguir mucho/poco como cantidad nominal variable y como adverbio invariable.",
+      "scope": "Distinguir mucho/poco como cantidad nominal variable y como adverbio invariable.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "retrieval",
+        "contextual-use"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "nominal",
+        "adverbial"
+      ],
+      "compatibleFamilies": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c27-03",
+      "version": "1",
+      "topicId": "it-a1-t27",
+      "title": "Del pane, delle mele",
+      "objective": "Comprender y usar partitivos frecuentes para cantidades indeterminadas sin tratar dei como plural universal de un.",
+      "scope": "Comprender y usar partitivos frecuentes para cantidades indeterminadas sin tratar dei como plural universal de un.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "retrieval",
+        "contextual-use",
+        "discrimination"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "singular",
+        "elision",
+        "plural",
+        "limite",
+        "funcion"
+      ],
+      "compatibleFamilies": [
+        "F2",
+        "F4",
+        "F3",
+        "F1"
+      ],
+      "coverage": "complete"
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c27-01",
+      "version": "theory-c27-01-1",
+      "conceptId": "it-a1-c27-01",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Un po' di: chiedere una quantità",
+      "goal": "Pedir cantidades con un po’ di, un litro di y un chilo di conservando la construcción y el apóstrofo.",
+      "introduction": "Una cantidad puede indicarse aproximadamente (un po’ di) o con una medida (un litro di). La medida precede a di y al alimento o bebida.",
+      "rules": [
+        "Un po’ es una reducción de poco: lleva apóstrofo, no acento. Ante el nombre: un po’ di pane.",
+        "Usa di tras las medidas: un litro di acqua, un chilo di mele. Con vocal es posible d’acqua.",
+        "La fórmula vorrei permite una petición cortés: vorrei un po’ di acqua."
+      ],
+      "forms": [
+        [
+          "un po’ di pane",
+          "un poco de pan"
+        ],
+        [
+          "un litro di acqua",
+          "un litro de agua"
+        ],
+        [
+          "un chilo di mele",
+          "un kilo de manzanas"
+        ]
+      ],
+      "examples": [
+        [
+          "Vorrei un po’ di pane, per favore.",
+          "Quisiera un poco de pan, por favor."
+        ],
+        [
+          "Prendo un litro di acqua.",
+          "Tomo un litro de agua."
+        ]
+      ],
+      "frequentErrors": [
+        "No escribas un pò ni un po sin apóstrofo.",
+        "No elimines di: un chilo mele no es la construcción enseñada."
+      ],
+      "usageNotes": [
+        "Estas expresiones indican cantidad; no identifican un objeto ya conocido."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-un-po-di",
+        "it-litro",
+        "it-chilo",
+        "it-pane",
+        "it-mela",
+        "it-acqua",
+        "it-vorrei",
+        "it-prendere",
+        "it-per-favore",
+        "it-bottiglia",
+        "it-caffe"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate."
+    },
+    {
+      "id": "it-a1-theory-c27-02",
+      "version": "theory-c27-02-1",
+      "conceptId": "it-a1-c27-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Molto e poco",
+      "goal": "Distinguir mucho/poco como cantidad nominal variable y como adverbio invariable.",
+      "introduction": "Molto y poco cambian con el nombre al que cuantifican. Cuando modifican un verbo o un adjetivo son adverbios y no cambian.",
+      "rules": [
+        "Ante nombres: molto pane, molta acqua, molti libri, molte mele; poco, poca, pochi, poche.",
+        "Con verbos: lavoro molto, dormo poco. No concuerdan con la persona.",
+        "Ante adjetivos: una camera molto grande, due camere molto grandi. Molto permanece invariable."
+      ],
+      "forms": [
+        [
+          "molto / molta / molti / molte",
+          "mucho / mucha / muchos / muchas"
+        ],
+        [
+          "poco / poca / pochi / poche",
+          "poco / poca / pocos / pocas"
+        ],
+        [
+          "studio molto / dormo poco",
+          "estudio mucho / duermo poco"
+        ]
+      ],
+      "examples": [
+        [
+          "Ho pochi libri.",
+          "Tengo pocos libros."
+        ],
+        [
+          "Bevo molta acqua.",
+          "Bebo mucha agua."
+        ],
+        [
+          "Le camere sono molto grandi.",
+          "Las habitaciones son muy grandes."
+        ]
+      ],
+      "frequentErrors": [
+        "No uses molto acqua: acqua requiere molta.",
+        "No uses camere molte grandi: molto modifica grandi y es invariable."
+      ],
+      "usageNotes": [
+        "No se estudian aquí comparativos ni valores avanzados de estos cuantificadores."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-molto",
+        "it-poco",
+        "it-pane",
+        "it-acqua",
+        "it-libro",
+        "it-mela",
+        "it-lavorare",
+        "it-dormire",
+        "it-camera",
+        "it-grande",
+        "it-comprare",
+        "it-penna"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate."
+    },
+    {
+      "id": "it-a1-theory-c27-03",
+      "version": "theory-c27-03-1",
+      "conceptId": "it-a1-c27-03",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Del pane, delle mele",
+      "goal": "Comprender y usar partitivos frecuentes para cantidades indeterminadas sin tratar dei como plural universal de un.",
+      "introduction": "Un partitivo introduce una cantidad no precisada: del pane o delle mele. Sus formas coinciden con di + artículo, pero su función depende de la frase.",
+      "rules": [
+        "Singular no contable: del pane, dello zucchero, della pasta, dell’acqua.",
+        "Plural indeterminado: dei libri, degli amici, delle mele. La forma depende del género y del inicio del nombre.",
+        "En Ho dei libri, dei indica algunos libros. En I libri dei ragazzi, indica pertenencia, no cantidad.",
+        "Dei no es obligatorio como plural de un: Ho libri italiani también es posible en un contexto adecuado. Con números se dice due libri, no dei due libri para expresar simplemente dos libros."
+      ],
+      "forms": [
+        [
+          "del / dello / della / dell’",
+          "cantidad no precisada singular"
+        ],
+        [
+          "dei / degli / delle",
+          "cantidad no precisada plural"
+        ]
+      ],
+      "examples": [
+        [
+          "Vorrei del pane.",
+          "Quisiera algo de pan."
+        ],
+        [
+          "Compro delle mele.",
+          "Compro unas manzanas."
+        ],
+        [
+          "Ho due libri.",
+          "Tengo dos libros."
+        ]
+      ],
+      "frequentErrors": [
+        "No uses dei mele ni delle acqua.",
+        "No interpretes todos los del/dei como partitivos: observa el sentido."
+      ],
+      "usageNotes": [
+        "Las actividades que piden un partitivo especifican esa restricción; omitirlo puede ser gramatical en otros contextos."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-pane",
+        "it-zucchero",
+        "it-pasta",
+        "it-acqua",
+        "it-libro",
+        "it-amico",
+        "it-mela",
+        "it-articolo-determinativo",
+        "it-di",
+        "it-due",
+        "it-invitare",
+        "it-ragazzo"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate."
+    }
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c27-01-grafia",
+      "version": "1",
+      "conceptId": "it-a1-c27-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "Scrivi «un poco» nella forma breve italiana (due parole).",
+      "options": [],
+      "hint": "La reducción lleva apóstrofo.",
+      "explanation": "La reducción lleva apóstrofo.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "supermercado",
+        "facets": [
+          "grafia"
+        ],
+        "opportunityId": "it-a1-c27-01-grafia:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "un po'",
+          "un po’"
+        ],
+        "rejected": [
+          "un pò"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-01-grafia",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c27-01-pane",
+      "version": "2",
+      "conceptId": "it-a1-c27-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Completa con una preposizione semplice: Vorrei un po’ ___ pane.",
+      "options": [],
+      "hint": "La construcción de cantidad es un po’ di + nombre.",
+      "explanation": "La preposición simple de la fórmula de cantidad es di. Del puede aparecer si se habla de una parte de un pan identificado.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "bar",
+        "facets": [
+          "construccion"
+        ],
+        "opportunityId": "it-a1-c27-01-pane:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "di"
+        ],
+        "rejected": [
+          "da"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-01-pane",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c27-01-litro",
+      "version": "1",
+      "conceptId": "it-a1-c27-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Una bottiglia contiene un litro ___ acqua.",
+      "options": [],
+      "hint": "Una medida se une al contenido mediante di.",
+      "explanation": "Una medida se une al contenido mediante di.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "supermercado",
+        "facets": [
+          "medida"
+        ],
+        "opportunityId": "it-a1-c27-01-litro:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "di",
+          "d'",
+          "d’"
+        ],
+        "rejected": [
+          "da"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-01-litro",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c27-01-chilo",
+      "version": "1",
+      "conceptId": "it-a1-c27-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Inserisci la preposizione mancante: «un chilo mele». Scrivi il gruppo completo.",
+      "options": [],
+      "hint": "La medida va seguida de di.",
+      "explanation": "La medida va seguida de di.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "supermercado",
+        "facets": [
+          "medida"
+        ],
+        "opportunityId": "it-a1-c27-01-chilo:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "un chilo di mele"
+        ],
+        "rejected": [
+          "un chilo a mele"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-01-chilo",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c27-01-ordine",
+      "version": "2",
+      "conceptId": "it-a1-c27-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Chiedi una piccola quantità di pane. Inizia con Vorrei, usa la forma breve di poco e termina con per favore.",
+      "options": [],
+      "hint": "Po’ conserva el apóstrofo en la petición.",
+      "explanation": "Po’ conserva el apóstrofo en la petición.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "restaurante",
+        "facets": [
+          "peticion"
+        ],
+        "opportunityId": "it-a1-c27-01-ordine:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Vorrei un po' di pane, per favore",
+          "Vorrei un po’ di pane, per favore",
+          "Vorrei un po' di pane, per favore.",
+          "Vorrei un po’ di pane, per favore."
+        ],
+        "rejected": [
+          "Vorrei un pò di pane, per favore"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-01-ordine",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c27-01-acqua",
+      "version": "1",
+      "conceptId": "it-a1-c27-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci: «Un litro de agua».",
+      "options": [],
+      "hint": "Di puede elidirse delante de acqua.",
+      "explanation": "Di puede elidirse delante de acqua.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "bar",
+        "facets": [
+          "medida"
+        ],
+        "opportunityId": "it-a1-c27-01-acqua:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Un litro di acqua",
+          "Un litro d'acqua",
+          "Un litro d’acqua",
+          "Un litro di acqua.",
+          "Un litro d'acqua.",
+          "Un litro d’acqua."
+        ],
+        "rejected": [
+          "Un litro da acqua"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-01-acqua",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c27-01-mele",
+      "version": "2",
+      "conceptId": "it-a1-c27-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "Vuoi esattamente 1 kg di mele: scrivi la quantità tutta in lettere.",
+      "options": [],
+      "hint": "Chilo expresa peso; litro expresa volumen.",
+      "explanation": "Chilo expresa peso; litro expresa volumen.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "supermercado",
+        "facets": [
+          "medida"
+        ],
+        "opportunityId": "it-a1-c27-01-mele:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "un chilo di mele",
+          "un chilogrammo di mele"
+        ],
+        "rejected": [
+          "un litro di mele"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-01-mele",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c27-01-ripara",
+      "version": "1",
+      "conceptId": "it-a1-c27-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Correggi la grafia di «un pò di caffè».",
+      "options": [],
+      "hint": "Po’ lleva apóstrofo; caffè conserva el acento.",
+      "explanation": "Po’ lleva apóstrofo; caffè conserva el acento.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "bar",
+        "facets": [
+          "grafia"
+        ],
+        "opportunityId": "it-a1-c27-01-ripara:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "un po' di caffè",
+          "un po’ di caffè"
+        ],
+        "rejected": [
+          "un po di caffè"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-01-ripara",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c27-02-acqua",
+      "version": "1",
+      "conceptId": "it-a1-c27-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Bevo ___ acqua (molto).",
+      "options": [],
+      "hint": "Acqua es femenino singular.",
+      "explanation": "Acqua es femenino singular.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "rutina",
+        "facets": [
+          "nominal"
+        ],
+        "opportunityId": "it-a1-c27-02-acqua:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "molta"
+        ],
+        "rejected": [
+          "molto"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-02-acqua",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c27-02-libri",
+      "version": "1",
+      "conceptId": "it-a1-c27-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Ho ___ libri (poco).",
+      "options": [],
+      "hint": "Libri es masculino plural; poco cambia a pochi.",
+      "explanation": "Libri es masculino plural; poco cambia a pochi.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "estudio",
+        "facets": [
+          "nominal"
+        ],
+        "opportunityId": "it-a1-c27-02-libri:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "pochi"
+        ],
+        "rejected": [
+          "poco"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-02-libri",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c27-02-mele",
+      "version": "1",
+      "conceptId": "it-a1-c27-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Compro ___ mele (molto).",
+      "options": [],
+      "hint": "Mele es femenino plural.",
+      "explanation": "Mele es femenino plural.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "supermercado",
+        "facets": [
+          "nominal"
+        ],
+        "opportunityId": "it-a1-c27-02-mele:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "molte"
+        ],
+        "rejected": [
+          "molti"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-02-mele",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c27-02-adverbio",
+      "version": "1",
+      "conceptId": "it-a1-c27-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Correggi solo il quantificatore: «Le camere sono molte grandi».",
+      "options": [],
+      "hint": "Ante el adjetivo el adverbio es invariable.",
+      "explanation": "Ante el adjetivo el adverbio es invariable.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "hotel",
+        "facets": [
+          "adverbial"
+        ],
+        "opportunityId": "it-a1-c27-02-adverbio:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "molto"
+        ],
+        "rejected": [
+          "molte"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-02-adverbio",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c27-02-lavoro",
+      "version": "1",
+      "conceptId": "it-a1-c27-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Passa a noi: «Lavoro molto».",
+      "options": [],
+      "hint": "Molto modifica el verbo y no cambia.",
+      "explanation": "Molto modifica el verbo y no cambia.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "trabajo",
+        "facets": [
+          "adverbial"
+        ],
+        "opportunityId": "it-a1-c27-02-lavoro:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Lavoriamo molto",
+          "Lavoriamo molto."
+        ],
+        "rejected": [
+          "Lavoriamo molti"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-02-lavoro",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c27-02-pane",
+      "version": "1",
+      "conceptId": "it-a1-c27-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci: «Tengo poco pan».",
+      "options": [],
+      "hint": "Pane es masculino; corresponde poco.",
+      "explanation": "Pane es masculino; corresponde poco.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "vivienda",
+        "facets": [
+          "nominal"
+        ],
+        "opportunityId": "it-a1-c27-02-pane:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Ho poco pane",
+          "Io ho poco pane",
+          "Ho poco pane.",
+          "Io ho poco pane."
+        ],
+        "rejected": [
+          "Ho poca pane"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-02-pane",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c27-02-dormire",
+      "version": "1",
+      "conceptId": "it-a1-c27-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Rispondi in due parole: tu dormi poco. Usa io, ma senza scrivere il pronome.",
+      "options": [],
+      "hint": "Poco modifica dormire y es invariable.",
+      "explanation": "Poco modifica dormire y es invariable.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "rutina",
+        "facets": [
+          "adverbial"
+        ],
+        "opportunityId": "it-a1-c27-02-dormire:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Dormo poco",
+          "Dormo poco."
+        ],
+        "rejected": [
+          "Dormo poca"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-02-dormire",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c27-02-poche",
+      "version": "1",
+      "conceptId": "it-a1-c27-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Nel negozio ci sono ___ penne (poco).",
+      "options": [],
+      "hint": "El femenino plural de poco es poche.",
+      "explanation": "El femenino plural de poco es poche.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "compras",
+        "facets": [
+          "nominal"
+        ],
+        "opportunityId": "it-a1-c27-02-poche:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "poche"
+        ],
+        "rejected": [
+          "pochi"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-02-poche",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c27-03-pane",
+      "version": "1",
+      "conceptId": "it-a1-c27-03",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Completa con un articolo partitivo: Vorrei ___ pane.",
+      "options": [],
+      "hint": "Pane pide el singular masculino del.",
+      "explanation": "Pane pide el singular masculino del.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "bar",
+        "facets": [
+          "singular"
+        ],
+        "opportunityId": "it-a1-c27-03-pane:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "del"
+        ],
+        "rejected": [
+          "dei"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-03-pane",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c27-03-zucchero",
+      "version": "1",
+      "conceptId": "it-a1-c27-03",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Completa con un partitivo: C’è ___ zucchero.",
+      "options": [],
+      "hint": "Z inicial selecciona dello.",
+      "explanation": "Z inicial selecciona dello.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "vivienda",
+        "facets": [
+          "singular"
+        ],
+        "opportunityId": "it-a1-c27-03-zucchero:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "dello"
+        ],
+        "rejected": [
+          "del"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-03-zucchero",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c27-03-acqua",
+      "version": "1",
+      "conceptId": "it-a1-c27-03",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Usa il partitivo: Bevo ___ acqua.",
+      "options": [],
+      "hint": "Ante vocal se elide: dell’acqua.",
+      "explanation": "Ante vocal se elide: dell’acqua.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "restaurante",
+        "facets": [
+          "elision"
+        ],
+        "opportunityId": "it-a1-c27-03-acqua:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "dell'",
+          "dell’"
+        ],
+        "rejected": [
+          "della"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-03-acqua",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c27-03-amici",
+      "version": "1",
+      "conceptId": "it-a1-c27-03",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Usa il partitivo: Invito ___ amici.",
+      "options": [],
+      "hint": "Amici empieza por vocal: degli amici.",
+      "explanation": "Amici empieza por vocal: degli amici.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "ocio",
+        "facets": [
+          "plural"
+        ],
+        "opportunityId": "it-a1-c27-03-amici:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "degli"
+        ],
+        "rejected": [
+          "dei"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-03-amici",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c27-03-mele",
+      "version": "1",
+      "conceptId": "it-a1-c27-03",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Scrivi un acquisto con Compro + partitivo + mele.",
+      "options": [],
+      "hint": "Mele requiere delle.",
+      "explanation": "Mele requiere delle.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "supermercado",
+        "facets": [
+          "plural"
+        ],
+        "opportunityId": "it-a1-c27-03-mele:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Compro delle mele",
+          "Compro delle mele."
+        ],
+        "rejected": [
+          "Compro dei mele"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-03-mele",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c27-03-numero",
+      "version": "1",
+      "conceptId": "it-a1-c27-03",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Vuoi dire esattamente due libri: elimina la parola superflua da «Ho dei due libri».",
+      "options": [],
+      "hint": "El numeral expresa por sí mismo la cantidad.",
+      "explanation": "El numeral expresa por sí mismo la cantidad.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "compras",
+        "facets": [
+          "limite"
+        ],
+        "opportunityId": "it-a1-c27-03-numero:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Ho due libri",
+          "Ho due libri."
+        ],
+        "rejected": [
+          "Ho dei libri"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-03-numero",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c27-03-funzione",
+      "version": "1",
+      "conceptId": "it-a1-c27-03",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "In «I libri dei ragazzi», dei indica quantità o appartenenza?",
+      "options": [
+        "quantità",
+        "appartenenza"
+      ],
+      "hint": "Aquí di + artículo une libros y poseedores.",
+      "explanation": "Aquí di + artículo une libros y poseedores.",
+      "dimension": "discrimination",
+      "task": {
+        "skill": "discrimination",
+        "context": "estudio",
+        "facets": [
+          "funcion"
+        ],
+        "opportunityId": "it-a1-c27-03-funzione:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "appartenenza"
+        ],
+        "rejected": [
+          "quantità"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-03-funzione",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c27-03-pasta",
+      "version": "1",
+      "conceptId": "it-a1-c27-03",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci «Quisiera algo de pasta» usando un articolo partitivo.",
+      "options": [],
+      "hint": "Pasta es femenino singular.",
+      "explanation": "Pasta es femenino singular.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "restaurante",
+        "facets": [
+          "singular"
+        ],
+        "opportunityId": "it-a1-c27-03-pasta:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Vorrei della pasta",
+          "Vorrei della pasta."
+        ],
+        "rejected": [
+          "Vorrei delle pasta"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C27; A1_COVERAGE_MATRIX C27. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c27-03-pasta",
+        "sourceVersion": "1"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "it-amico",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "amico",
+      "displayForm": "amico",
+      "gloss": "amigo; femenino amica: amiga",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "feminine",
+          "text": "amica",
+          "features": {
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "irregular": false
+        },
+        {
+          "key": "plural",
+          "text": "amici",
+          "features": {
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "irregular": false
+        },
+        {
+          "key": "feminine-plural",
+          "text": "amiche",
+          "features": {
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C04",
+        "C09",
+        "C10",
+        "C11",
+        "C15",
+        "C16",
+        "C20",
+        "C21",
+        "C24",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c04-02",
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c10-01",
+        "it-a1-c11-01",
+        "it-a1-c11-02",
+        "it-a1-c15-01",
+        "it-a1-c16-02",
+        "it-a1-c16-03",
+        "it-a1-c16-04",
+        "it-a1-c16-05",
+        "it-a1-c16-06",
+        "it-a1-c16-08",
+        "it-a1-c20-04",
+        "it-a1-c21-01",
+        "it-a1-c24-01",
+        "it-a1-c24-02",
+        "it-a1-c27-03"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t04",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t11",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t24",
+        "it-a1-t27"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-caffe",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "caffè",
+      "displayForm": "caffè",
+      "gloss": "café",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "caffè",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C02",
+        "C08",
+        "C10",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C20",
+        "C22",
+        "C25",
+        "C27",
+        "C28",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-02",
+        "it-a1-c01-03",
+        "it-a1-c02-02",
+        "it-a1-c08-02",
+        "it-a1-c10-02",
+        "it-a1-c15-01",
+        "it-a1-c16-06",
+        "it-a1-c17-02",
+        "it-a1-c18-01",
+        "it-a1-c20-05",
+        "it-a1-c22-03",
+        "it-a1-c25-01",
+        "it-a1-c25-02",
+        "it-a1-c27-01",
+        "it-a1-c28-01",
+        "it-a1-c28-02",
+        "it-a1-c31-02",
+        "it-a1-c32-03",
+        "it-a1-c34-03"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t02",
+        "it-a1-t08",
+        "it-a1-t10",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación C08: plural canónico del repertorio; candidate."
+    },
+    {
+      "id": "it-penna",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "penna",
+      "displayForm": "penna",
+      "gloss": "bolígrafo / pluma para escribir",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "penne",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C16",
+        "C20",
+        "C23",
+        "C24",
+        "C25",
+        "C27",
+        "C28",
+        "C29",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-03",
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c06-02",
+        "it-a1-c07-01",
+        "it-a1-c08-01",
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c09-03",
+        "it-a1-c10-01",
+        "it-a1-c10-02",
+        "it-a1-c11-02",
+        "it-a1-c12-01",
+        "it-a1-c16-05",
+        "it-a1-c20-01",
+        "it-a1-c20-02",
+        "it-a1-c23-01",
+        "it-a1-c24-01",
+        "it-a1-c24-02",
+        "it-a1-c25-02",
+        "it-a1-c27-02",
+        "it-a1-c28-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c34-04"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t05",
+        "it-a1-t06",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t11",
+        "it-a1-t12",
+        "it-a1-t16",
+        "it-a1-t20",
+        "it-a1-t23",
+        "it-a1-t24",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-per-favore",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "per favore",
+      "displayForm": "per favore",
+      "gloss": "por favor",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C02",
+        "C08",
+        "C10",
+        "C12",
+        "C18",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c02-02",
+        "it-a1-c02-03",
+        "it-a1-c08-02",
+        "it-a1-c10-02",
+        "it-a1-c12-01",
+        "it-a1-c18-01",
+        "it-a1-c27-01"
+      ],
+      "topicIds": [
+        "it-a1-t02",
+        "it-a1-t08",
+        "it-a1-t10",
+        "it-a1-t12",
+        "it-a1-t18",
+        "it-a1-t27"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-di",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "di",
+      "displayForm": "di",
+      "gloss": "de: origen con essere, pertenencia y contenido; di notte",
+      "partOfSpeech": "preposition",
+      "forms": [],
+      "tags": [
+        "preposition",
+        "C04",
+        "C20",
+        "C21",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-03",
+        "it-a1-c20-01",
+        "it-a1-c20-06",
+        "it-a1-c21-01",
+        "it-a1-c21-02",
+        "it-a1-c27-03"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t27"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación de usos C18–C25; candidate, revisión pendiente."
+    },
+    {
+      "id": "it-due",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "due",
+      "displayForm": "due",
+      "gloss": "dos",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C05",
+        "C08",
+        "C13",
+        "C19",
+        "C20",
+        "C22",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c08-01",
+        "it-a1-c08-02",
+        "it-a1-c13-01",
+        "it-a1-c13-03",
+        "it-a1-c19-01",
+        "it-a1-c19-02",
+        "it-a1-c20-02",
+        "it-a1-c20-06",
+        "it-a1-c22-01",
+        "it-a1-c22-02",
+        "it-a1-c22-04",
+        "it-a1-c27-03"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t08",
+        "it-a1-t13",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t27"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-articolo-determinativo",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "il / lo / la / l’ / i / gli / le",
+      "displayForm": "il / lo / la / l’ / i / gli / le",
+      "gloss": "artículo determinado: el, la, los, las",
+      "partOfSpeech": "article",
+      "forms": [],
+      "tags": [
+        "article",
+        "C09",
+        "C10",
+        "C12",
+        "C21",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c09-03",
+        "it-a1-c10-02",
+        "it-a1-c12-01",
+        "it-a1-c21-01",
+        "it-a1-c27-03"
+      ],
+      "topicIds": [
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t12",
+        "it-a1-t21",
+        "it-a1-t27"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-grande",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "grande",
+      "displayForm": "grande",
+      "gloss": "grande",
+      "partOfSpeech": "adjective",
+      "forms": [
+        {
+          "key": "masculine",
+          "text": "grande",
+          "features": {
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "irregular": false
+        },
+        {
+          "key": "feminine",
+          "text": "grande",
+          "features": {
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "irregular": false
+        },
+        {
+          "key": "plural",
+          "text": "grandi",
+          "features": {
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "irregular": false
+        },
+        {
+          "key": "feminine-plural",
+          "text": "grandi",
+          "features": {
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "adjective",
+        "C11",
+        "C12",
+        "C27",
+        "C29"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c11-01",
+        "it-a1-c12-01",
+        "it-a1-c27-02",
+        "it-a1-c29-01"
+      ],
+      "topicIds": [
+        "it-a1-t11",
+        "it-a1-t12",
+        "it-a1-t27",
+        "it-a1-t29"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-camera",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "camera",
+      "displayForm": "camera",
+      "gloss": "habitación",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "camere",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C11",
+        "C12",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "C27",
+        "C29",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c11-01",
+        "it-a1-c11-02",
+        "it-a1-c12-01",
+        "it-a1-c18-01",
+        "it-a1-c19-01",
+        "it-a1-c19-02",
+        "it-a1-c20-01",
+        "it-a1-c21-01",
+        "it-a1-c27-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c34-02"
+      ],
+      "topicIds": [
+        "it-a1-t11",
+        "it-a1-t12",
+        "it-a1-t18",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t27",
+        "it-a1-t29",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-lavorare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "lavorare",
+      "displayForm": "lavorare",
+      "gloss": "trabajar",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "lavoro",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "lavori",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "lavora",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "lavoriamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "lavorate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "lavorano",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C14",
+        "C17",
+        "C20",
+        "C21",
+        "C22",
+        "C25",
+        "C27",
+        "C29",
+        "C31",
+        "C32",
+        "C33",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c17-03",
+        "it-a1-c20-02",
+        "it-a1-c20-06",
+        "it-a1-c21-02",
+        "it-a1-c22-01",
+        "it-a1-c25-01",
+        "it-a1-c27-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c29-03",
+        "it-a1-c29-04",
+        "it-a1-c31-01",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c32-03",
+        "it-a1-c33-01",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t14",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t22",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t33",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-prendere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "prendere",
+      "displayForm": "prendere",
+      "gloss": "tomar",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "prendo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "prendi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "prende",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "prendiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "prendete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "prendono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C15",
+        "C20",
+        "C27",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-01",
+        "it-a1-c20-03",
+        "it-a1-c27-01",
+        "it-a1-c28-02",
+        "it-a1-c29-04",
+        "it-a1-c30-01",
+        "it-a1-c30-02",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c32-03"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t20",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-dormire",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "dormire",
+      "displayForm": "dormire",
+      "gloss": "dormir",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "dormo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "dormi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "dorme",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "dormiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "dormite",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "dormono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C15",
+        "C17",
+        "C27",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-02",
+        "it-a1-c15-03",
+        "it-a1-c17-02",
+        "it-a1-c27-02",
+        "it-a1-c29-04",
+        "it-a1-c30-02",
+        "it-a1-c31-01",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t17",
+        "it-a1-t27",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-libro",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "libro",
+      "displayForm": "libro",
+      "gloss": "libro",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "libri",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C15",
+        "C16",
+        "C17",
+        "C19",
+        "C20",
+        "C21",
+        "C23",
+        "C24",
+        "C25",
+        "C27",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-01",
+        "it-a1-c16-05",
+        "it-a1-c17-01",
+        "it-a1-c19-02",
+        "it-a1-c20-01",
+        "it-a1-c20-02",
+        "it-a1-c20-05",
+        "it-a1-c21-01",
+        "it-a1-c21-02",
+        "it-a1-c23-01",
+        "it-a1-c24-01",
+        "it-a1-c24-02",
+        "it-a1-c25-02",
+        "it-a1-c27-02",
+        "it-a1-c27-03",
+        "it-a1-c28-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c30-01",
+        "it-a1-c30-02",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c34-04"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t23",
+        "it-a1-t24",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-acqua",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "acqua",
+      "displayForm": "acqua",
+      "gloss": "agua",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C16",
+        "C17",
+        "C18",
+        "C27",
+        "C29",
+        "C30",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c16-06",
+        "it-a1-c17-02",
+        "it-a1-c18-01",
+        "it-a1-c27-01",
+        "it-a1-c27-02",
+        "it-a1-c27-03",
+        "it-a1-c29-01",
+        "it-a1-c29-03",
+        "it-a1-c30-01",
+        "it-a1-c34-03"
+      ],
+      "topicIds": [
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t27",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-vorrei",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "vorrei",
+      "displayForm": "vorrei",
+      "gloss": "quisiera / me gustaría; fórmula de petición en primera persona",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C18",
+        "C24",
+        "C27",
+        "C29",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c18-01",
+        "it-a1-c24-01",
+        "it-a1-c24-02",
+        "it-a1-c27-01",
+        "it-a1-c29-02",
+        "it-a1-c34-02",
+        "it-a1-c34-03"
+      ],
+      "topicIds": [
+        "it-a1-t18",
+        "it-a1-t24",
+        "it-a1-t27",
+        "it-a1-t29",
+        "it-a1-t34"
+      ],
+      "examples": [
+        {
+          "target": "Vorrei una camera, per favore.",
+          "support": "Quisiera una habitación, por favor."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-un-po-di",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "un po’ di",
+      "displayForm": "un po’ di",
+      "gloss": "un poco de",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c27-01"
+      ],
+      "topicIds": [
+        "it-a1-t27"
+      ],
+      "examples": [
+        {
+          "target": "Vorrei un po’ di pane.",
+          "support": "Quisiera un poco de pan."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente."
+    },
+    {
+      "id": "it-litro",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "litro",
+      "displayForm": "litro",
+      "gloss": "litro; masculino",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "litri",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C27",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c27-01",
+        "it-a1-c34-03"
+      ],
+      "topicIds": [
+        "it-a1-t27",
+        "it-a1-t34"
+      ],
+      "examples": [
+        {
+          "target": "Un litro di acqua.",
+          "support": "Un litro de agua."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-chilo",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "chilo",
+      "displayForm": "chilo",
+      "gloss": "kilo; masculino",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "chili",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C27",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c27-01",
+        "it-a1-c34-03"
+      ],
+      "topicIds": [
+        "it-a1-t27",
+        "it-a1-t34"
+      ],
+      "examples": [
+        {
+          "target": "Un chilo di mele.",
+          "support": "Un kilo de manzanas."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-pane",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "pane",
+      "displayForm": "pane",
+      "gloss": "pan; masculino",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C27",
+        "C29",
+        "C30",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c27-01",
+        "it-a1-c27-02",
+        "it-a1-c27-03",
+        "it-a1-c29-01",
+        "it-a1-c30-01",
+        "it-a1-c34-03"
+      ],
+      "topicIds": [
+        "it-a1-t27",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t34"
+      ],
+      "examples": [
+        {
+          "target": "Vorrei del pane.",
+          "support": "Quisiera algo de pan."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-mela",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "mela",
+      "displayForm": "mela",
+      "gloss": "manzana; femenino",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "mele",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C27",
+        "C28",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c27-01",
+        "it-a1-c27-02",
+        "it-a1-c27-03",
+        "it-a1-c28-02",
+        "it-a1-c34-03"
+      ],
+      "topicIds": [
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t34"
+      ],
+      "examples": [
+        {
+          "target": "Compro due mele.",
+          "support": "Compro dos manzanas."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-molto",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "molto",
+      "displayForm": "molto",
+      "gloss": "mucho; muy ante adjetivo",
+      "partOfSpeech": "quantifier",
+      "forms": [
+        {
+          "key": "m-sg",
+          "text": "molto",
+          "features": {
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "irregular": false
+        },
+        {
+          "key": "f-sg",
+          "text": "molta",
+          "features": {
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "irregular": false
+        },
+        {
+          "key": "m-pl",
+          "text": "molti",
+          "features": {
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "irregular": false
+        },
+        {
+          "key": "f-pl",
+          "text": "molte",
+          "features": {
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "quantifier",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c27-02"
+      ],
+      "topicIds": [
+        "it-a1-t27"
+      ],
+      "examples": [
+        {
+          "target": "Lavoro molto.",
+          "support": "Trabajo mucho."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente."
+    },
+    {
+      "id": "it-poco",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "poco",
+      "displayForm": "poco",
+      "gloss": "poco; variable con nombres, invariable con verbos",
+      "partOfSpeech": "quantifier",
+      "forms": [
+        {
+          "key": "m-sg",
+          "text": "poco",
+          "features": {
+            "gender": "masculine",
+            "number": "singular"
+          },
+          "irregular": false
+        },
+        {
+          "key": "f-sg",
+          "text": "poca",
+          "features": {
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "irregular": false
+        },
+        {
+          "key": "m-pl",
+          "text": "pochi",
+          "features": {
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "irregular": false
+        },
+        {
+          "key": "f-pl",
+          "text": "poche",
+          "features": {
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "quantifier",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c27-02"
+      ],
+      "topicIds": [
+        "it-a1-t27"
+      ],
+      "examples": [
+        {
+          "target": "Ho pochi libri.",
+          "support": "Tengo pocos libros."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente."
+    },
+    {
+      "id": "it-comprare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "comprare",
+      "displayForm": "comprare",
+      "gloss": "comprar",
+      "partOfSpeech": "verb",
+      "forms": [],
+      "tags": [
+        "verb",
+        "C27",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c27-02",
+        "it-a1-c28-02"
+      ],
+      "topicIds": [
+        "it-a1-t27",
+        "it-a1-t28"
+      ],
+      "examples": [
+        {
+          "target": "Compro una penna.",
+          "support": "Compro un bolígrafo."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente."
+    },
+    {
+      "id": "it-zucchero",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "zucchero",
+      "displayForm": "zucchero",
+      "gloss": "azúcar; masculino",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C27",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c27-03",
+        "it-a1-c34-03"
+      ],
+      "topicIds": [
+        "it-a1-t27",
+        "it-a1-t34"
+      ],
+      "examples": [
+        {
+          "target": "Vorrei dello zucchero.",
+          "support": "Quisiera algo de azúcar."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-pasta",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "pasta",
+      "displayForm": "pasta",
+      "gloss": "pasta alimentaria; femenino",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C27",
+        "C29",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c27-03",
+        "it-a1-c29-01",
+        "it-a1-c34-03"
+      ],
+      "topicIds": [
+        "it-a1-t27",
+        "it-a1-t29",
+        "it-a1-t34"
+      ],
+      "examples": [
+        {
+          "target": "Vorrei della pasta.",
+          "support": "Quisiera algo de pasta."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-invitare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "invitare",
+      "displayForm": "invitare",
+      "gloss": "invitar",
+      "partOfSpeech": "verb",
+      "forms": [],
+      "tags": [
+        "verb",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c27-03"
+      ],
+      "topicIds": [
+        "it-a1-t27"
+      ],
+      "examples": [
+        {
+          "target": "Invito Anna.",
+          "support": "Invito a Anna."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente."
+    },
+    {
+      "id": "it-ragazzo",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "ragazzo",
+      "displayForm": "ragazzo",
+      "gloss": "chico; masculino",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "ragazzi",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c27-03"
+      ],
+      "topicIds": [
+        "it-a1-t27"
+      ],
+      "examples": [
+        {
+          "target": "I libri dei ragazzi.",
+          "support": "Los libros de los chicos."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-bottiglia",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "bottiglia",
+      "displayForm": "bottiglia",
+      "gloss": "botella; femenino",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "bottiglie",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C27",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c27-01",
+        "it-a1-c34-03"
+      ],
+      "topicIds": [
+        "it-a1-t27",
+        "it-a1-t34"
+      ],
+      "examples": [
+        {
+          "target": "Una bottiglia di acqua.",
+          "support": "Una botella de agua."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX; ejemplos originales, revisión editorial pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    }
+  ],
+  "relations": [
+    {
+      "to": "it-a1-c13-03",
+      "type": "prerequisite",
+      "reason": "Las medidas amplían cantidades conocidas.",
+      "strength": "recommended",
+      "from": "it-a1-c27-01"
+    },
+    {
+      "to": "it-a1-c08-01",
+      "type": "prerequisite",
+      "reason": "El cuantificador nominal concuerda en número.",
+      "strength": "recommended",
+      "from": "it-a1-c27-02"
+    },
+    {
+      "to": "it-a1-c09-01",
+      "type": "prerequisite",
+      "reason": "Los partitivos recuperan género e inicio del nombre.",
+      "strength": "recommended",
+      "from": "it-a1-c27-03"
+    },
+    {
+      "to": "it-a1-c09-02",
+      "type": "prerequisite",
+      "reason": "El plural usa las series dei/degli/delle.",
+      "strength": "recommended",
+      "from": "it-a1-c27-03"
+    },
+    {
+      "to": "it-a1-c18-01",
+      "type": "reinforces",
+      "reason": "Las cantidades se piden con vorrei.",
+      "from": "it-a1-c27-01"
+    },
+    {
+      "to": "it-a1-c21-01",
+      "type": "contrast",
+      "reason": "La misma forma superficial puede expresar cantidad o una relación con di.",
+      "from": "it-a1-c27-03"
+    },
+    {
+      "to": "it-a1-c10-02",
+      "type": "contrast",
+      "reason": "El partitivo no es un plural obligatorio del indeterminado.",
+      "from": "it-a1-c27-03"
+    },
+    {
+      "to": "it-a1-c27-01",
+      "type": "reinforces",
+      "reason": "Alimentos y medidas forman pedidos concretos.",
+      "from": "it-a1-c34-03"
+    }
+  ]
+}
