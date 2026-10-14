@@ -300,6 +300,7 @@ export const c13: Lesson[] = [
   },
   {
     code: '13-02',
+    theoryRevision: 'editorial-1',
     title: 'Cento, duecento, mille',
     objective:
       'Comprender y expresar centenas y números frecuentes hasta 1000 en precios y cantidades acotados.',
@@ -308,7 +309,7 @@ export const c13: Lesson[] = [
     rules: [
       '100 es cento, sin un delante; 200–900 unen la unidad con cento. 1000 es mille.',
       'Une centena y resto sin e: centoventi, duecentocinquanta, novecentonovantanove.',
-      'Ante ottanta, cento pierde la o: centottanta, duecentottanta. Ante otto se encuentran centotto y centootto; ambas se aceptan cuando la tarea pide 108.',
+      'Ante ottanta, es frecuente que cento pierda la o: centottanta, duecentottanta. También es válida la forma sin elisión centoottanta. Ante otto se encuentran centotto y centootto; ambas se aceptan cuando la tarea pide 108.',
       'Los compuestos acabados en -tré mantienen el acento: centotré. El repertorio se limita a 1000; miles plurales quedan fuera de estas tareas.',
     ],
     forms: [
@@ -399,14 +400,17 @@ export const c13: Lesson[] = [
       },
       {
         key: 'centottanta',
-        format: 'error-correction',
-        prompt: 'Correggi 180: «centoottanta».',
+        version: '2',
+        format: 'transformation',
+        prompt:
+          'Riscrivi «centoottanta» nella variante con elisione della vocale finale di cento.',
         accepted: ['centottanta'],
-        hint: 'Cento pierde o ante ottanta.',
-        explanation: 'Cento pierde o ante ottanta.',
+        hint: 'La variante con elisión es centottanta. Centoottanta también es válida.',
+        explanation:
+          'Centottanta es la variante con elisión solicitada; centoottanta no es un error ortográfico.',
         facets: ['elisión'],
         context: 'hotel',
-        rejected: ['centoottanta'],
+        rejected: [],
       },
       {
         key: 'centotto',

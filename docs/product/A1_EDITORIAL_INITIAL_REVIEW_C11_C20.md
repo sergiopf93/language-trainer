@@ -1,0 +1,23 @@
+# 5B.3 — dictamen inicial previo a la revisión cruzada
+
+R2; lectura iniciada 2026-10-13 y cierre inicial 2026-10-14. Baseline 78f5fc4, rama feat/editorial-review-c11-c20. Este documento se guarda antes de convocar al revisor aislado y no se le facilita.
+
+Lectura integral: 32 Concepts/Theory, 292 actividades, 144 entradas léxicas asociadas y 102 relaciones incidentes. Se consultan AGENTS, contexto, informes 5B.1/5B.2 y únicamente filas C11–C20 de Research 02 y matriz curricular. No hay templates del lote. No se regenera contenido. Los enlaces a otros bloques se inspeccionan como dependencias, sin revisión de esos bloques.
+
+## Hallazgos y decisiones iniciales
+
+- **E01 — error confirmado, C13-02:** se presentaba centoottanta como error. [Treccani](https://www.treccani.it/magazine/lingua_italiana/domande_e_risposte/grammatica/grammatica_258.html) admite esa grafía. Se corrige Theory y se pide una transformación explícita a la variante con elisión; se retira el rechazo. No se amplía accepted para ocultar un enunciado abierto.
+- **E02 — error confirmado, C20-06:** rechazo de a ante agosto pese a las variantes a/ad/in. [De Mauro](https://dizionario.internazionale.it/parola/agosto) registra in/ad agosto; [estudio lingüístico](https://sbc.org.pl/Content/901181/neophilologica_36.pdf), p. 19, documenta ambas preposiciones. Theory y criterio reconocen variantes de la misma relación temporal delimitada. La d eufónica no es obligatoria.
+- **E03 — error confirmado, C16-03:** los dos enlaces de contraste en Theory apuntaban a las fichas erróneas de essere. Se ajustan a C04-05 (estado) y C04-04 (localización); el grafo ya tenía esos enlaces correctos y se conserva. No cambia contenido C01–C10.
+- **E04 — error editorial confirmado:** varias consignas de C14–C17 y un feedback de C12 mezclaban idiomas accidentalmente. Se conserva el apoyo español deliberado y se corrigen las instrucciones híbridas.
+- **E05 — defecto pedagógico confirmado:** C11-02-bella y producciones de C18–C20 ofrecían la solución íntegra. Se retira el modelo conjugado o la preposición objetivo y se usan traducciones/intenciones delimitadas. Se conservan los lemas de apoyo. No se cambia el alcance curricular.
+- **A01 — ambigüedad relevante resuelta inicialmente:** se explicita presente indicativo donde se rechazaban formas válidas de subjuntivo o futuro (legga/leggiate/leggano/prenda/prendano/stiate/berete). No se proclaman formas imposibles universalmente.
+- **A02 — ambigüedad relevante resuelta inicialmente:** negación simple C14/C19; localización frente a existencia en C19; procedencia/origen, destino personal y regreso al domicilio en C20. Vado in casa deja de rechazarse universalmente. La lectura contrastiva de negación no es el objetivo de las tareas.
+- **E06 — naturalidad contextual, C20-04:** la reparación Esco con io producía Esco con me, poco natural sin contexto especial. Se usa Anna esce con io, que conduce a Anna esce con me. No se declara imposible la expresión original en todos los usos.
+- **O01 — mejora opcional:** se admite punto final en respuestas completas de C18–C20 y posiciones naturales de per favore en la petición de billete. Las abstenciones anteriores no se contabilizan como errores lingüísticos. Accepted modificadas: 27 listas, incluyendo E02. No se cambian evaluador ni normalización.
+
+Se conservan sin intervención las simplificaciones A1: posición básica del adjetivo sin orden universal, repertorio acotado de bello, verbos regulares en presente sin afirmar regularidad en todos los tiempos, venire con referencia interlocutiva, distinción contextual stare/essere, modalidad y vorrei como fórmula, existencia compatible con determinados, preposiciones por construcción. Se mantienen variantes debbo/debbono y centotto/centootto. [Crusca](https://accademiadellacrusca.it/it/consulenza/vademecum-sullaccento-quando-indicarlo-e-dove-pronunciarlo/34) respalda do/sto/fa/sta sin acento. No se elimina contenido por mera preferencia de estilo.
+
+Vocabulario: 144 entradas leídas con sentidos, género/número, formas y ejemplos; **0 correcciones**. Las listas de formas no son paradigmas exhaustivos y su brevedad no prueba un error. Relaciones: **102 revisadas, 0 modificadas**; prerrequisitos recomendados y vínculos de contraste coherentes con el currículo. La corrección de enlaces internos de Theory no cambia el grafo.
+
+Resultado inicial: no quedan bloqueos inequívocos conocidos después de 71 actividades y 3 Theory corregidas; las 32 decisiones siguen **candidate** hasta recibir el dictamen independiente y resolverlo. La lista precisa de entidades/versiones/campos está en A1_EDITORIAL_CHANGES_C11_C20.json. Este dictamen no anticipa la decisión final del revisor ni acredita validación lingüística con tests.

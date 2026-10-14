@@ -1,0 +1,2706 @@
+{
+  "topic": "C15",
+  "concepts": [
+    {
+      "id": "it-a1-c15-01",
+      "version": "1",
+      "topicId": "it-a1-t15",
+      "title": "Leggere e prendere: il presente in -ere",
+      "objective": "Recuperar y usar el presente regular -ere de leggere y prendere en lectura y consumo cotidiano.",
+      "scope": "Recuperar y usar el presente regular -ere de leggere y prendere en lectura y consumo cotidiano.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use",
+        "discrimination"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "io",
+        "tu",
+        "lui-lei",
+        "noi",
+        "voi",
+        "loro",
+        "prendere",
+        "uso",
+        "contraste"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c15-02",
+      "version": "1",
+      "topicId": "it-a1-t15",
+      "title": "Il presente di dormire",
+      "objective": "Recuperar y usar dormire en presente: dormir.",
+      "scope": "Recuperar y usar dormire en presente: dormir.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "discrimination",
+        "contextual-use"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "io",
+        "tu",
+        "lui-lei",
+        "noi",
+        "voi",
+        "loro",
+        "contraste",
+        "uso"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c15-03",
+      "version": "1",
+      "topicId": "it-a1-t15",
+      "title": "Il presente di capire",
+      "objective": "Recuperar y usar capire en presente: entender.",
+      "scope": "Recuperar y usar capire en presente: entender.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "discrimination",
+        "contextual-use"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "io",
+        "tu",
+        "lui-lei",
+        "noi",
+        "voi",
+        "loro",
+        "pertenencia",
+        "uso"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c15-01",
+      "version": "theory-c15-01-1",
+      "conceptId": "it-a1-c15-01",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Leggere e prendere: il presente in -ere",
+      "goal": "Recuperar y usar el presente regular -ere de leggere y prendere en lectura y consumo cotidiano.",
+      "introduction": "Aprende el significado junto con las seis personas. El pronombre ayuda a estudiar el paradigma, pero se puede omitir cuando la forma y el contexto identifican al sujeto.",
+      "rules": [
+        "Los verbos regulares -ere usan -o, -i, -e, -iamo, -ete, -ono: legg-ere → leggo/leggi/legge/leggiamo/leggete/leggono.",
+        "Prendere (tomar) sigue el patrón: prendo, prendi, prende, prendiamo, prendete, prendono. Prendere un caffè significa tomar un café.",
+        "La tercera singular termina en -e y la plural en -ono; compara parla/parlano con legge/leggono. No copies -a/-ano.",
+        "La grafía de leggere conserva gg: cambia la pronunciación ante o frente a e/i; no añadas h para inventar «legghi»."
+      ],
+      "forms": [
+        [
+          "io leggo",
+          "leo"
+        ],
+        [
+          "tu leggi",
+          "lees"
+        ],
+        [
+          "lui/lei legge",
+          "lee"
+        ],
+        [
+          "noi leggiamo",
+          "leemos"
+        ],
+        [
+          "voi leggete",
+          "leéis / leen"
+        ],
+        [
+          "loro leggono",
+          "leen"
+        ]
+      ],
+      "examples": [
+        [
+          "Leggo un libro.",
+          "Leo un libro."
+        ],
+        [
+          "Prendiamo un caffè.",
+          "Tomamos un café."
+        ]
+      ],
+      "frequentErrors": [
+        "No copies la terminación -ano en leggono.",
+        "No escribas «legghi»: la grafía conserva la base legg-."
+      ],
+      "usageNotes": [
+        "Las preposiciones y complementos dados son apoyo; el objetivo es el verbo de esta ficha."
+      ],
+      "exceptions": [],
+      "contrasts": [
+        {
+          "conceptId": "it-a1-c14-01",
+          "explanation": "-are: -a/-ano; -ere: -e/-ono en tercera persona."
+        }
+      ],
+      "vocabularyIds": [
+        "it-leggere",
+        "it-prendere",
+        "it-libro",
+        "it-messaggio",
+        "it-nome",
+        "it-numero",
+        "it-italiano",
+        "it-caffe",
+        "it-amico"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/"
+    },
+    {
+      "id": "it-a1-theory-c15-02",
+      "version": "theory-c15-02-1",
+      "conceptId": "it-a1-c15-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Il presente di dormire",
+      "goal": "Recuperar y usar dormire en presente: dormir.",
+      "introduction": "Aprende el significado junto con las seis personas. El pronombre ayuda a estudiar el paradigma, pero se puede omitir cuando la forma y el contexto identifican al sujeto.",
+      "rules": [
+        "El patrón sin -isc- usa -o, -i, -e, -iamo, -ite, -ono: dorm-ire → dormo, dormi, dorme, dormiamo, dormite, dormono.",
+        "Voi termina en -ite, a diferencia del -ete de leggere. Noi termina en -iamo en las tres conjugaciones.",
+        "No añadas -isc- a dormire: se aprende la pertenencia del verbo al subgrupo. Dormire no es dormiscere ni produce «dormisco»."
+      ],
+      "forms": [
+        [
+          "io dormo",
+          "duermo"
+        ],
+        [
+          "tu dormi",
+          "duermes"
+        ],
+        [
+          "lui/lei dorme",
+          "duerme"
+        ],
+        [
+          "noi dormiamo",
+          "dormimos"
+        ],
+        [
+          "voi dormite",
+          "dormís / duermen"
+        ],
+        [
+          "loro dormono",
+          "duermen"
+        ]
+      ],
+      "examples": [
+        [
+          "Dormo in hotel.",
+          "Duermo en un hotel."
+        ],
+        [
+          "I bambini dormono.",
+          "Los niños duermen."
+        ]
+      ],
+      "frequentErrors": [
+        "«Dormisco» no pertenece al paradigma de dormire.",
+        "Voi dormite, no «dormete»."
+      ],
+      "usageNotes": [
+        "Las preposiciones y complementos dados son apoyo; el objetivo es el verbo de esta ficha."
+      ],
+      "exceptions": [],
+      "contrasts": [
+        {
+          "conceptId": "it-a1-c15-01",
+          "explanation": "Voi leggete frente a voi dormite."
+        }
+      ],
+      "vocabularyIds": [
+        "it-dormire",
+        "it-bambino",
+        "it-hotel",
+        "it-casa",
+        "it-qui"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/"
+    },
+    {
+      "id": "it-a1-theory-c15-03",
+      "version": "theory-c15-03-1",
+      "conceptId": "it-a1-c15-03",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Il presente di capire",
+      "goal": "Recuperar y usar capire en presente: entender.",
+      "introduction": "Aprende el significado junto con las seis personas. El pronombre ayuda a estudiar el paradigma, pero se puede omitir cuando la forma y el contexto identifican al sujeto.",
+      "rules": [
+        "Capire pertenece al subgrupo -isc-: aparece -isc- con io, tu, lui/lei y loro. No aparece con noi y voi.",
+        "Las formas son capisco, capisci, capisce, capiamo, capite, capiscono. La base cap- se combina con -isc- solo en las personas indicadas.",
+        "Dormire no pertenece a este grupo: dormo, no dormisco. La terminación del infinitivo -ire no basta para decidir; aprende cada verbo con su grupo.",
+        "Non capisco expresa falta de comprensión; puedes añadir italiano o il messaggio como objeto. No hace falta traducir comprender como un verbo nuevo."
+      ],
+      "forms": [
+        [
+          "io capisco",
+          "entiendo"
+        ],
+        [
+          "tu capisci",
+          "entiendes"
+        ],
+        [
+          "lui/lei capisce",
+          "entiende"
+        ],
+        [
+          "noi capiamo",
+          "entendemos"
+        ],
+        [
+          "voi capite",
+          "entendéis / entienden"
+        ],
+        [
+          "loro capiscono",
+          "entienden"
+        ]
+      ],
+      "examples": [
+        [
+          "Non capisco.",
+          "No entiendo."
+        ],
+        [
+          "Capite il messaggio?",
+          "¿Entendéis el mensaje?"
+        ]
+      ],
+      "frequentErrors": [
+        "No añadas -isc- a noi capiamo ni voi capite.",
+        "No extiendas -isc- a todos los verbos -ire."
+      ],
+      "usageNotes": [
+        "Las preposiciones y complementos dados son apoyo; el objetivo es el verbo de esta ficha."
+      ],
+      "exceptions": [],
+      "contrasts": [
+        {
+          "conceptId": "it-a1-c15-02",
+          "explanation": "Dormire no lleva -isc-; capire sí, salvo noi y voi."
+        }
+      ],
+      "vocabularyIds": [
+        "it-capire",
+        "it-dormire",
+        "it-non-capisco",
+        "it-non",
+        "it-messaggio",
+        "it-nome",
+        "it-italiano",
+        "it-studente"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/"
+    }
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c15-01-forma-io",
+      "version": "2",
+      "conceptId": "it-a1-c15-01",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Usa il presente indicativo. Io ___ un libro (leggere).",
+      "options": [
+        "leggo",
+        "legga"
+      ],
+      "hint": "Con io, el presente de leggere es leggo. La terminación pertenece al verbo conjugado. El criterio se limita al presente de indicativo solicitado.",
+      "explanation": "Con io, el presente de leggere es leggo. La terminación pertenece al verbo conjugado. El criterio se limita al presente de indicativo solicitado; otras formas pueden pertenecer a otros tiempos o modos.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "estudio",
+        "facets": [
+          "io"
+        ],
+        "opportunityId": "it-a1-c15-01-forma-io:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "leggo"
+        ],
+        "rejected": [
+          "legga"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-01-forma-io",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c15-01-forma-tu",
+      "version": "1",
+      "conceptId": "it-a1-c15-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Tu ___ il numero (leggere).",
+      "options": [],
+      "hint": "Con tu, el presente de leggere es leggi. La terminación pertenece al verbo conjugado.",
+      "explanation": "Con tu, el presente de leggere es leggi. La terminación pertenece al verbo conjugado.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "teléfono",
+        "facets": [
+          "tu"
+        ],
+        "opportunityId": "it-a1-c15-01-forma-tu:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "leggi"
+        ],
+        "rejected": [
+          "legghi"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-01-forma-tu",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c15-01-forma-lui-lei",
+      "version": "2",
+      "conceptId": "it-a1-c15-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Usa il presente indicativo. Anna ___ un messaggio (leggere; messaggio = mensaje).",
+      "options": [],
+      "hint": "Con lui/lei, el presente de leggere es legge. La terminación pertenece al verbo conjugado. El criterio se limita al presente de indicativo solicitado.",
+      "explanation": "Con lui/lei, el presente de leggere es legge. La terminación pertenece al verbo conjugado. El criterio se limita al presente de indicativo solicitado; otras formas pueden pertenecer a otros tiempos o modos.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "teléfono",
+        "facets": [
+          "lui-lei"
+        ],
+        "opportunityId": "it-a1-c15-01-forma-lui-lei:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "legge"
+        ],
+        "rejected": [
+          "legga"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-01-forma-lui-lei",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c15-01-forma-noi",
+      "version": "1",
+      "conceptId": "it-a1-c15-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Noi ___ in italiano (leggere).",
+      "options": [],
+      "hint": "Con noi, el presente de leggere es leggiamo. La terminación pertenece al verbo conjugado.",
+      "explanation": "Con noi, el presente de leggere es leggiamo. La terminación pertenece al verbo conjugado.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "estudio",
+        "facets": [
+          "noi"
+        ],
+        "opportunityId": "it-a1-c15-01-forma-noi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "leggiamo"
+        ],
+        "rejected": [
+          "leggono"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-01-forma-noi",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c15-01-forma-voi",
+      "version": "2",
+      "conceptId": "it-a1-c15-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Usa il presente indicativo. Voi ___ il nome (leggere).",
+      "options": [],
+      "hint": "Con voi, el presente de leggere es leggete. La terminación pertenece al verbo conjugado. El criterio se limita al presente de indicativo solicitado.",
+      "explanation": "Con voi, el presente de leggere es leggete. La terminación pertenece al verbo conjugado. El criterio se limita al presente de indicativo solicitado; otras formas pueden pertenecer a otros tiempos o modos.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "trabajo",
+        "facets": [
+          "voi"
+        ],
+        "opportunityId": "it-a1-c15-01-forma-voi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "leggete"
+        ],
+        "rejected": [
+          "leggiate"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-01-forma-voi",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c15-01-forma-loro",
+      "version": "2",
+      "conceptId": "it-a1-c15-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Usa il presente indicativo. Gli amici ___ un libro (leggere).",
+      "options": [],
+      "hint": "Con loro, el presente de leggere es leggono. La terminación pertenece al verbo conjugado. El criterio se limita al presente de indicativo solicitado.",
+      "explanation": "Con loro, el presente de leggere es leggono. La terminación pertenece al verbo conjugado. El criterio se limita al presente de indicativo solicitado; otras formas pueden pertenecer a otros tiempos o modos.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "familia",
+        "facets": [
+          "loro"
+        ],
+        "opportunityId": "it-a1-c15-01-forma-loro:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "leggono"
+        ],
+        "rejected": [
+          "leggano"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-01-forma-loro",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c15-01-prendo",
+      "version": "2",
+      "conceptId": "it-a1-c15-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Usa il presente indicativo. Io ___ un caffè (prendere).",
+      "options": [],
+      "hint": "Prendere toma -o en primera persona. El criterio se limita al presente de indicativo solicitado.",
+      "explanation": "Prendere toma -o en primera persona. El criterio se limita al presente de indicativo solicitado; otras formas pueden pertenecer a otros tiempos o modos.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "bar",
+        "facets": [
+          "prendere"
+        ],
+        "opportunityId": "it-a1-c15-01-prendo:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "prendo"
+        ],
+        "rejected": [
+          "prenda"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-01-prendo",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c15-01-prendete",
+      "version": "1",
+      "conceptId": "it-a1-c15-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Voi ___ due caffè (prendere).",
+      "options": [],
+      "hint": "En -ere, voi termina en -ete.",
+      "explanation": "En -ere, voi termina en -ete.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "bar",
+        "facets": [
+          "prendere"
+        ],
+        "opportunityId": "it-a1-c15-01-prendete:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "prendete"
+        ],
+        "rejected": [
+          "prendate"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-01-prendete",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c15-01-cambia",
+      "version": "2",
+      "conceptId": "it-a1-c15-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Usa il presente indicativo. Passa da io a loro: «Io prendo un caffè». Mantieni il pronome.",
+      "options": [],
+      "hint": "La tercera plural de prendere termina en -ono. El criterio se limita al presente de indicativo solicitado.",
+      "explanation": "La tercera plural de prendere termina en -ono. El criterio se limita al presente de indicativo solicitado; otras formas pueden pertenecer a otros tiempos o modos.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "bar",
+        "facets": [
+          "prendere"
+        ],
+        "opportunityId": "it-a1-c15-01-cambia:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Loro prendono un caffè",
+          "Loro prendono un caffè."
+        ],
+        "rejected": [
+          "Loro prendano un caffè"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-01-cambia",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c15-01-produci",
+      "version": "1",
+      "conceptId": "it-a1-c15-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Escribe «Leemos un mensaje» con leggere y messaggio, sin noi.",
+      "options": [],
+      "hint": "Leggiamo es la forma de noi; el objeto es apoyo.",
+      "explanation": "Leggiamo es la forma de noi; el objeto es apoyo.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "teléfono",
+        "facets": [
+          "uso"
+        ],
+        "opportunityId": "it-a1-c15-01-produci:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Leggiamo un messaggio",
+          "Leggiamo un messaggio."
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-01-produci",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c15-01-classi",
+      "version": "1",
+      "conceptId": "it-a1-c15-01",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Scegli la coppia corretta per loro: parlare / leggere.",
+      "options": [
+        "parlano / leggono",
+        "parlano / leggano"
+      ],
+      "hint": "-are usa -ano; -ere usa -ono.",
+      "explanation": "-are usa -ano; -ere usa -ono.",
+      "dimension": "discrimination",
+      "task": {
+        "skill": "discrimination",
+        "context": "estudio",
+        "facets": [
+          "contraste"
+        ],
+        "opportunityId": "it-a1-c15-01-classi:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "parlano / leggono"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-01-classi",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c15-02-forma-io",
+      "version": "1",
+      "conceptId": "it-a1-c15-02",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Io ___ in hotel (dormire).",
+      "options": [
+        "dormo",
+        "dormisco"
+      ],
+      "hint": "Con io, el presente de dormire es dormo. La terminación pertenece al verbo conjugado.",
+      "explanation": "Con io, el presente de dormire es dormo. La terminación pertenece al verbo conjugado.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "hotel",
+        "facets": [
+          "io"
+        ],
+        "opportunityId": "it-a1-c15-02-forma-io:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "dormo"
+        ],
+        "rejected": [
+          "dormisco"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-02-forma-io",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c15-02-forma-tu",
+      "version": "1",
+      "conceptId": "it-a1-c15-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Tu ___ a casa (dormire).",
+      "options": [],
+      "hint": "Con tu, el presente de dormire es dormi. La terminación pertenece al verbo conjugado.",
+      "explanation": "Con tu, el presente de dormire es dormi. La terminación pertenece al verbo conjugado.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "vivienda",
+        "facets": [
+          "tu"
+        ],
+        "opportunityId": "it-a1-c15-02-forma-tu:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "dormi"
+        ],
+        "rejected": [
+          "dormisci"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-02-forma-tu",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c15-02-forma-lui-lei",
+      "version": "1",
+      "conceptId": "it-a1-c15-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Il bambino ___ (dormire; bambino = niño).",
+      "options": [],
+      "hint": "Con lui/lei, el presente de dormire es dorme. La terminación pertenece al verbo conjugado.",
+      "explanation": "Con lui/lei, el presente de dormire es dorme. La terminación pertenece al verbo conjugado.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "familia",
+        "facets": [
+          "lui-lei"
+        ],
+        "opportunityId": "it-a1-c15-02-forma-lui-lei:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "dorme"
+        ],
+        "rejected": [
+          "dormisce"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-02-forma-lui-lei",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c15-02-cambia",
+      "version": "2",
+      "conceptId": "it-a1-c15-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Da tu a noi: «Tu dormi qui». Mantieni il pronome.",
+      "options": [],
+      "hint": "Dormiamo es la primera plural, sin -isc-.",
+      "explanation": "Dormiamo es la primera plural, sin -isc-.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "viaje",
+        "facets": [
+          "uso"
+        ],
+        "opportunityId": "it-a1-c15-02-cambia:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Noi dormiamo qui",
+          "Noi dormiamo qui."
+        ],
+        "rejected": [
+          "Noi dormisciamo qui"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-02-cambia",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c15-02-produci",
+      "version": "1",
+      "conceptId": "it-a1-c15-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci «Duermo en casa» con dormire e a casa, senza io.",
+      "options": [],
+      "hint": "Dormo expresa primera persona; a casa se da como apoyo.",
+      "explanation": "Dormo expresa primera persona; a casa se da como apoyo.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "vivienda",
+        "facets": [
+          "uso"
+        ],
+        "opportunityId": "it-a1-c15-02-produci:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Dormo a casa",
+          "Dormo a casa."
+        ],
+        "rejected": [
+          "Dormisco a casa"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-02-produci",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c15-03-forma-io",
+      "version": "1",
+      "conceptId": "it-a1-c15-03",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Io ___ italiano (capire).",
+      "options": [
+        "capisco",
+        "capo"
+      ],
+      "hint": "Con io, el presente de capire es capisco. La terminación pertenece al verbo conjugado.",
+      "explanation": "Con io, el presente de capire es capisco. La terminación pertenece al verbo conjugado.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "estudio",
+        "facets": [
+          "io"
+        ],
+        "opportunityId": "it-a1-c15-03-forma-io:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "capisco"
+        ],
+        "rejected": [
+          "capo"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-03-forma-io",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c15-03-forma-tu",
+      "version": "1",
+      "conceptId": "it-a1-c15-03",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Tu ___ il nome (capire).",
+      "options": [],
+      "hint": "Con tu, el presente de capire es capisci. La terminación pertenece al verbo conjugado.",
+      "explanation": "Con tu, el presente de capire es capisci. La terminación pertenece al verbo conjugado.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "teléfono",
+        "facets": [
+          "tu"
+        ],
+        "opportunityId": "it-a1-c15-03-forma-tu:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "capisci"
+        ],
+        "rejected": [
+          "capi"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-03-forma-tu",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c15-03-forma-lui-lei",
+      "version": "1",
+      "conceptId": "it-a1-c15-03",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Anna non ___ (capire).",
+      "options": [],
+      "hint": "Con lui/lei, el presente de capire es capisce. La terminación pertenece al verbo conjugado.",
+      "explanation": "Con lui/lei, el presente de capire es capisce. La terminación pertenece al verbo conjugado.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "estudio",
+        "facets": [
+          "lui-lei"
+        ],
+        "opportunityId": "it-a1-c15-03-forma-lui-lei:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "capisce"
+        ],
+        "rejected": [
+          "cape"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-03-forma-lui-lei",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c15-03-cambia",
+      "version": "2",
+      "conceptId": "it-a1-c15-03",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Passa da io a noi: «Io non capisco». Mantieni il pronome.",
+      "options": [],
+      "hint": "Noi no lleva -isc-; non queda delante del verbo.",
+      "explanation": "Noi no lleva -isc-; non queda delante del verbo.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "teléfono",
+        "facets": [
+          "uso"
+        ],
+        "opportunityId": "it-a1-c15-03-cambia:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Noi non capiamo",
+          "Noi non capiamo."
+        ],
+        "rejected": [
+          "Noi non capisciamo"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-03-cambia",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c15-03-produci",
+      "version": "1",
+      "conceptId": "it-a1-c15-03",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Escribe «No entiendo el mensaje» con capire y messaggio, sin io.",
+      "options": [],
+      "hint": "Non capisco recupera la fórmula como una forma del paradigma.",
+      "explanation": "Non capisco recupera la fórmula como una forma del paradigma.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "teléfono",
+        "facets": [
+          "uso"
+        ],
+        "opportunityId": "it-a1-c15-03-produci:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Non capisco il messaggio",
+          "Non capisco il messaggio."
+        ],
+        "rejected": [
+          "Non capo il messaggio"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-03-produci",
+        "sourceVersion": "1"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "it-amico",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "amico",
+      "displayForm": "amico",
+      "gloss": "amigo; femenino amica: amiga",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "feminine",
+          "text": "amica",
+          "features": {
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "irregular": false
+        },
+        {
+          "key": "plural",
+          "text": "amici",
+          "features": {
+            "gender": "masculine",
+            "number": "plural"
+          },
+          "irregular": false
+        },
+        {
+          "key": "feminine-plural",
+          "text": "amiche",
+          "features": {
+            "gender": "feminine",
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C04",
+        "C09",
+        "C10",
+        "C11",
+        "C15",
+        "C16",
+        "C20",
+        "C21",
+        "C24",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c04-02",
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c10-01",
+        "it-a1-c11-01",
+        "it-a1-c11-02",
+        "it-a1-c15-01",
+        "it-a1-c16-02",
+        "it-a1-c16-03",
+        "it-a1-c16-04",
+        "it-a1-c16-05",
+        "it-a1-c16-06",
+        "it-a1-c16-08",
+        "it-a1-c20-04",
+        "it-a1-c21-01",
+        "it-a1-c24-01",
+        "it-a1-c24-02",
+        "it-a1-c27-03"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t04",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t11",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t24",
+        "it-a1-t27"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-caffe",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "caffè",
+      "displayForm": "caffè",
+      "gloss": "café",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "caffè",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C02",
+        "C08",
+        "C10",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C20",
+        "C22",
+        "C25",
+        "C27",
+        "C28",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-02",
+        "it-a1-c01-03",
+        "it-a1-c02-02",
+        "it-a1-c08-02",
+        "it-a1-c10-02",
+        "it-a1-c15-01",
+        "it-a1-c16-06",
+        "it-a1-c17-02",
+        "it-a1-c18-01",
+        "it-a1-c20-05",
+        "it-a1-c22-03",
+        "it-a1-c25-01",
+        "it-a1-c25-02",
+        "it-a1-c27-01",
+        "it-a1-c28-01",
+        "it-a1-c28-02",
+        "it-a1-c31-02",
+        "it-a1-c32-03",
+        "it-a1-c34-03"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t02",
+        "it-a1-t08",
+        "it-a1-t10",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación C08: plural canónico del repertorio; candidate."
+    },
+    {
+      "id": "it-italiano",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "italiano",
+      "displayForm": "italiano",
+      "gloss": "italiano: nacionalidad; lengua en parlare/studiare italiano",
+      "partOfSpeech": "adjective",
+      "forms": [
+        {
+          "key": "feminine",
+          "text": "italiana",
+          "features": {
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "adjective",
+        "C04",
+        "C11",
+        "C12",
+        "C14",
+        "C15",
+        "C17",
+        "C20",
+        "C25",
+        "C29",
+        "C31",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-03",
+        "it-a1-c11-02",
+        "it-a1-c12-01",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c15-01",
+        "it-a1-c15-03",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c20-01",
+        "it-a1-c20-06",
+        "it-a1-c25-01",
+        "it-a1-c29-03",
+        "it-a1-c31-01",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t11",
+        "it-a1-t12",
+        "it-a1-t14",
+        "it-a1-t15",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t25",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-nome",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "nome",
+      "displayForm": "nome",
+      "gloss": "nombre",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "nomi",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C07",
+        "C08",
+        "C15",
+        "C16",
+        "C26",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c07-02",
+        "it-a1-c08-01",
+        "it-a1-c15-01",
+        "it-a1-c15-03",
+        "it-a1-c16-07",
+        "it-a1-c26-01",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t26",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-numero",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "numero",
+      "displayForm": "numero",
+      "gloss": "número",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "numeri",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C13",
+        "C15",
+        "C16",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-03",
+        "it-a1-c15-01",
+        "it-a1-c16-07",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t13",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-leggere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "leggere",
+      "displayForm": "leggere",
+      "gloss": "leer",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "leggo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "leggi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "legge",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "leggiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "leggete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "leggono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C15",
+        "C17",
+        "C20",
+        "C22",
+        "C23",
+        "C25",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-01",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c17-03",
+        "it-a1-c20-05",
+        "it-a1-c22-03",
+        "it-a1-c23-01",
+        "it-a1-c25-01",
+        "it-a1-c25-02",
+        "it-a1-c28-02",
+        "it-a1-c29-04",
+        "it-a1-c30-02",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t23",
+        "it-a1-t25",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-prendere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "prendere",
+      "displayForm": "prendere",
+      "gloss": "tomar",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "prendo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "prendi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "prende",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "prendiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "prendete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "prendono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C15",
+        "C20",
+        "C27",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-01",
+        "it-a1-c20-03",
+        "it-a1-c27-01",
+        "it-a1-c28-02",
+        "it-a1-c29-04",
+        "it-a1-c30-01",
+        "it-a1-c30-02",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c32-03"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t20",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-libro",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "libro",
+      "displayForm": "libro",
+      "gloss": "libro",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "libri",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C15",
+        "C16",
+        "C17",
+        "C19",
+        "C20",
+        "C21",
+        "C23",
+        "C24",
+        "C25",
+        "C27",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-01",
+        "it-a1-c16-05",
+        "it-a1-c17-01",
+        "it-a1-c19-02",
+        "it-a1-c20-01",
+        "it-a1-c20-02",
+        "it-a1-c20-05",
+        "it-a1-c21-01",
+        "it-a1-c21-02",
+        "it-a1-c23-01",
+        "it-a1-c24-01",
+        "it-a1-c24-02",
+        "it-a1-c25-02",
+        "it-a1-c27-02",
+        "it-a1-c27-03",
+        "it-a1-c28-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c30-01",
+        "it-a1-c30-02",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c34-04"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t23",
+        "it-a1-t24",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-messaggio",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "messaggio",
+      "displayForm": "messaggio",
+      "gloss": "mensaje",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "messaggi",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C15",
+        "C17",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-01",
+        "it-a1-c15-03",
+        "it-a1-c17-03",
+        "it-a1-c28-01",
+        "it-a1-c29-04",
+        "it-a1-c30-02",
+        "it-a1-c31-01",
+        "it-a1-c31-02",
+        "it-a1-c34-07"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t17",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-casa",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "casa",
+      "displayForm": "casa",
+      "gloss": "casa",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "case",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C04",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C11",
+        "C15",
+        "C16",
+        "C19",
+        "C20",
+        "C21",
+        "C23",
+        "C24",
+        "C29",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c04-04",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c06-03",
+        "it-a1-c07-01",
+        "it-a1-c08-01",
+        "it-a1-c09-03",
+        "it-a1-c11-01",
+        "it-a1-c11-02",
+        "it-a1-c15-02",
+        "it-a1-c16-01",
+        "it-a1-c16-02",
+        "it-a1-c16-03",
+        "it-a1-c16-04",
+        "it-a1-c16-08",
+        "it-a1-c19-02",
+        "it-a1-c20-02",
+        "it-a1-c20-03",
+        "it-a1-c21-01",
+        "it-a1-c21-02",
+        "it-a1-c23-01",
+        "it-a1-c23-02",
+        "it-a1-c24-01",
+        "it-a1-c29-04",
+        "it-a1-c34-02"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t09",
+        "it-a1-t11",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t23",
+        "it-a1-t24",
+        "it-a1-t29",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación C08: plural canónico del repertorio; candidate."
+    },
+    {
+      "id": "it-qui",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "qui",
+      "displayForm": "qui",
+      "gloss": "aquí",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C03",
+        "C04",
+        "C06",
+        "C15",
+        "C16",
+        "C19",
+        "C23",
+        "C24"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c04-04",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c15-02",
+        "it-a1-c16-04",
+        "it-a1-c19-02",
+        "it-a1-c23-02",
+        "it-a1-c24-01",
+        "it-a1-c24-02"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t23",
+        "it-a1-t24"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-hotel",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "hotel",
+      "displayForm": "hotel",
+      "gloss": "hotel",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "hotel",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "noun",
+        "C04",
+        "C08",
+        "C14",
+        "C15",
+        "C16",
+        "C19",
+        "C20",
+        "C21",
+        "C29",
+        "C33",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-04",
+        "it-a1-c08-02",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c15-02",
+        "it-a1-c16-01",
+        "it-a1-c16-02",
+        "it-a1-c16-04",
+        "it-a1-c16-06",
+        "it-a1-c19-01",
+        "it-a1-c20-02",
+        "it-a1-c21-02",
+        "it-a1-c29-04",
+        "it-a1-c33-01",
+        "it-a1-c34-02",
+        "it-a1-c34-06"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t08",
+        "it-a1-t14",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t29",
+        "it-a1-t33",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación C08: plural canónico del repertorio; candidate."
+    },
+    {
+      "id": "it-dormire",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "dormire",
+      "displayForm": "dormire",
+      "gloss": "dormir",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "dormo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "dormi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "dorme",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "dormiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "dormite",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "dormono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C15",
+        "C17",
+        "C27",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-02",
+        "it-a1-c15-03",
+        "it-a1-c17-02",
+        "it-a1-c27-02",
+        "it-a1-c29-04",
+        "it-a1-c30-02",
+        "it-a1-c31-01",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t17",
+        "it-a1-t27",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-bambino",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "bambino",
+      "displayForm": "bambino",
+      "gloss": "niño",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "bambini",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C15"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-02"
+      ],
+      "topicIds": [
+        "it-a1-t15"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-non-capisco",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "non capisco",
+      "displayForm": "non capisco",
+      "gloss": "no entiendo",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C02",
+        "C15"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c02-03",
+        "it-a1-c15-03"
+      ],
+      "topicIds": [
+        "it-a1-t02",
+        "it-a1-t15"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-non",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "non",
+      "displayForm": "non",
+      "gloss": "no, ante el verbo",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C06",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C22",
+        "C26",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c15-03",
+        "it-a1-c16-06",
+        "it-a1-c17-02",
+        "it-a1-c22-04",
+        "it-a1-c26-02",
+        "it-a1-c28-02"
+      ],
+      "topicIds": [
+        "it-a1-t06",
+        "it-a1-t14",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t22",
+        "it-a1-t26",
+        "it-a1-t28"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-studente",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "studente",
+      "displayForm": "studente",
+      "gloss": "estudiante (masculino)",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "studenti",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C15",
+        "C16",
+        "C17",
+        "C21",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c10-01",
+        "it-a1-c11-01",
+        "it-a1-c11-02",
+        "it-a1-c12-01",
+        "it-a1-c15-03",
+        "it-a1-c16-01",
+        "it-a1-c16-07",
+        "it-a1-c17-01",
+        "it-a1-c17-03",
+        "it-a1-c21-01",
+        "it-a1-c21-02",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t11",
+        "it-a1-t12",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t21",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-capire",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "capire",
+      "displayForm": "capire",
+      "gloss": "entender",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "capisco",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "capisci",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "capisce",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "capiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "capite",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "capiscono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C15",
+        "C20",
+        "C31"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-03",
+        "it-a1-c20-05",
+        "it-a1-c31-01"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t20",
+        "it-a1-t31"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    }
+  ],
+  "relations": [
+    {
+      "to": "it-a1-c03-01",
+      "type": "prerequisite",
+      "reason": "La persona del sujeto permite escoger la forma verbal.",
+      "strength": "recommended",
+      "from": "it-a1-c15-01"
+    },
+    {
+      "to": "it-a1-c03-01",
+      "type": "prerequisite",
+      "reason": "La persona del sujeto permite escoger la forma verbal.",
+      "strength": "recommended",
+      "from": "it-a1-c15-02"
+    },
+    {
+      "to": "it-a1-c03-01",
+      "type": "prerequisite",
+      "reason": "La persona del sujeto permite escoger la forma verbal.",
+      "strength": "recommended",
+      "from": "it-a1-c15-03"
+    },
+    {
+      "to": "it-a1-c14-01",
+      "type": "contrast",
+      "reason": "Las terminaciones de -ere se distinguen de -are.",
+      "from": "it-a1-c15-01"
+    },
+    {
+      "to": "it-a1-c15-01",
+      "type": "contrast",
+      "reason": "Voi usa -ite en dormire frente a -ete en leggere.",
+      "from": "it-a1-c15-02"
+    },
+    {
+      "to": "it-a1-c15-02",
+      "type": "contrast",
+      "reason": "La pertenencia léxica decide si aparece -isc-.",
+      "from": "it-a1-c15-03"
+    },
+    {
+      "to": "it-a1-c02-03",
+      "type": "reinforces",
+      "reason": "Non capisco se recupera ahora como parte de un paradigma.",
+      "from": "it-a1-c15-03"
+    },
+    {
+      "to": "it-a1-c15-01",
+      "type": "related",
+      "reason": "Bev- comparte terminaciones con el presente -ere.",
+      "from": "it-a1-c16-06"
+    },
+    {
+      "to": "it-a1-c15-03",
+      "type": "contrast",
+      "reason": "La alternancia de uscire no es el subgrupo -isc-.",
+      "from": "it-a1-c16-08"
+    },
+    {
+      "to": "it-a1-c15-01",
+      "type": "prerequisite",
+      "reason": "Los infinitivos conocidos permiten construir modal + acción.",
+      "strength": "recommended",
+      "from": "it-a1-c17-01"
+    },
+    {
+      "to": "it-a1-c15-03",
+      "type": "prerequisite",
+      "reason": "La finalidad usa capire en infinitivo.",
+      "from": "it-a1-c20-05",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c15-02",
+      "type": "prerequisite",
+      "reason": "Vestirsi reutiliza el presente en -ire sin -isc-.",
+      "strength": "recommended",
+      "from": "it-a1-c26-02"
+    }
+  ]
+}

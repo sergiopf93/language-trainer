@@ -1,5 +1,6 @@
 import { applyReviewBatch } from '../editorial-review';
 import { editorialC01C10 } from './editorial-c01-c10';
+import { editorialC11C20 } from './editorial-c11-c20';
 import type { LanguagePack, ExerciseTemplate } from '../model';
 import type { Activity } from '../../../shared/learning';
 import type { ConceptRelation } from '../catalog';
@@ -531,7 +532,8 @@ export const authoredItalianCourse: LanguagePack = {
   canonicalActivities: activities,
 };
 
+// Preserve earlier review metadata when the batches share vocabulary.
 export const italianCourse = applyReviewBatch(
-  authoredItalianCourse,
-  editorialC01C10,
+  applyReviewBatch(authoredItalianCourse, editorialC01C10),
+  editorialC11C20,
 );

@@ -1,0 +1,2629 @@
+{
+  "topic": "C13",
+  "concepts": [
+    {
+      "id": "it-a1-c13-01",
+      "version": "1",
+      "topicId": "it-a1-t13",
+      "title": "Da zero a cento",
+      "objective": "Comprender y recuperar 0–20 y formar números hasta 100 con elisiones y acento de los compuestos en -tré.",
+      "scope": "Comprender y recuperar 0–20 y formar números hasta 100 con elisiones y acento de los compuestos en -tré.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "discrimination"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "0-10",
+        "11-20",
+        "decenas",
+        "composición",
+        "elisión",
+        "acento"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F7"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c13-02",
+      "version": "1",
+      "topicId": "it-a1-t13",
+      "title": "Cento, duecento, mille",
+      "objective": "Comprender y expresar centenas y números frecuentes hasta 1000 en precios y cantidades acotados.",
+      "scope": "Comprender y expresar centenas y números frecuentes hasta 1000 en precios y cantidades acotados.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "centenas",
+        "composición",
+        "elisión",
+        "1000"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c13-03",
+      "version": "1",
+      "topicId": "it-a1-t13",
+      "title": "Età, prezzi e numeri di telefono",
+      "objective": "Interpretar y comunicar edad, precio, cantidad, billete y teléfono con las convenciones pertinentes.",
+      "scope": "Interpretar y comunicar edad, precio, cantidad, billete y teléfono con las convenciones pertinentes.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "contextual-use",
+        "retrieval"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "edad",
+        "precio",
+        "cantidad",
+        "billete",
+        "teléfono"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F4",
+        "F2",
+        "F3"
+      ],
+      "coverage": "complete"
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c13-01",
+      "version": "theory-c13-01-1",
+      "conceptId": "it-a1-c13-01",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Da zero a cento",
+      "goal": "Comprender y recuperar 0–20 y formar números hasta 100 con elisiones y acento de los compuestos en -tré.",
+      "introduction": "Primero aprende las formas de 0 a 20; después combina una decena con una unidad. El italiano escribe estos compuestos en una palabra y no introduce la y española.",
+      "rules": [
+        "Memoriza las formas de la tabla 0–20: no se obtiene diecisiete traduciendo sus partes del español.",
+        "Desde 21, une decena y unidad: trentadue, quarantacinque. Ante uno y otto cae la vocal final de la decena: ventuno, ventotto, trentuno, trentotto.",
+        "Tre aislado no lleva acento; los compuestos terminados en tre sí: ventitré, trentatré, novantatré.",
+        "Las decenas son venti, trenta, quaranta, cinquanta, sessanta, settanta, ottanta y novanta; 100 es cento."
+      ],
+      "forms": [
+        [
+          "zero",
+          "0"
+        ],
+        [
+          "uno",
+          "1"
+        ],
+        [
+          "due",
+          "2"
+        ],
+        [
+          "tre",
+          "3"
+        ],
+        [
+          "quattro",
+          "4"
+        ],
+        [
+          "cinque",
+          "5"
+        ],
+        [
+          "sei",
+          "6"
+        ],
+        [
+          "sette",
+          "7"
+        ],
+        [
+          "otto",
+          "8"
+        ],
+        [
+          "nove",
+          "9"
+        ],
+        [
+          "dieci",
+          "10"
+        ],
+        [
+          "undici",
+          "11"
+        ],
+        [
+          "dodici",
+          "12"
+        ],
+        [
+          "tredici",
+          "13"
+        ],
+        [
+          "quattordici",
+          "14"
+        ],
+        [
+          "quindici",
+          "15"
+        ],
+        [
+          "sedici",
+          "16"
+        ],
+        [
+          "diciassette",
+          "17"
+        ],
+        [
+          "diciotto",
+          "18"
+        ],
+        [
+          "diciannove",
+          "19"
+        ],
+        [
+          "venti",
+          "20"
+        ],
+        [
+          "trenta",
+          "30"
+        ],
+        [
+          "quaranta",
+          "40"
+        ],
+        [
+          "cinquanta",
+          "50"
+        ],
+        [
+          "sessanta",
+          "60"
+        ],
+        [
+          "settanta",
+          "70"
+        ],
+        [
+          "ottanta",
+          "80"
+        ],
+        [
+          "novanta",
+          "90"
+        ],
+        [
+          "cento",
+          "100"
+        ]
+      ],
+      "examples": [
+        [
+          "Ho ventotto anni.",
+          "Tengo veintiocho años."
+        ],
+        [
+          "Due biglietti, per favore.",
+          "Dos billetes, por favor."
+        ]
+      ],
+      "frequentErrors": [
+        "No escribas «ventiuno» ni «ventiotto».",
+        "«Ventitre» pierde un acento significativo; tre aislado no lo lleva."
+      ],
+      "usageNotes": [
+        "Las tareas indican si se requieren cifras o letras. Las edades y unidades se integran en C13-03."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-zero",
+        "it-uno",
+        "it-due",
+        "it-tre",
+        "it-quattro",
+        "it-cinque",
+        "it-sei",
+        "it-sette",
+        "it-otto",
+        "it-nove",
+        "it-dieci",
+        "it-undici",
+        "it-dodici",
+        "it-tredici",
+        "it-quattordici",
+        "it-quindici",
+        "it-sedici",
+        "it-diciassette",
+        "it-diciotto",
+        "it-diciannove",
+        "it-venti",
+        "it-trenta",
+        "it-quaranta",
+        "it-cinquanta",
+        "it-sessanta",
+        "it-settanta",
+        "it-ottanta",
+        "it-novanta",
+        "it-cento",
+        "it-anno",
+        "it-biglietto"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/"
+    },
+    {
+      "id": "it-a1-theory-c13-02",
+      "version": "theory-c13-02-1-editorial-1",
+      "conceptId": "it-a1-c13-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Cento, duecento, mille",
+      "goal": "Comprender y expresar centenas y números frecuentes hasta 1000 en precios y cantidades acotados.",
+      "introduction": "La centena combina con decenas y unidades en una sola palabra. Practica primero centenas redondas y luego importes frecuentes; no necesitas memorizar mil entradas diferentes.",
+      "rules": [
+        "100 es cento, sin un delante; 200–900 unen la unidad con cento. 1000 es mille.",
+        "Une centena y resto sin e: centoventi, duecentocinquanta, novecentonovantanove.",
+        "Ante ottanta, es frecuente que cento pierda la o: centottanta, duecentottanta. También es válida la forma sin elisión centoottanta. Ante otto se encuentran centotto y centootto; ambas se aceptan cuando la tarea pide 108.",
+        "Los compuestos acabados en -tré mantienen el acento: centotré. El repertorio se limita a 1000; miles plurales quedan fuera de estas tareas."
+      ],
+      "forms": [
+        [
+          "cento",
+          "100"
+        ],
+        [
+          "duecento",
+          "200"
+        ],
+        [
+          "trecento",
+          "300"
+        ],
+        [
+          "quattrocento",
+          "400"
+        ],
+        [
+          "cinquecento",
+          "500"
+        ],
+        [
+          "seicento",
+          "600"
+        ],
+        [
+          "settecento",
+          "700"
+        ],
+        [
+          "ottocento",
+          "800"
+        ],
+        [
+          "novecento",
+          "900"
+        ],
+        [
+          "mille",
+          "1000"
+        ],
+        [
+          "centoventi",
+          "120"
+        ],
+        [
+          "centottanta",
+          "180"
+        ],
+        [
+          "duecentocinquanta",
+          "250"
+        ],
+        [
+          "novecentonovantanove",
+          "999"
+        ]
+      ],
+      "examples": [
+        [
+          "Cinquecento euro.",
+          "Quinientos euros."
+        ],
+        [
+          "Mille euro.",
+          "Mil euros."
+        ]
+      ],
+      "frequentErrors": [
+        "No escribas «un cento» para 100.",
+        "No se introduce e entre centena y decena: duecentocinquanta."
+      ],
+      "usageNotes": [
+        "Los importes enteros usan euro invariable. No se evalúan operaciones aritméticas."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-cento",
+        "it-duecento",
+        "it-trecento",
+        "it-quattrocento",
+        "it-cinquecento",
+        "it-seicento",
+        "it-settecento",
+        "it-ottocento",
+        "it-novecento",
+        "it-mille",
+        "it-euro"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/"
+    },
+    {
+      "id": "it-a1-theory-c13-03",
+      "version": "theory-c13-03-1",
+      "conceptId": "it-a1-c13-03",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Età, prezzi e numeri di telefono",
+      "goal": "Interpretar y comunicar edad, precio, cantidad, billete y teléfono con las convenciones pertinentes.",
+      "introduction": "El mismo número sirve para contar, expresar un importe o identificar. Mira la unidad y la intención: un teléfono es una secuencia de cifras, no una cantidad.",
+      "rules": [
+        "La edad usa avere: ho ventitré anni. Para cantidades, número + nombre plural: due biglietti.",
+        "Euro no cambia en plural: un euro, due euro. Un importe de 2,50 € se puede expresar como due euro e cinquanta centesimi; en conversación también due euro e cinquanta.",
+        "En precios italianos la coma separa céntimos: 2,50 no es 250. Las consignas escritas aclaran la unidad.",
+        "Para dictar un teléfono, puedes leer cifra por cifra y conservar el cero inicial. Aquí se practica esa lectura, sin eliminar ni reagrupar cifras.",
+        "En un billete, numero identifica una referencia: numero dodici. No hace falta convertirla en ordinal."
+      ],
+      "forms": [
+        [
+          "ventitré anni",
+          "23 años"
+        ],
+        [
+          "due euro e cinquanta centesimi",
+          "2,50 €"
+        ],
+        [
+          "zero due",
+          "02"
+        ],
+        [
+          "numero dodici",
+          "número 12"
+        ]
+      ],
+      "examples": [
+        [
+          "Ho ventitré anni.",
+          "Tengo veintitrés años."
+        ],
+        [
+          "Due biglietti, per favore.",
+          "Dos billetes, por favor."
+        ],
+        [
+          "Tre euro e venti centesimi.",
+          "Tres euros con veinte céntimos."
+        ]
+      ],
+      "frequentErrors": [
+        "No uses essere para expresar edad.",
+        "No escribas euros en italiano.",
+        "No suprimas el cero inicial de un teléfono."
+      ],
+      "usageNotes": [
+        "Se evalúa el dato con la convención indicada; no se atribuye otra evidencia a avere o al plural incidental."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-anno",
+        "it-avere",
+        "it-euro",
+        "it-centesimo",
+        "it-biglietto",
+        "it-numero",
+        "it-zero",
+        "it-due",
+        "it-tre",
+        "it-venti",
+        "it-trenta",
+        "it-cinquanta"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/"
+    }
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c13-01-zero",
+      "version": "1",
+      "conceptId": "it-a1-c13-01",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Scegli il numero zero.",
+      "options": [
+        "0",
+        "6",
+        "10"
+      ],
+      "hint": "Zero representa ausencia de unidades.",
+      "explanation": "Zero representa ausencia de unidades.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "teléfono",
+        "facets": [
+          "0-10"
+        ],
+        "opportunityId": "it-a1-c13-01-zero:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "0"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c13-01-zero",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c13-01-sette",
+      "version": "1",
+      "conceptId": "it-a1-c13-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "Scrivi 7 in lettere.",
+      "options": [],
+      "hint": "La forma canónica de 7 es sette, con doble t.",
+      "explanation": "La forma canónica de 7 es sette, con doble t.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "compras",
+        "facets": [
+          "0-10"
+        ],
+        "opportunityId": "it-a1-c13-01-sette:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "sette"
+        ],
+        "rejected": [
+          "sete"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c13-01-sette",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c13-01-undici",
+      "version": "1",
+      "conceptId": "it-a1-c13-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "Scrivi 11 in lettere.",
+      "options": [],
+      "hint": "Undici es una forma del primer tramo que se aprende entera.",
+      "explanation": "Undici es una forma del primer tramo que se aprende entera.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "transporte",
+        "facets": [
+          "11-20"
+        ],
+        "opportunityId": "it-a1-c13-01-undici:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "undici"
+        ],
+        "rejected": [
+          "unidici"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c13-01-undici",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c13-01-diciassette",
+      "version": "1",
+      "conceptId": "it-a1-c13-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "16, ___, 18: scrivi il numero mancante in lettere.",
+      "options": [],
+      "hint": "17 se escribe diciassette, con doble s y doble t.",
+      "explanation": "17 se escribe diciassette, con doble s y doble t.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "estudio",
+        "facets": [
+          "11-20"
+        ],
+        "opportunityId": "it-a1-c13-01-diciassette:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "diciassette"
+        ],
+        "rejected": [
+          "dicisette"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c13-01-diciassette",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c13-01-ventotto",
+      "version": "1",
+      "conceptId": "it-a1-c13-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Correggi la grafia del numero 28: «ventiotto».",
+      "options": [],
+      "hint": "Venti pierde la i ante otto.",
+      "explanation": "Venti pierde la i ante otto.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "familia",
+        "facets": [
+          "elisión"
+        ],
+        "opportunityId": "it-a1-c13-01-ventotto:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "ventotto"
+        ],
+        "rejected": [
+          "ventiotto"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c13-01-ventotto",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c13-01-piccoli",
+      "version": "1",
+      "conceptId": "it-a1-c13-01",
+      "conceptVersion": "1",
+      "family": "F7",
+      "format": "matching",
+      "prompt": "Abbina i numeri del listino alle forme scritte: 4, 5, 6.",
+      "options": [
+        "sei",
+        "quattro",
+        "cinque"
+      ],
+      "hint": "Recuerda las formas de la tabla; relaciona cada dato por su significado.",
+      "explanation": "4 = quattro; 5 = cinque; 6 = sei.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "compras",
+        "facets": [
+          "0-10"
+        ],
+        "opportunityId": "it-a1-c13-01-piccoli:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": [
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "[1,2,0]"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c13-01-piccoli",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c13-02-cinquecento",
+      "version": "1",
+      "conceptId": "it-a1-c13-02",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Cinquecento euro corrisponde a…",
+      "options": [
+        "500 €",
+        "50 €",
+        "150 €"
+      ],
+      "hint": "Cinquecento representa cinco centenas.",
+      "explanation": "Cinquecento representa cinco centenas.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "compras",
+        "facets": [
+          "centenas"
+        ],
+        "opportunityId": "it-a1-c13-02-cinquecento:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "500 €"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c13-02-cinquecento",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c13-02-trecento",
+      "version": "1",
+      "conceptId": "it-a1-c13-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "Scrivi 300 in lettere.",
+      "options": [],
+      "hint": "Tre + cento forma trecento en una palabra.",
+      "explanation": "Tre + cento forma trecento en una palabra.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "compras",
+        "facets": [
+          "centenas"
+        ],
+        "opportunityId": "it-a1-c13-02-trecento:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "trecento"
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c13-02-trecento",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c13-02-novecento",
+      "version": "1",
+      "conceptId": "it-a1-c13-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "Scrivi 900 in lettere.",
+      "options": [],
+      "hint": "Nove + cento forma novecento.",
+      "explanation": "Nove + cento forma novecento.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "hotel",
+        "facets": [
+          "centenas"
+        ],
+        "opportunityId": "it-a1-c13-02-novecento:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "novecento"
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c13-02-novecento",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c13-02-centottanta",
+      "version": "2",
+      "conceptId": "it-a1-c13-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Riscrivi «centoottanta» nella variante con elisione della vocale finale di cento.",
+      "options": [],
+      "hint": "La variante con elisión es centottanta. Centoottanta también es válida.",
+      "explanation": "Centottanta es la variante con elisión solicitada; centoottanta no es un error ortográfico.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "hotel",
+        "facets": [
+          "elisión"
+        ],
+        "opportunityId": "it-a1-c13-02-centottanta:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "centottanta"
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c13-02-centottanta",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c13-02-prezzo",
+      "version": "1",
+      "conceptId": "it-a1-c13-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Scrivi il prezzo 700 € in lettere, numero + euro.",
+      "options": [],
+      "hint": "Settecento es 700 y euro no cambia en plural.",
+      "explanation": "Settecento es 700 y euro no cambia en plural.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "compras",
+        "facets": [
+          "centenas",
+          "composición"
+        ],
+        "opportunityId": "it-a1-c13-02-prezzo:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "settecento euro"
+        ],
+        "rejected": [
+          "settecento euros"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c13-02-prezzo",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c13-03-prezzo",
+      "version": "1",
+      "conceptId": "it-a1-c13-03",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Il prezzo è 2,50 €. Scegli la lettura completa.",
+      "options": [
+        "due euro e cinquanta centesimi",
+        "duecentocinquanta euro"
+      ],
+      "hint": "La coma separa euros y céntimos.",
+      "explanation": "La coma separa euros y céntimos.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "bar",
+        "facets": [
+          "precio"
+        ],
+        "opportunityId": "it-a1-c13-03-prezzo:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "due euro e cinquanta centesimi"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c13-03-prezzo",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c13-03-eta",
+      "version": "1",
+      "conceptId": "it-a1-c13-03",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Scrivi «Tengo 23 años» in italiano, con il numero in lettere e senza io.",
+      "options": [],
+      "hint": "La edad usa ho + número + anni.",
+      "explanation": "La edad usa ho + número + anni.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "familia",
+        "facets": [
+          "edad"
+        ],
+        "opportunityId": "it-a1-c13-03-eta:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Ho ventitré anni",
+          "Ho ventitré anni."
+        ],
+        "rejected": [
+          "Sono ventitré anni",
+          "Ho ventitre anni"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c13-03-eta",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c13-03-quantita",
+      "version": "1",
+      "conceptId": "it-a1-c13-03",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci «tres billetes» con biglietto, numero in lettere.",
+      "options": [],
+      "hint": "El número tres requiere biglietti en plural.",
+      "explanation": "El número tres requiere biglietti en plural.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "transporte",
+        "facets": [
+          "cantidad"
+        ],
+        "opportunityId": "it-a1-c13-03-quantita:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "tre biglietti"
+        ],
+        "rejected": [
+          "tre biglietto"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c13-03-quantita",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c13-03-numero",
+      "version": "1",
+      "conceptId": "it-a1-c13-03",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "Sul biglietto: numero 18. Scrivi solo il numero in lettere.",
+      "options": [],
+      "hint": "La cifra identifica la referencia del billete.",
+      "explanation": "La cifra identifica la referencia del billete.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "transporte",
+        "facets": [
+          "billete"
+        ],
+        "opportunityId": "it-a1-c13-03-numero:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "diciotto"
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c13-03-numero",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c13-03-euro",
+      "version": "1",
+      "conceptId": "it-a1-c13-03",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Correggi solo l’unità: «cinque euros».",
+      "options": [],
+      "hint": "Euro es invariable en italiano.",
+      "explanation": "Euro es invariable en italiano.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "compras",
+        "facets": [
+          "precio"
+        ],
+        "opportunityId": "it-a1-c13-03-euro:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "euro"
+        ],
+        "rejected": [
+          "euros"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c13-03-euro",
+        "sourceVersion": "1"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "it-biglietto",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "biglietto",
+      "displayForm": "biglietto",
+      "gloss": "billete",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "biglietti",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C05",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C13",
+        "C16",
+        "C18",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c01-03",
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c07-01",
+        "it-a1-c08-01",
+        "it-a1-c09-02",
+        "it-a1-c09-03",
+        "it-a1-c10-02",
+        "it-a1-c13-01",
+        "it-a1-c13-03",
+        "it-a1-c16-05",
+        "it-a1-c18-01",
+        "it-a1-c34-06"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t05",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t13",
+        "it-a1-t16",
+        "it-a1-t18",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-due",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "due",
+      "displayForm": "due",
+      "gloss": "dos",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C05",
+        "C08",
+        "C13",
+        "C19",
+        "C20",
+        "C22",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c08-01",
+        "it-a1-c08-02",
+        "it-a1-c13-01",
+        "it-a1-c13-03",
+        "it-a1-c19-01",
+        "it-a1-c19-02",
+        "it-a1-c20-02",
+        "it-a1-c20-06",
+        "it-a1-c22-01",
+        "it-a1-c22-02",
+        "it-a1-c22-04",
+        "it-a1-c27-03"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t08",
+        "it-a1-t13",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t27"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-anno",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "anno",
+      "displayForm": "anno",
+      "gloss": "año",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "anni",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C05",
+        "C13",
+        "C20"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-01",
+        "it-a1-c05-03",
+        "it-a1-c13-01",
+        "it-a1-c13-03",
+        "it-a1-c20-06"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t13",
+        "it-a1-t20"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-venti",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "venti",
+      "displayForm": "venti",
+      "gloss": "veinte",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C05",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-03",
+        "it-a1-c13-01",
+        "it-a1-c13-03"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-trenta",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "trenta",
+      "displayForm": "trenta",
+      "gloss": "treinta",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C05",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-03",
+        "it-a1-c13-01",
+        "it-a1-c13-03"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-quaranta",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "quaranta",
+      "displayForm": "quaranta",
+      "gloss": "cuarenta",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C05",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-03",
+        "it-a1-c13-01"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-zero",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "zero",
+      "displayForm": "zero",
+      "gloss": "0",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01",
+        "it-a1-c13-03"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-uno",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "uno",
+      "displayForm": "uno",
+      "gloss": "1",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01",
+        "it-a1-c22-02"
+      ],
+      "topicIds": [
+        "it-a1-t13",
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-tre",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "tre",
+      "displayForm": "tre",
+      "gloss": "3",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01",
+        "it-a1-c13-03",
+        "it-a1-c22-02",
+        "it-a1-c22-04"
+      ],
+      "topicIds": [
+        "it-a1-t13",
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-quattro",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "quattro",
+      "displayForm": "quattro",
+      "gloss": "4",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01",
+        "it-a1-c22-02"
+      ],
+      "topicIds": [
+        "it-a1-t13",
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-cinque",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "cinque",
+      "displayForm": "cinque",
+      "gloss": "5",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-sei",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "sei",
+      "displayForm": "sei",
+      "gloss": "6",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13",
+        "C26"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01",
+        "it-a1-c26-02"
+      ],
+      "topicIds": [
+        "it-a1-t13",
+        "it-a1-t26"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-sette",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "sette",
+      "displayForm": "sette",
+      "gloss": "7",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13",
+        "C26",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01",
+        "it-a1-c26-02",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t13",
+        "it-a1-t26",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-otto",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "otto",
+      "displayForm": "otto",
+      "gloss": "8",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13",
+        "C26"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01",
+        "it-a1-c26-02"
+      ],
+      "topicIds": [
+        "it-a1-t13",
+        "it-a1-t26"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-nove",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "nove",
+      "displayForm": "nove",
+      "gloss": "9",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-dieci",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "dieci",
+      "displayForm": "dieci",
+      "gloss": "10",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-undici",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "undici",
+      "displayForm": "undici",
+      "gloss": "11",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-dodici",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "dodici",
+      "displayForm": "dodici",
+      "gloss": "12",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-tredici",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "tredici",
+      "displayForm": "tredici",
+      "gloss": "13",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-quattordici",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "quattordici",
+      "displayForm": "quattordici",
+      "gloss": "14",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-quindici",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "quindici",
+      "displayForm": "quindici",
+      "gloss": "15",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-sedici",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "sedici",
+      "displayForm": "sedici",
+      "gloss": "16",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-diciassette",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "diciassette",
+      "displayForm": "diciassette",
+      "gloss": "17",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-diciotto",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "diciotto",
+      "displayForm": "diciotto",
+      "gloss": "18",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13",
+        "C22"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01",
+        "it-a1-c22-02",
+        "it-a1-c22-04"
+      ],
+      "topicIds": [
+        "it-a1-t13",
+        "it-a1-t22"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-diciannove",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "diciannove",
+      "displayForm": "diciannove",
+      "gloss": "19",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-cinquanta",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "cinquanta",
+      "displayForm": "cinquanta",
+      "gloss": "50",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01",
+        "it-a1-c13-03"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-sessanta",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "sessanta",
+      "displayForm": "sessanta",
+      "gloss": "60",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-settanta",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "settanta",
+      "displayForm": "settanta",
+      "gloss": "70",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-ottanta",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "ottanta",
+      "displayForm": "ottanta",
+      "gloss": "80",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-novanta",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "novanta",
+      "displayForm": "novanta",
+      "gloss": "90",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-cento",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "cento",
+      "displayForm": "cento",
+      "gloss": "100",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-01",
+        "it-a1-c13-02"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-duecento",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "duecento",
+      "displayForm": "duecento",
+      "gloss": "200",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-02"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-trecento",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "trecento",
+      "displayForm": "trecento",
+      "gloss": "300",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-02"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-quattrocento",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "quattrocento",
+      "displayForm": "quattrocento",
+      "gloss": "400",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-02"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-cinquecento",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "cinquecento",
+      "displayForm": "cinquecento",
+      "gloss": "500",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-02"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-seicento",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "seicento",
+      "displayForm": "seicento",
+      "gloss": "600",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-02"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-settecento",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "settecento",
+      "displayForm": "settecento",
+      "gloss": "700",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-02"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-ottocento",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "ottocento",
+      "displayForm": "ottocento",
+      "gloss": "800",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-02"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-novecento",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "novecento",
+      "displayForm": "novecento",
+      "gloss": "900",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-02"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-mille",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "mille",
+      "displayForm": "mille",
+      "gloss": "1000",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-02"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-euro",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "euro",
+      "displayForm": "euro",
+      "gloss": "euro; plural euro",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "euro",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "noun",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-02",
+        "it-a1-c13-03"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-avere",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "avere",
+      "displayForm": "avere",
+      "gloss": "tener; auxiliar del passato prossimo en las construcciones enseñadas",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "ho",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "hai",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "ha",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "abbiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "avete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "hanno",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C05",
+        "C06",
+        "C13",
+        "C18",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c05-03",
+        "it-a1-c05-04",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c06-03",
+        "it-a1-c13-03",
+        "it-a1-c18-02",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c34-07"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t06",
+        "it-a1-t13",
+        "it-a1-t18",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. https://www.treccani.it/vocabolario/avere/"
+    },
+    {
+      "id": "it-centesimo",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "centesimo",
+      "displayForm": "centesimo",
+      "gloss": "céntimo",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "centesimi",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C13"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-03"
+      ],
+      "topicIds": [
+        "it-a1-t13"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-numero",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "numero",
+      "displayForm": "numero",
+      "gloss": "número",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "numeri",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C13",
+        "C15",
+        "C16",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c13-03",
+        "it-a1-c15-01",
+        "it-a1-c16-07",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t13",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    }
+  ],
+  "relations": [
+    {
+      "to": "it-a1-c01-02",
+      "type": "reinforces",
+      "reason": "Los compuestos -tré recuperan el acento escrito.",
+      "from": "it-a1-c13-01"
+    },
+    {
+      "to": "it-a1-c13-01",
+      "type": "prerequisite",
+      "reason": "Las centenas combinan con decenas y unidades.",
+      "strength": "recommended",
+      "from": "it-a1-c13-02"
+    },
+    {
+      "to": "it-a1-c13-01",
+      "type": "prerequisite",
+      "reason": "Los usos necesitan recuperar el dato numérico.",
+      "strength": "recommended",
+      "from": "it-a1-c13-03"
+    },
+    {
+      "to": "it-a1-c13-02",
+      "type": "related",
+      "reason": "Los precios pueden usar centenas.",
+      "from": "it-a1-c13-03"
+    },
+    {
+      "to": "it-a1-c05-03",
+      "type": "reinforces",
+      "reason": "La edad reutiliza avere y anni.",
+      "from": "it-a1-c13-03"
+    },
+    {
+      "to": "it-a1-c08-01",
+      "type": "reinforces",
+      "reason": "Las cantidades reutilizan plurales nominales.",
+      "from": "it-a1-c13-03"
+    },
+    {
+      "to": "it-a1-c13-01",
+      "type": "prerequisite",
+      "reason": "Las relaciones temporales reutilizan cantidades.",
+      "from": "it-a1-c20-06",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c13-01",
+      "type": "prerequisite",
+      "reason": "Las fechas se expresan con números conocidos.",
+      "from": "it-a1-c22-01",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c13-01",
+      "type": "reinforces",
+      "reason": "La lectura de horas recupera números.",
+      "from": "it-a1-c22-02"
+    },
+    {
+      "to": "it-a1-c13-03",
+      "type": "prerequisite",
+      "reason": "Las medidas amplían cantidades conocidas.",
+      "strength": "recommended",
+      "from": "it-a1-c27-01"
+    }
+  ]
+}

@@ -76,7 +76,7 @@ describe('C18–C25: linguistic boundaries and cumulative targets', () => {
     );
     expect(evaluate(find('03-01-noi'), 'noe').judgment).toBe('typo');
   });
-  it('matches the 22 expected concepts, with candidate content and bounded lexical growth', () => {
+  it('matches the 22 expected concepts, with unpublished content and bounded lexical growth', () => {
     const coverage = curriculumCoverage(italianCourse);
     expect(coverage.errors).toEqual([]);
     expect(coverage.totals).toEqual({
@@ -121,7 +121,7 @@ describe('C18–C25: linguistic boundaries and cumulative targets', () => {
     for (const c of italianCourse.concepts.filter(
       (c) => Number(c.id.slice(7, 9)) >= 18 && Number(c.id.slice(7, 9)) <= 25,
     )) {
-      expect(c.status).toBe('candidate');
+      expect(['candidate', 'reviewed']).toContain(c.status);
       expect(italianCourse.theories[c.id].provenance).toContain('C18–C25');
       expect(repository.connections(c.id).length).toBeGreaterThan(0);
       expect(
@@ -130,7 +130,7 @@ describe('C18–C25: linguistic boundaries and cumulative targets', () => {
           .every(
             (a) =>
               a.task?.opportunityId === a.id + ':target' &&
-              a.status === 'candidate',
+              a.status === c.status,
           ),
       ).toBe(true);
     }

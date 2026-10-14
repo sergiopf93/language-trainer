@@ -46,8 +46,9 @@ export const c20: Lesson[] = [
     items: [
       {
         key: 'origine',
+        version: '2',
         format: 'selection',
-        prompt: 'Sono ___ Madrid.',
+        prompt: 'Indica la città di origine: Sono ___ Madrid.',
         accepted: ['di'],
         rejected: ['da'],
         hint: 'Essere di + ciudad expresa origen.',
@@ -69,9 +70,11 @@ export const c20: Lesson[] = [
       },
       {
         key: 'possesso',
+        version: '2',
         format: 'controlled-production',
-        prompt: 'Il libro appartiene ad Anna. Scrivi il libro + di + Anna.',
-        accepted: ['Il libro di Anna'],
+        prompt:
+          'Il libro appartiene ad Anna. Esprimi la proprietà con un gruppo nominale: articolo determinativo + libro + preposizione + Anna.',
+        accepted: ['Il libro di Anna', 'Il libro di Anna.'],
         rejected: ['Il libro da Anna'],
         hint: 'Di une el libro con su propietaria.',
         explanation: 'Di une el libro con su propietaria.',
@@ -102,10 +105,11 @@ export const c20: Lesson[] = [
       },
       {
         key: 'correggi',
+        version: '2',
         format: 'error-correction',
         prompt:
-          'Correggi la preposizione: «Sono da Roma». Scrivi tutta la frase.',
-        accepted: ['Sono di Roma'],
+          'Vuoi indicare Roma come città di origine. Correggi la preposizione in «Sono da Roma» e scrivi tutta la frase.',
+        accepted: ['Sono di Roma', 'Sono di Roma.'],
         rejected: ['Sono da Roma'],
         hint: 'Con essere, el origen se expresa con di.',
         explanation: 'Con essere, el origen se expresa con di.',
@@ -114,9 +118,10 @@ export const c20: Lesson[] = [
       },
       {
         key: 'cambia',
+        version: '2',
         format: 'transformation',
         prompt: 'Esprimi provenienza: cambia «Sono di Madrid» usando vengo.',
-        accepted: ['Vengo da Madrid'],
+        accepted: ['Vengo da Madrid', 'Vengo da Madrid.'],
         rejected: ['Vengo di Madrid'],
         hint: 'Al cambiar a venire se usa da.',
         explanation: 'Al cambiar a venire se usa da.',
@@ -125,9 +130,10 @@ export const c20: Lesson[] = [
       },
       {
         key: 'traduci',
+        version: '2',
         format: 'translation',
         prompt: 'Traduci: «El bolígrafo de Anna».',
-        accepted: ['La penna di Anna'],
+        accepted: ['La penna di Anna', 'La penna di Anna.'],
         rejected: ['La penna da Anna'],
         hint: 'La relación de pertenencia se expresa con di.',
         explanation: 'La relación de pertenencia se expresa con di.',
@@ -230,23 +236,24 @@ export const c20: Lesson[] = [
       },
       {
         key: 'casa',
-        version: '2',
+        version: '4',
         format: 'transformation',
         prompt:
-          'Riscrivi «Sono in casa» usando la locuzione a casa, senza cambiare il verbo.',
-        accepted: ['Sono a casa'],
+          'Sostituisci in con la preposizione semplice che useresti davanti al nome della città Roma: «Sono in casa». Mantieni le altre parole.',
+        accepted: ['Sono a casa', 'Sono a casa.'],
         rejected: [],
-        hint: 'In casa es posible como dentro de casa; la consigna pide la locución a casa.',
+        hint: 'Ante Roma se usa a; la locución correspondiente es a casa.',
         facets: ['a'],
         context: 'vivienda',
         explanation:
-          'Sono in casa puede ser correcto. Aquí se pide reformular con a casa; no corregir una regla universal.',
+          'Sono a casa es la reformulación pedida. Sono in casa también puede ser correcto; aquí se practica la preposición usada ante una ciudad.',
       },
       {
         key: 'hotel',
-        version: '2',
+        version: '3',
         format: 'translation',
-        prompt: 'Traduci con in hotel: «Trabajo en un hotel».',
+        prompt:
+          'Traduce «Trabajo en un hotel» con lavorare y hotel. Escribe hotel sin artículo.',
         accepted: [
           'Lavoro in hotel',
           'Io lavoro in hotel',
@@ -261,9 +268,11 @@ export const c20: Lesson[] = [
       },
       {
         key: 'posizione',
+        version: '2',
         format: 'controlled-production',
-        prompt: 'Descrivi: la penna + è + su un libro.',
-        accepted: ['La penna è su un libro'],
+        prompt:
+          'Traduce «El bolígrafo está sobre un libro» con penna, essere y libro. Está apoyado en la superficie, no dentro del libro.',
+        accepted: ['La penna è su un libro', 'La penna è su un libro.'],
         rejected: ['La penna è in un libro'],
         hint: 'La consigna pide la superficie, no el interior.',
         explanation: 'La consigna pide la superficie, no el interior.',
@@ -272,9 +281,10 @@ export const c20: Lesson[] = [
       },
       {
         key: 'equivalenza',
+        version: '2',
         format: 'transformation',
         prompt: 'Sostituisci tra con il sinonimo: «Il bar è tra due case».',
-        accepted: ['Il bar è fra due case'],
+        accepted: ['Il bar è fra due case', 'Il bar è fra due case.'],
         rejected: ['Il bar è per due case'],
         hint: 'Fra conserva la relación entre dos casas.',
         explanation: 'Fra conserva la relación entre dos casas.',
@@ -375,9 +385,11 @@ export const c20: Lesson[] = [
       },
       {
         key: 'correggi',
+        version: '2',
         format: 'error-correction',
-        prompt: 'Correggi la preposizione: «Andiamo a Anna».',
-        accepted: ['Andiamo da Anna'],
+        prompt:
+          'Vuoi andare a casa di Anna. Correggi la preposizione in «Andiamo a Anna» e scrivi tutta la frase.',
+        accepted: ['Andiamo da Anna', 'Andiamo da Anna.'],
         rejected: ['Andiamo a Anna'],
         hint: 'Con el destino personal Anna se usa da.',
         explanation: 'Con el destino personal Anna se usa da.',
@@ -386,25 +398,29 @@ export const c20: Lesson[] = [
       },
       {
         key: 'casa',
-        version: '2',
+        version: '3',
         format: 'translation',
-        prompt: 'Traduci: «Voy a casa».',
+        prompt:
+          'Traduce «Voy a casa»: regresas a tu domicilio, sin indicar que entras en el interior. Usa andare en presente.',
         accepted: [
           'Vado a casa',
           'Io vado a casa',
           'Vado a casa.',
           'Io vado a casa.',
         ],
-        rejected: ['Vado in casa'],
-        hint: 'La locución pedida es andare a casa.',
-        explanation: 'La locución pedida es andare a casa.',
+        rejected: [],
+        hint: 'Vado a casa expresa el regreso al domicilio.',
+        explanation:
+          'Vado a casa expresa la meta del desplazamiento. Vado in casa puede significar entrar en casa; no es un error universal.',
         facets: ['a'],
         context: 'vida cotidiana',
       },
       {
         key: 'biglietto',
+        version: '2',
         format: 'controlled-production',
-        prompt: 'Indica il trasporto: usa prendo + un treno + per Roma.',
+        prompt:
+          'Traduce «Tomo un tren con destino a Roma» con prendere y treno, sin io. Usa una preposición simple para indicar el destino.',
         accepted: ['Prendo un treno per Roma'],
         rejected: ['Prendo un treno di Roma'],
         hint: 'Per Roma señala la dirección del tren.',
@@ -513,8 +529,9 @@ export const c20: Lesson[] = [
       },
       {
         key: 'correggi',
+        version: '2',
         format: 'error-correction',
-        prompt: 'Correggi solo il pronome: «Esco con io».',
+        prompt: 'Correggi solo il pronome: «Anna esce con io».',
         accepted: ['me'],
         rejected: ['io'],
         hint: 'La preposición exige me.',
@@ -524,9 +541,11 @@ export const c20: Lesson[] = [
       },
       {
         key: 'insieme',
+        version: '2',
         format: 'controlled-production',
-        prompt: 'Di’ che studi in compagnia di Anna: usa studio + con Anna.',
-        accepted: ['Studio con Anna'],
+        prompt:
+          'Traduce «Estudio con Anna» con studiare, sin io. Anna es tu compañera de estudio.',
+        accepted: ['Studio con Anna', 'Studio con Anna.'],
         rejected: ['Studio di Anna'],
         hint: 'Con Anna expresa con quién estudias.',
         explanation: 'Con Anna expresa con quién estudias.',
@@ -552,9 +571,10 @@ export const c20: Lesson[] = [
       },
       {
         key: 'cambia',
+        version: '2',
         format: 'transformation',
         prompt: 'Sostituisci Anna e Luca con loro: «Esco con Anna e Luca».',
-        accepted: ['Esco con loro'],
+        accepted: ['Esco con loro', 'Esco con loro.'],
         rejected: ['Esco loro'],
         hint: 'Con se mantiene delante del pronombre loro.',
         explanation: 'Con se mantiene delante del pronombre loro.',
@@ -663,9 +683,10 @@ export const c20: Lesson[] = [
       },
       {
         key: 'unisci',
+        version: '2',
         format: 'transformation',
         prompt: 'Unisci con per: «Leggo. Voglio capire».',
-        accepted: ['Leggo per capire'],
+        accepted: ['Leggo per capire', 'Leggo per capire.'],
         rejected: ['Leggo per capisco'],
         hint: 'La segunda acción se convierte en finalidad en infinitivo.',
         explanation:
@@ -675,9 +696,10 @@ export const c20: Lesson[] = [
       },
       {
         key: 'traduci',
+        version: '2',
         format: 'translation',
         prompt: 'Traduci: «El libro es para ti».',
-        accepted: ['Il libro è per te'],
+        accepted: ['Il libro è per te', 'Il libro è per te.'],
         rejected: ['Il libro è per tu'],
         hint: 'Destinatario con pronombre tónico te.',
         explanation: 'Destinatario con pronombre tónico te.',
@@ -686,9 +708,11 @@ export const c20: Lesson[] = [
       },
       {
         key: 'produci',
+        version: '2',
         format: 'controlled-production',
-        prompt: 'Indica il destinatario: usa il caffè + è + per Anna.',
-        accepted: ['Il caffè è per Anna'],
+        prompt:
+          'Traduce «El café es para Anna» con caffè y essere: Anna es la destinataria de la bebida.',
+        accepted: ['Il caffè è per Anna', 'Il caffè è per Anna.'],
         rejected: ['Il caffè è di Anna'],
         hint: 'Per identifica a la destinataria; di expresaría pertenencia.',
         explanation:
@@ -713,6 +737,7 @@ export const c20: Lesson[] = [
   },
   {
     code: '20-06',
+    theoryRevision: 'editorial-1',
     title: 'Preposizioni e tempo',
     objective:
       'Expresar relaciones temporales con di/a/in/da/per/tra/fra en un repertorio delimitado.',
@@ -720,7 +745,7 @@ export const c20: Lesson[] = [
       'Elige la preposición según la relación temporal: momento, período, inicio de una situación que continúa, duración o distancia hasta un hecho futuro.',
     rules: [
       'Di notte expresa un período habitual; a mezzogiorno indica un momento.',
-      'In agosto sitúa algo en un mes; in due ore indica el tiempo necesario para completarlo.',
+      'In agosto sitúa algo en un mes; también son posibles a agosto y ad agosto. In due ore indica el tiempo necesario para completarlo.',
       'Da due anni indica una situación que comenzó hace dos años y continúa: studio italiano da due anni.',
       'Per due giorni delimita duración; tra/fra due ore indica dentro de dos horas.',
     ],
@@ -792,12 +817,14 @@ export const c20: Lesson[] = [
       },
       {
         key: 'mese',
+        version: '2',
         format: 'cloze',
         prompt: 'Vado in Italia ___ agosto.',
-        accepted: ['in'],
-        rejected: ['a'],
-        hint: 'Los meses se introducen aquí con in.',
-        explanation: 'Los meses se introducen aquí con in.',
+        accepted: ['in', 'a', 'ad'],
+        rejected: ['su'],
+        hint: 'In agosto y a/ad agosto sitúan el viaje en ese mes.',
+        explanation:
+          'Son válidas in agosto y a/ad agosto. No se impone una preferencia de preposición como regla exclusiva.',
         facets: ['in'],
         context: 'viaje',
       },
@@ -814,9 +841,11 @@ export const c20: Lesson[] = [
       },
       {
         key: 'durata',
+        version: '2',
         format: 'controlled-production',
-        prompt: 'Indica una durata limitata: usa lavoro + per due giorni.',
-        accepted: ['Lavoro per due giorni'],
+        prompt:
+          'Traduce «Trabajo durante dos días» con lavorare, sin io. Expresa una duración delimitada mediante una preposición.',
+        accepted: ['Lavoro per due giorni', 'Lavoro per due giorni.'],
         rejected: ['Lavoro tra due giorni'],
         hint: 'Per indica cuánto dura; tra, cuándo comienza.',
         explanation: 'Per indica cuánto dura; tra, cuándo comienza.',
@@ -825,9 +854,16 @@ export const c20: Lesson[] = [
       },
       {
         key: 'futuro',
+        version: '2',
         format: 'translation',
-        prompt: 'Traduci con tra/fra: «Voy dentro de dos horas» (venire).',
-        accepted: ['Vengo tra due ore', 'Vengo fra due ore'],
+        prompt:
+          'Tu interlocutor está en Roma y te invita allí. Traduce «Voy dentro de dos horas» con venire, sin io.',
+        accepted: [
+          'Vengo tra due ore',
+          'Vengo fra due ore',
+          'Vengo tra due ore.',
+          'Vengo fra due ore.',
+        ],
         rejected: ['Vengo da due ore'],
         hint: 'Tra/fra sitúa la llegada dos horas después de ahora.',
         explanation: 'Tra/fra sitúa la llegada dos horas después de ahora.',
@@ -836,10 +872,14 @@ export const c20: Lesson[] = [
       },
       {
         key: 'correggi',
+        version: '2',
         format: 'error-correction',
         prompt:
-          'La situazione continua: correggi «Studio italiano tra due anni» usando da.',
-        accepted: ['Studio italiano da due anni'],
+          'Estudias italiano desde hace dos años y sigues estudiándolo hoy. Corrige la preposición y escribe toda la frase: «Studio italiano tra due anni».',
+        accepted: [
+          'Studio italiano da due anni',
+          'Studio italiano da due anni.',
+        ],
         rejected: ['Studio italiano tra due anni'],
         hint: 'Da conecta el comienzo pasado con una situación actual.',
         explanation: 'Da conecta el comienzo pasado con una situación actual.',

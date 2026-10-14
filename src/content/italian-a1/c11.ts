@@ -238,9 +238,10 @@ export const c11: Lesson[] = [
       },
       {
         key: 'bella',
+        version: '2',
         format: 'short',
         prompt:
-          'Completa con il gruppo insegnato «una / bella / casa», con bella prima del nome.',
+          'Traduce «una casa bonita» con bello antes del sustantivo. Escribe solo el grupo nominal.',
         accepted: ['una bella casa'],
         hint: 'Bella casa es una combinación frecuente con adjetivo anterior.',
         explanation:

@@ -66,20 +66,29 @@ export const c19: Lesson[] = [
       },
       {
         key: 'negazione',
+        version: '2',
         format: 'transformation',
-        prompt: "Metti al negativo: «C'è un bagno».",
-        accepted: ["Non c'è un bagno", 'Non c’è un bagno'],
+        prompt:
+          'Trasforma «C’è un bagno» in una frase negativa semplice, senza aggiungere altre informazioni.',
+        accepted: [
+          "Non c'è un bagno",
+          'Non c’è un bagno',
+          "Non c'è un bagno.",
+          'Non c’è un bagno.',
+        ],
         rejected: ["C'è non un bagno", 'C’è non un bagno'],
-        hint: 'Non precede a toda la construcción.',
-        explanation: 'Non precede a toda la construcción.',
+        hint: 'En la negación simple, non precede a c’è.',
+        explanation:
+          'En la negación simple se dice non c’è un bagno. La negación contrastiva tiene otro alcance.',
         facets: ['negacion'],
         context: 'vivienda',
       },
       {
         key: 'plurale',
+        version: '2',
         format: 'transformation',
         prompt: "Passa a due letti: «C'è un letto».",
-        accepted: ['Ci sono due letti'],
+        accepted: ['Ci sono due letti', 'Ci sono due letti.'],
         rejected: ["C'è due letti", 'C’è due letti'],
         hint: 'Con dos camas se usa ci sono.',
         explanation: 'Con dos camas se usa ci sono.',
@@ -88,9 +97,15 @@ export const c19: Lesson[] = [
       },
       {
         key: 'grafia',
+        version: '2',
         format: 'error-correction',
         prompt: 'Riscrivi correttamente la formula: «Ce un bagno».',
-        accepted: ["C'è un bagno", 'C’è un bagno'],
+        accepted: [
+          "C'è un bagno",
+          'C’è un bagno',
+          "C'è un bagno.",
+          'C’è un bagno.',
+        ],
         rejected: ["C'e un bagno", 'C’e un bagno'],
         hint: 'La fórmula exige apóstrofo y è con acento.',
         explanation: 'La fórmula exige apóstrofo y è con acento.',
@@ -99,8 +114,10 @@ export const c19: Lesson[] = [
       },
       {
         key: 'domanda',
+        version: '2',
         format: 'controlled-production',
-        prompt: 'Chiedi se c’è una camera: usa c’è + una camera.',
+        prompt:
+          'Traduce «¿Hay una habitación?» con camera y la construcción de existencia estudiada. Termina con el signo de interrogación.',
         accepted: ["C'è una camera?", 'C’è una camera?'],
         rejected: ['Ci sono una camera?'],
         hint: 'La pregunta conserva c’è por camera singular.',
@@ -110,9 +127,10 @@ export const c19: Lesson[] = [
       },
       {
         key: 'traduci',
+        version: '2',
         format: 'translation',
         prompt: 'Traduci: «No hay dos llaves».',
-        accepted: ['Non ci sono due chiavi'],
+        accepted: ['Non ci sono due chiavi', 'Non ci sono due chiavi.'],
         rejected: ["Non c'è due chiavi", 'Non c’è due chiavi'],
         hint: 'Chiavi es plural, por eso non ci sono.',
         explanation: 'Chiavi es plural, por eso non ci sono.',
@@ -177,8 +195,10 @@ export const c19: Lesson[] = [
     items: [
       {
         key: 'intenzione',
+        version: '2',
         format: 'selection',
-        prompt: "«C'è una camera»: che cosa annuncia?",
+        prompt:
+          'Alla reception chiedi se ci sono camere disponibili. La risposta «C’è una camera» annuncia…',
         accepted: ['disponibilità'],
         rejected: ['posizione della camera già nota'],
         hint: 'La frase anuncia que hay una habitación.',
@@ -189,31 +209,39 @@ export const c19: Lesson[] = [
       },
       {
         key: 'libro',
+        version: '2',
         format: 'cloze',
-        prompt: 'Localizza il libro già noto: «Il libro ___ qui» (essere).',
+        prompt:
+          'Localizza il libro già noto. Completa con il solo verbo essere al presente indicativo: «Il libro ___ qui».',
         accepted: ['è'],
         rejected: ['c’è', "c'è"],
         hint: 'El referente conocido es sujeto de è.',
-        explanation: 'El referente conocido es sujeto de è.',
+        explanation:
+          'La tarea pide el verbo essere sin ci: il libro è qui. Otras construcciones pueden anunciar presencia en otro contexto.',
         facets: ['localizacion'],
         context: 'estudio',
       },
       {
         key: 'chiavi',
+        version: '2',
         format: 'cloze',
-        prompt: 'Localizza le chiavi già note: «Le chiavi ___ qui».',
+        prompt:
+          'Localizza le chiavi già note. Completa con il solo verbo essere al presente indicativo: «Le chiavi ___ qui».',
         accepted: ['sono'],
         rejected: ['ci sono'],
         hint: 'La frase sitúa las llaves conocidas con sono.',
-        explanation: 'La frase sitúa las llaves conocidas con sono.',
+        explanation:
+          'La tarea pide el verbo essere sin ci: le chiavi sono qui. Ci sono puede anunciar presencia en otra construcción.',
         facets: ['localizacion'],
         context: 'vivienda',
       },
       {
         key: 'annuncio',
+        version: '2',
         format: 'controlled-production',
-        prompt: 'Annuncia la presenza di due libri: usa ci sono + due libri.',
-        accepted: ['Ci sono due libri'],
+        prompt:
+          'Traduce «Hay dos libros» con libro y la construcción de existencia estudiada. Escribe el número en letras.',
+        accepted: ['Ci sono due libri', 'Ci sono due libri.'],
         rejected: ['Sono due libri'],
         hint: 'Ci sono anuncia existencia; sono due libri los identifica.',
         explanation:
@@ -223,10 +251,11 @@ export const c19: Lesson[] = [
       },
       {
         key: 'cambia',
+        version: '2',
         format: 'transformation',
         prompt:
           "Ora localizza il gatto già noto qui. Da «C'è un gatto» scrivi il gatto + essere + qui.",
-        accepted: ['Il gatto è qui'],
+        accepted: ['Il gatto è qui', 'Il gatto è qui.'],
         rejected: ["Il gatto c'è qui", 'Il gatto c’è qui'],
         hint: 'La consigna pide ubicar el referente mediante essere.',
         explanation: 'La consigna pide ubicar el referente mediante essere.',
@@ -235,9 +264,10 @@ export const c19: Lesson[] = [
       },
       {
         key: 'traduci',
+        version: '2',
         format: 'translation',
         prompt: 'Traduci con essere: «Las dos llaves están aquí».',
-        accepted: ['Le due chiavi sono qui'],
+        accepted: ['Le due chiavi sono qui', 'Le due chiavi sono qui.'],
         rejected: ['Ci sono due chiavi'],
         hint: 'Se conserva el referente identificado y su ubicación.',
         explanation: 'Se conserva el referente identificado y su ubicación.',

@@ -172,9 +172,10 @@ export const c17: Lesson[] = [
       },
       {
         key: 'richiesta',
+        version: '2',
         format: 'translation',
         prompt:
-          'Traduci «¿Puedes repetir?» con potere, sin tu y con interrogación final.',
+          'Traduci «¿Puedes repetir?» con potere, senza tu e con il punto interrogativo finale.',
         accepted: ['Puoi ripetere?'],
         hint: 'Puoi + infinitivo sirve aquí para pedir una acción.',
         explanation: 'Puoi + infinitivo sirve aquí para pedir una acción.',
@@ -184,8 +185,9 @@ export const c17: Lesson[] = [
       },
       {
         key: 'cambia',
+        version: '2',
         format: 'transformation',
-        prompt: 'Da io a noi: «Io posso leggere». Mantén el pronombre.',
+        prompt: 'Da io a noi: «Io posso leggere». Mantieni il pronome.',
         accepted: ['Noi possiamo leggere', 'Noi possiamo leggere.'],
         hint: 'Solo cambia el modal; leggere permanece en infinitivo.',
         explanation: 'Solo cambia el modal; leggere permanece en infinitivo.',
@@ -372,8 +374,9 @@ export const c17: Lesson[] = [
       },
       {
         key: 'cambia',
+        version: '2',
         format: 'transformation',
-        prompt: 'Da io a loro: «Io voglio leggere». Mantén el pronombre.',
+        prompt: 'Da io a loro: «Io voglio leggere». Mantieni il pronome.',
         accepted: ['Loro vogliono leggere', 'Loro vogliono leggere.'],
         hint: 'El modal cambia a vogliono; leggere permanece en infinitivo.',
         explanation:
@@ -468,12 +471,13 @@ export const c17: Lesson[] = [
     items: [
       {
         key: 'forma-io',
+        version: '2',
         format: 'selection',
         prompt: 'Io ___ lavorare oggi (dovere).',
         accepted: ['devo', 'debbo'],
-        hint: 'Con io, el presente de dovere es devo. La terminación pertenece al verbo conjugado.',
+        hint: 'Con io, el presente de dovere es devo; también se admite debbo.',
         explanation:
-          'Con io, el presente de dovere es devo. La terminación pertenece al verbo conjugado.',
+          'Con io, devo y debbo son formas válidas del presente de dovere.',
         facets: ['io'],
         context: 'trabajo',
         rejected: ['dovo'],
@@ -529,12 +533,13 @@ export const c17: Lesson[] = [
       },
       {
         key: 'forma-loro',
+        version: '2',
         format: 'cloze',
         prompt: 'Gli studenti ___ leggere (dovere).',
         accepted: ['devono', 'debbono'],
-        hint: 'Con loro, el presente de dovere es devono. La terminación pertenece al verbo conjugado.',
+        hint: 'Con loro, el presente de dovere es devono; también se admite debbono.',
         explanation:
-          'Con loro, el presente de dovere es devono. La terminación pertenece al verbo conjugado.',
+          'Con loro, devono y debbono son formas válidas del presente de dovere.',
         facets: ['loro'],
         context: 'estudio',
         rejected: ['dovono'],
@@ -583,8 +588,9 @@ export const c17: Lesson[] = [
       },
       {
         key: 'cambia',
+        version: '2',
         format: 'transformation',
-        prompt: 'Da io a voi: «Io devo lavorare». Mantén el pronombre.',
+        prompt: 'Da io a voi: «Io devo lavorare». Mantieni il pronome.',
         accepted: ['Voi dovete lavorare', 'Voi dovete lavorare.'],
         hint: 'Voi usa dovete; lavorare permanece en infinitivo.',
         explanation: 'Voi usa dovete; lavorare permanece en infinitivo.',

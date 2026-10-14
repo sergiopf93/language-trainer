@@ -1,0 +1,3359 @@
+{
+  "topic": "C17",
+  "concepts": [
+    {
+      "id": "it-a1-c17-01",
+      "version": "1",
+      "topicId": "it-a1-t17",
+      "title": "Il presente di potere",
+      "objective": "Recuperar y usar potere en presente: poder: posibilidad, permiso y petición.",
+      "scope": "Recuperar y usar potere en presente: poder: posibilidad, permiso y petición.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use",
+        "discrimination"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "io",
+        "tu",
+        "lui-lei",
+        "noi",
+        "voi",
+        "loro",
+        "infinitivo",
+        "permiso",
+        "posibilidad",
+        "petición"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c17-02",
+      "version": "1",
+      "topicId": "it-a1-t17",
+      "title": "Il presente di volere",
+      "objective": "Recuperar y usar volere en presente: querer: deseos y preferencias expresados directamente.",
+      "scope": "Recuperar y usar volere en presente: querer: deseos y preferencias expresados directamente.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use",
+        "discrimination"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "io",
+        "tu",
+        "lui-lei",
+        "noi",
+        "voi",
+        "loro",
+        "infinitivo",
+        "deseo",
+        "registro"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c17-03",
+      "version": "1",
+      "topicId": "it-a1-t17",
+      "title": "Il presente di dovere",
+      "objective": "Recuperar y usar dovere en presente: deber/tener que: obligación y necesidad cotidiana.",
+      "scope": "Recuperar y usar dovere en presente: deber/tener que: obligación y necesidad cotidiana.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use",
+        "discrimination"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "io",
+        "tu",
+        "lui-lei",
+        "noi",
+        "voi",
+        "loro",
+        "infinitivo",
+        "necesidad",
+        "obligación",
+        "negación"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c17-01",
+      "version": "theory-c17-01-1",
+      "conceptId": "it-a1-c17-01",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Il presente di potere",
+      "goal": "Recuperar y usar potere en presente: poder: posibilidad, permiso y petición.",
+      "introduction": "Aprende el significado junto con las seis personas. El pronombre ayuda a estudiar el paradigma, pero se puede omitir cuando la forma y el contexto identifican al sujeto.",
+      "rules": [
+        "Potere se conjuga: posso, puoi, può, possiamo, potete, possono. Può lleva acento; puoi no.",
+        "El modal va seguido directamente del infinitivo: posso leggere, puoi parlare. No añadas di/a ni conjugues el segundo verbo.",
+        "Posibilidad: oggi posso studiare, hoy tengo la posibilidad. Permiso: posso uscire?, pregunto si está permitido. El contexto distingue las dos lecturas.",
+        "Una pregunta con puoi puede pedir una acción: puoi ripetere? La fórmula ya conocida se entiende ahora como modal + infinitivo. No equivale a una obligación."
+      ],
+      "forms": [
+        [
+          "io posso",
+          "puedo"
+        ],
+        [
+          "tu puoi",
+          "puedes"
+        ],
+        [
+          "lui/lei può",
+          "puede"
+        ],
+        [
+          "noi possiamo",
+          "podemos"
+        ],
+        [
+          "voi potete",
+          "podéis / pueden"
+        ],
+        [
+          "loro possono",
+          "pueden"
+        ]
+      ],
+      "examples": [
+        [
+          "Posso leggere il libro.",
+          "Puedo leer el libro."
+        ],
+        [
+          "Puoi ripetere?",
+          "¿Puedes repetir?"
+        ],
+        [
+          "Posso uscire?",
+          "¿Puedo salir?"
+        ]
+      ],
+      "frequentErrors": [
+        "No escribas «puo»: può lleva acento.",
+        "No conjugues ambos verbos: posso leggere, no posso leggo."
+      ],
+      "usageNotes": [
+        "Las preposiciones y complementos dados son apoyo; el objetivo es el verbo de esta ficha."
+      ],
+      "exceptions": [],
+      "contrasts": [
+        {
+          "conceptId": "it-a1-c17-03",
+          "explanation": "Posibilidad y permiso no equivalen a obligación."
+        }
+      ],
+      "vocabularyIds": [
+        "it-potere",
+        "it-leggere",
+        "it-libro",
+        "it-parlare",
+        "it-studiare",
+        "it-uscire",
+        "it-ripetere",
+        "it-puoi-ripetere",
+        "it-oggi",
+        "it-italiano",
+        "it-studente"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/"
+    },
+    {
+      "id": "it-a1-theory-c17-02",
+      "version": "theory-c17-02-1",
+      "conceptId": "it-a1-c17-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Il presente di volere",
+      "goal": "Recuperar y usar volere en presente: querer: deseos y preferencias expresados directamente.",
+      "introduction": "Aprende el significado junto con las seis personas. El pronombre ayuda a estudiar el paradigma, pero se puede omitir cuando la forma y el contexto identifican al sujeto.",
+      "rules": [
+        "Volere: voglio, vuoi, vuole, vogliamo, volete, vogliono. Noi conserva gli: vogliamo; voi es volete.",
+        "Con una acción, se usa directamente el infinitivo: voglio dormire, vogliamo studiare. No añadas di ni una segunda forma personal.",
+        "Voglio expresa un deseo de manera directa. Entre amigos puede ser natural; como exigencia a una persona que atiende puede sonar brusco. No se enseña como petición cortés universal.",
+        "Non voglio uscire expresa que no deseo salir; no significa que no pueda. La cortesía con otras fórmulas se desarrollará en su bloque propio."
+      ],
+      "forms": [
+        [
+          "io voglio",
+          "quiero"
+        ],
+        [
+          "tu vuoi",
+          "quieres"
+        ],
+        [
+          "lui/lei vuole",
+          "quiere"
+        ],
+        [
+          "noi vogliamo",
+          "queremos"
+        ],
+        [
+          "voi volete",
+          "queréis / quieren"
+        ],
+        [
+          "loro vogliono",
+          "quieren"
+        ]
+      ],
+      "examples": [
+        [
+          "Voglio studiare italiano.",
+          "Quiero estudiar italiano."
+        ],
+        [
+          "Non vogliamo uscire.",
+          "No queremos salir."
+        ]
+      ],
+      "frequentErrors": [
+        "No regularices como «volo» para yo quiero.",
+        "Voglio no se usa como fórmula cortés automática."
+      ],
+      "usageNotes": [
+        "Las preposiciones y complementos dados son apoyo; el objetivo es el verbo de esta ficha."
+      ],
+      "exceptions": [],
+      "contrasts": [
+        {
+          "conceptId": "it-a1-c17-01",
+          "explanation": "Querer no implica poder: voglio frente a posso."
+        }
+      ],
+      "vocabularyIds": [
+        "it-volere",
+        "it-studiare",
+        "it-italiano",
+        "it-leggere",
+        "it-dormire",
+        "it-parlare",
+        "it-con",
+        "it-uscire",
+        "it-bere",
+        "it-acqua",
+        "it-caffe",
+        "it-non",
+        "it-potere"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/"
+    },
+    {
+      "id": "it-a1-theory-c17-03",
+      "version": "theory-c17-03-1",
+      "conceptId": "it-a1-c17-03",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Il presente di dovere",
+      "goal": "Recuperar y usar dovere en presente: deber/tener que: obligación y necesidad cotidiana.",
+      "introduction": "Aprende el significado junto con las seis personas. El pronombre ayuda a estudiar el paradigma, pero se puede omitir cuando la forma y el contexto identifican al sujeto.",
+      "rules": [
+        "Dovere: devo, devi, deve, dobbiamo, dovete, devono. También existen debbo y debbono para io y loro; se aceptan en las tareas correspondientes.",
+        "Dovere + infinitivo expresa obligación o necesidad: devo lavorare, dobbiamo studiare. No se traduce el que español como che.",
+        "Una obligación o una tarea pendiente puede expresarse con devo; voglio expresa deseo y posso posibilidad. La consigna debe aclarar la intención.",
+        "Non devo uscire puede indicar que no debo salir, por ejemplo por una prohibición. Sin contexto, no lo uses como traducción única de no tengo necesidad de salir."
+      ],
+      "forms": [
+        [
+          "io devo",
+          "debo"
+        ],
+        [
+          "tu devi",
+          "debes"
+        ],
+        [
+          "lui/lei deve",
+          "debe"
+        ],
+        [
+          "noi dobbiamo",
+          "debemos"
+        ],
+        [
+          "voi dovete",
+          "debéis / deben"
+        ],
+        [
+          "loro devono",
+          "deben"
+        ]
+      ],
+      "examples": [
+        [
+          "Devo lavorare oggi.",
+          "Tengo que trabajar hoy."
+        ],
+        [
+          "Dobbiamo studiare.",
+          "Tenemos que estudiar."
+        ]
+      ],
+      "frequentErrors": [
+        "No copies «tengo que» como «devo che».",
+        "Noi dobbiamo conserva doble b; no «doviamo»."
+      ],
+      "usageNotes": [
+        "Las preposiciones y complementos dados son apoyo; el objetivo es el verbo de esta ficha."
+      ],
+      "exceptions": [],
+      "contrasts": [
+        {
+          "conceptId": "it-a1-c17-01",
+          "explanation": "Devo obliga; posso permite o hace posible."
+        },
+        {
+          "conceptId": "it-a1-c17-02",
+          "explanation": "Devo no significa necesariamente voglio."
+        }
+      ],
+      "vocabularyIds": [
+        "it-dovere",
+        "it-lavorare",
+        "it-oggi",
+        "it-leggere",
+        "it-messaggio",
+        "it-studiare",
+        "it-andare",
+        "it-roma",
+        "it-fare",
+        "it-esercizio",
+        "it-studente",
+        "it-volere",
+        "it-potere"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/"
+    }
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c17-01-forma-io",
+      "version": "1",
+      "conceptId": "it-a1-c17-01",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Io ___ leggere il libro (potere).",
+      "options": [
+        "posso",
+        "poso"
+      ],
+      "hint": "Con io, el presente de potere es posso. La terminación pertenece al verbo conjugado.",
+      "explanation": "Con io, el presente de potere es posso. La terminación pertenece al verbo conjugado.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "estudio",
+        "facets": [
+          "io"
+        ],
+        "opportunityId": "it-a1-c17-01-forma-io:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "posso"
+        ],
+        "rejected": [
+          "poso"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c17-01-forma-io",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c17-01-forma-tu",
+      "version": "1",
+      "conceptId": "it-a1-c17-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Tu ___ ripetere? (potere; ripetere = repetir).",
+      "options": [],
+      "hint": "Con tu, el presente de potere es puoi. La terminación pertenece al verbo conjugado.",
+      "explanation": "Con tu, el presente de potere es puoi. La terminación pertenece al verbo conjugado.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "teléfono",
+        "facets": [
+          "tu"
+        ],
+        "opportunityId": "it-a1-c17-01-forma-tu:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "puoi"
+        ],
+        "rejected": [
+          "può"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c17-01-forma-tu",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c17-01-forma-lui-lei",
+      "version": "1",
+      "conceptId": "it-a1-c17-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Anna ___ studiare oggi (potere).",
+      "options": [],
+      "hint": "Con lui/lei, el presente de potere es può. La terminación pertenece al verbo conjugado.",
+      "explanation": "Con lui/lei, el presente de potere es può. La terminación pertenece al verbo conjugado.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "estudio",
+        "facets": [
+          "lui-lei"
+        ],
+        "opportunityId": "it-a1-c17-01-forma-lui-lei:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "può"
+        ],
+        "rejected": [
+          "puo"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c17-01-forma-lui-lei",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c17-01-infinito",
+      "version": "1",
+      "conceptId": "it-a1-c17-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Correggi solo il secondo verbo: «Posso leggo».",
+      "options": [],
+      "hint": "Después de posso se necesita el infinitivo leggere.",
+      "explanation": "Después de posso se necesita el infinitivo leggere.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "estudio",
+        "facets": [
+          "infinitivo"
+        ],
+        "opportunityId": "it-a1-c17-01-infinito:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "leggere"
+        ],
+        "rejected": [
+          "leggo"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c17-01-infinito",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c17-01-permesso",
+      "version": "1",
+      "conceptId": "it-a1-c17-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Pide permiso para salir con potere + uscire, sin io, con interrogación final.",
+      "options": [],
+      "hint": "Posso uscire? pide permiso en este contexto.",
+      "explanation": "Posso uscire? pide permiso en este contexto.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "familia",
+        "facets": [
+          "permiso"
+        ],
+        "opportunityId": "it-a1-c17-01-permesso:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Posso uscire?"
+        ],
+        "rejected": [
+          "Voglio uscire?"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c17-01-permesso",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c17-01-richiesta",
+      "version": "2",
+      "conceptId": "it-a1-c17-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci «¿Puedes repetir?» con potere, senza tu e con il punto interrogativo finale.",
+      "options": [],
+      "hint": "Puoi + infinitivo sirve aquí para pedir una acción.",
+      "explanation": "Puoi + infinitivo sirve aquí para pedir una acción.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "teléfono",
+        "facets": [
+          "petición"
+        ],
+        "opportunityId": "it-a1-c17-01-richiesta:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Puoi ripetere?"
+        ],
+        "rejected": [
+          "Puoi ripeti?"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c17-01-richiesta",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c17-01-cambia",
+      "version": "2",
+      "conceptId": "it-a1-c17-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Da io a noi: «Io posso leggere». Mantieni il pronome.",
+      "options": [],
+      "hint": "Solo cambia el modal; leggere permanece en infinitivo.",
+      "explanation": "Solo cambia el modal; leggere permanece en infinitivo.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "estudio",
+        "facets": [
+          "infinitivo"
+        ],
+        "opportunityId": "it-a1-c17-01-cambia:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Noi possiamo leggere",
+          "Noi possiamo leggere."
+        ],
+        "rejected": [
+          "Noi possiamo leggiamo"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c17-01-cambia",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c17-02-forma-io",
+      "version": "1",
+      "conceptId": "it-a1-c17-02",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Io ___ studiare italiano (volere).",
+      "options": [
+        "voglio",
+        "volo"
+      ],
+      "hint": "Con io, el presente de volere es voglio. La terminación pertenece al verbo conjugado.",
+      "explanation": "Con io, el presente de volere es voglio. La terminación pertenece al verbo conjugado.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "estudio",
+        "facets": [
+          "io"
+        ],
+        "opportunityId": "it-a1-c17-02-forma-io:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "voglio"
+        ],
+        "rejected": [
+          "volo"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c17-02-forma-io",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c17-02-forma-tu",
+      "version": "1",
+      "conceptId": "it-a1-c17-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Tu ___ leggere? (volere).",
+      "options": [],
+      "hint": "Con tu, el presente de volere es vuoi. La terminación pertenece al verbo conjugado.",
+      "explanation": "Con tu, el presente de volere es vuoi. La terminación pertenece al verbo conjugado.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "familia",
+        "facets": [
+          "tu"
+        ],
+        "opportunityId": "it-a1-c17-02-forma-tu:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "vuoi"
+        ],
+        "rejected": [
+          "vogli"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c17-02-forma-tu",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c17-02-forma-lui-lei",
+      "version": "1",
+      "conceptId": "it-a1-c17-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Anna ___ dormire (volere).",
+      "options": [],
+      "hint": "Con lui/lei, el presente de volere es vuole. La terminación pertenece al verbo conjugado.",
+      "explanation": "Con lui/lei, el presente de volere es vuole. La terminación pertenece al verbo conjugado.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "familia",
+        "facets": [
+          "lui-lei"
+        ],
+        "opportunityId": "it-a1-c17-02-forma-lui-lei:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "vuole"
+        ],
+        "rejected": [
+          "vole"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c17-02-forma-lui-lei",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c17-02-infinito",
+      "version": "1",
+      "conceptId": "it-a1-c17-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Correggi solo il secondo verbo: «Voglio dormo».",
+      "options": [],
+      "hint": "La acción deseada va en infinitivo tras voglio.",
+      "explanation": "La acción deseada va en infinitivo tras voglio.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "familia",
+        "facets": [
+          "infinitivo"
+        ],
+        "opportunityId": "it-a1-c17-02-infinito:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "dormire"
+        ],
+        "rejected": [
+          "dormo"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c17-02-infinito",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c17-02-desiderio",
+      "version": "1",
+      "conceptId": "it-a1-c17-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Escribe «No quiero salir» con volere y uscire, sin io.",
+      "options": [],
+      "hint": "Non voglio expresa ausencia de deseo.",
+      "explanation": "Non voglio expresa ausencia de deseo.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "familia",
+        "facets": [
+          "deseo"
+        ],
+        "opportunityId": "it-a1-c17-02-desiderio:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Non voglio uscire",
+          "Non voglio uscire."
+        ],
+        "rejected": [
+          "Non posso uscire"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c17-02-desiderio",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c17-02-cambia",
+      "version": "2",
+      "conceptId": "it-a1-c17-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Da io a loro: «Io voglio leggere». Mantieni il pronome.",
+      "options": [],
+      "hint": "El modal cambia a vogliono; leggere permanece en infinitivo.",
+      "explanation": "El modal cambia a vogliono; leggere permanece en infinitivo.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "estudio",
+        "facets": [
+          "infinitivo"
+        ],
+        "opportunityId": "it-a1-c17-02-cambia:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Loro vogliono leggere",
+          "Loro vogliono leggere."
+        ],
+        "rejected": [
+          "Loro vogliono leggono"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c17-02-cambia",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c17-03-forma-io",
+      "version": "1",
+      "conceptId": "it-a1-c17-03",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Io ___ lavorare oggi (dovere).",
+      "options": [
+        "devo",
+        "debbo",
+        "dovo"
+      ],
+      "hint": "Con io, el presente de dovere es devo. La terminación pertenece al verbo conjugado.",
+      "explanation": "Con io, el presente de dovere es devo. La terminación pertenece al verbo conjugado.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "trabajo",
+        "facets": [
+          "io"
+        ],
+        "opportunityId": "it-a1-c17-03-forma-io:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "devo",
+          "debbo"
+        ],
+        "rejected": [
+          "dovo"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c17-03-forma-io",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c17-03-forma-tu",
+      "version": "1",
+      "conceptId": "it-a1-c17-03",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Tu ___ leggere il messaggio (dovere).",
+      "options": [],
+      "hint": "Con tu, el presente de dovere es devi. La terminación pertenece al verbo conjugado.",
+      "explanation": "Con tu, el presente de dovere es devi. La terminación pertenece al verbo conjugado.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "teléfono",
+        "facets": [
+          "tu"
+        ],
+        "opportunityId": "it-a1-c17-03-forma-tu:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "devi"
+        ],
+        "rejected": [
+          "dovi"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c17-03-forma-tu",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c17-03-forma-lui-lei",
+      "version": "1",
+      "conceptId": "it-a1-c17-03",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Anna ___ studiare (dovere).",
+      "options": [],
+      "hint": "Con lui/lei, el presente de dovere es deve. La terminación pertenece al verbo conjugado.",
+      "explanation": "Con lui/lei, el presente de dovere es deve. La terminación pertenece al verbo conjugado.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "estudio",
+        "facets": [
+          "lui-lei"
+        ],
+        "opportunityId": "it-a1-c17-03-forma-lui-lei:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "deve"
+        ],
+        "rejected": [
+          "dove"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c17-03-forma-lui-lei",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c17-03-infinito",
+      "version": "1",
+      "conceptId": "it-a1-c17-03",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Correggi la costruzione, senza cambiare persona: «Devo che lavoro».",
+      "options": [],
+      "hint": "El infinitivo sigue directamente al modal, sin che.",
+      "explanation": "El infinitivo sigue directamente al modal, sin che.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "trabajo",
+        "facets": [
+          "infinitivo"
+        ],
+        "opportunityId": "it-a1-c17-03-infinito:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Devo lavorare",
+          "Devo lavorare.",
+          "Debbo lavorare",
+          "Debbo lavorare."
+        ],
+        "rejected": [
+          "Devo che lavorare"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c17-03-infinito",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c17-03-necessita",
+      "version": "1",
+      "conceptId": "it-a1-c17-03",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Escribe «Tenemos que estudiar» con dovere y studiare, sin noi.",
+      "options": [],
+      "hint": "Dobbiamo + infinitivo expresa necesidad u obligación.",
+      "explanation": "Dobbiamo + infinitivo expresa necesidad u obligación.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "estudio",
+        "facets": [
+          "necesidad"
+        ],
+        "opportunityId": "it-a1-c17-03-necessita:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Dobbiamo studiare",
+          "Dobbiamo studiare."
+        ],
+        "rejected": [
+          "Dobbiamo studiamo"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c17-03-necessita",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c17-03-cambia",
+      "version": "2",
+      "conceptId": "it-a1-c17-03",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Da io a voi: «Io devo lavorare». Mantieni il pronome.",
+      "options": [],
+      "hint": "Voi usa dovete; lavorare permanece en infinitivo.",
+      "explanation": "Voi usa dovete; lavorare permanece en infinitivo.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "trabajo",
+        "facets": [
+          "infinitivo"
+        ],
+        "opportunityId": "it-a1-c17-03-cambia:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Voi dovete lavorare",
+          "Voi dovete lavorare."
+        ],
+        "rejected": [
+          "Voi dovete lavorate"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c17-03-cambia",
+        "sourceVersion": "2"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "it-puoi-ripetere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "puoi ripetere?",
+      "displayForm": "puoi ripetere?",
+      "gloss": "¿puedes repetir?, informal",
+      "partOfSpeech": "formula",
+      "forms": [],
+      "tags": [
+        "formula",
+        "C02",
+        "C17",
+        "C18"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c02-03",
+        "it-a1-c17-01",
+        "it-a1-c18-02"
+      ],
+      "topicIds": [
+        "it-a1-t02",
+        "it-a1-t17",
+        "it-a1-t18"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-italiano",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "italiano",
+      "displayForm": "italiano",
+      "gloss": "italiano: nacionalidad; lengua en parlare/studiare italiano",
+      "partOfSpeech": "adjective",
+      "forms": [
+        {
+          "key": "feminine",
+          "text": "italiana",
+          "features": {
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "adjective",
+        "C04",
+        "C11",
+        "C12",
+        "C14",
+        "C15",
+        "C17",
+        "C20",
+        "C25",
+        "C29",
+        "C31",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-03",
+        "it-a1-c11-02",
+        "it-a1-c12-01",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c15-01",
+        "it-a1-c15-03",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c20-01",
+        "it-a1-c20-06",
+        "it-a1-c25-01",
+        "it-a1-c29-03",
+        "it-a1-c31-01",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t11",
+        "it-a1-t12",
+        "it-a1-t14",
+        "it-a1-t15",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t25",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-oggi",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "oggi",
+      "displayForm": "oggi",
+      "gloss": "hoy",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C06",
+        "C16",
+        "C17",
+        "C29"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c06-03",
+        "it-a1-c16-03",
+        "it-a1-c16-08",
+        "it-a1-c17-01",
+        "it-a1-c17-03",
+        "it-a1-c29-02"
+      ],
+      "topicIds": [
+        "it-a1-t06",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t29"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-studente",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "studente",
+      "displayForm": "studente",
+      "gloss": "estudiante (masculino)",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "studenti",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C15",
+        "C16",
+        "C17",
+        "C21",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c10-01",
+        "it-a1-c11-01",
+        "it-a1-c11-02",
+        "it-a1-c12-01",
+        "it-a1-c15-03",
+        "it-a1-c16-01",
+        "it-a1-c16-07",
+        "it-a1-c17-01",
+        "it-a1-c17-03",
+        "it-a1-c21-01",
+        "it-a1-c21-02",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t11",
+        "it-a1-t12",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t21",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Revisión editorial pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-parlare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "parlare",
+      "displayForm": "parlare",
+      "gloss": "hablar",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "parlo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "parli",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "parla",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "parliamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "parlate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "parlano",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C14",
+        "C16",
+        "C17",
+        "C18",
+        "C20",
+        "C28",
+        "C29",
+        "C30",
+        "C31"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c16-07",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c18-01",
+        "it-a1-c20-04",
+        "it-a1-c28-01",
+        "it-a1-c29-02",
+        "it-a1-c30-02",
+        "it-a1-c31-01"
+      ],
+      "topicIds": [
+        "it-a1-t14",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t20",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-studiare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "studiare",
+      "displayForm": "studiare",
+      "gloss": "estudiar",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "studio",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "studi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "studia",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "studiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "studiate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "studiano",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C14",
+        "C17",
+        "C20",
+        "C22",
+        "C25",
+        "C29",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c17-03",
+        "it-a1-c20-04",
+        "it-a1-c20-05",
+        "it-a1-c20-06",
+        "it-a1-c22-03",
+        "it-a1-c25-01",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c29-03",
+        "it-a1-c31-01",
+        "it-a1-c32-01",
+        "it-a1-c32-03",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t14",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t25",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-leggere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "leggere",
+      "displayForm": "leggere",
+      "gloss": "leer",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "leggo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "leggi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "legge",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "leggiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "leggete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "leggono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C15",
+        "C17",
+        "C20",
+        "C22",
+        "C23",
+        "C25",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-01",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c17-03",
+        "it-a1-c20-05",
+        "it-a1-c22-03",
+        "it-a1-c23-01",
+        "it-a1-c25-01",
+        "it-a1-c25-02",
+        "it-a1-c28-02",
+        "it-a1-c29-04",
+        "it-a1-c30-02",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t23",
+        "it-a1-t25",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-libro",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "libro",
+      "displayForm": "libro",
+      "gloss": "libro",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "libri",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C15",
+        "C16",
+        "C17",
+        "C19",
+        "C20",
+        "C21",
+        "C23",
+        "C24",
+        "C25",
+        "C27",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-01",
+        "it-a1-c16-05",
+        "it-a1-c17-01",
+        "it-a1-c19-02",
+        "it-a1-c20-01",
+        "it-a1-c20-02",
+        "it-a1-c20-05",
+        "it-a1-c21-01",
+        "it-a1-c21-02",
+        "it-a1-c23-01",
+        "it-a1-c24-01",
+        "it-a1-c24-02",
+        "it-a1-c25-02",
+        "it-a1-c27-02",
+        "it-a1-c27-03",
+        "it-a1-c28-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c30-01",
+        "it-a1-c30-02",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c34-04"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t23",
+        "it-a1-t24",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-uscire",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "uscire",
+      "displayForm": "uscire",
+      "gloss": "salir",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "esco",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "esci",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "esce",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "usciamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "uscite",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "escono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C16",
+        "C17",
+        "C20",
+        "C22",
+        "C26",
+        "C29",
+        "C32",
+        "C33"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c16-08",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c20-04",
+        "it-a1-c22-03",
+        "it-a1-c26-02",
+        "it-a1-c29-03",
+        "it-a1-c29-04",
+        "it-a1-c32-02",
+        "it-a1-c33-01"
+      ],
+      "topicIds": [
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t26",
+        "it-a1-t29",
+        "it-a1-t32",
+        "it-a1-t33"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-potere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "potere",
+      "displayForm": "potere",
+      "gloss": "poder: posibilidad, permiso y petición",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "posso",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "puoi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "può",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "possiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "potete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "possono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C17",
+        "C18",
+        "C20",
+        "C22",
+        "C29"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c17-03",
+        "it-a1-c18-02",
+        "it-a1-c20-04",
+        "it-a1-c22-04",
+        "it-a1-c29-02"
+      ],
+      "topicIds": [
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t29"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-ripetere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "ripetere",
+      "displayForm": "ripetere",
+      "gloss": "repetir; infinitivo tras modal",
+      "partOfSpeech": "verb",
+      "forms": [],
+      "tags": [
+        "verb",
+        "C17"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c17-01"
+      ],
+      "topicIds": [
+        "it-a1-t17"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-caffe",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "caffè",
+      "displayForm": "caffè",
+      "gloss": "café",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "caffè",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C02",
+        "C08",
+        "C10",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C20",
+        "C22",
+        "C25",
+        "C27",
+        "C28",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-02",
+        "it-a1-c01-03",
+        "it-a1-c02-02",
+        "it-a1-c08-02",
+        "it-a1-c10-02",
+        "it-a1-c15-01",
+        "it-a1-c16-06",
+        "it-a1-c17-02",
+        "it-a1-c18-01",
+        "it-a1-c20-05",
+        "it-a1-c22-03",
+        "it-a1-c25-01",
+        "it-a1-c25-02",
+        "it-a1-c27-01",
+        "it-a1-c28-01",
+        "it-a1-c28-02",
+        "it-a1-c31-02",
+        "it-a1-c32-03",
+        "it-a1-c34-03"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t02",
+        "it-a1-t08",
+        "it-a1-t10",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación C08: plural canónico del repertorio; candidate."
+    },
+    {
+      "id": "it-non",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "non",
+      "displayForm": "non",
+      "gloss": "no, ante el verbo",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C06",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C22",
+        "C26",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c15-03",
+        "it-a1-c16-06",
+        "it-a1-c17-02",
+        "it-a1-c22-04",
+        "it-a1-c26-02",
+        "it-a1-c28-02"
+      ],
+      "topicIds": [
+        "it-a1-t06",
+        "it-a1-t14",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t22",
+        "it-a1-t26",
+        "it-a1-t28"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-con",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "con",
+      "displayForm": "con",
+      "gloss": "con: compañía e interlocutor",
+      "partOfSpeech": "preposition",
+      "forms": [],
+      "tags": [
+        "preposition",
+        "C14",
+        "C16",
+        "C17",
+        "C20",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c14-01",
+        "it-a1-c16-08",
+        "it-a1-c17-02",
+        "it-a1-c20-04",
+        "it-a1-c28-01"
+      ],
+      "topicIds": [
+        "it-a1-t14",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t28"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación de usos C18–C25; candidate, revisión pendiente."
+    },
+    {
+      "id": "it-dormire",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "dormire",
+      "displayForm": "dormire",
+      "gloss": "dormir",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "dormo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "dormi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "dorme",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "dormiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "dormite",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "dormono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C15",
+        "C17",
+        "C27",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-02",
+        "it-a1-c15-03",
+        "it-a1-c17-02",
+        "it-a1-c27-02",
+        "it-a1-c29-04",
+        "it-a1-c30-02",
+        "it-a1-c31-01",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t17",
+        "it-a1-t27",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-bere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "bere",
+      "displayForm": "bere",
+      "gloss": "beber",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "bevo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "bevi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "beve",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "beviamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "bevete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "bevono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C16",
+        "C17",
+        "C18",
+        "C22",
+        "C25",
+        "C29",
+        "C31",
+        "C32"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c16-06",
+        "it-a1-c17-02",
+        "it-a1-c18-01",
+        "it-a1-c22-03",
+        "it-a1-c25-01",
+        "it-a1-c29-03",
+        "it-a1-c31-02",
+        "it-a1-c32-02",
+        "it-a1-c32-03"
+      ],
+      "topicIds": [
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t22",
+        "it-a1-t25",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t32"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-acqua",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "acqua",
+      "displayForm": "acqua",
+      "gloss": "agua",
+      "partOfSpeech": "noun",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C16",
+        "C17",
+        "C18",
+        "C27",
+        "C29",
+        "C30",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c16-06",
+        "it-a1-c17-02",
+        "it-a1-c18-01",
+        "it-a1-c27-01",
+        "it-a1-c27-02",
+        "it-a1-c27-03",
+        "it-a1-c29-01",
+        "it-a1-c29-03",
+        "it-a1-c30-01",
+        "it-a1-c34-03"
+      ],
+      "topicIds": [
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t27",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-volere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "volere",
+      "displayForm": "volere",
+      "gloss": "querer: deseos y preferencias expresados directamente",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "voglio",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "vuoi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "vuole",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "vogliamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "volete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "vogliono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C17",
+        "C18",
+        "C20"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c17-02",
+        "it-a1-c17-03",
+        "it-a1-c18-01",
+        "it-a1-c20-05"
+      ],
+      "topicIds": [
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t20"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-roma",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "Roma",
+      "displayForm": "Roma",
+      "gloss": "Roma",
+      "partOfSpeech": "proper-noun",
+      "forms": [],
+      "tags": [
+        "proper-noun",
+        "C04",
+        "C06",
+        "C14",
+        "C16",
+        "C17",
+        "C18",
+        "C20",
+        "C21",
+        "C23",
+        "C29",
+        "C32"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-03",
+        "it-a1-c04-04",
+        "it-a1-c06-03",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c16-02",
+        "it-a1-c16-04",
+        "it-a1-c17-03",
+        "it-a1-c18-02",
+        "it-a1-c20-01",
+        "it-a1-c20-02",
+        "it-a1-c20-03",
+        "it-a1-c21-02",
+        "it-a1-c23-02",
+        "it-a1-c29-03",
+        "it-a1-c32-03"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t14",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t23",
+        "it-a1-t29",
+        "it-a1-t32"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-lavorare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "lavorare",
+      "displayForm": "lavorare",
+      "gloss": "trabajar",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "lavoro",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "lavori",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "lavora",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "lavoriamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "lavorate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "lavorano",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C14",
+        "C17",
+        "C20",
+        "C21",
+        "C22",
+        "C25",
+        "C27",
+        "C29",
+        "C31",
+        "C32",
+        "C33",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c17-03",
+        "it-a1-c20-02",
+        "it-a1-c20-06",
+        "it-a1-c21-02",
+        "it-a1-c22-01",
+        "it-a1-c25-01",
+        "it-a1-c27-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c29-03",
+        "it-a1-c29-04",
+        "it-a1-c31-01",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c32-03",
+        "it-a1-c33-01",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t14",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t22",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t33",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-messaggio",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "messaggio",
+      "displayForm": "messaggio",
+      "gloss": "mensaje",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "messaggi",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C15",
+        "C17",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-01",
+        "it-a1-c15-03",
+        "it-a1-c17-03",
+        "it-a1-c28-01",
+        "it-a1-c29-04",
+        "it-a1-c30-02",
+        "it-a1-c31-01",
+        "it-a1-c31-02",
+        "it-a1-c34-07"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t17",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-fare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "fare",
+      "displayForm": "fare",
+      "gloss": "hacer en actividades cotidianas",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "faccio",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "fai",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "fa",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "facciamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "fate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "fanno",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C16",
+        "C17",
+        "C29",
+        "C30",
+        "C31",
+        "C32"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c16-01",
+        "it-a1-c17-03",
+        "it-a1-c29-04",
+        "it-a1-c30-02",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c32-02"
+      ],
+      "topicIds": [
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-andare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "andare",
+      "displayForm": "andare",
+      "gloss": "ir hacia un destino",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "vado",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "vai",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "va",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "andiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "andate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "vanno",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C16",
+        "C17",
+        "C20",
+        "C21",
+        "C26",
+        "C28",
+        "C30",
+        "C32",
+        "C33",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c16-02",
+        "it-a1-c16-04",
+        "it-a1-c17-03",
+        "it-a1-c20-03",
+        "it-a1-c21-02",
+        "it-a1-c26-02",
+        "it-a1-c28-01",
+        "it-a1-c30-02",
+        "it-a1-c32-02",
+        "it-a1-c33-01",
+        "it-a1-c34-06"
+      ],
+      "topicIds": [
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t26",
+        "it-a1-t28",
+        "it-a1-t30",
+        "it-a1-t32",
+        "it-a1-t33",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-esercizio",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "esercizio",
+      "displayForm": "esercizio",
+      "gloss": "ejercicio",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "esercizi",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C16",
+        "C17"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c16-01",
+        "it-a1-c17-03"
+      ],
+      "topicIds": [
+        "it-a1-t16",
+        "it-a1-t17"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    },
+    {
+      "id": "it-dovere",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "dovere",
+      "displayForm": "dovere",
+      "gloss": "deber/tener que: obligación y necesidad cotidiana",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "devo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "devi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "deve",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "dobbiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "dovete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "devono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "io-alternative",
+          "text": "debbo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro-alternative",
+          "text": "debbono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "verb",
+        "C17"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c17-03"
+      ],
+      "topicIds": [
+        "it-a1-t17"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    }
+  ],
+  "relations": [
+    {
+      "to": "it-a1-c03-01",
+      "type": "prerequisite",
+      "reason": "La persona del sujeto permite escoger la forma verbal.",
+      "strength": "recommended",
+      "from": "it-a1-c17-01"
+    },
+    {
+      "to": "it-a1-c03-01",
+      "type": "prerequisite",
+      "reason": "La persona del sujeto permite escoger la forma verbal.",
+      "strength": "recommended",
+      "from": "it-a1-c17-02"
+    },
+    {
+      "to": "it-a1-c03-01",
+      "type": "prerequisite",
+      "reason": "La persona del sujeto permite escoger la forma verbal.",
+      "strength": "recommended",
+      "from": "it-a1-c17-03"
+    },
+    {
+      "to": "it-a1-c15-01",
+      "type": "prerequisite",
+      "reason": "Los infinitivos conocidos permiten construir modal + acción.",
+      "strength": "recommended",
+      "from": "it-a1-c17-01"
+    },
+    {
+      "to": "it-a1-c02-03",
+      "type": "reinforces",
+      "reason": "Puoi ripetere se conecta con el paradigma de potere.",
+      "from": "it-a1-c17-01"
+    },
+    {
+      "to": "it-a1-c14-01",
+      "type": "prerequisite",
+      "reason": "Las acciones conocidas aportan infinitivos al deseo.",
+      "strength": "recommended",
+      "from": "it-a1-c17-02"
+    },
+    {
+      "to": "it-a1-c17-01",
+      "type": "contrast",
+      "reason": "Deseo frente a posibilidad/permiso.",
+      "from": "it-a1-c17-02"
+    },
+    {
+      "to": "it-a1-c14-01",
+      "type": "prerequisite",
+      "reason": "Obligaciones con infinitivos de actividades conocidas.",
+      "strength": "recommended",
+      "from": "it-a1-c17-03"
+    },
+    {
+      "to": "it-a1-c17-01",
+      "type": "contrast",
+      "reason": "Obligación frente a posibilidad.",
+      "from": "it-a1-c17-03"
+    },
+    {
+      "to": "it-a1-c17-02",
+      "type": "contrast",
+      "reason": "Obligación frente a deseo.",
+      "from": "it-a1-c17-03"
+    },
+    {
+      "to": "it-a1-c17-01",
+      "type": "prerequisite",
+      "reason": "Puoi/può se recuperan con el trato apropiado.",
+      "from": "it-a1-c18-02",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c17-01",
+      "type": "prerequisite",
+      "reason": "La disponibilidad reutiliza potere.",
+      "from": "it-a1-c22-04",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c17-02",
+      "type": "contrast",
+      "reason": "Vorrei suaviza la petición frente a voglio.",
+      "from": "it-a1-c18-01"
+    },
+    {
+      "to": "it-a1-c17-02",
+      "type": "contrast",
+      "reason": "Finalidad con per frente a complemento directo del modal sin per.",
+      "from": "it-a1-c20-05"
+    }
+  ]
+}

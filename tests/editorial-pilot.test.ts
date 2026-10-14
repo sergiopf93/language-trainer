@@ -1,11 +1,12 @@
 import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
-import {
-  authoredItalianCourse,
-  italianCourse,
-} from '../src/content/italian-a1/course';
+import { authoredItalianCourse } from '../src/content/italian-a1/course';
 import { editorialC01C10 } from '../src/content/italian-a1/editorial-c01-c10';
-import { reviewFingerprint } from '../src/content/editorial-review';
+import {
+  applyReviewBatch,
+  reviewFingerprint,
+} from '../src/content/editorial-review';
+const italianCourse = applyReviewBatch(authoredItalianCourse, editorialC01C10);
 import { validatePack } from '../src/content/validate';
 import { loadLanguagePack } from '../src/content/loader';
 import { evaluate } from '../src/exercises/evaluate';

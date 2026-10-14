@@ -166,8 +166,9 @@ export const c14: Lesson[] = [
       },
       {
         key: 'cambia',
+        version: '2',
         format: 'transformation',
-        prompt: 'Cambia io por noi: «Io abito a Roma». Mantén el pronombre.',
+        prompt: 'Passa da io a noi: «Io abito a Roma». Mantieni il pronome.',
         accepted: ['Noi abitiamo a Roma', 'Noi abitiamo a Roma.'],
         hint: 'Abitare conserva abit- y toma -iamo con noi.',
         explanation: 'Abitare conserva abit- y toma -iamo con noi.',
@@ -177,9 +178,10 @@ export const c14: Lesson[] = [
       },
       {
         key: 'lavoro',
+        version: '2',
         format: 'controlled-production',
         prompt:
-          'Escribe «Trabajo en un hotel» usando lavorare e in hotel, sin io.',
+          'Escribe «Trabajo en un hotel» usando lavorare y «in hotel», sin io.',
         accepted: ['Lavoro in hotel', 'Lavoro in hotel.'],
         hint: 'Lavorare usa -o en primera persona singular.',
         explanation: 'Lavorare usa -o en primera persona singular.',
@@ -269,8 +271,9 @@ export const c14: Lesson[] = [
       },
       {
         key: 'abitano',
+        version: '2',
         format: 'translation',
-        prompt: 'Traduci «Ellas viven en Roma» con abitare y loro.',
+        prompt: 'Traduci «Ellas viven en Roma» con abitare e loro.',
         accepted: ['Loro abitano a Roma', 'Loro abitano a Roma.'],
         hint: 'Abitano expresa residencia de loro.',
         explanation: 'Abitano expresa residencia de loro.',
@@ -294,8 +297,10 @@ export const c14: Lesson[] = [
       },
       {
         key: 'negazione',
+        version: '2',
         format: 'transformation',
-        prompt: 'Nega: «Lavoro a Roma».',
+        prompt:
+          'Trasforma «Lavoro a Roma» in una frase negativa semplice, senza aggiungere altre informazioni.',
         accepted: ['Non lavoro a Roma', 'Non lavoro a Roma.'],
         hint: 'Non precede al verbo y no cambia su terminación.',
         explanation: 'Non precede al verbo y no cambia su terminación.',

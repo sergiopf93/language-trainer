@@ -1,0 +1,1647 @@
+{
+  "topic": "C14",
+  "concepts": [
+    {
+      "id": "it-a1-c14-01",
+      "version": "1",
+      "topicId": "it-a1-t14",
+      "title": "Il presente regolare in -are",
+      "objective": "Recuperar el presente regular -are de parlare, lavorare, abitare y studiare relacionando infinitivo, raíz, terminaciones y persona.",
+      "scope": "Recuperar el presente regular -are de parlare, lavorare, abitare y studiare relacionando infinitivo, raíz, terminaciones y persona.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C14; A1_COVERAGE_MATRIX C14. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "io",
+        "tu",
+        "lui-lei",
+        "noi",
+        "voi",
+        "loro",
+        "raíz",
+        "grafía",
+        "transferencia"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c14-02",
+      "version": "1",
+      "topicId": "it-a1-t14",
+      "title": "Studio, lavoro, abito",
+      "objective": "Elegir y usar verbos -are enseñados para estudio, trabajo, residencia y actividad habitual.",
+      "scope": "Elegir y usar verbos -are enseñados para estudio, trabajo, residencia y actividad habitual.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use",
+        "discrimination"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C14; A1_COVERAGE_MATRIX C14. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "estudio",
+        "trabajo",
+        "residencia",
+        "hábito",
+        "selección"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F4",
+        "F3"
+      ],
+      "coverage": "complete"
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c14-01",
+      "version": "theory-c14-01-1",
+      "conceptId": "it-a1-c14-01",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Il presente regolare in -are",
+      "goal": "Recuperar el presente regular -are de parlare, lavorare, abitare y studiare relacionando infinitivo, raíz, terminaciones y persona.",
+      "introduction": "Aprende el significado junto con las seis personas. El pronombre ayuda a estudiar el paradigma, pero se puede omitir cuando la forma y el contexto identifican al sujeto.",
+      "rules": [
+        "En un verbo regular -are separa la terminación del infinitivo: parl-are. Añade -o, -i, -a, -iamo, -ate, -ano según la persona.",
+        "El mismo patrón sirve para lavorare (trabajar) y abitare (vivir/residir): lavoro/lavori/lavora/lavoriamo/lavorate/lavorano; abito/abiti/abita/abitiamo/abitate/abitano.",
+        "Studiare conserva la i de su base salvo que la terminación ya la aporte: studio, studi, studia, studiamo, studiate, studiano. No escribas studii o studiiamo en el presente de estas personas.",
+        "La negación sigue delante del verbo: non parlo. Una pregunta mantiene la forma de la persona: Parli italiano?"
+      ],
+      "forms": [
+        [
+          "io parlo",
+          "hablo"
+        ],
+        [
+          "tu parli",
+          "hablas"
+        ],
+        [
+          "lui/lei parla",
+          "habla"
+        ],
+        [
+          "noi parliamo",
+          "hablamos"
+        ],
+        [
+          "voi parlate",
+          "habláis / hablan"
+        ],
+        [
+          "loro parlano",
+          "hablan"
+        ]
+      ],
+      "examples": [
+        [
+          "Parlo italiano.",
+          "Hablo italiano."
+        ],
+        [
+          "Lavoriamo in hotel.",
+          "Trabajamos en un hotel."
+        ]
+      ],
+      "frequentErrors": [
+        "No uses el infinitivo con un sujeto como «io parlare».",
+        "La primera persona plural termina en -iamo, no -amos."
+      ],
+      "usageNotes": [
+        "Las preposiciones y complementos dados son apoyo; el objetivo es el verbo de esta ficha."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-parlare",
+        "it-lavorare",
+        "it-abitare",
+        "it-studiare",
+        "it-italiano",
+        "it-spagnolo",
+        "it-roma",
+        "it-hotel",
+        "it-con",
+        "it-non"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C14; A1_COVERAGE_MATRIX C14. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/"
+    },
+    {
+      "id": "it-a1-theory-c14-02",
+      "version": "theory-c14-02-1",
+      "conceptId": "it-a1-c14-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Studio, lavoro, abito",
+      "goal": "Elegir y usar verbos -are enseñados para estudio, trabajo, residencia y actividad habitual.",
+      "introduction": "La forma correcta también necesita el verbo adecuado: studiare para estudiar, lavorare para trabajar, abitare para residir y parlare para hablar. El presente comunica actividades habituales y situaciones actuales.",
+      "rules": [
+        "Abito a Roma expresa residencia; lavoro a Roma expresa lugar de trabajo. No significan lo mismo.",
+        "Studio italiano indica aprendizaje; parlo italiano indica uso de la lengua. El contexto de la actividad decide el verbo.",
+        "Habitualmente se puede usar ogni giorno (cada día): lavoro ogni giorno. No hace falta un tiempo verbal distinto.",
+        "La negación va delante del verbo elegido; non lavoro no significa non studio. Mantén la persona aunque cambie la intención."
+      ],
+      "forms": [
+        [
+          "abitare",
+          "residir"
+        ],
+        [
+          "lavorare",
+          "trabajar"
+        ],
+        [
+          "studiare",
+          "estudiar"
+        ],
+        [
+          "parlare",
+          "hablar"
+        ],
+        [
+          "ogni giorno",
+          "cada día"
+        ]
+      ],
+      "examples": [
+        [
+          "Studio italiano ogni giorno.",
+          "Estudio italiano cada día."
+        ],
+        [
+          "Abitiamo a Roma.",
+          "Vivimos en Roma."
+        ]
+      ],
+      "frequentErrors": [
+        "No elijas lavorare para expresar dónde resides.",
+        "Estudiar y hablar una lengua no son acciones idénticas."
+      ],
+      "usageNotes": [
+        "A Roma e in hotel son combinaciones de apoyo ya conocidas; no se evalúa todo el sistema preposicional."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-studiare",
+        "it-lavorare",
+        "it-abitare",
+        "it-parlare",
+        "it-ogni-giorno",
+        "it-roma",
+        "it-hotel",
+        "it-italiano",
+        "it-non"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C14; A1_COVERAGE_MATRIX C14. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/"
+    }
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c14-01-forma-io",
+      "version": "1",
+      "conceptId": "it-a1-c14-01",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Io ___ italiano (parlare).",
+      "options": [
+        "parlo",
+        "parla"
+      ],
+      "hint": "Con io, el presente de parlare es parlo. La terminación pertenece al verbo conjugado.",
+      "explanation": "Con io, el presente de parlare es parlo. La terminación pertenece al verbo conjugado.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "estudio",
+        "facets": [
+          "io"
+        ],
+        "opportunityId": "it-a1-c14-01-forma-io:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "parlo"
+        ],
+        "rejected": [
+          "parla"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C14; A1_COVERAGE_MATRIX C14. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c14-01-forma-io",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c14-01-forma-tu",
+      "version": "1",
+      "conceptId": "it-a1-c14-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Tu ___ con Anna (parlare; con = con).",
+      "options": [],
+      "hint": "Con tu, el presente de parlare es parli. La terminación pertenece al verbo conjugado.",
+      "explanation": "Con tu, el presente de parlare es parli. La terminación pertenece al verbo conjugado.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "familia",
+        "facets": [
+          "tu"
+        ],
+        "opportunityId": "it-a1-c14-01-forma-tu:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "parli"
+        ],
+        "rejected": [
+          "parla"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C14; A1_COVERAGE_MATRIX C14. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c14-01-forma-tu",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c14-01-forma-lui-lei",
+      "version": "1",
+      "conceptId": "it-a1-c14-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Luca ___ spagnolo (parlare).",
+      "options": [],
+      "hint": "Con lui/lei, el presente de parlare es parla. La terminación pertenece al verbo conjugado.",
+      "explanation": "Con lui/lei, el presente de parlare es parla. La terminación pertenece al verbo conjugado.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "estudio",
+        "facets": [
+          "lui-lei"
+        ],
+        "opportunityId": "it-a1-c14-01-forma-lui-lei:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "parla"
+        ],
+        "rejected": [
+          "parlo"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C14; A1_COVERAGE_MATRIX C14. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c14-01-forma-lui-lei",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c14-01-radice",
+      "version": "1",
+      "conceptId": "it-a1-c14-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "Togli -are da lavorare: scrivi la radice senza trattino.",
+      "options": [],
+      "hint": "La raíz se obtiene retirando -are; después se añade la terminación.",
+      "explanation": "La raíz se obtiene retirando -are; después se añade la terminación.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "trabajo",
+        "facets": [
+          "raíz"
+        ],
+        "opportunityId": "it-a1-c14-01-radice:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "lavor"
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C14; A1_COVERAGE_MATRIX C14. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c14-01-radice",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c14-01-cambia",
+      "version": "2",
+      "conceptId": "it-a1-c14-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Passa da io a noi: «Io abito a Roma». Mantieni il pronome.",
+      "options": [],
+      "hint": "Abitare conserva abit- y toma -iamo con noi.",
+      "explanation": "Abitare conserva abit- y toma -iamo con noi.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "vivienda",
+        "facets": [
+          "transferencia"
+        ],
+        "opportunityId": "it-a1-c14-01-cambia:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Noi abitiamo a Roma",
+          "Noi abitiamo a Roma."
+        ],
+        "rejected": [
+          "Noi abitano a Roma"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C14; A1_COVERAGE_MATRIX C14. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c14-01-cambia",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c14-01-lavoro",
+      "version": "2",
+      "conceptId": "it-a1-c14-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Escribe «Trabajo en un hotel» usando lavorare y «in hotel», sin io.",
+      "options": [],
+      "hint": "Lavorare usa -o en primera persona singular.",
+      "explanation": "Lavorare usa -o en primera persona singular.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "trabajo",
+        "facets": [
+          "transferencia"
+        ],
+        "opportunityId": "it-a1-c14-01-lavoro:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Lavoro in hotel",
+          "Lavoro in hotel."
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C14; A1_COVERAGE_MATRIX C14. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c14-01-lavoro",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c14-02-residenza",
+      "version": "1",
+      "conceptId": "it-a1-c14-02",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Vuoi indicare dove vivi. Scegli il verbo: ___ a Roma.",
+      "options": [
+        "Abito",
+        "Lavoro"
+      ],
+      "hint": "Abitare expresa residencia.",
+      "explanation": "Abitare expresa residencia.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "vivienda",
+        "facets": [
+          "residencia",
+          "selección"
+        ],
+        "opportunityId": "it-a1-c14-02-residenza:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Abito"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C14; A1_COVERAGE_MATRIX C14. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c14-02-residenza",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c14-02-studio",
+      "version": "1",
+      "conceptId": "it-a1-c14-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Io ___ italiano (studiare).",
+      "options": [],
+      "hint": "Studiare con io toma la forma studio.",
+      "explanation": "Studiare con io toma la forma studio.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "estudio",
+        "facets": [
+          "estudio"
+        ],
+        "opportunityId": "it-a1-c14-02-studio:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "studio"
+        ],
+        "rejected": [
+          "studia"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C14; A1_COVERAGE_MATRIX C14. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c14-02-studio",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c14-02-lavoro",
+      "version": "1",
+      "conceptId": "it-a1-c14-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Escribe «Trabajamos en un hotel» con lavorare, sin noi.",
+      "options": [],
+      "hint": "Lavoriamo expresa trabajo con sujeto plural.",
+      "explanation": "Lavoriamo expresa trabajo con sujeto plural.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "trabajo",
+        "facets": [
+          "trabajo"
+        ],
+        "opportunityId": "it-a1-c14-02-lavoro:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Lavoriamo in hotel",
+          "Lavoriamo in hotel."
+        ],
+        "rejected": [
+          "Abitiamo in hotel"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C14; A1_COVERAGE_MATRIX C14. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c14-02-lavoro",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c14-02-abitano",
+      "version": "2",
+      "conceptId": "it-a1-c14-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci «Ellas viven en Roma» con abitare e loro.",
+      "options": [],
+      "hint": "Abitano expresa residencia de loro.",
+      "explanation": "Abitano expresa residencia de loro.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "vivienda",
+        "facets": [
+          "residencia"
+        ],
+        "opportunityId": "it-a1-c14-02-abitano:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Loro abitano a Roma",
+          "Loro abitano a Roma."
+        ],
+        "rejected": [
+          "Loro abitate a Roma"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C14; A1_COVERAGE_MATRIX C14. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c14-02-abitano",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c14-02-negazione",
+      "version": "2",
+      "conceptId": "it-a1-c14-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Trasforma «Lavoro a Roma» in una frase negativa semplice, senza aggiungere altre informazioni.",
+      "options": [],
+      "hint": "Non precede al verbo y no cambia su terminación.",
+      "explanation": "Non precede al verbo y no cambia su terminación.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "trabajo",
+        "facets": [
+          "trabajo"
+        ],
+        "opportunityId": "it-a1-c14-02-negazione:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Non lavoro a Roma",
+          "Non lavoro a Roma."
+        ],
+        "rejected": [
+          "No lavoro a Roma"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C14; A1_COVERAGE_MATRIX C14. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c14-02-negazione",
+        "sourceVersion": "2"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "it-roma",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "Roma",
+      "displayForm": "Roma",
+      "gloss": "Roma",
+      "partOfSpeech": "proper-noun",
+      "forms": [],
+      "tags": [
+        "proper-noun",
+        "C04",
+        "C06",
+        "C14",
+        "C16",
+        "C17",
+        "C18",
+        "C20",
+        "C21",
+        "C23",
+        "C29",
+        "C32"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-03",
+        "it-a1-c04-04",
+        "it-a1-c06-03",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c16-02",
+        "it-a1-c16-04",
+        "it-a1-c17-03",
+        "it-a1-c18-02",
+        "it-a1-c20-01",
+        "it-a1-c20-02",
+        "it-a1-c20-03",
+        "it-a1-c21-02",
+        "it-a1-c23-02",
+        "it-a1-c29-03",
+        "it-a1-c32-03"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t14",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t23",
+        "it-a1-t29",
+        "it-a1-t32"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-italiano",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "italiano",
+      "displayForm": "italiano",
+      "gloss": "italiano: nacionalidad; lengua en parlare/studiare italiano",
+      "partOfSpeech": "adjective",
+      "forms": [
+        {
+          "key": "feminine",
+          "text": "italiana",
+          "features": {
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "adjective",
+        "C04",
+        "C11",
+        "C12",
+        "C14",
+        "C15",
+        "C17",
+        "C20",
+        "C25",
+        "C29",
+        "C31",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-03",
+        "it-a1-c11-02",
+        "it-a1-c12-01",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c15-01",
+        "it-a1-c15-03",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c20-01",
+        "it-a1-c20-06",
+        "it-a1-c25-01",
+        "it-a1-c29-03",
+        "it-a1-c31-01",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t11",
+        "it-a1-t12",
+        "it-a1-t14",
+        "it-a1-t15",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t25",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-spagnolo",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "spagnolo",
+      "displayForm": "spagnolo",
+      "gloss": "español: nacionalidad; lengua en parlare spagnolo",
+      "partOfSpeech": "adjective",
+      "forms": [
+        {
+          "key": "feminine",
+          "text": "spagnola",
+          "features": {
+            "gender": "feminine",
+            "number": "singular"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "adjective",
+        "C04",
+        "C14",
+        "C26",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-03",
+        "it-a1-c14-01",
+        "it-a1-c26-01",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t14",
+        "it-a1-t26",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-hotel",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "hotel",
+      "displayForm": "hotel",
+      "gloss": "hotel",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "hotel",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "noun",
+        "C04",
+        "C08",
+        "C14",
+        "C15",
+        "C16",
+        "C19",
+        "C20",
+        "C21",
+        "C29",
+        "C33",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-04",
+        "it-a1-c08-02",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c15-02",
+        "it-a1-c16-01",
+        "it-a1-c16-02",
+        "it-a1-c16-04",
+        "it-a1-c16-06",
+        "it-a1-c19-01",
+        "it-a1-c20-02",
+        "it-a1-c21-02",
+        "it-a1-c29-04",
+        "it-a1-c33-01",
+        "it-a1-c34-02",
+        "it-a1-c34-06"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t08",
+        "it-a1-t14",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t29",
+        "it-a1-t33",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación C08: plural canónico del repertorio; candidate."
+    },
+    {
+      "id": "it-non",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "non",
+      "displayForm": "non",
+      "gloss": "no, ante el verbo",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C06",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C22",
+        "C26",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c15-03",
+        "it-a1-c16-06",
+        "it-a1-c17-02",
+        "it-a1-c22-04",
+        "it-a1-c26-02",
+        "it-a1-c28-02"
+      ],
+      "topicIds": [
+        "it-a1-t06",
+        "it-a1-t14",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t22",
+        "it-a1-t26",
+        "it-a1-t28"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-parlare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "parlare",
+      "displayForm": "parlare",
+      "gloss": "hablar",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "parlo",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "parli",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "parla",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "parliamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "parlate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "parlano",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C14",
+        "C16",
+        "C17",
+        "C18",
+        "C20",
+        "C28",
+        "C29",
+        "C30",
+        "C31"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c16-07",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c18-01",
+        "it-a1-c20-04",
+        "it-a1-c28-01",
+        "it-a1-c29-02",
+        "it-a1-c30-02",
+        "it-a1-c31-01"
+      ],
+      "topicIds": [
+        "it-a1-t14",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t18",
+        "it-a1-t20",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-lavorare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "lavorare",
+      "displayForm": "lavorare",
+      "gloss": "trabajar",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "lavoro",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "lavori",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "lavora",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "lavoriamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "lavorate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "lavorano",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C14",
+        "C17",
+        "C20",
+        "C21",
+        "C22",
+        "C25",
+        "C27",
+        "C29",
+        "C31",
+        "C32",
+        "C33",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c17-03",
+        "it-a1-c20-02",
+        "it-a1-c20-06",
+        "it-a1-c21-02",
+        "it-a1-c22-01",
+        "it-a1-c25-01",
+        "it-a1-c27-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c29-03",
+        "it-a1-c29-04",
+        "it-a1-c31-01",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c32-03",
+        "it-a1-c33-01",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t14",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t22",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t33",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-abitare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "abitare",
+      "displayForm": "abitare",
+      "gloss": "vivir, residir",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "abito",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "abiti",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "abita",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "abitiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "abitate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "abitano",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C14",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c34-01"
+      ],
+      "topicIds": [
+        "it-a1-t14",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-studiare",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "studiare",
+      "displayForm": "studiare",
+      "gloss": "estudiar",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "studio",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "tu",
+          "text": "studi",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "lui-lei",
+          "text": "studia",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "noi",
+          "text": "studiamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "voi",
+          "text": "studiate",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        },
+        {
+          "key": "loro",
+          "text": "studiano",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C14",
+        "C17",
+        "C20",
+        "C22",
+        "C25",
+        "C29",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c17-01",
+        "it-a1-c17-02",
+        "it-a1-c17-03",
+        "it-a1-c20-04",
+        "it-a1-c20-05",
+        "it-a1-c20-06",
+        "it-a1-c22-03",
+        "it-a1-c25-01",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c29-03",
+        "it-a1-c31-01",
+        "it-a1-c32-01",
+        "it-a1-c32-03",
+        "it-a1-c34-05"
+      ],
+      "topicIds": [
+        "it-a1-t14",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t25",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-con",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "con",
+      "displayForm": "con",
+      "gloss": "con: compañía e interlocutor",
+      "partOfSpeech": "preposition",
+      "forms": [],
+      "tags": [
+        "preposition",
+        "C14",
+        "C16",
+        "C17",
+        "C20",
+        "C28"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c14-01",
+        "it-a1-c16-08",
+        "it-a1-c17-02",
+        "it-a1-c20-04",
+        "it-a1-c28-01"
+      ],
+      "topicIds": [
+        "it-a1-t14",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t20",
+        "it-a1-t28"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación de usos C18–C25; candidate, revisión pendiente."
+    },
+    {
+      "id": "it-ogni-giorno",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "ogni giorno",
+      "displayForm": "ogni giorno",
+      "gloss": "cada día",
+      "partOfSpeech": "expression",
+      "forms": [],
+      "tags": [
+        "expression",
+        "C14",
+        "C22",
+        "C26",
+        "C32"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c14-02",
+        "it-a1-c22-03",
+        "it-a1-c26-02",
+        "it-a1-c32-03"
+      ],
+      "topicIds": [
+        "it-a1-t14",
+        "it-a1-t22",
+        "it-a1-t26",
+        "it-a1-t32"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    }
+  ],
+  "relations": [
+    {
+      "to": "it-a1-c03-01",
+      "type": "prerequisite",
+      "reason": "La persona del sujeto permite escoger la forma verbal.",
+      "strength": "recommended",
+      "from": "it-a1-c14-01"
+    },
+    {
+      "to": "it-a1-c14-01",
+      "type": "prerequisite",
+      "reason": "Los usos recuperan las formas regulares aprendidas.",
+      "strength": "recommended",
+      "from": "it-a1-c14-02"
+    },
+    {
+      "to": "it-a1-c04-01",
+      "type": "contrast",
+      "reason": "La regularidad -are contrasta con el paradigma de essere.",
+      "from": "it-a1-c14-01"
+    },
+    {
+      "to": "it-a1-c06-01",
+      "type": "reinforces",
+      "reason": "Las rutinas negativas recuperan non ante el verbo.",
+      "from": "it-a1-c14-02"
+    },
+    {
+      "to": "it-a1-c14-01",
+      "type": "contrast",
+      "reason": "Las terminaciones de -ere se distinguen de -are.",
+      "from": "it-a1-c15-01"
+    },
+    {
+      "to": "it-a1-c14-01",
+      "type": "contrast",
+      "reason": "Fare no sigue el patrón regular -are.",
+      "from": "it-a1-c16-01"
+    },
+    {
+      "to": "it-a1-c14-02",
+      "type": "related",
+      "reason": "Desplazamiento y residencia usan lugares conocidos.",
+      "from": "it-a1-c16-02"
+    },
+    {
+      "to": "it-a1-c14-01",
+      "type": "prerequisite",
+      "reason": "Las acciones conocidas aportan infinitivos al deseo.",
+      "strength": "recommended",
+      "from": "it-a1-c17-02"
+    },
+    {
+      "to": "it-a1-c14-01",
+      "type": "prerequisite",
+      "reason": "Obligaciones con infinitivos de actividades conocidas.",
+      "strength": "recommended",
+      "from": "it-a1-c17-03"
+    },
+    {
+      "to": "it-a1-c14-01",
+      "type": "prerequisite",
+      "reason": "Compañía e interlocutor se expresan con presentes conocidos.",
+      "from": "it-a1-c20-04",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c14-01",
+      "type": "prerequisite",
+      "reason": "El gusto por actividades usa infinitivos conocidos.",
+      "from": "it-a1-c25-01",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c14-02",
+      "type": "reinforces",
+      "reason": "Las expresiones de frecuencia amplían las rutinas.",
+      "from": "it-a1-c22-03"
+    },
+    {
+      "to": "it-a1-c14-01",
+      "type": "prerequisite",
+      "reason": "Las rutinas en -are recuperan terminaciones del presente.",
+      "strength": "recommended",
+      "from": "it-a1-c26-02"
+    },
+    {
+      "to": "it-a1-c14-01",
+      "type": "prerequisite",
+      "reason": "Se suman acciones expresadas con presentes conocidos.",
+      "strength": "recommended",
+      "from": "it-a1-c29-01"
+    },
+    {
+      "to": "it-a1-c14-01",
+      "type": "prerequisite",
+      "reason": "Se relacionan las formas de -are con las del presente.",
+      "strength": "recommended",
+      "from": "it-a1-c30-02"
+    },
+    {
+      "to": "it-a1-c14-01",
+      "type": "prerequisite",
+      "reason": "El infinitivo conocido sirve para formar participios.",
+      "strength": "recommended",
+      "from": "it-a1-c31-01"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "file": "resolution-packet.json",
+  "sha256": "2c32b2a9f8a5cb2091c709848e1958cdf2964bd9e4893c6c272b77be20fac916",
+  "activityIds": [
+    "it-a1-c20-02-casa",
+    "it-a1-c20-02-hotel",
+    "it-a1-c15-01-classi",
+    "it-a1-c17-03-forma-io",
+    "it-a1-c17-03-forma-loro"
+  ],
+  "theoryIds": [
+    "it-a1-theory-c15-01",
+    "it-a1-theory-c17-03",
+    "it-a1-theory-c20-02"
+  ]
+}

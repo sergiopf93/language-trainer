@@ -18,7 +18,6 @@ describe('C11–C17 linguistic and attribution boundaries', () => {
       ['12-01-studenti', 'gli studenti italiani', 'i studenti italiani'],
       ['13-01-ventitre', 'ventitré', 'ventitre'],
       ['13-01-ventotto', 'ventotto', 'ventiotto'],
-      ['13-02-centottanta', 'centottanta', 'centoottanta'],
       ['13-03-telefono', '0298', '298'],
       ['13-03-importo', 'tre euro e venti centesimi', 'trecentoventi euro'],
       ['14-01-studiare', 'studi', 'studii'],
@@ -47,6 +46,12 @@ describe('C11–C17 linguistic and attribution boundaries', () => {
         'not-evaluable',
       );
     }
+    expect(
+      evaluate(activity('13-02-centottanta'), 'centottanta').judgment,
+    ).toBe('correct');
+    expect(
+      evaluate(activity('13-02-centottanta'), 'centoottanta').judgment,
+    ).toBe('not-evaluable');
     expect(evaluate(activity('13-02-centotto'), 'centootto').judgment).toBe(
       'correct',
     );
@@ -64,7 +69,7 @@ describe('C11–C17 linguistic and attribution boundaries', () => {
     );
     expect(evaluate(activity('03-01-noi'), 'noe').judgment).toBe('typo');
   });
-  it('adds exactly the expected seven complete candidate blocks and preserves the earlier activity inventory', () => {
+  it('adds exactly the expected seven complete unpublished blocks and preserves the earlier activity inventory', () => {
     const report = curriculumCoverage(italianCourse);
     expect(report.errors).toEqual([]);
     expect(report.units.slice(10, 17).map((u) => u.concepts.length)).toEqual([
@@ -109,7 +114,7 @@ describe('C11–C17 linguistic and attribution boundaries', () => {
           .select(id)
           .every(
             (a) =>
-              a.status === 'candidate' &&
+              a.status === repository.concept(id)?.status &&
               a.conceptId === id &&
               a.trace?.sourceId === a.id,
           ),

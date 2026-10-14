@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-14",
+  "responsible": "Subagente italiano /root/italian_cross_review_c11_c20",
+  "reviewType": "Revisión posterior de correcciones; no es una nueva revisión ciega. El dictamen ciego previo permanece intacto.",
+  "inputs": [
+    {
+      "file": "docs/product/editorial-cross-review-c11-c20/resolution-packet.json",
+      "sha256": "2c32b2a9f8a5cb2091c709848e1958cdf2964bd9e4893c6c272b77be20fac916",
+      "matchesManifest": true
+    },
+    {
+      "file": "docs/product/editorial-cross-review-c11-c20/resolution-manifest.json",
+      "sha256": "88329f33e3d980c48882786f782d92c10a233321d57dac0ac766ff6c7ac959c0"
+    }
+  ],
+  "coverage": {
+    "activities": [
+      {
+        "id": "it-a1-c20-02-casa",
+        "version": "4",
+        "criterionVersion": "4",
+        "sourceVersion": "4",
+        "allLinguisticFieldsRead": true
+      },
+      {
+        "id": "it-a1-c20-02-hotel",
+        "version": "3",
+        "criterionVersion": "3",
+        "sourceVersion": "3",
+        "allLinguisticFieldsRead": true
+      },
+      {
+        "id": "it-a1-c15-01-classi",
+        "version": "2",
+        "criterionVersion": "2",
+        "sourceVersion": "2",
+        "allLinguisticFieldsRead": true
+      },
+      {
+        "id": "it-a1-c17-03-forma-io",
+        "version": "2",
+        "criterionVersion": "2",
+        "sourceVersion": "2",
+        "allLinguisticFieldsRead": true
+      },
+      {
+        "id": "it-a1-c17-03-forma-loro",
+        "version": "2",
+        "criterionVersion": "2",
+        "sourceVersion": "2",
+        "allLinguisticFieldsRead": true
+      }
+    ],
+    "theories": [
+      {
+        "id": "it-a1-theory-c15-01",
+        "version": "theory-c15-01-1",
+        "allLinguisticFieldsRead": true
+      },
+      {
+        "id": "it-a1-theory-c17-03",
+        "version": "theory-c17-03-1",
+        "allLinguisticFieldsRead": true
+      },
+      {
+        "id": "it-a1-theory-c20-02",
+        "version": "theory-c20-02-1",
+        "allLinguisticFieldsRead": true
+      }
+    ],
+    "implementationEvidence": [
+      {
+        "path": "src/ui/pages/learning.ts",
+        "from": 320,
+        "to": 345,
+        "textSha256": "bc16ebdfd2f722e9e2bcaf0d22b29a02ffb50edebf5b825e2b282c7f6b090d97",
+        "readInFull": true
+      },
+      {
+        "path": "src/learning/session.ts",
+        "from": 135,
+        "to": 151,
+        "textSha256": "e51bdca417794034411b252efb20b6dcc985b53f49da1b7992facfbc1228a634",
+        "readInFull": true
+      },
+      {
+        "path": "src/learning/session.ts",
+        "from": 183,
+        "to": 200,
+        "textSha256": "8f21ed010cdafa0e536392ed6051b6173846e603c2c85fd052416373d90831d5",
+        "readInFull": true
+      },
+      {
+        "path": "src/learning/session.ts",
+        "from": 262,
+        "to": 280,
+        "textSha256": "92030a9a7e71d180797359a3fa3faed4e3bd883585b67ccaafb65bbefc92e389",
+        "readInFull": true
+      },
+      {
+        "path": "tests/learning.test.ts",
+        "from": 146,
+        "to": 179,
+        "textSha256": "84b642b6d01e995a9f3ed726c6c38ada43eb9fcddf4975e2973c71b793e4c816",
+        "readInFull": true
+      }
+    ],
+    "notReadWithinPacket": []
+  },
+  "findingResolutions": [
+    {
+      "findingId": "XR-C20-02-CASA",
+      "status": "resuelto en el paquete revisado",
+      "entityId": "it-a1-c20-02-casa",
+      "version": "4",
+      "evidence": "La nueva consigna pide recuperar la preposición usada ante Roma, sin escribir a ni a casa como solución. Conserva el resto de Sono in casa.",
+      "assessment": "La referencia a Roma actúa como clave de recuperación legítima, no como copia de la respuesta. Produce Sono a casa y mantiene explícito en feedback que Sono in casa también puede ser correcto. El accepted no fue ampliado para compensar una consigna abierta. La operación es algo metalingüística, pero válida y comprensible."
+    },
+    {
+      "findingId": "XR-C20-02-HOTEL",
+      "status": "resuelto en el paquete revisado",
+      "entityId": "it-a1-c20-02-hotel",
+      "version": "3",
+      "evidence": "Traduce «Trabajo en un hotel» con lavorare y hotel. Escribe hotel sin artículo.",
+      "assessment": "Los lemas son apoyo legítimo. La preposición in ya no se entrega; la restricción sin artículo delimita la construcción. Lavoro in hotel y Io lavoro in hotel son naturales; Lavoro a hotel no es la construcción estándar solicitada."
+    },
+    {
+      "findingId": "XR-C15-01-CLASSI",
+      "status": "resuelto en el paquete revisado",
+      "entityId": "it-a1-c15-01-classi",
+      "version": "2",
+      "evidence": "Consigna al presente indicativo y explicación de leggano como subjuntivo.",
+      "assessment": "La elección queda delimitada por modo y el distractor no se presenta como forma universalmente incorrecta."
+    },
+    {
+      "findingId": "XR-C17-03-DEBBO",
+      "status": "resuelto en el paquete revisado",
+      "entityId": "it-a1-c17-03-forma-io",
+      "version": "2",
+      "evidence": "Hint y explanation reconocen devo y debbo, coherentes con accepted y Theory.",
+      "assessment": "El feedback ya contempla ambas respuestas válidas. El paralelo it-a1-c17-03-forma-loro v2 también reconoce correctamente devono/debbono y rechaza dovono; no presenta nuevos problemas."
+    },
+    {
+      "findingId": "XR-HINT-DISPLAY",
+      "status": "preocupación estática resuelta; validación visual humana no ejecutada",
+      "entityId": "pistas de actividades / fragmentos UI y motor incluidos",
+      "verifiedStaticEvidence": [
+        "La inicialización mostrada establece hintShown: false.",
+        "El render mostrado presenta activity.hint solo cuando state.hintShown es verdadero; en otro caso presenta un botón de ayuda.",
+        "La acción hint establece hintShown a true.",
+        "El intento registra hintShown desde el estado.",
+        "El test incluido comprueba assisted: 1 y correct: 0 para recuperación tras solicitar ayuda, y conserva reintentos como asistidos."
+      ],
+      "assessment": "Los fragmentos proporcionados respaldan que la pista no se expone inicialmente en ese flujo y que se registra la ayuda. Se puede pedir ayuda antes de responder: eso es legítimo si la evidencia es asistida, como exige el test mostrado. No es necesario exigir un intento previo.",
+      "notVerified": [
+        "No se ejecutó el test; se revisaron sus aserciones.",
+        "No se ejecutó ni inspeccionó visualmente la aplicación.",
+        "No se leyó el motor de proyección completo ni otros flujos fuera de los fragmentos.",
+        "No se contrastaron los fragmentos con archivos fuente actuales: el encargo restringe las lecturas al paquete y su manifiesto."
+      ]
+    }
+  ],
+  "newFindings": [],
+  "verdict": "Las cuatro correcciones lingüísticas/pedagógicas resuelven los hallazgos correspondientes; el quinto elemento, forma-loro, es coherente. La evidencia estática aportada resuelve la duda sobre exposición inicial y registro asistido en el flujo mostrado, con ejecución y validación visual no realizadas por este revisor. No se detectan respuestas objetivo reveladas por las nuevas consignas ni inconsistencias lingüísticas nuevas en el alcance revisado.",
+  "limitations": [
+    "Verificación de contenido y hash del paquete actual, no auditoría de producción ni de Git.",
+    "Revisión posterior asistida por IA; no aprobación humana ni autorización de publicación.",
+    "Sin fuentes externas ni informes iniciales consultados.",
+    "No se modificó producción ni el dictamen ciego original."
+  ]
+}

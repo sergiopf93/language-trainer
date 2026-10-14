@@ -70,11 +70,12 @@ export const c12: Lesson[] = [
       },
       {
         key: 'letti',
+        version: '2',
         format: 'transformation',
         prompt: 'Metti al plurale determinato: il letto piccolo.',
         accepted: ['i letti piccoli'],
-        hint: 'Il diventa i; letto e piccolo prendono il plural -i.',
-        explanation: 'Il diventa i; letto e piccolo prendono il plural -i.',
+        hint: 'Il pasa a i; letto y piccolo toman el plural -i.',
+        explanation: 'Il pasa a i; letto y piccolo toman el plural -i.',
         facets: ['plural'],
         context: 'vivienda',
         rejected: ['i letto piccoli', 'i letti piccole'],
@@ -92,9 +93,10 @@ export const c12: Lesson[] = [
       },
       {
         key: 'riprendi',
+        version: '2',
         format: 'controlled-production',
         prompt:
-          'Hai già identificato una penna rossa. Scrivi il gruppo con articolo determinativo: ___ penna rossa.',
+          'Hai già identificato una penna rossa. Riscrivi tutto il gruppo nominale con articolo determinativo.',
         accepted: ['la penna rossa'],
         hint: 'La retoma el referente femenino singular ya identificado.',
         explanation:

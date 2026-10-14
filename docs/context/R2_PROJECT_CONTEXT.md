@@ -1,6 +1,14 @@
 # R2 — contexto operativo de language-trainer
 
-Actualizado: 2026-10-13. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
+Actualizado: 2026-10-14. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
+
+## Fase 5B.3 cerrada — C11–C20 (2026-10-14)
+
+Revisión integral de 32 conceptos/Theory, 292 actividades, 144 entradas léxicas y 102 relaciones incidentes. Cambios: 3 Theory, 75 actividades, 27 listas accepted; sin cambios de vocabulario ni grafo. 32 conceptos pasan a reviewed tras revisión cruzada aislada y resolución satisfactoria. Revisor independiente: 32 Theory y 209 actividades únicas, todas las modificadas; 83 actividades tienen solo la lectura integral de R2. Dictamen ciego y seguimiento conservados con hashes.
+
+Estado global: **99/99 implementados; 61 reviewed (C01–C20), 38 candidate (C21–C34), 0 published**. Se conservan 865 actividades, 316 entradas léxicas y 210 relaciones. Recibo nuevo `it-a1-editorial-c11-c20-2026-10-14-1`; 61 recibos vigentes entre ambos lotes. Integración reutiliza infraestructura y preserva metadata de vocabulario ya revisado compartido. No cambia contenido de C01–C10 ni C21–C34.
+
+Errores y ambigüedades del lote resueltos; revisión humana cualificada pendiente antes de publicar. 273/273 tests (15 suites), typecheck/build, formato, coverage curricular y recibos/hashes comprobados; detalle y límites en [informe 5B.3](../product/A1_EDITORIAL_REVIEW_C11_C20.md). Rama local `feat/editorial-review-c11-c20`, baseline `78f5fc4`; sin merge/push/despliegue. **Detenerse tras entrega. C21–C34 requiere nueva fase autorizada.** Las cifras de secciones históricas siguientes describen su momento y no sustituyen este estado.
 
 ## Política de lectura y delegación
 

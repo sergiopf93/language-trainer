@@ -139,7 +139,7 @@ describe('C26–C34: final A1 candidate curriculum', () => {
       italianCourse.vocabulary.every(
         (v) =>
           v.status ===
-          (v.conceptIds.some((id) => /^it-a1-c(0[1-9]|10)-/.test(id))
+          (v.conceptIds.some((id) => /^it-a1-c(0[1-9]|1[0-9]|20)-/.test(id))
             ? 'reviewed'
             : 'candidate'),
       ),

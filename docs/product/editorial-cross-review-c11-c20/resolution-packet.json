@@ -1,0 +1,517 @@
+{
+  "date": "2026-10-14",
+  "scope": "Revisión posterior del dictamen aislado; no sustituye el dictamen ciego original.",
+  "activities": [
+    {
+      "id": "it-a1-c20-02-casa",
+      "version": "4",
+      "conceptId": "it-a1-c20-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Sostituisci in con la preposizione semplice che useresti davanti al nome della città Roma: «Sono in casa». Mantieni le altre parole.",
+      "options": [],
+      "hint": "Ante Roma se usa a; la locución correspondiente es a casa.",
+      "explanation": "Sono a casa es la reformulación pedida. Sono in casa también puede ser correcto; aquí se practica la preposición usada ante una ciudad.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "vivienda",
+        "facets": [
+          "a"
+        ],
+        "opportunityId": "it-a1-c20-02-casa:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "4",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Sono a casa",
+          "Sono a casa."
+        ],
+        "rejected": [],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C20; A1_COVERAGE_MATRIX C20.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c20-02-casa",
+        "sourceVersion": "4"
+      }
+    },
+    {
+      "id": "it-a1-c20-02-hotel",
+      "version": "3",
+      "conceptId": "it-a1-c20-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduce «Trabajo en un hotel» con lavorare y hotel. Escribe hotel sin artículo.",
+      "options": [],
+      "hint": "In hotel es la combinación practicada.",
+      "explanation": "In hotel es la combinación practicada.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "trabajo",
+        "facets": [
+          "in"
+        ],
+        "opportunityId": "it-a1-c20-02-hotel:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "3",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Lavoro in hotel",
+          "Io lavoro in hotel",
+          "Lavoro in hotel.",
+          "Io lavoro in hotel."
+        ],
+        "rejected": [
+          "Lavoro a hotel"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C20; A1_COVERAGE_MATRIX C20.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c20-02-hotel",
+        "sourceVersion": "3"
+      }
+    },
+    {
+      "id": "it-a1-c15-01-classi",
+      "version": "2",
+      "conceptId": "it-a1-c15-01",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Scegli la coppia corretta per loro al presente indicativo: parlare / leggere.",
+      "options": [
+        "parlano / leggono",
+        "parlano / leggano"
+      ],
+      "hint": "En el presente indicativo, -are usa -ano y -ere usa -ono.",
+      "explanation": "En el presente indicativo se dice parlano / leggono. Leggano pertenece al subjuntivo, que no se pide aquí.",
+      "dimension": "discrimination",
+      "task": {
+        "skill": "discrimination",
+        "context": "estudio",
+        "facets": [
+          "contraste"
+        ],
+        "opportunityId": "it-a1-c15-01-classi:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "parlano / leggono"
+        ],
+        "rejected": [],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c15-01-classi",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c17-03-forma-io",
+      "version": "2",
+      "conceptId": "it-a1-c17-03",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Io ___ lavorare oggi (dovere).",
+      "options": [
+        "devo",
+        "debbo",
+        "dovo"
+      ],
+      "hint": "Con io, el presente de dovere es devo; también se admite debbo.",
+      "explanation": "Con io, devo y debbo son formas válidas del presente de dovere.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "trabajo",
+        "facets": [
+          "io"
+        ],
+        "opportunityId": "it-a1-c17-03-forma-io:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "devo",
+          "debbo"
+        ],
+        "rejected": [
+          "dovo"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c17-03-forma-io",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c17-03-forma-loro",
+      "version": "2",
+      "conceptId": "it-a1-c17-03",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Gli studenti ___ leggere (dovere).",
+      "options": [],
+      "hint": "Con loro, el presente de dovere es devono; también se admite debbono.",
+      "explanation": "Con loro, devono y debbono son formas válidas del presente de dovere.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "estudio",
+        "facets": [
+          "loro"
+        ],
+        "opportunityId": "it-a1-c17-03-forma-loro:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "devono",
+          "debbono"
+        ],
+        "rejected": [
+          "dovono"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c17-03-forma-loro",
+        "sourceVersion": "2"
+      }
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c15-01",
+      "version": "theory-c15-01-1",
+      "conceptId": "it-a1-c15-01",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Leggere e prendere: il presente in -ere",
+      "goal": "Recuperar y usar el presente regular -ere de leggere y prendere en lectura y consumo cotidiano.",
+      "introduction": "Aprende el significado junto con las seis personas. El pronombre ayuda a estudiar el paradigma, pero se puede omitir cuando la forma y el contexto identifican al sujeto.",
+      "rules": [
+        "Los verbos regulares -ere usan -o, -i, -e, -iamo, -ete, -ono: legg-ere → leggo/leggi/legge/leggiamo/leggete/leggono.",
+        "Prendere (tomar) sigue el patrón: prendo, prendi, prende, prendiamo, prendete, prendono. Prendere un caffè significa tomar un café.",
+        "La tercera singular termina en -e y la plural en -ono; compara parla/parlano con legge/leggono. No copies -a/-ano.",
+        "La grafía de leggere conserva gg: cambia la pronunciación ante o frente a e/i; no añadas h para inventar «legghi»."
+      ],
+      "forms": [
+        [
+          "io leggo",
+          "leo"
+        ],
+        [
+          "tu leggi",
+          "lees"
+        ],
+        [
+          "lui/lei legge",
+          "lee"
+        ],
+        [
+          "noi leggiamo",
+          "leemos"
+        ],
+        [
+          "voi leggete",
+          "leéis / leen"
+        ],
+        [
+          "loro leggono",
+          "leen"
+        ]
+      ],
+      "examples": [
+        [
+          "Leggo un libro.",
+          "Leo un libro."
+        ],
+        [
+          "Prendiamo un caffè.",
+          "Tomamos un café."
+        ]
+      ],
+      "frequentErrors": [
+        "No copies la terminación -ano en leggono.",
+        "No escribas «legghi»: la grafía conserva la base legg-."
+      ],
+      "usageNotes": [
+        "Las preposiciones y complementos dados son apoyo; el objetivo es el verbo de esta ficha."
+      ],
+      "exceptions": [],
+      "contrasts": [
+        {
+          "conceptId": "it-a1-c14-01",
+          "explanation": "-are: -a/-ano; -ere: -e/-ono en tercera persona."
+        }
+      ],
+      "vocabularyIds": [
+        "it-leggere",
+        "it-prendere",
+        "it-libro",
+        "it-messaggio",
+        "it-nome",
+        "it-numero",
+        "it-italiano",
+        "it-caffe",
+        "it-amico"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C15; A1_COVERAGE_MATRIX C15. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/"
+    },
+    {
+      "id": "it-a1-theory-c17-03",
+      "version": "theory-c17-03-1",
+      "conceptId": "it-a1-c17-03",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Il presente di dovere",
+      "goal": "Recuperar y usar dovere en presente: deber/tener que: obligación y necesidad cotidiana.",
+      "introduction": "Aprende el significado junto con las seis personas. El pronombre ayuda a estudiar el paradigma, pero se puede omitir cuando la forma y el contexto identifican al sujeto.",
+      "rules": [
+        "Dovere: devo, devi, deve, dobbiamo, dovete, devono. También existen debbo y debbono para io y loro; se aceptan en las tareas correspondientes.",
+        "Dovere + infinitivo expresa obligación o necesidad: devo lavorare, dobbiamo studiare. No se traduce el que español como che.",
+        "Una obligación o una tarea pendiente puede expresarse con devo; voglio expresa deseo y posso posibilidad. La consigna debe aclarar la intención.",
+        "Non devo uscire puede indicar que no debo salir, por ejemplo por una prohibición. Sin contexto, no lo uses como traducción única de no tengo necesidad de salir."
+      ],
+      "forms": [
+        [
+          "io devo",
+          "debo"
+        ],
+        [
+          "tu devi",
+          "debes"
+        ],
+        [
+          "lui/lei deve",
+          "debe"
+        ],
+        [
+          "noi dobbiamo",
+          "debemos"
+        ],
+        [
+          "voi dovete",
+          "debéis / deben"
+        ],
+        [
+          "loro devono",
+          "deben"
+        ]
+      ],
+      "examples": [
+        [
+          "Devo lavorare oggi.",
+          "Tengo que trabajar hoy."
+        ],
+        [
+          "Dobbiamo studiare.",
+          "Tenemos que estudiar."
+        ]
+      ],
+      "frequentErrors": [
+        "No copies «tengo que» como «devo che».",
+        "Noi dobbiamo conserva doble b; no «doviamo»."
+      ],
+      "usageNotes": [
+        "Las preposiciones y complementos dados son apoyo; el objetivo es el verbo de esta ficha."
+      ],
+      "exceptions": [],
+      "contrasts": [
+        {
+          "conceptId": "it-a1-c17-01",
+          "explanation": "Devo obliga; posso permite o hace posible."
+        },
+        {
+          "conceptId": "it-a1-c17-02",
+          "explanation": "Devo no significa necesariamente voglio."
+        }
+      ],
+      "vocabularyIds": [
+        "it-dovere",
+        "it-lavorare",
+        "it-oggi",
+        "it-leggere",
+        "it-messaggio",
+        "it-studiare",
+        "it-andare",
+        "it-roma",
+        "it-fare",
+        "it-esercizio",
+        "it-studente",
+        "it-volere",
+        "it-potere"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C17; A1_COVERAGE_MATRIX C17. https://www.treccani.it/enciclopedia/verbi_(Enciclopedia-dell%27Italiano)/"
+    },
+    {
+      "id": "it-a1-theory-c20-02",
+      "version": "theory-c20-02-1",
+      "conceptId": "it-a1-c20-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Dove? A, in, su, tra/fra",
+      "goal": "Ubicar personas y objetos con a/in/su/tra/fra en combinaciones delimitadas.",
+      "introduction": "El español en no se traduce siempre igual. Aprende grupos frecuentes completos y distingue ubicación general, superficie y posición entre referentes.",
+      "rules": [
+        "A con ciudades y a casa: sono a Roma, sono a casa. In con países y ciertas expresiones: in Italia, in hotel.",
+        "Su indica apoyo o posición sobre una superficie: su un libro. Su + artículo determinado se estudiará como sul en C21.",
+        "Tra y fra pueden indicar entre y son equivalentes en los ejemplos de esta ficha: tra/fra due case."
+      ],
+      "forms": [
+        [
+          "a Roma / a casa",
+          "en Roma / en casa"
+        ],
+        [
+          "in Italia / in hotel",
+          "en Italia / en un hotel"
+        ],
+        [
+          "su un libro",
+          "sobre un libro"
+        ],
+        [
+          "tra/fra due case",
+          "entre dos casas"
+        ]
+      ],
+      "examples": [
+        [
+          "Lavoro in hotel.",
+          "Trabajo en un hotel."
+        ],
+        [
+          "La penna è su un libro.",
+          "El bolígrafo está sobre un libro."
+        ],
+        [
+          "Il bar è tra due case.",
+          "El bar está entre dos casas."
+        ]
+      ],
+      "frequentErrors": [
+        "No traduzcas toda ubicación española con in.",
+        "Su no lleva acento en la preposición."
+      ],
+      "usageNotes": [
+        "Se aceptan tra y fra cuando la relación es entre."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-a",
+        "it-in",
+        "it-su",
+        "it-tra",
+        "it-fra",
+        "it-roma",
+        "it-casa",
+        "it-italia",
+        "it-hotel",
+        "it-libro",
+        "it-penna",
+        "it-bar",
+        "it-due",
+        "it-lavorare"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C20; A1_COVERAGE_MATRIX C20."
+    }
+  ],
+  "implementationEvidence": [
+    {
+      "path": "src/ui/pages/learning.ts",
+      "from": 320,
+      "to": 345,
+      "text": "          activity.format === 'cloze'\n            ? 'Completa lo spazio'\n            : 'La tua risposta',\n        );\n        label.htmlFor = 'learning-answer';\n        const input = el('input');\n        input.id = 'learning-answer';\n        input.value = state.draft;\n        input.maxLength = 4000;\n        input.autocomplete = 'off';\n        input.spellcheck = false;\n        input.lang = language.targetLanguage;\n        input.addEventListener('input', () => {\n          const value = input.value;\n          void enqueue(async () => {\n            view = await engine.update(view!, 'draft', value);\n          }, false);\n        });\n        content.append(label, input);\n      }\n      if (state.hintShown) content.append(support('Ayuda: ' + activity.hint));\n      else content.append(command(copy.hint, change('hint'), true));\n      content.append(\n        command(copy.check, async () => {\n          view = await engine.submit(view!);\n          theoryOpen = false;"
+    },
+    {
+      "path": "src/learning/session.ts",
+      "from": 135,
+      "to": 151,
+      "text": "        conceptId,\n        conceptVersion: concept.version,\n        contentStatus: concept.status,\n        mode: 'focus',\n        selectionReason: decision.reason,\n        activities,\n        state: {\n          index: 0,\n          draft: '',\n          hintShown: false,\n          attemptId: null,\n          status: 'active',\n          phase: 'answer',\n        },\n      },\n      this.catalog.version,\n    );"
+    },
+    {
+      "path": "src/learning/session.ts",
+      "from": 183,
+      "to": 200,
+      "text": "        state.draft = draft;\n        break;\n      case 'theory':\n        if (!draft) throw new Error('Falta la versión de teoría.');\n        state.theoryVersion = draft;\n        break;\n      case 'hint':\n        state.hintShown = true;\n        break;\n      case 'retry':\n        if (state.phase !== 'feedback')\n          throw new Error('No hay corrección que reintentar.');\n        state.phase = 'answer';\n        state.draft = '';\n        break;\n      case 'next':\n        if (state.phase !== 'feedback')\n          throw new Error('Responde antes de avanzar.');"
+    },
+    {
+      "path": "src/learning/session.ts",
+      "from": 262,
+      "to": 280,
+      "text": "    const attempt = event(\n      'attempt',\n      {\n        sessionId: view.root.id,\n        stateId: view.head.id,\n        itemIndex: s.index,\n        activityId: a.id,\n        activityVersion: a.version,\n        response: s.draft,\n        ...(s.theoryVersion ? { theoryVersion: s.theoryVersion } : {}),\n        hintShown: s.hintShown,\n        solutionSeen: s.attemptId !== null || exposure?.kind === 'evaluation',\n        retryOf: s.attemptId,\n        exposureId: exposure?.id ?? null,\n      },\n      view.root.versions.content,\n      [\n        view.root.id,\n        view.head.id,"
+    },
+    {
+      "path": "tests/learning.test.ts",
+      "from": 146,
+      "to": 179,
+      "text": "  it('retains original response, hints and linked retries without granting independent retrieval', async () => {\n    const { store, engine } = await setup();\n    let v = await engine.start(conceptId);\n    v = await engine.update(v, 'draft', 'sei');\n    v = await engine.submit(v);\n    const original = v.state.attemptId;\n    v = await engine.update(v, 'retry');\n    v = await engine.update(v, 'draft', 'sono');\n    v = await engine.submit(v);\n    v = await engine.update(v, 'next');\n    v = await engine.update(v, 'hint');\n    v = await engine.update(v, 'draft', 'sei');\n    v = await engine.submit(v);\n    const facts = await store.allFacts();\n    const attempts = facts.filter((f) => f.kind === 'attempt');\n    expect(attempts.find((a) => a.id === original)?.payload.response).toBe(\n      'sei',\n    );\n    expect(\n      attempts.some(\n        (a) => a.payload.retryOf === original && a.payload.solutionSeen,\n      ),\n    ).toBe(true);\n    const p = project(facts, conceptId, '1', true);\n    expect(\n      p.observations.find((o) => o.dimension === 'comprehension'),\n    ).toMatchObject({ errors: 1, correct: 0, assisted: 1 });\n    expect(\n      p.observations.find((o) => o.dimension === 'retrieval'),\n    ).toMatchObject({ correct: 0, assisted: 1 });\n  });\n  it('does not turn abstention or an empty answer into negative evidence', async () => {\n    const { store, engine } = await setup();\n    let v = await engine.start(conceptId);"
+    }
+  ]
+}

@@ -60,6 +60,23 @@ describe('explicit editorial review of a complete concept', () => {
       receipt().concepts[0].fingerprint,
     );
   });
+  it('preserves valid earlier review metadata when batches share entities and rejects stale review metadata', () => {
+    const first = applyReviewBatch(italianPack, receipt());
+    const next = {
+      ...receipt(),
+      id: 'second-explicit-review',
+      reviewer: 'Second reviewer',
+    };
+    expect(applyReviewBatch(first, next)).toEqual(first);
+    const stale = structuredClone(first);
+    const shared = stale.vocabulary.find((v) => v.status === 'reviewed')!;
+    shared.review!.version = 'obsolete';
+    expect(() => applyReviewBatch(stale, next)).toThrow('Revisión inválida');
+    const altered = structuredClone(first);
+    altered.vocabulary.find((v) => v.status === 'reviewed')!.gloss =
+      'changed without a version bump';
+    expect(() => applyReviewBatch(altered, next)).toThrow('obsoleta');
+  });
   it('keeps a blocked decision candidate and requires an explicit reason and flags', () => {
     const batch = receipt();
     batch.concepts[0].decision = 'candidate';

@@ -1,0 +1,1116 @@
+{
+  "baseline": "78f5fc4",
+  "date": "2026-10-14",
+  "reviewer": "R2",
+  "changes": [
+    {
+      "kind": "activity",
+      "id": "it-a1-c11-02-bella",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E05: retirar el grupo nominal que revelaba la respuesta; pedir traducción con lema y posición delimitados."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c12-01-letti",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "hint",
+        "explanation",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E04: corregir mezcla accidental de italiano y español en hint y explicación."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c12-01-riprendi",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "Precisar que se solicita el grupo nominal completo, no solo el artículo del hueco."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c13-02-centottanta",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "format",
+        "prompt",
+        "hint",
+        "explanation",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E01: convertir corrección falsa en transformación a la variante con elisión; retirar rechazo de centoottanta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c14-01-cambia",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E04: unificar el idioma de la consigna y eliminar mezclas accidentales entre español e italiano, conservando lemas y traducciones deliberados."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c14-01-lavoro",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E04: unificar el idioma de la consigna y eliminar mezclas accidentales entre español e italiano, conservando lemas y traducciones deliberados."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c14-02-abitano",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E04: unificar el idioma de la consigna y eliminar mezclas accidentales entre español e italiano, conservando lemas y traducciones deliberados."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c14-02-negazione",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "A02: delimitar negación simple sin información añadida."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c15-01-forma-io",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "hint",
+        "explanation",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "A01: delimitar presente indicativo y contextualizar el rechazo de formas válidas de otros tiempos o modos; corregir idioma de la consigna cuando corresponde."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c15-01-forma-lui-lei",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "hint",
+        "explanation",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "A01: delimitar presente indicativo y contextualizar el rechazo de formas válidas de otros tiempos o modos; corregir idioma de la consigna cuando corresponde."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c15-01-forma-voi",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "hint",
+        "explanation",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "A01: delimitar presente indicativo y contextualizar el rechazo de formas válidas de otros tiempos o modos; corregir idioma de la consigna cuando corresponde."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c15-01-forma-loro",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "hint",
+        "explanation",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "A01: delimitar presente indicativo y contextualizar el rechazo de formas válidas de otros tiempos o modos; corregir idioma de la consigna cuando corresponde."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c15-01-prendo",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "hint",
+        "explanation",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "A01: delimitar presente indicativo y contextualizar el rechazo de formas válidas de otros tiempos o modos; corregir idioma de la consigna cuando corresponde."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c15-01-cambia",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "hint",
+        "explanation",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "A01: delimitar presente indicativo y contextualizar el rechazo de formas válidas de otros tiempos o modos; corregir idioma de la consigna cuando corresponde."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c15-01-classi",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "hint",
+        "explanation",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "XR-C15-01-CLASSI: mejora opcional de delimitación explícita del modo."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c15-02-cambia",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E04: unificar el idioma de la consigna y eliminar mezclas accidentales entre español e italiano, conservando lemas y traducciones deliberados."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c15-03-cambia",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E04: unificar el idioma de la consigna y eliminar mezclas accidentales entre español e italiano, conservando lemas y traducciones deliberados."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c16-01-cambia",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E04: unificar el idioma de la consigna y eliminar mezclas accidentales entre español e italiano, conservando lemas y traducciones deliberados."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c16-01-produci",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E04: unificar el idioma de la consigna y eliminar mezclas accidentales entre español e italiano, conservando lemas y traducciones deliberados."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c16-02-cambia",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E04: unificar el idioma de la consigna y eliminar mezclas accidentales entre español e italiano, conservando lemas y traducciones deliberados."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c16-02-produci",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E04: unificar el idioma de la consigna y eliminar mezclas accidentales entre español e italiano, conservando lemas y traducciones deliberados."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c16-03-forma-voi",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "hint",
+        "explanation",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "A01: delimitar presente indicativo y contextualizar el rechazo de formas válidas de otros tiempos o modos; corregir idioma de la consigna cuando corresponde."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c16-03-cambia",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E04: unificar el idioma de la consigna y eliminar mezclas accidentales entre español e italiano, conservando lemas y traducciones deliberados."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c16-04-cambia",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E04: unificar el idioma de la consigna y eliminar mezclas accidentales entre español e italiano, conservando lemas y traducciones deliberados."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c16-05-cambia",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E04: unificar el idioma de la consigna y eliminar mezclas accidentales entre español e italiano, conservando lemas y traducciones deliberados."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c16-05-produci",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E04: unificar el idioma de la consigna y eliminar mezclas accidentales entre español e italiano, conservando lemas y traducciones deliberados."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c16-06-forma-voi",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "hint",
+        "explanation",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "A01: delimitar presente indicativo y contextualizar el rechazo de formas válidas de otros tiempos o modos; corregir idioma de la consigna cuando corresponde."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c16-06-cambia",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "hint",
+        "explanation",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "A01: delimitar presente indicativo y contextualizar el rechazo de formas válidas de otros tiempos o modos; corregir idioma de la consigna cuando corresponde."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c16-07-cambia",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E04: unificar el idioma de la consigna y eliminar mezclas accidentales entre español e italiano, conservando lemas y traducciones deliberados."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c16-07-produci",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E04: unificar el idioma de la consigna y eliminar mezclas accidentales entre español e italiano, conservando lemas y traducciones deliberados."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c16-08-cambia",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E04: unificar el idioma de la consigna y eliminar mezclas accidentales entre español e italiano, conservando lemas y traducciones deliberados."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c17-01-richiesta",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E04: unificar el idioma de la consigna y eliminar mezclas accidentales entre español e italiano, conservando lemas y traducciones deliberados."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c17-01-cambia",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E04: unificar el idioma de la consigna y eliminar mezclas accidentales entre español e italiano, conservando lemas y traducciones deliberados."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c17-02-cambia",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E04: unificar el idioma de la consigna y eliminar mezclas accidentales entre español e italiano, conservando lemas y traducciones deliberados."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c17-03-forma-io",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "hint",
+        "explanation",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "XR-C17-03-DEBBO: mejora opcional para que feedback reconozca ambas opciones aceptadas."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c17-03-forma-loro",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "hint",
+        "explanation",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "Aplicar la misma precisión del feedback a debbono, ya aceptada en el criterio."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c17-03-cambia",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "E04: unificar el idioma de la consigna y eliminar mezclas accidentales entre español e italiano, conservando lemas y traducciones deliberados."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c18-01-trasforma",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Recuperar fórmula sin mostrar vorrei en consigna; admitir punto final."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c18-01-biglietto",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Retirar respuesta completa dada; aceptar puntuación y posiciones naturales de per favore en traducción delimitada."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c18-01-traduci",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c18-02-amico",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "Explicitar conservación del pronombre que exige el criterio."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c18-02-saluto",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "Retirar forma conjugada que resolvía el objetivo de trato formal."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c19-01-negazione",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "hint",
+        "explanation",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Delimitar negación simple frente a lectura contrastiva del rechazo. Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c19-01-plurale",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c19-01-grafia",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c19-01-domanda",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "Retirar c’è y frase completa de consigna; recuperar existencia singular."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c19-01-traduci",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c19-02-intenzione",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "Situar explícitamente disponibilidad, no deducirla de existencia sin contexto."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c19-02-libro",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "explanation",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "Delimitar construcción solicitada sin prohibir presencia de referente conocido."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c19-02-chiavi",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "explanation",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "Excluir explícitamente construcción existencial del criterio de localización."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c19-02-annuncio",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Retirar solución completa y mantener recuperación de existencia plural. Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c19-02-cambia",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c19-02-traduci",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-01-origine",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "Precisar origen evaluado."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-01-possesso",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Retirar preposición que el alumno debe seleccionar. Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-01-correggi",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Precisar origen y salida completa. Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-01-cambia",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-01-traduci",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-02-casa",
+      "from": "2",
+      "to": "4",
+      "fields": [
+        "version",
+        "prompt",
+        "hint",
+        "explanation",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta. XR-C20-02-CASA: retirar a casa de consigna y recuperar a por transferencia desde ciudad, sin declarar in casa incorrecto."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-02-hotel",
+      "from": "2",
+      "to": "3",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "XR-C20-02-HOTEL: retirar la locución in hotel; solo se dan lemas de apoyo y se delimita ausencia de artículo."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-02-posizione",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Retirar frase completa; fijar relación espacial sin suministrar preposición. Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-02-equivalenza",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-03-correggi",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Aclarar destino personal y salida completa. Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-03-casa",
+      "from": "2",
+      "to": "3",
+      "fields": [
+        "version",
+        "prompt",
+        "hint",
+        "explanation",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "Retirar falso rechazo contextual de in casa y precisar intención, sin ampliar accepted."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-03-biglietto",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "Retirar solución completa; recuperar relación de destino."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-04-correggi",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": false,
+      "reason": "Evitar resultado pragmáticamente extraño Esco con me; fijar acompañante distinto del sujeto."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-04-insieme",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Retirar solución completa sin abrir la tarea a paráfrasis indeterminadas. Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-04-cambia",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-05-unisci",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-05-traduci",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-05-produci",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Retirar solución completa; recuperar destinatario frente a posesión. Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-06-mese",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "hint",
+        "explanation",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Error confirmado: a/ad agosto son alternativas naturales en el mismo contexto, no una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-06-durata",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Retirar solución completa y diferenciar duración de fecha de inicio. Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-06-futuro",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Explicitar referencia de venire en traducción española. Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "activity",
+      "id": "it-a1-c20-06-correggi",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "version",
+        "prompt",
+        "criterion",
+        "trace"
+      ],
+      "acceptedChanged": true,
+      "reason": "Retirar preposición objetivo da suministrada por la consigna; precisar duración hasta hoy. Mejora opcional: admitir punto final en frase completa; no cambia la intención ni compensa una consigna abierta."
+    },
+    {
+      "kind": "theory",
+      "id": "it-a1-theory-c13-02",
+      "from": "theory-c13-02-1",
+      "to": "theory-c13-02-1-editorial-1",
+      "fields": [
+        "version",
+        "rules"
+      ],
+      "acceptedChanged": false,
+      "reason": "Reconocer centoottanta como variante válida."
+    },
+    {
+      "kind": "theory",
+      "id": "it-a1-theory-c16-03",
+      "from": "theory-c16-03-1",
+      "to": "theory-c16-03-1-editorial-1",
+      "fields": [
+        "version",
+        "contrasts"
+      ],
+      "acceptedChanged": false,
+      "reason": "Corregir referencias de contraste a estados y localización de essere."
+    },
+    {
+      "kind": "theory",
+      "id": "it-a1-theory-c20-06",
+      "from": "theory-c20-06-1",
+      "to": "theory-c20-06-1-editorial-1",
+      "fields": [
+        "version",
+        "rules"
+      ],
+      "acceptedChanged": false,
+      "reason": "Reconocer alternativas a/ad agosto."
+    }
+  ]
+}

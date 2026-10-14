@@ -1,0 +1,1793 @@
+{
+  "topic": "C19",
+  "concepts": [
+    {
+      "id": "it-a1-c19-01",
+      "version": "1",
+      "topicId": "it-a1-t19",
+      "title": "C'è e ci sono",
+      "objective": "Expresar existencia y disponibilidad con c’è/ci sono según el número.",
+      "scope": "Expresar existencia y disponibilidad con c’è/ci sono según el número.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use",
+        "discrimination"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C19; A1_COVERAGE_MATRIX C19.",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "singular",
+        "plural",
+        "negacion",
+        "grafia"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "coverage": "complete"
+    },
+    {
+      "id": "it-a1-c19-02",
+      "version": "1",
+      "topicId": "it-a1-t19",
+      "title": "Esistenza o posizione?",
+      "objective": "Distinguir anunciar lo que hay de localizar un referente ya identificado.",
+      "scope": "Distinguir anunciar lo que hay de localizar un referente ya identificado.",
+      "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+      "dimensions": [
+        "comprehension",
+        "retrieval",
+        "contextual-use",
+        "discrimination"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C19; A1_COVERAGE_MATRIX C19.",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "cefr": "A1",
+      "facets": [
+        "existencia",
+        "localizacion",
+        "contraste"
+      ],
+      "compatibleFamilies": [
+        "F1",
+        "F2",
+        "F4",
+        "F3"
+      ],
+      "coverage": "complete"
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c19-01",
+      "version": "theory-c19-01-1",
+      "conceptId": "it-a1-c19-01",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "C'è e ci sono",
+      "goal": "Expresar existencia y disponibilidad con c’è/ci sono según el número.",
+      "introduction": "Para anunciar qué hay en un lugar usa c’è con singular y ci sono con plural. A diferencia del español hay, el italiano cambia la forma según el número.",
+      "rules": [
+        "C'è + singular: c'è un letto. Ci sono + plural: ci sono due letti.",
+        "C'è reúne ci + è: lleva apóstrofo y acento. Ci sono se escribe en dos palabras.",
+        "Para negar, coloca non delante: non c’è / non ci sono. Para preguntar se conserva la construcción: c’è una camera?"
+      ],
+      "forms": [
+        [
+          "c'è",
+          "hay, singular"
+        ],
+        [
+          "ci sono",
+          "hay, plural"
+        ],
+        [
+          "non c'è / non ci sono",
+          "no hay"
+        ]
+      ],
+      "examples": [
+        [
+          "C'è un bagno.",
+          "Hay un baño."
+        ],
+        [
+          "Ci sono due camere.",
+          "Hay dos habitaciones."
+        ]
+      ],
+      "frequentErrors": [
+        "No uses c’è due letti: el plural exige ci sono.",
+        "No escribas ce, c'e ni ci è en esta fórmula."
+      ],
+      "usageNotes": [
+        "Observa el número del nombre antes de elegir: un letto → c’è; due letti → ci sono."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-esserci",
+        "it-essere",
+        "it-letto",
+        "it-bagno",
+        "it-camera",
+        "it-due",
+        "it-chiave",
+        "it-hotel"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C19; A1_COVERAGE_MATRIX C19."
+    },
+    {
+      "id": "it-a1-theory-c19-02",
+      "version": "theory-c19-02-1",
+      "conceptId": "it-a1-c19-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Esistenza o posizione?",
+      "goal": "Distinguir anunciar lo que hay de localizar un referente ya identificado.",
+      "introduction": "C’è/ci sono introduce presencia o disponibilidad. Essere puede indicar dónde se encuentra algo que ya identificamos: il libro è qui.",
+      "rules": [
+        "Para anunciar una habitación disponible: c’è una camera. Para ubicar la habitación conocida: la camera è qui.",
+        "En plural: ci sono due chiavi frente a le chiavi sono qui. El número importa en ambas construcciones.",
+        "La intención y el contexto orientan la elección. No es una regla absoluta de artículo: c’è il gatto es posible para anunciar que está presente."
+      ],
+      "forms": [
+        [
+          "C'è un libro.",
+          "anuncio de existencia"
+        ],
+        [
+          "Il libro è qui.",
+          "localización del libro conocido"
+        ],
+        [
+          "Le chiavi sono qui.",
+          "localización plural"
+        ]
+      ],
+      "examples": [
+        [
+          "In casa c'è un gatto.",
+          "En casa hay un gato."
+        ],
+        [
+          "Il gatto è qui.",
+          "El gato está aquí."
+        ]
+      ],
+      "frequentErrors": [
+        "No uses el español hay para decidir automáticamente una forma de essere.",
+        "No generalices que c’è nunca admite un artículo determinado."
+      ],
+      "usageNotes": [
+        "Antes de responder, distingue si anuncias una presencia o indicas dónde está algo conocido."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-esserci",
+        "it-essere",
+        "it-libro",
+        "it-chiave",
+        "it-camera",
+        "it-gatto",
+        "it-casa",
+        "it-qui",
+        "it-due"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C19; A1_COVERAGE_MATRIX C19."
+    }
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c19-01-letto",
+      "version": "1",
+      "conceptId": "it-a1-c19-01",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "___ un letto.",
+      "options": [
+        "ci sono",
+        "c’è"
+      ],
+      "hint": "Un letto es singular.",
+      "explanation": "Un letto es singular.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "hotel",
+        "facets": [
+          "singular"
+        ],
+        "opportunityId": "it-a1-c19-01-letto:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "c’è",
+          "c'è"
+        ],
+        "rejected": [
+          "ci sono"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C19; A1_COVERAGE_MATRIX C19.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c19-01-letto",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c19-01-camere",
+      "version": "1",
+      "conceptId": "it-a1-c19-01",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "___ due camere.",
+      "options": [],
+      "hint": "Due camere es plural.",
+      "explanation": "Due camere es plural.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "hotel",
+        "facets": [
+          "plural"
+        ],
+        "opportunityId": "it-a1-c19-01-camere:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "ci sono"
+        ],
+        "rejected": [
+          "c’è",
+          "c'è"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C19; A1_COVERAGE_MATRIX C19.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c19-01-camere",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c19-01-negazione",
+      "version": "2",
+      "conceptId": "it-a1-c19-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Trasforma «C’è un bagno» in una frase negativa semplice, senza aggiungere altre informazioni.",
+      "options": [],
+      "hint": "En la negación simple, non precede a c’è.",
+      "explanation": "En la negación simple se dice non c’è un bagno. La negación contrastiva tiene otro alcance.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "vivienda",
+        "facets": [
+          "negacion"
+        ],
+        "opportunityId": "it-a1-c19-01-negazione:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Non c'è un bagno",
+          "Non c’è un bagno",
+          "Non c'è un bagno.",
+          "Non c’è un bagno."
+        ],
+        "rejected": [
+          "C'è non un bagno",
+          "C’è non un bagno"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C19; A1_COVERAGE_MATRIX C19.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c19-01-negazione",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c19-01-plurale",
+      "version": "2",
+      "conceptId": "it-a1-c19-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Passa a due letti: «C'è un letto».",
+      "options": [],
+      "hint": "Con dos camas se usa ci sono.",
+      "explanation": "Con dos camas se usa ci sono.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "hotel",
+        "facets": [
+          "plural"
+        ],
+        "opportunityId": "it-a1-c19-01-plurale:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Ci sono due letti",
+          "Ci sono due letti."
+        ],
+        "rejected": [
+          "C'è due letti",
+          "C’è due letti"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C19; A1_COVERAGE_MATRIX C19.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c19-01-plurale",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c19-01-grafia",
+      "version": "2",
+      "conceptId": "it-a1-c19-01",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "error-correction",
+      "prompt": "Riscrivi correttamente la formula: «Ce un bagno».",
+      "options": [],
+      "hint": "La fórmula exige apóstrofo y è con acento.",
+      "explanation": "La fórmula exige apóstrofo y è con acento.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "vivienda",
+        "facets": [
+          "grafia"
+        ],
+        "opportunityId": "it-a1-c19-01-grafia:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "C'è un bagno",
+          "C’è un bagno",
+          "C'è un bagno.",
+          "C’è un bagno."
+        ],
+        "rejected": [
+          "C'e un bagno",
+          "C’e un bagno"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C19; A1_COVERAGE_MATRIX C19.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c19-01-grafia",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c19-01-domanda",
+      "version": "2",
+      "conceptId": "it-a1-c19-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Traduce «¿Hay una habitación?» con camera y la construcción de existencia estudiada. Termina con el signo de interrogación.",
+      "options": [],
+      "hint": "La pregunta conserva c’è por camera singular.",
+      "explanation": "La pregunta conserva c’è por camera singular.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "hotel",
+        "facets": [
+          "singular"
+        ],
+        "opportunityId": "it-a1-c19-01-domanda:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "C'è una camera?",
+          "C’è una camera?"
+        ],
+        "rejected": [
+          "Ci sono una camera?"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C19; A1_COVERAGE_MATRIX C19.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c19-01-domanda",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c19-01-traduci",
+      "version": "2",
+      "conceptId": "it-a1-c19-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci: «No hay dos llaves».",
+      "options": [],
+      "hint": "Chiavi es plural, por eso non ci sono.",
+      "explanation": "Chiavi es plural, por eso non ci sono.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "vivienda",
+        "facets": [
+          "negacion"
+        ],
+        "opportunityId": "it-a1-c19-01-traduci:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Non ci sono due chiavi",
+          "Non ci sono due chiavi."
+        ],
+        "rejected": [
+          "Non c'è due chiavi",
+          "Non c’è due chiavi"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C19; A1_COVERAGE_MATRIX C19.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c19-01-traduci",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c19-01-numero",
+      "version": "1",
+      "conceptId": "it-a1-c19-01",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "error-detection",
+      "prompt": "«C'è due camere»: il numero è corretto? sì/no.",
+      "options": [
+        "sì",
+        "no"
+      ],
+      "hint": "El verbo concuerda con camere plural.",
+      "explanation": "El verbo concuerda con camere plural.",
+      "dimension": "discrimination",
+      "task": {
+        "skill": "discrimination",
+        "context": "hotel",
+        "facets": [
+          "plural"
+        ],
+        "opportunityId": "it-a1-c19-01-numero:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "no"
+        ],
+        "rejected": [
+          "sì"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C19; A1_COVERAGE_MATRIX C19.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c19-01-numero",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c19-02-intenzione",
+      "version": "2",
+      "conceptId": "it-a1-c19-02",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "selection",
+      "prompt": "Alla reception chiedi se ci sono camere disponibili. La risposta «C’è una camera» annuncia…",
+      "options": [
+        "posizione della camera già nota",
+        "disponibilità"
+      ],
+      "hint": "La frase anuncia que hay una habitación.",
+      "explanation": "La frase anuncia que hay una habitación.",
+      "dimension": "comprehension",
+      "task": {
+        "skill": "recognition",
+        "context": "hotel",
+        "facets": [
+          "existencia"
+        ],
+        "opportunityId": "it-a1-c19-02-intenzione:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "disponibilità"
+        ],
+        "rejected": [
+          "posizione della camera già nota"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C19; A1_COVERAGE_MATRIX C19.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c19-02-intenzione",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c19-02-libro",
+      "version": "2",
+      "conceptId": "it-a1-c19-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Localizza il libro già noto. Completa con il solo verbo essere al presente indicativo: «Il libro ___ qui».",
+      "options": [],
+      "hint": "El referente conocido es sujeto de è.",
+      "explanation": "La tarea pide el verbo essere sin ci: il libro è qui. Otras construcciones pueden anunciar presencia en otro contexto.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "estudio",
+        "facets": [
+          "localizacion"
+        ],
+        "opportunityId": "it-a1-c19-02-libro:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "è"
+        ],
+        "rejected": [
+          "c’è",
+          "c'è"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C19; A1_COVERAGE_MATRIX C19.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c19-02-libro",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c19-02-chiavi",
+      "version": "2",
+      "conceptId": "it-a1-c19-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Localizza le chiavi già note. Completa con il solo verbo essere al presente indicativo: «Le chiavi ___ qui».",
+      "options": [],
+      "hint": "La frase sitúa las llaves conocidas con sono.",
+      "explanation": "La tarea pide el verbo essere sin ci: le chiavi sono qui. Ci sono puede anunciar presencia en otra construcción.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "vivienda",
+        "facets": [
+          "localizacion"
+        ],
+        "opportunityId": "it-a1-c19-02-chiavi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "sono"
+        ],
+        "rejected": [
+          "ci sono"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C19; A1_COVERAGE_MATRIX C19.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c19-02-chiavi",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c19-02-annuncio",
+      "version": "2",
+      "conceptId": "it-a1-c19-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Traduce «Hay dos libros» con libro y la construcción de existencia estudiada. Escribe el número en letras.",
+      "options": [],
+      "hint": "Ci sono anuncia existencia; sono due libri los identifica.",
+      "explanation": "Ci sono anuncia existencia; sono due libri los identifica.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "estudio",
+        "facets": [
+          "existencia"
+        ],
+        "opportunityId": "it-a1-c19-02-annuncio:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Ci sono due libri",
+          "Ci sono due libri."
+        ],
+        "rejected": [
+          "Sono due libri"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C19; A1_COVERAGE_MATRIX C19.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c19-02-annuncio",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c19-02-cambia",
+      "version": "2",
+      "conceptId": "it-a1-c19-02",
+      "conceptVersion": "1",
+      "family": "F3",
+      "format": "transformation",
+      "prompt": "Ora localizza il gatto già noto qui. Da «C'è un gatto» scrivi il gatto + essere + qui.",
+      "options": [],
+      "hint": "La consigna pide ubicar el referente mediante essere.",
+      "explanation": "La consigna pide ubicar el referente mediante essere.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "transformation",
+        "context": "vivienda",
+        "facets": [
+          "contraste"
+        ],
+        "opportunityId": "it-a1-c19-02-cambia:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Il gatto è qui",
+          "Il gatto è qui."
+        ],
+        "rejected": [
+          "Il gatto c'è qui",
+          "Il gatto c’è qui"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C19; A1_COVERAGE_MATRIX C19.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c19-02-cambia",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c19-02-traduci",
+      "version": "2",
+      "conceptId": "it-a1-c19-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci con essere: «Las dos llaves están aquí».",
+      "options": [],
+      "hint": "Se conserva el referente identificado y su ubicación.",
+      "explanation": "Se conserva el referente identificado y su ubicación.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "hotel",
+        "facets": [
+          "localizacion"
+        ],
+        "opportunityId": "it-a1-c19-02-traduci:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Le due chiavi sono qui",
+          "Le due chiavi sono qui."
+        ],
+        "rejected": [
+          "Ci sono due chiavi"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C19; A1_COVERAGE_MATRIX C19.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c19-02-traduci",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c19-02-determinato",
+      "version": "1",
+      "conceptId": "it-a1-c19-02",
+      "conceptVersion": "1",
+      "family": "F1",
+      "format": "error-detection",
+      "prompt": "Annunci che il gatto è presente: «C'è il gatto». È possibile? sì/no.",
+      "options": [
+        "sì",
+        "no"
+      ],
+      "hint": "El determinado no impide anunciar presencia.",
+      "explanation": "El determinado no impide anunciar presencia.",
+      "dimension": "discrimination",
+      "task": {
+        "skill": "discrimination",
+        "context": "vivienda",
+        "facets": [
+          "contraste"
+        ],
+        "opportunityId": "it-a1-c19-02-determinato:target",
+        "scaffolding": "visible-options",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "1",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "sì"
+        ],
+        "rejected": [
+          "no"
+        ],
+        "exhaustive": true
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C19; A1_COVERAGE_MATRIX C19.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c19-02-determinato",
+        "sourceVersion": "1"
+      }
+    },
+    {
+      "id": "it-a1-c19-02-distingui",
+      "version": "2",
+      "conceptId": "it-a1-c19-02",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "short",
+      "prompt": "Quale frase risponde a «Dov’è il libro?»: «Il libro è qui» o «C’è un libro»?",
+      "options": [],
+      "hint": "La pregunta pide la ubicación de un libro conocido.",
+      "explanation": "La pregunta pide la ubicación de un libro conocido.",
+      "dimension": "discrimination",
+      "task": {
+        "skill": "discrimination",
+        "context": "estudio",
+        "facets": [
+          "contraste"
+        ],
+        "opportunityId": "it-a1-c19-02-distingui:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Il libro è qui"
+        ],
+        "rejected": [
+          "C'è un libro",
+          "C’è un libro"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C19; A1_COVERAGE_MATRIX C19.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c19-02-distingui",
+        "sourceVersion": "2"
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "it-essere",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "essere",
+      "displayForm": "essere",
+      "gloss": "ser / estar (según construcción)",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "io",
+          "text": "sono",
+          "features": {
+            "person": "1",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "tu",
+          "text": "sei",
+          "features": {
+            "person": "2",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "lui-lei",
+          "text": "è",
+          "features": {
+            "person": "3",
+            "number": "singular",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "noi",
+          "text": "siamo",
+          "features": {
+            "person": "1",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "voi",
+          "text": "siete",
+          "features": {
+            "person": "2",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        },
+        {
+          "key": "loro",
+          "text": "sono",
+          "features": {
+            "person": "3",
+            "number": "plural",
+            "tense": "present"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "identidad",
+        "C03",
+        "C04",
+        "C06",
+        "C11",
+        "C16",
+        "C18",
+        "C19",
+        "C20",
+        "C29",
+        "C31",
+        "C32",
+        "C33"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c04-02",
+        "it-a1-c04-03",
+        "it-a1-c04-04",
+        "it-a1-c04-05",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c06-03",
+        "it-a1-c11-01",
+        "it-a1-c16-03",
+        "it-a1-c18-02",
+        "it-a1-c19-01",
+        "it-a1-c19-02",
+        "it-a1-c20-01",
+        "it-a1-c29-01",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c32-02",
+        "it-a1-c33-01"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t11",
+        "it-a1-t16",
+        "it-a1-t18",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t29",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t33"
+      ],
+      "examples": [
+        {
+          "target": "Io sono Ana.",
+          "support": "Yo soy Ana."
+        }
+      ],
+      "status": "candidate",
+      "provenance": "Candidato creado por R2 para validación técnica; sin revisión editorial independiente. Fuentes de alcance: Research 02 C03/C04 y A1_COVERAGE_MATRIX C03-01/C04-01."
+    },
+    {
+      "id": "it-chiave",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "chiave",
+      "displayForm": "chiave",
+      "gloss": "llave",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "chiavi",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C16",
+        "C19",
+        "C23"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c04-04",
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c06-03",
+        "it-a1-c07-02",
+        "it-a1-c08-01",
+        "it-a1-c09-02",
+        "it-a1-c09-03",
+        "it-a1-c10-02",
+        "it-a1-c16-05",
+        "it-a1-c19-01",
+        "it-a1-c19-02",
+        "it-a1-c23-01"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t04",
+        "it-a1-t05",
+        "it-a1-t06",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t23"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-bagno",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "bagno",
+      "displayForm": "bagno",
+      "gloss": "baño",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C01",
+        "C19",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c19-01",
+        "it-a1-c34-02"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t19",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-letto",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "letto",
+      "displayForm": "letto",
+      "gloss": "cama",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "letti",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C07",
+        "C09",
+        "C10",
+        "C12",
+        "C19",
+        "C20",
+        "C21",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-03",
+        "it-a1-c07-01",
+        "it-a1-c09-01",
+        "it-a1-c09-02",
+        "it-a1-c09-03",
+        "it-a1-c10-01",
+        "it-a1-c12-01",
+        "it-a1-c19-01",
+        "it-a1-c20-01",
+        "it-a1-c21-01",
+        "it-a1-c34-02"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t07",
+        "it-a1-t09",
+        "it-a1-t10",
+        "it-a1-t12",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación C08: plural canónico del repertorio; candidate."
+    },
+    {
+      "id": "it-hotel",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "hotel",
+      "displayForm": "hotel",
+      "gloss": "hotel",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "hotel",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": true
+        }
+      ],
+      "tags": [
+        "noun",
+        "C04",
+        "C08",
+        "C14",
+        "C15",
+        "C16",
+        "C19",
+        "C20",
+        "C21",
+        "C29",
+        "C33",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c04-04",
+        "it-a1-c08-02",
+        "it-a1-c14-01",
+        "it-a1-c14-02",
+        "it-a1-c15-02",
+        "it-a1-c16-01",
+        "it-a1-c16-02",
+        "it-a1-c16-04",
+        "it-a1-c16-06",
+        "it-a1-c19-01",
+        "it-a1-c20-02",
+        "it-a1-c21-02",
+        "it-a1-c29-04",
+        "it-a1-c33-01",
+        "it-a1-c34-02",
+        "it-a1-c34-06"
+      ],
+      "topicIds": [
+        "it-a1-t04",
+        "it-a1-t08",
+        "it-a1-t14",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t29",
+        "it-a1-t33",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación C08: plural canónico del repertorio; candidate."
+    },
+    {
+      "id": "it-due",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "due",
+      "displayForm": "due",
+      "gloss": "dos",
+      "partOfSpeech": "numeral",
+      "forms": [],
+      "tags": [
+        "numeral",
+        "C05",
+        "C08",
+        "C13",
+        "C19",
+        "C20",
+        "C22",
+        "C27"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c05-01",
+        "it-a1-c05-02",
+        "it-a1-c08-01",
+        "it-a1-c08-02",
+        "it-a1-c13-01",
+        "it-a1-c13-03",
+        "it-a1-c19-01",
+        "it-a1-c19-02",
+        "it-a1-c20-02",
+        "it-a1-c20-06",
+        "it-a1-c22-01",
+        "it-a1-c22-02",
+        "it-a1-c22-04",
+        "it-a1-c27-03"
+      ],
+      "topicIds": [
+        "it-a1-t05",
+        "it-a1-t08",
+        "it-a1-t13",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t22",
+        "it-a1-t27"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-camera",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "camera",
+      "displayForm": "camera",
+      "gloss": "habitación",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "camere",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C11",
+        "C12",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "C27",
+        "C29",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c11-01",
+        "it-a1-c11-02",
+        "it-a1-c12-01",
+        "it-a1-c18-01",
+        "it-a1-c19-01",
+        "it-a1-c19-02",
+        "it-a1-c20-01",
+        "it-a1-c21-01",
+        "it-a1-c27-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c34-02"
+      ],
+      "topicIds": [
+        "it-a1-t11",
+        "it-a1-t12",
+        "it-a1-t18",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t27",
+        "it-a1-t29",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "feminine",
+      "number": "singular"
+    },
+    {
+      "id": "it-esserci",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "esserci",
+      "displayForm": "esserci",
+      "gloss": "haber / estar presente; construcción existencial",
+      "partOfSpeech": "verb",
+      "forms": [
+        {
+          "key": "singular",
+          "text": "c'è",
+          "features": {
+            "number": "singular"
+          },
+          "irregular": false
+        },
+        {
+          "key": "plural",
+          "text": "ci sono",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "verb",
+        "C19",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c19-01",
+        "it-a1-c19-02",
+        "it-a1-c34-02"
+      ],
+      "topicIds": [
+        "it-a1-t19",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Revisión editorial pendiente."
+    },
+    {
+      "id": "it-casa",
+      "version": "2",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "casa",
+      "displayForm": "casa",
+      "gloss": "casa",
+      "partOfSpeech": "noun",
+      "gender": "feminine",
+      "number": "singular",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "case",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C01",
+        "C04",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C11",
+        "C15",
+        "C16",
+        "C19",
+        "C20",
+        "C21",
+        "C23",
+        "C24",
+        "C29",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c04-04",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c06-03",
+        "it-a1-c07-01",
+        "it-a1-c08-01",
+        "it-a1-c09-03",
+        "it-a1-c11-01",
+        "it-a1-c11-02",
+        "it-a1-c15-02",
+        "it-a1-c16-01",
+        "it-a1-c16-02",
+        "it-a1-c16-03",
+        "it-a1-c16-04",
+        "it-a1-c16-08",
+        "it-a1-c19-02",
+        "it-a1-c20-02",
+        "it-a1-c20-03",
+        "it-a1-c21-01",
+        "it-a1-c21-02",
+        "it-a1-c23-01",
+        "it-a1-c23-02",
+        "it-a1-c24-01",
+        "it-a1-c29-04",
+        "it-a1-c34-02"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t09",
+        "it-a1-t11",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t23",
+        "it-a1-t24",
+        "it-a1-t29",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Ampliación C08: plural canónico del repertorio; candidate."
+    },
+    {
+      "id": "it-gatto",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "gatto",
+      "displayForm": "gatto",
+      "gloss": "gato",
+      "partOfSpeech": "noun",
+      "gender": "masculine",
+      "number": "singular",
+      "forms": [],
+      "tags": [
+        "noun",
+        "C01",
+        "C07",
+        "C08",
+        "C19"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c01-01",
+        "it-a1-c01-03",
+        "it-a1-c07-01",
+        "it-a1-c08-01",
+        "it-a1-c19-02"
+      ],
+      "topicIds": [
+        "it-a1-t01",
+        "it-a1-t07",
+        "it-a1-t08",
+        "it-a1-t19"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-qui",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "qui",
+      "displayForm": "qui",
+      "gloss": "aquí",
+      "partOfSpeech": "adverb",
+      "forms": [],
+      "tags": [
+        "adverb",
+        "C03",
+        "C04",
+        "C06",
+        "C15",
+        "C16",
+        "C19",
+        "C23",
+        "C24"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c03-01",
+        "it-a1-c03-02",
+        "it-a1-c04-01",
+        "it-a1-c04-04",
+        "it-a1-c06-01",
+        "it-a1-c06-02",
+        "it-a1-c15-02",
+        "it-a1-c16-04",
+        "it-a1-c19-02",
+        "it-a1-c23-02",
+        "it-a1-c24-01",
+        "it-a1-c24-02"
+      ],
+      "topicIds": [
+        "it-a1-t03",
+        "it-a1-t04",
+        "it-a1-t06",
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t19",
+        "it-a1-t23",
+        "it-a1-t24"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente."
+    },
+    {
+      "id": "it-libro",
+      "version": "1",
+      "language": "it",
+      "supportLanguage": "es",
+      "lemma": "libro",
+      "displayForm": "libro",
+      "gloss": "libro",
+      "partOfSpeech": "noun",
+      "forms": [
+        {
+          "key": "plural",
+          "text": "libri",
+          "features": {
+            "number": "plural"
+          },
+          "irregular": false
+        }
+      ],
+      "tags": [
+        "noun",
+        "C15",
+        "C16",
+        "C17",
+        "C19",
+        "C20",
+        "C21",
+        "C23",
+        "C24",
+        "C25",
+        "C27",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C34"
+      ],
+      "level": "A1",
+      "conceptIds": [
+        "it-a1-c15-01",
+        "it-a1-c16-05",
+        "it-a1-c17-01",
+        "it-a1-c19-02",
+        "it-a1-c20-01",
+        "it-a1-c20-02",
+        "it-a1-c20-05",
+        "it-a1-c21-01",
+        "it-a1-c21-02",
+        "it-a1-c23-01",
+        "it-a1-c24-01",
+        "it-a1-c24-02",
+        "it-a1-c25-02",
+        "it-a1-c27-02",
+        "it-a1-c27-03",
+        "it-a1-c28-02",
+        "it-a1-c29-01",
+        "it-a1-c29-02",
+        "it-a1-c30-01",
+        "it-a1-c30-02",
+        "it-a1-c31-02",
+        "it-a1-c32-01",
+        "it-a1-c34-04"
+      ],
+      "topicIds": [
+        "it-a1-t15",
+        "it-a1-t16",
+        "it-a1-t17",
+        "it-a1-t19",
+        "it-a1-t20",
+        "it-a1-t21",
+        "it-a1-t23",
+        "it-a1-t24",
+        "it-a1-t25",
+        "it-a1-t27",
+        "it-a1-t28",
+        "it-a1-t29",
+        "it-a1-t30",
+        "it-a1-t31",
+        "it-a1-t32",
+        "it-a1-t34"
+      ],
+      "examples": [],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente.",
+      "gender": "masculine",
+      "number": "singular"
+    }
+  ],
+  "relations": [
+    {
+      "to": "it-a1-c08-01",
+      "type": "prerequisite",
+      "reason": "El número nominal determina c’è/ci sono.",
+      "from": "it-a1-c19-01",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c19-01",
+      "type": "prerequisite",
+      "reason": "La distinción requiere conocer la construcción existencial.",
+      "from": "it-a1-c19-02",
+      "strength": "recommended"
+    },
+    {
+      "to": "it-a1-c01-02",
+      "type": "reinforces",
+      "reason": "C’è conserva è con acento.",
+      "from": "it-a1-c19-01"
+    },
+    {
+      "to": "it-a1-c04-04",
+      "type": "contrast",
+      "reason": "Anunciar existencia y localizar un referente no son la misma intención.",
+      "from": "it-a1-c19-02"
+    },
+    {
+      "to": "it-a1-c10-02",
+      "type": "related",
+      "reason": "Introducir referentes ayuda a interpretar el anuncio de existencia.",
+      "from": "it-a1-c19-02"
+    },
+    {
+      "from": "it-a1-c19-01",
+      "to": "it-a1-c04-01",
+      "type": "prerequisite",
+      "strength": "recommended",
+      "reason": "È/sono se reutilizan en la construcción existencial."
+    },
+    {
+      "to": "it-a1-c19-01",
+      "type": "reinforces",
+      "reason": "Los muebles se describen con c’è/ci sono.",
+      "from": "it-a1-c34-02"
+    }
+  ]
+}

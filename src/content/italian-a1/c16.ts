@@ -119,8 +119,9 @@ export const c16: Lesson[] = [
       },
       {
         key: 'cambia',
+        version: '2',
         format: 'transformation',
-        prompt: 'Da noi a loro: «Noi facciamo colazione». Mantén el pronombre.',
+        prompt: 'Da noi a loro: «Noi facciamo colazione». Mantieni il pronome.',
         accepted: ['Loro fanno colazione', 'Loro fanno colazione.'],
         hint: 'Fare cambia a fanno con loro.',
         explanation: 'Fare cambia a fanno con loro.',
@@ -130,8 +131,9 @@ export const c16: Lesson[] = [
       },
       {
         key: 'produci',
+        version: '2',
         format: 'controlled-production',
-        prompt: 'Escribe «Hago una pausa» con fare e pausa, sin io.',
+        prompt: 'Escribe «Hago una pausa» con fare y pausa, sin io.',
         accepted: ['Faccio una pausa', 'Faccio una pausa.'],
         hint: 'La expresión fare una pausa usa faccio para io.',
         explanation: 'La expresión fare una pausa usa faccio para io.',
@@ -271,8 +273,9 @@ export const c16: Lesson[] = [
       },
       {
         key: 'cambia',
+        version: '2',
         format: 'transformation',
-        prompt: 'Da io a noi: «Io vado a casa». Mantén el pronombre.',
+        prompt: 'Da io a noi: «Io vado a casa». Mantieni il pronome.',
         accepted: ['Noi andiamo a casa', 'Noi andiamo a casa.'],
         hint: 'Noi recupera la base and-: andiamo.',
         explanation: 'Noi recupera la base and-: andiamo.',
@@ -282,8 +285,9 @@ export const c16: Lesson[] = [
       },
       {
         key: 'produci',
+        version: '2',
         format: 'translation',
-        prompt: 'Traduci «Van a Roma» usando andare y sin loro.',
+        prompt: 'Traduci «Van a Roma» usando andare, senza loro.',
         accepted: ['Vanno a Roma', 'Vanno a Roma.'],
         hint: 'La tercera plural es vanno, con doble n.',
         explanation: 'La tercera plural es vanno, con doble n.',
@@ -308,6 +312,7 @@ export const c16: Lesson[] = [
   },
   {
     code: '16-03',
+    theoryRevision: 'editorial-1',
     title: 'Il presente di stare',
     objective:
       'Recuperar y usar stare en presente: estar bien/mal y permanecer en un lugar.',
@@ -416,12 +421,13 @@ export const c16: Lesson[] = [
       },
       {
         key: 'forma-voi',
+        version: '2',
         format: 'cloze',
-        prompt: 'Voi ___ bene (stare).',
+        prompt: 'Usa il presente indicativo. Voi ___ bene (stare).',
         accepted: ['state'],
-        hint: 'Con voi, el presente de stare es state. La terminación pertenece al verbo conjugado.',
+        hint: 'Con voi, el presente de stare es state. La terminación pertenece al verbo conjugado. El criterio se limita al presente de indicativo solicitado.',
         explanation:
-          'Con voi, el presente de stare es state. La terminación pertenece al verbo conjugado.',
+          'Con voi, el presente de stare es state. La terminación pertenece al verbo conjugado. El criterio se limita al presente de indicativo solicitado; otras formas pueden pertenecer a otros tiempos o modos.',
         facets: ['voi'],
         context: 'viaje',
         rejected: ['stiate'],
@@ -452,8 +458,9 @@ export const c16: Lesson[] = [
       },
       {
         key: 'cambia',
+        version: '2',
         format: 'transformation',
-        prompt: 'Da io a loro: «Io sto bene». Mantén el pronombre.',
+        prompt: 'Da io a loro: «Io sto bene». Mantieni il pronome.',
         accepted: ['Loro stanno bene', 'Loro stanno bene.'],
         hint: 'Loro usa stanno, conservando bene.',
         explanation: 'Loro usa stanno, conservando bene.',
@@ -476,11 +483,11 @@ export const c16: Lesson[] = [
     ],
     contrasts: [
       {
-        conceptId: 'it-a1-c04-04',
+        conceptId: 'it-a1-c04-05',
         explanation: 'Sono stanco con adjetivo frente a sto bene con adverbio.',
       },
       {
-        conceptId: 'it-a1-c04-03',
+        conceptId: 'it-a1-c04-04',
         explanation:
           'Sono a casa localiza; sto a casa puede expresar permanencia.',
       },
@@ -611,9 +618,10 @@ export const c16: Lesson[] = [
       },
       {
         key: 'cambia',
+        version: '2',
         format: 'transformation',
         prompt:
-          'Sono qui. Cambia tu por voi: «Tu vieni qui». Mantén el pronombre.',
+          'Sono qui. Passa da tu a voi: «Tu vieni qui». Mantieni il pronome.',
         accepted: ['Voi venite qui', 'Voi venite qui.'],
         hint: 'Voi usa venite sin el diptongo ie.',
         explanation: 'Voi usa venite sin el diptongo ie.',
@@ -782,9 +790,10 @@ export const c16: Lesson[] = [
       },
       {
         key: 'cambia',
+        version: '2',
         format: 'transformation',
         prompt:
-          'Da io ad Anna: «Io do una chiave a Luca». Escribe la frase con Anna.',
+          'Da io ad Anna: «Io do una chiave a Luca». Scrivi la frase con Anna.',
         accepted: ['Anna dà una chiave a Luca', 'Anna dà una chiave a Luca.'],
         hint: 'Anna es tercera persona: dà con acento.',
         explanation: 'Anna es tercera persona: dà con acento.',
@@ -794,8 +803,9 @@ export const c16: Lesson[] = [
       },
       {
         key: 'produci',
+        version: '2',
         format: 'translation',
-        prompt: 'Traduci «Damos un libro a Luca» con dare y libro, sin noi.',
+        prompt: 'Traduci «Damos un libro a Luca» con dare e libro, senza noi.',
         accepted: ['Diamo un libro a Luca', 'Diamo un libro a Luca.'],
         hint: 'El sujeto es noi; Luca es destinatario.',
         explanation: 'El sujeto es noi; Luca es destinatario.',
@@ -909,12 +919,13 @@ export const c16: Lesson[] = [
       },
       {
         key: 'forma-voi',
+        version: '2',
         format: 'cloze',
-        prompt: 'Voi ___ acqua (bere).',
+        prompt: 'Usa il presente indicativo. Voi ___ acqua (bere).',
         accepted: ['bevete'],
-        hint: 'Con voi, el presente de bere es bevete. La terminación pertenece al verbo conjugado.',
+        hint: 'Con voi, el presente de bere es bevete. La terminación pertenece al verbo conjugado. El criterio se limita al presente de indicativo solicitado.',
         explanation:
-          'Con voi, el presente de bere es bevete. La terminación pertenece al verbo conjugado.',
+          'Con voi, el presente de bere es bevete. La terminación pertenece al verbo conjugado. El criterio se limita al presente de indicativo solicitado; otras formas pueden pertenecer a otros tiempos o modos.',
         facets: ['voi'],
         context: 'familia',
         rejected: ['berete'],
@@ -933,11 +944,14 @@ export const c16: Lesson[] = [
       },
       {
         key: 'cambia',
+        version: '2',
         format: 'transformation',
-        prompt: 'Da io a voi: «Io bevo acqua». Mantén el pronombre.',
+        prompt:
+          'Usa il presente indicativo. Da io a voi: «Io bevo acqua». Mantieni il pronome.',
         accepted: ['Voi bevete acqua', 'Voi bevete acqua.'],
-        hint: 'Voi combina bev- con -ete.',
-        explanation: 'Voi combina bev- con -ete.',
+        hint: 'Voi combina bev- con -ete. El criterio se limita al presente de indicativo solicitado.',
+        explanation:
+          'Voi combina bev- con -ete. El criterio se limita al presente de indicativo solicitado; otras formas pueden pertenecer a otros tiempos o modos.',
         facets: ['uso'],
         context: 'familia',
         rejected: ['Voi berete acqua'],
@@ -1087,8 +1101,9 @@ export const c16: Lesson[] = [
       },
       {
         key: 'cambia',
+        version: '2',
         format: 'transformation',
-        prompt: 'Da noi a voi: «Noi diciamo grazie». Mantén el pronombre.',
+        prompt: 'Da noi a voi: «Noi diciamo grazie». Mantieni il pronome.',
         accepted: ['Voi dite grazie', 'Voi dite grazie.'],
         hint: 'La forma presente de voi es dite.',
         explanation: 'La forma presente de voi es dite.',
@@ -1098,8 +1113,9 @@ export const c16: Lesson[] = [
       },
       {
         key: 'produci',
+        version: '2',
         format: 'translation',
-        prompt: 'Traduci «Digo el número» con dire y numero, sin io.',
+        prompt: 'Traduci «Digo el número» con dire e numero, senza io.',
         accepted: ['Dico il numero', 'Dico il numero.'],
         hint: 'Dire se combina con el contenido que se comunica.',
         explanation: 'Dire se combina con el contenido que se comunica.',
@@ -1241,8 +1257,9 @@ export const c16: Lesson[] = [
       },
       {
         key: 'cambia',
+        version: '2',
         format: 'transformation',
-        prompt: 'Da io a noi: «Io esco di casa». Mantén el pronombre.',
+        prompt: 'Da io a noi: «Io esco di casa». Mantieni il pronome.',
         accepted: ['Noi usciamo di casa', 'Noi usciamo di casa.'],
         hint: 'Noi recupera usc- y termina en -iamo.',
         explanation: 'Noi recupera usc- y termina en -iamo.',

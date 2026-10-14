@@ -1,5 +1,6 @@
 import type { Editorial, LanguagePack, Reference } from './model';
 import { reviewContent } from './editorial';
+import { editorialErrors } from './validate';
 
 export interface ConceptReview {
   concept: Reference;
@@ -123,10 +124,17 @@ export function applyReviewBatch(
       .filter((r) => approved.has(r.concept.id))
       .flatMap((r) => r.entities.map((e) => `${e.kind}:${e.id}`)),
   );
-  const apply = <T extends Editorial & Reference>(kind: string, item: T): T =>
-    approvedEntities.has(`${kind}:${item.id}`)
-      ? reviewContent(item, batch.reviewer, batch.date)
-      : item;
+  const apply = <T extends Editorial & Reference>(kind: string, item: T): T => {
+    if (!approvedEntities.has(`${kind}:${item.id}`)) return item;
+    // A shared dependency can already have a valid review from an earlier batch.
+    // The complete inventory and content fingerprint were checked above.
+    if (item.status === 'reviewed') {
+      if (editorialErrors(item).length)
+        throw new Error(`Revisión inválida: ${item.id}`);
+      return item;
+    }
+    return reviewContent(item, batch.reviewer, batch.date);
+  };
   pack.concepts = pack.concepts.map((c) => apply('concept', c));
   pack.theories = Object.fromEntries(
     Object.entries(pack.theories).map(([id, t]) => [id, apply('theory', t)]),

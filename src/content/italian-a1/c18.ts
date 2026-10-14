@@ -78,9 +78,11 @@ export const c18: Lesson[] = [
       },
       {
         key: 'trasforma',
+        version: '2',
         format: 'transformation',
-        prompt: 'Rendi cortese con vorrei: «Voglio parlare». Scrivi la frase.',
-        accepted: ['Vorrei parlare'],
+        prompt:
+          'Riformula «Voglio parlare» con la formula cortese di prima persona studiata, senza aggiungere altre parole.',
+        accepted: ['Vorrei parlare', 'Vorrei parlare.'],
         rejected: ['Vorrei di parlare'],
         hint: 'Sustituye voglio por vorrei; parlare sigue en infinitivo.',
         explanation:
@@ -90,9 +92,20 @@ export const c18: Lesson[] = [
       },
       {
         key: 'biglietto',
+        version: '2',
         format: 'controlled-production',
-        prompt: 'Chiedi un biglietto: usa vorrei + un biglietto + per favore.',
-        accepted: ['Vorrei un biglietto, per favore'],
+        prompt:
+          'Traduce «Quisiera un billete, por favor» con biglietto y la fórmula cortés estudiada, sin io.',
+        accepted: [
+          'Vorrei un biglietto, per favore',
+          'Vorrei un biglietto, per favore.',
+          'Vorrei un biglietto per favore',
+          'Vorrei un biglietto per favore.',
+          'Per favore, vorrei un biglietto',
+          'Per favore, vorrei un biglietto.',
+          'Per favore vorrei un biglietto',
+          'Per favore vorrei un biglietto.',
+        ],
         rejected: ['Voglio un biglietto, per favore'],
         hint: 'La petición especifica vorrei, seguida de un biglietto.',
         explanation: 'La petición especifica vorrei, seguida de un biglietto.',
@@ -101,9 +114,10 @@ export const c18: Lesson[] = [
       },
       {
         key: 'traduci',
+        version: '2',
         format: 'translation',
         prompt: 'Traduci con vorrei: «Me gustaría beber agua».',
-        accepted: ['Vorrei bere acqua'],
+        accepted: ['Vorrei bere acqua', 'Vorrei bere acqua.'],
         rejected: ['Vorrei bevo acqua'],
         hint: 'Vorrei + bere mantiene el infinitivo.',
         explanation: 'Vorrei + bere mantiene el infinitivo.',
@@ -221,8 +235,10 @@ export const c18: Lesson[] = [
       },
       {
         key: 'amico',
+        version: '2',
         format: 'transformation',
-        prompt: 'Passa al tu: «Lei ha un libro?»',
+        prompt:
+          'Passa al tu: «Lei ha un libro?». Mantieni il pronome soggetto e il punto interrogativo.',
         accepted: ['Tu hai un libro?'],
         rejected: ['Tu ha un libro?'],
         hint: 'Con tu, avere es hai; se conserva el pronombre pedido.',
@@ -244,9 +260,10 @@ export const c18: Lesson[] = [
       },
       {
         key: 'saluto',
+        version: '2',
         format: 'controlled-production',
         prompt:
-          'Saluta formalmente e chiedi di ripetere: usa buongiorno + può ripetere.',
+          'Saluta con buongiorno e chiedi a una persona di ripetere, con trattamento formale. Usa potere + ripetere, senza pronome soggetto, e termina con il punto interrogativo.',
         accepted: ['Buongiorno, può ripetere?'],
         rejected: ['Ciao, puoi ripetere?'],
         hint: 'Buongiorno y può mantienen el trato cortés solicitado.',
