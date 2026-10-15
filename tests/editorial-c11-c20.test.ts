@@ -1,10 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { describe, expect, it } from 'vitest';
-import {
-  authoredItalianCourse,
-  italianCourse,
-} from '../src/content/italian-a1/course';
+import { authoredItalianCourse } from '../src/content/italian-a1/course';
 import { editorialC01C10 } from '../src/content/italian-a1/editorial-c01-c10';
 import { editorialC11C20 } from '../src/content/italian-a1/editorial-c11-c20';
 import {
@@ -16,6 +13,10 @@ import { loadLanguagePack } from '../src/content/loader';
 import { evaluate } from '../src/exercises/evaluate';
 import type { Activity } from '../shared/learning';
 import type { Theory } from '../src/content/theory';
+const italianCourse = applyReviewBatch(
+  applyReviewBatch(authoredItalianCourse, editorialC01C10),
+  editorialC11C20,
+);
 const scoped = (id: string) => /^it-a1-c(1[1-9]|20)-/.test(id);
 const artifact = (name: string) =>
   new URL(

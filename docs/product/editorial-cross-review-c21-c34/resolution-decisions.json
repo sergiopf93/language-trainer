@@ -59,7 +59,7 @@
         "hint": "Cuenta cuántas veces estudias cada semana.",
         "version": "3"
       },
-      "decision": "Aplicado y confirmado en seguimiento resolution-verdict-c21-c25.json; recibo pendiente.",
+      "decision": "Resuelta; confirmada en verdicts/resolution-verdict-c21-c25.json; recibo it-a1-editorial-c21-c34-2026-10-15-1.",
       "from": "2",
       "to": "3",
       "fields": [
@@ -124,7 +124,7 @@
         "prompt": "Chiedi una penna vicina a te: usa vorrei e il dimostrativo di vicinanza.",
         "version": "3"
       },
-      "decision": "Aplicado y confirmado en seguimiento resolution-verdict-c21-c25.json; recibo pendiente.",
+      "decision": "Resuelta; confirmada en verdicts/resolution-verdict-c21-c25.json; recibo it-a1-editorial-c21-c34-2026-10-15-1.",
       "from": "2",
       "to": "3",
       "fields": [
@@ -189,7 +189,7 @@
         "prompt": "Chiedi a un amico, dandogli del tu, se gli piace leggere. Usa piacere e leggere e un pronome indiretto atono per il destinatario.",
         "version": "3"
       },
-      "decision": "Aplicado y confirmado en seguimiento resolution-verdict-c21-c25.json; recibo pendiente.",
+      "decision": "Resuelta; confirmada en verdicts/resolution-verdict-c21-c25.json; recibo it-a1-editorial-c21-c34-2026-10-15-1.",
       "from": "2",
       "to": "3",
       "fields": [
@@ -254,7 +254,7 @@
         "prompt": "Chiedi a un amico, dandogli del tu, se apprezza i libri. Usa piacere e i libri e un pronome indiretto atono per il destinatario.",
         "version": "3"
       },
-      "decision": "Aplicado y confirmado en seguimiento resolution-verdict-c21-c25.json; recibo pendiente.",
+      "decision": "Resuelta; confirmada en verdicts/resolution-verdict-c21-c25.json; recibo it-a1-editorial-c21-c34-2026-10-15-1.",
       "from": "2",
       "to": "3",
       "fields": [
@@ -320,7 +320,7 @@
         "explanation": "Pausa nombra la interrupción en general. Colazione nombra una comida que podría realizarse durante ella, no la interrupción solicitada.",
         "version": "3"
       },
-      "decision": "Aplicado; seguimiento independiente pendiente",
+      "decision": "Resuelta; confirmada en verdicts/resolution-verdict-c32-c34.json; recibo it-a1-editorial-c21-c34-2026-10-15-1.",
       "from": "2",
       "to": "3",
       "fields": [
@@ -387,7 +387,7 @@
         "prompt": "Chiedi «esta camiseta azul»: usa Vorrei + il dimostrativo di vicinanza + il nome dell’indumento + il colore in italiano.",
         "version": "2"
       },
-      "decision": "Aplicado; seguimiento independiente pendiente",
+      "decision": "Resuelta; confirmada en verdicts/resolution-verdict-c32-c34.json; recibo it-a1-editorial-c21-c34-2026-10-15-1.",
       "from": "1",
       "to": "2",
       "fields": [
@@ -455,7 +455,7 @@
         "prompt": "Di’ che in cucina c’è una «silla». Usa In cucina + c’è + una + la parola italiana per «silla».",
         "version": "2"
       },
-      "decision": "Aplicado; seguimiento independiente pendiente",
+      "decision": "Resuelta; confirmada en verdicts/resolution-verdict-c32-c34.json; recibo it-a1-editorial-c21-c34-2026-10-15-1.",
       "from": "1",
       "to": "2",
       "fields": [
@@ -521,7 +521,7 @@
         "prompt": "Chiedi 1 kg di «manzanas»: usa Vorrei + un chilo di + il plurale di mela.",
         "version": "2"
       },
-      "decision": "Aplicado; seguimiento independiente pendiente",
+      "decision": "Resuelta; confirmada en verdicts/resolution-verdict-c32-c34.json; recibo it-a1-editorial-c21-c34-2026-10-15-1.",
       "from": "1",
       "to": "2",
       "fields": [
@@ -587,7 +587,7 @@
         "prompt": "Chiedi «la cuenta» al ristorante: usa articolo + nome + per favore.",
         "version": "2"
       },
-      "decision": "Aplicado; seguimiento independiente pendiente",
+      "decision": "Resuelta; confirmada en verdicts/resolution-verdict-c32-c34.json; recibo it-a1-editorial-c21-c34-2026-10-15-1.",
       "from": "1",
       "to": "2",
       "fields": [
@@ -655,7 +655,7 @@
         ],
         "version": "3"
       },
-      "decision": "Aplicado y confirmado en seguimiento resolution-verdict-c21-c25.json; recibo pendiente.",
+      "decision": "Resuelta; confirmada en verdicts/resolution-verdict-c21-c25.json; recibo it-a1-editorial-c21-c34-2026-10-15-1.",
       "from": "2",
       "to": "3",
       "fields": [
@@ -723,7 +723,7 @@
         ],
         "version": "3"
       },
-      "decision": "Aplicado y confirmado en seguimiento resolution-verdict-c21-c25.json; recibo pendiente.",
+      "decision": "Resuelta; confirmada en verdicts/resolution-verdict-c21-c25.json; recibo it-a1-editorial-c21-c34-2026-10-15-1.",
       "from": "2",
       "to": "3",
       "fields": [
@@ -751,7 +751,7 @@
           "Non precede al pronombre: non mi alzo. La hora se añade con alle para horas plurales (mi alzo alle sette) y con all’una para la una."
         ]
       },
-      "decision": "Aplicado; seguimiento independiente pendiente",
+      "decision": "Resuelta; confirmada en verdicts/resolution-verdict-c26-c31.json; recibo it-a1-editorial-c21-c34-2026-10-15-1.",
       "from": "theory-c26-02-1",
       "to": "theory-c26-02-1-editorial-1",
       "fields": [
@@ -803,7 +803,7 @@
           ]
         ]
       },
-      "decision": "Aplicado; seguimiento independiente pendiente",
+      "decision": "Resuelta; confirmada en verdicts/resolution-verdict-c26-c31.json; recibo it-a1-editorial-c21-c34-2026-10-15-1.",
       "from": "theory-c30-01-1",
       "to": "theory-c30-01-1-editorial-1",
       "fields": [

@@ -1,0 +1,47 @@
+{
+  "packet": "resolution-c26-c31",
+  "sha256": "a08d269c11ba69052d100120c092b0f80c6d504e35df89b2aadb272d11dd3ed1",
+  "reviewer": "/root/followup_c26_c31",
+  "date": "2026-10-15",
+  "reviewMode": "Seguimiento explícito posterior al dictamen ciego; dictamen independiente recibido por R2 y persistido en formato normalizado",
+  "theoryIdsRead": [
+    "it-a1-theory-c26-02",
+    "it-a1-theory-c30-01"
+  ],
+  "activityIdsRead": [],
+  "versionsRead": [
+    {
+      "id": "it-a1-theory-c26-02",
+      "version": "theory-c26-02-1-editorial-1"
+    },
+    {
+      "id": "it-a1-theory-c30-01",
+      "version": "theory-c30-01-1-editorial-1"
+    }
+  ],
+  "notRead": [],
+  "findings": [],
+  "resolutions": [
+    {
+      "id": "it-a1-theory-c26-02",
+      "status": "resuelta",
+      "reason": "La regla distingue alle para horas plurales y all’una para la una; conserva el ejemplo correcto."
+    },
+    {
+      "id": "it-a1-theory-c30-01",
+      "status": "resuelta",
+      "reason": "Cada equivalencia española de prendete queda asociada a su tratamiento: tomad (vosotros) / tomen (ustedes)."
+    }
+  ],
+  "optionalImprovements": [],
+  "humanValidation": [
+    "Validación humana cualificada antes de publicar; este seguimiento no acredita eficacia pedagógica."
+  ],
+  "blockers": [],
+  "conclusion": "Correcciones satisfactorias; sin nuevas ambigüedades relevantes ni bloqueos en el alcance leído.",
+  "limitations": [
+    "Seguimiento textual, no nueva revisión ciega ni revisión general.",
+    "No verifica aplicación al código, ejecución, interfaz, evaluador, vocabulario completo ni relaciones.",
+    "Hashes originales y correspondencia con producción se comprueban por R2 separadamente."
+  ]
+}

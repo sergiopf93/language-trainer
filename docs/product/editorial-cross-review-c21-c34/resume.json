@@ -1,15 +1,15 @@
 {
-  "status": "independent-review-complete-followup-incomplete-usage-limit",
+  "status": "5B.4-editorial-closed-human-validation-before-publication",
   "agent": "/root/italian_independent_c21_c34",
   "priorR2ConclusionsReceived": false,
   "verdictEmitted": true,
   "coverageAccredited": true,
-  "lastProgressMessage": "14 dictámenes ciegos completos y un seguimiento completo guardados. Dos seguimientos pendientes.",
-  "error": "Los agentes de seguimiento C21–C25 y C26–C31 devolvieron límite de uso. C21–C25 había guardado dictamen completo antes del fallo; se conserva. C32–C34 se detuvo sin lectura nueva.",
-  "resume": "NO repetir revisión inicial ni dictámenes ciegos ni seguimiento C21–C25. Encargar solo resolución C26–C31 (2 Theory) y C32–C34 (4 Theory de contexto, 5 actividades). Usar paquetes resolution y dictámenes previos respectivos; es seguimiento explícito, no ciego. Después resolver posibles incidencias, decidir conceptos individualmente, emitir recibos y validar.",
+  "lastProgressMessage": "Dos seguimientos restantes confirmados; 38 recibos nuevos, 99 reviewed, 0 candidate/published. No iniciar 5C.",
+  "error": null,
+  "resume": "5B.4 cerrada editorialmente. No repetir dictámenes ni seguimientos. Validación humana pendiente antes de publicación; 5C requiere nuevo encargo.",
   "packetsHashVerified": true,
-  "reviewedConcepts": 61,
-  "candidateConcepts": 38,
+  "reviewedConcepts": 99,
+  "candidateConcepts": 0,
   "publishedConcepts": 0,
   "history": [
     {
@@ -28,7 +28,7 @@
     }
   ],
   "date": "2026-10-15",
-  "referenceCommit": "e6bf368",
+  "referenceCommit": "1c37588",
   "independentTheoryCount": 38,
   "independentActivityCount": 291,
   "completedVerdicts": [
@@ -47,9 +47,10 @@
     "verdicts/blind-resume-C33.json",
     "verdicts/blind-resume-C34.json"
   ],
-  "completedFollowup": "verdicts/resolution-verdict-c21-c25.json",
-  "pendingFollowup": [
-    "resolution-c26-c31.json",
-    "resolution-c32-c34.json"
+  "pendingFollowup": [],
+  "completedFollowups": [
+    "verdicts/resolution-verdict-c21-c25.json",
+    "verdicts/resolution-verdict-c26-c31.json",
+    "verdicts/resolution-verdict-c32-c34.json"
   ]
 }

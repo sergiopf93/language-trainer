@@ -3,7 +3,7 @@ import { readFile } from 'node:fs/promises';
 const bundled = await build({
   stdin: {
     contents:
-      "export { italianCourse } from './src/content/italian-a1/course'; export { editorialC01C10 } from './src/content/italian-a1/editorial-c01-c10'; export { editorialC11C20 } from './src/content/italian-a1/editorial-c11-c20'; export { validatePack } from './src/content/validate'; export { reviewFingerprint } from './src/content/editorial-review';",
+      "export { italianCourse } from './src/content/italian-a1/course'; export { editorialC01C10 } from './src/content/italian-a1/editorial-c01-c10'; export { editorialC11C20 } from './src/content/italian-a1/editorial-c11-c20'; export { editorialC21C34 } from './src/content/italian-a1/editorial-c21-c34'; export { validatePack } from './src/content/validate'; export { reviewFingerprint } from './src/content/editorial-review';",
     resolveDir: process.cwd(),
   },
   bundle: true,
@@ -16,20 +16,23 @@ const {
   italianCourse: pack,
   editorialC01C10,
   editorialC11C20,
+  editorialC21C34,
   validatePack,
   reviewFingerprint,
 } = await import(
   'data:text/javascript;base64,' +
     Buffer.from(bundled.outputFiles[0].text).toString('base64')
 );
-const batches = [editorialC01C10, editorialC11C20];
+const batches = [editorialC01C10, editorialC11C20, editorialC21C34];
 const changes = (
   await Promise.all(
-    ['C01_C10', 'C11_C20'].map(async (scope) => {
+    ['C01_C10', 'C11_C20', 'C21_C34'].map(async (scope) => {
       const log = JSON.parse(
         await readFile(
           new URL(
-            `../docs/product/A1_EDITORIAL_CHANGES_${scope}.json`,
+            scope === 'C21_C34'
+              ? '../docs/product/editorial-cross-review-c21-c34/closure-decisions.json'
+              : `../docs/product/A1_EDITORIAL_CHANGES_${scope}.json`,
             import.meta.url,
           ),
           'utf8',
@@ -74,7 +77,7 @@ const report = {
   })),
   pack: { id: pack.id, version: pack.version, status: pack.status },
   scope:
-    'C01–C20; revisión asistida con cobertura independiente documentada por lote; no aprobación para publicar',
+    'C01–C34; revisión asistida con cobertura independiente documentada por lote; no aprobación para publicar',
   totals: {
     concepts: counts(pack.concepts),
     theories: counts(Object.values(pack.theories)),

@@ -110,7 +110,7 @@ describe('C26–C34: final A1 candidate curriculum', () => {
       );
       expect(italianCourse.theories[id].provenance).toContain('C26–C34');
       for (const a of items) {
-        expect(a.status).toBe('candidate');
+        expect(a.status).toBe('reviewed');
         expect(a.version).toBe(
           lesson.items.find((i) => a.id === id + '-' + i.key)?.version ?? '1',
         );
@@ -135,15 +135,9 @@ describe('C26–C34: final A1 candidate curriculum', () => {
     expect(italianCourse.vocabulary.every((v) => v.conceptIds.length > 0)).toBe(
       true,
     );
-    expect(
-      italianCourse.vocabulary.every(
-        (v) =>
-          v.status ===
-          (v.conceptIds.some((id) => /^it-a1-c(0[1-9]|1[0-9]|20)-/.test(id))
-            ? 'reviewed'
-            : 'candidate'),
-      ),
-    ).toBe(true);
+    expect(italianCourse.vocabulary.every((v) => v.status === 'reviewed')).toBe(
+      true,
+    );
     const items = repository.activities.filter(
       (a) => Number(a.conceptId.slice(7, 9)) >= 26,
     );
