@@ -1,0 +1,228 @@
+{
+  "purpose": "Seguimiento posterior al dictamen ciego; no nueva revisión ciega.",
+  "changes": [
+    {
+      "id": "it-a1-theory-c26-02",
+      "conceptId": "it-a1-c26-02",
+      "kind": "theory",
+      "classification": "Mejora opcional",
+      "severity": "baja",
+      "problem": "C26-01: precisión del alcance de alle.",
+      "evidence": [
+        "Pronombres: mi, ti, si, ci, vi, si. Van delante del presente y concuerdan en persona con el verbo.",
+        "Alzarsi y lavarsi siguen -are; vestirsi sigue -ire sin -isc-.",
+        "Non precede al pronombre: non mi alzo. La hora se añade con alle: mi alzo alle sette."
+      ],
+      "proposal": {
+        "rules": [
+          "Pronombres: mi, ti, si, ci, vi, si. Van delante del presente y concuerdan en persona con el verbo.",
+          "Alzarsi y lavarsi siguen -are; vestirsi sigue -ire sin -isc-.",
+          "Non precede al pronombre: non mi alzo. La hora se añade con alle para horas plurales (mi alzo alle sette) y con all’una para la una."
+        ]
+      },
+      "decision": "Aplicado; seguimiento independiente pendiente",
+      "from": "theory-c26-02-1",
+      "to": "theory-c26-02-1-editorial-1",
+      "fields": [
+        "rules"
+      ]
+    },
+    {
+      "id": "it-a1-theory-c30-01",
+      "conceptId": "it-a1-c30-01",
+      "kind": "theory",
+      "classification": "Ambigüedad relevante",
+      "severity": "baja",
+      "problem": "C30-01: separar equivalencias españolas por tratamiento.",
+      "evidence": [
+        [
+          "gira a destra / gira a sinistra",
+          "gira a la derecha / a la izquierda"
+        ],
+        [
+          "vai dritto",
+          "sigue recto"
+        ],
+        [
+          "prendi / aggiungi / mescola",
+          "toma / añade / mezcla"
+        ],
+        [
+          "prendete",
+          "tomad / tomen (vosotros)"
+        ]
+      ],
+      "proposal": {
+        "forms": [
+          [
+            "gira a destra / gira a sinistra",
+            "gira a la derecha / a la izquierda"
+          ],
+          [
+            "vai dritto",
+            "sigue recto"
+          ],
+          [
+            "prendi / aggiungi / mescola",
+            "toma / añade / mezcla"
+          ],
+          [
+            "prendete",
+            "tomad (vosotros) / tomen (ustedes)"
+          ]
+        ]
+      },
+      "decision": "Aplicado; seguimiento independiente pendiente",
+      "from": "theory-c30-01-1",
+      "to": "theory-c30-01-1-editorial-1",
+      "fields": [
+        "forms"
+      ]
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c26-02",
+      "version": "theory-c26-02-1-editorial-1",
+      "conceptId": "it-a1-c26-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "La routine: mi alzo, mi lavo",
+      "goal": "Usar alzarsi, lavarsi y vestirsi en presente con pronombre, persona y posición adecuados.",
+      "introduction": "En estas rutinas el sujeto realiza una acción sobre sí mismo. Se aprende cada verbo con su pronombre: alzarsi (levantarse), lavarsi (lavarse), vestirsi (vestirse).",
+      "rules": [
+        "Pronombres: mi, ti, si, ci, vi, si. Van delante del presente y concuerdan en persona con el verbo.",
+        "Alzarsi y lavarsi siguen -are; vestirsi sigue -ire sin -isc-.",
+        "Non precede al pronombre: non mi alzo. La hora se añade con alle para horas plurales (mi alzo alle sette) y con all’una para la una."
+      ],
+      "forms": [
+        [
+          "alzarsi",
+          "mi alzo · ti alzi · si alza · ci alziamo · vi alzate · si alzano"
+        ],
+        [
+          "lavarsi",
+          "mi lavo · ti lavi · si lava · ci laviamo · vi lavate · si lavano"
+        ],
+        [
+          "vestirsi",
+          "mi vesto · ti vesti · si veste · ci vestiamo · vi vestite · si vestono"
+        ]
+      ],
+      "examples": [
+        [
+          "Mi alzo alle sette.",
+          "Me levanto a las siete."
+        ],
+        [
+          "Anna si veste e va al lavoro.",
+          "Anna se viste y va al trabajo."
+        ],
+        [
+          "Ci laviamo le mani.",
+          "Nos lavamos las manos."
+        ]
+      ],
+      "frequentErrors": [
+        "No omitas el pronombre: alzo y mi alzo no expresan lo mismo.",
+        "No uses ci vestiamo con voi: vi vestite.",
+        "Para partes del cuerpo se usa normalmente el artículo: mi lavo le mani."
+      ],
+      "usageNotes": [
+        "Alcance: presente de estas tres rutinas. Pasado reflexivo y pronombres unidos a infinitivos quedan fuera."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-alzarsi",
+        "it-lavarsi",
+        "it-vestirsi",
+        "it-mano",
+        "it-sette",
+        "it-lavoro",
+        "it-andare",
+        "it-non",
+        "it-ogni-giorno",
+        "it-presto",
+        "it-prima",
+        "it-uscire",
+        "it-otto",
+        "it-sei"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate."
+    },
+    {
+      "id": "it-a1-theory-c30-01",
+      "version": "theory-c30-01-1-editorial-1",
+      "conceptId": "it-a1-c30-01",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Capire le istruzioni",
+      "goal": "Comprender instrucciones frecuentes de rutas y recetas identificando la acción y su orden.",
+      "introduction": "Una instrucción indica qué debe hacer el destinatario. En una ruta o una receta importa reconocer la acción, la dirección o el ingrediente.",
+      "rules": [
+        "Gira a destra / a sinistra indica hacia qué lado girar; vai dritto indica seguir recto.",
+        "En recetas: prendi (toma), aggiungi (añade), mescola (mezcla). Poi introduce el siguiente paso.",
+        "Lee quién recibe la instrucción: prendi se dirige a una persona; prendete, a varias. Aquí se evalúa comprender, no memorizar todo el imperativo."
+      ],
+      "forms": [
+        [
+          "gira a destra / gira a sinistra",
+          "gira a la derecha / a la izquierda"
+        ],
+        [
+          "vai dritto",
+          "sigue recto"
+        ],
+        [
+          "prendi / aggiungi / mescola",
+          "toma / añade / mezcla"
+        ],
+        [
+          "prendete",
+          "tomad (vosotros) / tomen (ustedes)"
+        ]
+      ],
+      "examples": [
+        [
+          "Vai dritto, poi gira a destra.",
+          "Sigue recto, después gira a la derecha."
+        ],
+        [
+          "Aggiungi l’acqua e mescola.",
+          "Añade el agua y mezcla."
+        ]
+      ],
+      "frequentErrors": [
+        "No confundas destra y sinistra.",
+        "No ejecutes como primer paso el que aparece tras poi."
+      ],
+      "usageNotes": [
+        "Son instrucciones útiles de tu/voi; el imperativo formal y clíticos avanzados quedan fuera."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-girare",
+        "it-destra",
+        "it-sinistra",
+        "it-dritto",
+        "it-aggiungere",
+        "it-mescolare",
+        "it-prendere",
+        "it-acqua",
+        "it-poi",
+        "it-pane",
+        "it-formaggio",
+        "it-latte",
+        "it-libro"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C30; A1_COVERAGE_MATRIX C30. Alcance A1; ejemplos originales candidate."
+    }
+  ],
+  "activities": []
+}

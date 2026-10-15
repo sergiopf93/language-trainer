@@ -1,0 +1,60 @@
+{
+  "packet": "C22",
+  "sha256": "30203954db3fd08e0cc4f87367bc6053552949a608ab3a85959944a4a38c603a",
+  "priorR2ConclusionsReceived": false,
+  "theoryIdsRead": [
+    "it-a1-theory-c22-01",
+    "it-a1-theory-c22-02",
+    "it-a1-theory-c22-03",
+    "it-a1-theory-c22-04"
+  ],
+  "activityIdsRead": [
+    "it-a1-c22-01-data",
+    "it-a1-c22-01-primo",
+    "it-a1-c22-01-martedi",
+    "it-a1-c22-01-data-intera",
+    "it-a1-c22-01-occasione",
+    "it-a1-c22-01-appuntamento",
+    "it-a1-c22-01-maiuscola",
+    "it-a1-c22-01-fine-settimana",
+    "it-a1-c22-02-una",
+    "it-a1-c22-02-tre",
+    "it-a1-c22-02-mezza",
+    "it-a1-c22-02-meno",
+    "it-a1-c22-02-evento",
+    "it-a1-c22-02-una-evento",
+    "it-a1-c22-02-mezzanotte",
+    "it-a1-c22-02-24ore",
+    "it-a1-c22-03-significato",
+    "it-a1-c22-03-sempre",
+    "it-a1-c22-03-spesso",
+    "it-a1-c22-03-mai",
+    "it-a1-c22-03-periodica",
+    "it-a1-c22-03-giorno",
+    "it-a1-c22-03-qualche",
+    "it-a1-c22-04-incrocio",
+    "it-a1-c22-04-proponi",
+    "it-a1-c22-04-conferma",
+    "it-a1-c22-04-alternativa",
+    "it-a1-c22-04-data",
+    "it-a1-c22-04-traduci",
+    "it-a1-c22-04-incompatibile"
+  ],
+  "notRead": [],
+  "findings": [
+    {
+      "id": "C22-01",
+      "classification": "Mejora opcional",
+      "conceptId": "it-a1-c22-03",
+      "activityId": "it-a1-c22-03-periodica",
+      "evidence": "La pista dice «La primera indica frecuencia; la segunda duración», pero la consigna solo muestra una frase y no hay opciones.",
+      "severity": "baja",
+      "proposal": "Usar «Cuenta cuántas veces estudias cada semana» como pista autónoma.",
+      "certainty": "alta"
+    }
+  ],
+  "conclusion": "No detectados errores lingüísticos confirmados; una pista opcional tiene referentes ausentes, defecto de apoyo pedagógico menor.",
+  "limitations": [
+    "Revisión textual; sin ejecución. Los criterios no exhaustivos se interpretan como abstención fuera de sus listas."
+  ]
+}

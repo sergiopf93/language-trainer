@@ -1,0 +1,41 @@
+{
+  "packet": "C24",
+  "sha256": "66d57771fd0565cb9ee47ffdb0d096d18dfcdd064ec407692350498f16f68985",
+  "priorR2ConclusionsReceived": false,
+  "theoryIdsRead": [
+    "it-a1-theory-c24-01",
+    "it-a1-theory-c24-02"
+  ],
+  "activityIdsRead": [
+    "it-a1-c24-01-vicino",
+    "it-a1-c24-01-penna",
+    "it-a1-c24-01-libri",
+    "it-a1-c24-01-articolo",
+    "it-a1-c24-01-richiesta",
+    "it-a1-c24-01-pronome",
+    "it-a1-c24-01-vocale",
+    "it-a1-c24-02-libro",
+    "it-a1-c24-02-zaino",
+    "it-a1-c24-02-libri",
+    "it-a1-c24-02-penne",
+    "it-a1-c24-02-solo",
+    "it-a1-c24-02-distanza"
+  ],
+  "notRead": [],
+  "findings": [
+    {
+      "id": "C24-01",
+      "classification": "Error lingüístico confirmado",
+      "conceptId": "it-a1-c24-01",
+      "activityId": "it-a1-c24-01-richiesta",
+      "evidence": "Consigna italiana «Chiedi un bolígrafo vicino a te»: inserta el sustantivo español bolígrafo sin marcarlo como traducción.",
+      "severity": "baja",
+      "proposal": "«Chiedi una penna vicina a te: usa vorrei e il dimostrativo di vicinanza». Mantiene producción de la flexión y objetivo.",
+      "certainty": "alta"
+    }
+  ],
+  "conclusion": "Contenido gramatical y criterios coherentes; una mezcla no marcada de español en la consigna italiana.",
+  "limitations": [
+    "Revisión textual; sin ejecución. No se atribuye rechazo a respuestas ausentes de criterios no exhaustivos."
+  ]
+}

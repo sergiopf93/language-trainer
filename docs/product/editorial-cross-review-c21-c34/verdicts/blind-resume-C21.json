@@ -1,0 +1,30 @@
+{
+  "packet": "C21",
+  "sha256": "754a24e3bdd55a092e73faf05739baaa8fb7e9409c720b76bfa697853cdffa54",
+  "priorR2ConclusionsReceived": false,
+  "theoryIdsRead": [
+    "it-a1-theory-c21-01",
+    "it-a1-theory-c21-02"
+  ],
+  "activityIdsRead": [
+    "it-a1-c21-01-al",
+    "it-a1-c21-01-dello",
+    "it-a1-c21-01-nel",
+    "it-a1-c21-01-apostrofo",
+    "it-a1-c21-01-letto",
+    "it-a1-c21-01-agli",
+    "it-a1-c21-01-per",
+    "it-a1-c21-02-bar",
+    "it-a1-c21-02-casa",
+    "it-a1-c21-02-hotel",
+    "it-a1-c21-02-studente",
+    "it-a1-c21-02-origine",
+    "it-a1-c21-02-contrasto"
+  ],
+  "notRead": [],
+  "findings": [],
+  "conclusion": "Sin errores lingüísticos ni ambigüedades relevantes detectados en las dos Theory y trece actividades.",
+  "limitations": [
+    "Dictamen editorial textual; no valida ejecución ni interfaz. Cobertura acreditada exclusivamente de Theory y actividades."
+  ]
+}

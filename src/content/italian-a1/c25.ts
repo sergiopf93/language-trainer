@@ -110,14 +110,14 @@ export const c25: Lesson[] = [
         key: 'domanda',
         format: 'controlled-production',
         prompt:
-          'Chiedi a un amico, dandogli del tu, se gli piace leggere. Usa piacere e leggere, senza soggetto esplicito.',
+          'Chiedi a un amico, dandogli del tu, se gli piace leggere. Usa piacere e leggere e un pronome indiretto atono per il destinatario.',
         accepted: ['Ti piace leggere?'],
         rejected: ['Mi piace leggere?'],
         hint: 'Ti se refiere al interlocutor.',
         explanation: 'Ti se refiere al interlocutor.',
         facets: ['destinatario'],
         context: 'ocio',
-        version: '2',
+        version: '3',
       },
       {
         key: 'traduci',
@@ -261,7 +261,7 @@ export const c25: Lesson[] = [
         key: 'domanda',
         format: 'controlled-production',
         prompt:
-          'Chiedi a un amico, dandogli del tu, se apprezza i libri. Usa piacere e i libri, senza soggetto esplicito.',
+          'Chiedi a un amico, dandogli del tu, se apprezza i libri. Usa piacere e i libri e un pronome indiretto atono per il destinatario.',
         accepted: ['Ti piacciono i libri?'],
         rejected: ['Ti piace i libri?'],
         hint: 'El destinatario ti no cambia la concordancia plural con libri.',
@@ -269,7 +269,7 @@ export const c25: Lesson[] = [
           'El destinatario ti no cambia la concordancia plural con libri.',
         facets: ['destinatario'],
         context: 'ocio',
-        version: '2',
+        version: '3',
       },
       {
         key: 'attivita',

@@ -1,0 +1,52 @@
+{
+  "packet": "C25",
+  "sha256": "eece51dfefa9a8046de6009a6b1d7bd00ebc98b05d308407008051e912189c10",
+  "priorR2ConclusionsReceived": false,
+  "theoryIdsRead": [
+    "it-a1-theory-c25-01",
+    "it-a1-theory-c25-02"
+  ],
+  "activityIdsRead": [
+    "it-a1-c25-01-infinito",
+    "it-a1-c25-01-piace",
+    "it-a1-c25-01-negazione",
+    "it-a1-c25-01-ripara",
+    "it-a1-c25-01-destinatario",
+    "it-a1-c25-01-domanda",
+    "it-a1-c25-01-traduci",
+    "it-a1-c25-02-singolare",
+    "it-a1-c25-02-libri",
+    "it-a1-c25-02-spaghetti",
+    "it-a1-c25-02-nega",
+    "it-a1-c25-02-traduci",
+    "it-a1-c25-02-domanda",
+    "it-a1-c25-02-attivita"
+  ],
+  "notRead": [],
+  "findings": [
+    {
+      "id": "C25-01",
+      "classification": "Error lingüístico confirmado",
+      "conceptId": "it-a1-c25-01",
+      "activityId": "it-a1-c25-01-domanda",
+      "evidence": "«Usa piacere e leggere, senza soggetto esplicito» pide leggere, actividad que constituye el sujeto de piace.",
+      "severity": "media",
+      "proposal": "Sustituir «senza soggetto esplicito» por «usa il pronome indiretto atono per rivolgerti al tuo amico», o eliminar la restricción. Mantener el resto y la respuesta esperada.",
+      "certainty": "alta"
+    },
+    {
+      "id": "C25-02",
+      "classification": "Error lingüístico confirmado",
+      "conceptId": "it-a1-c25-02",
+      "activityId": "it-a1-c25-02-domanda",
+      "evidence": "«Usa piacere e i libri, senza soggetto esplicito» contradice la respuesta Ti piacciono i libri?: i libri es precisamente su sujeto explícito.",
+      "severity": "media",
+      "proposal": "Sustituir «senza soggetto esplicito» por «usa il pronome indiretto atono per rivolgerti al tuo amico», o eliminar la restricción. Mantener el resto y la respuesta esperada.",
+      "certainty": "alta"
+    }
+  ],
+  "conclusion": "Las formas y respuestas objetivo son correctas; dos consignas confunden sujeto con experimentante y contradicen la construcción que enseñan las Theory.",
+  "limitations": [
+    "Revisión textual sin ejecutar evaluador. Los hallazgos afectan terminología gramatical de consignas, no gramaticalidad de respuestas aceptadas."
+  ]
+}

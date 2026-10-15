@@ -524,12 +524,12 @@ export const c22: Lesson[] = [
           'Studio due volte la settimana',
         ],
         rejected: ['Studio per due settimane'],
-        hint: 'La primera indica frecuencia; la segunda duración.',
+        hint: 'Cuenta cuántas veces estudias cada semana.',
         explanation:
           'Due volte alla settimana expresa frecuencia; per due settimane expresa duración.',
         facets: ['periodicidad'],
         context: 'estudio',
-        version: '2',
+        version: '3',
       },
       {
         key: 'giorno',
@@ -643,27 +643,33 @@ export const c22: Lesson[] = [
         format: 'controlled-production',
         prompt:
           'Chiedi a un amico, dandogli del tu, se può venire lunedì alle 15. Usa potere e venire e scrivi l’ora in parole.',
-        accepted: ['Puoi venire lunedì alle tre?'],
+        accepted: [
+          'Puoi venire lunedì alle tre?',
+          'Puoi venire lunedì alle quindici?',
+        ],
         rejected: ['Può venire lunedì alle tre?'],
         hint: 'Con un amigo tratado de tú, puoi; día y hora completan la propuesta.',
         explanation:
           'Con un amigo tratado de tú, puoi; día y hora completan la propuesta.',
         facets: ['propuesta'],
         context: 'cita',
-        version: '2',
+        version: '3',
       },
       {
         key: 'conferma',
         format: 'controlled-production',
         prompt:
           'Un amico ti propone di venire alle 15 e tu sei disponibile. Conferma iniziando con sì e usando potere e venire alla prima persona singolare; scrivi l’ora in parole.',
-        accepted: ['Sì, posso venire alle tre'],
+        accepted: [
+          'Sì, posso venire alle tre',
+          'Sì, posso venire alle quindici',
+        ],
         rejected: ['No, non posso venire alle tre'],
         hint: 'La confirmación debe respetar la disponibilidad dada.',
         explanation: 'La confirmación debe respetar la disponibilidad dada.',
         facets: ['confirmacion'],
         context: 'cita',
-        version: '2',
+        version: '3',
       },
       {
         key: 'alternativa',

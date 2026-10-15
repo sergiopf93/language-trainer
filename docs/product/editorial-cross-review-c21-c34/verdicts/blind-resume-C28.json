@@ -1,0 +1,31 @@
+{
+  "packet": "C28",
+  "sha256": "50d17ecfb24cf16d2c9101ab64c7bcf25c7ca9d489560e8ecd7b6549c6d0041f",
+  "priorR2ConclusionsReceived": false,
+  "theoryIdsRead": [
+    "it-a1-theory-c28-01",
+    "it-a1-theory-c28-02"
+  ],
+  "activityIdsRead": [
+    "it-a1-c28-01-me",
+    "it-a1-c28-01-anna",
+    "it-a1-c28-01-gruppo",
+    "it-a1-c28-01-noi",
+    "it-a1-c28-01-voi",
+    "it-a1-c28-01-invito",
+    "it-a1-c28-01-lui",
+    "it-a1-c28-02-libro",
+    "it-a1-c28-02-libri",
+    "it-a1-c28-02-ordine",
+    "it-a1-c28-02-negativo",
+    "it-a1-c28-02-caffe",
+    "it-a1-c28-02-referente",
+    "it-a1-c28-02-traduci"
+  ],
+  "notRead": [],
+  "findings": [],
+  "conclusion": "Lectura íntegra de 2 Theory y 14 actividades. Pronombres tónicos y directos, referentes, concordancia, posición y negación coherentes. Sin hallazgos relevantes.",
+  "limitations": [
+    "Revisión editorial sin ejecución del evaluador; no acredita revisión integral del vocabulario."
+  ]
+}

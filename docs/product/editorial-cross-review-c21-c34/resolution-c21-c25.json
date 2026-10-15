@@ -1,0 +1,1009 @@
+{
+  "purpose": "Seguimiento posterior al dictamen ciego; no nueva revisión ciega.",
+  "changes": [
+    {
+      "id": "it-a1-c22-03-periodica",
+      "conceptId": "it-a1-c22-03",
+      "kind": "activity",
+      "classification": "Mejora opcional",
+      "severity": "baja",
+      "problem": "C22-01: pista con referentes ausentes.",
+      "evidence": {
+        "id": "it-a1-c22-03-periodica",
+        "version": "2",
+        "conceptId": "it-a1-c22-03",
+        "conceptVersion": "1",
+        "family": "F4",
+        "format": "translation",
+        "prompt": "Traduci: «Estudio dos veces por semana».",
+        "options": [],
+        "hint": "La primera indica frecuencia; la segunda duración.",
+        "explanation": "Due volte alla settimana expresa frecuencia; per due settimane expresa duración.",
+        "dimension": "contextual-use",
+        "task": {
+          "skill": "controlled-production",
+          "context": "estudio",
+          "facets": [
+            "periodicidad"
+          ],
+          "opportunityId": "it-a1-c22-03-periodica:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "2",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "Studio due volte alla settimana",
+            "Studio due volte a settimana",
+            "Studio due volte la settimana"
+          ],
+          "rejected": [
+            "Studio per due settimane"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c22-03-periodica",
+          "sourceVersion": "2"
+        }
+      },
+      "proposal": {
+        "hint": "Cuenta cuántas veces estudias cada semana.",
+        "version": "3"
+      },
+      "decision": "Aplicado; seguimiento independiente pendiente",
+      "from": "2",
+      "to": "3",
+      "fields": [
+        "hint",
+        "version"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "id": "it-a1-c24-01-richiesta",
+      "conceptId": "it-a1-c24-01",
+      "kind": "activity",
+      "classification": "Error lingüístico confirmado",
+      "severity": "media",
+      "problem": "C24-01: mezcla idiomática no delimitada.",
+      "evidence": {
+        "id": "it-a1-c24-01-richiesta",
+        "version": "2",
+        "conceptId": "it-a1-c24-01",
+        "conceptVersion": "1",
+        "family": "F4",
+        "format": "controlled-production",
+        "prompt": "Chiedi un bolígrafo vicino a te: usa vorrei, il dimostrativo di vicinanza e penna.",
+        "options": [],
+        "hint": "La petición reutiliza vorrei y questo concuerda en femenino.",
+        "explanation": "La petición reutiliza vorrei y questo concuerda en femenino.",
+        "dimension": "contextual-use",
+        "task": {
+          "skill": "controlled-production",
+          "context": "compras",
+          "facets": [
+            "femenino"
+          ],
+          "opportunityId": "it-a1-c24-01-richiesta:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "2",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "Vorrei questa penna"
+          ],
+          "rejected": [
+            "Vorrei questo penna"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C24; A1_COVERAGE_MATRIX C24. https://www.treccani.it/enciclopedia/aggettivi-dimostrativi_%28La-grammatica-italiana%29/",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c24-01-richiesta",
+          "sourceVersion": "2"
+        }
+      },
+      "proposal": {
+        "prompt": "Chiedi una penna vicina a te: usa vorrei e il dimostrativo di vicinanza.",
+        "version": "3"
+      },
+      "decision": "Aplicado; seguimiento independiente pendiente",
+      "from": "2",
+      "to": "3",
+      "fields": [
+        "prompt",
+        "version"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "id": "it-a1-c25-01-domanda",
+      "conceptId": "it-a1-c25-01",
+      "kind": "activity",
+      "classification": "Error lingüístico confirmado",
+      "severity": "media",
+      "problem": "C25-01: leggere es sujeto de piace; no pedir su omisión.",
+      "evidence": {
+        "id": "it-a1-c25-01-domanda",
+        "version": "2",
+        "conceptId": "it-a1-c25-01",
+        "conceptVersion": "1",
+        "family": "F4",
+        "format": "controlled-production",
+        "prompt": "Chiedi a un amico, dandogli del tu, se gli piace leggere. Usa piacere e leggere, senza soggetto esplicito.",
+        "options": [],
+        "hint": "Ti se refiere al interlocutor.",
+        "explanation": "Ti se refiere al interlocutor.",
+        "dimension": "contextual-use",
+        "task": {
+          "skill": "controlled-production",
+          "context": "ocio",
+          "facets": [
+            "destinatario"
+          ],
+          "opportunityId": "it-a1-c25-01-domanda:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "2",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "Ti piace leggere?"
+          ],
+          "rejected": [
+            "Mi piace leggere?"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c25-01-domanda",
+          "sourceVersion": "2"
+        }
+      },
+      "proposal": {
+        "prompt": "Chiedi a un amico, dandogli del tu, se gli piace leggere. Usa piacere e leggere e un pronome indiretto atono per il destinatario.",
+        "version": "3"
+      },
+      "decision": "Aplicado; seguimiento independiente pendiente",
+      "from": "2",
+      "to": "3",
+      "fields": [
+        "prompt",
+        "version"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "id": "it-a1-c25-02-domanda",
+      "conceptId": "it-a1-c25-02",
+      "kind": "activity",
+      "classification": "Error lingüístico confirmado",
+      "severity": "media",
+      "problem": "C25-02: i libri es sujeto de piacciono; no pedir su omisión.",
+      "evidence": {
+        "id": "it-a1-c25-02-domanda",
+        "version": "2",
+        "conceptId": "it-a1-c25-02",
+        "conceptVersion": "1",
+        "family": "F4",
+        "format": "controlled-production",
+        "prompt": "Chiedi a un amico, dandogli del tu, se apprezza i libri. Usa piacere e i libri, senza soggetto esplicito.",
+        "options": [],
+        "hint": "El destinatario ti no cambia la concordancia plural con libri.",
+        "explanation": "El destinatario ti no cambia la concordancia plural con libri.",
+        "dimension": "contextual-use",
+        "task": {
+          "skill": "controlled-production",
+          "context": "ocio",
+          "facets": [
+            "destinatario"
+          ],
+          "opportunityId": "it-a1-c25-02-domanda:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "2",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "Ti piacciono i libri?"
+          ],
+          "rejected": [
+            "Ti piace i libri?"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c25-02-domanda",
+          "sourceVersion": "2"
+        }
+      },
+      "proposal": {
+        "prompt": "Chiedi a un amico, dandogli del tu, se apprezza i libri. Usa piacere e i libri e un pronome indiretto atono per il destinatario.",
+        "version": "3"
+      },
+      "decision": "Aplicado; seguimiento independiente pendiente",
+      "from": "2",
+      "to": "3",
+      "fields": [
+        "prompt",
+        "version"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "id": "it-a1-c22-04-proponi",
+      "conceptId": "it-a1-c22-04",
+      "kind": "activity",
+      "classification": "Mejora opcional",
+      "severity": "baja",
+      "problem": "R2-HORA: 15 admite tre o quindici; la ausencia previa causaba abstención.",
+      "evidence": {
+        "id": "it-a1-c22-04-proponi",
+        "version": "2",
+        "conceptId": "it-a1-c22-04",
+        "conceptVersion": "1",
+        "family": "F4",
+        "format": "controlled-production",
+        "prompt": "Chiedi a un amico, dandogli del tu, se può venire lunedì alle 15. Usa potere e venire e scrivi l’ora in parole.",
+        "options": [],
+        "hint": "Con un amigo tratado de tú, puoi; día y hora completan la propuesta.",
+        "explanation": "Con un amigo tratado de tú, puoi; día y hora completan la propuesta.",
+        "dimension": "contextual-use",
+        "task": {
+          "skill": "controlled-production",
+          "context": "cita",
+          "facets": [
+            "propuesta"
+          ],
+          "opportunityId": "it-a1-c22-04-proponi:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "2",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "Puoi venire lunedì alle tre?"
+          ],
+          "rejected": [
+            "Può venire lunedì alle tre?"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c22-04-proponi",
+          "sourceVersion": "2"
+        }
+      },
+      "proposal": {
+        "accepted": [
+          "Puoi venire lunedì alle tre?",
+          "Puoi venire lunedì alle quindici?"
+        ],
+        "version": "3"
+      },
+      "decision": "Aplicado; seguimiento independiente pendiente",
+      "from": "2",
+      "to": "3",
+      "fields": [
+        "accepted",
+        "version"
+      ],
+      "acceptedChanged": true
+    },
+    {
+      "id": "it-a1-c22-04-conferma",
+      "conceptId": "it-a1-c22-04",
+      "kind": "activity",
+      "classification": "Mejora opcional",
+      "severity": "baja",
+      "problem": "R2-HORA: 15 admite tre o quindici; la ausencia previa causaba abstención.",
+      "evidence": {
+        "id": "it-a1-c22-04-conferma",
+        "version": "2",
+        "conceptId": "it-a1-c22-04",
+        "conceptVersion": "1",
+        "family": "F4",
+        "format": "controlled-production",
+        "prompt": "Un amico ti propone di venire alle 15 e tu sei disponibile. Conferma iniziando con sì e usando potere e venire alla prima persona singolare; scrivi l’ora in parole.",
+        "options": [],
+        "hint": "La confirmación debe respetar la disponibilidad dada.",
+        "explanation": "La confirmación debe respetar la disponibilidad dada.",
+        "dimension": "contextual-use",
+        "task": {
+          "skill": "controlled-production",
+          "context": "cita",
+          "facets": [
+            "confirmacion"
+          ],
+          "opportunityId": "it-a1-c22-04-conferma:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "2",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "Sì, posso venire alle tre"
+          ],
+          "rejected": [
+            "No, non posso venire alle tre"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c22-04-conferma",
+          "sourceVersion": "2"
+        }
+      },
+      "proposal": {
+        "accepted": [
+          "Sì, posso venire alle tre",
+          "Sì, posso venire alle quindici"
+        ],
+        "version": "3"
+      },
+      "decision": "Aplicado; seguimiento independiente pendiente",
+      "from": "2",
+      "to": "3",
+      "fields": [
+        "accepted",
+        "version"
+      ],
+      "acceptedChanged": true
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c22-03",
+      "version": "theory-c22-03-1",
+      "conceptId": "it-a1-c22-03",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Quanto spesso?",
+      "goal": "Expresar frecuencia de actividades con siempre, a menudo, a veces, nunca y periodicidad.",
+      "introduction": "La frecuencia indica cuántas veces ocurre una actividad. No se confunde con cuánto dura o a qué hora empieza.",
+      "rules": [
+        "Repertorio: sempre, spesso, qualche volta, non… mai. En el orden practicado, non precede al verbo y mai lo sigue.",
+        "Ogni giorno indica todos los días; il lunedì, los lunes. Una volta/due volte alla settimana indica una/dos veces por semana.",
+        "Posiciones habituales: studio sempre, leggo spesso, qualche volta esco. Las consignas fijan el orden cuando se necesita una respuesta controlada."
+      ],
+      "forms": [
+        [
+          "sempre / spesso",
+          "siempre / a menudo"
+        ],
+        [
+          "qualche volta",
+          "a veces"
+        ],
+        [
+          "non… mai",
+          "nunca"
+        ],
+        [
+          "due volte alla settimana",
+          "dos veces por semana"
+        ],
+        [
+          "ogni giorno",
+          "todos los días"
+        ]
+      ],
+      "examples": [
+        [
+          "Non bevo mai caffè.",
+          "Nunca tomo café."
+        ],
+        [
+          "Studio due volte alla settimana.",
+          "Estudio dos veces por semana."
+        ]
+      ],
+      "frequentErrors": [
+        "No uses mai solo después del verbo en el orden negativo enseñado.",
+        "Dos horas expresa duración, dos veces expresa frecuencia."
+      ],
+      "usageNotes": [
+        "Otras posiciones de mai existen, pero no se exigen aquí."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-sempre",
+        "it-spesso",
+        "it-qualche-volta",
+        "it-mai",
+        "it-volta",
+        "it-settimana",
+        "it-ogni-giorno",
+        "it-lunedi",
+        "it-studiare",
+        "it-leggere",
+        "it-bere",
+        "it-caffe",
+        "it-uscire"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22."
+    },
+    {
+      "id": "it-a1-theory-c22-04",
+      "version": "theory-c22-04-1",
+      "conceptId": "it-a1-c22-04",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Fissare un appuntamento",
+      "goal": "Concertar una cita combinando fecha, hora y disponibilidad sin contradicciones.",
+      "introduction": "Una cita requiere coordinar cuándo puede cada persona. Lee todos los datos antes de responder: una frase correcta puede proponer una hora incompatible.",
+      "rules": [
+        "Para proponer: puoi venire lunedì alle tre? Para confirmar: sì, posso venire lunedì alle tre.",
+        "Para rechazar y ofrecer alternativa: non posso alle due. Posso alle tre. No confirmes un horario que los datos excluyen.",
+        "Una fecha concreta y una hora se combinan: il due maggio alle diciotto. La consigna puede pedir solo el dato faltante."
+      ],
+      "forms": [
+        [
+          "Puoi venire…?",
+          "¿Puedes venir…?"
+        ],
+        [
+          "Non posso alle due. Posso alle tre.",
+          "No puedo a las dos. Puedo a las tres."
+        ],
+        [
+          "il due maggio alle diciotto",
+          "el dos de mayo a las dieciocho"
+        ]
+      ],
+      "examples": [
+        [
+          "Puoi venire lunedì alle tre?",
+          "¿Puedes venir el lunes a las tres?"
+        ],
+        [
+          "Sì, posso venire alle tre.",
+          "Sí, puedo ir a las tres."
+        ]
+      ],
+      "frequentErrors": [
+        "No respondas sí a una hora que figura como no disponible.",
+        "No omitas alle al introducir una hora con le."
+      ],
+      "usageNotes": [
+        "Antes de confirmar, comprueba que el día y la hora estén disponibles para las dos personas."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-appuntamento",
+        "it-potere",
+        "it-venire",
+        "it-lunedi",
+        "it-martedi",
+        "it-maggio",
+        "it-due",
+        "it-tre",
+        "it-diciotto",
+        "it-non",
+        "it-si"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22."
+    },
+    {
+      "id": "it-a1-theory-c24-01",
+      "version": "theory-c24-01-1",
+      "conceptId": "it-a1-c24-01",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Questo, questa, questi, queste",
+      "goal": "Señalar referentes cercanos con questo y sus formas concordadas.",
+      "introduction": "Questo identifica una persona o cosa próxima a quien habla o que se está presentando. Concuerda con el referente en género y número.",
+      "rules": [
+        "Formas: questo libro, questa penna, questi libri, queste penne. No se antepone artículo determinado.",
+        "Puede acompañar al nombre o sustituirlo si se entiende: questa penna / questa.",
+        "Ante vocal singular puede aparecer quest’: quest’amico. La forma plena questo amico también es posible; el plural conserva questi/queste."
+      ],
+      "forms": [
+        [
+          "questo / questa",
+          "este / esta"
+        ],
+        [
+          "questi / queste",
+          "estos / estas"
+        ],
+        [
+          "quest’amico / questo amico",
+          "este amigo"
+        ]
+      ],
+      "examples": [
+        [
+          "Questo libro è qui.",
+          "Este libro está aquí."
+        ],
+        [
+          "Vorrei questa penna.",
+          "Quisiera este bolígrafo."
+        ]
+      ],
+      "frequentErrors": [
+        "No uses il questo libro.",
+        "Questi no sirve para un grupo femenino plural: queste penne."
+      ],
+      "usageNotes": [
+        "La cercanía se indica en el contexto escrito; no se requiere interpretar una imagen ausente."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-questo",
+        "it-libro",
+        "it-penna",
+        "it-amico",
+        "it-casa",
+        "it-vorrei",
+        "it-qui"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C24; A1_COVERAGE_MATRIX C24. https://www.treccani.it/enciclopedia/aggettivi-dimostrativi_%28La-grammatica-italiana%29/"
+    },
+    {
+      "id": "it-a1-theory-c25-01",
+      "version": "theory-c25-01-1",
+      "conceptId": "it-a1-c25-01",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Mi piace + infinito",
+      "goal": "Expresar gusto por actividades y entender mi como la persona a la que algo gusta.",
+      "introduction": "En mi piace leggere, leggere es la actividad que gusta y mi significa a mí. No se conjuga piacere como si io fuese el sujeto de gustar.",
+      "rules": [
+        "Usa mi piace + infinitivo: mi piace leggere. No añadas di ni conjugues el infinitivo.",
+        "Para negar: non mi piace leggere. Non va delante de mi.",
+        "Mi = a mí, ti = a ti en la pregunta ti piace leggere? Para otro destinatario puedes usar a Anna piace leggere. No se exige aquí el sistema completo de pronombres indirectos."
+      ],
+      "forms": [
+        [
+          "mi piace leggere",
+          "me gusta leer"
+        ],
+        [
+          "non mi piace lavorare di notte",
+          "no me gusta trabajar de noche"
+        ],
+        [
+          "ti piace…?",
+          "¿te gusta…?"
+        ],
+        [
+          "a Anna piace leggere",
+          "a Anna le gusta leer"
+        ]
+      ],
+      "examples": [
+        [
+          "Mi piace studiare italiano.",
+          "Me gusta estudiar italiano."
+        ],
+        [
+          "Ti piace leggere?",
+          "¿Te gusta leer?"
+        ]
+      ],
+      "frequentErrors": [
+        "No uses io piaccio leggere: io piaccio significa que yo gusto a alguien.",
+        "No escribas mi piace di leggere ni mi piace leggo."
+      ],
+      "usageNotes": [
+        "La actividad singular mantiene piace. El contraste con entidades plurales aparece en C25-02."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-piacere",
+        "it-mi",
+        "it-ti",
+        "it-leggere",
+        "it-studiare",
+        "it-italiano",
+        "it-lavorare",
+        "it-notte",
+        "it-bere",
+        "it-caffe"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/"
+    },
+    {
+      "id": "it-a1-theory-c25-02",
+      "version": "theory-c25-02-1",
+      "conceptId": "it-a1-c25-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Mi piace o mi piacciono?",
+      "goal": "Expresar gusto por entidades haciendo concordar piacere con lo que gusta.",
+      "introduction": "Elige piace o piacciono por el número de la cosa que gusta, no por la persona que experimenta el gusto.",
+      "rules": [
+        "Mi piace + nombre singular: mi piace il caffè. Mi piacciono + plural: mi piacciono i libri.",
+        "Para gustos generales se usa normalmente el artículo: il caffè, i libri, gli spaghetti.",
+        "Mi, ti o a Anna indican a quién gusta. Mi piacciono i libri / a Anna piacciono i libri mantienen plural por libri.",
+        "Para negar: non mi piace / non mi piacciono. Un infinitivo sigue usando piace."
+      ],
+      "forms": [
+        [
+          "mi piace il caffè",
+          "me gusta el café"
+        ],
+        [
+          "mi piacciono i libri",
+          "me gustan los libros"
+        ],
+        [
+          "ti piacciono gli spaghetti?",
+          "¿te gustan los espaguetis?"
+        ]
+      ],
+      "examples": [
+        [
+          "Mi piace il gelato.",
+          "Me gusta el helado."
+        ],
+        [
+          "Non mi piacciono gli spaghetti.",
+          "No me gustan los espaguetis."
+        ]
+      ],
+      "frequentErrors": [
+        "No uses mi piace i libri: libri exige piacciono.",
+        "No cambies a piaccio porque hablas de tus gustos."
+      ],
+      "usageNotes": [
+        "Identifica primero lo que gusta y su número; después elige piace o piacciono."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-piacere",
+        "it-mi",
+        "it-ti",
+        "it-caffe",
+        "it-libro",
+        "it-spaghetti",
+        "it-gelato",
+        "it-penna",
+        "it-leggere"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/"
+    }
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c22-03-periodica",
+      "version": "3",
+      "conceptId": "it-a1-c22-03",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "translation",
+      "prompt": "Traduci: «Estudio dos veces por semana».",
+      "options": [],
+      "hint": "Cuenta cuántas veces estudias cada semana.",
+      "explanation": "Due volte alla settimana expresa frecuencia; per due settimane expresa duración.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "estudio",
+        "facets": [
+          "periodicidad"
+        ],
+        "opportunityId": "it-a1-c22-03-periodica:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "3",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Studio due volte alla settimana",
+          "Studio due volte a settimana",
+          "Studio due volte la settimana"
+        ],
+        "rejected": [
+          "Studio per due settimane"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-03-periodica",
+        "sourceVersion": "3"
+      }
+    },
+    {
+      "id": "it-a1-c22-04-proponi",
+      "version": "3",
+      "conceptId": "it-a1-c22-04",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Chiedi a un amico, dandogli del tu, se può venire lunedì alle 15. Usa potere e venire e scrivi l’ora in parole.",
+      "options": [],
+      "hint": "Con un amigo tratado de tú, puoi; día y hora completan la propuesta.",
+      "explanation": "Con un amigo tratado de tú, puoi; día y hora completan la propuesta.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "cita",
+        "facets": [
+          "propuesta"
+        ],
+        "opportunityId": "it-a1-c22-04-proponi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "3",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Puoi venire lunedì alle tre?",
+          "Puoi venire lunedì alle quindici?"
+        ],
+        "rejected": [
+          "Può venire lunedì alle tre?"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-04-proponi",
+        "sourceVersion": "3"
+      }
+    },
+    {
+      "id": "it-a1-c22-04-conferma",
+      "version": "3",
+      "conceptId": "it-a1-c22-04",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Un amico ti propone di venire alle 15 e tu sei disponibile. Conferma iniziando con sì e usando potere e venire alla prima persona singolare; scrivi l’ora in parole.",
+      "options": [],
+      "hint": "La confirmación debe respetar la disponibilidad dada.",
+      "explanation": "La confirmación debe respetar la disponibilidad dada.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "cita",
+        "facets": [
+          "confirmacion"
+        ],
+        "opportunityId": "it-a1-c22-04-conferma:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "3",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Sì, posso venire alle tre",
+          "Sì, posso venire alle quindici"
+        ],
+        "rejected": [
+          "No, non posso venire alle tre"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c22-04-conferma",
+        "sourceVersion": "3"
+      }
+    },
+    {
+      "id": "it-a1-c24-01-richiesta",
+      "version": "3",
+      "conceptId": "it-a1-c24-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Chiedi una penna vicina a te: usa vorrei e il dimostrativo di vicinanza.",
+      "options": [],
+      "hint": "La petición reutiliza vorrei y questo concuerda en femenino.",
+      "explanation": "La petición reutiliza vorrei y questo concuerda en femenino.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "compras",
+        "facets": [
+          "femenino"
+        ],
+        "opportunityId": "it-a1-c24-01-richiesta:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "3",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Vorrei questa penna"
+        ],
+        "rejected": [
+          "Vorrei questo penna"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C24; A1_COVERAGE_MATRIX C24. https://www.treccani.it/enciclopedia/aggettivi-dimostrativi_%28La-grammatica-italiana%29/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c24-01-richiesta",
+        "sourceVersion": "3"
+      }
+    },
+    {
+      "id": "it-a1-c25-01-domanda",
+      "version": "3",
+      "conceptId": "it-a1-c25-01",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Chiedi a un amico, dandogli del tu, se gli piace leggere. Usa piacere e leggere e un pronome indiretto atono per il destinatario.",
+      "options": [],
+      "hint": "Ti se refiere al interlocutor.",
+      "explanation": "Ti se refiere al interlocutor.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "ocio",
+        "facets": [
+          "destinatario"
+        ],
+        "opportunityId": "it-a1-c25-01-domanda:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "3",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Ti piace leggere?"
+        ],
+        "rejected": [
+          "Mi piace leggere?"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c25-01-domanda",
+        "sourceVersion": "3"
+      }
+    },
+    {
+      "id": "it-a1-c25-02-domanda",
+      "version": "3",
+      "conceptId": "it-a1-c25-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Chiedi a un amico, dandogli del tu, se apprezza i libri. Usa piacere e i libri e un pronome indiretto atono per il destinatario.",
+      "options": [],
+      "hint": "El destinatario ti no cambia la concordancia plural con libri.",
+      "explanation": "El destinatario ti no cambia la concordancia plural con libri.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "ocio",
+        "facets": [
+          "destinatario"
+        ],
+        "opportunityId": "it-a1-c25-02-domanda:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "3",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Ti piacciono i libri?"
+        ],
+        "rejected": [
+          "Ti piace i libri?"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c25-02-domanda",
+        "sourceVersion": "3"
+      }
+    }
+  ]
+}

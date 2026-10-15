@@ -112,7 +112,7 @@ export const c24: Lesson[] = [
         key: 'richiesta',
         format: 'controlled-production',
         prompt:
-          'Chiedi un bolígrafo vicino a te: usa vorrei, il dimostrativo di vicinanza e penna.',
+          'Chiedi una penna vicina a te: usa vorrei e il dimostrativo di vicinanza.',
         accepted: ['Vorrei questa penna'],
         rejected: ['Vorrei questo penna'],
         hint: 'La petición reutiliza vorrei y questo concuerda en femenino.',
@@ -120,7 +120,7 @@ export const c24: Lesson[] = [
           'La petición reutiliza vorrei y questo concuerda en femenino.',
         facets: ['femenino'],
         context: 'compras',
-        version: '2',
+        version: '3',
       },
       {
         key: 'pronome',

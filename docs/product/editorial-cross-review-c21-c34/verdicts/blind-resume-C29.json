@@ -1,0 +1,45 @@
+{
+  "packet": "C29",
+  "sha256": "2cae98e9f79bcb17798d133a2a41568d23391fc36b17e09858c0fdd6ff17f98e",
+  "priorR2ConclusionsReceived": false,
+  "theoryIdsRead": [
+    "it-a1-theory-c29-01",
+    "it-a1-theory-c29-02",
+    "it-a1-theory-c29-03",
+    "it-a1-theory-c29-04"
+  ],
+  "activityIdsRead": [
+    "it-a1-c29-01-aggiungi",
+    "it-a1-c29-01-unisci",
+    "it-a1-c29-01-grafia",
+    "it-a1-c29-01-lista",
+    "it-a1-c29-01-anna",
+    "it-a1-c29-01-senso",
+    "it-a1-c29-01-verbo",
+    "it-a1-c29-02-contrasto",
+    "it-a1-c29-02-camera",
+    "it-a1-c29-02-ripara",
+    "it-a1-c29-02-traduci",
+    "it-a1-c29-02-invito",
+    "it-a1-c29-02-senso",
+    "it-a1-c29-03-causa",
+    "it-a1-c29-03-grafia",
+    "it-a1-c29-03-risposta",
+    "it-a1-c29-03-unisci",
+    "it-a1-c29-03-traduci",
+    "it-a1-c29-03-motivo",
+    "it-a1-c29-04-routine",
+    "it-a1-c29-04-unisci",
+    "it-a1-c29-04-comprendi",
+    "it-a1-c29-04-traduci",
+    "it-a1-c29-04-istruzioni",
+    "it-a1-c29-04-ripara",
+    "it-a1-c29-04-secondo"
+  ],
+  "notRead": [],
+  "findings": [],
+  "conclusion": "Lectura íntegra de 4 Theory y 26 actividades. Enlaces de adición, contraste, causa y secuencia coherentes con el mensaje solicitado. Sin hallazgos relevantes; las alternativas gramaticales que cambian el mensaje pueden rechazarse en estas consignas.",
+  "limitations": [
+    "Revisión editorial sin ejecución del evaluador; no acredita revisión integral del vocabulario."
+  ]
+}

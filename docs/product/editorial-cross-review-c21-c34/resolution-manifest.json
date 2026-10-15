@@ -1,0 +1,49 @@
+{
+  "packets": [
+    {
+      "file": "resolution-c21-c25.json",
+      "sha256": "79482e296463524073eaa684a87668a5fb4691c2671abb89a4aab7aeda1bab5c",
+      "activityIds": [
+        "it-a1-c22-03-periodica",
+        "it-a1-c22-04-proponi",
+        "it-a1-c22-04-conferma",
+        "it-a1-c24-01-richiesta",
+        "it-a1-c25-01-domanda",
+        "it-a1-c25-02-domanda"
+      ],
+      "theoryIds": [
+        "it-a1-theory-c22-03",
+        "it-a1-theory-c22-04",
+        "it-a1-theory-c24-01",
+        "it-a1-theory-c25-01",
+        "it-a1-theory-c25-02"
+      ]
+    },
+    {
+      "file": "resolution-c26-c31.json",
+      "sha256": "a08d269c11ba69052d100120c092b0f80c6d504e35df89b2aadb272d11dd3ed1",
+      "activityIds": [],
+      "theoryIds": [
+        "it-a1-theory-c26-02",
+        "it-a1-theory-c30-01"
+      ]
+    },
+    {
+      "file": "resolution-c32-c34.json",
+      "sha256": "d5adcab8b380336371522300a57837ba038ef726ce66ee6d385cde0a6dfff0f5",
+      "activityIds": [
+        "it-a1-c34-02-descrivi",
+        "it-a1-c34-03-mele",
+        "it-a1-c34-03-conto",
+        "it-a1-c34-04-scegli",
+        "it-a1-c34-05-pausa"
+      ],
+      "theoryIds": [
+        "it-a1-theory-c34-02",
+        "it-a1-theory-c34-03",
+        "it-a1-theory-c34-04",
+        "it-a1-theory-c34-05"
+      ]
+    }
+  ]
+}

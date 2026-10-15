@@ -1,0 +1,878 @@
+{
+  "purpose": "Seguimiento posterior al dictamen ciego; no nueva revisión ciega.",
+  "changes": [
+    {
+      "id": "it-a1-c34-05-pausa",
+      "conceptId": "it-a1-c34-05",
+      "kind": "activity",
+      "classification": "Ambigüedad relevante",
+      "severity": "media",
+      "problem": "C34-F01: el contexto permite una pausa para desayunar.",
+      "evidence": {
+        "id": "it-a1-c34-05-pausa",
+        "version": "2",
+        "conceptId": "it-a1-c34-05",
+        "conceptVersion": "1",
+        "family": "F2",
+        "format": "cloze",
+        "prompt": "Ho lavorato molto: interrompo brevemente l’attività e faccio una ___.",
+        "options": [],
+        "hint": "Pausa es una interrupción breve.",
+        "explanation": "Pausa es una interrupción breve.",
+        "dimension": "retrieval",
+        "task": {
+          "skill": "retrieval",
+          "context": "trabajo",
+          "facets": [
+            "rutina"
+          ],
+          "opportunityId": "it-a1-c34-05-pausa:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "2",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "pausa"
+          ],
+          "rejected": [
+            "colazione"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate.",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c34-05-pausa",
+          "sourceVersion": "2"
+        }
+      },
+      "proposal": {
+        "prompt": "Ho lavorato molto: interrompo brevemente l’attività e faccio una ___. Scrivi il nome generale di questa breve interruzione.",
+        "explanation": "Pausa nombra la interrupción en general. Colazione nombra una comida que podría realizarse durante ella, no la interrupción solicitada.",
+        "version": "3"
+      },
+      "decision": "Aplicado; seguimiento independiente pendiente",
+      "from": "2",
+      "to": "3",
+      "fields": [
+        "prompt",
+        "explanation",
+        "version"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "id": "it-a1-c34-04-scegli",
+      "conceptId": "it-a1-c34-04",
+      "kind": "activity",
+      "classification": "Mejora opcional",
+      "severity": "baja",
+      "problem": "C34-F02: delimitar apoyo español conservando recuperación léxica.",
+      "evidence": {
+        "id": "it-a1-c34-04-scegli",
+        "version": "1",
+        "conceptId": "it-a1-c34-04",
+        "conceptVersion": "1",
+        "family": "F4",
+        "format": "controlled-production",
+        "prompt": "Chiedi questa camiseta azul: usa Vorrei + questa + nome della prenda + colore in italiano.",
+        "options": [],
+        "hint": "Se conserva el producto y el color pedidos.",
+        "explanation": "Se conserva el producto y el color pedidos.",
+        "dimension": "contextual-use",
+        "task": {
+          "skill": "controlled-production",
+          "context": "compras",
+          "facets": [
+            "producto"
+          ],
+          "opportunityId": "it-a1-c34-04-scegli:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "1",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "Vorrei questa maglietta blu",
+            "Vorrei questa maglietta blu."
+          ],
+          "rejected": [
+            "Vorrei questa maglietta nera"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate.",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c34-04-scegli",
+          "sourceVersion": "1"
+        }
+      },
+      "proposal": {
+        "prompt": "Chiedi «esta camiseta azul»: usa Vorrei + il dimostrativo di vicinanza + il nome dell’indumento + il colore in italiano.",
+        "version": "2"
+      },
+      "decision": "Aplicado; seguimiento independiente pendiente",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "prompt",
+        "version"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "id": "it-a1-c34-02-descrivi",
+      "conceptId": "it-a1-c34-02",
+      "kind": "activity",
+      "classification": "Mejora opcional",
+      "severity": "baja",
+      "problem": "C34-F02: delimitar apoyo español conservando recuperación léxica.",
+      "evidence": {
+        "id": "it-a1-c34-02-descrivi",
+        "version": "1",
+        "conceptId": "it-a1-c34-02",
+        "conceptVersion": "1",
+        "family": "F4",
+        "format": "controlled-production",
+        "prompt": "Di’ che in cucina c’è una silla. Usa In cucina + c’è + una + parola italiana per silla.",
+        "options": [],
+        "hint": "La consigna identifica el mueble sedia.",
+        "explanation": "La consigna identifica el mueble sedia.",
+        "dimension": "contextual-use",
+        "task": {
+          "skill": "controlled-production",
+          "context": "vivienda",
+          "facets": [
+            "mueble"
+          ],
+          "opportunityId": "it-a1-c34-02-descrivi:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "1",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "In cucina c’è una sedia",
+            "In cucina c'è una sedia",
+            "In cucina c’è una sedia.",
+            "In cucina c'è una sedia."
+          ],
+          "rejected": [
+            "In cucina c’è un letto"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate.",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c34-02-descrivi",
+          "sourceVersion": "1"
+        }
+      },
+      "proposal": {
+        "prompt": "Di’ che in cucina c’è una «silla». Usa In cucina + c’è + una + la parola italiana per «silla».",
+        "version": "2"
+      },
+      "decision": "Aplicado; seguimiento independiente pendiente",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "prompt",
+        "version"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "id": "it-a1-c34-03-mele",
+      "conceptId": "it-a1-c34-03",
+      "kind": "activity",
+      "classification": "Mejora opcional",
+      "severity": "baja",
+      "problem": "C34-F02: delimitar apoyo español conservando recuperación léxica.",
+      "evidence": {
+        "id": "it-a1-c34-03-mele",
+        "version": "1",
+        "conceptId": "it-a1-c34-03",
+        "conceptVersion": "1",
+        "family": "F4",
+        "format": "controlled-production",
+        "prompt": "Compra 1 kg di manzanas: usa Vorrei + un chilo di + il plurale di mela.",
+        "options": [],
+        "hint": "Mele es el plural del producto solicitado.",
+        "explanation": "Mele es el plural del producto solicitado.",
+        "dimension": "contextual-use",
+        "task": {
+          "skill": "controlled-production",
+          "context": "supermercado",
+          "facets": [
+            "alimento"
+          ],
+          "opportunityId": "it-a1-c34-03-mele:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "1",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "Vorrei un chilo di mele",
+            "Vorrei un chilo di mele."
+          ],
+          "rejected": [
+            "Vorrei un chilo di pere"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate.",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c34-03-mele",
+          "sourceVersion": "1"
+        }
+      },
+      "proposal": {
+        "prompt": "Chiedi 1 kg di «manzanas»: usa Vorrei + un chilo di + il plurale di mela.",
+        "version": "2"
+      },
+      "decision": "Aplicado; seguimiento independiente pendiente",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "prompt",
+        "version"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "id": "it-a1-c34-03-conto",
+      "conceptId": "it-a1-c34-03",
+      "kind": "activity",
+      "classification": "Mejora opcional",
+      "severity": "baja",
+      "problem": "C34-F02: delimitar apoyo español conservando recuperación léxica.",
+      "evidence": {
+        "id": "it-a1-c34-03-conto",
+        "version": "1",
+        "conceptId": "it-a1-c34-03",
+        "conceptVersion": "1",
+        "family": "F4",
+        "format": "controlled-production",
+        "prompt": "Chiedi la cuenta al ristorante: usa articolo + nome + per favore.",
+        "options": [],
+        "hint": "Conto se usa para el importe a pagar.",
+        "explanation": "Conto se usa para el importe a pagar.",
+        "dimension": "contextual-use",
+        "task": {
+          "skill": "controlled-production",
+          "context": "restaurante",
+          "facets": [
+            "peticion"
+          ],
+          "opportunityId": "it-a1-c34-03-conto:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "1",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "Il conto, per favore",
+            "Il conto, per favore."
+          ],
+          "rejected": [
+            "Il racconto, per favore"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate.",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c34-03-conto",
+          "sourceVersion": "1"
+        }
+      },
+      "proposal": {
+        "prompt": "Chiedi «la cuenta» al ristorante: usa articolo + nome + per favore.",
+        "version": "2"
+      },
+      "decision": "Aplicado; seguimiento independiente pendiente",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "prompt",
+        "version"
+      ],
+      "acceptedChanged": false
+    }
+  ],
+  "theories": [
+    {
+      "id": "it-a1-theory-c34-02",
+      "version": "theory-c34-02-1",
+      "conceptId": "it-a1-c34-02",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Casa e alloggio",
+      "goal": "Recuperar habitación, baño, cocina, cama, mesa, silla y expresiones de alojamiento del repertorio.",
+      "introduction": "Repertorio focal: casa, camera, bagno, cucina, letto, tavolo, sedia, hotel y camera singola/doppia. Se combinan con c’è/ci sono y vorrei para describir o pedir un espacio.",
+      "rules": [
+        "Aprende el nombre con género: la casa, la camera, il bagno, la cucina, il letto, il tavolo, la sedia.",
+        "Camera es habitación, no cámara de fotos. Cucina puede designar la cocina como habitación; ese es el sentido focal aquí.",
+        "En alojamiento: camera singola para una persona; camera doppia para dos. Doppia no garantiza por sí sola una distribución concreta de camas.",
+        "Para pedir: vorrei una camera. Para describir: nella camera c’è un letto."
+      ],
+      "forms": [
+        [
+          "la casa / la camera",
+          "la casa / la habitación"
+        ],
+        [
+          "il bagno / la cucina",
+          "el baño / la cocina"
+        ],
+        [
+          "il letto / il tavolo / la sedia",
+          "la cama / la mesa / la silla"
+        ],
+        [
+          "una camera singola / doppia",
+          "una habitación individual / doble"
+        ]
+      ],
+      "examples": [
+        [
+          "Nella camera c’è un letto.",
+          "En la habitación hay una cama."
+        ],
+        [
+          "Vorrei una camera singola.",
+          "Quisiera una habitación individual."
+        ],
+        [
+          "La sedia è in cucina.",
+          "La silla está en la cocina."
+        ]
+      ],
+      "frequentErrors": [
+        "No traduzcas habitación como abitazione en estas tareas de camera; abitazione es vivienda.",
+        "No confundas letto (cama) con el participio leído cuando aparece con artículo."
+      ],
+      "usageNotes": [
+        "Solo este repertorio espacial y de alojamiento; no contratos de alquiler ni reclamaciones complejas."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-casa",
+        "it-camera",
+        "it-bagno",
+        "it-cucina",
+        "it-letto",
+        "it-tavolo",
+        "it-sedia",
+        "it-hotel",
+        "it-singolo",
+        "it-doppio",
+        "it-vorrei",
+        "it-esserci"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate."
+    },
+    {
+      "id": "it-a1-theory-c34-03",
+      "version": "theory-c34-03-1",
+      "conceptId": "it-a1-c34-03",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Mangiare, bere e fare la spesa",
+      "goal": "Recuperar alimentos, bebidas, plato, ingredientes y medidas del repertorio para pedidos y compras.",
+      "introduction": "Repertorio focal: pane, pasta, riso, mela, formaggio, latte, acqua, caffè, zucchero, bottiglia, litro, chilo y conto. Se distinguen alimento, recipiente y medida.",
+      "rules": [
+        "Alimentos: il pane, la pasta, il riso, la mela, il formaggio; bebidas: il latte, l’acqua, il caffè.",
+        "Ingrediente: lo zucchero. Recipiente: una bottiglia. Medidas: un litro, un chilo.",
+        "Recipiente o medida + di: una bottiglia di acqua, un chilo di mele. La palabra bottiglia no fija un volumen por sí sola.",
+        "En el restaurante pide il conto para pagar; no significa el relato de una historia."
+      ],
+      "forms": [
+        [
+          "pane / pasta / riso",
+          "pan / pasta / arroz"
+        ],
+        [
+          "mela / formaggio / zucchero",
+          "manzana / queso / azúcar"
+        ],
+        [
+          "latte / acqua / caffè",
+          "leche / agua / café"
+        ],
+        [
+          "bottiglia / litro / chilo",
+          "botella / litro / kilo"
+        ],
+        [
+          "il conto",
+          "la cuenta (restaurante)"
+        ]
+      ],
+      "examples": [
+        [
+          "Vorrei un caffè con latte.",
+          "Quisiera un café con leche."
+        ],
+        [
+          "Compro un chilo di mele.",
+          "Compro un kilo de manzanas."
+        ],
+        [
+          "Il conto, per favore.",
+          "La cuenta, por favor."
+        ]
+      ],
+      "frequentErrors": [
+        "Latte es leche, no lata.",
+        "No confundas recipiente y medida: una bottiglia puede tener distintos volúmenes."
+      ],
+      "usageNotes": [
+        "El repertorio no representa todos los alimentos. Las peticiones se limitan a productos y cantidades enseñados."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-pane",
+        "it-pasta",
+        "it-riso",
+        "it-mela",
+        "it-formaggio",
+        "it-latte",
+        "it-acqua",
+        "it-caffe",
+        "it-zucchero",
+        "it-bottiglia",
+        "it-litro",
+        "it-chilo",
+        "it-conto",
+        "it-vorrei",
+        "it-piatto"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate."
+    },
+    {
+      "id": "it-a1-theory-c34-04",
+      "version": "theory-c34-04-1",
+      "conceptId": "it-a1-c34-04",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Scegliere un acquisto",
+      "goal": "Recuperar productos, prendas, talla y colores del repertorio para identificar una compra.",
+      "introduction": "Repertorio focal: libro, penna, zaino, maglietta, pantaloni, scarpe, taglia, rosso, nero y blu. Se integran demostrativos y preguntas de precio ya conocidos.",
+      "rules": [
+        "Prendas: la maglietta (camiseta), i pantaloni (pantalones), le scarpe (zapatos). Estos plurales se usan al pedir prendas.",
+        "Taglia significa talla de ropa: una taglia M. Para zapatos es frecuente numero.",
+        "Rosso y nero concuerdan: maglietta rossa, scarpe nere. Blu es invariable: maglietta blu, pantaloni blu.",
+        "Distingue producto de atributo: quiero esta camiseta / esta talla / este color."
+      ],
+      "forms": [
+        [
+          "la maglietta / i pantaloni / le scarpe",
+          "la camiseta / los pantalones / los zapatos"
+        ],
+        [
+          "la taglia",
+          "la talla"
+        ],
+        [
+          "rosso / nero / blu",
+          "rojo / negro / azul"
+        ],
+        [
+          "il libro / la penna / lo zaino",
+          "el libro / el bolígrafo / la mochila"
+        ]
+      ],
+      "examples": [
+        [
+          "Vorrei questa maglietta blu.",
+          "Quisiera esta camiseta azul."
+        ],
+        [
+          "Avete la taglia M?",
+          "¿Tenéis la talla M?"
+        ],
+        [
+          "Quanto costano queste scarpe?",
+          "¿Cuánto cuestan estos zapatos?"
+        ]
+      ],
+      "frequentErrors": [
+        "No traduzcas talla como taglio: aquí es taglia.",
+        "No formes blu plural con -i."
+      ],
+      "usageNotes": [
+        "Solo identificación y peticiones breves; devoluciones y negociación quedan fuera."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-libro",
+        "it-penna",
+        "it-zaino",
+        "it-maglietta",
+        "it-pantaloni",
+        "it-scarpa",
+        "it-taglia",
+        "it-rosso",
+        "it-nero",
+        "it-blu",
+        "it-questo"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate."
+    },
+    {
+      "id": "it-a1-theory-c34-05",
+      "version": "theory-c34-05-1",
+      "conceptId": "it-a1-c34-05",
+      "conceptVersion": "1",
+      "targetLanguage": "it",
+      "supportLanguage": "es",
+      "title": "Lavoro, studio e tempo libero",
+      "goal": "Recuperar trabajo, estudio, rutina y ocio del repertorio para informar e invitar con frases breves.",
+      "introduction": "Repertorio focal: lavoro/lavorare, studio/studiare, pausa, colazione, leggere, dormire, film, musica y cinema. Las expresiones se aprenden con su verbo o preposición útil.",
+      "rules": [
+        "Lavoro puede ser nombre (il lavoro) o forma verbal (io lavoro). Studio también puede ser nombre o verbo; aquí se distingue por la frase.",
+        "Se dice fare colazione y fare una pausa; no se traduce palabra por palabra desde desayunar.",
+        "Actividades: leggere un libro, ascoltare musica, vedere un film, andare al cinema.",
+        "Para invitar a un amigo: Vieni al cinema? Para expresar gusto: mi piace + infinitivo."
+      ],
+      "forms": [
+        [
+          "il lavoro / lo studio",
+          "el trabajo / el estudio"
+        ],
+        [
+          "fare colazione / fare una pausa",
+          "desayunar / hacer una pausa"
+        ],
+        [
+          "ascoltare musica",
+          "escuchar música"
+        ],
+        [
+          "vedere un film / andare al cinema",
+          "ver una película / ir al cine"
+        ]
+      ],
+      "examples": [
+        [
+          "Dopo il lavoro ascolto musica.",
+          "Después del trabajo escucho música."
+        ],
+        [
+          "Faccio colazione alle sette.",
+          "Desayuno a las siete."
+        ],
+        [
+          "Vieni al cinema?",
+          "¿Vienes al cine?"
+        ]
+      ],
+      "frequentErrors": [
+        "No uses prendere una colazione como sustituto automático de fare colazione en el repertorio enseñado.",
+        "No confundas una pausa con la finalización de todo el trabajo."
+      ],
+      "usageNotes": [
+        "Repertorio de actividades cotidianas, sin vocabulario especializado de profesiones ni planificación avanzada."
+      ],
+      "exceptions": [],
+      "contrasts": [],
+      "vocabularyIds": [
+        "it-lavoro",
+        "it-lavorare",
+        "it-studio",
+        "it-studiare",
+        "it-pausa",
+        "it-colazione",
+        "it-leggere",
+        "it-dormire",
+        "it-film",
+        "it-musica",
+        "it-cinema",
+        "it-ascoltare",
+        "it-vedere",
+        "it-dopo",
+        "it-sette"
+      ],
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate."
+    }
+  ],
+  "activities": [
+    {
+      "id": "it-a1-c34-02-descrivi",
+      "version": "2",
+      "conceptId": "it-a1-c34-02",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Di’ che in cucina c’è una «silla». Usa In cucina + c’è + una + la parola italiana per «silla».",
+      "options": [],
+      "hint": "La consigna identifica el mueble sedia.",
+      "explanation": "La consigna identifica el mueble sedia.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "vivienda",
+        "facets": [
+          "mueble"
+        ],
+        "opportunityId": "it-a1-c34-02-descrivi:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "In cucina c’è una sedia",
+          "In cucina c'è una sedia",
+          "In cucina c’è una sedia.",
+          "In cucina c'è una sedia."
+        ],
+        "rejected": [
+          "In cucina c’è un letto"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c34-02-descrivi",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c34-03-mele",
+      "version": "2",
+      "conceptId": "it-a1-c34-03",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Chiedi 1 kg di «manzanas»: usa Vorrei + un chilo di + il plurale di mela.",
+      "options": [],
+      "hint": "Mele es el plural del producto solicitado.",
+      "explanation": "Mele es el plural del producto solicitado.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "supermercado",
+        "facets": [
+          "alimento"
+        ],
+        "opportunityId": "it-a1-c34-03-mele:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Vorrei un chilo di mele",
+          "Vorrei un chilo di mele."
+        ],
+        "rejected": [
+          "Vorrei un chilo di pere"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c34-03-mele",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c34-03-conto",
+      "version": "2",
+      "conceptId": "it-a1-c34-03",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Chiedi «la cuenta» al ristorante: usa articolo + nome + per favore.",
+      "options": [],
+      "hint": "Conto se usa para el importe a pagar.",
+      "explanation": "Conto se usa para el importe a pagar.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "restaurante",
+        "facets": [
+          "peticion"
+        ],
+        "opportunityId": "it-a1-c34-03-conto:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Il conto, per favore",
+          "Il conto, per favore."
+        ],
+        "rejected": [
+          "Il racconto, per favore"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c34-03-conto",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c34-04-scegli",
+      "version": "2",
+      "conceptId": "it-a1-c34-04",
+      "conceptVersion": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "prompt": "Chiedi «esta camiseta azul»: usa Vorrei + il dimostrativo di vicinanza + il nome dell’indumento + il colore in italiano.",
+      "options": [],
+      "hint": "Se conserva el producto y el color pedidos.",
+      "explanation": "Se conserva el producto y el color pedidos.",
+      "dimension": "contextual-use",
+      "task": {
+        "skill": "controlled-production",
+        "context": "compras",
+        "facets": [
+          "producto"
+        ],
+        "opportunityId": "it-a1-c34-04-scegli:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "2",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "Vorrei questa maglietta blu",
+          "Vorrei questa maglietta blu."
+        ],
+        "rejected": [
+          "Vorrei questa maglietta nera"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c34-04-scegli",
+        "sourceVersion": "2"
+      }
+    },
+    {
+      "id": "it-a1-c34-05-pausa",
+      "version": "3",
+      "conceptId": "it-a1-c34-05",
+      "conceptVersion": "1",
+      "family": "F2",
+      "format": "cloze",
+      "prompt": "Ho lavorato molto: interrompo brevemente l’attività e faccio una ___. Scrivi il nome generale di questa breve interruzione.",
+      "options": [],
+      "hint": "Pausa es una interrupción breve.",
+      "explanation": "Pausa nombra la interrupción en general. Colazione nombra una comida que podría realizarse durante ella, no la interrupción solicitada.",
+      "dimension": "retrieval",
+      "task": {
+        "skill": "retrieval",
+        "context": "trabajo",
+        "facets": [
+          "rutina"
+        ],
+        "opportunityId": "it-a1-c34-05-pausa:target",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "criterion": {
+        "version": "3",
+        "canonVersion": "it-A1-editorial-1",
+        "accepted": [
+          "pausa"
+        ],
+        "rejected": [
+          "colazione"
+        ],
+        "exhaustive": false
+      },
+      "status": "candidate",
+      "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate.",
+      "trace": {
+        "kind": "canonical",
+        "packId": "it-A1",
+        "packVersion": "it-A1-editorial-1",
+        "curriculumId": "it-a1-curriculum",
+        "curriculumVersion": "1",
+        "sourceId": "it-a1-c34-05-pausa",
+        "sourceVersion": "3"
+      }
+    }
+  ]
+}

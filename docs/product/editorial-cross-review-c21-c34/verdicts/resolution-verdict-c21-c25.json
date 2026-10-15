@@ -1,0 +1,55 @@
+{
+  "packet": "resolution-c21-c25",
+  "sha256": "79482e296463524073eaa684a87668a5fb4691c2671abb89a4aab7aeda1bab5c",
+  "reviewMode": "Seguimiento explícito posterior al dictamen ciego",
+  "theoryIdsRead": [
+    "it-a1-theory-c22-03",
+    "it-a1-theory-c22-04",
+    "it-a1-theory-c24-01",
+    "it-a1-theory-c25-01",
+    "it-a1-theory-c25-02"
+  ],
+  "activityIdsRead": [
+    "it-a1-c22-03-periodica",
+    "it-a1-c22-04-proponi",
+    "it-a1-c22-04-conferma",
+    "it-a1-c24-01-richiesta",
+    "it-a1-c25-01-domanda",
+    "it-a1-c25-02-domanda"
+  ],
+  "notRead": [],
+  "findings": [],
+  "resolutions": [
+    {
+      "id": "it-a1-c22-03-periodica",
+      "status": "confirmada",
+      "reason": "La pista tiene ahora sentido autónomo y orienta a frecuencia; las tres variantes de periodicidad son correctas."
+    },
+    {
+      "id": "it-a1-c22-04-proponi",
+      "status": "confirmada",
+      "reason": "Tre y quindici son expresiones correctas de las 15 en el contexto dado; puoi mantiene el tratamiento de tú. La adición evita una abstención previa, no corrige un rechazo previo."
+    },
+    {
+      "id": "it-a1-c22-04-conferma",
+      "status": "confirmada",
+      "reason": "Las dos confirmaciones con tre/quindici respetan las 15 y la disponibilidad. La adición evita una abstención previa."
+    },
+    {
+      "id": "it-a1-c24-01-richiesta",
+      "status": "confirmada",
+      "reason": "Consigna italiana correcta con penna/vicina; conserva producción del demostrativo y concordancia sin entregar questa."
+    },
+    {
+      "id": "it-a1-c25-01-domanda",
+      "status": "confirmada",
+      "reason": "La petición de pronombre indirecto átono describe correctamente ti y no obliga a omitir leggere. Respuesta esperada correcta."
+    },
+    {
+      "id": "it-a1-c25-02-domanda",
+      "status": "confirmada",
+      "reason": "La petición de pronombre indirecto átono describe correctamente ti y conserva i libri como sujeto explícito plural. Respuesta esperada correcta."
+    }
+  ],
+  "conclusion": "Confirmadas las seis correcciones/ampliaciones; no se detectan bloqueos nuevos en las cinco Theory y seis actividades finales. Validación editorial textual, sin verificar producción ni ejecución."
+}

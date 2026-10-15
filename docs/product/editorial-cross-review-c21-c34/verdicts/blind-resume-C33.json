@@ -1,0 +1,28 @@
+{
+  "packet": "C33",
+  "sha256": "55531d86190c5d72e326ac248302f968d04378961c3281c59c4f160970f8d4dc",
+  "priorR2ConclusionsReceived": false,
+  "theoryIdsRead": [
+    "it-a1-theory-c33-01"
+  ],
+  "activityIdsRead": [
+    "it-a1-c33-01-anna",
+    "it-a1-c33-01-marco",
+    "it-a1-c33-01-donne",
+    "it-a1-c33-01-misto",
+    "it-a1-c33-01-noi",
+    "it-a1-c33-01-tu",
+    "it-a1-c33-01-voi",
+    "it-a1-c33-01-plurale",
+    "it-a1-c33-01-avere",
+    "it-a1-c33-01-traduci"
+  ],
+  "notRead": [],
+  "findings": [],
+  "conclusion": "Sin errores lingüísticos confirmados ni ambigüedades relevantes en la Theory y diez actividades revisadas.",
+  "limitations": [
+    "Dictamen lingüístico sobre el paquete; no valida ejecución ni interfaz.",
+    "Los criterios no exhaustivos abstienen fuera de accepted/rejected; pistas opcionales y feedback posterior.",
+    "No se acredita revisión íntegra del vocabulario o relaciones, fuera del alcance requerido."
+  ]
+}

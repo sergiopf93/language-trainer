@@ -1,0 +1,42 @@
+{
+  "packet": "C27",
+  "sha256": "9babf9a6dbf01a8f6f70cdcfc14635a41fde932aa4037b06a517af6d797e9367",
+  "priorR2ConclusionsReceived": false,
+  "theoryIdsRead": [
+    "it-a1-theory-c27-01",
+    "it-a1-theory-c27-02",
+    "it-a1-theory-c27-03"
+  ],
+  "activityIdsRead": [
+    "it-a1-c27-01-grafia",
+    "it-a1-c27-01-pane",
+    "it-a1-c27-01-litro",
+    "it-a1-c27-01-chilo",
+    "it-a1-c27-01-ordine",
+    "it-a1-c27-01-acqua",
+    "it-a1-c27-01-mele",
+    "it-a1-c27-01-ripara",
+    "it-a1-c27-02-acqua",
+    "it-a1-c27-02-libri",
+    "it-a1-c27-02-mele",
+    "it-a1-c27-02-adverbio",
+    "it-a1-c27-02-lavoro",
+    "it-a1-c27-02-pane",
+    "it-a1-c27-02-dormire",
+    "it-a1-c27-02-poche",
+    "it-a1-c27-03-pane",
+    "it-a1-c27-03-zucchero",
+    "it-a1-c27-03-acqua",
+    "it-a1-c27-03-amici",
+    "it-a1-c27-03-mele",
+    "it-a1-c27-03-numero",
+    "it-a1-c27-03-funzione",
+    "it-a1-c27-03-pasta"
+  ],
+  "notRead": [],
+  "findings": [],
+  "conclusion": "Lectura íntegra de las 3 Theory y 24 actividades: no detecto errores lingüísticos ni ambigüedades relevantes. Las restricciones explicitan cuándo se exige partitivo o preposición simple. No se interpreta abstención como rechazo.",
+  "limitations": [
+    "Revisión editorial sin ejecución del evaluador; no acredita revisión integral del vocabulario."
+  ]
+}

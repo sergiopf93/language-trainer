@@ -1,0 +1,16 @@
+{
+  "packet": "resolution-c32-c34",
+  "sha256": null,
+  "theoryIdsRead": [],
+  "activityIdsRead": [],
+  "notRead": [
+    "Paquete completo: resolution-c32-c34.json; 4 Theory y 5 actividades pendientes de lectura"
+  ],
+  "findings": [],
+  "resolutions": [],
+  "conclusion": "Seguimiento detenido por instrucción expresa antes de leer el paquete. No se confirma ninguna corrección ni ausencia de bloqueos nuevos.",
+  "resumeFrom": "Leer /Users/sergiopardo/Desktop/language-trainer/docs/product/editorial-cross-review-c21-c34/resolution-c32-c34.json y revisar sus 4 Theory y 5 actividades. Dictámenes independientes anteriores conservados.",
+  "limitations": [
+    "No se calculó SHA-256 porque no se leyó el paquete antes de la orden de detener."
+  ]
+}

@@ -1,0 +1,814 @@
+{
+  "phase": "5B.4",
+  "changes": [
+    {
+      "id": "it-a1-c22-03-periodica",
+      "conceptId": "it-a1-c22-03",
+      "kind": "activity",
+      "classification": "Mejora opcional",
+      "severity": "baja",
+      "problem": "C22-01: pista con referentes ausentes.",
+      "evidence": {
+        "id": "it-a1-c22-03-periodica",
+        "version": "2",
+        "conceptId": "it-a1-c22-03",
+        "conceptVersion": "1",
+        "family": "F4",
+        "format": "translation",
+        "prompt": "Traduci: «Estudio dos veces por semana».",
+        "options": [],
+        "hint": "La primera indica frecuencia; la segunda duración.",
+        "explanation": "Due volte alla settimana expresa frecuencia; per due settimane expresa duración.",
+        "dimension": "contextual-use",
+        "task": {
+          "skill": "controlled-production",
+          "context": "estudio",
+          "facets": [
+            "periodicidad"
+          ],
+          "opportunityId": "it-a1-c22-03-periodica:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "2",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "Studio due volte alla settimana",
+            "Studio due volte a settimana",
+            "Studio due volte la settimana"
+          ],
+          "rejected": [
+            "Studio per due settimane"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c22-03-periodica",
+          "sourceVersion": "2"
+        }
+      },
+      "proposal": {
+        "hint": "Cuenta cuántas veces estudias cada semana.",
+        "version": "3"
+      },
+      "decision": "Aplicado y confirmado en seguimiento resolution-verdict-c21-c25.json; recibo pendiente.",
+      "from": "2",
+      "to": "3",
+      "fields": [
+        "hint",
+        "version"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "id": "it-a1-c24-01-richiesta",
+      "conceptId": "it-a1-c24-01",
+      "kind": "activity",
+      "classification": "Error lingüístico confirmado",
+      "severity": "media",
+      "problem": "C24-01: mezcla idiomática no delimitada.",
+      "evidence": {
+        "id": "it-a1-c24-01-richiesta",
+        "version": "2",
+        "conceptId": "it-a1-c24-01",
+        "conceptVersion": "1",
+        "family": "F4",
+        "format": "controlled-production",
+        "prompt": "Chiedi un bolígrafo vicino a te: usa vorrei, il dimostrativo di vicinanza e penna.",
+        "options": [],
+        "hint": "La petición reutiliza vorrei y questo concuerda en femenino.",
+        "explanation": "La petición reutiliza vorrei y questo concuerda en femenino.",
+        "dimension": "contextual-use",
+        "task": {
+          "skill": "controlled-production",
+          "context": "compras",
+          "facets": [
+            "femenino"
+          ],
+          "opportunityId": "it-a1-c24-01-richiesta:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "2",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "Vorrei questa penna"
+          ],
+          "rejected": [
+            "Vorrei questo penna"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C24; A1_COVERAGE_MATRIX C24. https://www.treccani.it/enciclopedia/aggettivi-dimostrativi_%28La-grammatica-italiana%29/",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c24-01-richiesta",
+          "sourceVersion": "2"
+        }
+      },
+      "proposal": {
+        "prompt": "Chiedi una penna vicina a te: usa vorrei e il dimostrativo di vicinanza.",
+        "version": "3"
+      },
+      "decision": "Aplicado y confirmado en seguimiento resolution-verdict-c21-c25.json; recibo pendiente.",
+      "from": "2",
+      "to": "3",
+      "fields": [
+        "prompt",
+        "version"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "id": "it-a1-c25-01-domanda",
+      "conceptId": "it-a1-c25-01",
+      "kind": "activity",
+      "classification": "Error lingüístico confirmado",
+      "severity": "media",
+      "problem": "C25-01: leggere es sujeto de piace; no pedir su omisión.",
+      "evidence": {
+        "id": "it-a1-c25-01-domanda",
+        "version": "2",
+        "conceptId": "it-a1-c25-01",
+        "conceptVersion": "1",
+        "family": "F4",
+        "format": "controlled-production",
+        "prompt": "Chiedi a un amico, dandogli del tu, se gli piace leggere. Usa piacere e leggere, senza soggetto esplicito.",
+        "options": [],
+        "hint": "Ti se refiere al interlocutor.",
+        "explanation": "Ti se refiere al interlocutor.",
+        "dimension": "contextual-use",
+        "task": {
+          "skill": "controlled-production",
+          "context": "ocio",
+          "facets": [
+            "destinatario"
+          ],
+          "opportunityId": "it-a1-c25-01-domanda:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "2",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "Ti piace leggere?"
+          ],
+          "rejected": [
+            "Mi piace leggere?"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c25-01-domanda",
+          "sourceVersion": "2"
+        }
+      },
+      "proposal": {
+        "prompt": "Chiedi a un amico, dandogli del tu, se gli piace leggere. Usa piacere e leggere e un pronome indiretto atono per il destinatario.",
+        "version": "3"
+      },
+      "decision": "Aplicado y confirmado en seguimiento resolution-verdict-c21-c25.json; recibo pendiente.",
+      "from": "2",
+      "to": "3",
+      "fields": [
+        "prompt",
+        "version"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "id": "it-a1-c25-02-domanda",
+      "conceptId": "it-a1-c25-02",
+      "kind": "activity",
+      "classification": "Error lingüístico confirmado",
+      "severity": "media",
+      "problem": "C25-02: i libri es sujeto de piacciono; no pedir su omisión.",
+      "evidence": {
+        "id": "it-a1-c25-02-domanda",
+        "version": "2",
+        "conceptId": "it-a1-c25-02",
+        "conceptVersion": "1",
+        "family": "F4",
+        "format": "controlled-production",
+        "prompt": "Chiedi a un amico, dandogli del tu, se apprezza i libri. Usa piacere e i libri, senza soggetto esplicito.",
+        "options": [],
+        "hint": "El destinatario ti no cambia la concordancia plural con libri.",
+        "explanation": "El destinatario ti no cambia la concordancia plural con libri.",
+        "dimension": "contextual-use",
+        "task": {
+          "skill": "controlled-production",
+          "context": "ocio",
+          "facets": [
+            "destinatario"
+          ],
+          "opportunityId": "it-a1-c25-02-domanda:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "2",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "Ti piacciono i libri?"
+          ],
+          "rejected": [
+            "Ti piace i libri?"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C25; A1_COVERAGE_MATRIX C25. https://www.treccani.it/vocabolario/piacere/",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c25-02-domanda",
+          "sourceVersion": "2"
+        }
+      },
+      "proposal": {
+        "prompt": "Chiedi a un amico, dandogli del tu, se apprezza i libri. Usa piacere e i libri e un pronome indiretto atono per il destinatario.",
+        "version": "3"
+      },
+      "decision": "Aplicado y confirmado en seguimiento resolution-verdict-c21-c25.json; recibo pendiente.",
+      "from": "2",
+      "to": "3",
+      "fields": [
+        "prompt",
+        "version"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "id": "it-a1-c34-05-pausa",
+      "conceptId": "it-a1-c34-05",
+      "kind": "activity",
+      "classification": "Ambigüedad relevante",
+      "severity": "media",
+      "problem": "C34-F01: el contexto permite una pausa para desayunar.",
+      "evidence": {
+        "id": "it-a1-c34-05-pausa",
+        "version": "2",
+        "conceptId": "it-a1-c34-05",
+        "conceptVersion": "1",
+        "family": "F2",
+        "format": "cloze",
+        "prompt": "Ho lavorato molto: interrompo brevemente l’attività e faccio una ___.",
+        "options": [],
+        "hint": "Pausa es una interrupción breve.",
+        "explanation": "Pausa es una interrupción breve.",
+        "dimension": "retrieval",
+        "task": {
+          "skill": "retrieval",
+          "context": "trabajo",
+          "facets": [
+            "rutina"
+          ],
+          "opportunityId": "it-a1-c34-05-pausa:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "2",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "pausa"
+          ],
+          "rejected": [
+            "colazione"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate.",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c34-05-pausa",
+          "sourceVersion": "2"
+        }
+      },
+      "proposal": {
+        "prompt": "Ho lavorato molto: interrompo brevemente l’attività e faccio una ___. Scrivi il nome generale di questa breve interruzione.",
+        "explanation": "Pausa nombra la interrupción en general. Colazione nombra una comida que podría realizarse durante ella, no la interrupción solicitada.",
+        "version": "3"
+      },
+      "decision": "Aplicado; seguimiento independiente pendiente",
+      "from": "2",
+      "to": "3",
+      "fields": [
+        "prompt",
+        "explanation",
+        "version"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "id": "it-a1-c34-04-scegli",
+      "conceptId": "it-a1-c34-04",
+      "kind": "activity",
+      "classification": "Mejora opcional",
+      "severity": "baja",
+      "problem": "C34-F02: delimitar apoyo español conservando recuperación léxica.",
+      "evidence": {
+        "id": "it-a1-c34-04-scegli",
+        "version": "1",
+        "conceptId": "it-a1-c34-04",
+        "conceptVersion": "1",
+        "family": "F4",
+        "format": "controlled-production",
+        "prompt": "Chiedi questa camiseta azul: usa Vorrei + questa + nome della prenda + colore in italiano.",
+        "options": [],
+        "hint": "Se conserva el producto y el color pedidos.",
+        "explanation": "Se conserva el producto y el color pedidos.",
+        "dimension": "contextual-use",
+        "task": {
+          "skill": "controlled-production",
+          "context": "compras",
+          "facets": [
+            "producto"
+          ],
+          "opportunityId": "it-a1-c34-04-scegli:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "1",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "Vorrei questa maglietta blu",
+            "Vorrei questa maglietta blu."
+          ],
+          "rejected": [
+            "Vorrei questa maglietta nera"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate.",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c34-04-scegli",
+          "sourceVersion": "1"
+        }
+      },
+      "proposal": {
+        "prompt": "Chiedi «esta camiseta azul»: usa Vorrei + il dimostrativo di vicinanza + il nome dell’indumento + il colore in italiano.",
+        "version": "2"
+      },
+      "decision": "Aplicado; seguimiento independiente pendiente",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "prompt",
+        "version"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "id": "it-a1-c34-02-descrivi",
+      "conceptId": "it-a1-c34-02",
+      "kind": "activity",
+      "classification": "Mejora opcional",
+      "severity": "baja",
+      "problem": "C34-F02: delimitar apoyo español conservando recuperación léxica.",
+      "evidence": {
+        "id": "it-a1-c34-02-descrivi",
+        "version": "1",
+        "conceptId": "it-a1-c34-02",
+        "conceptVersion": "1",
+        "family": "F4",
+        "format": "controlled-production",
+        "prompt": "Di’ che in cucina c’è una silla. Usa In cucina + c’è + una + parola italiana per silla.",
+        "options": [],
+        "hint": "La consigna identifica el mueble sedia.",
+        "explanation": "La consigna identifica el mueble sedia.",
+        "dimension": "contextual-use",
+        "task": {
+          "skill": "controlled-production",
+          "context": "vivienda",
+          "facets": [
+            "mueble"
+          ],
+          "opportunityId": "it-a1-c34-02-descrivi:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "1",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "In cucina c’è una sedia",
+            "In cucina c'è una sedia",
+            "In cucina c’è una sedia.",
+            "In cucina c'è una sedia."
+          ],
+          "rejected": [
+            "In cucina c’è un letto"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate.",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c34-02-descrivi",
+          "sourceVersion": "1"
+        }
+      },
+      "proposal": {
+        "prompt": "Di’ che in cucina c’è una «silla». Usa In cucina + c’è + una + la parola italiana per «silla».",
+        "version": "2"
+      },
+      "decision": "Aplicado; seguimiento independiente pendiente",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "prompt",
+        "version"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "id": "it-a1-c34-03-mele",
+      "conceptId": "it-a1-c34-03",
+      "kind": "activity",
+      "classification": "Mejora opcional",
+      "severity": "baja",
+      "problem": "C34-F02: delimitar apoyo español conservando recuperación léxica.",
+      "evidence": {
+        "id": "it-a1-c34-03-mele",
+        "version": "1",
+        "conceptId": "it-a1-c34-03",
+        "conceptVersion": "1",
+        "family": "F4",
+        "format": "controlled-production",
+        "prompt": "Compra 1 kg di manzanas: usa Vorrei + un chilo di + il plurale di mela.",
+        "options": [],
+        "hint": "Mele es el plural del producto solicitado.",
+        "explanation": "Mele es el plural del producto solicitado.",
+        "dimension": "contextual-use",
+        "task": {
+          "skill": "controlled-production",
+          "context": "supermercado",
+          "facets": [
+            "alimento"
+          ],
+          "opportunityId": "it-a1-c34-03-mele:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "1",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "Vorrei un chilo di mele",
+            "Vorrei un chilo di mele."
+          ],
+          "rejected": [
+            "Vorrei un chilo di pere"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate.",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c34-03-mele",
+          "sourceVersion": "1"
+        }
+      },
+      "proposal": {
+        "prompt": "Chiedi 1 kg di «manzanas»: usa Vorrei + un chilo di + il plurale di mela.",
+        "version": "2"
+      },
+      "decision": "Aplicado; seguimiento independiente pendiente",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "prompt",
+        "version"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "id": "it-a1-c34-03-conto",
+      "conceptId": "it-a1-c34-03",
+      "kind": "activity",
+      "classification": "Mejora opcional",
+      "severity": "baja",
+      "problem": "C34-F02: delimitar apoyo español conservando recuperación léxica.",
+      "evidence": {
+        "id": "it-a1-c34-03-conto",
+        "version": "1",
+        "conceptId": "it-a1-c34-03",
+        "conceptVersion": "1",
+        "family": "F4",
+        "format": "controlled-production",
+        "prompt": "Chiedi la cuenta al ristorante: usa articolo + nome + per favore.",
+        "options": [],
+        "hint": "Conto se usa para el importe a pagar.",
+        "explanation": "Conto se usa para el importe a pagar.",
+        "dimension": "contextual-use",
+        "task": {
+          "skill": "controlled-production",
+          "context": "restaurante",
+          "facets": [
+            "peticion"
+          ],
+          "opportunityId": "it-a1-c34-03-conto:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "1",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "Il conto, per favore",
+            "Il conto, per favore."
+          ],
+          "rejected": [
+            "Il racconto, per favore"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate.",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c34-03-conto",
+          "sourceVersion": "1"
+        }
+      },
+      "proposal": {
+        "prompt": "Chiedi «la cuenta» al ristorante: usa articolo + nome + per favore.",
+        "version": "2"
+      },
+      "decision": "Aplicado; seguimiento independiente pendiente",
+      "from": "1",
+      "to": "2",
+      "fields": [
+        "prompt",
+        "version"
+      ],
+      "acceptedChanged": false
+    },
+    {
+      "id": "it-a1-c22-04-proponi",
+      "conceptId": "it-a1-c22-04",
+      "kind": "activity",
+      "classification": "Mejora opcional",
+      "severity": "baja",
+      "problem": "R2-HORA: 15 admite tre o quindici; la ausencia previa causaba abstención.",
+      "evidence": {
+        "id": "it-a1-c22-04-proponi",
+        "version": "2",
+        "conceptId": "it-a1-c22-04",
+        "conceptVersion": "1",
+        "family": "F4",
+        "format": "controlled-production",
+        "prompt": "Chiedi a un amico, dandogli del tu, se può venire lunedì alle 15. Usa potere e venire e scrivi l’ora in parole.",
+        "options": [],
+        "hint": "Con un amigo tratado de tú, puoi; día y hora completan la propuesta.",
+        "explanation": "Con un amigo tratado de tú, puoi; día y hora completan la propuesta.",
+        "dimension": "contextual-use",
+        "task": {
+          "skill": "controlled-production",
+          "context": "cita",
+          "facets": [
+            "propuesta"
+          ],
+          "opportunityId": "it-a1-c22-04-proponi:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "2",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "Puoi venire lunedì alle tre?"
+          ],
+          "rejected": [
+            "Può venire lunedì alle tre?"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c22-04-proponi",
+          "sourceVersion": "2"
+        }
+      },
+      "proposal": {
+        "accepted": [
+          "Puoi venire lunedì alle tre?",
+          "Puoi venire lunedì alle quindici?"
+        ],
+        "version": "3"
+      },
+      "decision": "Aplicado y confirmado en seguimiento resolution-verdict-c21-c25.json; recibo pendiente.",
+      "from": "2",
+      "to": "3",
+      "fields": [
+        "accepted",
+        "version"
+      ],
+      "acceptedChanged": true
+    },
+    {
+      "id": "it-a1-c22-04-conferma",
+      "conceptId": "it-a1-c22-04",
+      "kind": "activity",
+      "classification": "Mejora opcional",
+      "severity": "baja",
+      "problem": "R2-HORA: 15 admite tre o quindici; la ausencia previa causaba abstención.",
+      "evidence": {
+        "id": "it-a1-c22-04-conferma",
+        "version": "2",
+        "conceptId": "it-a1-c22-04",
+        "conceptVersion": "1",
+        "family": "F4",
+        "format": "controlled-production",
+        "prompt": "Un amico ti propone di venire alle 15 e tu sei disponibile. Conferma iniziando con sì e usando potere e venire alla prima persona singolare; scrivi l’ora in parole.",
+        "options": [],
+        "hint": "La confirmación debe respetar la disponibilidad dada.",
+        "explanation": "La confirmación debe respetar la disponibilidad dada.",
+        "dimension": "contextual-use",
+        "task": {
+          "skill": "controlled-production",
+          "context": "cita",
+          "facets": [
+            "confirmacion"
+          ],
+          "opportunityId": "it-a1-c22-04-conferma:target",
+          "scaffolding": "none",
+          "matchingPrompts": []
+        },
+        "criterion": {
+          "version": "2",
+          "canonVersion": "it-A1-editorial-1",
+          "accepted": [
+            "Sì, posso venire alle tre"
+          ],
+          "rejected": [
+            "No, non posso venire alle tre"
+          ],
+          "exhaustive": false
+        },
+        "status": "candidate",
+        "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C22; A1_COVERAGE_MATRIX C22.",
+        "trace": {
+          "kind": "canonical",
+          "packId": "it-A1",
+          "packVersion": "it-A1-editorial-1",
+          "curriculumId": "it-a1-curriculum",
+          "curriculumVersion": "1",
+          "sourceId": "it-a1-c22-04-conferma",
+          "sourceVersion": "2"
+        }
+      },
+      "proposal": {
+        "accepted": [
+          "Sì, posso venire alle tre",
+          "Sì, posso venire alle quindici"
+        ],
+        "version": "3"
+      },
+      "decision": "Aplicado y confirmado en seguimiento resolution-verdict-c21-c25.json; recibo pendiente.",
+      "from": "2",
+      "to": "3",
+      "fields": [
+        "accepted",
+        "version"
+      ],
+      "acceptedChanged": true
+    },
+    {
+      "id": "it-a1-theory-c26-02",
+      "conceptId": "it-a1-c26-02",
+      "kind": "theory",
+      "classification": "Mejora opcional",
+      "severity": "baja",
+      "problem": "C26-01: precisión del alcance de alle.",
+      "evidence": [
+        "Pronombres: mi, ti, si, ci, vi, si. Van delante del presente y concuerdan en persona con el verbo.",
+        "Alzarsi y lavarsi siguen -are; vestirsi sigue -ire sin -isc-.",
+        "Non precede al pronombre: non mi alzo. La hora se añade con alle: mi alzo alle sette."
+      ],
+      "proposal": {
+        "rules": [
+          "Pronombres: mi, ti, si, ci, vi, si. Van delante del presente y concuerdan en persona con el verbo.",
+          "Alzarsi y lavarsi siguen -are; vestirsi sigue -ire sin -isc-.",
+          "Non precede al pronombre: non mi alzo. La hora se añade con alle para horas plurales (mi alzo alle sette) y con all’una para la una."
+        ]
+      },
+      "decision": "Aplicado; seguimiento independiente pendiente",
+      "from": "theory-c26-02-1",
+      "to": "theory-c26-02-1-editorial-1",
+      "fields": [
+        "rules"
+      ]
+    },
+    {
+      "id": "it-a1-theory-c30-01",
+      "conceptId": "it-a1-c30-01",
+      "kind": "theory",
+      "classification": "Ambigüedad relevante",
+      "severity": "baja",
+      "problem": "C30-01: separar equivalencias españolas por tratamiento.",
+      "evidence": [
+        [
+          "gira a destra / gira a sinistra",
+          "gira a la derecha / a la izquierda"
+        ],
+        [
+          "vai dritto",
+          "sigue recto"
+        ],
+        [
+          "prendi / aggiungi / mescola",
+          "toma / añade / mezcla"
+        ],
+        [
+          "prendete",
+          "tomad / tomen (vosotros)"
+        ]
+      ],
+      "proposal": {
+        "forms": [
+          [
+            "gira a destra / gira a sinistra",
+            "gira a la derecha / a la izquierda"
+          ],
+          [
+            "vai dritto",
+            "sigue recto"
+          ],
+          [
+            "prendi / aggiungi / mescola",
+            "toma / añade / mezcla"
+          ],
+          [
+            "prendete",
+            "tomad (vosotros) / tomen (ustedes)"
+          ]
+        ]
+      },
+      "decision": "Aplicado; seguimiento independiente pendiente",
+      "from": "theory-c30-01-1",
+      "to": "theory-c30-01-1-editorial-1",
+      "fields": [
+        "forms"
+      ]
+    }
+  ]
+}

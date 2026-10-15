@@ -346,7 +346,7 @@ export const c34: Lesson[] = [
         key: 'descrivi',
         format: 'controlled-production',
         prompt:
-          'Di’ che in cucina c’è una silla. Usa In cucina + c’è + una + parola italiana per silla.',
+          'Di’ che in cucina c’è una «silla». Usa In cucina + c’è + una + la parola italiana per «silla».',
         accepted: [
           'In cucina c’è una sedia',
           "In cucina c'è una sedia",
@@ -358,6 +358,7 @@ export const c34: Lesson[] = [
         explanation: 'La consigna identifica el mueble sedia.',
         facets: ['mueble'],
         context: 'vivienda',
+        version: '2',
       },
     ],
   },
@@ -517,25 +518,27 @@ export const c34: Lesson[] = [
         key: 'mele',
         format: 'controlled-production',
         prompt:
-          'Compra 1 kg di manzanas: usa Vorrei + un chilo di + il plurale di mela.',
+          'Chiedi 1 kg di «manzanas»: usa Vorrei + un chilo di + il plurale di mela.',
         accepted: ['Vorrei un chilo di mele', 'Vorrei un chilo di mele.'],
         rejected: ['Vorrei un chilo di pere'],
         hint: 'Mele es el plural del producto solicitado.',
         explanation: 'Mele es el plural del producto solicitado.',
         facets: ['alimento'],
         context: 'supermercado',
+        version: '2',
       },
       {
         key: 'conto',
         format: 'controlled-production',
         prompt:
-          'Chiedi la cuenta al ristorante: usa articolo + nome + per favore.',
+          'Chiedi «la cuenta» al ristorante: usa articolo + nome + per favore.',
         accepted: ['Il conto, per favore', 'Il conto, per favore.'],
         rejected: ['Il racconto, per favore'],
         hint: 'Conto se usa para el importe a pagar.',
         explanation: 'Conto se usa para el importe a pagar.',
         facets: ['peticion'],
         context: 'restaurante',
+        version: '2',
       },
       {
         key: 'acqua',
@@ -709,7 +712,7 @@ export const c34: Lesson[] = [
         key: 'scegli',
         format: 'controlled-production',
         prompt:
-          'Chiedi questa camiseta azul: usa Vorrei + questa + nome della prenda + colore in italiano.',
+          'Chiedi «esta camiseta azul»: usa Vorrei + il dimostrativo di vicinanza + il nome dell’indumento + il colore in italiano.',
         accepted: [
           'Vorrei questa maglietta blu',
           'Vorrei questa maglietta blu.',
@@ -719,6 +722,7 @@ export const c34: Lesson[] = [
         explanation: 'Se conserva el producto y el color pedidos.',
         facets: ['producto'],
         context: 'compras',
+        version: '2',
       },
     ],
   },
@@ -801,14 +805,15 @@ export const c34: Lesson[] = [
         key: 'pausa',
         format: 'cloze',
         prompt:
-          'Ho lavorato molto: interrompo brevemente l’attività e faccio una ___.',
+          'Ho lavorato molto: interrompo brevemente l’attività e faccio una ___. Scrivi il nome generale di questa breve interruzione.',
         accepted: ['pausa'],
         rejected: ['colazione'],
         hint: 'Pausa es una interrupción breve.',
-        explanation: 'Pausa es una interrupción breve.',
+        explanation:
+          'Pausa nombra la interrupción en general. Colazione nombra una comida que podría realizarse durante ella, no la interrupción solicitada.',
         facets: ['rutina'],
         context: 'trabajo',
-        version: '2',
+        version: '3',
       },
       {
         key: 'colazione',

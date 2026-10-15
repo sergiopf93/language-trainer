@@ -1,0 +1,41 @@
+{
+  "packet": "C26",
+  "sha256": "5714d14156c5bfb26f77add9c31be78c0b949f0eaa428018235f6d42e3cc6883",
+  "priorR2ConclusionsReceived": false,
+  "theoryIdsRead": [
+    "it-a1-theory-c26-01",
+    "it-a1-theory-c26-02"
+  ],
+  "activityIdsRead": [
+    "it-a1-c26-01-nome",
+    "it-a1-c26-01-domanda",
+    "it-a1-c26-01-noi",
+    "it-a1-c26-01-loro",
+    "it-a1-c26-01-lei",
+    "it-a1-c26-01-presenta",
+    "it-a1-c26-02-mattina",
+    "it-a1-c26-02-anna",
+    "it-a1-c26-02-noi",
+    "it-a1-c26-02-loro",
+    "it-a1-c26-02-negativo",
+    "it-a1-c26-02-orario",
+    "it-a1-c26-02-traduce"
+  ],
+  "notRead": [],
+  "findings": [
+    {
+      "id": "C26-01",
+      "classification": "Mejora opcional",
+      "conceptId": "it-a1-c26-02",
+      "theoryId": "it-a1-theory-c26-02",
+      "evidence": "La hora se añade con alle: mi alzo alle sette.",
+      "severity": "baja",
+      "proposal": "Precisar que alle se usa con horas plurales; a la una corresponde all’una. Los ejemplos presentes son correctos.",
+      "certainty": "alta"
+    }
+  ],
+  "conclusion": "Theory y 13 actividades revisadas íntegramente. No detecto errores bloqueantes de italiano ni conflictos sustanciales entre consignas y criterios. Una precisión opcional de alcance.",
+  "limitations": [
+    "Revisión lingüística editorial sin ejecución del evaluador. No se acredita revisión integral del vocabulario ajeno a Theory y actividades."
+  ]
+}

@@ -1,14 +1,55 @@
 {
-  "status": "incomplete-usage-limit",
+  "status": "independent-review-complete-followup-incomplete-usage-limit",
   "agent": "/root/italian_independent_c21_c34",
   "priorR2ConclusionsReceived": false,
-  "verdictEmitted": false,
-  "coverageAccredited": false,
-  "lastProgressMessage": "Revisor comunicó lectura C21–C25; no entregó dictamen ni inventario formal. No acreditar esa lectura como revisión cruzada completada.",
-  "error": "You’ve hit your usage limit. Try again at 7:49 PM. (Texto del servicio; zona horaria no indicada.)",
-  "resume": "Crear revisor con fork_turns none; pasar únicamente criteria.md, manifest.json y C21.json–C34.json. Repetir lectura independiente íntegra del paquete: 38 Theory y 291 actividades. No mostrar informes, diff o registro inicial hasta que emita dictamen.",
+  "verdictEmitted": true,
+  "coverageAccredited": true,
+  "lastProgressMessage": "14 dictámenes ciegos completos y un seguimiento completo guardados. Dos seguimientos pendientes.",
+  "error": "Los agentes de seguimiento C21–C25 y C26–C31 devolvieron límite de uso. C21–C25 había guardado dictamen completo antes del fallo; se conserva. C32–C34 se detuvo sin lectura nueva.",
+  "resume": "NO repetir revisión inicial ni dictámenes ciegos ni seguimiento C21–C25. Encargar solo resolución C26–C31 (2 Theory) y C32–C34 (4 Theory de contexto, 5 actividades). Usar paquetes resolution y dictámenes previos respectivos; es seguimiento explícito, no ciego. Después resolver posibles incidencias, decidir conceptos individualmente, emitir recibos y validar.",
   "packetsHashVerified": true,
   "reviewedConcepts": 61,
   "candidateConcepts": 38,
-  "publishedConcepts": 0
+  "publishedConcepts": 0,
+  "history": [
+    {
+      "status": "incomplete-usage-limit",
+      "agent": "/root/italian_independent_c21_c34",
+      "priorR2ConclusionsReceived": false,
+      "verdictEmitted": false,
+      "coverageAccredited": false,
+      "lastProgressMessage": "Revisor comunicó lectura C21–C25; no entregó dictamen ni inventario formal. No acreditar esa lectura como revisión cruzada completada.",
+      "error": "You’ve hit your usage limit. Try again at 7:49 PM. (Texto del servicio; zona horaria no indicada.)",
+      "resume": "Crear revisor con fork_turns none; pasar únicamente criteria.md, manifest.json y C21.json–C34.json. Repetir lectura independiente íntegra del paquete: 38 Theory y 291 actividades. No mostrar informes, diff o registro inicial hasta que emita dictamen.",
+      "packetsHashVerified": true,
+      "reviewedConcepts": 61,
+      "candidateConcepts": 38,
+      "publishedConcepts": 0
+    }
+  ],
+  "date": "2026-10-15",
+  "referenceCommit": "e6bf368",
+  "independentTheoryCount": 38,
+  "independentActivityCount": 291,
+  "completedVerdicts": [
+    "verdicts/blind-resume-C21.json",
+    "verdicts/blind-resume-C22.json",
+    "verdicts/blind-resume-C23.json",
+    "verdicts/blind-resume-C24.json",
+    "verdicts/blind-resume-C25.json",
+    "verdicts/blind-resume-C26.json",
+    "verdicts/blind-resume-C27.json",
+    "verdicts/blind-resume-C28.json",
+    "verdicts/blind-resume-C29.json",
+    "verdicts/blind-resume-C30.json",
+    "verdicts/blind-resume-C31.json",
+    "verdicts/blind-resume-C32.json",
+    "verdicts/blind-resume-C33.json",
+    "verdicts/blind-resume-C34.json"
+  ],
+  "completedFollowup": "verdicts/resolution-verdict-c21-c25.json",
+  "pendingFollowup": [
+    "resolution-c26-c31.json",
+    "resolution-c32-c34.json"
+  ]
 }

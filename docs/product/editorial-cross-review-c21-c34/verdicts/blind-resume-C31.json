@@ -1,0 +1,25 @@
+{
+  "packet": "C31",
+  "sha256": "abfe1ade65e7a173a7273d613f25603da17125e213af1702d42c34689c27901e",
+  "priorR2ConclusionsReceived": false,
+  "theoryIdsRead": [
+    "it-a1-theory-c31-01",
+    "it-a1-theory-c31-02"
+  ],
+  "activityIdsRead": [
+    "it-a1-c31-01-parlato",
+    "it-a1-c31-01-lavorato",
+    "it-a1-c31-01-capito",
+    "it-a1-c31-01-studiato",
+    "it-a1-c31-02-fatto",
+    "it-a1-c31-02-visto",
+    "it-a1-c31-02-letto",
+    "it-a1-c31-02-riconosci"
+  ],
+  "notRead": [],
+  "findings": [],
+  "conclusion": "Lectura íntegra de 2 Theory y 8 actividades. Formas regulares e irregulares, variante veduto y distinción entre participio y tiempo compuesto correctas. Sin hallazgos relevantes.",
+  "limitations": [
+    "Revisión editorial sin ejecución del evaluador; no acredita revisión integral del vocabulario."
+  ]
+}

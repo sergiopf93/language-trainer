@@ -151,6 +151,7 @@ export const c26: Lesson[] = [
   },
   {
     code: '26-02',
+    theoryRevision: 'editorial-1',
     title: 'La routine: mi alzo, mi lavo',
     objective:
       'Usar alzarsi, lavarsi y vestirsi en presente con pronombre, persona y posición adecuados.',
@@ -159,7 +160,7 @@ export const c26: Lesson[] = [
     rules: [
       'Pronombres: mi, ti, si, ci, vi, si. Van delante del presente y concuerdan en persona con el verbo.',
       'Alzarsi y lavarsi siguen -are; vestirsi sigue -ire sin -isc-.',
-      'Non precede al pronombre: non mi alzo. La hora se añade con alle: mi alzo alle sette.',
+      'Non precede al pronombre: non mi alzo. La hora se añade con alle para horas plurales (mi alzo alle sette) y con all’una para la una.',
     ],
     forms: [
       [

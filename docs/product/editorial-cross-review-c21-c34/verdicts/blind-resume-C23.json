@@ -1,0 +1,31 @@
+{
+  "packet": "C23",
+  "sha256": "126e0f39895fb3a48a8e364f0be1b212059697952bcd612e6b599843e3390921",
+  "priorR2ConclusionsReceived": false,
+  "theoryIdsRead": [
+    "it-a1-theory-c23-01",
+    "it-a1-theory-c23-02"
+  ],
+  "activityIdsRead": [
+    "it-a1-c23-01-genere",
+    "it-a1-c23-01-mia",
+    "it-a1-c23-01-miei",
+    "it-a1-c23-01-nostro",
+    "it-a1-c23-01-vostro",
+    "it-a1-c23-01-loro",
+    "it-a1-c23-01-ambiguita",
+    "it-a1-c23-02-padre",
+    "it-a1-c23-02-madre",
+    "it-a1-c23-02-fratelli",
+    "it-a1-c23-02-loro",
+    "it-a1-c23-02-cara",
+    "it-a1-c23-02-sorelle",
+    "it-a1-c23-02-contrasto"
+  ],
+  "notRead": [],
+  "findings": [],
+  "conclusion": "Sin errores lingüísticos confirmados ni ambigüedades relevantes detectados. Reglas y actividades delimitan el patrón estándar practicado.",
+  "limitations": [
+    "Dictamen textual del repertorio A1, sin validar interfaz ni comportamiento de evaluación."
+  ]
+}

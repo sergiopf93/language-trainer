@@ -1,0 +1,38 @@
+{
+  "packet": "C30",
+  "sha256": "c9838d803ded17ba594dee40e511b1dd07247c1635ca18606f5283c8fb88584e",
+  "priorR2ConclusionsReceived": false,
+  "theoryIdsRead": [
+    "it-a1-theory-c30-01",
+    "it-a1-theory-c30-02"
+  ],
+  "activityIdsRead": [
+    "it-a1-c30-01-destra",
+    "it-a1-c30-01-dritto",
+    "it-a1-c30-01-mescola",
+    "it-a1-c30-01-sinistra",
+    "it-a1-c30-02-parla",
+    "it-a1-c30-02-voi",
+    "it-a1-c30-02-negativo",
+    "it-a1-c30-02-vai",
+    "it-a1-c30-02-fate",
+    "it-a1-c30-02-leggi"
+  ],
+  "notRead": [],
+  "findings": [
+    {
+      "id": "C30-01",
+      "classification": "Ambigüedad relevante",
+      "conceptId": "it-a1-c30-01",
+      "theoryId": "it-a1-theory-c30-01",
+      "evidence": "prendete → tomad / tomen (vosotros)",
+      "severity": "baja",
+      "proposal": "Separar las equivalencias: tomad (vosotros) / tomen (ustedes). La forma italiana es correcta; el paréntesis actual puede atribuir tomen a vosotros.",
+      "certainty": "alta"
+    }
+  ],
+  "conclusion": "Lectura íntegra de 2 Theory y 10 actividades. Italiano y criterios coherentes; aclarar una etiqueta de persona en el apoyo español.",
+  "limitations": [
+    "Revisión editorial sin ejecución del evaluador; no acredita revisión integral del vocabulario."
+  ]
+}

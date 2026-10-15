@@ -2,13 +2,15 @@
 
 Actualizado: 2026-10-14. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
 
-## Fase 5B.4 pausada por límite de uso — C21–C34 (2026-10-14)
+## Fase 5B.4 — dictámenes completos, seguimiento pendiente (2026-10-15)
 
-Primera lectura de R2 completada: 38 conceptos/Theory, 346 actividades, 226 entradas vinculadas y 85 relaciones incidentes. Cambios provisionales: una Theory, 46 actividades y cuatro listas accepted. **Sin dictamen independiente ni recibos nuevos; 61 reviewed, 38 candidate, 0 published. No cerrar A1.**
+Reanudada desde e6bf368 sin repetir revisión inicial. **14 dictámenes ciegos persistidos: 38 Theory y 291 actividades**, incluidas las 46 modificadas inicialmente y cuatro listas accepted. Tres revisores aislados, cobertura exacta/hashes comprobados. 55 actividades tienen solo primera lectura R2.
 
-Revisor aislado `/root/italian_independent_c21_c34` terminó por límite de uso antes de emitir dictamen. Se guardan 14 paquetes inmutables con hashes (38 Theory y 291 actividades; 55 excluidas de la muestra), criterios y `resume.json` en `docs/product/editorial-cross-review-c21-c34/`. Reanudar con un nuevo revisor `fork_turns: none`, pasando solo esos paquetes/criterios; no transmitir conclusiones R2 hasta el dictamen. No acreditar el mensaje parcial de avance como cobertura independiente.
+Hallazgos: tres errores de consignas (C24 mezcla lingüística; dos C25 confunden sujeto y destinatario), dos ambigüedades (Theory C30 traducción de tratamiento; C34 pausa/colazione) y tres mejoras opcionales. Corregidos con versiones nuevas; añadidas variantes tre/quindici observadas por R2. En esta reanudación: 11 actividades y dos Theory modificadas; acumulado fase: 50 actividades, tres Theory, seis listas accepted.
 
-[Informe de avance y pasos pendientes](../product/A1_EDITORIAL_REVIEW_C21_C34.md), incluyendo observaciones de R2 aún no corregidas y validaciones. Rama `feat/editorial-review-c21-c34`, baseline `164bdc7`; sin merge/push/publicación/despliegue. Detención exigida expresamente por el usuario ante límite de uso del revisor; no continuar ni promover estados automáticamente.
+**Nuevo límite de uso durante seguimiento.** C21–C25 sí guardó dictamen completo antes del error: seis actividades y cinco Theory confirmadas. Pendientes únicamente `resolution-c26-c31.json` (dos Theory) y `resolution-c32-c34.json` (cinco actividades/cuatro Theory de contexto). Todo en `docs/product/editorial-cross-review-c21-c34/`, con verdicts y resume.json. No repetir dictámenes completos; continuar como seguimiento explícito. Después decidir estados por concepto y emitir recibos.
+
+**Sin promociones ni recibos nuevos: 61 reviewed, 38 candidate, 0 published.** 75/75 pruebas afectadas/editoriales, typecheck, formato, coverage y 61 recibos anteriores correctos. Sin build/E2E repetidos. [Informe actualizado](../product/A1_EDITORIAL_REVIEW_C21_C34.md). Rama `feat/editorial-review-c21-c34`; commit local de avance, sin merge/push/publicación/despliegue. Detenerse por límite de uso, no iniciar 5C.
 
 ## Fase 5B.3 cerrada — C11–C20 (2026-10-14)
 

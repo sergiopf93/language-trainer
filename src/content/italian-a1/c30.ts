@@ -2,6 +2,7 @@ import type { Lesson } from './authoring';
 export const c30: Lesson[] = [
   {
     code: '30-01',
+    theoryRevision: 'editorial-1',
     title: 'Capire le istruzioni',
     objective:
       'Comprender instrucciones frecuentes de rutas y recetas identificando la acción y su orden.',
@@ -16,7 +17,7 @@ export const c30: Lesson[] = [
       ['gira a destra / gira a sinistra', 'gira a la derecha / a la izquierda'],
       ['vai dritto', 'sigue recto'],
       ['prendi / aggiungi / mescola', 'toma / añade / mezcla'],
-      ['prendete', 'tomad / tomen (vosotros)'],
+      ['prendete', 'tomad (vosotros) / tomen (ustedes)'],
     ],
     examples: [
       [

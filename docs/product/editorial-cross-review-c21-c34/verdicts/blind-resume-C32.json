@@ -1,0 +1,49 @@
+{
+  "packet": "C32",
+  "sha256": "d263d0f3db261eb9e88e5faa006e3ee4cb6d24facb0f9a24b1d821dacd166e9b",
+  "priorR2ConclusionsReceived": false,
+  "theoryIdsRead": [
+    "it-a1-theory-c32-01",
+    "it-a1-theory-c32-02",
+    "it-a1-theory-c32-03"
+  ],
+  "activityIdsRead": [
+    "it-a1-c32-01-io",
+    "it-a1-c32-01-tu",
+    "it-a1-c32-01-noi",
+    "it-a1-c32-01-voi",
+    "it-a1-c32-01-loro",
+    "it-a1-c32-01-non",
+    "it-a1-c32-01-essere",
+    "it-a1-c32-01-ripara",
+    "it-a1-c32-01-racconta",
+    "it-a1-c32-02-camminare",
+    "it-a1-c32-02-andare",
+    "it-a1-c32-02-treno",
+    "it-a1-c32-02-dormire",
+    "it-a1-c32-02-partire",
+    "it-a1-c32-02-venire",
+    "it-a1-c32-02-uscire",
+    "it-a1-c32-02-stato",
+    "it-a1-c32-02-cammina-frase",
+    "it-a1-c32-02-arrivo",
+    "it-a1-c32-02-viaggio",
+    "it-a1-c32-03-ieri",
+    "it-a1-c32-03-passato",
+    "it-a1-c32-03-abitudine",
+    "it-a1-c32-03-viaggio",
+    "it-a1-c32-03-sequenza",
+    "it-a1-c32-03-settimana",
+    "it-a1-c32-03-comprendi",
+    "it-a1-c32-03-sera",
+    "it-a1-c32-03-racconto"
+  ],
+  "notRead": [],
+  "findings": [],
+  "conclusion": "Sin errores lingüísticos confirmados ni ambigüedades relevantes en las tres Theory y 29 actividades revisadas.",
+  "limitations": [
+    "Dictamen lingüístico sobre el paquete; no valida ejecución ni interfaz.",
+    "Los criterios no exhaustivos abstienen fuera de accepted/rejected; pistas opcionales y feedback posterior.",
+    "No se acredita revisión íntegra del vocabulario o las relaciones, fuera del alcance requerido."
+  ]
+}
