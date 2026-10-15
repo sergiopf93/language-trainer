@@ -1,16 +1,16 @@
 # R2 — contexto operativo de language-trainer
 
-Actualizado: 2026-10-14. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
+Actualizado: 2026-10-15. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
 
-## Fase 5B.4 — dictámenes completos, seguimiento pendiente (2026-10-15)
+## Fase 5B.4 — cierre editorial C21–C34 (2026-10-15)
 
-Reanudada desde e6bf368 sin repetir revisión inicial. **14 dictámenes ciegos persistidos: 38 Theory y 291 actividades**, incluidas las 46 modificadas inicialmente y cuatro listas accepted. Tres revisores aislados, cobertura exacta/hashes comprobados. 55 actividades tienen solo primera lectura R2.
+Reanudada desde `1c37588`, rama `feat/editorial-review-c21-c34`; implementación de cierre `20df7d8`, seguida del commit documental. Conservados los 14 dictámenes ciegos (38 Theory, 291 actividades) y seguimiento C21–C25. Cerrados únicamente C26–C31 (dos Theory) y C32–C34 (cinco actividades/cuatro Theory de contexto), sin nuevos bloqueos ni correcciones lingüísticas adicionales. Acumulado fase: 50 actividades, tres Theory y seis listas accepted modificadas. 55 actividades mantienen solo primera lectura R2.
 
-Hallazgos: tres errores de consignas (C24 mezcla lingüística; dos C25 confunden sujeto y destinatario), dos ambigüedades (Theory C30 traducción de tratamiento; C34 pausa/colazione) y tres mejoras opcionales. Corregidos con versiones nuevas; añadidas variantes tre/quindici observadas por R2. En esta reanudación: 11 actividades y dos Theory modificadas; acumulado fase: 50 actividades, tres Theory, seis listas accepted.
+**38 conceptos promovidos; global 99 reviewed, 0 candidate, 0 published.** 99 Theory, 865 actividades, 316 entradas y dos templates reviewed; 210 relaciones conservadas. Pack no publicado. Lote nuevo `it-a1-editorial-c21-c34-2026-10-15-1`; 99 recibos vigentes, 61 anteriores intactos. 17 hashes e inventarios finales verificados contra fuentes.
 
-**Nuevo límite de uso durante seguimiento.** C21–C25 sí guardó dictamen completo antes del error: seis actividades y cinco Theory confirmadas. Pendientes únicamente `resolution-c26-c31.json` (dos Theory) y `resolution-c32-c34.json` (cinco actividades/cuatro Theory de contexto). Todo en `docs/product/editorial-cross-review-c21-c34/`, con verdicts y resume.json. No repetir dictámenes completos; continuar como seguimiento explícito. Después decidir estados por concepto y emitir recibos.
+83/83 pruebas focalizadas (seis suites), typecheck, formato global, coverage curricular y auditoría editorial correctos. Sin build/E2E generales repetidos. Pendiente validación humana cualificada antes de publicar; mejora opcional: observar comprensión A1 de «dimostrativo di vicinanza» en C34-04. No se acredita eficacia ni revisión independiente exhaustiva de vocabulario/relaciones.
 
-**Sin promociones ni recibos nuevos: 61 reviewed, 38 candidate, 0 published.** 75/75 pruebas afectadas/editoriales, typecheck, formato, coverage y 61 recibos anteriores correctos. Sin build/E2E repetidos. [Informe actualizado](../product/A1_EDITORIAL_REVIEW_C21_C34.md). Rama `feat/editorial-review-c21-c34`; commit local de avance, sin merge/push/publicación/despliegue. Detenerse por límite de uso, no iniciar 5C.
+[Informe final](../product/A1_EDITORIAL_REVIEW_C21_C34.md) y `editorial-cross-review-c21-c34/closure-decisions.json` conservan decisiones y límites. **5B.4 cerrada editorialmente; no iniciar 5C sin nuevo encargo.** Sin merge, push, publicación ni despliegue. Las secciones históricas siguientes no sustituyen este estado.
 
 ## Fase 5B.3 cerrada — C11–C20 (2026-10-14)
 

@@ -1,10 +1,10 @@
-# Fase 5B.4 — C21–C34: punto de reanudación
+# Fase 5B.4 — cierre editorial C21–C34
 
-**INCOMPLETA. Revisión independiente inicial completada; dos seguimientos pendientes por nuevo límite de uso.** Actualización: 2026-10-15; referencia de reanudación e6bf368. No se cierra el proceso editorial A1 ni se aprueba el lote. Este documento es un informe de avance y reanudación, no el informe final de cierre.
+**Cerrada editorialmente el 2026-10-15.** Reanudación desde `1c37588`, conservando revisiones previas. Los seguimientos pendientes están confirmados y los 38 conceptos promovidos a `reviewed`. Validación humana cualificada pendiente antes de publicar; no se inicia 5C ni se declara V1 completa.
 
 ## 1. Conceptos revisados inicialmente
 
-R2 realizó la lectura inicial de los 38 conceptos C21–C34. Los 38 conceptos tienen Theory revisada independientemente; falta cerrar dos seguimientos y decidir recibos por concepto. Inventario exacto de Theory y selección independiente en [manifest.json](editorial-cross-review-c21-c34/manifest.json).
+R2 realizó la lectura inicial de los 38 conceptos C21–C34. Los 38 conceptos tienen Theory revisada independientemente; los tres seguimientos están cerrados y existen recibos vigentes por concepto. Inventario exacto de Theory y selección independiente en [manifest.json](editorial-cross-review-c21-c34/manifest.json).
 
 ## 2. Theory
 
@@ -20,11 +20,11 @@ Primera iteración: 38 fichas leídas; una corregida: C34-06, que presentaba una
 
 ## 5. Accepted answers
 
-Cuatro listas modificadas: C22-03-periodica (a/alla/la settimana), C27-01-mele (chilogrammo), C34-02-camera (stanza) y C34-06-andare (in stazione). Las variantes ausentes en criterios no exhaustivos producían abstención: no se acreditan como falsos rechazos. **Revisar su clasificación final como mejora opcional frente a ambigüedad**, sin ampliar indiscriminadamente listas.
+Cuatro listas modificadas: C22-03-periodica (a/alla/la settimana), C27-01-mele (chilogrammo), C34-02-camera (stanza) y C34-06-andare (in stazione). Las variantes ausentes en criterios no exhaustivos producían abstención: no se acreditan como falsos rechazos. Clasificación final: **mejoras opcionales de reconocimiento de variantes, resueltas**; sin ampliar indiscriminadamente listas.
 
 ## 6. Hallazgos lingüísticos
 
-[Registro inicial por entidad](A1_EDITORIAL_CHANGES_C21_C34.json): problema, evidencia literal anterior, gravedad, propuesta, campos y decisión provisional. Incluye la regla locativa C34-06, contracción ai libri y consignas con respuestas entregadas. Las decisiones del registro siguen pendientes de contraste; no son aprobaciones.
+[Registro inicial por entidad](A1_EDITORIAL_CHANGES_C21_C34.json): problema, evidencia literal anterior, gravedad, propuesta, campos y decisión provisional. Incluye la regla locativa C34-06, contracción ai libri y consignas con respuestas entregadas. El registro inicial se conserva como historia; el [cierre por entidad](editorial-cross-review-c21-c34/closure-decisions.json) recoge las decisiones finales y sustituye sus estados provisionales.
 
 ## 7. Ambigüedades
 
@@ -43,63 +43,67 @@ Los 14 dictámenes están conservados en [verdicts](editorial-cross-review-c21-c
 
 Las 46 actividades modificadas y las cuatro listas accepted iniciales están incluidas. Las 55 actividades excluidas de la muestra tienen primera lectura de R2, no segunda lectura independiente. Cobertura por concepto/formato y riesgos conservada sin regenerar paquetes. Los 14 hashes e inventarios de lectura coinciden exactamente con el manifiesto.
 
-## 9. Hallazgos, discrepancias y decisiones
+## 9. Seguimiento C26–C31
 
-| Incidencia | Clasificación | Evidencia y decisión |
+Dos Theory contrastadas exclusivamente con los hallazgos previos: C26-02 delimita alle/all’una; C30-01 separa tomad (vosotros) y tomen (ustedes). Ambas **resueltas**, sin nuevas ambigüedades ni bloqueos. C27–C29 y C31 no tenían incidencias pendientes; se conservan sus dictámenes sin repetir lectura. [Dictamen de seguimiento](editorial-cross-review-c21-c34/verdicts/resolution-verdict-c26-c31.json).
+
+## 10. Seguimiento C32–C34
+
+Cinco actividades y cuatro Theory de contexto contrastadas. C34-F01 **resuelta**: se pide el nombre general de la interrupción, lo que distingue pausa de colazione. C34-F02 **resuelta**: apoyo español delimitado y prenda sustituido por indumento en la instrucción italiana. Las consignas y soluciones conservan integración de c’è, plural, cantidades, di, vorrei, demostrativos y contexto pasado. No se cambian accepted/rejected.
+
+C32/C33 no tenían hallazgos ni correcciones pendientes; no se repitieron sus revisiones. La muestra corregida no acredita por sí sola toda la transversalidad ni el aprendizaje de prerrequisitos. [Dictamen de seguimiento](editorial-cross-review-c21-c34/verdicts/resolution-verdict-c32-c34.json).
+
+## 11. Cierre de incidencias y limitaciones
+
+| Cuestión | Clasificación final | Decisión |
 | --- | --- | --- |
-| C22-01, C22-03-periodica | Mejora opcional | Pista «la primera/la segunda» sin referentes: sustituida por pista autónoma. Seguimiento confirmado. |
-| C24-01, C24-01-richiesta | Error lingüístico confirmado | bolígrafo incrustado en italiano; corregido a penna. Coincide con observación pendiente de R2. Seguimiento confirmado. |
-| C25-01 y C25-02, ambas domanda | Error lingüístico confirmado | «sin sujeto explícito» contradice leggere/i libri como sujeto de piacere. Se pide pronombre indirecto átono para destinatario. El revisor detectó errores introducidos en la primera revisión. Seguimiento confirmado. |
-| C26-01, Theory C26-02 | Mejora opcional | Precisado alle con horas plurales y all’una para la una. Seguimiento pendiente. |
-| C30-01, Theory C30-01 | Ambigüedad relevante | «tomad / tomen (vosotros)» separada en tomad (vosotros) / tomen (ustedes). Seguimiento pendiente. |
-| C34-F01, C34-05-pausa | Ambigüedad relevante | Desayunar era compatible con una interrupción breve; se pide el nombre genérico de la interrupción y se explica por qué colazione nombra otra cosa. Seguimiento pendiente. |
-| C34-F02, C34-04-scegli y C34-02-descrivi/C34-03-mele/conto | Mejora opcional | Delimitado el español y corregido prenda a indumento, conservando recuperación léxica. Seguimiento pendiente. |
-| R2-HORA, C22-04-proponi/conferma | Mejora opcional | Añadido quindici junto a tre para las 15; previamente producía abstención, no falso rechazo. Seguimiento confirmado. |
+| C22-01, C24-01, C25-01/C25-02 y R2-HORA | Resuelta | Seguimiento C21–C25 previo conservado, sin repetición. |
+| C26-01 y C30-01 | Resuelta | Dos Theory confirmadas en este cierre. |
+| C34-F01 y C34-F02 | Resuelta | Cinco actividades confirmadas en este cierre. |
+| Cuatro listas accepted iniciales | Resuelta | Mejoras opcionales de reconocimiento; no eran falsos rechazos. |
+| Comprensión de «dimostrativo di vicinanza» en C34-04-scegli | Mejora opcional | Observar durante validación habitual A1; coherente con la integración declarada, no bloquea. |
+| Aceptación humana y validación cualificada antes de publicar | Pendiente de validación humana | No sustituida por revisores asistidos o tests. |
+| Bloqueos editoriales conocidos | Ninguno | No se han ocultado incidencias para promover conceptos. |
 
-El registro [resolution-decisions.json](editorial-cross-review-c21-c34/resolution-decisions.json) conserva evidencia, propuesta, clasificación, gravedad, IDs y versiones. Ocho incidencias independientes: tres errores, dos ambigüedades y tres mejoras opcionales. No se convierte el dictamen en validación humana. Las cuatro ampliaciones accepted iniciales se interpretan como mejoras de reconocimiento de variantes, no falsos rechazos; sus motivos iniciales se conservan como historia.
+Los ocho hallazgos independientes iniciales quedan resueltos: tres errores, dos ambigüedades y tres mejoras opcionales. La revisión independiente acredita 38 Theory y 291/346 actividades; **55 actividades mantienen solo primera lectura R2**. Vocabulario y relaciones tienen revisión R2, no auditoría independiente exhaustiva. No se acredita eficacia pedagógica, autonomía, retención ni habilidades orales.
 
-## 10. Correcciones y seguimiento
+## 12. Correcciones adicionales
 
-Esta reanudación modifica **11 actividades y dos Theory**. Siete actividades ya habían cambiado en la primera iteración y cuatro se añaden a ese inventario. Total acumulado de la fase: **50 actividades, tres Theory y seis listas accepted modificadas**. Todas incrementan versión; materialización conserva criterio/trace coherentes. No se cambia vocabulario, relaciones, interfaz o evaluador.
+**Este cierre no modifica contenido lingüístico adicional.** Confirma las 11 actividades y dos Theory corregidas antes de `1c37588`. Acumulado 5B.4: **50 actividades, tres Theory y seis listas accepted**. IDs, versiones y criterios/trace conservados. Sin cambios de vocabulario, relaciones, evaluador, interfaz o dependencias.
 
-Se guardaron tres paquetes finales separados y [resolution-manifest.json](editorial-cross-review-c21-c34/resolution-manifest.json), sin alterar los originales. El seguimiento C21–C25 quedó escrito antes del error por límite de uso: **seis actividades y cinco Theory de contexto confirmadas, sin hallazgos nuevos**. SHA-256 e IDs verificados; se conserva en [resolution-verdict-c21-c25.json](editorial-cross-review-c21-c34/verdicts/resolution-verdict-c21-c25.json).
+El [registro final](editorial-cross-review-c21-c34/closure-decisions.json) reúne decisiones y observaciones residuales; los paquetes originales y sus hashes se conservan intactos.
 
-**Pendiente:** C26–C31 (dos Theory) y C32–C34 (cinco actividades y cuatro Theory de contexto). El primer agente devolvió límite de uso sin dictamen; el segundo se detuvo sin leer, dejando un registro explícito sin cobertura. No se inventan resoluciones.
+## 13. Recibos, versiones y promociones
 
-## 11. Estados y recibos
+Lote **`it-a1-editorial-c21-c34-2026-10-15-1`**: 38 recibos estáticos, uno por cada concepto de C21–C34. Cada recibo conserva decisión, motivo, revisor, fecha, inventario de entidades/versiones y huella del contenido con relaciones incidentes. Se verifican las dependencias compartidas antes de aplicar las promociones; no se regeneran los 61 recibos anteriores.
 
-**Cero conceptos promovidos en esta reanudación.** Se detiene el proceso antes de la decisión individual e integración de recibos, conforme a la instrucción expresa ante nuevo límite de uso. No significa que los 38 conceptos tengan errores: falta finalizar el proceso y emitir decisiones justificadas. C30-01 y C34-05 conservan bloqueos de seguimiento; las demás decisiones también se mantienen pendientes, sin aprobación automática.
+**38 conceptos promovidos, cero conceptos bloqueados que deban conservarse en candidate.** Los inventarios finales coinciden con los paquetes y seguimientos; 99 recibos globales vigentes, cero errores. La aplicación conserva la metadata anterior de vocabulario ya revisado. El pack permanece `candidate` como envoltorio no publicado; ninguna entidad pasa a `published` y producción sigue excluyendo este contenido.
 
-61 recibos anteriores vigentes, sin errores. No se han emitido recibos nuevos. Las pruebas editoriales existentes confirman invalidación ante alteraciones de contenido/dependencias/versiones. La comprobación del lote nuevo deberá acompañar su futura integración.
-
-## 12. Tests y validaciones de esta reanudación
-
-- **75/75 pruebas, 4/4 suites:** curriculum-c18-c25, curriculum-c26-c34, editorial-review y editorial-c11-c20.
-- Typecheck correcto; formato de los seis archivos TypeScript modificados correcto; git diff --check correcto.
-- Coverage curricular: 99/99 presentes, cero errores, cero listos para producción.
-- Auditoría editorial: 61 recibos vigentes, cero errores, estados conservados.
-- 14 hashes originales y tres hashes de seguimiento correctos. Los 14 dictámenes ciegos tienen cobertura exacta y sin material seleccionado pendiente. Seguimiento C21–C25 completo y verificado.
-- Sin build ni E2E generales: solo contenido/documentación; se reutiliza la validación previa conforme a la instrucción de eficiencia.
-- Diff revisado; solo seis fuentes C22/C24/C25/C26/C30/C34 y documentación de la fase. C01–C20, vocabulario, relaciones y recibos anteriores conservados.
-
-## 13. Estado global C01–C34
+## 14. Estado editorial global C01–C34
 
 | Entidad | reviewed | candidate | published |
 | --- | ---: | ---: | ---: |
-| Conceptos | 61 | 38 | 0 |
-| Theory | 61 | 38 | 0 |
-| Actividades | 519 | 346 | 0 |
-| Vocabulario | 187 | 129 | 0 |
+| Conceptos | 99 | 0 | 0 |
+| Theory | 99 | 0 | 0 |
+| Actividades | 865 | 0 | 0 |
+| Vocabulario | 316 | 0 | 0 |
 | Templates | 2 | 0 | 0 |
 
-## 14. Limitaciones
+34 bloques implementados, 210 relaciones conservadas; cero conceptos listos para producción. Reviewed no equivale a publicación ni a validación humana independiente.
 
-La revisión asistida no equivale a validación humana cualificada. El dictamen ciego inicial está completo; faltan dos seguimientos y los recibos. No se cierra A1 ni se publica. No se acredita segunda lectura de las 55 actividades no seleccionadas ni auditoría independiente exhaustiva de vocabulario/relaciones.
+## 15. Tests y validaciones
 
-## 15. Git
+- **83/83 pruebas, 6/6 suites**: editorial-c21-c34, editorial-c11-c20, editorial-pilot, editorial-review, curriculum-c18-c25 y curriculum-c26-c34.
+- Typecheck y formato global correctos, usando Node 22.23.3 disponible en el equipo. Tras actualizar el registro final, 4/4 pruebas del cierre y auditoría editorial repetidas correctamente.
+- Coverage curricular: 99/99 presentes, cero errores, cero listos para producción.
+- Auditoría editorial: 99 recibos vigentes, cero errores; inventarios/versiones/dependencias comprobados.
+- 14 hashes originales y tres hashes de seguimiento correctos; cobertura exacta de IDs en todos los dictámenes. Paquetes finales comparados con fuentes actuales.
+- Pruebas comprueban preservación de C01–C20 y metadata compartida, respuestas corregidas, abstención no exhaustiva e indisponibilidad en producción. Pruebas existentes mantienen invalidación de recibos obsoletos y decisiones bloqueadas.
+- Sin build ni E2E generales repetidos: cierre de contenido y metadata con pruebas focalizadas. Sin validación humana o Cloudflare remoto/nativo en esta iteración.
+- Diff revisado y `git diff --check` correcto; sin cambios en contenido lingüístico, dependencias o archivos ajenos al cierre.
 
-Rama `feat/editorial-review-c21-c34`, reanudada desde `e6bf368`; el desarrollo conserva baseline original `164bdc7`. Se guarda commit local de avance con los dictámenes persistentes y las correcciones pendientes de seguimiento; hash comunicado tras crearlo. Sin merge, push, despliegue ni publicación.
+## 16. Git y recomendación para 5C
 
-## 16. Punto exacto de reanudación
+Rama `feat/editorial-review-c21-c34`, reanudada desde `1c37588`; baseline original `164bdc7`. Commit de implementación `20df7d8`: recibos, dos seguimientos, decisiones finales, auditoría y tests. El commit documental de cierre contiene este informe y el contexto compacto; su hash se comunica en la entrega. Árbol de trabajo comprobado limpio tras ambos commits. Sin merge, push, publicación ni despliegue.
 
-**No repetir primera revisión, 14 dictámenes ciegos ni seguimiento C21–C25.** Revisar únicamente `resolution-c26-c31.json` y `resolution-c32-c34.json` con sus dictámenes previos respectivos; este trabajo es seguimiento explícito, no revisión ciega nueva. Después resolver incidencias residuales, decidir por concepto, emitir recibos y ejecutar validaciones afectadas. Detalles en [resume.json](editorial-cross-review-c21-c34/resume.json). No iniciar 5C. Detenerse ahora por nuevo límite de uso.
+**Recomendación para 5C:** partir de este cierre editorial, conservar los límites de cobertura independiente y programar la validación humana cualificada antes de publicar; incluir la comprensión de la consigna transversal C34-04. Acordar el alcance de 5C en un nuevo encargo. **5C no iniciada.** No repetir dictámenes, correcciones ni seguimientos cerrados.
