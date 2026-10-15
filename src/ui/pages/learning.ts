@@ -43,7 +43,7 @@ export async function learning(store: LocalStore, saved: () => void) {
   };
   const enqueue = (action: () => Promise<void>, redraw: boolean) => {
     pending++;
-    if (redraw) status.textContent = 'Salvataggio…';
+    if (!failed) status.textContent = 'Salvataggio…';
     queue = queue
       .then(async () => {
         if (failed) return;
@@ -71,7 +71,7 @@ export async function learning(store: LocalStore, saved: () => void) {
         }
         if (changedView)
           window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
-        status.textContent = copy.saved;
+        status.textContent = pending > 1 ? 'Salvataggio…' : copy.saved;
       })
       .catch((error) => {
         failed = true;

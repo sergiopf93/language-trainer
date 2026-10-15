@@ -43,7 +43,7 @@ describe('C06–C10 authored linguistic boundaries', () => {
       'not-evaluable',
     );
   });
-  it('keeps the old authored inventory and expected curriculum while adding exactly twelve candidates', () => {
+  it('keeps the old authored inventory and expected curriculum with twelve C06–C10 concepts and the reviewed A1', () => {
     const old = italianCourse.canonicalActivities.filter(
       (a) => Number(a.conceptId.slice(7, 9)) <= 5,
     );
@@ -55,38 +55,18 @@ describe('C06–C10 authored linguistic boundaries', () => {
       ),
     ).toHaveLength(12);
     expect(curriculumCoverage(italianCourse).totals.expectedConcepts).toBe(99);
+    expect(italianCourse.concepts.every((c) => c.status === 'reviewed')).toBe(
+      true,
+    );
     expect(
-      italianCourse.concepts.every(
-        (c) =>
-          c.status ===
-          (/^it-a1-c(0[1-9]|1[0-9]|20)-/.test(c.id) ? 'reviewed' : 'candidate'),
-      ),
+      italianCourse.canonicalActivities.every((a) => a.status === 'reviewed'),
     ).toBe(true);
-    expect(
-      italianCourse.canonicalActivities.every(
-        (a) =>
-          a.status ===
-          (/^it-a1-c(0[1-9]|1[0-9]|20)-/.test(a.conceptId)
-            ? 'reviewed'
-            : 'candidate'),
-      ),
-    ).toBe(true);
-    expect(
-      italianCourse.vocabulary.every(
-        (v) =>
-          v.status ===
-          (v.conceptIds.some((id) => /^it-a1-c(0[1-9]|1[0-9]|20)-/.test(id))
-            ? 'reviewed'
-            : 'candidate'),
-      ),
-    ).toBe(true);
+    expect(italianCourse.vocabulary.every((v) => v.status === 'reviewed')).toBe(
+      true,
+    );
     expect(
       Object.values(italianCourse.theories).every(
-        (t) =>
-          t.status ===
-          (/^it-a1-c(0[1-9]|1[0-9]|20)-/.test(t.conceptId)
-            ? 'reviewed'
-            : 'candidate'),
+        (t) => t.status === 'reviewed',
       ),
     ).toBe(true);
     expect(italianCourse.templates.every((t) => t.status === 'reviewed')).toBe(
