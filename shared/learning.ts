@@ -94,7 +94,7 @@ export interface LearningPayloads {
     conceptId: string;
     conceptVersion: string;
     contentStatus: EditorialStatus;
-    mode: 'focus';
+    mode: 'focus' | 'review';
     selectionReason: string;
     activities: Activity[];
     state: SessionState;
@@ -264,7 +264,7 @@ export function validLearningPayload(kind: string, p: unknown): boolean {
           (k) => text(p[k]),
         ) &&
         editorial(p.contentStatus) &&
-        p.mode === 'focus' &&
+        ['focus', 'review'].includes(p.mode as string) &&
         Array.isArray(p.activities) &&
         p.activities.length > 0 &&
         p.activities.length <= 30 &&

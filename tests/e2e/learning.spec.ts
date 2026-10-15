@@ -241,6 +241,17 @@ test('production build excludes candidate content', async ({ page }) => {
   await expect(
     page.getByRole('button', { name: 'Inizia la pratica', exact: true }),
   ).toHaveCount(0);
+  await page.goto('/practice?review=it-a1-c04-01');
+  await expect(
+    page.getByText('Concepto no habilitado en esta compilación.', {
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole('button', { name: 'Inizia il ripasso', exact: true }),
+  ).toHaveCount(0);
+  await page.goto('/practice');
+  await expect(page.locator('a[href*="?review="]')).toHaveCount(0);
 });
 
 test('theory detail and in-session help keep the draft and mark assisted answers', async ({

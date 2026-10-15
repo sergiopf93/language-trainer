@@ -1,6 +1,6 @@
 import { dimensions, skills, type Dimension } from '../../shared/learning';
 import type { Fact } from '../../shared/protocol';
-import { policyVersion } from '../learning/session';
+import { observationPolicyVersion as policyVersion } from './contract';
 export interface Observation {
   dimension: Dimension;
   correct: number;

@@ -15,7 +15,13 @@ import {
   canonicalExerciseEngine,
   evaluatorVersion,
 } from '../exercises/evaluate';
-export const policyVersion = 'observations-v2';
+import {
+  reviewPlans,
+  selectReviewActivities,
+  reviewPolicyVersion,
+} from '../review/engine';
+import { observationPolicyVersion } from '../evidence/contract';
+export const policyVersion = observationPolicyVersion;
 type Root = Extract<LearningFact, { kind: 'practice-session' }>;
 type StateFact = Root | Extract<LearningFact, { kind: 'practice-state' }>;
 export interface SessionView {
@@ -50,7 +56,7 @@ export class SessionEngine implements LearningEngine {
   ) {}
   async select(request: LearningRequest): Promise<LearningDecision> {
     if (
-      request.mode !== 'focus' ||
+      !['focus', 'review'].includes(request.mode) ||
       request.languagePackId !== this.catalog.packId ||
       request.conceptIds.length !== 1
     )
@@ -58,6 +64,29 @@ export class SessionEngine implements LearningEngine {
         status: 'unavailable',
         reason: 'Este incremento admite práctica focal de un concepto.',
       };
+    if (request.mode === 'review') {
+      const plan = reviewPlans(
+        this.catalog,
+        await this.store.allFacts(),
+        new Date(),
+      ).find((p) => p.conceptId === request.conceptIds[0]);
+      const activity =
+        plan &&
+        selectReviewActivities(
+          this.catalog,
+          await this.store.allFacts(),
+          plan.conceptId,
+          4,
+          plan.errorDimensions,
+        )[0];
+      return plan && activity
+        ? { status: 'ready', activityId: activity.id, reason: plan.reason }
+        : {
+            status: 'unavailable',
+            reason:
+              'Estudia o practica primero este concepto antes de repasarlo.',
+          };
+    }
     const first = this.catalog.select(request.conceptIds[0])[0];
     return first
       ? {
@@ -115,15 +144,31 @@ export class SessionEngine implements LearningEngine {
       ),
     ]);
   }
-  async start(conceptId: string) {
+  async start(conceptId: string, mode: 'focus' | 'review' = 'focus') {
     const decision = await this.select({
-      mode: 'focus',
+      mode,
       languagePackId: this.catalog.packId,
       conceptIds: [conceptId],
     });
     if (decision.status === 'unavailable') throw new Error(decision.reason);
     const concept = this.catalog.concept(conceptId);
-    const activities = this.catalog.select(conceptId);
+    const facts = await this.store.allFacts();
+    const plan =
+      mode === 'review'
+        ? reviewPlans(this.catalog, facts, new Date()).find(
+            (p) => p.conceptId === conceptId,
+          )
+        : undefined;
+    const activities =
+      mode === 'review'
+        ? selectReviewActivities(
+            this.catalog,
+            facts,
+            conceptId,
+            4,
+            plan?.errorDimensions,
+          )
+        : this.catalog.select(conceptId);
     if (!concept || !activities.length)
       throw new Error(
         'No hay actividades compatibles habilitadas para este concepto.',
@@ -135,7 +180,7 @@ export class SessionEngine implements LearningEngine {
         conceptId,
         conceptVersion: concept.version,
         contentStatus: concept.status,
-        mode: 'focus',
+        mode,
         selectionReason: decision.reason,
         activities,
         state: {
@@ -149,6 +194,7 @@ export class SessionEngine implements LearningEngine {
       },
       this.catalog.version,
     );
+    if (mode === 'review') root.versions.policy = reviewPolicyVersion;
     await this.store.appendLearning([root]);
     return this.load(root.id);
   }

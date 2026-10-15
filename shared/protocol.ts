@@ -90,9 +90,14 @@ export function validFact(v: unknown): v is Fact {
       typeof v.versions.content !== 'string' ||
       !v.versions.content ||
       v.versions.content.length > 100 ||
-      !['observations-v1', 'observations-v2'].includes(
+      (!['observations-v1', 'observations-v2'].includes(
         v.versions.policy as string,
-      )
+      ) &&
+        !(
+          v.versions.policy === 'review-v1' &&
+          v.kind === 'practice-session' &&
+          (v.payload as Record<string, unknown>).mode === 'review'
+        ))
     )
       return false;
     const p = v.payload as Record<string, unknown>;

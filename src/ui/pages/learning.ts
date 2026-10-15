@@ -15,6 +15,7 @@ import type { LocalStore } from '../../persistence/local';
 import { SessionEngine, type SessionView } from '../../learning/session';
 import { displayResponse } from '../../exercises/response';
 import { structuredAnswer } from '../structured-answer';
+import { reviewOverview } from './review';
 export const judgmentLabels = {
   correct: copy.correct,
   typo: 'Quasi!',
@@ -113,6 +114,8 @@ export async function learning(store: LocalStore, saved: () => void) {
     content.replaceChildren();
     if (!view) return;
     const { root, state, facts } = view;
+    if (root.payload.mode === 'review')
+      content.append(el('p', 'Ripasso · ' + root.payload.selectionReason));
     const title =
       catalog.concepts.find((c) => c.id === root.payload.conceptId)?.title ??
       root.payload.conceptId;
@@ -220,6 +223,8 @@ export async function learning(store: LocalStore, saved: () => void) {
       const back = el('a', 'Torna alla biblioteca');
       back.href = '/library';
       content.append(progress, el('p'), back);
+      if (root.payload.mode === 'review')
+        content.append(el('p'), link('Torna al ripasso', '/practice'));
       return;
     }
     const activity = root.payload.activities[state.index];
@@ -422,12 +427,14 @@ export async function learning(store: LocalStore, saved: () => void) {
         ),
       );
     }
-    content.append(el('p'), command(copy.finish, change('finish'), true));
+    content.append(el('p'), link('Pausa e torna alla pratica', '/practice'));
+    content.append(command(copy.finish, change('finish'), true));
   };
   const params = new URLSearchParams(location.search);
   try {
     const sessionId = params.get('session');
-    const conceptId = params.get('concept');
+    const reviewId = params.get('review');
+    const conceptId = params.get('concept') ?? reviewId;
     if (sessionId) {
       const heads = await engine.sessions();
       const requested = await engine.load(sessionId);
@@ -462,11 +469,12 @@ export async function learning(store: LocalStore, saved: () => void) {
           ),
         );
       content.append(
-        command(copy.start, async () => {
-          view = await engine.start(conceptId);
+        command(reviewId ? 'Inizia il ripasso' : copy.start, async () => {
+          view = await engine.start(conceptId, reviewId ? 'review' : 'focus');
         }),
       );
     } else {
+      content.append(await reviewOverview(store));
       content.append(el('h2', 'Scegli la tua pratica'));
       const link = el('a', 'Esplora la biblioteca', 'primary-link');
       link.href = '/library';
@@ -481,7 +489,7 @@ export async function learning(store: LocalStore, saved: () => void) {
           continue;
         const link = el(
           'a',
-          `${head.payload.state.status === 'completed' ? 'Riepilogo' : 'Continua'}: ${catalog.concepts.find((c) => c.id === root.payload.conceptId)?.title ?? root.payload.conceptId} · ${new Date(head.occurredAt).toLocaleString(language.targetLanguage)}`,
+          `${head.payload.state.status === 'completed' ? 'Riepilogo' : 'Continua'}${root.payload.mode === 'review' ? ' ripasso' : ''}: ${catalog.concepts.find((c) => c.id === root.payload.conceptId)?.title ?? root.payload.conceptId} · ${new Date(head.occurredAt).toLocaleString(language.targetLanguage)}`,
         );
         link.href = '/practice?session=' + head.id;
         content.append(el('p'));

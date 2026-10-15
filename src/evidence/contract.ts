@@ -1,3 +1,4 @@
+export const observationPolicyVersion = 'observations-v2';
 import type { Dimension as EvidenceDimension } from '../../shared/learning';
 export type { Dimension as EvidenceDimension } from '../../shared/learning';
 export interface ProjectionCheckpoint {
