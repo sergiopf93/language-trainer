@@ -2,6 +2,14 @@
 
 Actualizado: 2026-10-15. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
 
+## Fase 5C — validación funcional y pedagógica (2026-10-15)
+
+Encargo explícito posterior a 5B.4. Rama `feat/a1-end-to-end-validation`, baseline `8ac7e64`, preservando el cierre editorial. [Informe](../product/A1_END_TO_END_LEARNING_VALIDATION.md): escenarios A–H, integración real, móvil 320/375/390/768 y límites. Recorrido focal manual disponible en los 99 conceptos; sin ruta adaptativa, Review/Mixed efectivo ni retención acreditada. Reading/Writing extensos siguen pendientes. Prerrequisitos recomendados, sin hard locks; evidencia por dimensiones, no porcentaje de dominio.
+
+Corregidas expectativas obsoletas en dos tests generales tras promoción a reviewed. Corregido el indicador de guardado: anuncia escritura pendiente al editar y confirma solo al vaciar la cola. No pérdida de datos demostrada ni cambios de esquema. Nuevos escenarios de integración/E2E verifican errores, reconocimiento frente a recuperación, repetición a +1/+7/+30 días, reanudación offline y ausencia de duplicados.
+
+Estado editorial intacto: 99 reviewed, 0 candidate entre conceptos, 0 published; 99 Theory, 865 actividades, 316 entradas, 210 relaciones y 99 recibos vigentes. Sin relectura editorial ni invalidaciones. Pendiente validación humana cualificada, teléfonos/teclados nativos y observaciones longitudinales; no declarar V1 integral ni eficacia pedagógica. Validación: 281/281 tests en 17 suites; 28 E2E generales y 6/6 de regresión tras corregir guardado (29 casos únicos de validación), más 1/1 de exclusión en producción. Typecheck, formato, ambos builds, coverage y recibos/hashes correctos; aviso de bundle conservado. Commit técnico `3482652`; detalles y límites en el informe. Sin publicación, despliegue, merge ni push. **Detenerse tras entregar 5C; siguiente fase requiere nuevo encargo.**
+
 ## Fase 5B.4 — cierre editorial C21–C34 (2026-10-15)
 
 Reanudada desde `1c37588`, rama `feat/editorial-review-c21-c34`; implementación de cierre `20df7d8`, seguida del commit documental. Conservados los 14 dictámenes ciegos (38 Theory, 291 actividades) y seguimiento C21–C25. Cerrados únicamente C26–C31 (dos Theory) y C32–C34 (cinco actividades/cuatro Theory de contexto), sin nuevos bloqueos ni correcciones lingüísticas adicionales. Acumulado fase: 50 actividades, tres Theory y seis listas accepted modificadas. 55 actividades mantienen solo primera lectura R2.
