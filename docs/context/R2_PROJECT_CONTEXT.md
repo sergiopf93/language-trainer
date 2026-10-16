@@ -1,6 +1,16 @@
 # R2 — contexto operativo de language-trainer
 
-Actualizado: 2026-10-15. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
+Actualizado: 2026-10-16. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
+
+## Fase 6B — Mixed Practice (2026-10-16)
+
+Encargo explícito posterior a 6A; rama `feat/a1-mixed-practice`, baseline `571d382`. Mixed operativo en **tres grupos, ocho conceptos y 29 actividades existentes**: intenciones C02-01/02/03, estados/necesidades C04-05/C05-04 y relaciones/lugares C20-01/02/03. **No cobertura mixta de los 99 conceptos.** Whitelist por ID/versión; no contenido nuevo ni promociones. Ver [informe 6B](../product/A1_MIXED_PRACTICE_IMPLEMENTATION.md) para inventario, brechas y límites.
+
+`mixed-v1` reutiliza `reviewPlans`, hechos y SessionEngine. Solo grupos con todos sus conceptos/prerrequisitos transitivos introducidos (lectura o intento vigente); prioridad de dificultades/repaso, rotación de grupos empatados, actividades nuevas antes de conocidas dentro de la representación por concepto. Seis tareas, mínimo dos por concepto, snapshot y motivos iniciales persistidos. No título anticipatorio ni Theory en DOM hasta pedir ayuda; pausa, reanudación offline, feedback y resumen comunes. La lectura de teoría sigue marcando conservadoramente el resto de sesión como asistido.
+
+Contrato de sesión admite mixed con lista explícita de conceptos; los campos singulares de raíz son solo ancla del primer ítem. Review y el historial de Progreso identifican el objetivo por actividad. Evidencias mantienen criterio, dimensión, habilidad, procedencia e independencia comunes; modo mixto no concede dominio mixto ni retención. Sin migración IndexedDB, segundo estado de dominio, IA runtime ni nuevas dependencias.
+
+Estado editorial intacto: 99 reviewed, 865 actividades, 316 entradas, 210 relaciones y 99 recibos; 0 published. Producción continúa excluyendo contenido no publicado. Verificados 291 casos previos y 11 nuevos Mixed (302 únicos), 40 E2E de validación y 1 de producción; los seis Mixed se repitieron tras el ajuste móvil final. Typecheck, formato, ambos builds, coverage curricular y auditoría editorial correctos. Una suposición del test sobre `rejected` se corrigió, sin cambiar el evaluador. Commit técnico `1147824`; informe/contexto en commit documental posterior. Pendientes validación humana, dispositivos/teclados reales y observación longitudinal. **Detenerse tras entregar 6B; no iniciar Reading/Writing, publicación, merge, push ni despliegue.** Los apartados históricos de fase conservan contexto, no limitan el encargo 6B autorizado.
 
 ## Fase 6A — Review Engine (2026-10-15)
 
