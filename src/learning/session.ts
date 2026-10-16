@@ -20,6 +20,7 @@ import {
   selectReviewActivities,
   reviewPolicyVersion,
 } from '../review/engine';
+import { mixedPlans, mixedPolicyVersion } from '../mixed/engine';
 import { observationPolicyVersion } from '../evidence/contract';
 export const policyVersion = observationPolicyVersion;
 type Root = Extract<LearningFact, { kind: 'practice-session' }>;
@@ -55,6 +56,32 @@ export class SessionEngine implements LearningEngine {
     readonly catalog: ContentRepository,
   ) {}
   async select(request: LearningRequest): Promise<LearningDecision> {
+    if (
+      request.mode === 'mixed' &&
+      request.languagePackId === this.catalog.packId
+    ) {
+      const plan = mixedPlans(
+        this.catalog,
+        await this.store.allFacts(),
+        new Date(),
+      ).find(
+        (p) =>
+          request.conceptIds.length === 0 ||
+          (p.conceptIds.length === request.conceptIds.length &&
+            p.conceptIds.every((id) => request.conceptIds.includes(id))),
+      );
+      return plan
+        ? {
+            status: 'ready',
+            activityId: plan.activities[0].id,
+            reason: plan.reason,
+          }
+        : {
+            status: 'unavailable',
+            reason:
+              'No hay un grupo compatible de conceptos introducidos y actividades aptas.',
+          };
+    }
     if (
       !['focus', 'review'].includes(request.mode) ||
       request.languagePackId !== this.catalog.packId ||
@@ -195,6 +222,48 @@ export class SessionEngine implements LearningEngine {
       this.catalog.version,
     );
     if (mode === 'review') root.versions.policy = reviewPolicyVersion;
+    await this.store.appendLearning([root]);
+    return this.load(root.id);
+  }
+  async startMixed(groupId?: string) {
+    const plans = mixedPlans(
+      this.catalog,
+      await this.store.allFacts(),
+      new Date(),
+    );
+    const plan = groupId ? plans.find((p) => p.groupId === groupId) : plans[0];
+    if (!plan)
+      throw new Error(
+        'No hay un grupo compatible de conceptos introducidos y actividades aptas.',
+      );
+    const first = plan.activities[0];
+    const root = event(
+      'practice-session',
+      {
+        packId: this.catalog.packId,
+        conceptId: first.conceptId,
+        conceptVersion: first.conceptVersion,
+        contentStatus: first.status,
+        mode: 'mixed',
+        selectionReason: plan.reason,
+        mixed: {
+          groupId: plan.groupId,
+          conceptIds: plan.conceptIds,
+          reasons: plan.reasons,
+        },
+        activities: plan.activities,
+        state: {
+          index: 0,
+          draft: '',
+          hintShown: false,
+          attemptId: null,
+          status: 'active',
+          phase: 'answer',
+        },
+      },
+      this.catalog.version,
+    );
+    root.versions.policy = mixedPolicyVersion;
     await this.store.appendLearning([root]);
     return this.load(root.id);
   }
@@ -384,7 +453,7 @@ export class SessionEngine implements LearningEngine {
             ...(a.task ? { task: a.task } : {}),
             independent:
               !s.theoryVersion && !s.hintShown && !s.attemptId && !exposure,
-            contentStatus: view.root.payload.contentStatus,
+            contentStatus: a.status,
           },
           view.root.versions.content,
           [attempt.id, evaluation.id, view.root.id],

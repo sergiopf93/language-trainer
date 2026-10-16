@@ -94,13 +94,21 @@ export function validFact(v: unknown): v is Fact {
         v.versions.policy as string,
       ) &&
         !(
-          v.versions.policy === 'review-v1' &&
           v.kind === 'practice-session' &&
-          (v.payload as Record<string, unknown>).mode === 'review'
+          ((v.versions.policy === 'review-v1' &&
+            (v.payload as Record<string, unknown>).mode === 'review') ||
+            (v.versions.policy === 'mixed-v1' &&
+              (v.payload as Record<string, unknown>).mode === 'mixed'))
         ))
     )
       return false;
     const p = v.payload as Record<string, unknown>;
+    if (
+      v.kind === 'practice-session' &&
+      p.mode === 'mixed' &&
+      v.versions.policy !== 'mixed-v1'
+    )
+      return false;
     const refs = v.references as string[];
     let expected: unknown[] = [];
     if (v.kind === 'practice-state') {
@@ -277,8 +285,8 @@ export function validLinks(fact: Fact, known: Map<string, Fact>): boolean {
           !!exposure.payload.state.theoryVersion);
       const theory =
         exposure?.kind === 'theory-exposure' &&
-        exposure.payload.conceptId === root.payload.conceptId &&
-        exposure.payload.conceptVersion === root.payload.conceptVersion;
+        exposure.payload.conceptId === a.conceptId &&
+        exposure.payload.conceptVersion === a.conceptVersion;
       if (!correction && !hint && !theory) return false;
     }
     if (p.retryOf) {
@@ -330,13 +338,16 @@ export function validLinks(fact: Fact, known: Map<string, Fact>): boolean {
     if (
       e.attemptId !== attempt.id ||
       attempt.payload.sessionId !== session.id ||
+      activity?.conceptId !== p.conceptId ||
+      activity?.conceptVersion !== p.conceptVersion ||
+      activity?.dimension !== p.dimension ||
       e.conceptId !== p.conceptId ||
       e.conceptVersion !== p.conceptVersion ||
       e.activityId !== p.activityId ||
       e.dimension !== p.dimension ||
       e.judgment !== p.judgment ||
       JSON.stringify(e.task) !== JSON.stringify(p.task) ||
-      session.payload.contentStatus !== p.contentStatus ||
+      activity?.status !== p.contentStatus ||
       p.independent !==
         (!attempt.payload.theoryVersion &&
           !attempt.payload.hintShown &&

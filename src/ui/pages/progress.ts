@@ -66,17 +66,21 @@ export async function progress(store: LocalStore) {
   history.append(el('h2', 'Attività recente'));
   const roots = facts.filter(
     (f) =>
-      f.kind === 'practice-session' &&
-      concepts.some(
-        (c) =>
-          c.id === f.payload.conceptId &&
-          c.version === f.payload.conceptVersion,
-      ) &&
-      catalog.allowed(f.payload.contentStatus),
+      f.kind === 'practice-session' && catalog.allowed(f.payload.contentStatus),
   );
   const attempts = facts.filter(
     (f) =>
-      f.kind === 'attempt' && roots.some((r) => r.id === f.payload.sessionId),
+      f.kind === 'attempt' &&
+      roots.some((r) => {
+        if (r.kind !== 'practice-session' || r.id !== f.payload.sessionId)
+          return false;
+        const activity = r.payload.activities[f.payload.itemIndex];
+        return concepts.some(
+          (c) =>
+            c.id === activity?.conceptId &&
+            c.version === activity.conceptVersion,
+        );
+      }),
   );
   const recent = attempts
     .slice()
@@ -117,7 +121,7 @@ export async function progress(store: LocalStore) {
   page.append(
     history,
     support(
-      'Recordar hoy no garantiza recordarlo más adelante. Aún no hay una programación de repasos ni comprobaciones diferidas para mostrar.',
+      'Recordar hoy no garantiza recordarlo más adelante. Review y práctica mixta comparten estas observaciones; una invitación diferida no acredita retención por sí sola.',
     ),
   );
   if (concepts.some((c) => c.status !== 'published'))

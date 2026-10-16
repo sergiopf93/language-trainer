@@ -1,6 +1,7 @@
 import { copy, language, instruction } from '../language';
 import {
   link,
+  dimensionCopy,
   metric,
   previewNotice,
   support,
@@ -16,6 +17,7 @@ import { SessionEngine, type SessionView } from '../../learning/session';
 import { displayResponse } from '../../exercises/response';
 import { structuredAnswer } from '../structured-answer';
 import { reviewOverview } from './review';
+import { mixedPlans } from '../../mixed/engine';
 export const judgmentLabels = {
   correct: copy.correct,
   typo: 'Quasi!',
@@ -119,10 +121,60 @@ export async function learning(store: LocalStore, saved: () => void) {
     const title =
       catalog.concepts.find((c) => c.id === root.payload.conceptId)?.title ??
       root.payload.conceptId;
-    content.append(el('h2', theories[root.payload.conceptId]?.title ?? title));
+    content.append(
+      el(
+        'h2',
+        root.payload.mode === 'mixed'
+          ? 'Pratica mista'
+          : (theories[root.payload.conceptId]?.title ?? title),
+      ),
+    );
     if (root.payload.contentStatus !== 'published')
       content.append(el('span', 'Contenuti di prova', 'pill'));
+    if (root.payload.mode === 'mixed' && state.status === 'completed')
+      content.append(el('p', root.payload.selectionReason));
     if (state.status === 'completed') {
+      if (root.payload.mixed) {
+        const details = el('section');
+        details.append(el('h3', 'Concetti e osservazioni'));
+        root.payload.mixed.conceptIds.forEach((id, i) => {
+          details.append(
+            el('h4', catalog.concepts.find((c) => c.id === id)?.title ?? id),
+            el(
+              'p',
+              'Motivo della selezione iniziale: ' +
+                root.payload.mixed!.reasons[i],
+            ),
+          );
+          const observations = facts.filter(
+            (f) =>
+              f.kind === 'evidence' &&
+              f.payload.sessionId === root.id &&
+              f.payload.conceptId === id,
+          );
+          for (const f of observations)
+            if (f.kind === 'evidence')
+              details.append(
+                el(
+                  'p',
+                  `${dimensionCopy[f.payload.dimension][0]} · ${judgmentLabels[f.payload.judgment]} · ${f.payload.independent ? 'senza aiuto' : 'con aiuto'}`,
+                ),
+              );
+          if (!observations.length)
+            details.append(
+              el('p', 'Nessuna evidenza valutabile per questo concetto.'),
+            );
+          details.append(
+            link('Progressi del concetto', '/progress?concept=' + id),
+          );
+        });
+        details.append(
+          support(
+            'Reconocimiento, recuperación, discriminación y uso contextual conservan su dimensión. Practicar después de un intervalo no acredita automáticamente retención.',
+          ),
+        );
+        content.append(details);
+      }
       const attempts = facts.filter(
         (f) => f.kind === 'attempt' && f.payload.sessionId === root.id,
       );
@@ -219,7 +271,10 @@ export async function learning(store: LocalStore, saved: () => void) {
         ),
       );
       const progress = el('a', 'Vedi i progressi', 'primary-link');
-      progress.href = '/progress?concept=' + root.payload.conceptId;
+      progress.href =
+        root.payload.mode === 'mixed'
+          ? '/progress'
+          : '/progress?concept=' + root.payload.conceptId;
       const back = el('a', 'Torna alla biblioteca');
       back.href = '/library';
       content.append(progress, el('p'), back);
@@ -240,8 +295,8 @@ export async function learning(store: LocalStore, saved: () => void) {
     meter.value = state.index;
     meter.setAttribute('aria-label', 'Esercizi completati');
     content.insertBefore(meter, content.lastElementChild);
-    if (theories[root.payload.conceptId]) {
-      const panel = theoryPanel(root.payload.conceptId);
+    if (theories[activity.conceptId]) {
+      const panel = theoryPanel(activity.conceptId);
       panel.hidden = true;
       panel.id = 'session-theory';
       const toggle = command(
@@ -250,7 +305,7 @@ export async function learning(store: LocalStore, saved: () => void) {
           view = await engine.update(
             view!,
             'theory',
-            theories[root.payload.conceptId].version,
+            theories[activity.conceptId].version,
           );
           theoryOpen = true;
         },
@@ -278,7 +333,7 @@ export async function learning(store: LocalStore, saved: () => void) {
           ),
         );
       }
-      content.append(panel);
+      if (root.payload.mode !== 'mixed' || theoryOpen) content.append(panel);
     }
     if (state.phase === 'answer') {
       if (state.attemptId)
@@ -446,6 +501,34 @@ export async function learning(store: LocalStore, saved: () => void) {
           'Hay versiones concurrentes. Vuelve a Practicar para elegir cuál continuar.',
         );
       draw();
+    } else if (params.has('mixed')) {
+      const plans = mixedPlans(catalog, await store.allFacts(), new Date());
+      content.append(el('h2', 'Pratica mista'));
+      if (!plans.length)
+        content.append(
+          el(
+            'p',
+            'Servono più concetti già studiati, con preparazione e attività compatibili. Esplora la biblioteca.',
+          ),
+        );
+      else {
+        const plan = plans[0];
+        content.append(
+          el('p', plan.reason),
+          el(
+            'p',
+            `${plan.conceptIds.length} concetti · ${plan.activities.length} attività · ${plan.freshActivities} non ancora risposte.`,
+          ),
+          support(
+            'Las actividades conocidas pueden volver a aparecer al agotar el banco. Puedes pedir ayuda; quedará registrada. Los conceptos se muestran al terminar para no anticipar la estructura.',
+          ),
+        );
+        content.append(
+          command('Inizia la pratica mista', async () => {
+            view = await engine.startMixed();
+          }),
+        );
+      }
     } else if (conceptId) {
       const concept = catalog.concept(conceptId);
       if (!concept)
@@ -474,11 +557,12 @@ export async function learning(store: LocalStore, saved: () => void) {
         }),
       );
     } else {
+      content.append(link('Pratica mista', '/practice?mixed=1', true));
       content.append(await reviewOverview(store));
       content.append(el('h2', 'Scegli la tua pratica'));
-      const link = el('a', 'Esplora la biblioteca', 'primary-link');
-      link.href = '/library';
-      content.append(link);
+      const libraryLink = el('a', 'Esplora la biblioteca', 'primary-link');
+      libraryLink.href = '/library';
+      content.append(libraryLink);
       const history = await store.allFacts();
       for (const head of await engine.sessions()) {
         const root = history.find((f) => f.id === head.entityId);
@@ -489,7 +573,7 @@ export async function learning(store: LocalStore, saved: () => void) {
           continue;
         const link = el(
           'a',
-          `${head.payload.state.status === 'completed' ? 'Riepilogo' : 'Continua'}${root.payload.mode === 'review' ? ' ripasso' : ''}: ${catalog.concepts.find((c) => c.id === root.payload.conceptId)?.title ?? root.payload.conceptId} · ${new Date(head.occurredAt).toLocaleString(language.targetLanguage)}`,
+          `${head.payload.state.status === 'completed' ? 'Riepilogo' : 'Continua'}${root.payload.mode === 'review' ? ' ripasso' : root.payload.mode === 'mixed' ? ' pratica mista' : ''}: ${root.payload.mode === 'mixed' ? 'Concetti in contesto' : (catalog.concepts.find((c) => c.id === root.payload.conceptId)?.title ?? root.payload.conceptId)} · ${new Date(head.occurredAt).toLocaleString(language.targetLanguage)}`,
         );
         link.href = '/practice?session=' + head.id;
         content.append(el('p'));

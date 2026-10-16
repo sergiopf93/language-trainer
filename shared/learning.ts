@@ -94,7 +94,8 @@ export interface LearningPayloads {
     conceptId: string;
     conceptVersion: string;
     contentStatus: EditorialStatus;
-    mode: 'focus' | 'review';
+    mode: 'focus' | 'review' | 'mixed';
+    mixed?: { groupId: string; conceptIds: string[]; reasons: string[] };
     selectionReason: string;
     activities: Activity[];
     state: SessionState;
@@ -258,23 +259,26 @@ export function validLearningPayload(kind: string, p: unknown): boolean {
       return (
         keys(
           p,
-          'packId conceptId conceptVersion contentStatus mode selectionReason activities state',
+          'packId conceptId conceptVersion contentStatus mode selectionReason activities state' +
+            optionalKeys(p, ['mixed']),
         ) &&
         ['packId', 'conceptId', 'conceptVersion', 'selectionReason'].every(
           (k) => text(p[k]),
         ) &&
         editorial(p.contentStatus) &&
-        ['focus', 'review'].includes(p.mode as string) &&
+        ['focus', 'review', 'mixed'].includes(p.mode as string) &&
         Array.isArray(p.activities) &&
         p.activities.length > 0 &&
         p.activities.length <= 30 &&
         p.activities.every(validActivity) &&
         p.activities.every(
           (a) =>
-            a.conceptId === p.conceptId &&
-            a.conceptVersion === p.conceptVersion &&
+            (p.mode === 'mixed' ||
+              (a.conceptId === p.conceptId &&
+                a.conceptVersion === p.conceptVersion)) &&
             a.status === p.contentStatus,
         ) &&
+        validSessionScope(p) &&
         new Set(p.activities.map((a) => a.id)).size === p.activities.length &&
         state(p.state) &&
         (p.state as SessionState).index === 0 &&
@@ -433,4 +437,34 @@ export function validTrace(v: unknown): v is ContentTrace {
     'kind packId packVersion curriculumId curriculumVersion sourceId sourceVersion' +
     (v.kind === 'derived' ? ' templateId templateVersion variantKey' : '');
   return keys(v, names) && names.split(' ').every((k) => text(v[k]));
+}
+
+function validSessionScope(p: Record<string, unknown>) {
+  if (p.mode !== 'mixed') return !('mixed' in p);
+  const m = p.mixed;
+  if (
+    !record(m) ||
+    !keys(m, 'groupId conceptIds reasons') ||
+    !text(m.groupId) ||
+    !strings(m.conceptIds) ||
+    !strings(m.reasons) ||
+    m.conceptIds.length < 2 ||
+    m.reasons.length !== m.conceptIds.length ||
+    new Set(m.conceptIds).size !== m.conceptIds.length
+  )
+    return false;
+  const activities = p.activities as Activity[];
+  const anchor = activities[0];
+  return (
+    anchor.conceptId === p.conceptId &&
+    anchor.conceptVersion === p.conceptVersion &&
+    m.conceptIds.every((id) => activities.some((a) => a.conceptId === id)) &&
+    activities.every(
+      (a) =>
+        (m.conceptIds as string[]).includes(a.conceptId) &&
+        activities
+          .filter((b) => b.conceptId === a.conceptId)
+          .every((b) => b.conceptVersion === a.conceptVersion),
+    )
+  );
 }

@@ -133,8 +133,10 @@ export function reviewPlans(
             (r) =>
               r.id === f.payload.sessionId &&
               r.kind === 'practice-session' &&
-              r.payload.conceptId === concept.id &&
-              r.payload.conceptVersion === concept.version,
+              r.payload.activities[f.payload.itemIndex]?.conceptId ===
+                concept.id &&
+              r.payload.activities[f.payload.itemIndex]?.conceptVersion ===
+                concept.version,
           )),
     );
     if (!studied.length || !catalog.select(concept.id).length) continue;
