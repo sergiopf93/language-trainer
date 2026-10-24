@@ -2,7 +2,11 @@ import 'fake-indexeddb/auto';
 import { LocalStore } from '../src/persistence/local';
 import { SessionEngine } from '../src/learning/session';
 import { describe, expect, it } from 'vitest';
-import { italianCourse, lessons } from '../src/content/italian-a1/course';
+// Historical batch invariants; mixed-curriculum.test.ts verifies preservation in the expanded bank.
+import {
+  reviewedItalianCourse6B as italianCourse,
+  lessons,
+} from '../src/content/italian-a1/course';
 import { evaluate } from '../src/exercises/evaluate';
 import { loadLanguagePack } from '../src/content/loader';
 import { curriculumCoverage } from '../src/content/coverage';

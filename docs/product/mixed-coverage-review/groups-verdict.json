@@ -1,0 +1,1738 @@
+{
+  "status": "changes-requested",
+  "scope": "Pools seleccionados únicamente; 45 grupos, 99 conceptos, 329 IDs únicos. No reauditoría del banco. Aplicada skill QA en asesoría; sin modificaciones producción.",
+  "sourceHashes": {
+    "/tmp/mixed-final-groups.json": "086721416680370d8f3ca590963871081da94c2e6d323934d3441183169a318a",
+    "/tmp/mixed-course.json": "e29049fa05f91180c730e2385b55b06aff0317ad5e3d4211f74e9cb8d8ba0ea1",
+    "/tmp/mixed-final-items.json": "7c55de5e49b8c353dc308abf1ad43b6fd46c8b1e624bc174d7154c9796e2556d"
+  },
+  "structuralChecks": {
+    "groupCount": 45,
+    "conceptCount": 99,
+    "selectedUniqueItems": 329,
+    "allIdsVersionsMatched": true,
+    "allMinimumTwoPerConcept": true,
+    "singleConceptAttributionMatches": true
+  },
+  "importantLimits": [
+    "Dos tareas pertinentes por concepto no cubren todas las facetas ni equivalen a dos producciones.",
+    "Preparación se evaluó en formas de respuesta/opciones y texto realmente interpretado, no imponiendo todos los tiempos verbales de prosa instructiva.",
+    "Nuevos ítems y reviewed deben respetar política editorial uniforme real del motor; este informe no promueve estados.",
+    "No se ejecutó interfaz ni ordenador de sesiones; filtración entre ítems es posibilidad demostrada por contenidos, no secuencia runtime observada.",
+    "No todos los soportes lexicalizados exigen tema entero; R2 debe preferir fórmula previamente enseñada documentada sobre sobrebloqueo."
+  ],
+  "findings": [
+    {
+      "groupId": "presentazione",
+      "classification": "fallo confirmado",
+      "severity": "high",
+      "issue": "preparación de soporte no presente en cierre",
+      "itemIds": [
+        "it-a1-c04-03-origine"
+      ],
+      "missingPreparationIds": [
+        "it-a1-c04-04"
+      ],
+      "evidence": "Distractores Anna è a Roma / Anna è qui contrastan localización con origen. C04-04 cubre localización sin requerir todo C20.",
+      "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+      "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+      "expected": "No exigir formas estructurales de soporte desconocidas.",
+      "observed": "IDs listados ausentes del cierre del snapshot."
+    },
+    {
+      "groupId": "persone-verbi",
+      "classification": "fallo confirmado",
+      "severity": "high",
+      "issue": "preparación de soporte no presente en cierre",
+      "itemIds": [
+        "it-a1-c05-01-mixed-biglietti"
+      ],
+      "missingPreparationIds": [
+        "it-a1-c13-01",
+        "it-a1-c08-01"
+      ],
+      "evidence": "Respuesta exige due biglietti; no está en cierre actual.",
+      "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+      "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+      "expected": "No exigir formas estructurales de soporte desconocidas.",
+      "observed": "IDs listados ausentes del cierre del snapshot."
+    },
+    {
+      "groupId": "domande-risposte",
+      "classification": "fallo confirmado",
+      "severity": "high",
+      "issue": "preparación de soporte no presente en cierre",
+      "itemIds": [
+        "it-a1-c06-01-riconosci",
+        "it-a1-c06-01-rispondi",
+        "it-a1-c06-02-negativa",
+        "it-a1-c06-03-luogo"
+      ],
+      "missingPreparationIds": [
+        "it-a1-c05-04",
+        "it-a1-c04-04"
+      ],
+      "evidence": "Ho fame y sono a casa son construcciones de respuesta efectivas, no mera prosa de instrucción.",
+      "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+      "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+      "expected": "No exigir formas estructurales de soporte desconocidas.",
+      "observed": "IDs listados ausentes del cierre del snapshot."
+    },
+    {
+      "groupId": "nuovo-noto",
+      "classification": "fallo confirmado",
+      "severity": "high",
+      "issue": "preparación de soporte no presente en cierre",
+      "itemIds": [
+        "it-a1-c10-02-sequenza",
+        "it-a1-c09-03-messaggio",
+        "it-a1-c10-02-chiedi"
+      ],
+      "missingPreparationIds": [
+        "it-a1-c05-02",
+        "it-a1-c04-04",
+        "it-a1-c02-02"
+      ],
+      "evidence": "Opciones/frases completas requieren Ho un biglietto, è qui y per favore; el cierre actual carece de essere/avere.",
+      "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+      "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+      "expected": "No exigir formas estructurales de soporte desconocidas.",
+      "observed": "IDs listados ausentes del cierre del snapshot."
+    },
+    {
+      "groupId": "forme-articoli",
+      "classification": "fallo confirmado",
+      "severity": "high",
+      "issue": "preparación de soporte no presente en cierre",
+      "itemIds": [
+        "it-a1-c10-01-zaino"
+      ],
+      "missingPreparationIds": [
+        "it-a1-c05-02"
+      ],
+      "evidence": "Respuesta Ho uno zaino exige posesión avere, ausente del cierre.",
+      "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+      "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+      "expected": "No exigir formas estructurales de soporte desconocidas.",
+      "observed": "IDs listados ausentes del cierre del snapshot."
+    },
+    {
+      "groupId": "descrizioni",
+      "classification": "comportamiento sospechoso/no confirmado",
+      "severity": "medium",
+      "issue": "preparación de soporte no presente en cierre",
+      "itemIds": [
+        "it-a1-c12-01-chiedi"
+      ],
+      "missingPreparationIds": [
+        "it-a1-c02-02"
+      ],
+      "evidence": "Respuesta de petición contiene per favore.",
+      "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+      "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+      "expected": "No exigir formas estructurales de soporte desconocidas.",
+      "observed": "IDs listados ausentes del cierre del snapshot."
+    },
+    {
+      "groupId": "numeri-uso",
+      "classification": "fallo confirmado",
+      "severity": "high",
+      "issue": "preparación de soporte no presente en cierre",
+      "itemIds": [
+        "it-a1-c13-03-quantita"
+      ],
+      "missingPreparationIds": [
+        "it-a1-c08-01"
+      ],
+      "evidence": "Tre biglietti exige plural del nombre; no está en el cierre.",
+      "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+      "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+      "expected": "No exigir formas estructurales de soporte desconocidas.",
+      "observed": "IDs listados ausentes del cierre del snapshot."
+    },
+    {
+      "groupId": "read-understand",
+      "classification": "fallo confirmado",
+      "severity": "high",
+      "issue": "preparación de soporte no presente en cierre",
+      "itemIds": [
+        "it-a1-c15-01-mixed-contesto-01"
+      ],
+      "missingPreparationIds": [
+        "it-a1-c15-02",
+        "it-a1-c04-04"
+      ],
+      "evidence": "Distractor Dormo in hotel introduce dormir y localización desconocidos; alternativa mínima mejor: cambiarlo por Leggo un messaggio (nueva versión/revisión).",
+      "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+      "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+      "expected": "No exigir formas estructurales de soporte desconocidas.",
+      "observed": "IDs listados ausentes del cierre del snapshot."
+    },
+    {
+      "groupId": "communicate-read",
+      "classification": "fallo confirmado",
+      "severity": "high",
+      "issue": "preparación de soporte no presente en cierre",
+      "itemIds": [
+        "it-a1-c15-01-mixed-contesto-01"
+      ],
+      "missingPreparationIds": [
+        "it-a1-c15-02",
+        "it-a1-c04-04"
+      ],
+      "evidence": "Mismo distractor Dormo in hotel; sustituirlo evita añadir preparación ajena al grupo.",
+      "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+      "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+      "expected": "No exigir formas estructurales de soporte desconocidas.",
+      "observed": "IDs listados ausentes del cierre del snapshot."
+    },
+    {
+      "groupId": "polite-addressee",
+      "classification": "fallo confirmado",
+      "severity": "high",
+      "issue": "preparación de soporte no presente en cierre",
+      "itemIds": [
+        "it-a1-c18-01-mixed-contesto-01",
+        "it-a1-c18-02-riferimento"
+      ],
+      "missingPreparationIds": [
+        "it-a1-c17-02",
+        "it-a1-c04-03"
+      ],
+      "evidence": "Voglio en opciones y Lei è di Roma en la pregunta interpretada; son material observado. C04-03 incorpora essere transitivamente.",
+      "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+      "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+      "expected": "No exigir formas estructurales de soporte desconocidas.",
+      "observed": "IDs listados ausentes del cierre del snapshot."
+    },
+    {
+      "groupId": "company-purpose",
+      "classification": "fallo confirmado",
+      "severity": "high",
+      "issue": "preparación de soporte no presente en cierre",
+      "itemIds": [
+        "it-a1-c20-04-traduci",
+        "it-a1-c20-05-traduci"
+      ],
+      "missingPreparationIds": [
+        "it-a1-c28-01",
+        "it-a1-c09-01"
+      ],
+      "evidence": "Se exigen con lei/per te y el artículo Il libro; conocer preposición no introduce sistema de pronombres tónicos.",
+      "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+      "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+      "expected": "No exigir formas estructurales de soporte desconocidas.",
+      "observed": "IDs listados ausentes del cierre del snapshot."
+    },
+    {
+      "groupId": "likes-activities",
+      "classification": "comportamiento sospechoso/no confirmado",
+      "severity": "medium",
+      "issue": "preparación de soporte no presente en cierre",
+      "itemIds": [
+        "it-a1-c34-05-lavoro",
+        "it-a1-c34-05-studio",
+        "it-a1-c34-05-film",
+        "it-a1-c25-01-mixed-independent-1"
+      ],
+      "missingPreparationIds": [
+        "it-a1-c09-01",
+        "it-a1-c10-01",
+        "it-a1-c20-06"
+      ],
+      "evidence": "Respuestas il lavoro/lo studio/un film y di notte: formas solicitadas no cubiertas por cierre. Si fórmulas di notte ya están enseñadas en teoría C25/C34, documentar preparación lexical local en vez de imponer C20-06 entero.",
+      "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+      "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+      "expected": "No exigir formas estructurales de soporte desconocidas.",
+      "observed": "IDs listados ausentes del cierre del snapshot."
+    },
+    {
+      "groupId": "indefinite-amount",
+      "classification": "fallo confirmado",
+      "severity": "high",
+      "issue": "preparación de soporte no presente en cierre",
+      "itemIds": [
+        "it-a1-c27-02-pane"
+      ],
+      "missingPreparationIds": [
+        "it-a1-c05-02"
+      ],
+      "evidence": "Ho poco pane requiere posesión avere, ausente del cierre. Alternativa: otra tarea cuantitativa sin avere.",
+      "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+      "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+      "expected": "No exigir formas estructurales de soporte desconocidas.",
+      "observed": "IDs listados ausentes del cierre del snapshot."
+    },
+    {
+      "groupId": "pronoun-reference",
+      "classification": "fallo confirmado",
+      "severity": "high",
+      "issue": "preparación de soporte no presente en cierre",
+      "itemIds": [
+        "it-a1-c28-02-libro",
+        "it-a1-c28-02-traduci",
+        "it-a1-c28-02-mele"
+      ],
+      "missingPreparationIds": [
+        "it-a1-c15-01",
+        "it-a1-c06-01"
+      ],
+      "evidence": "Li leggo requiere presente -ere; non le compro exige negación. C15-03 no sustituye C15-01.",
+      "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+      "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+      "expected": "No exigir formas estructurales de soporte desconocidas.",
+      "observed": "IDs listados ausentes del cierre del snapshot."
+    },
+    {
+      "groupId": "message-relations",
+      "classification": "fallo confirmado",
+      "severity": "high",
+      "issue": "preparación de soporte no presente en cierre",
+      "itemIds": [
+        "it-a1-c29-02-mixed-independent-2",
+        "it-a1-c29-01-mixed-independent-1"
+      ],
+      "missingPreparationIds": [
+        "it-a1-c11-01",
+        "it-a1-c20-02",
+        "it-a1-c10-01"
+      ],
+      "evidence": "Frases completas exigen piccola/bella y in un bar; no están en cierre. Añadir C11-01 trae género; artículo un sigue soporte.",
+      "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+      "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+      "expected": "No exigir formas estructurales de soporte desconocidas.",
+      "observed": "IDs listados ausentes del cierre del snapshot."
+    },
+    {
+      "groupId": "instructions-sequence",
+      "classification": "comportamiento sospechoso/no confirmado",
+      "severity": "medium",
+      "issue": "preparación de soporte no presente en cierre",
+      "itemIds": [
+        "it-a1-c29-04-secondo",
+        "it-a1-c30-02-mixed-independent-1"
+      ],
+      "missingPreparationIds": [
+        "it-a1-c20-02",
+        "it-a1-c02-02"
+      ],
+      "evidence": "Torno a casa y per favore aparecen en respuestas; localización/destino de fórmula a casa puede cubrirse por C04-04 en lugar de C20-02 completo.",
+      "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+      "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+      "expected": "No exigir formas estructurales de soporte desconocidas.",
+      "observed": "IDs listados ausentes del cierre del snapshot."
+    },
+    {
+      "groupId": "past-events",
+      "classification": "comportamiento sospechoso/no confirmado",
+      "severity": "medium",
+      "issue": "preparación de soporte no presente en cierre",
+      "itemIds": [
+        "it-a1-c32-02-venire"
+      ],
+      "missingPreparationIds": [
+        "it-a1-c16-04"
+      ],
+      "evidence": "Venuto aparece como parte evaluada para elegir auxiliar; aunque C31-02 enseña participios irregulares, revisar que venire/venuto esté enseñado. Recomendación condicional, no bloqueo si canon C32-02 ya lo incluye.",
+      "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+      "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+      "expected": "No exigir formas estructurales de soporte desconocidas.",
+      "observed": "IDs listados ausentes del cierre del snapshot."
+    },
+    {
+      "groupId": "shopping-objects",
+      "classification": "comportamiento sospechoso/no confirmado",
+      "severity": "medium",
+      "issue": "preparación de soporte no presente en cierre",
+      "itemIds": [
+        "it-a1-c12-01-chiedi"
+      ],
+      "missingPreparationIds": [
+        "it-a1-c02-02"
+      ],
+      "evidence": "Respuesta obligatoria per favore.",
+      "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+      "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+      "expected": "No exigir formas estructurales de soporte desconocidas.",
+      "observed": "IDs listados ausentes del cierre del snapshot."
+    },
+    {
+      "groupId": "contacts-needs",
+      "classification": "fallo confirmado",
+      "severity": "high",
+      "issue": "preparación de soporte no presente en cierre",
+      "itemIds": [
+        "it-a1-c05-04-contrasto"
+      ],
+      "missingPreparationIds": [
+        "it-a1-c04-05"
+      ],
+      "evidence": "Opción objetivo incluye Sono stanco, y distractores combinan estados con necesidades. C04-01 no enseña función estado/adjetivo.",
+      "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+      "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+      "expected": "No exigir formas estructurales de soporte desconocidas.",
+      "observed": "IDs listados ausentes del cierre del snapshot."
+    },
+    {
+      "groupId": "likes-activities",
+      "classification": "fallo confirmado",
+      "severity": "medium",
+      "issue": "Respuesta modelo de un concepto impresa en ítem de otro",
+      "itemIds": [
+        "it-a1-c34-05-dormire",
+        "it-a1-c25-01-traduci",
+        "it-a1-c25-01-mixed-independent-1"
+      ],
+      "evidence": "Di notte mi piace ___ muestra mi piace + infinitivo antes de recuperación de C25-01 si el hash lo ordena primero.",
+      "minimalFix": "Retirar solo c34-05-dormire del pool; quedan seis tareas léxicas, sin perder mínimo. No modificar reviewed.",
+      "expected": "El ítem de vocabulario no imprime construcción objetivo que otra tarea pretende recuperar sin ayuda.",
+      "observed": "El orden de sesión puede exponer esa construcción dentro de la misma sesión."
+    },
+    {
+      "groupId": "forme-articoli",
+      "classification": "comportamiento esperado",
+      "severity": "low",
+      "issue": "Alcance de evidencia",
+      "evidence": "Selecciones contienen solo determinados o solo indeterminados. Coherente para alternar alomorfos, pero rationale elegir por identificabilidad sobreafirma selección independiente de definitud.",
+      "minimalFix": "Describir como selección de formas en contextos de referencia, no prueba completa de definitivo versus indefinido."
+    },
+    {
+      "groupId": "past-participles",
+      "classification": "comportamiento esperado",
+      "severity": "low",
+      "issue": "Mínimo heterogéneo",
+      "evidence": "C31-02 tiene una comprensión letto→leído y una recuperación visto. Cumple dos oportunidades pertinentes, no dos recuperaciones productivas.",
+      "minimalFix": "Mantener alcance explícito y no afirmar recuperación irregular pluralmente demostrada."
+    },
+    {
+      "groupId": "then-now",
+      "classification": "comportamiento esperado",
+      "severity": "low",
+      "issue": "Mínimo pertinente limitado",
+      "evidence": "C32-03 mezcla extracción de hecho pasado con selección de hábito actual; no producción autónoma de relato.",
+      "minimalFix": "Conservar razón de contraste temporal, no describir como narración libre."
+    },
+    {
+      "groupId": "contacts-needs",
+      "classification": "comportamiento esperado",
+      "severity": "low",
+      "issue": "Cobertura léxica parcial",
+      "evidence": "C34-07 usa teléfono/mensaje/médico/farmacia/disponibilidad; no dolor/fiebre/ayuda. La mezcla es coherente por contacto, pero no acredita esas facetas.",
+      "minimalFix": "No equiparar dos oportunidades del concepto a cubrir todas sus facetas."
+    },
+    {
+      "groupId": "preposition-reference",
+      "classification": "comportamiento esperado",
+      "severity": "low",
+      "issue": "Preparación ya prevista por R2",
+      "evidence": "suo en contexto; añadir C23-01 según encargo. No nuevo bloqueo."
+    },
+    {
+      "groupId": "places-relations",
+      "classification": "comportamiento esperado",
+      "severity": "low",
+      "issue": "Preparación ya prevista por R2",
+      "evidence": "Añadir C16-04/C14-01/C15-01 según encargo; conservar ítems/IDs previos."
+    }
+  ],
+  "groups": [
+    {
+      "groupId": "grafia-messaggi",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c01-01": 5,
+        "it-a1-c01-02": 3,
+        "it-a1-c01-03": 3
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c01-01-chiave@1",
+        "it-a1-c01-01-spaghetti@1",
+        "it-a1-c01-01-pesce@1",
+        "it-a1-c01-01-bagno@1",
+        "it-a1-c01-01-biglietto@1",
+        "it-a1-c01-02-e@1",
+        "it-a1-c01-02-si@1",
+        "it-a1-c01-02-contrast@1",
+        "it-a1-c01-03-penna@1",
+        "it-a1-c01-03-letto@1",
+        "it-a1-c01-03-caffe@2"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "referenti",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c03-01": 3,
+        "it-a1-c03-02": 4
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c03-01-lui@1",
+        "it-a1-c03-01-voi@1",
+        "it-a1-c03-01-noi-gruppo@1",
+        "it-a1-c03-02-presentazione@1",
+        "it-a1-c03-02-plural@1",
+        "it-a1-c03-02-isolata@1",
+        "it-a1-c03-02-referente@1"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "presentazione",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c04-02": 3,
+        "it-a1-c04-03": 4
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c04-02-presentati@1",
+        "it-a1-c04-02-insegnante@2",
+        "it-a1-c04-02-descrivi@1",
+        "it-a1-c04-03-origine@1",
+        "it-a1-c04-03-di@1",
+        "it-a1-c04-03-spagnola@1",
+        "it-a1-c04-03-italiano@1"
+      ],
+      "verdict": "needs-preparation-fix",
+      "preparationFinding": {
+        "groupId": "presentazione",
+        "classification": "fallo confirmado",
+        "severity": "high",
+        "issue": "preparación de soporte no presente en cierre",
+        "itemIds": [
+          "it-a1-c04-03-origine"
+        ],
+        "missingPreparationIds": [
+          "it-a1-c04-04"
+        ],
+        "evidence": "Distractores Anna è a Roma / Anna è qui contrastan localización con origen. C04-04 cubre localización sin requerir todo C20.",
+        "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+        "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+        "expected": "No exigir formas estructurales de soporte desconocidas.",
+        "observed": "IDs listados ausentes del cierre del snapshot."
+      }
+    },
+    {
+      "groupId": "origine-posizione",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c04-03": 4,
+        "it-a1-c04-04": 3
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c04-03-origine@1",
+        "it-a1-c04-03-di@1",
+        "it-a1-c04-03-spagnola@1",
+        "it-a1-c04-03-italiano@1",
+        "it-a1-c04-04-ora@1",
+        "it-a1-c04-04-hotel@1",
+        "it-a1-c04-04-noi@1"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "persone-verbi",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c04-01": 2,
+        "it-a1-c05-01": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c04-01-anna@1",
+        "it-a1-c04-01-mixed-voi@2",
+        "it-a1-c05-01-io@1",
+        "it-a1-c05-01-mixed-biglietti@2"
+      ],
+      "verdict": "needs-preparation-fix",
+      "preparationFinding": {
+        "groupId": "persone-verbi",
+        "classification": "fallo confirmado",
+        "severity": "high",
+        "issue": "preparación de soporte no presente en cierre",
+        "itemIds": [
+          "it-a1-c05-01-mixed-biglietti"
+        ],
+        "missingPreparationIds": [
+          "it-a1-c13-01",
+          "it-a1-c08-01"
+        ],
+        "evidence": "Respuesta exige due biglietti; no está en cierre actual.",
+        "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+        "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+        "expected": "No exigir formas estructurales de soporte desconocidas.",
+        "observed": "IDs listados ausentes del cierre del snapshot."
+      }
+    },
+    {
+      "groupId": "possesso-eta",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c05-02": 4,
+        "it-a1-c05-03": 3
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c05-02-possesso@1",
+        "it-a1-c05-02-penna@1",
+        "it-a1-c05-02-anna@1",
+        "it-a1-c05-02-correggi@2",
+        "it-a1-c05-03-eta@1",
+        "it-a1-c05-03-quanti@2",
+        "it-a1-c05-03-trenta@1"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "domande-risposte",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c06-01": 2,
+        "it-a1-c06-02": 4,
+        "it-a1-c06-03": 6
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c06-01-riconosci@2",
+        "it-a1-c06-01-rispondi@1",
+        "it-a1-c06-02-intenzione@1",
+        "it-a1-c06-02-persona@1",
+        "it-a1-c06-02-negativa@1",
+        "it-a1-c06-02-conferma@1",
+        "it-a1-c06-03-persona@1",
+        "it-a1-c06-03-luogo@1",
+        "it-a1-c06-03-tempo@1",
+        "it-a1-c06-03-motivo@1",
+        "it-a1-c06-03-eta@2",
+        "it-a1-c06-03-origine@1"
+      ],
+      "verdict": "needs-preparation-fix",
+      "preparationFinding": {
+        "groupId": "domande-risposte",
+        "classification": "fallo confirmado",
+        "severity": "high",
+        "issue": "preparación de soporte no presente en cierre",
+        "itemIds": [
+          "it-a1-c06-01-riconosci",
+          "it-a1-c06-01-rispondi",
+          "it-a1-c06-02-negativa",
+          "it-a1-c06-03-luogo"
+        ],
+        "missingPreparationIds": [
+          "it-a1-c05-04",
+          "it-a1-c04-04"
+        ],
+        "evidence": "Ho fame y sono a casa son construcciones de respuesta efectivas, no mera prosa de instrucción.",
+        "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+        "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+        "expected": "No exigir formas estructurales de soporte desconocidas.",
+        "observed": "IDs listados ausentes del cierre del snapshot."
+      }
+    },
+    {
+      "groupId": "genere-lessicale",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c07-01": 2,
+        "it-a1-c07-02": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c07-01-mixed-penna@2",
+        "it-a1-c07-01-mixed-letto@2",
+        "it-a1-c07-02-mixed-mano@2",
+        "it-a1-c07-02-mixed-problema@2"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "quantita-oggetti",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c08-01": 2,
+        "it-a1-c08-02": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c08-01-penne@1",
+        "it-a1-c08-01-lista@1",
+        "it-a1-c08-02-riconosci@1",
+        "it-a1-c08-02-ordine@2"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "articoli-numero",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c09-01": 2,
+        "it-a1-c09-02": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c09-01-mixed-zaino@2",
+        "it-a1-c09-01-mixed-amica@2",
+        "it-a1-c09-02-mixed-studenti@2",
+        "it-a1-c09-02-mixed-chiavi@2"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "nuovo-noto",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c09-03": 5,
+        "it-a1-c10-02": 6
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c09-03-riprendi@1",
+        "it-a1-c09-03-biglietto@1",
+        "it-a1-c09-03-situazione@1",
+        "it-a1-c09-03-messaggio@2",
+        "it-a1-c09-03-nuovo@1",
+        "it-a1-c10-02-introduci@1",
+        "it-a1-c10-02-caffe@2",
+        "it-a1-c10-02-chiedi@2",
+        "it-a1-c10-02-sequenza@1",
+        "it-a1-c10-02-presenta@2",
+        "it-a1-c10-02-riprendi@1"
+      ],
+      "verdict": "needs-preparation-fix",
+      "preparationFinding": {
+        "groupId": "nuovo-noto",
+        "classification": "fallo confirmado",
+        "severity": "high",
+        "issue": "preparación de soporte no presente en cierre",
+        "itemIds": [
+          "it-a1-c10-02-sequenza",
+          "it-a1-c09-03-messaggio",
+          "it-a1-c10-02-chiedi"
+        ],
+        "missingPreparationIds": [
+          "it-a1-c05-02",
+          "it-a1-c04-04",
+          "it-a1-c02-02"
+        ],
+        "evidence": "Opciones/frases completas requieren Ho un biglietto, è qui y per favore; el cierre actual carece de essere/avere.",
+        "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+        "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+        "expected": "No exigir formas estructurales de soporte desconocidas.",
+        "observed": "IDs listados ausentes del cierre del snapshot."
+      }
+    },
+    {
+      "groupId": "forme-articoli",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c09-01": 2,
+        "it-a1-c10-01": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c09-01-mixed-zaino@2",
+        "it-a1-c09-01-mixed-amica@2",
+        "it-a1-c10-01-zaino@1",
+        "it-a1-c10-01-mixed-studente@2"
+      ],
+      "verdict": "needs-preparation-fix",
+      "preparationFinding": {
+        "groupId": "forme-articoli",
+        "classification": "fallo confirmado",
+        "severity": "high",
+        "issue": "preparación de soporte no presente en cierre",
+        "itemIds": [
+          "it-a1-c10-01-zaino"
+        ],
+        "missingPreparationIds": [
+          "it-a1-c05-02"
+        ],
+        "evidence": "Respuesta Ho uno zaino exige posesión avere, ausente del cierre.",
+        "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+        "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+        "expected": "No exigir formas estructurales de soporte desconocidas.",
+        "observed": "IDs listados ausentes del cierre del snapshot."
+      }
+    },
+    {
+      "groupId": "descrizioni",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c11-01": 4,
+        "it-a1-c11-02": 2,
+        "it-a1-c12-01": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c11-01-camera@1",
+        "it-a1-c11-01-case@1",
+        "it-a1-c11-01-grande@1",
+        "it-a1-c11-01-maschile@1",
+        "it-a1-c11-02-colore@1",
+        "it-a1-c11-02-amico@1",
+        "it-a1-c12-01-chiedi@1",
+        "it-a1-c12-01-studenti@1"
+      ],
+      "verdict": "approved-pending-local-support-check",
+      "preparationFinding": {
+        "groupId": "descrizioni",
+        "classification": "comportamiento sospechoso/no confirmado",
+        "severity": "medium",
+        "issue": "preparación de soporte no presente en cierre",
+        "itemIds": [
+          "it-a1-c12-01-chiedi"
+        ],
+        "missingPreparationIds": [
+          "it-a1-c02-02"
+        ],
+        "evidence": "Respuesta de petición contiene per favore.",
+        "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+        "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+        "expected": "No exigir formas estructurales de soporte desconocidas.",
+        "observed": "IDs listados ausentes del cierre del snapshot."
+      }
+    },
+    {
+      "groupId": "numeri-uso",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c13-01": 6,
+        "it-a1-c13-02": 2,
+        "it-a1-c13-03": 7
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c13-01-quattordici@1",
+        "it-a1-c13-01-sedici@1",
+        "it-a1-c13-01-cinquanta@1",
+        "it-a1-c13-01-piccoli@1",
+        "it-a1-c13-01-decine@1",
+        "it-a1-c13-01-adolescenti@1",
+        "it-a1-c13-02-cinquecento@1",
+        "it-a1-c13-02-prezzo@1",
+        "it-a1-c13-03-prezzo@1",
+        "it-a1-c13-03-eta@1",
+        "it-a1-c13-03-quantita@1",
+        "it-a1-c13-03-numero@1",
+        "it-a1-c13-03-telefono@1",
+        "it-a1-c13-03-detta@1",
+        "it-a1-c13-03-importo@1"
+      ],
+      "verdict": "needs-preparation-fix",
+      "preparationFinding": {
+        "groupId": "numeri-uso",
+        "classification": "fallo confirmado",
+        "severity": "high",
+        "issue": "preparación de soporte no presente en cierre",
+        "itemIds": [
+          "it-a1-c13-03-quantita"
+        ],
+        "missingPreparationIds": [
+          "it-a1-c08-01"
+        ],
+        "evidence": "Tre biglietti exige plural del nombre; no está en el cierre.",
+        "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+        "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+        "expected": "No exigir formas estructurales de soporte desconocidas.",
+        "observed": "IDs listados ausentes del cierre del snapshot."
+      }
+    },
+    {
+      "groupId": "possibility-wish-duty",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c17-01": 2,
+        "it-a1-c17-02": 2,
+        "it-a1-c17-03": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c17-01-possibilita@1",
+        "it-a1-c17-01-mixed-contesto-01@2",
+        "it-a1-c17-02-registro@1",
+        "it-a1-c17-02-contrasto@1",
+        "it-a1-c17-03-obbligo@1",
+        "it-a1-c17-03-negazione@1"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "movement-perspective",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c16-02": 2,
+        "it-a1-c16-04": 2,
+        "it-a1-c16-08": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c16-02-mixed-contesto-01@2",
+        "it-a1-c16-02-mixed-contesto-02@2",
+        "it-a1-c16-04-contrasto@1",
+        "it-a1-c16-04-mixed-contesto-01@3",
+        "it-a1-c16-08-mixed-contesto-01@2",
+        "it-a1-c16-08-mixed-contesto-02@2"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "daily-routines",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c14-02": 3,
+        "it-a1-c16-01": 2,
+        "it-a1-c16-06": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c14-02-residenza@1",
+        "it-a1-c14-02-ogni@1",
+        "it-a1-c14-02-contrasto@1",
+        "it-a1-c16-01-mixed-contesto-01@2",
+        "it-a1-c16-01-mixed-contesto-02@2",
+        "it-a1-c16-06-mixed-contesto-01@2",
+        "it-a1-c16-06-mixed-contesto-02@2"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "read-understand",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c15-01": 2,
+        "it-a1-c15-03": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c15-01-mixed-contesto-01@3",
+        "it-a1-c15-01-mixed-contesto-02@2",
+        "it-a1-c15-03-mixed-contesto-01@3",
+        "it-a1-c15-03-mixed-contesto-02@2"
+      ],
+      "verdict": "needs-preparation-fix",
+      "preparationFinding": {
+        "groupId": "read-understand",
+        "classification": "fallo confirmado",
+        "severity": "high",
+        "issue": "preparación de soporte no presente en cierre",
+        "itemIds": [
+          "it-a1-c15-01-mixed-contesto-01"
+        ],
+        "missingPreparationIds": [
+          "it-a1-c15-02",
+          "it-a1-c04-04"
+        ],
+        "evidence": "Distractor Dormo in hotel introduce dormir y localización desconocidos; alternativa mínima mejor: cambiarlo por Leggo un messaggio (nueva versión/revisión).",
+        "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+        "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+        "expected": "No exigir formas estructurales de soporte desconocidas.",
+        "observed": "IDs listados ausentes del cierre del snapshot."
+      }
+    },
+    {
+      "groupId": "rest-wellbeing",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c15-02": 2,
+        "it-a1-c16-03": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c15-02-mixed-contesto-01@3",
+        "it-a1-c15-02-mixed-contesto-02@2",
+        "it-a1-c16-03-mixed-contesto-01@2",
+        "it-a1-c16-03-mixed-contesto-02@2"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "give-say",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c16-05": 2,
+        "it-a1-c16-07": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c16-05-mixed-contesto-01@2",
+        "it-a1-c16-05-mixed-contesto-02@2",
+        "it-a1-c16-07-parlare@1",
+        "it-a1-c16-07-mixed-contesto-01@2"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "communicate-read",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c14-01": 2,
+        "it-a1-c15-01": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c14-01-mixed-contesto-01@2",
+        "it-a1-c14-01-mixed-contesto-02@2",
+        "it-a1-c15-01-mixed-contesto-01@3",
+        "it-a1-c15-01-mixed-contesto-02@2"
+      ],
+      "verdict": "needs-preparation-fix",
+      "preparationFinding": {
+        "groupId": "communicate-read",
+        "classification": "fallo confirmado",
+        "severity": "high",
+        "issue": "preparación de soporte no presente en cierre",
+        "itemIds": [
+          "it-a1-c15-01-mixed-contesto-01"
+        ],
+        "missingPreparationIds": [
+          "it-a1-c15-02",
+          "it-a1-c04-04"
+        ],
+        "evidence": "Mismo distractor Dormo in hotel; sustituirlo evita añadir preparación ajena al grupo.",
+        "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+        "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+        "expected": "No exigir formas estructurales de soporte desconocidas.",
+        "observed": "IDs listados ausentes del cierre del snapshot."
+      }
+    },
+    {
+      "groupId": "polite-addressee",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c18-01": 2,
+        "it-a1-c18-02": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c18-01-mixed-contesto-01@2",
+        "it-a1-c18-01-mixed-contesto-02@2",
+        "it-a1-c18-02-persona@1",
+        "it-a1-c18-02-riferimento@2"
+      ],
+      "verdict": "needs-preparation-fix",
+      "preparationFinding": {
+        "groupId": "polite-addressee",
+        "classification": "fallo confirmado",
+        "severity": "high",
+        "issue": "preparación de soporte no presente en cierre",
+        "itemIds": [
+          "it-a1-c18-01-mixed-contesto-01",
+          "it-a1-c18-02-riferimento"
+        ],
+        "missingPreparationIds": [
+          "it-a1-c17-02",
+          "it-a1-c04-03"
+        ],
+        "evidence": "Voglio en opciones y Lei è di Roma en la pregunta interpretada; son material observado. C04-03 incorpora essere transitivamente.",
+        "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+        "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+        "expected": "No exigir formas estructurales de soporte desconocidas.",
+        "observed": "IDs listados ausentes del cierre del snapshot."
+      }
+    },
+    {
+      "groupId": "existence-location",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c19-01": 3,
+        "it-a1-c19-02": 3
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c19-01-letto@1",
+        "it-a1-c19-01-camere@1",
+        "it-a1-c19-01-traduci@2",
+        "it-a1-c19-02-intenzione@2",
+        "it-a1-c19-02-determinato@1",
+        "it-a1-c19-02-distingui@2"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "company-purpose",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c20-04": 3,
+        "it-a1-c20-05": 3
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c20-04-insieme@2",
+        "it-a1-c20-04-traduci@2",
+        "it-a1-c20-04-funzione@2",
+        "it-a1-c20-05-scopo@1",
+        "it-a1-c20-05-traduci@2",
+        "it-a1-c20-05-produci@2"
+      ],
+      "verdict": "needs-preparation-fix",
+      "preparationFinding": {
+        "groupId": "company-purpose",
+        "classification": "fallo confirmado",
+        "severity": "high",
+        "issue": "preparación de soporte no presente en cierre",
+        "itemIds": [
+          "it-a1-c20-04-traduci",
+          "it-a1-c20-05-traduci"
+        ],
+        "missingPreparationIds": [
+          "it-a1-c28-01",
+          "it-a1-c09-01"
+        ],
+        "evidence": "Se exigen con lei/per te y el artículo Il libro; conocer preposición no introduce sistema de pronombres tónicos.",
+        "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+        "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+        "expected": "No exigir formas estructurales de soporte desconocidas.",
+        "observed": "IDs listados ausentes del cierre del snapshot."
+      }
+    },
+    {
+      "groupId": "time-appointment",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c20-06": 7,
+        "it-a1-c22-04": 3
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c20-06-notte@1",
+        "it-a1-c20-06-mezzogiorno@1",
+        "it-a1-c20-06-mese@2",
+        "it-a1-c20-06-continua@1",
+        "it-a1-c20-06-durata@2",
+        "it-a1-c20-06-futuro@2",
+        "it-a1-c20-06-completamento@2",
+        "it-a1-c22-04-incrocio@1",
+        "it-a1-c22-04-alternativa@1",
+        "it-a1-c22-04-incompatibile@1"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "calendar-frequency",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c22-01": 12,
+        "it-a1-c22-02": 4,
+        "it-a1-c22-03": 4
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c22-01-data@1",
+        "it-a1-c22-01-primo@1",
+        "it-a1-c22-01-martedi@1",
+        "it-a1-c22-01-mese@1",
+        "it-a1-c22-01-inverno@1",
+        "it-a1-c22-01-mercoledi@1",
+        "it-a1-c22-01-venerdi@1",
+        "it-a1-c22-01-gennaio@1",
+        "it-a1-c22-01-giugno@1",
+        "it-a1-c22-01-fine-settimana@1",
+        "it-a1-c22-01-mesi-inizio@1",
+        "it-a1-c22-01-mesi-fine@1",
+        "it-a1-c22-02-una@1",
+        "it-a1-c22-02-tre@2",
+        "it-a1-c22-02-mezza@1",
+        "it-a1-c22-02-meno@2",
+        "it-a1-c22-03-sempre@1",
+        "it-a1-c22-03-spesso@1",
+        "it-a1-c22-03-periodica@3",
+        "it-a1-c22-03-lunedì@2"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "preposition-reference",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c21-01": 2,
+        "it-a1-c21-02": 3
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c21-01-mixed-contesto-01@2",
+        "it-a1-c21-01-mixed-contesto-02@2",
+        "it-a1-c21-02-bar@1",
+        "it-a1-c21-02-origine@2",
+        "it-a1-c21-02-contrasto@1"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "ownership-family",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c23-01": 5,
+        "it-a1-c23-02": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c23-01-genere@1",
+        "it-a1-c23-01-mia@1",
+        "it-a1-c23-01-tue@1",
+        "it-a1-c23-01-nostro@1",
+        "it-a1-c23-01-ambiguita@2",
+        "it-a1-c23-02-madre@2",
+        "it-a1-c23-02-sorelle@1"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "near-far",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c24-01": 2,
+        "it-a1-c24-02": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c24-01-vicino@2",
+        "it-a1-c24-01-mixed-contesto-01@2",
+        "it-a1-c24-02-libro@1",
+        "it-a1-c24-02-mixed-contesto-01@2"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "likes-activities",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c25-01": 2,
+        "it-a1-c25-02": 3,
+        "it-a1-c34-05": 7
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c25-01-traduci@1",
+        "it-a1-c25-01-mixed-independent-1@3",
+        "it-a1-c25-02-singolare@1",
+        "it-a1-c25-02-libri@1",
+        "it-a1-c25-02-traduci@1",
+        "it-a1-c34-05-lavoro@1",
+        "it-a1-c34-05-studio@1",
+        "it-a1-c34-05-leggere@1",
+        "it-a1-c34-05-dormire@1",
+        "it-a1-c34-05-film@1",
+        "it-a1-c34-05-musica@1",
+        "it-a1-c34-05-studiare@1"
+      ],
+      "verdict": "approved-pending-local-support-check",
+      "preparationFinding": {
+        "groupId": "likes-activities",
+        "classification": "comportamiento sospechoso/no confirmado",
+        "severity": "medium",
+        "issue": "preparación de soporte no presente en cierre",
+        "itemIds": [
+          "it-a1-c34-05-lavoro",
+          "it-a1-c34-05-studio",
+          "it-a1-c34-05-film",
+          "it-a1-c25-01-mixed-independent-1"
+        ],
+        "missingPreparationIds": [
+          "it-a1-c09-01",
+          "it-a1-c10-01",
+          "it-a1-c20-06"
+        ],
+        "evidence": "Respuestas il lavoro/lo studio/un film y di notte: formas solicitadas no cubiertas por cierre. Si fórmulas di notte ya están enseñadas en teoría C25/C34, documentar preparación lexical local en vez de imponer C20-06 entero.",
+        "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+        "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+        "expected": "No exigir formas estructurales de soporte desconocidas.",
+        "observed": "IDs listados ausentes del cierre del snapshot."
+      }
+    },
+    {
+      "groupId": "identity-routine",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c26-01": 2,
+        "it-a1-c26-02": 2,
+        "it-a1-c34-01": 8
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c26-01-mixed-independent-1@2",
+        "it-a1-c26-01-mixed-independent-2@2",
+        "it-a1-c26-02-traduce@2",
+        "it-a1-c26-02-mixed-independent-1@2",
+        "it-a1-c34-01-nome@1",
+        "it-a1-c34-01-paese@1",
+        "it-a1-c34-01-italia@1",
+        "it-a1-c34-01-nazionalita@2",
+        "it-a1-c34-01-studentessa@1",
+        "it-a1-c34-01-padre@1",
+        "it-a1-c34-01-madre@1",
+        "it-a1-c34-01-fratello@1"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "food-measures",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c27-01": 2,
+        "it-a1-c34-03": 8
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c27-01-acqua@1",
+        "it-a1-c27-01-mele@2",
+        "it-a1-c34-03-pane@1",
+        "it-a1-c34-03-riso@1",
+        "it-a1-c34-03-formaggio@1",
+        "it-a1-c34-03-latte@1",
+        "it-a1-c34-03-zucchero@1",
+        "it-a1-c34-03-bottiglia@1",
+        "it-a1-c34-03-litro@1",
+        "it-a1-c34-03-acqua@1"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "indefinite-amount",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c27-02": 2,
+        "it-a1-c27-03": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c27-02-pane@1",
+        "it-a1-c27-02-mixed-independent-1@2",
+        "it-a1-c27-03-mixed-independent-1@2",
+        "it-a1-c27-03-mixed-independent-2@2"
+      ],
+      "verdict": "needs-preparation-fix",
+      "preparationFinding": {
+        "groupId": "indefinite-amount",
+        "classification": "fallo confirmado",
+        "severity": "high",
+        "issue": "preparación de soporte no presente en cierre",
+        "itemIds": [
+          "it-a1-c27-02-pane"
+        ],
+        "missingPreparationIds": [
+          "it-a1-c05-02"
+        ],
+        "evidence": "Ho poco pane requiere posesión avere, ausente del cierre. Alternativa: otra tarea cuantitativa sin avere.",
+        "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+        "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+        "expected": "No exigir formas estructurales de soporte desconocidas.",
+        "observed": "IDs listados ausentes del cierre del snapshot."
+      }
+    },
+    {
+      "groupId": "pronoun-reference",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c28-01": 2,
+        "it-a1-c28-02": 4
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c28-01-voi@1",
+        "it-a1-c28-01-mixed-independent-1@2",
+        "it-a1-c28-02-libro@1",
+        "it-a1-c28-02-penna@1",
+        "it-a1-c28-02-mele@1",
+        "it-a1-c28-02-traduci@3"
+      ],
+      "verdict": "needs-preparation-fix",
+      "preparationFinding": {
+        "groupId": "pronoun-reference",
+        "classification": "fallo confirmado",
+        "severity": "high",
+        "issue": "preparación de soporte no presente en cierre",
+        "itemIds": [
+          "it-a1-c28-02-libro",
+          "it-a1-c28-02-traduci",
+          "it-a1-c28-02-mele"
+        ],
+        "missingPreparationIds": [
+          "it-a1-c15-01",
+          "it-a1-c06-01"
+        ],
+        "evidence": "Li leggo requiere presente -ere; non le compro exige negación. C15-03 no sustituye C15-01.",
+        "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+        "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+        "expected": "No exigir formas estructurales de soporte desconocidas.",
+        "observed": "IDs listados ausentes del cierre del snapshot."
+      }
+    },
+    {
+      "groupId": "message-relations",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c29-01": 2,
+        "it-a1-c29-02": 2,
+        "it-a1-c29-03": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c29-01-lista@1",
+        "it-a1-c29-01-mixed-independent-1@2",
+        "it-a1-c29-02-traduci@1",
+        "it-a1-c29-02-mixed-independent-2@2",
+        "it-a1-c29-03-traduci@2",
+        "it-a1-c29-03-motivo@2"
+      ],
+      "verdict": "needs-preparation-fix",
+      "preparationFinding": {
+        "groupId": "message-relations",
+        "classification": "fallo confirmado",
+        "severity": "high",
+        "issue": "preparación de soporte no presente en cierre",
+        "itemIds": [
+          "it-a1-c29-02-mixed-independent-2",
+          "it-a1-c29-01-mixed-independent-1"
+        ],
+        "missingPreparationIds": [
+          "it-a1-c11-01",
+          "it-a1-c20-02",
+          "it-a1-c10-01"
+        ],
+        "evidence": "Frases completas exigen piccola/bella y in un bar; no están en cierre. Añadir C11-01 trae género; artículo un sigue soporte.",
+        "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+        "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+        "expected": "No exigir formas estructurales de soporte desconocidas.",
+        "observed": "IDs listados ausentes del cierre del snapshot."
+      }
+    },
+    {
+      "groupId": "instructions-sequence",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c30-01": 8,
+        "it-a1-c30-02": 2,
+        "it-a1-c29-04": 3
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c30-01-destra@1",
+        "it-a1-c30-01-dritto@2",
+        "it-a1-c30-01-acqua@2",
+        "it-a1-c30-01-sequenza@2",
+        "it-a1-c30-01-mescola@1",
+        "it-a1-c30-01-voi@1",
+        "it-a1-c30-01-sinistra@1",
+        "it-a1-c30-01-ordine@2",
+        "it-a1-c30-02-fate@1",
+        "it-a1-c30-02-mixed-independent-1@2",
+        "it-a1-c29-04-comprendi@1",
+        "it-a1-c29-04-traduci@1",
+        "it-a1-c29-04-secondo@2"
+      ],
+      "verdict": "approved-pending-local-support-check",
+      "preparationFinding": {
+        "groupId": "instructions-sequence",
+        "classification": "comportamiento sospechoso/no confirmado",
+        "severity": "medium",
+        "issue": "preparación de soporte no presente en cierre",
+        "itemIds": [
+          "it-a1-c29-04-secondo",
+          "it-a1-c30-02-mixed-independent-1"
+        ],
+        "missingPreparationIds": [
+          "it-a1-c20-02",
+          "it-a1-c02-02"
+        ],
+        "evidence": "Torno a casa y per favore aparecen en respuestas; localización/destino de fórmula a casa puede cubrirse por C04-04 en lugar de C20-02 completo.",
+        "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+        "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+        "expected": "No exigir formas estructurales de soporte desconocidas.",
+        "observed": "IDs listados ausentes del cierre del snapshot."
+      }
+    },
+    {
+      "groupId": "past-participles",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c31-01": 2,
+        "it-a1-c31-02": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c31-01-mixed-independent-1@2",
+        "it-a1-c31-01-mixed-independent-2@2",
+        "it-a1-c31-02-riconosci@1",
+        "it-a1-c31-02-mixed-independent-1@2"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "past-events",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c32-01": 2,
+        "it-a1-c32-02": 7,
+        "it-a1-c33-01": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c32-01-mixed-independent-1@2",
+        "it-a1-c32-01-mixed-independent-2@2",
+        "it-a1-c32-02-camminare@1",
+        "it-a1-c32-02-andare@1",
+        "it-a1-c32-02-treno@1",
+        "it-a1-c32-02-dormire@1",
+        "it-a1-c32-02-venire@1",
+        "it-a1-c32-02-stato@1",
+        "it-a1-c32-02-arrivo@1",
+        "it-a1-c33-01-traduci@1",
+        "it-a1-c33-01-mixed-independent-1@2"
+      ],
+      "verdict": "approved-pending-local-support-check",
+      "preparationFinding": {
+        "groupId": "past-events",
+        "classification": "comportamiento sospechoso/no confirmado",
+        "severity": "medium",
+        "issue": "preparación de soporte no presente en cierre",
+        "itemIds": [
+          "it-a1-c32-02-venire"
+        ],
+        "missingPreparationIds": [
+          "it-a1-c16-04"
+        ],
+        "evidence": "Venuto aparece como parte evaluada para elegir auxiliar; aunque C31-02 enseña participios irregulares, revisar que venire/venuto esté enseñado. Recomendación condicional, no bloqueo si canon C32-02 ya lo incluye.",
+        "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+        "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+        "expected": "No exigir formas estructurales de soporte desconocidas.",
+        "observed": "IDs listados ausentes del cierre del snapshot."
+      }
+    },
+    {
+      "groupId": "then-now",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c32-03": 2,
+        "it-a1-c14-02": 3
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c32-03-comprendi@2",
+        "it-a1-c32-03-mixed-independent-1@2",
+        "it-a1-c14-02-residenza@1",
+        "it-a1-c14-02-ogni@1",
+        "it-a1-c14-02-contrasto@1"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "home-travel",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c34-02": 8,
+        "it-a1-c34-06": 6
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c34-02-camera@2",
+        "it-a1-c34-02-bagno@1",
+        "it-a1-c34-02-cucina@1",
+        "it-a1-c34-02-letto@1",
+        "it-a1-c34-02-tavolo@2",
+        "it-a1-c34-02-sedia@1",
+        "it-a1-c34-02-doppia@1",
+        "it-a1-c34-02-casa@1",
+        "it-a1-c34-06-stazione@1",
+        "it-a1-c34-06-treno@1",
+        "it-a1-c34-06-partenza@1",
+        "it-a1-c34-06-arrivo@2",
+        "it-a1-c34-06-centro@2",
+        "it-a1-c34-06-andare@2"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "shopping-objects",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c34-04": 7,
+        "it-a1-c12-01": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c34-04-maglietta@1",
+        "it-a1-c34-04-pantaloni@1",
+        "it-a1-c34-04-scarpe@1",
+        "it-a1-c34-04-rosso@1",
+        "it-a1-c34-04-nero@1",
+        "it-a1-c34-04-zaino@1",
+        "it-a1-c34-04-penna@1",
+        "it-a1-c12-01-chiedi@1",
+        "it-a1-c12-01-studenti@1"
+      ],
+      "verdict": "approved-pending-local-support-check",
+      "preparationFinding": {
+        "groupId": "shopping-objects",
+        "classification": "comportamiento sospechoso/no confirmado",
+        "severity": "medium",
+        "issue": "preparación de soporte no presente en cierre",
+        "itemIds": [
+          "it-a1-c12-01-chiedi"
+        ],
+        "missingPreparationIds": [
+          "it-a1-c02-02"
+        ],
+        "evidence": "Respuesta obligatoria per favore.",
+        "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+        "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+        "expected": "No exigir formas estructurales de soporte desconocidas.",
+        "observed": "IDs listados ausentes del cierre del snapshot."
+      }
+    },
+    {
+      "groupId": "contacts-needs",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c34-07": 5,
+        "it-a1-c05-04": 5
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c34-07-telefono@1",
+        "it-a1-c34-07-messaggio@1",
+        "it-a1-c34-07-medico@1",
+        "it-a1-c34-07-farmacia@1",
+        "it-a1-c34-07-disponibile@2",
+        "it-a1-c05-04-fame@1",
+        "it-a1-c05-04-sete@1",
+        "it-a1-c05-04-freddo@1",
+        "it-a1-c05-04-paura@1",
+        "it-a1-c05-04-contrasto@1"
+      ],
+      "verdict": "needs-preparation-fix",
+      "preparationFinding": {
+        "groupId": "contacts-needs",
+        "classification": "fallo confirmado",
+        "severity": "high",
+        "issue": "preparación de soporte no presente en cierre",
+        "itemIds": [
+          "it-a1-c05-04-contrasto"
+        ],
+        "missingPreparationIds": [
+          "it-a1-c04-05"
+        ],
+        "evidence": "Opción objetivo incluye Sono stanco, y distractores combinan estados con necesidades. C04-01 no enseña función estado/adjetivo.",
+        "minimalFix": "Añadir preparación mínima o retirar/sustituir el ítem afectado; no modificar relaciones/recibos. Si forma es fórmula enseñada dentro del concepto, documentar esa preparación local y evitar bloqueo redundante.",
+        "reproduce": "Calcular cierre transitivo de conceptIds + prerequisiteIds y compararlo con estructuras de respuestas/opciones listadas.",
+        "expected": "No exigir formas estructurales de soporte desconocidas.",
+        "observed": "IDs listados ausentes del cierre del snapshot."
+      }
+    },
+    {
+      "groupId": "intentions",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c02-01": 3,
+        "it-a1-c02-02": 2,
+        "it-a1-c02-03": 2
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c02-01-hotel-mattina@1",
+        "it-a1-c02-01-notte@1",
+        "it-a1-c02-01-ciao-contesto@1",
+        "it-a1-c02-02-grazie@1",
+        "it-a1-c02-02-dialogo@1",
+        "it-a1-c02-03-intenzione@2",
+        "it-a1-c02-03-velocita@1"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "states-needs",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c04-05": 3,
+        "it-a1-c05-04": 5
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c04-05-stanco@1",
+        "it-a1-c04-05-contenta@1",
+        "it-a1-c04-05-pronto@1",
+        "it-a1-c05-04-fame@1",
+        "it-a1-c05-04-sete@1",
+        "it-a1-c05-04-freddo@1",
+        "it-a1-c05-04-paura@1",
+        "it-a1-c05-04-contrasto@1"
+      ],
+      "verdict": "approved-with-notes"
+    },
+    {
+      "groupId": "places-relations",
+      "coherence": "pass",
+      "minimumPertinentOpportunities": "pass-with-scope-limits",
+      "counts": {
+        "it-a1-c20-01": 5,
+        "it-a1-c20-02": 4,
+        "it-a1-c20-03": 5
+      },
+      "idsVersionsAttribution": "pass",
+      "reviewedItemIds": [
+        "it-a1-c20-01-origine@2",
+        "it-a1-c20-01-provenienza@1",
+        "it-a1-c20-01-materia@1",
+        "it-a1-c20-01-camera@1",
+        "it-a1-c20-01-traduci@2",
+        "it-a1-c20-02-citta@1",
+        "it-a1-c20-02-paese@1",
+        "it-a1-c20-02-superficie@1",
+        "it-a1-c20-02-tra@1",
+        "it-a1-c20-03-meta@1",
+        "it-a1-c20-03-italia@1",
+        "it-a1-c20-03-anna@1",
+        "it-a1-c20-03-treno@1",
+        "it-a1-c20-03-direzione@2"
+      ],
+      "verdict": "approved-with-notes"
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+[
+  {
+    "code": "04-01",
+    "key": "mixed-voi",
+    "version": "2",
+    "format": "controlled-production",
+    "prompt": "Parli ad Anna e Luca: «Vosotros estáis en Roma». Scrivi la frase.",
+    "accepted": [
+      "voi siete a Roma",
+      "siete a Roma",
+      "voi siete a Roma.",
+      "siete a Roma."
+    ],
+    "rejected": [
+      "voi sono a Roma",
+      "voi avete a Roma"
+    ],
+    "hint": "Piensa en las personas y en la situación comunicativa.",
+    "explanation": "Siamo corresponde al grupo que incluye a quien habla; siete se dirige a varias personas. La situación indica quién habla y dónde está.",
+    "context": "presentación",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "05-01",
+    "key": "mixed-biglietti",
+    "version": "2",
+    "format": "controlled-production",
+    "prompt": "Parli di Anna e Luca. Scrivi «Anna y Luca tienen dos billetes».",
+    "accepted": [
+      "Anna e Luca hanno due biglietti",
+      "Anna e Luca hanno due biglietti."
+    ],
+    "rejected": [
+      "Anna e Luca sono due biglietti",
+      "Anna e Luca ha due biglietti"
+    ],
+    "hint": "Piensa en las personas y en la situación comunicativa.",
+    "explanation": "Avere expresa posesión. Hanno corresponde a Anna e Luca; avete se dirige a varias personas.",
+    "context": "objetos cotidianos",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "07-01",
+    "key": "mixed-penna",
+    "version": "2",
+    "format": "selection",
+    "prompt": "Scegli il messaggio per «El bolígrafo es rojo».",
+    "accepted": [
+      "La penna è rossa."
+    ],
+    "rejected": [
+      "Il penna è rosso."
+    ],
+    "hint": "El género italiano del nombre decide la concordancia; no lo deduzcas del español.",
+    "explanation": "El género italiano pertenece al nombre: penna es femenino y letto masculino; artículo y adjetivo concuerdan con él, aunque cambie el género de la traducción española.",
+    "context": "objetos cotidianos",
+    "facets": [
+      "genero-lexico",
+      "contraste-espanol"
+    ],
+    "options": [
+      "La penna è rossa.",
+      "Il penna è rosso."
+    ]
+  },
+  {
+    "code": "07-01",
+    "key": "mixed-letto",
+    "version": "2",
+    "format": "selection",
+    "prompt": "Scegli la descrizione per «La cama es pequeña».",
+    "accepted": [
+      "Il letto è piccolo."
+    ],
+    "rejected": [
+      "La letto è piccola."
+    ],
+    "hint": "El género italiano del nombre decide la concordancia; no lo deduzcas del español.",
+    "explanation": "El género italiano pertenece al nombre: penna es femenino y letto masculino; artículo y adjetivo concuerdan con él, aunque cambie el género de la traducción española.",
+    "context": "objetos cotidianos",
+    "facets": [
+      "genero-lexico",
+      "contraste-espanol"
+    ],
+    "options": [
+      "Il letto è piccolo.",
+      "La letto è piccola."
+    ]
+  },
+  {
+    "code": "07-02",
+    "key": "mixed-mano",
+    "version": "2",
+    "format": "selection",
+    "prompt": "Scegli il messaggio per «La mano es pequeña».",
+    "accepted": [
+      "La mano è piccola."
+    ],
+    "rejected": [
+      "Il mano è piccolo."
+    ],
+    "hint": "El género italiano del nombre decide la concordancia; no lo deduzcas del español.",
+    "explanation": "Mano es femenino aunque termine en -o; problema es masculino aunque termine en -a. Se aprende el género con la palabra.",
+    "context": "objetos cotidianos",
+    "facets": [
+      "genero-lexico",
+      "excepciones"
+    ],
+    "options": [
+      "La mano è piccola.",
+      "Il mano è piccolo."
+    ]
+  },
+  {
+    "code": "07-02",
+    "key": "mixed-problema",
+    "version": "2",
+    "format": "selection",
+    "prompt": "Scegli il messaggio per «El problema es pequeño».",
+    "accepted": [
+      "Il problema è piccolo."
+    ],
+    "rejected": [
+      "La problema è piccola."
+    ],
+    "hint": "El género italiano del nombre decide la concordancia; no lo deduzcas del español.",
+    "explanation": "Mano es femenino aunque termine en -o; problema es masculino aunque termine en -a. Se aprende el género con la palabra.",
+    "context": "objetos cotidianos",
+    "facets": [
+      "genero-lexico",
+      "excepciones"
+    ],
+    "options": [
+      "Il problema è piccolo.",
+      "La problema è piccola."
+    ]
+  },
+  {
+    "code": "09-01",
+    "key": "mixed-zaino",
+    "version": "2",
+    "format": "selection",
+    "prompt": "Todos sabéis de qué mochila habláis. Indícala: «___ zaino è qui».",
+    "accepted": [
+      "Lo"
+    ],
+    "rejected": [
+      "Il",
+      "La"
+    ],
+    "hint": "Observa el referente, el número y el comienzo del nombre.",
+    "explanation": "Un referente ya identificado se retoma aquí con artículo determinado. Zaino lleva lo; amica empieza por vocal y lleva l’.",
+    "context": "objetos cotidianos",
+    "facets": [
+      "singular",
+      "grupos-iniciales"
+    ],
+    "options": [
+      "Lo",
+      "Il",
+      "La"
+    ]
+  },
+  {
+    "code": "09-01",
+    "key": "mixed-amica",
+    "version": "2",
+    "format": "selection",
+    "prompt": "Todos sabéis de qué amiga habláis. Anuncia que está aquí: «___amica è qui».",
+    "accepted": [
+      "L’"
+    ],
+    "rejected": [
+      "Il",
+      "Lo"
+    ],
+    "hint": "Observa el referente, el número y el comienzo del nombre.",
+    "explanation": "Un referente ya identificado se retoma aquí con artículo determinado. Zaino lleva lo; amica empieza por vocal y lleva l’.",
+    "context": "objetos cotidianos",
+    "facets": [
+      "singular",
+      "grupos-iniciales"
+    ],
+    "options": [
+      "L’",
+      "Il",
+      "Lo"
+    ]
+  },
+  {
+    "code": "09-02",
+    "key": "mixed-studenti",
+    "version": "2",
+    "format": "selection",
+    "prompt": "Todos sabéis de qué estudiantes habláis. Indícalos: «___ studenti sono qui».",
+    "accepted": [
+      "Gli"
+    ],
+    "rejected": [
+      "I",
+      "Le"
+    ],
+    "hint": "Observa el referente, el número y el comienzo del nombre.",
+    "explanation": "Los referentes ya identificados se retoman con artículo determinado: gli studenti ante s + consonante y le chiavi en femenino plural.",
+    "context": "objetos cotidianos",
+    "facets": [
+      "plural",
+      "grupos-iniciales"
+    ],
+    "options": [
+      "Gli",
+      "I",
+      "Le"
+    ]
+  },
+  {
+    "code": "09-02",
+    "key": "mixed-chiavi",
+    "version": "2",
+    "format": "selection",
+    "prompt": "Todos sabéis de qué llaves habláis. Indícalas: «___ chiavi sono qui».",
+    "accepted": [
+      "Le"
+    ],
+    "rejected": [
+      "I",
+      "Gli"
+    ],
+    "hint": "Observa el referente, el número y el comienzo del nombre.",
+    "explanation": "Los referentes ya identificados se retoman con artículo determinado: gli studenti ante s + consonante y le chiavi en femenino plural.",
+    "context": "objetos cotidianos",
+    "facets": [
+      "plural",
+      "grupos-iniciales"
+    ],
+    "options": [
+      "Le",
+      "I",
+      "Gli"
+    ]
+  },
+  {
+    "code": "10-01",
+    "key": "mixed-studente",
+    "version": "2",
+    "format": "selection",
+    "prompt": "Presentas por primera vez a un estudiante italiano: «È ___ studente italiano».",
+    "accepted": [
+      "uno"
+    ],
+    "rejected": [
+      "un",
+      "una"
+    ],
+    "hint": "Observa el referente, el número y el comienzo del nombre.",
+    "explanation": "Al presentar este referente por primera vez se usa artículo indeterminado: uno delante de studente y un’ delante de amica.",
+    "context": "presentación",
+    "facets": [
+      "singular",
+      "grupos-iniciales"
+    ],
+    "options": [
+      "uno",
+      "un",
+      "una"
+    ]
+  }
+]

@@ -10,6 +10,7 @@ import {
   eligibleMixedActivities,
   mixedPlans,
   mixedPrerequisites,
+  mixedGroupPrerequisites,
 } from '../src/mixed/engine';
 import { evaluate } from '../src/exercises/evaluate';
 import { reviewPlans, reviewIntervalMs } from '../src/review/engine';
@@ -24,11 +25,16 @@ async function setup(name = crypto.randomUUID()) {
   stores.push(store);
   return { store, engine: new SessionEngine(store, catalog), name };
 }
+const prepared = new WeakMap<SessionEngine, Set<string>>();
 async function introduce(engine: SessionEngine, group = mixedGroups[0]) {
-  const ids = new Set(
-    group.conceptIds.flatMap((id) => [id, ...mixedPrerequisites(catalog, id)]),
-  );
-  for (const id of ids) await engine.study(id, '1');
+  const ids = mixedGroupPrerequisites(catalog, group);
+  const seen = prepared.get(engine) ?? new Set<string>();
+  prepared.set(engine, seen);
+  for (const id of ids)
+    if (!seen.has(id)) {
+      await engine.study(id, '1');
+      seen.add(id);
+    }
 }
 async function answer(
   engine: SessionEngine,
@@ -104,6 +110,46 @@ describe('mixed selection against the editorial catalog', () => {
     ).toBe(true);
   });
 
+  it('requires contextual support and its transitive prerequisites before enabling a group', async () => {
+    const { store, engine } = await setup();
+    const base = mixedGroups.find((g) => g.id === 'states-needs')!;
+    const group = {
+      ...base,
+      id: 'test-contextual-preparation',
+      prerequisiteIds: ['it-a1-c22-02'],
+    };
+    mixedGroups.push(group);
+    try {
+      await introduce(engine, base);
+      await engine.study('it-a1-c22-02', '1');
+      const preparation = mixedGroupPrerequisites(catalog, group);
+      expect(preparation).toContain('it-a1-c22-02');
+      expect(preparation).toEqual(
+        expect.arrayContaining(mixedPrerequisites(catalog, 'it-a1-c22-02')),
+      );
+      expect(
+        mixedPlans(catalog, await store.allFacts(), epoch).some(
+          (p) => p.groupId === group.id,
+        ),
+      ).toBe(false);
+      await introduce(engine, group);
+      expect(
+        mixedPlans(catalog, await store.allFacts(), epoch).some(
+          (p) => p.groupId === group.id,
+        ),
+      ).toBe(true);
+      const view = await engine.startMixed(group.id);
+      expect(view.root.payload.mixed?.conceptIds).toEqual(base.conceptIds);
+      expect(
+        view.root.payload.activities.every((a) =>
+          base.conceptIds.includes(a.conceptId),
+        ),
+      ).toBe(true);
+    } finally {
+      mixedGroups.splice(mixedGroups.indexOf(group), 1);
+    }
+  });
+
   it('selects coherent complete groups deterministically without duplicate activities', async () => {
     const { store, engine } = await setup();
     for (const group of mixedGroups) await introduce(engine, group);
@@ -164,7 +210,12 @@ describe('mixed selection against the editorial catalog', () => {
       facts,
       new Date(+epoch + reviewIntervalMs),
     );
-    expect(plans[0].groupId).toBe('states-needs');
+    expect(plans[0].priority).toBe(0);
+    expect(
+      plans[0].conceptIds.some((id) =>
+        ['it-a1-c04-05', 'it-a1-c05-04'].includes(id),
+      ),
+    ).toBe(true);
     const maintenance = plans.find((p) => p.groupId === 'intentions')!;
     expect(maintenance).toBeDefined();
     expect(
@@ -293,7 +344,9 @@ describe('mixed evaluation, evidence and persistence', () => {
       (f) => f.kind === 'evaluation',
     );
     expect(
-      evaluations.map((f) => f.kind === 'evaluation' && f.payload.judgment),
+      evaluations
+        .map((f) => f.kind === 'evaluation' && f.payload.judgment)
+        .sort(),
     ).toEqual(['no-opportunity', 'not-evaluable']);
     expect(
       (await store.allFacts()).filter((f) => f.kind === 'evidence'),

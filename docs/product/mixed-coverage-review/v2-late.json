@@ -1,0 +1,410 @@
+[
+  {
+    "code": "25-01",
+    "key": "mixed-independent-1",
+    "version": "2",
+    "format": "translation",
+    "prompt": "Traduci: «No me gusta estudiar de noche».",
+    "accepted": [
+      "Non mi piace studiare di notte",
+      "Non mi piace studiare di notte.",
+      "Io non mi piace studiare di notte",
+      "Io non mi piace studiare di notte."
+    ],
+    "rejected": [
+      "Non mi piacciono studiare di notte"
+    ],
+    "hint": "Relee la situación y decide cómo expresar el mensaje.",
+    "explanation": "Con una actividad en infinitivo se usa mi piace en singular. Non precede al pronombre: non mi piace studiare.",
+    "context": "gustos y estudio",
+    "facets": [
+      "gusto-infinitivo",
+      "negacion"
+    ]
+  },
+  {
+    "code": "26-01",
+    "key": "mixed-independent-1",
+    "version": "2",
+    "format": "translation",
+    "prompt": "Traduci: «Me llamo Elena».",
+    "accepted": [
+      "Mi chiamo Elena",
+      "Mi chiamo Elena.",
+      "Io mi chiamo Elena",
+      "Io mi chiamo Elena."
+    ],
+    "rejected": [
+      "Si chiamo Elena"
+    ],
+    "hint": "Relee la situación y decide cómo expresar el mensaje.",
+    "explanation": "Chiamarsi cambia pronombre y verbo: mi chiamo para io y ti chiami para tu.",
+    "context": "presentación",
+    "facets": [
+      "persona",
+      "pronombre-reflexivo"
+    ]
+  },
+  {
+    "code": "26-01",
+    "key": "mixed-independent-2",
+    "version": "2",
+    "format": "translation",
+    "prompt": "Traduci: «¿Cómo te llamas? (a un amigo)».",
+    "accepted": [
+      "Come ti chiami?",
+      "Come ti chiami",
+      "Tu come ti chiami?",
+      "Tu come ti chiami"
+    ],
+    "rejected": [
+      "Come si chiami?"
+    ],
+    "hint": "Relee la situación y decide cómo expresar el mensaje.",
+    "explanation": "Chiamarsi cambia pronombre y verbo: mi chiamo para io y ti chiami para tu.",
+    "context": "presentación",
+    "facets": [
+      "persona",
+      "pronombre-reflexivo"
+    ]
+  },
+  {
+    "code": "26-02",
+    "key": "mixed-independent-1",
+    "version": "2",
+    "format": "translation",
+    "prompt": "Traduci: «Me levanto a las siete».",
+    "accepted": [
+      "Mi alzo alle sette",
+      "Mi alzo alle sette.",
+      "Io mi alzo alle sette",
+      "Io mi alzo alle sette."
+    ],
+    "rejected": [
+      "Ti alzo alle sette"
+    ],
+    "hint": "Relee la situación y decide cómo expresar el mensaje.",
+    "explanation": "Alzarsi requiere el pronombre de la persona: mi alzo para io. La hora se expresa con alle sette.",
+    "context": "rutina diaria",
+    "facets": [
+      "rutina",
+      "pronombre-reflexivo"
+    ]
+  },
+  {
+    "code": "27-02",
+    "key": "mixed-independent-1",
+    "version": "2",
+    "format": "translation",
+    "prompt": "Traduci: «Compramos muchas manzanas».",
+    "accepted": [
+      "Compriamo molte mele",
+      "Compriamo molte mele.",
+      "Noi compriamo molte mele",
+      "Noi compriamo molte mele."
+    ],
+    "rejected": [
+      "Compriamo molto mele"
+    ],
+    "hint": "Relee la situación y decide cómo expresar el mensaje.",
+    "explanation": "Molto concuerda cuando modifica un nombre: molte mele. No se usa la forma singular molto con mele.",
+    "context": "compra de alimentos",
+    "facets": [
+      "cantidad",
+      "concordancia"
+    ]
+  },
+  {
+    "code": "27-03",
+    "key": "mixed-independent-1",
+    "version": "2",
+    "format": "selection",
+    "prompt": "Al bar chiedi una quantità non precisa di pane. Scegli la frase.",
+    "accepted": [
+      "Vorrei del pane"
+    ],
+    "rejected": [
+      "Vorrei dello pane",
+      "Vorrei delle pane"
+    ],
+    "hint": "Relee la situación y decide cómo expresar el mensaje.",
+    "explanation": "El partitivo indica cantidad indeterminada: del pane con nombre masculino singular; delle mele con femenino plural.",
+    "context": "compra de alimentos",
+    "facets": [
+      "cantidad-indeterminada",
+      "partitivo"
+    ],
+    "skill": "discrimination",
+    "options": [
+      "Vorrei dello pane",
+      "Vorrei del pane",
+      "Vorrei delle pane"
+    ]
+  },
+  {
+    "code": "27-03",
+    "key": "mixed-independent-2",
+    "version": "2",
+    "format": "selection",
+    "prompt": "Al mercato compri alcune mele. Scegli la frase.",
+    "accepted": [
+      "Compro delle mele"
+    ],
+    "rejected": [
+      "Compro del mele",
+      "Compro degli mele"
+    ],
+    "hint": "Relee la situación y decide cómo expresar el mensaje.",
+    "explanation": "El partitivo indica cantidad indeterminada: del pane con nombre masculino singular; delle mele con femenino plural.",
+    "context": "compra de alimentos",
+    "facets": [
+      "cantidad-indeterminada",
+      "partitivo"
+    ],
+    "skill": "discrimination",
+    "options": [
+      "Compro delle mele",
+      "Compro del mele",
+      "Compro degli mele"
+    ]
+  },
+  {
+    "code": "28-01",
+    "key": "mixed-independent-1",
+    "version": "2",
+    "format": "translation",
+    "prompt": "Traduci: «¿Vienes conmigo?».",
+    "accepted": [
+      "Vieni con me?",
+      "Tu vieni con me?"
+    ],
+    "rejected": [
+      "Vieni con io?"
+    ],
+    "hint": "Relee la situación y decide cómo expresar el mensaje.",
+    "explanation": "Después de con se usa el pronombre tónico: con me, no con io.",
+    "context": "invitación",
+    "facets": [
+      "pronombre-tonico"
+    ]
+  },
+  {
+    "code": "29-01",
+    "key": "mixed-independent-1",
+    "version": "2",
+    "format": "translation",
+    "prompt": "Traduci: «Estudio italiano y trabajo en un bar».",
+    "accepted": [
+      "Studio italiano e lavoro in un bar",
+      "Studio italiano e lavoro in un bar.",
+      "Io studio italiano e lavoro in un bar",
+      "Io studio italiano e lavoro in un bar."
+    ],
+    "rejected": [
+      "Studio italiano è lavoro in un bar"
+    ],
+    "hint": "Relee la situación y decide cómo expresar el mensaje.",
+    "explanation": "E sin acento une dos informaciones. È con acento es una forma de essere y no une las dos acciones.",
+    "context": "trabajo y estudio",
+    "facets": [
+      "adicion"
+    ]
+  },
+  {
+    "code": "29-02",
+    "key": "mixed-independent-2",
+    "version": "2",
+    "format": "translation",
+    "prompt": "Traduci: «La habitación es pequeña, pero es bonita».",
+    "accepted": [
+      "La camera è piccola, ma è bella",
+      "La camera è piccola, ma è bella."
+    ],
+    "rejected": [
+      "La camera è piccola, perché è bella"
+    ],
+    "hint": "Relee la situación y decide cómo expresar el mensaje.",
+    "explanation": "Ma une dos informaciones en contraste: pequeña, pero bonita. Perché introduce una causa y cambia el mensaje.",
+    "context": "alojamiento",
+    "facets": [
+      "contraste"
+    ]
+  },
+  {
+    "code": "30-02",
+    "key": "mixed-independent-1",
+    "version": "2",
+    "format": "translation",
+    "prompt": "Traduci: «Habla despacio, por favor (a un amigo)».",
+    "accepted": [
+      "Parla lentamente, per favore",
+      "Parla lentamente, per favore.",
+      "Parla piano, per favore",
+      "Parla piano, per favore.",
+      "Parla più piano, per favore",
+      "Per favore, parla lentamente",
+      "Parla lentamente per favore"
+    ],
+    "rejected": [
+      "Parli lentamente, per favore"
+    ],
+    "hint": "Relee la situación y decide cómo expresar el mensaje.",
+    "explanation": "Parla es la instrucción dirigida a tu. Parli corresponde al tratamiento formal en esta petición.",
+    "context": "instrucciones entre amigos",
+    "facets": [
+      "tu",
+      "instruccion"
+    ]
+  },
+  {
+    "code": "31-01",
+    "key": "mixed-independent-1",
+    "version": "2",
+    "format": "cloze",
+    "prompt": "Ieri ho ___ italiano per due ore. Esprime «he estudiado».",
+    "accepted": [
+      "studiato"
+    ],
+    "rejected": [
+      "studio"
+    ],
+    "hint": "La frase cuenta un hecho terminado.",
+    "explanation": "Después de ho, la acción se expresa con participio: studiato o dormito; studio/dormo son formas de presente.",
+    "context": "experiencias recientes",
+    "facets": [
+      "participio-regular"
+    ]
+  },
+  {
+    "code": "31-01",
+    "key": "mixed-independent-2",
+    "version": "2",
+    "format": "cloze",
+    "prompt": "Stanotte ho ___ bene. Esprime «he dormido».",
+    "accepted": [
+      "dormito"
+    ],
+    "rejected": [
+      "dormo"
+    ],
+    "hint": "La frase cuenta un hecho terminado.",
+    "explanation": "Después de ho, la acción se expresa con participio: studiato o dormito; studio/dormo son formas de presente.",
+    "context": "experiencias recientes",
+    "facets": [
+      "participio-regular"
+    ]
+  },
+  {
+    "code": "31-02",
+    "key": "mixed-independent-1",
+    "version": "2",
+    "format": "cloze",
+    "prompt": "Ieri ho ___ un film. Esprime «he visto».",
+    "accepted": [
+      "visto",
+      "veduto"
+    ],
+    "rejected": [
+      "vedo"
+    ],
+    "hint": "La frase cuenta un hecho terminado.",
+    "explanation": "Vedere tiene los participios visto y veduto. Vedo es presente, no el participio de esta frase.",
+    "context": "ocio",
+    "facets": [
+      "participio-irregular"
+    ]
+  },
+  {
+    "code": "32-01",
+    "key": "mixed-independent-1",
+    "version": "2",
+    "format": "translation",
+    "prompt": "Traduci: «Ayer trabajé».",
+    "accepted": [
+      "Ieri ho lavorato",
+      "Ieri ho lavorato.",
+      "Io ieri ho lavorato",
+      "Io ieri ho lavorato."
+    ],
+    "rejected": [
+      "Ieri lavoro"
+    ],
+    "hint": "Relee la situación y decide cómo expresar el mensaje.",
+    "explanation": "El hecho concluido se expresa aquí con auxiliar y participio: ho lavorato, abbiamo preso. El presente o el infinitivo no expresa ese mismo hecho.",
+    "context": "experiencias de trabajo y viaje",
+    "facets": [
+      "hecho-concluido",
+      "auxiliar-participio"
+    ]
+  },
+  {
+    "code": "32-01",
+    "key": "mixed-independent-2",
+    "version": "2",
+    "format": "translation",
+    "prompt": "Traduci: «Hemos tomado el tren».",
+    "accepted": [
+      "Abbiamo preso il treno",
+      "Abbiamo preso il treno.",
+      "Noi abbiamo preso il treno",
+      "Noi abbiamo preso il treno."
+    ],
+    "rejected": [
+      "Abbiamo prendere il treno"
+    ],
+    "hint": "Relee la situación y decide cómo expresar el mensaje.",
+    "explanation": "El hecho concluido se expresa aquí con auxiliar y participio: ho lavorato, abbiamo preso. El presente o el infinitivo no expresa ese mismo hecho.",
+    "context": "experiencias de trabajo y viaje",
+    "facets": [
+      "hecho-concluido",
+      "auxiliar-participio"
+    ]
+  },
+  {
+    "code": "32-03",
+    "key": "mixed-independent-1",
+    "version": "2",
+    "format": "selection",
+    "prompt": "Racconti la tua abitudine attuale: «Ogni giorno ___ al bar». Esprime «trabajo».",
+    "options": [
+      "lavoro",
+      "ho lavorato"
+    ],
+    "accepted": [
+      "lavoro"
+    ],
+    "rejected": [
+      "ho lavorato"
+    ],
+    "hint": "Es una costumbre actual.",
+    "explanation": "Ogni giorno presenta aquí una costumbre actual; la forma trabajo se expresa con lavoro. Ho lavorato relata un hecho pasado.",
+    "context": "rutina y hechos concluidos",
+    "facets": [
+      "habito-actual",
+      "contraste-temporal"
+    ]
+  },
+  {
+    "code": "33-01",
+    "key": "mixed-independent-1",
+    "version": "2",
+    "format": "translation",
+    "prompt": "Traduci: «Anna y Eva han salido».",
+    "accepted": [
+      "Anna ed Eva sono uscite",
+      "Anna ed Eva sono uscite.",
+      "Anna e Eva sono uscite",
+      "Anna e Eva sono uscite."
+    ],
+    "rejected": [
+      "Anna e Eva sono usciti"
+    ],
+    "hint": "Relee la situación y decide cómo expresar el mensaje.",
+    "explanation": "Con essere, el participio concuerda con el sujeto: Anna y Eva son femenino plural, por eso sono uscite.",
+    "context": "viajes",
+    "facets": [
+      "femenino-plural",
+      "concordancia-participio"
+    ]
+  }
+]

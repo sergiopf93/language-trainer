@@ -1,0 +1,635 @@
+{
+  "source": "/tmp/mixed-final-middle.json",
+  "sha256": "c37120bd7aafe37b3d92f3e42a2bfa8f1b15b47c46cebaf5409ec4e08b1e283c",
+  "reviewer": "audit_early; seguimiento independiente de propuestas middle de otro autor",
+  "readIds": [
+    "it-a1-c14-01-mixed-contesto-01",
+    "it-a1-c14-01-mixed-contesto-02",
+    "it-a1-c15-01-mixed-contesto-01",
+    "it-a1-c15-01-mixed-contesto-02",
+    "it-a1-c15-02-mixed-contesto-01",
+    "it-a1-c15-02-mixed-contesto-02",
+    "it-a1-c15-03-mixed-contesto-01",
+    "it-a1-c15-03-mixed-contesto-02",
+    "it-a1-c16-01-mixed-contesto-01",
+    "it-a1-c16-01-mixed-contesto-02",
+    "it-a1-c16-02-mixed-contesto-01",
+    "it-a1-c16-02-mixed-contesto-02",
+    "it-a1-c16-03-mixed-contesto-01",
+    "it-a1-c16-03-mixed-contesto-02",
+    "it-a1-c16-04-mixed-contesto-01",
+    "it-a1-c16-05-mixed-contesto-01",
+    "it-a1-c16-05-mixed-contesto-02",
+    "it-a1-c16-06-mixed-contesto-01",
+    "it-a1-c16-06-mixed-contesto-02",
+    "it-a1-c16-07-mixed-contesto-01",
+    "it-a1-c16-08-mixed-contesto-01",
+    "it-a1-c16-08-mixed-contesto-02",
+    "it-a1-c17-01-mixed-contesto-01",
+    "it-a1-c18-01-mixed-contesto-01",
+    "it-a1-c18-01-mixed-contesto-02",
+    "it-a1-c21-01-mixed-contesto-01",
+    "it-a1-c21-01-mixed-contesto-02",
+    "it-a1-c24-01-mixed-contesto-01",
+    "it-a1-c24-02-mixed-contesto-01"
+  ],
+  "readCount": 29,
+  "verdict": "approve",
+  "approvedIds": [
+    "it-a1-c14-01-mixed-contesto-01",
+    "it-a1-c14-01-mixed-contesto-02",
+    "it-a1-c15-01-mixed-contesto-01",
+    "it-a1-c15-01-mixed-contesto-02",
+    "it-a1-c15-02-mixed-contesto-01",
+    "it-a1-c15-02-mixed-contesto-02",
+    "it-a1-c15-03-mixed-contesto-01",
+    "it-a1-c15-03-mixed-contesto-02",
+    "it-a1-c16-01-mixed-contesto-01",
+    "it-a1-c16-01-mixed-contesto-02",
+    "it-a1-c16-02-mixed-contesto-01",
+    "it-a1-c16-02-mixed-contesto-02",
+    "it-a1-c16-03-mixed-contesto-01",
+    "it-a1-c16-03-mixed-contesto-02",
+    "it-a1-c16-04-mixed-contesto-01",
+    "it-a1-c16-05-mixed-contesto-01",
+    "it-a1-c16-05-mixed-contesto-02",
+    "it-a1-c16-06-mixed-contesto-01",
+    "it-a1-c16-06-mixed-contesto-02",
+    "it-a1-c16-07-mixed-contesto-01",
+    "it-a1-c16-08-mixed-contesto-01",
+    "it-a1-c16-08-mixed-contesto-02",
+    "it-a1-c17-01-mixed-contesto-01",
+    "it-a1-c18-01-mixed-contesto-01",
+    "it-a1-c18-01-mixed-contesto-02",
+    "it-a1-c21-01-mixed-contesto-01",
+    "it-a1-c21-01-mixed-contesto-02",
+    "it-a1-c24-01-mixed-contesto-01",
+    "it-a1-c24-02-mixed-contesto-01"
+  ],
+  "blockedIds": [],
+  "items": [
+    {
+      "id": "it-a1-c14-01-mixed-contesto-01",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c14-01-mixed-contesto-02",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c15-01-mixed-contesto-01",
+      "version": "3",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted italiano correcto y único en las opciones; distractores no expresan persona/función solicitada.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta y explícita en el escenario.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Bloqueo resuelto: referente descriptivo de Anna explícito o feedback de venire corregido hacia quien habla/interlocutor."
+    },
+    {
+      "id": "it-a1-c15-01-mixed-contesto-02",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c15-02-mixed-contesto-01",
+      "version": "3",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted italiano correcto y único en las opciones; distractores no expresan persona/función solicitada.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta y explícita en el escenario.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Bloqueo resuelto: referente descriptivo de Anna explícito o feedback de venire corregido hacia quien habla/interlocutor."
+    },
+    {
+      "id": "it-a1-c15-02-mixed-contesto-02",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c15-03-mixed-contesto-01",
+      "version": "3",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted italiano correcto y único en las opciones; distractores no expresan persona/función solicitada.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta y explícita en el escenario.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Bloqueo resuelto: referente descriptivo de Anna explícito o feedback de venire corregido hacia quien habla/interlocutor."
+    },
+    {
+      "id": "it-a1-c15-03-mixed-contesto-02",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c16-01-mixed-contesto-01",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c16-01-mixed-contesto-02",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c16-02-mixed-contesto-01",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c16-02-mixed-contesto-02",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Alla vostra casa es gramatical, pero a casa vostra resulta más natural. Ajuste opcional; deixis ya inequívoca porque Anna permanece en hotel.",
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c16-03-mixed-contesto-01",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c16-03-mixed-contesto-02",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c16-04-mixed-contesto-01",
+      "version": "3",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted italiano correcto y único en las opciones; distractores no expresan persona/función solicitada.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta y explícita en el escenario.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Bloqueo resuelto: referente descriptivo de Anna explícito o feedback de venire corregido hacia quien habla/interlocutor."
+    },
+    {
+      "id": "it-a1-c16-05-mixed-contesto-01",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c16-05-mixed-contesto-02",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c16-06-mixed-contesto-01",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c16-06-mixed-contesto-02",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c16-07-mixed-contesto-01",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c16-08-mixed-contesto-01",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Esca es forma real avanzada y distractor poco apropiado para A1; esce sería más proporcionado. No hace ambiguo el criterio actual.",
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c16-08-mixed-contesto-02",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste mayoritario de persona/número con opciones visibles: evidencia F1 discriminación acotada, no recuperación ni selección libre entre lemas."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c17-01-mixed-contesto-01",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c18-01-mixed-contesto-01",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste cortés frente a petición directa válido; no generalizar que voglio sea siempre descortés. Per favore facilita decisión: solo reconocimiento."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c18-01-mixed-contesto-02",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Contraste cortés frente a petición directa válido; no generalizar que voglio sea siempre descortés. Per favore facilita decisión: solo reconocimiento."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c21-01-mixed-contesto-01",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Relación semántica proporcionada legítimamente; se observa selección de contracción. No inferir elección libre de preposición."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c21-01-mixed-contesto-02",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [
+        "Relación semántica proporcionada legítimamente; se observa selección de contracción. No inferir elección libre de preposición."
+      ],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c24-01-mixed-contesto-01",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    },
+    {
+      "id": "it-a1-c24-02-mixed-contesto-01",
+      "version": "2",
+      "readEntireItem": true,
+      "verdict": "approve",
+      "acceptedRejected": "Accepted es una opción exacta y única; distractores no expresan la persona/función requerida.",
+      "leakage": "No se anuncia forma italiana objetivo en prompt. Traducción española y opciones visibles son apoyos declarados compatibles con F1.",
+      "personDeixis": "Correcta en el escenario indicado.",
+      "attribution": "F1/discrimination; sin evidencia de producción, recuperación independiente ni dominio del concepto completo.",
+      "findings": [],
+      "notes": [],
+      "followup": "Ítem idéntico a versión 2 previamente aprobada; sin nueva modificación."
+    }
+  ],
+  "preparationByContext": [
+    {
+      "context": "Presentaciones y trabajo: C14-01",
+      "minimalPreparation": [
+        "C03-01 persona y número",
+        "Fórmula si presenta, clientes/lengua italiano; puede apoyarse en español"
+      ],
+      "extraConceptsIfNotAlreadyIntroduced": []
+    },
+    {
+      "context": "Lectura/comprensión/descanso: C15-01/02/03",
+      "minimalPreparation": [
+        "C03-01",
+        "C06-01 para Non capiamo",
+        "messaggio/libro/hotel/casa conocidos"
+      ],
+      "extraConceptsIfNotAlreadyIntroduced": [
+        "06-01"
+      ]
+    },
+    {
+      "context": "Rutina/desplazamientos: C16-01/02/04/08",
+      "minimalPreparation": [
+        "C03-01",
+        "C04-04 posición y qui",
+        "andar/venir introducidos antes de enfrentarlos",
+        "a Roma, a casa, in hotel; domani y resta comprendidos como apoyo"
+      ],
+      "extraConceptsIfNotAlreadyIntroduced": [
+        "16-02",
+        "16-04",
+        "04-04"
+      ]
+    },
+    {
+      "context": "Bienestar/bebidas: C16-03/06",
+      "minimalPreparation": [
+        "C03-01",
+        "C05-04 sete",
+        "bene/male/acqua conocidos"
+      ],
+      "extraConceptsIfNotAlreadyIntroduced": [
+        "05-04"
+      ]
+    },
+    {
+      "context": "Objetos e interacción: C16-05/07",
+      "minimalPreparation": [
+        "C03-01",
+        "C02-02 grazie",
+        "dare/dire ya introducidos por contraste en opciones",
+        "penna/chiave conocidos; la passi/pronuncia apoyados léxicamente"
+      ],
+      "extraConceptsIfNotAlreadyIntroduced": [
+        "16-05",
+        "16-07"
+      ]
+    },
+    {
+      "context": "Posibilidad/peticiones: C17-01/C18-01",
+      "minimalPreparation": [
+        "C17-02 volere y C17-03 dovere para alternativas de C17-01",
+        "C15-01 leggere",
+        "C02-02 per favore",
+        "camera/caffè/reception conocidos"
+      ],
+      "extraConceptsIfNotAlreadyIntroduced": [
+        "17-02",
+        "17-03",
+        "15-01",
+        "02-02"
+      ]
+    },
+    {
+      "context": "Objetos y pertenencia: C21-01",
+      "minimalPreparation": [
+        "C09-01 lo/il",
+        "C20-01 di y C20-02 su",
+        "C04-04 localización",
+        "C23-01 suo si se mantiene la consigna italiana sin glosa"
+      ],
+      "extraConceptsIfNotAlreadyIntroduced": [
+        "23-01"
+      ]
+    },
+    {
+      "context": "Objetos próximos/lejanos: C24-01/02",
+      "minimalPreparation": [
+        "C07 género",
+        "C08-01 plurales",
+        "Ambos C24-01/C24-02 antes de contraste",
+        "C09-02 forma i/gli de apoyo a quei/quegli",
+        "qui/là/vicino/lontano comprendidos"
+      ],
+      "extraConceptsIfNotAlreadyIntroduced": [
+        "24-01",
+        "24-02",
+        "09-02"
+      ]
+    }
+  ],
+  "globalNotes": [
+    "Dictamen realizado leyendo el contenido, sin basarse en tests.",
+    "Las facetas nuevas persona/numero/seleccion-contextual etc. son descriptores semánticos plausibles pero no las facetas canónicas inspeccionadas anteriormente. Si integrador exige subset de Concept.facets, mapearlas; no asumir que estén corregidas por pasar tests.",
+    "Opciones correctas mantienen patrón de posición repetitivo; ordenarlas de forma determinista variable en presentación evita pista ajena a competencia.",
+    "Conteo de dos por concepto debe considerar pool completo existente: este subconjunto contiene solo una nueva en varios conceptos, y no acredita por sí solo mínimo de dos.",
+    "Conceptos extra enumerados son condicionales a ausencia en cierre transitivo actual. No imponer otros paradigmas completos solo por léxico de instrucciones; una glosa léxica basta."
+  ],
+  "productionModified": false,
+  "reviewMethod": "25 items de v2 comprobados idénticos; seguimiento de los cuatro cambios v3. Se contrastaron consigna, opciones y feedback con el dictamen independiente anterior.",
+  "followupChanges": {
+    "it-a1-c15-01-mixed-contesto-01": [
+      "version",
+      "prompt"
+    ],
+    "it-a1-c15-02-mixed-contesto-01": [
+      "version",
+      "prompt"
+    ],
+    "it-a1-c15-03-mixed-contesto-01": [
+      "version",
+      "prompt"
+    ],
+    "it-a1-c16-04-mixed-contesto-01": [
+      "version",
+      "explanation"
+    ]
+  },
+  "groupPreparationAcknowledged": [
+    "R2 añadirá C23-01 para Il libro è suo.",
+    "Volere y dovere son objetivos del grupo con potere; deben estar introducidos."
+  ]
+}

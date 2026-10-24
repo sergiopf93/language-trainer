@@ -1,0 +1,804 @@
+[
+  {
+    "code": "14-01",
+    "key": "mixed-contesto-01",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Anna si presenta: «Hablo italiano». Scegli la sua frase.",
+    "accepted": [
+      "Parlo italiano"
+    ],
+    "rejected": [
+      "Parla italiano",
+      "Parliamo italiano"
+    ],
+    "options": [
+      "Parla italiano",
+      "Parliamo italiano",
+      "Parlo italiano"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Parlo corresponde a io; parliamo incluye a quien habla y a otra persona. La terminación cambia con la persona.",
+    "context": "trabajo y presentación",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "14-01",
+    "key": "mixed-contesto-02",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Tu e Luca dite: «Hablamos italiano». Scegli la vostra frase.",
+    "accepted": [
+      "Parliamo italiano"
+    ],
+    "rejected": [
+      "Parlano italiano",
+      "Parlo italiano"
+    ],
+    "options": [
+      "Parliamo italiano",
+      "Parlano italiano",
+      "Parlo italiano"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Parlo corresponde a io; parliamo incluye a quien habla y a otra persona. La terminación cambia con la persona.",
+    "context": "trabajo y presentación",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "15-01",
+    "key": "mixed-contesto-01",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Anna: «Lee un mensaje». Quale frase descrive questa azione?",
+    "accepted": [
+      "Legge un messaggio"
+    ],
+    "rejected": [
+      "Dormo in hotel",
+      "Leggono un messaggio"
+    ],
+    "options": [
+      "Dormo in hotel",
+      "Leggono un messaggio",
+      "Legge un messaggio"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Legge corresponde a una persona de la que hablamos; leggiamo al grupo que incluye a quien habla.",
+    "context": "mensajería y lectura breve",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "15-01",
+    "key": "mixed-contesto-02",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Tu e Luca: «Leemos un libro». Scegli la vostra frase.",
+    "accepted": [
+      "Leggiamo un libro"
+    ],
+    "rejected": [
+      "Leggono un libro",
+      "Leggo un libro"
+    ],
+    "options": [
+      "Leggiamo un libro",
+      "Leggono un libro",
+      "Leggo un libro"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Legge corresponde a una persona de la que hablamos; leggiamo al grupo que incluye a quien habla.",
+    "context": "mensajería y lectura breve",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "15-02",
+    "key": "mixed-contesto-01",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Anna: «Duerme en el hotel». Scegli la descrizione.",
+    "accepted": [
+      "Dorme in hotel"
+    ],
+    "rejected": [
+      "Dormono in hotel",
+      "Dormo in hotel"
+    ],
+    "options": [
+      "Dormono in hotel",
+      "Dormo in hotel",
+      "Dorme in hotel"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Dorme corresponde a Anna; dormiamo al grupo que incluye a quien habla. Dormono corresponde a varias personas de las que hablamos.",
+    "context": "alojamiento y descanso",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "15-02",
+    "key": "mixed-contesto-02",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Tu e Luca: «Dormimos en casa». Scegli la vostra frase.",
+    "accepted": [
+      "Dormiamo a casa"
+    ],
+    "rejected": [
+      "Dormono a casa",
+      "Dorme a casa"
+    ],
+    "options": [
+      "Dormiamo a casa",
+      "Dormono a casa",
+      "Dorme a casa"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Dorme corresponde a Anna; dormiamo al grupo que incluye a quien habla. Dormono corresponde a varias personas de las que hablamos.",
+    "context": "alojamiento y descanso",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "15-03",
+    "key": "mixed-contesto-01",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Anna: «Entiende el mensaje». Scegli la descrizione.",
+    "accepted": [
+      "Anna capisce il messaggio"
+    ],
+    "rejected": [
+      "Anna capisco il messaggio",
+      "Anna capiscono il messaggio"
+    ],
+    "options": [
+      "Anna capisco il messaggio",
+      "Anna capiscono il messaggio",
+      "Anna capisce il messaggio"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Capisce lleva -isc- con Anna; con noi se usa capiamo, sin -isc-. Non precede al verbo para negar.",
+    "context": "comprensión de mensajes",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "15-03",
+    "key": "mixed-contesto-02",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Tu e Luca: «No entendemos el mensaje». Scegli la vostra frase.",
+    "accepted": [
+      "Non capiamo il messaggio"
+    ],
+    "rejected": [
+      "Non capiscono il messaggio",
+      "Non capisco il messaggio"
+    ],
+    "options": [
+      "Non capiamo il messaggio",
+      "Non capiscono il messaggio",
+      "Non capisco il messaggio"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Capisce lleva -isc- con Anna; con noi se usa capiamo, sin -isc-. Non precede al verbo para negar.",
+    "context": "comprensión de mensajes",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "16-01",
+    "key": "mixed-contesto-01",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Anna racconta la sua mattina: «Desayuno». Scegli la sua frase.",
+    "accepted": [
+      "Faccio colazione"
+    ],
+    "rejected": [
+      "Fanno colazione",
+      "Facciamo colazione"
+    ],
+    "options": [
+      "Fanno colazione",
+      "Facciamo colazione",
+      "Faccio colazione"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Fare se combina con colazione y pausa. Faccio corresponde a io y facciamo a noi.",
+    "context": "rutina de trabajo",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "16-01",
+    "key": "mixed-contesto-02",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Tu e Luca al lavoro: «Hacemos una pausa». Scegli la vostra frase.",
+    "accepted": [
+      "Facciamo una pausa"
+    ],
+    "rejected": [
+      "Faccio una pausa",
+      "Fanno una pausa"
+    ],
+    "options": [
+      "Facciamo una pausa",
+      "Faccio una pausa",
+      "Fanno una pausa"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Fare se combina con colazione y pausa. Faccio corresponde a io y facciamo a noi.",
+    "context": "rutina de trabajo",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "16-02",
+    "key": "mixed-contesto-01",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Sei a Milano e parli con Anna, anche lei a Milano. Domani parti per Roma; Anna resta a Milano. Scegli la tua frase.",
+    "accepted": [
+      "Vado a Roma"
+    ],
+    "rejected": [
+      "Vengo a Roma",
+      "Vieni a Roma"
+    ],
+    "options": [
+      "Vengo a Roma",
+      "Vieni a Roma",
+      "Vado a Roma"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Andare expresa aquí un desplazamiento a un lugar distinto del de los interlocutores. Vado corresponde a io y andiamo a noi.",
+    "context": "desplazamientos",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "16-02",
+    "key": "mixed-contesto-02",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Tu e Luca siete in hotel con Anna. Poi tornate alla vostra casa; Anna resta in hotel. Scegli la frase che dite ad Anna.",
+    "accepted": [
+      "Andiamo a casa"
+    ],
+    "rejected": [
+      "Veniamo a casa",
+      "Vanno a casa"
+    ],
+    "options": [
+      "Andiamo a casa",
+      "Veniamo a casa",
+      "Vanno a casa"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Andare expresa aquí un desplazamiento a un lugar distinto del de los interlocutores. Vado corresponde a io y andiamo a noi.",
+    "context": "desplazamientos",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "16-03",
+    "key": "mixed-contesto-01",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Un amico chiede come ti senti. Rispondi: «Estoy bien». Scegli.",
+    "accepted": [
+      "Sto bene"
+    ],
+    "rejected": [
+      "Stai bene",
+      "Stanno bene"
+    ],
+    "options": [
+      "Stai bene",
+      "Stanno bene",
+      "Sto bene"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Para responder cómo te encuentras se usa stare con bene/male: sto con io, sta con Luca.",
+    "context": "bienestar cotidiano",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "16-03",
+    "key": "mixed-contesto-02",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Luca non si sente bene. Dici ad Anna: «Luca está mal». Scegli.",
+    "accepted": [
+      "Luca sta male"
+    ],
+    "rejected": [
+      "Luca sto male",
+      "Luca stanno male"
+    ],
+    "options": [
+      "Luca sta male",
+      "Luca sto male",
+      "Luca stanno male"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Para responder cómo te encuentras se usa stare con bene/male: sto con io, sta con Luca.",
+    "context": "bienestar cotidiano",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "16-04",
+    "key": "mixed-contesto-01",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Sei a Roma e inviti Anna, che è a Milano, a raggiungerti qui. Quale domanda le fai?",
+    "accepted": [
+      "Vieni a Roma?"
+    ],
+    "rejected": [
+      "Vai a Roma?",
+      "Vengo a Roma?"
+    ],
+    "options": [
+      "Vai a Roma?",
+      "Vengo a Roma?",
+      "Vieni a Roma?"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Venire describe el movimiento hacia la persona con la que se habla. Veniamo corresponde a nosotros y vieni a tú.",
+    "context": "invitación y desplazamiento",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "16-05",
+    "key": "mixed-contesto-01",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Hai una penna e la passi a Luca: «Doy un bolígrafo a Luca». Scegli.",
+    "accepted": [
+      "Do una penna a Luca"
+    ],
+    "rejected": [
+      "Dico una penna a Luca",
+      "Dà una penna a Luca"
+    ],
+    "options": [
+      "Dico una penna a Luca",
+      "Dà una penna a Luca",
+      "Do una penna a Luca"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Dare expresa entregar algo a alguien: do con io, dà con Anna. Dire expresa decir, no entregar el objeto.",
+    "context": "intercambio de objetos",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "16-05",
+    "key": "mixed-contesto-02",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Anna passa una chiave a Luca: «Anna da una llave a Luca». Scegli.",
+    "accepted": [
+      "Anna dà una chiave a Luca"
+    ],
+    "rejected": [
+      "Anna do una chiave a Luca",
+      "Anna dice una chiave a Luca"
+    ],
+    "options": [
+      "Anna dà una chiave a Luca",
+      "Anna do una chiave a Luca",
+      "Anna dice una chiave a Luca"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Dare expresa entregar algo a alguien: do con io, dà con Anna. Dire expresa decir, no entregar el objeto.",
+    "context": "intercambio de objetos",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "16-06",
+    "key": "mixed-contesto-01",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Hai sete: «Bebo agua». Scegli la tua frase.",
+    "accepted": [
+      "Bevo acqua"
+    ],
+    "rejected": [
+      "Beve acqua",
+      "Bevono acqua"
+    ],
+    "options": [
+      "Beve acqua",
+      "Bevono acqua",
+      "Bevo acqua"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Bere expresa beber. Bevo corresponde a io; bevono a Anna e Luca.",
+    "context": "bebidas",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "16-06",
+    "key": "mixed-contesto-02",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Anna e Luca hanno sete: «Beben agua». Scegli.",
+    "accepted": [
+      "Bevono acqua"
+    ],
+    "rejected": [
+      "Beviamo acqua",
+      "Bevo acqua"
+    ],
+    "options": [
+      "Bevono acqua",
+      "Beviamo acqua",
+      "Bevo acqua"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Bere expresa beber. Bevo corresponde a io; bevono a Anna e Luca.",
+    "context": "bebidas",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "16-07",
+    "key": "mixed-contesto-01",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Anna pronuncia la parola grazie. Quale frase descrive questa azione?",
+    "accepted": [
+      "Anna dice grazie"
+    ],
+    "rejected": [
+      "Anna dà grazie",
+      "Anna dico grazie"
+    ],
+    "options": [
+      "Anna dà grazie",
+      "Anna dico grazie",
+      "Anna dice grazie"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Dire se usa para pronunciar palabras: Anna dice grazie. Parlare indica hablar, por ejemplo una lengua.",
+    "context": "interacción cotidiana",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "16-08",
+    "key": "mixed-contesto-01",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Sei in casa, poi vai fuori: «Salgo de casa». Scegli la tua frase.",
+    "accepted": [
+      "Esco di casa"
+    ],
+    "rejected": [
+      "Esca di casa",
+      "Usciamo di casa"
+    ],
+    "options": [
+      "Esca di casa",
+      "Usciamo di casa",
+      "Esco di casa"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Uscire expresa salir: esco con io, escono con Anna e Luca. Usciamo incluye a quien habla.",
+    "context": "vivienda y desplazamientos",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "16-08",
+    "key": "mixed-contesto-02",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Anna e Luca vanno fuori: «Salen de casa». Scegli.",
+    "accepted": [
+      "Escono di casa"
+    ],
+    "rejected": [
+      "Usciamo di casa",
+      "Esco di casa"
+    ],
+    "options": [
+      "Escono di casa",
+      "Usciamo di casa",
+      "Esco di casa"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Uscire expresa salir: esco con io, escono con Anna e Luca. Usciamo incluye a quien habla.",
+    "context": "vivienda y desplazamientos",
+    "facets": [
+      "persona",
+      "numero",
+      "seleccion-contextual"
+    ]
+  },
+  {
+    "code": "17-01",
+    "key": "mixed-contesto-01",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Il libro è qui e oggi hai tempo libero per leggerlo. Vuoi esprimere questa possibilità. Scegli.",
+    "accepted": [
+      "Oggi posso leggere"
+    ],
+    "rejected": [
+      "Oggi devo leggere",
+      "Oggi voglio leggere"
+    ],
+    "options": [
+      "Oggi devo leggere",
+      "Oggi voglio leggere",
+      "Oggi posso leggere"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Potere expresa la posibilidad indicada; dovere indica obligación y volere deseo. Posso corresponde a io.",
+    "context": "posibilidad cotidiana",
+    "facets": [
+      "posibilidad"
+    ]
+  },
+  {
+    "code": "18-01",
+    "key": "mixed-contesto-01",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Al bar chiedi un caffè in modo cortese. Quale frase scegli?",
+    "accepted": [
+      "Vorrei un caffè, per favore"
+    ],
+    "rejected": [
+      "Voglio un caffè!",
+      "Sono un caffè"
+    ],
+    "options": [
+      "Voglio un caffè!",
+      "Sono un caffè",
+      "Vorrei un caffè, per favore"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Vorrei formula una petición cortés. Voglio expresa deseo de forma más directa; ho/sono comunican otro contenido.",
+    "context": "peticiones de servicio",
+    "facets": [
+      "cortesia"
+    ]
+  },
+  {
+    "code": "18-01",
+    "key": "mixed-contesto-02",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Alla reception chiedi gentilmente una camera. Quale frase scegli?",
+    "accepted": [
+      "Vorrei una camera, per favore"
+    ],
+    "rejected": [
+      "Voglio una camera!",
+      "Ho una camera"
+    ],
+    "options": [
+      "Vorrei una camera, per favore",
+      "Voglio una camera!",
+      "Ho una camera"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Vorrei formula una petición cortés. Voglio expresa deseo de forma más directa; ho/sono comunican otro contenido.",
+    "context": "peticiones de servicio",
+    "facets": [
+      "cortesia"
+    ]
+  },
+  {
+    "code": "21-01",
+    "key": "mixed-contesto-01",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Parli di uno studente già noto. Il libro è suo: «È il libro ___ studente».",
+    "accepted": [
+      "dello"
+    ],
+    "rejected": [
+      "di lo",
+      "del"
+    ],
+    "options": [
+      "di lo",
+      "del",
+      "dello"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "La preposición se une al artículo: di + lo forma dello; su + il forma sul. El referente ya está identificado.",
+    "context": "objetos en vivienda",
+    "facets": [
+      "fusion",
+      "relacion-contextual"
+    ]
+  },
+  {
+    "code": "21-01",
+    "key": "mixed-contesto-02",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Il libro è sopra il letto della camera. Completa: «Il libro è ___ letto».",
+    "accepted": [
+      "sul"
+    ],
+    "rejected": [
+      "su il",
+      "sugli"
+    ],
+    "options": [
+      "sul",
+      "su il",
+      "sugli"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "La preposición se une al artículo: di + lo forma dello; su + il forma sul. El referente ya está identificado.",
+    "context": "objetos en vivienda",
+    "facets": [
+      "fusion",
+      "relacion-contextual"
+    ]
+  },
+  {
+    "code": "24-01",
+    "key": "mixed-contesto-01",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Due penne sono qui, vicino a te. Quale gruppo le indica?",
+    "accepted": [
+      "queste penne"
+    ],
+    "rejected": [
+      "quelle penne",
+      "questi penne"
+    ],
+    "options": [
+      "quelle penne",
+      "questi penne",
+      "queste penne"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Questo señala cercanía y concuerda con el nombre: queste penne es femenino plural.",
+    "context": "objetos cercanos",
+    "facets": [
+      "cercania",
+      "concordancia"
+    ]
+  },
+  {
+    "code": "24-02",
+    "key": "mixed-contesto-01",
+    "version": "2",
+    "format": "selection",
+    "skill": "discrimination",
+    "prompt": "Due libri sono là, lontano da te. Quale gruppo li indica?",
+    "accepted": [
+      "quei libri"
+    ],
+    "rejected": [
+      "questi libri",
+      "quegli libri"
+    ],
+    "options": [
+      "questi libri",
+      "quegli libri",
+      "quei libri"
+    ],
+    "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+    "explanation": "Quello señala distancia y adopta la forma adecuada ante el nombre: quei libri es masculino plural.",
+    "context": "objetos lejanos",
+    "facets": [
+      "distancia",
+      "concordancia"
+    ]
+  }
+]

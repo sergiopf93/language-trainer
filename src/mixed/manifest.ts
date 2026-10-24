@@ -1,8 +1,10 @@
+import { curriculumMixedGroups } from './curriculum-groups';
 // Explicit usage eligibility; does not promote or modify editorial content.
 // Reassess each entry when its authored version changes. Rationale and gaps: A1_MIXED_PRACTICE_IMPLEMENTATION.md.
 export interface MixedGroup {
   id: string;
   conceptIds: string[];
+  prerequisiteIds?: string[];
   items: { id: string; version: string; conceptId: string }[];
 }
 export const mixedGroups: MixedGroup[] = [
@@ -95,6 +97,7 @@ export const mixedGroups: MixedGroup[] = [
   },
   {
     id: 'places-relations',
+    prerequisiteIds: ['it-a1-c16-04', 'it-a1-c14-01', 'it-a1-c15-01'],
     conceptIds: ['it-a1-c20-01', 'it-a1-c20-02', 'it-a1-c20-03'],
     items: [
       {
@@ -169,4 +172,5 @@ export const mixedGroups: MixedGroup[] = [
       },
     ],
   },
+  ...curriculumMixedGroups,
 ];

@@ -1,4 +1,6 @@
 import { applyReviewBatch } from '../editorial-review';
+import { appendMixedCandidates } from './mixed-candidates';
+import { editorialMixed } from './editorial-mixed';
 import { editorialC01C10 } from './editorial-c01-c10';
 import { editorialC11C20 } from './editorial-c11-c20';
 import { editorialC21C34 } from './editorial-c21-c34';
@@ -534,10 +536,20 @@ export const authoredItalianCourse: LanguagePack = {
 };
 
 // Preserve earlier review metadata when the batches share vocabulary.
-export const italianCourse = applyReviewBatch(
+export const reviewedItalianCourse6B = applyReviewBatch(
   applyReviewBatch(
     applyReviewBatch(authoredItalianCourse, editorialC01C10),
     editorialC11C20,
   ),
   editorialC21C34,
+);
+
+// Historical receipts remain valid for their exact bank; additions require a new receipt.
+export const mixedCandidateCourse = appendMixedCandidates(
+  reviewedItalianCourse6B,
+  lessons,
+);
+export const italianCourse = applyReviewBatch(
+  mixedCandidateCourse,
+  editorialMixed,
 );

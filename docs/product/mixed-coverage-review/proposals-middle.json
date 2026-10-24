@@ -1,0 +1,891 @@
+{
+  "status": "candidate",
+  "independentReview": "pending",
+  "enabled": false,
+  "items": [
+    {
+      "code": "14-01",
+      "key": "mixed-contesto-01",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Ogni mattina Anna si presenta ai clienti. Quale frase dice che parla italiano?",
+      "accepted": [
+        "Parlo italiano"
+      ],
+      "rejected": [
+        "Parla italiano",
+        "Parliamo italiano"
+      ],
+      "options": [
+        "Parla italiano",
+        "Parliamo italiano",
+        "Parlo italiano"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Parlo italiano» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "14-01",
+      "key": "mixed-contesto-02",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Tu e Luca spiegate ai clienti quale lingua parlate. Scegli la frase.",
+      "accepted": [
+        "Parliamo italiano"
+      ],
+      "rejected": [
+        "Parlano italiano",
+        "Parlo italiano"
+      ],
+      "options": [
+        "Parliamo italiano",
+        "Parlano italiano",
+        "Parlo italiano"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Parliamo italiano» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "15-01",
+      "key": "mixed-contesto-01",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Anna apre un messaggio e guarda tutte le parole. Che cosa fa?",
+      "accepted": [
+        "Legge un messaggio"
+      ],
+      "rejected": [
+        "Dormo in hotel",
+        "Leggono un messaggio"
+      ],
+      "options": [
+        "Dormo in hotel",
+        "Leggono un messaggio",
+        "Legge un messaggio"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Legge un messaggio» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "15-01",
+      "key": "mixed-contesto-02",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Tu e Luca guardate le parole di un libro. Quale frase descrive la vostra attività?",
+      "accepted": [
+        "Leggiamo un libro"
+      ],
+      "rejected": [
+        "Leggono un libro",
+        "Leggo un libro"
+      ],
+      "options": [
+        "Leggiamo un libro",
+        "Leggono un libro",
+        "Leggo un libro"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Leggiamo un libro» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "15-02",
+      "key": "mixed-contesto-01",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Anna riposa tutta la notte in hotel. Quale frase descrive questa abitudine?",
+      "accepted": [
+        "Dorme in hotel"
+      ],
+      "rejected": [
+        "Dormono in hotel",
+        "Dormo in hotel"
+      ],
+      "options": [
+        "Dormono in hotel",
+        "Dormo in hotel",
+        "Dorme in hotel"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Dorme in hotel» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "15-02",
+      "key": "mixed-contesto-02",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Tu e Luca passate la notte a casa. Quale frase dice che dormite lì?",
+      "accepted": [
+        "Dormiamo a casa"
+      ],
+      "rejected": [
+        "Dormono a casa",
+        "Dorme a casa"
+      ],
+      "options": [
+        "Dormiamo a casa",
+        "Dormono a casa",
+        "Dorme a casa"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Dormiamo a casa» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "15-03",
+      "key": "mixed-contesto-01",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Anna legge un messaggio italiano e sa che cosa significa. Scegli.",
+      "accepted": [
+        "Anna capisce il messaggio"
+      ],
+      "rejected": [
+        "Anna capisco il messaggio",
+        "Anna capiscono il messaggio"
+      ],
+      "options": [
+        "Anna capisco il messaggio",
+        "Anna capiscono il messaggio",
+        "Anna capisce il messaggio"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Anna capisce il messaggio» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "15-03",
+      "key": "mixed-contesto-02",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Tu e Luca leggete il messaggio, ma non sapete che cosa significa. Scegli la vostra risposta.",
+      "accepted": [
+        "Non capiamo il messaggio"
+      ],
+      "rejected": [
+        "Non capiscono il messaggio",
+        "Non capisco il messaggio"
+      ],
+      "options": [
+        "Non capiamo il messaggio",
+        "Non capiscono il messaggio",
+        "Non capisco il messaggio"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Non capiamo il messaggio» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "16-01",
+      "key": "mixed-contesto-01",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Ogni mattina Anna mangia pane e beve latte. Scegli come racconta la sua abitudine.",
+      "accepted": [
+        "Faccio colazione"
+      ],
+      "rejected": [
+        "Fanno colazione",
+        "Facciamo colazione"
+      ],
+      "options": [
+        "Fanno colazione",
+        "Facciamo colazione",
+        "Faccio colazione"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Faccio colazione» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "16-01",
+      "key": "mixed-contesto-02",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Tu e Luca smettete di lavorare per dieci minuti. Come raccontate questa pausa?",
+      "accepted": [
+        "Facciamo una pausa"
+      ],
+      "rejected": [
+        "Faccio una pausa",
+        "Fanno una pausa"
+      ],
+      "options": [
+        "Facciamo una pausa",
+        "Faccio una pausa",
+        "Fanno una pausa"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Facciamo una pausa» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "16-02",
+      "key": "mixed-contesto-01",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Sei a Milano. Anna è a Torino. Domani ti sposti a Roma, dove non si trova nessuno dei due. Scegli.",
+      "accepted": [
+        "Vado a Roma"
+      ],
+      "rejected": [
+        "Vengo a Roma",
+        "Vieni a Roma"
+      ],
+      "options": [
+        "Vengo a Roma",
+        "Vieni a Roma",
+        "Vado a Roma"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Vado a Roma» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "16-02",
+      "key": "mixed-contesto-02",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Tu e Luca siete in hotel; parlate con Anna che è lì con voi. Poi tornate alla vostra casa. Scegli.",
+      "accepted": [
+        "Andiamo a casa"
+      ],
+      "rejected": [
+        "Veniamo a casa",
+        "Vanno a casa"
+      ],
+      "options": [
+        "Andiamo a casa",
+        "Veniamo a casa",
+        "Vanno a casa"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Andiamo a casa» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "16-03",
+      "key": "mixed-contesto-01",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Un amico ti chiede come ti senti. Ti senti bene. Scegli la risposta.",
+      "accepted": [
+        "Sto bene"
+      ],
+      "rejected": [
+        "Stai bene",
+        "Stanno bene"
+      ],
+      "options": [
+        "Stai bene",
+        "Stanno bene",
+        "Sto bene"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Sto bene» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "16-03",
+      "key": "mixed-contesto-02",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Chiedi a Luca come si sente. Lui risponde che si sente male. Come lo racconti ad Anna?",
+      "accepted": [
+        "Luca sta male"
+      ],
+      "rejected": [
+        "Luca sto male",
+        "Luca stanno male"
+      ],
+      "options": [
+        "Luca sta male",
+        "Luca sto male",
+        "Luca stanno male"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Luca sta male» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "16-04",
+      "key": "mixed-contesto-01",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Sei a Roma e inviti Anna, che è a Milano, a raggiungerti qui. Quale domanda le fai?",
+      "accepted": [
+        "Vieni a Roma?"
+      ],
+      "rejected": [
+        "Vai a Roma?",
+        "Vengo a Roma?"
+      ],
+      "options": [
+        "Vai a Roma?",
+        "Vengo a Roma?",
+        "Vieni a Roma?"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Vieni a Roma?» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "16-04",
+      "key": "mixed-contesto-02",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Anna è in hotel e vi invita a raggiungerla. Tu e Luca accettate. Scegli la risposta.",
+      "accepted": [
+        "Veniamo in hotel"
+      ],
+      "rejected": [
+        "Venite in hotel",
+        "Vengono in hotel"
+      ],
+      "options": [
+        "Veniamo in hotel",
+        "Venite in hotel",
+        "Vengono in hotel"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Veniamo in hotel» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "16-05",
+      "key": "mixed-contesto-01",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Hai una penna e la passi a Luca. Quale frase descrive ciò che fai?",
+      "accepted": [
+        "Do una penna a Luca"
+      ],
+      "rejected": [
+        "Dico una penna a Luca",
+        "Dà una penna a Luca"
+      ],
+      "options": [
+        "Dico una penna a Luca",
+        "Dà una penna a Luca",
+        "Do una penna a Luca"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Do una penna a Luca» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "16-05",
+      "key": "mixed-contesto-02",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Anna ha una chiave e la passa a Luca. Scegli.",
+      "accepted": [
+        "Anna dà una chiave a Luca"
+      ],
+      "rejected": [
+        "Anna do una chiave a Luca",
+        "Anna dice una chiave a Luca"
+      ],
+      "options": [
+        "Anna dà una chiave a Luca",
+        "Anna do una chiave a Luca",
+        "Anna dice una chiave a Luca"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Anna dà una chiave a Luca» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "16-06",
+      "key": "mixed-contesto-01",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Hai sete e prendi un bicchiere d’acqua. Quale frase dice che bevi tu?",
+      "accepted": [
+        "Bevo acqua"
+      ],
+      "rejected": [
+        "Beve acqua",
+        "Bevono acqua"
+      ],
+      "options": [
+        "Beve acqua",
+        "Bevono acqua",
+        "Bevo acqua"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Bevo acqua» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "16-06",
+      "key": "mixed-contesto-02",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Anna e Luca hanno sete e bevono acqua. Come descrivi la loro azione?",
+      "accepted": [
+        "Bevono acqua"
+      ],
+      "rejected": [
+        "Beviamo acqua",
+        "Bevo acqua"
+      ],
+      "options": [
+        "Bevono acqua",
+        "Beviamo acqua",
+        "Bevo acqua"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Bevono acqua» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "16-07",
+      "key": "mixed-contesto-01",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Anna ti ringrazia: pronuncia la parola grazie. Come descrivi ciò che fa?",
+      "accepted": [
+        "Anna dice grazie"
+      ],
+      "rejected": [
+        "Anna dà grazie",
+        "Anna dico grazie"
+      ],
+      "options": [
+        "Anna dà grazie",
+        "Anna dico grazie",
+        "Anna dice grazie"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Anna dice grazie» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "16-07",
+      "key": "mixed-contesto-02",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Tu e Luca pronunciate il numero della camera. Come raccontate l’azione?",
+      "accepted": [
+        "Diciamo il numero"
+      ],
+      "rejected": [
+        "Diamo il numero",
+        "Dicono il numero"
+      ],
+      "options": [
+        "Diciamo il numero",
+        "Diamo il numero",
+        "Dicono il numero"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Diciamo il numero» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "16-08",
+      "key": "mixed-contesto-01",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Sei in casa. Passi la porta e vai fuori. Quale frase descrive questa azione?",
+      "accepted": [
+        "Esco di casa"
+      ],
+      "rejected": [
+        "Esca di casa",
+        "Usciamo di casa"
+      ],
+      "options": [
+        "Esca di casa",
+        "Usciamo di casa",
+        "Esco di casa"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Esco di casa» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "16-08",
+      "key": "mixed-contesto-02",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Anna e Luca sono in casa, poi passano la porta e vanno fuori. Scegli.",
+      "accepted": [
+        "Escono di casa"
+      ],
+      "rejected": [
+        "Usciamo di casa",
+        "Esco di casa"
+      ],
+      "options": [
+        "Escono di casa",
+        "Usciamo di casa",
+        "Esco di casa"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Escono di casa» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "17-01",
+      "key": "mixed-contesto-01",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Il libro è qui e oggi hai tempo libero per leggerlo. Vuoi esprimere questa possibilità. Scegli.",
+      "accepted": [
+        "Oggi posso leggere"
+      ],
+      "rejected": [
+        "Oggi devo leggere",
+        "Oggi voglio leggere"
+      ],
+      "options": [
+        "Oggi devo leggere",
+        "Oggi voglio leggere",
+        "Oggi posso leggere"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Oggi posso leggere» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "17-01",
+      "key": "mixed-contesto-02",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Tu e Luca chiedete il permesso di uscire. Scegli la domanda.",
+      "accepted": [
+        "Possiamo uscire?"
+      ],
+      "rejected": [
+        "Dobbiamo uscire?",
+        "Vogliamo uscire?"
+      ],
+      "options": [
+        "Possiamo uscire?",
+        "Dobbiamo uscire?",
+        "Vogliamo uscire?"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Possiamo uscire?» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "18-01",
+      "key": "mixed-contesto-01",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Al bar chiedi un caffè in modo cortese. Quale frase scegli?",
+      "accepted": [
+        "Vorrei un caffè, per favore"
+      ],
+      "rejected": [
+        "Voglio un caffè!",
+        "Sono un caffè"
+      ],
+      "options": [
+        "Voglio un caffè!",
+        "Sono un caffè",
+        "Vorrei un caffè, per favore"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Vorrei un caffè, per favore» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "18-01",
+      "key": "mixed-contesto-02",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Alla reception chiedi gentilmente una camera. Quale frase scegli?",
+      "accepted": [
+        "Vorrei una camera, per favore"
+      ],
+      "rejected": [
+        "Voglio una camera!",
+        "Ho una camera"
+      ],
+      "options": [
+        "Vorrei una camera, per favore",
+        "Voglio una camera!",
+        "Ho una camera"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «Vorrei una camera, per favore» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "21-01",
+      "key": "mixed-contesto-01",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Il libro appartiene allo studente che conosci. Completa: «È il libro ___ studente».",
+      "accepted": [
+        "dello"
+      ],
+      "rejected": [
+        "di lo",
+        "del"
+      ],
+      "options": [
+        "di lo",
+        "del",
+        "dello"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «dello» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "21-01",
+      "key": "mixed-contesto-02",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Il letto è quello della tua camera. Un libro è sopra il letto. Completa: «Il libro è ___ letto».",
+      "accepted": [
+        "sul"
+      ],
+      "rejected": [
+        "su il",
+        "sugli"
+      ],
+      "options": [
+        "sul",
+        "su il",
+        "sugli"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «sul» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "24-01",
+      "key": "mixed-contesto-01",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Due penne sono qui, vicino a te. Quale gruppo le indica?",
+      "accepted": [
+        "queste penne"
+      ],
+      "rejected": [
+        "quelle penne",
+        "questi penne"
+      ],
+      "options": [
+        "quelle penne",
+        "questi penne",
+        "queste penne"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «queste penne» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "24-01",
+      "key": "mixed-contesto-02",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Un libro è qui, vicino a te. Quale gruppo lo indica?",
+      "accepted": [
+        "questo libro"
+      ],
+      "rejected": [
+        "quel libro",
+        "questa libro"
+      ],
+      "options": [
+        "questo libro",
+        "quel libro",
+        "questa libro"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «questo libro» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "24-02",
+      "key": "mixed-contesto-01",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Due libri sono là, lontano da te. Quale gruppo li indica?",
+      "accepted": [
+        "quei libri"
+      ],
+      "rejected": [
+        "questi libri",
+        "quegli libri"
+      ],
+      "options": [
+        "questi libri",
+        "quegli libri",
+        "quei libri"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «quei libri» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    },
+    {
+      "code": "24-02",
+      "key": "mixed-contesto-02",
+      "version": "1",
+      "format": "selection",
+      "skill": "discrimination",
+      "prompt": "Una penna è là, lontano da te. Quale gruppo la indica?",
+      "accepted": [
+        "quella penna"
+      ],
+      "rejected": [
+        "questa penna",
+        "quello penna"
+      ],
+      "options": [
+        "quella penna",
+        "questa penna",
+        "quello penna"
+      ],
+      "hint": "Identifica quién actúa y qué quiere comunicar en esta situación.",
+      "explanation": "La opción «quella penna» corresponde a la persona y al significado indicados en la situación.",
+      "context": "situación cotidiana explícita en el enunciado",
+      "facets": [
+        "seleccion-contextual"
+      ]
+    }
+  ]
+}

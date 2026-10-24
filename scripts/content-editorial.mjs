@@ -3,7 +3,7 @@ import { readFile } from 'node:fs/promises';
 const bundled = await build({
   stdin: {
     contents:
-      "export { italianCourse } from './src/content/italian-a1/course'; export { editorialC01C10 } from './src/content/italian-a1/editorial-c01-c10'; export { editorialC11C20 } from './src/content/italian-a1/editorial-c11-c20'; export { editorialC21C34 } from './src/content/italian-a1/editorial-c21-c34'; export { validatePack } from './src/content/validate'; export { reviewFingerprint } from './src/content/editorial-review';",
+      "export { italianCourse, reviewedItalianCourse6B } from './src/content/italian-a1/course'; export { editorialMixed } from './src/content/italian-a1/editorial-mixed'; export { editorialC01C10 } from './src/content/italian-a1/editorial-c01-c10'; export { editorialC11C20 } from './src/content/italian-a1/editorial-c11-c20'; export { editorialC21C34 } from './src/content/italian-a1/editorial-c21-c34'; export { validatePack } from './src/content/validate'; export { reviewFingerprint } from './src/content/editorial-review';",
     resolveDir: process.cwd(),
   },
   bundle: true,
@@ -14,6 +14,8 @@ const bundled = await build({
 });
 const {
   italianCourse: pack,
+  reviewedItalianCourse6B,
+  editorialMixed,
   editorialC01C10,
   editorialC11C20,
   editorialC21C34,
@@ -23,7 +25,15 @@ const {
   'data:text/javascript;base64,' +
     Buffer.from(bundled.outputFiles[0].text).toString('base64')
 );
-const batches = [editorialC01C10, editorialC11C20, editorialC21C34];
+const historicalBatches = [editorialC01C10, editorialC11C20, editorialC21C34];
+const replaced = new Set(editorialMixed.concepts.map((r) => r.concept.id));
+const batches = [
+  ...historicalBatches.map((b) => ({
+    ...b,
+    concepts: b.concepts.filter((r) => !replaced.has(r.concept.id)),
+  })),
+  editorialMixed,
+];
 const changes = (
   await Promise.all(
     ['C01_C10', 'C11_C20', 'C21_C34'].map(async (scope) => {
@@ -96,6 +106,15 @@ const report = {
   concepts: rows,
   errors: [
     ...validatePack(pack),
+    ...historicalBatches.flatMap((b) =>
+      b.concepts
+        .filter(
+          (r) =>
+            reviewFingerprint(reviewedItalianCourse6B, r.concept.id) !==
+            r.fingerprint,
+        )
+        .map((r) => `${r.concept.id}: recibo histórico obsoleto`),
+    ),
     ...rows
       .filter((r) => !r.receiptCurrent)
       .map((r) => `${r.id}: recibo obsoleto`),

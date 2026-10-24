@@ -55,6 +55,20 @@ export function mixedPrerequisites(
   visit(id);
   return [...ids].sort();
 }
+// Context can require supporting concepts beyond the target's curricular graph.
+export function mixedGroupPrerequisites(
+  catalog: ContentRepository,
+  group: MixedGroup,
+): string[] {
+  return [
+    ...new Set(
+      [...group.conceptIds, ...(group.prerequisiteIds ?? [])].flatMap((id) => [
+        id,
+        ...mixedPrerequisites(catalog, id),
+      ]),
+    ),
+  ].sort();
+}
 function orderKey(id: string, seed: number) {
   let value = (2166136261 ^ seed) >>> 0;
   for (const c of id)
@@ -85,10 +99,8 @@ export function mixedPlans(
   return mixedGroups
     .flatMap((group): MixedPlan[] => {
       if (
-        !group.conceptIds.every(
-          (id) =>
-            introduced.has(id) &&
-            mixedPrerequisites(catalog, id).every((p) => introduced.has(p)),
+        !mixedGroupPrerequisites(catalog, group).every((id) =>
+          introduced.has(id),
         )
       )
         return [];

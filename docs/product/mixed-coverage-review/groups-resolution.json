@@ -1,0 +1,486 @@
+{
+  "status": "resolved-for-snapshot",
+  "scope": "Seguimiento exclusivo de hallazgos previos. No nueva auditoría general. Dictamen original intacto.",
+  "sourceHashes": {
+    "/tmp/mixed-resolved-groups.json": "ca89be531bfba9fa923a246961ce852b4fa884c2bcebb1389ec77896ade166dd",
+    "/tmp/mixed-final-groups.json": "086721416680370d8f3ca590963871081da94c2e6d323934d3441183169a318a",
+    "/tmp/mixed-groups-verdict.json": "c826262373537aff226b6ff9706d971685e92fe696da54c5c0076641c526a800",
+    "/tmp/mixed-course.json": "e29049fa05f91180c730e2385b55b06aff0317ad5e3d4211f74e9cb8d8ba0ea1"
+  },
+  "preparationFindings": [
+    {
+      "groupId": "presentazione",
+      "originalIssue": "preparación de soporte no presente en cierre",
+      "requiredIds": [
+        "it-a1-c04-04"
+      ],
+      "remainingMissingIds": [],
+      "status": "resolved"
+    },
+    {
+      "groupId": "persone-verbi",
+      "originalIssue": "preparación de soporte no presente en cierre",
+      "requiredIds": [
+        "it-a1-c13-01",
+        "it-a1-c08-01"
+      ],
+      "remainingMissingIds": [],
+      "status": "resolved"
+    },
+    {
+      "groupId": "domande-risposte",
+      "originalIssue": "preparación de soporte no presente en cierre",
+      "requiredIds": [
+        "it-a1-c05-04",
+        "it-a1-c04-04"
+      ],
+      "remainingMissingIds": [],
+      "status": "resolved"
+    },
+    {
+      "groupId": "nuovo-noto",
+      "originalIssue": "preparación de soporte no presente en cierre",
+      "requiredIds": [
+        "it-a1-c05-02",
+        "it-a1-c04-04",
+        "it-a1-c02-02"
+      ],
+      "remainingMissingIds": [],
+      "status": "resolved"
+    },
+    {
+      "groupId": "forme-articoli",
+      "originalIssue": "preparación de soporte no presente en cierre",
+      "requiredIds": [
+        "it-a1-c05-02"
+      ],
+      "remainingMissingIds": [],
+      "status": "resolved"
+    },
+    {
+      "groupId": "descrizioni",
+      "originalIssue": "preparación de soporte no presente en cierre",
+      "requiredIds": [
+        "it-a1-c02-02"
+      ],
+      "remainingMissingIds": [],
+      "status": "resolved"
+    },
+    {
+      "groupId": "numeri-uso",
+      "originalIssue": "preparación de soporte no presente en cierre",
+      "requiredIds": [
+        "it-a1-c08-01"
+      ],
+      "remainingMissingIds": [],
+      "status": "resolved"
+    },
+    {
+      "groupId": "read-understand",
+      "originalIssue": "preparación de soporte no presente en cierre",
+      "requiredIds": [
+        "it-a1-c15-02",
+        "it-a1-c04-04"
+      ],
+      "remainingMissingIds": [],
+      "status": "resolved"
+    },
+    {
+      "groupId": "communicate-read",
+      "originalIssue": "preparación de soporte no presente en cierre",
+      "requiredIds": [
+        "it-a1-c15-02",
+        "it-a1-c04-04"
+      ],
+      "remainingMissingIds": [],
+      "status": "resolved"
+    },
+    {
+      "groupId": "polite-addressee",
+      "originalIssue": "preparación de soporte no presente en cierre",
+      "requiredIds": [
+        "it-a1-c17-02",
+        "it-a1-c04-03"
+      ],
+      "remainingMissingIds": [],
+      "status": "resolved"
+    },
+    {
+      "groupId": "company-purpose",
+      "originalIssue": "preparación de soporte no presente en cierre",
+      "requiredIds": [
+        "it-a1-c28-01",
+        "it-a1-c09-01"
+      ],
+      "remainingMissingIds": [],
+      "status": "resolved"
+    },
+    {
+      "groupId": "likes-activities",
+      "originalIssue": "preparación de soporte no presente en cierre",
+      "requiredIds": [
+        "it-a1-c09-01",
+        "it-a1-c10-01",
+        "it-a1-c20-06"
+      ],
+      "remainingMissingIds": [],
+      "status": "resolved"
+    },
+    {
+      "groupId": "indefinite-amount",
+      "originalIssue": "preparación de soporte no presente en cierre",
+      "requiredIds": [
+        "it-a1-c05-02"
+      ],
+      "remainingMissingIds": [],
+      "status": "resolved"
+    },
+    {
+      "groupId": "pronoun-reference",
+      "originalIssue": "preparación de soporte no presente en cierre",
+      "requiredIds": [
+        "it-a1-c15-01",
+        "it-a1-c06-01"
+      ],
+      "remainingMissingIds": [],
+      "status": "resolved"
+    },
+    {
+      "groupId": "message-relations",
+      "originalIssue": "preparación de soporte no presente en cierre",
+      "requiredIds": [
+        "it-a1-c11-01",
+        "it-a1-c20-02",
+        "it-a1-c10-01"
+      ],
+      "remainingMissingIds": [],
+      "status": "resolved"
+    },
+    {
+      "groupId": "instructions-sequence",
+      "originalIssue": "preparación de soporte no presente en cierre",
+      "requiredIds": [
+        "it-a1-c20-02",
+        "it-a1-c02-02"
+      ],
+      "remainingMissingIds": [],
+      "status": "resolved"
+    },
+    {
+      "groupId": "past-events",
+      "originalIssue": "preparación de soporte no presente en cierre",
+      "requiredIds": [
+        "it-a1-c16-04"
+      ],
+      "remainingMissingIds": [],
+      "status": "resolved"
+    },
+    {
+      "groupId": "shopping-objects",
+      "originalIssue": "preparación de soporte no presente en cierre",
+      "requiredIds": [
+        "it-a1-c02-02"
+      ],
+      "remainingMissingIds": [],
+      "status": "resolved"
+    },
+    {
+      "groupId": "contacts-needs",
+      "originalIssue": "preparación de soporte no presente en cierre",
+      "requiredIds": [
+        "it-a1-c04-05"
+      ],
+      "remainingMissingIds": [],
+      "status": "resolved"
+    }
+  ],
+  "specificResolutions": [
+    {
+      "issue": "Filtración C34-05-dormire sobre C25-01",
+      "status": "resolved",
+      "actionVerified": "ID retirado únicamente del grupo likes-activities; actividades conservadas en fuente."
+    },
+    {
+      "issue": "Rationale forme-articoli",
+      "status": "resolved",
+      "verifiedText": "Alternar formas de artículos determinados e indeterminados por género y comienzo del nombre. Las opciones no acreditan elección libre de definitud."
+    },
+    {
+      "issue": "C23-01 preposition-reference",
+      "status": "resolved"
+    }
+  ],
+  "diffChecks": {
+    "groupIdsUnchanged": true,
+    "conceptMembershipUnchanged": true,
+    "minimumTwoPerConceptPreserved": true,
+    "unexpectedItemChanges": [],
+    "changes": [
+      {
+        "groupId": "presentazione",
+        "changedFields": [
+          "prerequisiteIds"
+        ],
+        "addedPreparationIds": [
+          "it-a1-c04-04"
+        ],
+        "removedItems": [],
+        "addedItems": []
+      },
+      {
+        "groupId": "persone-verbi",
+        "changedFields": [
+          "prerequisiteIds"
+        ],
+        "addedPreparationIds": [
+          "it-a1-c13-01",
+          "it-a1-c08-01"
+        ],
+        "removedItems": [],
+        "addedItems": []
+      },
+      {
+        "groupId": "domande-risposte",
+        "changedFields": [
+          "prerequisiteIds"
+        ],
+        "addedPreparationIds": [
+          "it-a1-c05-04",
+          "it-a1-c04-04"
+        ],
+        "removedItems": [],
+        "addedItems": []
+      },
+      {
+        "groupId": "nuovo-noto",
+        "changedFields": [
+          "prerequisiteIds"
+        ],
+        "addedPreparationIds": [
+          "it-a1-c05-02",
+          "it-a1-c04-04",
+          "it-a1-c02-02"
+        ],
+        "removedItems": [],
+        "addedItems": []
+      },
+      {
+        "groupId": "forme-articoli",
+        "changedFields": [
+          "prerequisiteIds",
+          "rationale"
+        ],
+        "addedPreparationIds": [
+          "it-a1-c05-02"
+        ],
+        "removedItems": [],
+        "addedItems": []
+      },
+      {
+        "groupId": "descrizioni",
+        "changedFields": [
+          "prerequisiteIds"
+        ],
+        "addedPreparationIds": [
+          "it-a1-c02-02"
+        ],
+        "removedItems": [],
+        "addedItems": []
+      },
+      {
+        "groupId": "numeri-uso",
+        "changedFields": [
+          "prerequisiteIds"
+        ],
+        "addedPreparationIds": [
+          "it-a1-c08-01"
+        ],
+        "removedItems": [],
+        "addedItems": []
+      },
+      {
+        "groupId": "read-understand",
+        "changedFields": [
+          "prerequisiteIds"
+        ],
+        "addedPreparationIds": [
+          "it-a1-c15-02",
+          "it-a1-c04-04"
+        ],
+        "removedItems": [],
+        "addedItems": []
+      },
+      {
+        "groupId": "communicate-read",
+        "changedFields": [
+          "prerequisiteIds"
+        ],
+        "addedPreparationIds": [
+          "it-a1-c15-02",
+          "it-a1-c04-04"
+        ],
+        "removedItems": [],
+        "addedItems": []
+      },
+      {
+        "groupId": "polite-addressee",
+        "changedFields": [
+          "prerequisiteIds"
+        ],
+        "addedPreparationIds": [
+          "it-a1-c17-02",
+          "it-a1-c04-03"
+        ],
+        "removedItems": [],
+        "addedItems": []
+      },
+      {
+        "groupId": "company-purpose",
+        "changedFields": [
+          "prerequisiteIds"
+        ],
+        "addedPreparationIds": [
+          "it-a1-c28-01",
+          "it-a1-c09-01"
+        ],
+        "removedItems": [],
+        "addedItems": []
+      },
+      {
+        "groupId": "preposition-reference",
+        "changedFields": [
+          "prerequisiteIds"
+        ],
+        "addedPreparationIds": [
+          "it-a1-c23-01"
+        ],
+        "removedItems": [],
+        "addedItems": []
+      },
+      {
+        "groupId": "likes-activities",
+        "changedFields": [
+          "items",
+          "prerequisiteIds"
+        ],
+        "addedPreparationIds": [
+          "it-a1-c09-01",
+          "it-a1-c10-01",
+          "it-a1-c20-06"
+        ],
+        "removedItems": [
+          {
+            "id": "it-a1-c34-05-dormire",
+            "version": "1",
+            "conceptId": "it-a1-c34-05"
+          }
+        ],
+        "addedItems": []
+      },
+      {
+        "groupId": "indefinite-amount",
+        "changedFields": [
+          "prerequisiteIds"
+        ],
+        "addedPreparationIds": [
+          "it-a1-c05-02"
+        ],
+        "removedItems": [],
+        "addedItems": []
+      },
+      {
+        "groupId": "pronoun-reference",
+        "changedFields": [
+          "prerequisiteIds"
+        ],
+        "addedPreparationIds": [
+          "it-a1-c15-01",
+          "it-a1-c06-01"
+        ],
+        "removedItems": [],
+        "addedItems": []
+      },
+      {
+        "groupId": "message-relations",
+        "changedFields": [
+          "prerequisiteIds"
+        ],
+        "addedPreparationIds": [
+          "it-a1-c11-01",
+          "it-a1-c20-02",
+          "it-a1-c10-01"
+        ],
+        "removedItems": [],
+        "addedItems": []
+      },
+      {
+        "groupId": "instructions-sequence",
+        "changedFields": [
+          "prerequisiteIds"
+        ],
+        "addedPreparationIds": [
+          "it-a1-c20-02",
+          "it-a1-c02-02"
+        ],
+        "removedItems": [],
+        "addedItems": []
+      },
+      {
+        "groupId": "past-events",
+        "changedFields": [
+          "prerequisiteIds"
+        ],
+        "addedPreparationIds": [
+          "it-a1-c16-04"
+        ],
+        "removedItems": [],
+        "addedItems": []
+      },
+      {
+        "groupId": "shopping-objects",
+        "changedFields": [
+          "prerequisiteIds"
+        ],
+        "addedPreparationIds": [
+          "it-a1-c02-02"
+        ],
+        "removedItems": [],
+        "addedItems": []
+      },
+      {
+        "groupId": "contacts-needs",
+        "changedFields": [
+          "prerequisiteIds"
+        ],
+        "addedPreparationIds": [
+          "it-a1-c04-05"
+        ],
+        "removedItems": [],
+        "addedItems": []
+      }
+    ]
+  },
+  "pendingLimits": [
+    {
+      "groupId": "past-participles",
+      "limit": "C31-02 conserva una comprensión letto→leído y una recuperación visto: dos oportunidades pertinentes, no dos recuperaciones productivas."
+    },
+    {
+      "groupId": "then-now",
+      "limit": "C32-03 combina extracción de hecho pasado y selección de hábito actual; no demuestra narración autónoma."
+    },
+    {
+      "groupId": "contacts-needs",
+      "limit": "C34-07 muestrea contacto/personas/disponibilidad; no acredita dolor, fiebre o petición de ayuda."
+    },
+    {
+      "groupId": "places-relations",
+      "limit": "Snapshot resuelto contiene solo los 42 grupos nuevos. Preparación C16-04/C14-01/C15-01 prevista para grupo anterior queda fuera de este archivo; no afirmar comprobación de su integración."
+    }
+  ],
+  "validationLimits": [
+    "Se verificaron cierres transitivos contra relaciones del snapshot course, no ejecución runtime ni eficacia.",
+    "Agregar soporte conservador puede retrasar disponibilidad; no modifica grafo curricular ni acredita dominio de soportes.",
+    "La ausencia de cambios en actividades/recibos se comprueba aquí en referencias de grupos; no es auditoría de hashes de todos los archivos fuente."
+  ]
+}

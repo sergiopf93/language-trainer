@@ -3,7 +3,7 @@ import { createHash } from 'node:crypto';
 import { describe, expect, it } from 'vitest';
 import {
   authoredItalianCourse,
-  italianCourse,
+  reviewedItalianCourse6B as italianCourse,
 } from '../src/content/italian-a1/course';
 import { editorialC01C10 } from '../src/content/italian-a1/editorial-c01-c10';
 import { editorialC11C20 } from '../src/content/italian-a1/editorial-c11-c20';

@@ -1,0 +1,375 @@
+{
+  "status": "candidate",
+  "independentReview": "pending",
+  "enabled": false,
+  "items": [
+    {
+      "code": "04-01",
+      "key": "mixed-qui",
+      "version": "1",
+      "format": "controlled-production",
+      "prompt": "Luca e Anna sono già in hotel. Scrivi «Estamos aquí» dal loro punto di vista.",
+      "accepted": [
+        "siamo qui",
+        "noi siamo qui",
+        "siamo qui.",
+        "noi siamo qui."
+      ],
+      "rejected": [],
+      "hint": "Piensa en las personas y en la situación comunicativa.",
+      "explanation": "Siamo corresponde al grupo que incluye a quien habla; siete se dirige a varias personas. La situación indica quién habla y dónde está.",
+      "context": "presentación",
+      "facets": [
+        "persona",
+        "numero",
+        "sujeto nominal",
+        "sujeto omitido"
+      ]
+    },
+    {
+      "code": "04-01",
+      "key": "mixed-voi",
+      "version": "1",
+      "format": "controlled-production",
+      "prompt": "Parli ad Anna e Luca: «Vosotros estáis en Roma». Scrivi la frase.",
+      "accepted": [
+        "voi siete a Roma",
+        "siete a Roma",
+        "voi siete a Roma.",
+        "siete a Roma."
+      ],
+      "rejected": [],
+      "hint": "Piensa en las personas y en la situación comunicativa.",
+      "explanation": "Siamo corresponde al grupo que incluye a quien habla; siete se dirige a varias personas. La situación indica quién habla y dónde está.",
+      "context": "presentación",
+      "facets": [
+        "persona",
+        "numero",
+        "sujeto nominal",
+        "sujeto omitido"
+      ]
+    },
+    {
+      "code": "05-01",
+      "key": "mixed-biglietti",
+      "version": "1",
+      "format": "controlled-production",
+      "prompt": "Anna e Luca mostrano i loro biglietti. Scrivi «Tienen dos billetes», usando i loro nomi.",
+      "accepted": [
+        "Anna e Luca hanno due biglietti",
+        "Anna e Luca hanno due biglietti."
+      ],
+      "rejected": [],
+      "hint": "Piensa en las personas y en la situación comunicativa.",
+      "explanation": "Avere expresa posesión. Hanno corresponde a Anna e Luca; avete se dirige a varias personas.",
+      "context": "objetos cotidianos",
+      "facets": [
+        "persona",
+        "numero",
+        "h",
+        "sujeto nominal"
+      ]
+    },
+    {
+      "code": "05-01",
+      "key": "mixed-chiave",
+      "version": "1",
+      "format": "controlled-production",
+      "prompt": "Parli a due amici. Chiedi «¿Tenéis una llave?».",
+      "accepted": [
+        "avete una chiave?",
+        "voi avete una chiave?"
+      ],
+      "rejected": [],
+      "hint": "Piensa en las personas y en la situación comunicativa.",
+      "explanation": "Avere expresa posesión. Hanno corresponde a Anna e Luca; avete se dirige a varias personas.",
+      "context": "objetos cotidianos",
+      "facets": [
+        "persona",
+        "numero",
+        "h",
+        "sujeto nominal"
+      ]
+    },
+    {
+      "code": "07-01",
+      "key": "mixed-penna",
+      "version": "1",
+      "format": "selection",
+      "prompt": "Scegli il messaggio per «El bolígrafo es rojo».",
+      "accepted": [
+        "La penna è rossa."
+      ],
+      "rejected": [
+        "Il penna è rosso.",
+        "Lo penna è rosso."
+      ],
+      "hint": "Piensa en las personas y en la situación comunicativa.",
+      "explanation": "El género italiano pertenece al nombre: penna es femenino y letto masculino; artículo y adjetivo concuerdan con él, aunque cambie el género de la traducción española.",
+      "context": "objetos cotidianos",
+      "facets": [
+        "tendencias",
+        "género-léxico",
+        "contraste-español"
+      ],
+      "options": [
+        "La penna è rossa.",
+        "Il penna è rosso.",
+        "Lo penna è rosso."
+      ]
+    },
+    {
+      "code": "07-01",
+      "key": "mixed-letto",
+      "version": "1",
+      "format": "selection",
+      "prompt": "Scegli la descrizione per «La cama es pequeña».",
+      "accepted": [
+        "Il letto è piccolo."
+      ],
+      "rejected": [
+        "La letto è piccola.",
+        "Lo letto è piccolo."
+      ],
+      "hint": "Piensa en las personas y en la situación comunicativa.",
+      "explanation": "El género italiano pertenece al nombre: penna es femenino y letto masculino; artículo y adjetivo concuerdan con él, aunque cambie el género de la traducción española.",
+      "context": "objetos cotidianos",
+      "facets": [
+        "tendencias",
+        "género-léxico",
+        "contraste-español"
+      ],
+      "options": [
+        "Il letto è piccolo.",
+        "La letto è piccola.",
+        "Lo letto è piccolo."
+      ]
+    },
+    {
+      "code": "07-02",
+      "key": "mixed-mano",
+      "version": "1",
+      "format": "selection",
+      "prompt": "Scegli il messaggio per «La mano es pequeña».",
+      "accepted": [
+        "La mano è piccola."
+      ],
+      "rejected": [
+        "Il mano è piccolo.",
+        "Lo mano è piccolo."
+      ],
+      "hint": "Piensa en las personas y en la situación comunicativa.",
+      "explanation": "Mano es femenino aunque termine en -o; problema es masculino aunque termine en -a. Se aprende el género con la palabra.",
+      "context": "objetos cotidianos",
+      "facets": [
+        "-e",
+        "excepciones",
+        "género-común"
+      ],
+      "options": [
+        "La mano è piccola.",
+        "Il mano è piccolo.",
+        "Lo mano è piccolo."
+      ]
+    },
+    {
+      "code": "07-02",
+      "key": "mixed-problema",
+      "version": "1",
+      "format": "selection",
+      "prompt": "Scegli il messaggio per «El problema es pequeño».",
+      "accepted": [
+        "Il problema è piccolo."
+      ],
+      "rejected": [
+        "La problema è piccola.",
+        "Lo problema è piccolo."
+      ],
+      "hint": "Piensa en las personas y en la situación comunicativa.",
+      "explanation": "Mano es femenino aunque termine en -o; problema es masculino aunque termine en -a. Se aprende el género con la palabra.",
+      "context": "objetos cotidianos",
+      "facets": [
+        "-e",
+        "excepciones",
+        "género-común"
+      ],
+      "options": [
+        "Il problema è piccolo.",
+        "La problema è piccola.",
+        "Lo problema è piccolo."
+      ]
+    },
+    {
+      "code": "09-01",
+      "key": "mixed-zaino",
+      "version": "1",
+      "format": "selection",
+      "prompt": "Hai già indicato uno zaino. Parli proprio di quello: «___ zaino è qui».",
+      "accepted": [
+        "Lo"
+      ],
+      "rejected": [
+        "Il",
+        "La"
+      ],
+      "hint": "Piensa en las personas y en la situación comunicativa.",
+      "explanation": "Un referente ya identificado se retoma aquí con artículo determinado. Zaino lleva lo; amica empieza por vocal y lleva l’.",
+      "context": "objetos cotidianos",
+      "facets": [
+        "il",
+        "lo",
+        "la",
+        "elisión",
+        "grupos-iniciales"
+      ],
+      "options": [
+        "Lo",
+        "Il",
+        "La"
+      ]
+    },
+    {
+      "code": "09-01",
+      "key": "mixed-amica",
+      "version": "1",
+      "format": "selection",
+      "prompt": "Hai nominato una tua amica. Parli proprio di lei: «___ amica è qui».",
+      "accepted": [
+        "L’"
+      ],
+      "rejected": [
+        "Il",
+        "Lo"
+      ],
+      "hint": "Piensa en las personas y en la situación comunicativa.",
+      "explanation": "Un referente ya identificado se retoma aquí con artículo determinado. Zaino lleva lo; amica empieza por vocal y lleva l’.",
+      "context": "objetos cotidianos",
+      "facets": [
+        "il",
+        "lo",
+        "la",
+        "elisión",
+        "grupos-iniciales"
+      ],
+      "options": [
+        "L’",
+        "Il",
+        "Lo"
+      ]
+    },
+    {
+      "code": "09-02",
+      "key": "mixed-studenti",
+      "version": "1",
+      "format": "selection",
+      "prompt": "Hai presentato due studenti. Parli di loro: «___ studenti sono qui».",
+      "accepted": [
+        "Gli"
+      ],
+      "rejected": [
+        "I",
+        "Le"
+      ],
+      "hint": "Piensa en las personas y en la situación comunicativa.",
+      "explanation": "Los referentes ya identificados se retoman con artículo determinado: gli studenti ante s + consonante y le chiavi en femenino plural.",
+      "context": "objetos cotidianos",
+      "facets": [
+        "i",
+        "gli",
+        "le",
+        "género-elisión"
+      ],
+      "options": [
+        "Gli",
+        "I",
+        "Le"
+      ]
+    },
+    {
+      "code": "09-02",
+      "key": "mixed-chiavi",
+      "version": "1",
+      "format": "selection",
+      "prompt": "Hai mostrato due chiavi. Indichi proprio quelle: «___ chiavi sono qui».",
+      "accepted": [
+        "Le"
+      ],
+      "rejected": [
+        "I",
+        "Gli"
+      ],
+      "hint": "Piensa en las personas y en la situación comunicativa.",
+      "explanation": "Los referentes ya identificados se retoman con artículo determinado: gli studenti ante s + consonante y le chiavi en femenino plural.",
+      "context": "objetos cotidianos",
+      "facets": [
+        "i",
+        "gli",
+        "le",
+        "género-elisión"
+      ],
+      "options": [
+        "Le",
+        "I",
+        "Gli"
+      ]
+    },
+    {
+      "code": "10-01",
+      "key": "mixed-studente",
+      "version": "1",
+      "format": "selection",
+      "prompt": "Presenti per la prima volta uno studente: «È ___ studente italiano».",
+      "accepted": [
+        "uno"
+      ],
+      "rejected": [
+        "un",
+        "una"
+      ],
+      "hint": "Piensa en las personas y en la situación comunicativa.",
+      "explanation": "Al presentar este referente por primera vez se usa artículo indeterminado: uno delante de studente y un’ delante de amica.",
+      "context": "presentación",
+      "facets": [
+        "un",
+        "uno",
+        "una",
+        "elisión",
+        "sin-plural"
+      ],
+      "options": [
+        "uno",
+        "un",
+        "una"
+      ]
+    },
+    {
+      "code": "10-01",
+      "key": "mixed-amica",
+      "version": "1",
+      "format": "selection",
+      "prompt": "Parli per la prima volta di una tua amica: «Ho ___ amica a Roma».",
+      "accepted": [
+        "un’"
+      ],
+      "rejected": [
+        "un",
+        "uno"
+      ],
+      "hint": "Piensa en las personas y en la situación comunicativa.",
+      "explanation": "Al presentar este referente por primera vez se usa artículo indeterminado: uno delante de studente y un’ delante de amica.",
+      "context": "presentación",
+      "facets": [
+        "un",
+        "uno",
+        "una",
+        "elisión",
+        "sin-plural"
+      ],
+      "options": [
+        "un’",
+        "un",
+        "uno"
+      ]
+    }
+  ]
+}

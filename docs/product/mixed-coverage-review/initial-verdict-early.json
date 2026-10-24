@@ -1,0 +1,308 @@
+{
+  "reviewer": "independent-late-auditor",
+  "scope": "14 propuestas leídas completas, sin consultar dictamen autor",
+  "source": "/Users/sergiopardo/Desktop/language-trainer/docs/product/mixed-coverage-review/proposals-early.json",
+  "status": "changes-requested",
+  "counts": {
+    "read": 14,
+    "high": 1,
+    "medium": 5
+  },
+  "general": [
+    "No contenido promovido ni producción modificada.",
+    "Prerrequisitos extra son preparación de tareas: deduplicar contra cierre transitivo real; léxico puede proporcionarse sin convertirlo en objetivo.",
+    "Todos los hints idénticos: sustituir por ayuda focal que no se muestre antes del intento.",
+    "Accepted de producción son no exhaustivos: variantes legítimas deben abstenerse si no están listadas; no declararlas incorrectas.",
+    "No se ha probado runtime; revisión lingüística y de atribución.",
+    "No hay propuestas C01-C03/C06/C08/C11-C13 en este archivo; no se inventa cobertura."
+  ],
+  "items": [
+    {
+      "id": "it-a1-c04-01-mixed-qui",
+      "version": "1",
+      "read": true,
+      "naturalness": "checked",
+      "acceptedRejected": "checked",
+      "verdict": "revise",
+      "severity": "medium",
+      "findings": [
+        "La respuesta es natural y la persona plural inequívoca. El contexto italiano anticipa essere con sono; no da siamo pero reduce la independencia de elección del verbo.",
+        "Aquí también se observa localización (C04-04); no atribuir toda frase exclusivamente a paradigma. Qui admite el sinónimo qua, ausente de accepted; al ser no exhaustivo debe abstenerse, no rechazar."
+      ],
+      "suggestedPrompt": "Luca y Anna llegan al hotel y anuncian a sus amigos: «Estamos aquí». Escribe su mensaje en italiano.",
+      "acceptedAdditions": [
+        "siamo qua",
+        "noi siamo qua",
+        "siamo qua.",
+        "noi siamo qua."
+      ],
+      "prerequisiteIds": [
+        "it-a1-c04-04"
+      ]
+    },
+    {
+      "id": "it-a1-c04-01-mixed-voi",
+      "version": "1",
+      "read": true,
+      "naturalness": "checked",
+      "acceptedRejected": "checked",
+      "verdict": "pass-with-notes",
+      "severity": "low",
+      "findings": [
+        "Prompt natural y destinatario inequívoco; no da forma italiana objetivo. Accepted correcto y cubre sujeto opcional.",
+        "Requiere ubicación a + ciudad, además del paradigma de essere. Roma y la preposición no deben producir diagnóstico exclusivo de persona."
+      ],
+      "prerequisiteIds": [
+        "it-a1-c04-04",
+        "it-a1-c20-02"
+      ]
+    },
+    {
+      "id": "it-a1-c05-01-mixed-biglietti",
+      "version": "1",
+      "read": true,
+      "naturalness": "checked",
+      "acceptedRejected": "checked",
+      "verdict": "pass-with-notes",
+      "severity": "low",
+      "findings": [
+        "Accepted natural, usa nombres como se pide. No revela avere.",
+        "Due y plural biglietti añaden carga C13-01/C08-01. I loro biglietti en consigna añade posesivo, innecesario para probar avere: usar contexto español o simplificar.",
+        "Feedback compara avete sin destinatario de segunda persona aquí; hacerlo focal a hanno y nombres."
+      ],
+      "prerequisiteIds": [
+        "it-a1-c08-01",
+        "it-a1-c13-01"
+      ],
+      "suggestedPrompt": "Anna y Luca enseñan sus billetes. Escribe «Anna y Luca tienen dos billetes» en italiano."
+    },
+    {
+      "id": "it-a1-c05-01-mixed-chiave",
+      "version": "1",
+      "read": true,
+      "naturalness": "checked",
+      "acceptedRejected": "checked",
+      "verdict": "pass-with-notes",
+      "severity": "low",
+      "findings": [
+        "Natural, persona voi inequívoca; aceptadas correctas.",
+        "Considerar normalización de interrogación y mayúsculas; no señalar como error lingüístico solo falta del signo final. Requiere artículo una y léxico chiave."
+      ],
+      "prerequisiteIds": [
+        "it-a1-c10-01"
+      ],
+      "acceptedAdditions": [
+        "avete una chiave",
+        "voi avete una chiave"
+      ]
+    },
+    {
+      "id": "it-a1-c07-01-mixed-penna",
+      "version": "1",
+      "read": true,
+      "naturalness": "checked",
+      "acceptedRejected": "checked",
+      "verdict": "revise",
+      "severity": "medium",
+      "findings": [
+        "La respuesta correcta y distractores son claros.",
+        "Dos señales simultáneas (artículo/adjetivo) permiten acertar mediante concordancia sin aislar género lexical. Lo penna es distractor de alomorfo, no género. Mantener atribución estrecha: reconocimiento de frase compatible con género.",
+        "Necesita C09-01 y C11-01 introducidos. Hint personas/situación no ayuda al objeto."
+      ],
+      "prerequisiteIds": [
+        "it-a1-c04-01",
+        "it-a1-c09-01",
+        "it-a1-c11-01"
+      ]
+    },
+    {
+      "id": "it-a1-c07-01-mixed-letto",
+      "version": "1",
+      "read": true,
+      "naturalness": "checked",
+      "acceptedRejected": "checked",
+      "verdict": "revise",
+      "severity": "medium",
+      "findings": [
+        "Il letto è piccolo es natural; demás opciones incorrectas.",
+        "Lo letto comparte género correcto pero artículo erróneo: no diagnosticar todo rechazo como género. Concordancia y artículos necesitan preparación adicional. Hint genérico de personas no encaja."
+      ],
+      "prerequisiteIds": [
+        "it-a1-c04-01",
+        "it-a1-c09-01",
+        "it-a1-c11-01"
+      ]
+    },
+    {
+      "id": "it-a1-c07-02-mixed-mano",
+      "version": "1",
+      "read": true,
+      "naturalness": "checked",
+      "acceptedRejected": "checked",
+      "verdict": "revise",
+      "severity": "medium",
+      "findings": [
+        "La mano è piccola natural; alternativas incorrectas. No hay filtración explícita de estructura.",
+        "Facets -e y género-común no observadas: solo excepción mano. Acierto puede apoyarse en género español coincidente.",
+        "Artículo y adjetivo añaden requisitos; no acumular tres errores por una concordancia."
+      ],
+      "prerequisiteIds": [
+        "it-a1-c04-01",
+        "it-a1-c09-01",
+        "it-a1-c11-01"
+      ],
+      "suggestedFacets": [
+        "excepciones"
+      ]
+    },
+    {
+      "id": "it-a1-c07-02-mixed-problema",
+      "version": "1",
+      "read": true,
+      "naturalness": "checked",
+      "acceptedRejected": "checked",
+      "verdict": "revise",
+      "severity": "medium",
+      "findings": [
+        "Il problema è piccolo es natural aunque problema di poco conto sea alternativa discursiva; selección cerrada no requiere añadirla.",
+        "Facets -e/género-común no observadas. Lo problema es masculino pero mal artículo: error no acredita género errado. Necesita artículos/adjetivos."
+      ],
+      "prerequisiteIds": [
+        "it-a1-c04-01",
+        "it-a1-c09-01",
+        "it-a1-c11-01"
+      ],
+      "suggestedFacets": [
+        "excepciones"
+      ]
+    },
+    {
+      "id": "it-a1-c09-01-mixed-zaino",
+      "version": "1",
+      "read": true,
+      "naturalness": "checked",
+      "acceptedRejected": "checked",
+      "verdict": "pass-with-notes",
+      "severity": "low",
+      "findings": [
+        "Lo es única opción válida y no se imprime en contexto. La referencia específica está motivada.",
+        "La consigna usa hai indicato (pasado) y quello (demostrativo), carga avanzada innecesaria. Simplificar contexto en español o presente simple.",
+        "Solo observa alomorfo lo ante z; no toda lista il/la/elisión. Todos los candidatos son determinados: no demuestra elegir definido frente indefinido."
+      ],
+      "suggestedPrompt": "La mochila ya está identificada. Hablas de ella: «___ zaino è qui».",
+      "suggestedFacets": [
+        "lo",
+        "grupos-iniciales"
+      ],
+      "prerequisiteIds": [
+        "it-a1-c04-04"
+      ]
+    },
+    {
+      "id": "it-a1-c09-01-mixed-amica",
+      "version": "1",
+      "read": true,
+      "naturalness": "checked",
+      "acceptedRejected": "checked",
+      "verdict": "pass-with-notes",
+      "severity": "low",
+      "findings": [
+        "L’amica è qui es posible en contexto anafórico, aunque la mia amica sea espontáneo; opciones cerradas evitan falso rechazo.",
+        "Hai nominato/tua/lei añaden pasado, posesivo y pronombre sin necesidad. Usar consigna española elimina carga. Solo elisión observada.",
+        "El espacio visual entre L’ y amica no debe quedar en reconstrucción final: L’amica."
+      ],
+      "suggestedPrompt": "Ya has mencionado a una amiga. Hablas de ella: «___amica è qui».",
+      "suggestedFacets": [
+        "elisión"
+      ],
+      "prerequisiteIds": [
+        "it-a1-c04-04"
+      ]
+    },
+    {
+      "id": "it-a1-c09-02-mixed-studenti",
+      "version": "1",
+      "read": true,
+      "naturalness": "checked",
+      "acceptedRejected": "checked",
+      "verdict": "pass-with-notes",
+      "severity": "low",
+      "findings": [
+        "Gli es única respuesta correcta ante studenti; no se revela objetivo.",
+        "Hai presentato y loro aportan carga avanzada: contexto español recomendable. Solo gli/s+consonante observado, no todas facets. No acredita función definido versus indefinido."
+      ],
+      "suggestedPrompt": "Ya has presentado a dos estudiantes. Hablas de ellos: «___ studenti sono qui».",
+      "suggestedFacets": [
+        "gli"
+      ],
+      "prerequisiteIds": [
+        "it-a1-c04-01",
+        "it-a1-c08-01"
+      ]
+    },
+    {
+      "id": "it-a1-c09-02-mixed-chiavi",
+      "version": "1",
+      "read": true,
+      "naturalness": "checked",
+      "acceptedRejected": "checked",
+      "verdict": "pass-with-notes",
+      "severity": "low",
+      "findings": [
+        "Le chiavi sono qui es natural y única opción correcta.",
+        "Hai mostrato/quelle añaden pasado/demostrativo, reemplazables por consigna española. Solo femenino plural le observado."
+      ],
+      "suggestedPrompt": "Ya has mostrado dos llaves. Señalas esas mismas llaves: «___ chiavi sono qui».",
+      "suggestedFacets": [
+        "le"
+      ],
+      "prerequisiteIds": [
+        "it-a1-c04-01",
+        "it-a1-c08-02"
+      ]
+    },
+    {
+      "id": "it-a1-c10-01-mixed-studente",
+      "version": "1",
+      "read": true,
+      "naturalness": "checked",
+      "acceptedRejected": "checked",
+      "verdict": "revise",
+      "severity": "high",
+      "findings": [
+        "La consigna imprime «uno studente», exactamente la respuesta con el mismo sustantivo: filtración directa, bloquea evidencia independiente Mixed.",
+        "Accepted y rejected correctos. El contexto primera mención motiva introducción, pero opciones solo indeterminadas observan alomorfo uno, no selección de definitud.",
+        "Explicación demasiado general: primera mención no exige siempre indefinido; reformular «Aquí presentas una persona sin identificarla antes; uno precede a studente»."
+      ],
+      "suggestedPrompt": "Presentas por primera vez a un estudiante: «È ___ studente italiano».",
+      "suggestedFacets": [
+        "uno"
+      ],
+      "prerequisiteIds": [
+        "it-a1-c04-02"
+      ]
+    },
+    {
+      "id": "it-a1-c10-01-mixed-amica",
+      "version": "1",
+      "read": true,
+      "naturalness": "checked",
+      "acceptedRejected": "checked",
+      "verdict": "pass-with-notes",
+      "severity": "low",
+      "findings": [
+        "Un’amica natural y única opción correcta; una tua amica no copia la forma exacta, pero ya explicita género femenino en italiano.",
+        "Preferir consigna española por carga y evitar priming de género. Opciones observan elisión de una, no elección definido/indefinido.",
+        "Espacio tras un’ debe desaparecer en frase reconstruida. Explicación primera mención debe calificarse: es contexto local, no regla universal."
+      ],
+      "suggestedPrompt": "Hablas por primera vez de una amiga: «Ho ___amica a Roma».",
+      "suggestedFacets": [
+        "elisión"
+      ],
+      "prerequisiteIds": [
+        "it-a1-c05-01",
+        "it-a1-c20-02"
+      ]
+    }
+  ]
+}

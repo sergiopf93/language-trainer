@@ -1,0 +1,260 @@
+{
+  "source": "/tmp/mixed-final-early.json",
+  "sha256": "00862c83de48883ea223769369717f8bfb8328a4458bad8a2e9ba3792138d24b",
+  "reviewType": "independent-followup",
+  "status": "approved",
+  "reviewedCount": 11,
+  "allIdsRead": [
+    "it-a1-c04-01-mixed-voi@2",
+    "it-a1-c05-01-mixed-biglietti@2",
+    "it-a1-c07-01-mixed-penna@2",
+    "it-a1-c07-01-mixed-letto@2",
+    "it-a1-c07-02-mixed-mano@2",
+    "it-a1-c07-02-mixed-problema@2",
+    "it-a1-c09-01-mixed-zaino@2",
+    "it-a1-c09-01-mixed-amica@2",
+    "it-a1-c09-02-mixed-studenti@2",
+    "it-a1-c09-02-mixed-chiavi@2",
+    "it-a1-c10-01-mixed-studente@2"
+  ],
+  "conditions": [
+    "Aprobación lingüística/pedagógica del texto exacto; no promoción editorial automática ni habilitación runtime.",
+    "Preparación adicional indicada debe estar introducida o cubierta por cierre transitivo antes del grupo. C09/C11 previstos son necesarios para género.",
+    "Ayuda/feedback permanecen ocultos antes del intento independiente.",
+    "Registrar evidencia solo del concepto objetivo y demanda descrita; no inferir producción libre, retención, dominio ni definitud discriminada por opciones solo determinadas/indeterminadas."
+  ],
+  "items": [
+    {
+      "id": "it-a1-c04-01-mixed-voi",
+      "version": "2",
+      "verdict": "approved",
+      "readAllFields": true,
+      "checks": {
+        "naturalness": "pass",
+        "acceptedRejected": "pass",
+        "noTargetLeakage": "pass",
+        "evidenceAttribution": "pass-with-specified-scope",
+        "preparation": "additional-ids-listed"
+      },
+      "evidenceScope": "Recuperación situada de siete, segunda persona plural, con sujeto expreso u omitido. La frase completa también usa localización.",
+      "additionalPreparationIds": [
+        "it-a1-c04-04",
+        "it-a1-c20-02"
+      ],
+      "notes": [
+        "Accepted correcto; rejected son incorrectos en el mensaje solicitado. No se anticipa essere en italiano. El feedback comparativo siamo/siete es correcto, aunque podría centrarse solo en siete."
+      ]
+    },
+    {
+      "id": "it-a1-c05-01-mixed-biglietti",
+      "version": "2",
+      "verdict": "approved",
+      "readAllFields": true,
+      "checks": {
+        "naturalness": "pass",
+        "acceptedRejected": "pass",
+        "noTargetLeakage": "pass",
+        "evidenceAttribution": "pass-with-specified-scope",
+        "preparation": "additional-ids-listed"
+      },
+      "evidenceScope": "Recuperación de hanno con sujeto nominal plural en posesión.",
+      "additionalPreparationIds": [
+        "it-a1-c08-01",
+        "it-a1-c13-01"
+      ],
+      "notes": [
+        "Ambas accepted naturales. Sono due biglietti es una frase gramatical con otro sentido y referente metafórico, pero inequívocamente incorrecta para la posesión solicitada; rejected justificado por mensaje. Ha no concuerda con sujeto plural. No filtra avere."
+      ]
+    },
+    {
+      "id": "it-a1-c07-01-mixed-penna",
+      "version": "2",
+      "verdict": "approved",
+      "readAllFields": true,
+      "checks": {
+        "naturalness": "pass",
+        "acceptedRejected": "pass",
+        "noTargetLeakage": "pass",
+        "evidenceAttribution": "pass-with-specified-scope",
+        "preparation": "additional-ids-listed"
+      },
+      "evidenceScope": "Reconocimiento de género femenino de penna en frase con concordancia coherente; contraste con género español.",
+      "additionalPreparationIds": [
+        "it-a1-c04-01",
+        "it-a1-c09-01",
+        "it-a1-c11-01"
+      ],
+      "notes": [
+        "Única opción correcta. Distractor masculino coherente concentra la diferencia en género. No acredita producción de artículos ni adjetivos por separado."
+      ]
+    },
+    {
+      "id": "it-a1-c07-01-mixed-letto",
+      "version": "2",
+      "verdict": "approved",
+      "readAllFields": true,
+      "checks": {
+        "naturalness": "pass",
+        "acceptedRejected": "pass",
+        "noTargetLeakage": "pass",
+        "evidenceAttribution": "pass-with-specified-scope",
+        "preparation": "additional-ids-listed"
+      },
+      "evidenceScope": "Reconocimiento de género masculino de letto, frente al español cama femenino.",
+      "additionalPreparationIds": [
+        "it-a1-c04-01",
+        "it-a1-c09-01",
+        "it-a1-c11-01"
+      ],
+      "notes": [
+        "Única opción correcta, natural. Distractor femenino coherente evita confundir error de alomorfo con género."
+      ]
+    },
+    {
+      "id": "it-a1-c07-02-mixed-mano",
+      "version": "2",
+      "verdict": "approved",
+      "readAllFields": true,
+      "checks": {
+        "naturalness": "pass",
+        "acceptedRejected": "pass",
+        "noTargetLeakage": "pass",
+        "evidenceAttribution": "pass-with-specified-scope",
+        "preparation": "additional-ids-listed"
+      },
+      "evidenceScope": "Reconocimiento de mano femenino pese a terminación -o.",
+      "additionalPreparationIds": [
+        "it-a1-c04-01",
+        "it-a1-c09-01",
+        "it-a1-c11-01"
+      ],
+      "notes": [
+        "Respuesta natural y rechazo correcto. Género coincide con español: evidencia de reconocimiento con apoyo semántico, no recuperación autónoma ni contraste interlingüístico. Facets ahora precisas."
+      ]
+    },
+    {
+      "id": "it-a1-c07-02-mixed-problema",
+      "version": "2",
+      "verdict": "approved",
+      "readAllFields": true,
+      "checks": {
+        "naturalness": "pass",
+        "acceptedRejected": "pass",
+        "noTargetLeakage": "pass",
+        "evidenceAttribution": "pass-with-specified-scope",
+        "preparation": "additional-ids-listed"
+      },
+      "evidenceScope": "Reconocimiento de problema masculino pese a terminación -a.",
+      "additionalPreparationIds": [
+        "it-a1-c04-01",
+        "it-a1-c09-01",
+        "it-a1-c11-01"
+      ],
+      "notes": [
+        "Respuesta natural y rechazo correcto. Género coincide con español; límite de reconocimiento, no recuperación sin opciones."
+      ]
+    },
+    {
+      "id": "it-a1-c09-01-mixed-zaino",
+      "version": "2",
+      "verdict": "approved",
+      "readAllFields": true,
+      "checks": {
+        "naturalness": "pass",
+        "acceptedRejected": "pass",
+        "noTargetLeakage": "pass",
+        "evidenceAttribution": "pass-with-specified-scope",
+        "preparation": "additional-ids-listed"
+      },
+      "evidenceScope": "Selección del artículo determinado lo ante z en referente singular ya identificado.",
+      "additionalPreparationIds": [
+        "it-a1-c04-04"
+      ],
+      "notes": [
+        "Lo única opción correcta. No imprime respuesta objetivo. No acredita decidir entre determinado e indeterminado: todas opciones son determinadas."
+      ]
+    },
+    {
+      "id": "it-a1-c09-01-mixed-amica",
+      "version": "2",
+      "verdict": "approved",
+      "readAllFields": true,
+      "checks": {
+        "naturalness": "pass",
+        "acceptedRejected": "pass",
+        "noTargetLeakage": "pass",
+        "evidenceAttribution": "pass-with-specified-scope",
+        "preparation": "additional-ids-listed"
+      },
+      "evidenceScope": "Selección de elisión L’ delante de vocal en referente femenino singular identificado.",
+      "additionalPreparationIds": [
+        "it-a1-c04-04"
+      ],
+      "notes": [
+        "L’amica è qui es natural en contexto dado; Il/Lo incorrectos. Sin espacio tras elisión. Faceta grupos-iniciales suficientemente amplia para vocal; elisión sería etiqueta más específica opcional. No acredita definitud versus indefinitud."
+      ]
+    },
+    {
+      "id": "it-a1-c09-02-mixed-studenti",
+      "version": "2",
+      "verdict": "approved",
+      "readAllFields": true,
+      "checks": {
+        "naturalness": "pass",
+        "acceptedRejected": "pass",
+        "noTargetLeakage": "pass",
+        "evidenceAttribution": "pass-with-specified-scope",
+        "preparation": "additional-ids-listed"
+      },
+      "evidenceScope": "Selección de gli delante de s+consonante masculino plural.",
+      "additionalPreparationIds": [
+        "it-a1-c04-01",
+        "it-a1-c08-01"
+      ],
+      "notes": [
+        "Respuesta y distractores correctos. No filtración; léxico estudiantes/stdudenti ya dado. No acredita selección de definitud."
+      ]
+    },
+    {
+      "id": "it-a1-c09-02-mixed-chiavi",
+      "version": "2",
+      "verdict": "approved",
+      "readAllFields": true,
+      "checks": {
+        "naturalness": "pass",
+        "acceptedRejected": "pass",
+        "noTargetLeakage": "pass",
+        "evidenceAttribution": "pass-with-specified-scope",
+        "preparation": "additional-ids-listed"
+      },
+      "evidenceScope": "Selección de le para femenino plural chiavi.",
+      "additionalPreparationIds": [
+        "it-a1-c04-01",
+        "it-a1-c08-02"
+      ],
+      "notes": [
+        "Única respuesta correcta; contexto natural. La faceta grupos-iniciales es amplia y no debe interpretarse como observada: le no depende de ch. No bloquea el ítem ni la atribución al concepto de artículos plurales; no usar esta tarea como prueba de grupos iniciales."
+      ]
+    },
+    {
+      "id": "it-a1-c10-01-mixed-studente",
+      "version": "2",
+      "verdict": "approved",
+      "readAllFields": true,
+      "checks": {
+        "naturalness": "pass",
+        "acceptedRejected": "pass",
+        "noTargetLeakage": "pass",
+        "evidenceAttribution": "pass-with-specified-scope",
+        "preparation": "additional-ids-listed"
+      },
+      "evidenceScope": "Selección del alomorfo uno ante s+consonante al introducir referente masculino singular.",
+      "additionalPreparationIds": [
+        "it-a1-c04-02"
+      ],
+      "notes": [
+        "Filtración anterior eliminada: español un estudiante no proporciona forma italiana uno. Accepted y rejected correctos. Explicación dice este referente, válida en contexto; no generalizar a toda primera mención. No acredita contraste determinado/indeterminado por opciones disponibles."
+      ]
+    }
+  ]
+}

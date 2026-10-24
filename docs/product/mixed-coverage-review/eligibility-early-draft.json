@@ -1,0 +1,806 @@
+{
+  "concepts": [
+    {
+      "code": "01-01",
+      "items": [
+        {
+          "id": "it-a1-c01-01-chiave",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c01-01-spaghetti",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c01-01-pesce",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c01-01-bagno",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c01-01-biglietto",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "01-02",
+      "items": [
+        {
+          "id": "it-a1-c01-02-e",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c01-02-si",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c01-02-contrast",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "01-03",
+      "items": [
+        {
+          "id": "it-a1-c01-03-penna",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c01-03-letto",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c01-03-caffe",
+          "version": "2"
+        },
+        {
+          "id": "it-a1-c01-03-biglietto",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "02-01",
+      "items": [
+        {
+          "id": "it-a1-c02-01-hotel-mattina",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c02-01-uscita",
+          "version": "2"
+        },
+        {
+          "id": "it-a1-c02-01-notte",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c02-01-ciao-contesto",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "02-02",
+      "items": [
+        {
+          "id": "it-a1-c02-02-grazie",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c02-02-prego",
+          "version": "2"
+        },
+        {
+          "id": "it-a1-c02-02-dialogo",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c02-02-petizione",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "02-03",
+      "items": [
+        {
+          "id": "it-a1-c02-03-intenzione",
+          "version": "2"
+        },
+        {
+          "id": "it-a1-c02-03-formula",
+          "version": "2"
+        },
+        {
+          "id": "it-a1-c02-03-velocita",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c02-03-amico",
+          "version": "2"
+        }
+      ]
+    },
+    {
+      "code": "03-01",
+      "items": [
+        {
+          "id": "it-a1-c03-01-lui",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c03-01-voi",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c03-01-noi-gruppo",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "03-02",
+      "items": [
+        {
+          "id": "it-a1-c03-02-presentazione",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c03-02-plural",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c03-02-isolata",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c03-02-referente",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "04-01",
+      "items": [
+        {
+          "id": "it-a1-c04-01-anna",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "04-02",
+      "items": [
+        {
+          "id": "it-a1-c04-02-presentati",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c04-02-professione",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c04-02-insegnante",
+          "version": "2"
+        },
+        {
+          "id": "it-a1-c04-02-descrivi",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "04-03",
+      "items": [
+        {
+          "id": "it-a1-c04-03-origine",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c04-03-di",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c04-03-spagnola",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c04-03-italiano",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "04-04",
+      "items": [
+        {
+          "id": "it-a1-c04-04-ora",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c04-04-hotel",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c04-04-noi",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "04-05",
+      "items": [
+        {
+          "id": "it-a1-c04-05-stanco",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c04-05-contenta",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c04-05-pronto",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "05-01",
+      "items": [
+        {
+          "id": "it-a1-c05-01-io",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "05-02",
+      "items": [
+        {
+          "id": "it-a1-c05-02-possesso",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c05-02-penna",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c05-02-anna",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c05-02-correggi",
+          "version": "2"
+        }
+      ]
+    },
+    {
+      "code": "05-03",
+      "items": [
+        {
+          "id": "it-a1-c05-03-eta",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c05-03-quanti",
+          "version": "2"
+        },
+        {
+          "id": "it-a1-c05-03-trenta",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "05-04",
+      "items": [
+        {
+          "id": "it-a1-c05-04-fame",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c05-04-sete",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c05-04-freddo",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c05-04-paura",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c05-04-contrasto",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "06-01",
+      "items": [
+        {
+          "id": "it-a1-c06-01-riconosci",
+          "version": "2"
+        },
+        {
+          "id": "it-a1-c06-01-rispondi",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "06-02",
+      "items": [
+        {
+          "id": "it-a1-c06-02-intenzione",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c06-02-persona",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c06-02-negativa",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c06-02-conferma",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "06-03",
+      "items": [
+        {
+          "id": "it-a1-c06-03-persona",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c06-03-luogo",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c06-03-tempo",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c06-03-motivo",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c06-03-eta",
+          "version": "2"
+        },
+        {
+          "id": "it-a1-c06-03-origine",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "07-01",
+      "items": []
+    },
+    {
+      "code": "07-02",
+      "items": []
+    },
+    {
+      "code": "08-01",
+      "items": [
+        {
+          "id": "it-a1-c08-01-penne",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c08-01-lista",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "08-02",
+      "items": [
+        {
+          "id": "it-a1-c08-02-riconosci",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c08-02-ordine",
+          "version": "2"
+        }
+      ]
+    },
+    {
+      "code": "09-01",
+      "items": []
+    },
+    {
+      "code": "09-02",
+      "items": []
+    },
+    {
+      "code": "09-03",
+      "items": [
+        {
+          "id": "it-a1-c09-03-riprendi",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c09-03-biglietto",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c09-03-situazione",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c09-03-messaggio",
+          "version": "2"
+        },
+        {
+          "id": "it-a1-c09-03-nuovo",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "10-01",
+      "items": [
+        {
+          "id": "it-a1-c10-01-zaino",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "10-02",
+      "items": [
+        {
+          "id": "it-a1-c10-02-introduci",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c10-02-caffe",
+          "version": "2"
+        },
+        {
+          "id": "it-a1-c10-02-chiedi",
+          "version": "2"
+        },
+        {
+          "id": "it-a1-c10-02-sequenza",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c10-02-presenta",
+          "version": "2"
+        },
+        {
+          "id": "it-a1-c10-02-riprendi",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "11-01",
+      "items": [
+        {
+          "id": "it-a1-c11-01-camera",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c11-01-case",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c11-01-grande",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c11-01-maschile",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "11-02",
+      "items": [
+        {
+          "id": "it-a1-c11-02-colore",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c11-02-amico",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "12-01",
+      "items": [
+        {
+          "id": "it-a1-c12-01-chiedi",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c12-01-studenti",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c12-01-quantita",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "13-01",
+      "items": [
+        {
+          "id": "it-a1-c13-01-quattordici",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c13-01-sedici",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c13-01-cinquanta",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c13-01-piccoli",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c13-01-decine",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c13-01-adolescenti",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "13-02",
+      "items": [
+        {
+          "id": "it-a1-c13-02-cinquecento",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c13-02-prezzo",
+          "version": "1"
+        }
+      ]
+    },
+    {
+      "code": "13-03",
+      "items": [
+        {
+          "id": "it-a1-c13-03-prezzo",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c13-03-eta",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c13-03-quantita",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c13-03-numero",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c13-03-telefono",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c13-03-detta",
+          "version": "1"
+        },
+        {
+          "id": "it-a1-c13-03-importo",
+          "version": "1"
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "grafia-messaggi",
+      "conceptCodes": [
+        "01-01",
+        "01-02",
+        "01-03"
+      ],
+      "prerequisiteIds": [],
+      "rationale": "Elección ortográfica por significado; evitar repetir biglietto entre dos conceptos en una sesión.",
+      "readyExisting": true
+    },
+    {
+      "id": "intenzioni",
+      "conceptCodes": [
+        "02-01",
+        "02-02",
+        "02-03"
+      ],
+      "prerequisiteIds": [],
+      "rationale": "Saludar, cortesía y reparar comprensión.",
+      "readyExisting": true
+    },
+    {
+      "id": "referenti",
+      "conceptCodes": [
+        "03-01",
+        "03-02"
+      ],
+      "prerequisiteIds": [
+        "04-01"
+      ],
+      "rationale": "Identificar quién participa y resolver referentes; lectura, no producción verbal.",
+      "readyExisting": true
+    },
+    {
+      "id": "presentazione",
+      "conceptCodes": [
+        "04-02",
+        "04-03"
+      ],
+      "prerequisiteIds": [],
+      "rationale": "Identidad, profesión y origen.",
+      "readyExisting": true
+    },
+    {
+      "id": "origine-posizione",
+      "conceptCodes": [
+        "04-03",
+        "04-04"
+      ],
+      "prerequisiteIds": [],
+      "rationale": "Distinguir procedencia de localización actual.",
+      "readyExisting": true
+    },
+    {
+      "id": "stati-bisogni",
+      "conceptCodes": [
+        "04-05",
+        "05-04"
+      ],
+      "prerequisiteIds": [],
+      "rationale": "Estado con essere frente a sensación con avere.",
+      "readyExisting": true
+    },
+    {
+      "id": "persone-verbi",
+      "conceptCodes": [
+        "04-01",
+        "05-01"
+      ],
+      "prerequisiteIds": [
+        "05-02",
+        "04-04",
+        "06-02"
+      ],
+      "rationale": "Concordancia y elección verbal por situación; bloqueado hasta actividades nuevas.",
+      "readyExisting": false
+    },
+    {
+      "id": "possesso-eta",
+      "conceptCodes": [
+        "05-02",
+        "05-03"
+      ],
+      "prerequisiteIds": [],
+      "rationale": "Información personal y recursos; elección de construcción avere en funciones distintas.",
+      "readyExisting": true
+    },
+    {
+      "id": "domande-risposte",
+      "conceptCodes": [
+        "06-01",
+        "06-02",
+        "06-03"
+      ],
+      "prerequisiteIds": [],
+      "rationale": "Negar, confirmar y solicitar información.",
+      "readyExisting": true
+    },
+    {
+      "id": "genere-lessicale",
+      "conceptCodes": [
+        "07-01",
+        "07-02"
+      ],
+      "prerequisiteIds": [
+        "09-01",
+        "11-01",
+        "04-02"
+      ],
+      "rationale": "Regularidad frecuente frente a género léxico excepcional; bloqueado.",
+      "readyExisting": false
+    },
+    {
+      "id": "quantita-oggetti",
+      "conceptCodes": [
+        "08-01",
+        "08-02"
+      ],
+      "prerequisiteIds": [],
+      "rationale": "Cantidad comunicada con nombres variables e invariantes.",
+      "readyExisting": true
+    },
+    {
+      "id": "articoli-numero",
+      "conceptCodes": [
+        "09-01",
+        "09-02"
+      ],
+      "prerequisiteIds": [
+        "09-03",
+        "04-04"
+      ],
+      "rationale": "Referencia identificada singular/plural; bloqueado.",
+      "readyExisting": false
+    },
+    {
+      "id": "nuovo-noto",
+      "conceptCodes": [
+        "09-03",
+        "10-02"
+      ],
+      "prerequisiteIds": [],
+      "rationale": "Introducción y recuperación de referentes.",
+      "readyExisting": true
+    },
+    {
+      "id": "forme-articoli",
+      "conceptCodes": [
+        "09-01",
+        "10-01"
+      ],
+      "prerequisiteIds": [
+        "09-03",
+        "10-02",
+        "04-04"
+      ],
+      "rationale": "Elegir artículo por identificabilidad y entorno; bloqueado.",
+      "readyExisting": false
+    },
+    {
+      "id": "descrizioni",
+      "conceptCodes": [
+        "11-01",
+        "11-02",
+        "12-01"
+      ],
+      "prerequisiteIds": [
+        "09-03",
+        "10-02"
+      ],
+      "rationale": "Concordancia, significado/posición y grupo nominal completo.",
+      "readyExisting": true
+    },
+    {
+      "id": "numeri-uso",
+      "conceptCodes": [
+        "13-01",
+        "13-02",
+        "13-03"
+      ],
+      "prerequisiteIds": [],
+      "rationale": "Precios, cantidades e identificadores; no tratar lectura de teléfono como cardinal.",
+      "readyExisting": true
+    }
+  ]
+}

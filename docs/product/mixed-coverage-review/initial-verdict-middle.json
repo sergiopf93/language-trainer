@@ -1,0 +1,734 @@
+{
+  "reviewer": "audit_early, revisor distinto del autor de middle",
+  "scope": "Lectura independiente de cada item del archivo; sin leer conclusiones del autor ni modificar producción. Consulta puntual de facetas de conceptos actuales.",
+  "source": "docs/product/mixed-coverage-review/proposals-middle.json",
+  "sha256": "e6fa77f228d826f152487ed1936d2f4947a7d551ae9c63571dd16ed19534fd93",
+  "readIds": [
+    "it-a1-c14-01-mixed-contesto-01",
+    "it-a1-c14-01-mixed-contesto-02",
+    "it-a1-c15-01-mixed-contesto-01",
+    "it-a1-c15-01-mixed-contesto-02",
+    "it-a1-c15-02-mixed-contesto-01",
+    "it-a1-c15-02-mixed-contesto-02",
+    "it-a1-c15-03-mixed-contesto-01",
+    "it-a1-c15-03-mixed-contesto-02",
+    "it-a1-c16-01-mixed-contesto-01",
+    "it-a1-c16-01-mixed-contesto-02",
+    "it-a1-c16-02-mixed-contesto-01",
+    "it-a1-c16-02-mixed-contesto-02",
+    "it-a1-c16-03-mixed-contesto-01",
+    "it-a1-c16-03-mixed-contesto-02",
+    "it-a1-c16-04-mixed-contesto-01",
+    "it-a1-c16-04-mixed-contesto-02",
+    "it-a1-c16-05-mixed-contesto-01",
+    "it-a1-c16-05-mixed-contesto-02",
+    "it-a1-c16-06-mixed-contesto-01",
+    "it-a1-c16-06-mixed-contesto-02",
+    "it-a1-c16-07-mixed-contesto-01",
+    "it-a1-c16-07-mixed-contesto-02",
+    "it-a1-c16-08-mixed-contesto-01",
+    "it-a1-c16-08-mixed-contesto-02",
+    "it-a1-c17-01-mixed-contesto-01",
+    "it-a1-c17-01-mixed-contesto-02",
+    "it-a1-c18-01-mixed-contesto-01",
+    "it-a1-c18-01-mixed-contesto-02",
+    "it-a1-c21-01-mixed-contesto-01",
+    "it-a1-c21-01-mixed-contesto-02",
+    "it-a1-c24-01-mixed-contesto-01",
+    "it-a1-c24-01-mixed-contesto-02",
+    "it-a1-c24-02-mixed-contesto-01",
+    "it-a1-c24-02-mixed-contesto-02"
+  ],
+  "readCount": 34,
+  "overallVerdict": "changes-required",
+  "globalFindings": [
+    {
+      "severity": "required-before-integration",
+      "description": "Todos los items usan faceta placeholder seleccion-contextual, ajena a las facetas actuales. Mapear solo facetas realmente observadas; sugerencias por ID."
+    },
+    {
+      "severity": "required-before-integration",
+      "description": "Feedback genérico no explica regla ni selección y alude a persona incluso para preposiciones/demostrativos. Sustituir por explicación por ítem; sugerencias por concepto aportadas."
+    },
+    {
+      "severity": "advisory",
+      "description": "Context genérico repetido no documenta ámbito de uso; usar trabajo/clientes, mensajería, vivienda, hotel, bar, petición de permiso, etc."
+    },
+    {
+      "severity": "advisory",
+      "description": "Todas son selection/discrimination; no afirmar recuperación ni suficiencia exhaustiva. Posición correcta alterna tercera/primera de forma sistemática: barajar opciones determinísticamente o diversificar antes de uso."
+    },
+    {
+      "severity": "advisory",
+      "description": "Comprobar léxico de consignas (raggiungere, smettere, appartenere, pronunciare) y estructuras auxiliares; apoyos españoles pueden evitar introducir demanda ajena al objetivo."
+    }
+  ],
+  "items": [
+    {
+      "id": "it-a1-c14-01-mixed-contesto-01",
+      "version": "1",
+      "read": true,
+      "verdict": "changes-required",
+      "naturalness": "Ver hallazgo particular.",
+      "acceptedRejected": "No aprobar hasta resolver el bloqueo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [
+        {
+          "severity": "block",
+          "description": "El enunciado ya dice parla italiano y no fija inequívocamente que se elige la voz de Anna. «Quale frase dice che parla italiano?» también admite Parla italiano como descripción externa.",
+          "suggestedChange": "Anna si presenta a un cliente: «Hablo italiano». Quale frase usa per parlare di sé?"
+        }
+      ],
+      "suggestedFacets": [
+        "io"
+      ],
+      "suggestedFeedback": "Quien habla de sí usa parlo; quien habla de sí junto con otra persona usa parliamo."
+    },
+    {
+      "id": "it-a1-c14-01-mixed-contesto-02",
+      "version": "1",
+      "read": true,
+      "verdict": "changes-required",
+      "naturalness": "Ver hallazgo particular.",
+      "acceptedRejected": "No aprobar hasta resolver el bloqueo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [
+        {
+          "severity": "block",
+          "description": "Parlate anuncia el verbo italiano objetivo; la lengua italiana tampoco se especifica salvo por las opciones.",
+          "suggestedChange": "Tu e Luca vi presentate a un cliente. Volete dire «Hablamos italiano». Quale frase usate?"
+        }
+      ],
+      "suggestedFacets": [
+        "noi"
+      ],
+      "suggestedFeedback": "Quien habla de sí usa parlo; quien habla de sí junto con otra persona usa parliamo."
+    },
+    {
+      "id": "it-a1-c15-01-mixed-contesto-01",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Ver hallazgo particular.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [
+        {
+          "severity": "advisory",
+          "description": "Guardare tutte le parole es comprensible pero artificioso y no garantiza leer. El contraste tiene un distractor muy alejado (dormo).",
+          "suggestedChange": "Anna guarda un messaggio per sapere che cosa dice. Quale frase descrive questa attività?"
+        }
+      ],
+      "suggestedFacets": [
+        "lui-lei",
+        "uso"
+      ],
+      "suggestedFeedback": "Anna es una persona: legge. El grupo que incluye a quien habla usa leggiamo."
+    },
+    {
+      "id": "it-a1-c15-01-mixed-contesto-02",
+      "version": "1",
+      "read": true,
+      "verdict": "changes-required",
+      "naturalness": "Ver hallazgo particular.",
+      "acceptedRejected": "No aprobar hasta resolver el bloqueo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [
+        {
+          "severity": "block",
+          "description": "La voz de respuesta no está fijada: descrive la vostra attività permite narrador externo Leggono y autorreporte Leggiamo. Además guardare le parole es artificioso.",
+          "suggestedChange": "Tu e Luca siete con un libro aperto. Volete dire «Estamos leyendo un libro». Scegliete la frase per parlare di voi."
+        }
+      ],
+      "suggestedFacets": [
+        "noi",
+        "uso"
+      ],
+      "suggestedFeedback": "Anna es una persona: legge. El grupo que incluye a quien habla usa leggiamo."
+    },
+    {
+      "id": "it-a1-c15-02-mixed-contesto-01",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Italiano y situación comprensibles y naturales para el objetivo acotado.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [],
+      "suggestedFacets": [
+        "lui-lei",
+        "uso"
+      ],
+      "suggestedFeedback": "Para hablar de Anna se usa dorme; al hablar de nosotros, dormiamo."
+    },
+    {
+      "id": "it-a1-c15-02-mixed-contesto-02",
+      "version": "1",
+      "read": true,
+      "verdict": "changes-required",
+      "naturalness": "Ver hallazgo particular.",
+      "acceptedRejected": "No aprobar hasta resolver el bloqueo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [
+        {
+          "severity": "block",
+          "description": "Dormite anuncia el verbo italiano objetivo. Tampoco se solicita expresamente respuesta en voz del grupo.",
+          "suggestedChange": "Tu e Luca raccontate la vostra abitudine: «Dormimos en casa». Quale frase usate?"
+        }
+      ],
+      "suggestedFacets": [
+        "noi",
+        "uso"
+      ],
+      "suggestedFeedback": "Para hablar de Anna se usa dorme; al hablar de nosotros, dormiamo."
+    },
+    {
+      "id": "it-a1-c15-03-mixed-contesto-01",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Italiano y situación comprensibles y naturales para el objetivo acotado.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [],
+      "suggestedFacets": [
+        "lui-lei",
+        "uso"
+      ],
+      "suggestedFeedback": "Anna capisce es tercera persona singular. Non capiamo habla del grupo que incluye al hablante y expresa que no entiende."
+    },
+    {
+      "id": "it-a1-c15-03-mixed-contesto-02",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Italiano y situación comprensibles y naturales para el objetivo acotado.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [],
+      "suggestedFacets": [
+        "noi",
+        "uso"
+      ],
+      "suggestedFeedback": "Anna capisce es tercera persona singular. Non capiamo habla del grupo que incluye al hablante y expresa que no entiende."
+    },
+    {
+      "id": "it-a1-c16-01-mixed-contesto-01",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Italiano y situación comprensibles y naturales para el objetivo acotado.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [],
+      "suggestedFacets": [
+        "io",
+        "uso"
+      ],
+      "suggestedFeedback": "Faccio colazione describe mi desayuno; facciamo una pausa describe la pausa del grupo que me incluye."
+    },
+    {
+      "id": "it-a1-c16-01-mixed-contesto-02",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Italiano y situación comprensibles y naturales para el objetivo acotado.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [],
+      "suggestedFacets": [
+        "noi",
+        "uso"
+      ],
+      "suggestedFeedback": "Faccio colazione describe mi desayuno; facciamo una pausa describe la pausa del grupo que me incluye."
+    },
+    {
+      "id": "it-a1-c16-02-mixed-contesto-01",
+      "version": "1",
+      "read": true,
+      "verdict": "changes-required",
+      "naturalness": "Ver hallazgo particular.",
+      "acceptedRejected": "No aprobar hasta resolver el bloqueo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [
+        {
+          "severity": "block",
+          "description": "La oposición andare/venire depende del interlocutor y destino previsto; Anna no se identifica como interlocutora y no se fija dónde estará mañana. No rechazar Vengo solo por ubicación presente.",
+          "suggestedChange": "Telefoni ad Anna, che oggi e domani è a Torino. Tu sei a Milano. Domani visiti Roma da solo. Quale frase dici ad Anna?"
+        }
+      ],
+      "suggestedFacets": [
+        "io",
+        "uso"
+      ],
+      "suggestedFeedback": "Andare expresa aquí desplazamiento a un destino distinto del lugar del interlocutor; vado es yo y andiamo es nosotros."
+    },
+    {
+      "id": "it-a1-c16-02-mixed-contesto-02",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Ver hallazgo particular.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [
+        {
+          "severity": "advisory",
+          "description": "Alla vostra casa es menos natural que a casa vostra. Conviene explicitar que Anna se queda en hotel para fijar centro deíctico.",
+          "suggestedChange": "Tu e Luca siete in hotel con Anna. Anna resta lì; voi tornate a casa vostra. Che cosa le dite prima di partire?"
+        }
+      ],
+      "suggestedFacets": [
+        "noi",
+        "uso"
+      ],
+      "suggestedFeedback": "Andare expresa aquí desplazamiento a un destino distinto del lugar del interlocutor; vado es yo y andiamo es nosotros."
+    },
+    {
+      "id": "it-a1-c16-03-mixed-contesto-01",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Italiano y situación comprensibles y naturales para el objetivo acotado.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [],
+      "suggestedFacets": [
+        "io",
+        "bienestar"
+      ],
+      "suggestedFeedback": "Sto bene habla de cómo me encuentro. Luca sta male habla del estado de Luca."
+    },
+    {
+      "id": "it-a1-c16-03-mixed-contesto-02",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Italiano y situación comprensibles y naturales para el objetivo acotado.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [],
+      "suggestedFacets": [
+        "lui-lei",
+        "bienestar"
+      ],
+      "suggestedFeedback": "Sto bene habla de cómo me encuentro. Luca sta male habla del estado de Luca."
+    },
+    {
+      "id": "it-a1-c16-04-mixed-contesto-01",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Italiano y situación comprensibles y naturales para el objetivo acotado.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [],
+      "suggestedFacets": [
+        "tu",
+        "referencia"
+      ],
+      "suggestedFeedback": "Venire sitúa el movimiento hacia quien habla o hacia su interlocutor: vieni invita a la otra persona; veniamo responde por nuestro grupo."
+    },
+    {
+      "id": "it-a1-c16-04-mixed-contesto-02",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Italiano y situación comprensibles y naturales para el objetivo acotado.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [],
+      "suggestedFacets": [
+        "noi",
+        "referencia"
+      ],
+      "suggestedFeedback": "Venire sitúa el movimiento hacia quien habla o hacia su interlocutor: vieni invita a la otra persona; veniamo responde por nuestro grupo."
+    },
+    {
+      "id": "it-a1-c16-05-mixed-contesto-01",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Italiano y situación comprensibles y naturales para el objetivo acotado.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [],
+      "suggestedFacets": [
+        "io",
+        "transferencia"
+      ],
+      "suggestedFeedback": "Dare expresa entregar algo: do habla de mí, dà de Anna. Dire se usa para decir palabras."
+    },
+    {
+      "id": "it-a1-c16-05-mixed-contesto-02",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Italiano y situación comprensibles y naturales para el objetivo acotado.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [],
+      "suggestedFacets": [
+        "lui-lei",
+        "transferencia"
+      ],
+      "suggestedFeedback": "Dare expresa entregar algo: do habla de mí, dà de Anna. Dire se usa para decir palabras."
+    },
+    {
+      "id": "it-a1-c16-06-mixed-contesto-01",
+      "version": "1",
+      "read": true,
+      "verdict": "changes-required",
+      "naturalness": "Ver hallazgo particular.",
+      "acceptedRejected": "No aprobar hasta resolver el bloqueo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [
+        {
+          "severity": "block",
+          "description": "Bevi tu anuncia el lema italiano; queda elegir persona sin seleccionar construcción a partir de significado.",
+          "suggestedChange": "Hai sete. Scegli la frase per dire «Bebo agua»."
+        }
+      ],
+      "suggestedFacets": [
+        "io",
+        "uso"
+      ],
+      "suggestedFeedback": "Bevo corresponde a yo; bevono, a Anna y Luca. Bere expresa beber."
+    },
+    {
+      "id": "it-a1-c16-06-mixed-contesto-02",
+      "version": "1",
+      "read": true,
+      "verdict": "changes-required",
+      "naturalness": "Ver hallazgo particular.",
+      "acceptedRejected": "No aprobar hasta resolver el bloqueo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [
+        {
+          "severity": "block",
+          "description": "La respuesta exacta Bevono acqua ya aparece en el enunciado: copia, no oportunidad independiente.",
+          "suggestedChange": "Anna e Luca hanno sete. Vuoi dire «Beben agua». Scegli la frase."
+        }
+      ],
+      "suggestedFacets": [
+        "loro",
+        "uso"
+      ],
+      "suggestedFeedback": "Bevo corresponde a yo; bevono, a Anna y Luca. Bere expresa beber."
+    },
+    {
+      "id": "it-a1-c16-07-mixed-contesto-01",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Italiano y situación comprensibles y naturales para el objetivo acotado.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [],
+      "suggestedFacets": [
+        "lui-lei",
+        "uso"
+      ],
+      "suggestedFeedback": "Dire expresa pronunciar palabras: Anna dice; noi diciamo. Dare il numero también puede significar comunicarlo y no es un distractor inequívoco."
+    },
+    {
+      "id": "it-a1-c16-07-mixed-contesto-02",
+      "version": "1",
+      "read": true,
+      "verdict": "changes-required",
+      "naturalness": "Ver hallazgo particular.",
+      "acceptedRejected": "No aprobar hasta resolver el bloqueo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [
+        {
+          "severity": "block",
+          "description": "Diamo il numero puede significar comunicar/facilitar oralmente el número y es compatible con la situación. Falso rechazo semántico.",
+          "suggestedChange": "Conservar prompt y accepted; sustituir Diamo il numero por Dici il numero en options/rejected."
+        }
+      ],
+      "suggestedFacets": [
+        "noi",
+        "uso"
+      ],
+      "suggestedFeedback": "Dire expresa pronunciar palabras: Anna dice; noi diciamo. Dare il numero también puede significar comunicarlo y no es un distractor inequívoco."
+    },
+    {
+      "id": "it-a1-c16-08-mixed-contesto-01",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Ver hallazgo particular.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [
+        {
+          "severity": "advisory",
+          "description": "Passi la porta es comprensible pero poco idiomático; Esca es una forma real de otra modalidad y un distractor innecesariamente avanzado.",
+          "suggestedChange": "Sei in casa, apri la porta e vai fuori. Quale frase descrive questa azione? Sustituir Esca di casa por Esce di casa."
+        }
+      ],
+      "suggestedFacets": [
+        "io",
+        "uso"
+      ],
+      "suggestedFeedback": "Esco describe mi salida; escono describe la de Anna y Luca."
+    },
+    {
+      "id": "it-a1-c16-08-mixed-contesto-02",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Ver hallazgo particular.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [
+        {
+          "severity": "advisory",
+          "description": "Passano la porta resulta poco idiomático.",
+          "suggestedChange": "Anna e Luca sono in casa, poi aprono la porta e vanno fuori. Scegli."
+        }
+      ],
+      "suggestedFacets": [
+        "loro",
+        "uso"
+      ],
+      "suggestedFeedback": "Esco describe mi salida; escono describe la de Anna y Luca."
+    },
+    {
+      "id": "it-a1-c17-01-mixed-contesto-01",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Italiano y situación comprensibles y naturales para el objetivo acotado.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [],
+      "suggestedFacets": [
+        "io",
+        "posibilidad"
+      ],
+      "suggestedFeedback": "Posso expresa posibilidad; possiamo pide permiso para el grupo. Dovere expresa necesidad y volere deseo."
+    },
+    {
+      "id": "it-a1-c17-01-mixed-contesto-02",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Italiano y situación comprensibles y naturales para el objetivo acotado.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [],
+      "suggestedFacets": [
+        "noi",
+        "permiso"
+      ],
+      "suggestedFeedback": "Posso expresa posibilidad; possiamo pide permiso para el grupo. Dovere expresa necesidad y volere deseo."
+    },
+    {
+      "id": "it-a1-c18-01-mixed-contesto-01",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Italiano y situación comprensibles y naturales para el objetivo acotado.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [],
+      "suggestedFacets": [
+        "nombre",
+        "registro"
+      ],
+      "suggestedFeedback": "Vorrei suaviza una petición. Voglio expresa el deseo de modo más directo; ho afirma posesión."
+    },
+    {
+      "id": "it-a1-c18-01-mixed-contesto-02",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Italiano y situación comprensibles y naturales para el objetivo acotado.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [],
+      "suggestedFacets": [
+        "nombre",
+        "registro"
+      ],
+      "suggestedFeedback": "Vorrei suaviza una petición. Voglio expresa el deseo de modo más directo; ho afirma posesión."
+    },
+    {
+      "id": "it-a1-c21-01-mixed-contesto-01",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Ver hallazgo particular.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [
+        {
+          "severity": "advisory",
+          "description": "Allo studente proporciona artículo articulado de apoyo, pero no la contracción di+lo objetivo. Aceptable como apoyo y no recuperación independiente amplia.",
+          "suggestedChange": "Mantener; feedback debe explicar di + lo = dello ante studente."
+        }
+      ],
+      "suggestedFacets": [
+        "di"
+      ],
+      "suggestedFeedback": "Di + lo forman dello ante studente; su + il forman sul ante letto."
+    },
+    {
+      "id": "it-a1-c21-01-mixed-contesto-02",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Ver hallazgo particular.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [
+        {
+          "severity": "advisory",
+          "description": "Sopra il letto anuncia relación espacial, legítima para elegir forma fusionada. Contexto inicial redundante, no bloqueo.",
+          "suggestedChange": "Il libro è sopra il letto della tua camera. Completa: «Il libro è ___ letto»."
+        }
+      ],
+      "suggestedFacets": [
+        "su"
+      ],
+      "suggestedFeedback": "Di + lo forman dello ante studente; su + il forman sul ante letto."
+    },
+    {
+      "id": "it-a1-c24-01-mixed-contesto-01",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Italiano y situación comprensibles y naturales para el objetivo acotado.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [],
+      "suggestedFacets": [
+        "femenino",
+        "plural"
+      ],
+      "suggestedFeedback": "Questo señala proximidad: queste concuerda con penne, femenino plural; questo con libro, masculino singular."
+    },
+    {
+      "id": "it-a1-c24-01-mixed-contesto-02",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Italiano y situación comprensibles y naturales para el objetivo acotado.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [],
+      "suggestedFacets": [
+        "masculino"
+      ],
+      "suggestedFeedback": "Questo señala proximidad: queste concuerda con penne, femenino plural; questo con libro, masculino singular."
+    },
+    {
+      "id": "it-a1-c24-02-mixed-contesto-01",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Italiano y situación comprensibles y naturales para el objetivo acotado.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [],
+      "suggestedFacets": [
+        "plural"
+      ],
+      "suggestedFeedback": "Quello señala distancia: quei se usa ante libri, masculino plural con consonante simple; quella ante penna, femenino singular."
+    },
+    {
+      "id": "it-a1-c24-02-mixed-contesto-02",
+      "version": "1",
+      "read": true,
+      "verdict": "usable-after-common-metadata-fix",
+      "naturalness": "Italiano y situación comprensibles y naturales para el objetivo acotado.",
+      "acceptedRejected": "Conjunto cerrado de selection: accepted coincide con opción. Distractores incompatibles con persona/función indicada, salvo hallazgo particular.",
+      "context": "Debe sustituirse etiqueta genérica por ámbito real; no requiere texto largo.",
+      "leakage": "Sin forma objetivo anticipada, salvo hallazgo particular. Opciones visibles son apoyo legítimo de reconocimiento.",
+      "attribution": "Solo discriminación/reconocimiento de la faceta indicada; no recuperación, producción, transferencia amplia ni paradigma completo.",
+      "findings": [],
+      "suggestedFacets": [
+        "femenino"
+      ],
+      "suggestedFeedback": "Quello señala distancia: quei se usa ante libri, masculino plural con consonante simple; quella ante penna, femenino singular."
+    }
+  ],
+  "blockingIds": [
+    "it-a1-c14-01-mixed-contesto-01",
+    "it-a1-c14-01-mixed-contesto-02",
+    "it-a1-c15-01-mixed-contesto-02",
+    "it-a1-c15-02-mixed-contesto-02",
+    "it-a1-c16-02-mixed-contesto-01",
+    "it-a1-c16-06-mixed-contesto-01",
+    "it-a1-c16-06-mixed-contesto-02",
+    "it-a1-c16-07-mixed-contesto-02"
+  ],
+  "productionModified": false
+}

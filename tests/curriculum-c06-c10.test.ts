@@ -1,5 +1,9 @@
 import { describe, expect, it } from 'vitest';
-import { italianCourse, lessons } from '../src/content/italian-a1/course';
+// Historical batch invariants; mixed-curriculum.test.ts verifies preservation in the expanded bank.
+import {
+  reviewedItalianCourse6B as italianCourse,
+  lessons,
+} from '../src/content/italian-a1/course';
 import { evaluate } from '../src/exercises/evaluate';
 import { curriculumCoverage } from '../src/content/coverage';
 import { loadLanguagePack } from '../src/content/loader';

@@ -1,0 +1,387 @@
+{
+  "source": "/tmp/mixed-final-late.json",
+  "sourceSha256": "2a71ac194dce4770843eb9824e9d746dcdcdc6866828da3e9f7ffd031ec671c3",
+  "readAllItems": true,
+  "readIds": [
+    "it-a1-c25-01-mixed-independent-1",
+    "it-a1-c26-01-mixed-independent-1",
+    "it-a1-c26-01-mixed-independent-2",
+    "it-a1-c26-02-mixed-independent-1",
+    "it-a1-c27-02-mixed-independent-1",
+    "it-a1-c27-03-mixed-independent-1",
+    "it-a1-c27-03-mixed-independent-2",
+    "it-a1-c28-01-mixed-independent-1",
+    "it-a1-c29-01-mixed-independent-1",
+    "it-a1-c29-02-mixed-independent-2",
+    "it-a1-c30-02-mixed-independent-1",
+    "it-a1-c31-01-mixed-independent-1",
+    "it-a1-c31-01-mixed-independent-2",
+    "it-a1-c31-02-mixed-independent-1",
+    "it-a1-c32-01-mixed-independent-1",
+    "it-a1-c32-01-mixed-independent-2",
+    "it-a1-c32-03-mixed-independent-1",
+    "it-a1-c33-01-mixed-independent-1"
+  ],
+  "total": 18,
+  "approved": 18,
+  "blocked": 0,
+  "productionModified": false,
+  "commonNotes": [
+    "Revisión independiente del archivo final completo, incluidos prompt, accepted, rejected, hints, feedback, facets y options.",
+    "Prerrequisitos adicionales pueden resultar redundantes por otros conceptos del grupo; comprobar cierre de cada grupo, sin cambiar grafo revisado.",
+    "Approved no significa banco exhaustivo de sinónimos. Evaluador actual abstiene ante respuestas fuera de accepted/rejected en formatos abiertos.",
+    "Esprime en cuatro prompts es tercera persona; Esprimi sería la instrucción natural. No lo considero bloqueo lingüístico del criterio porque se interpreta como descripción elíptica del mensaje, pero corregir antes de entrega mejora claridad."
+  ],
+  "items": [
+    {
+      "id": "it-a1-c25-01-mixed-independent-1",
+      "version": "3",
+      "read": true,
+      "decision": "approved",
+      "scope": "Aprobación lingüística/pedagógica del ítem dentro del alcance del evaluador; no promoción editorial.",
+      "findings": [
+        "Seguimiento independiente: eliminadas ambas variantes incorrectas Io non mi piace; A me non piace studiare di notte (con y sin punto) es correcta. Non mi piace también correcto. Rechazo Non mi piacciono studiare di notte sigue siendo incorrecto para infinitivo singular. Prompt, hint, feedback, contexto y facetas permanecen idénticos; no entrega forma italiana antes de responder."
+      ],
+      "additionalPrerequisiteIds": [
+        "it-a1-c06-01",
+        "it-a1-c20-06"
+      ],
+      "targetLeakage": "No se entrega forma italiana objetivo en el enunciado. Opciones de selección son andamiaje de reconocimiento declarado.",
+      "conditions": [
+        "Mantener no-exhaustive en traducción/cloze para abstenerse ante variantes desconocidas."
+      ],
+      "reviewBasis": "Lectura y validación del cambio v2→v3 y conservación de los demás campos."
+    },
+    {
+      "id": "it-a1-c26-01-mixed-independent-1",
+      "version": "2",
+      "read": true,
+      "decision": "approved",
+      "scope": "Aprobación lingüística/pedagógica del ítem dentro del alcance del evaluador; no promoción editorial.",
+      "findings": [
+        "Mi chiamo/Io mi chiamo correctos; rechazo Si chiamo mezcla persona. Atribución al reflexivo y persona adecuada."
+      ],
+      "additionalPrerequisiteIds": [
+        "it-a1-c06-03"
+      ],
+      "targetLeakage": "No se entrega forma italiana objetivo en el enunciado. Opciones de selección son andamiaje de reconocimiento declarado.",
+      "conditions": [
+        "Mantener no-exhaustive en traducción/cloze para abstenerse ante variantes desconocidas."
+      ],
+      "reviewBasis": "Aprobación independiente previa v2 conservada: objeto completo idéntico por comparación JSON con fuente previamente revisada."
+    },
+    {
+      "id": "it-a1-c26-01-mixed-independent-2",
+      "version": "2",
+      "read": true,
+      "decision": "approved",
+      "scope": "Aprobación lingüística/pedagógica del ítem dentro del alcance del evaluador; no promoción editorial.",
+      "findings": [
+        "Eliminada puntuación ?. incorrecta. Come ti chiami tu? sigue fuera del banco, abstención válida, no error. Aclaración (a un amigo) dentro de comillas es editorialmente mejorable; el español te fija trato tu."
+      ],
+      "additionalPrerequisiteIds": [
+        "it-a1-c06-03"
+      ],
+      "targetLeakage": "No se entrega forma italiana objetivo en el enunciado. Opciones de selección son andamiaje de reconocimiento declarado.",
+      "conditions": [
+        "Mantener no-exhaustive en traducción/cloze para abstenerse ante variantes desconocidas."
+      ],
+      "reviewBasis": "Aprobación independiente previa v2 conservada: objeto completo idéntico por comparación JSON con fuente previamente revisada."
+    },
+    {
+      "id": "it-a1-c26-02-mixed-independent-1",
+      "version": "2",
+      "read": true,
+      "decision": "approved",
+      "scope": "Aprobación lingüística/pedagógica del ítem dentro del alcance del evaluador; no promoción editorial.",
+      "findings": [
+        "Mi alzo e Io mi alzo correctos; Ti alzo es frase gramatical con otro significado, rechazo válido para la traducción solicitada. Exigir hora C22-02 introducida."
+      ],
+      "additionalPrerequisiteIds": [
+        "it-a1-c22-02"
+      ],
+      "targetLeakage": "No se entrega forma italiana objetivo en el enunciado. Opciones de selección son andamiaje de reconocimiento declarado.",
+      "conditions": [
+        "Mantener no-exhaustive en traducción/cloze para abstenerse ante variantes desconocidas."
+      ],
+      "reviewBasis": "Aprobación independiente previa v2 conservada: objeto completo idéntico por comparación JSON con fuente previamente revisada."
+    },
+    {
+      "id": "it-a1-c27-02-mixed-independent-1",
+      "version": "2",
+      "read": true,
+      "decision": "approved",
+      "scope": "Aprobación lingüística/pedagógica del ítem dentro del alcance del evaluador; no promoción editorial.",
+      "findings": [
+        "Molte concuerda con mele; rejection molto mele incorrecto. Tante mele es variante natural fuera del repertorio aceptado; debe quedar not-evaluable y no acreditar automáticamente molto."
+      ],
+      "additionalPrerequisiteIds": [
+        "it-a1-c14-01"
+      ],
+      "targetLeakage": "No se entrega forma italiana objetivo en el enunciado. Opciones de selección son andamiaje de reconocimiento declarado.",
+      "conditions": [
+        "Mantener no-exhaustive en traducción/cloze para abstenerse ante variantes desconocidas."
+      ],
+      "reviewBasis": "Aprobación independiente previa v2 conservada: objeto completo idéntico por comparación JSON con fuente previamente revisada."
+    },
+    {
+      "id": "it-a1-c27-03-mixed-independent-1",
+      "version": "2",
+      "read": true,
+      "decision": "approved",
+      "scope": "Aprobación lingüística/pedagógica del ítem dentro del alcance del evaluador; no promoción editorial.",
+      "findings": [
+        "Conversión a selección resuelve variantes un po’ di que evitaban objetivo. Del pane único correcto entre opciones. Situación bar posible; panetteria sería más típica, mejora no bloqueante. Solo discriminación, no producción."
+      ],
+      "additionalPrerequisiteIds": [
+        "it-a1-c18-01",
+        "it-a1-c14-01"
+      ],
+      "targetLeakage": "No se entrega forma italiana objetivo en el enunciado. Opciones de selección son andamiaje de reconocimiento declarado.",
+      "conditions": [
+        "Mantener no-exhaustive en traducción/cloze para abstenerse ante variantes desconocidas."
+      ],
+      "reviewBasis": "Aprobación independiente previa v2 conservada: objeto completo idéntico por comparación JSON con fuente previamente revisada."
+    },
+    {
+      "id": "it-a1-c27-03-mixed-independent-2",
+      "version": "2",
+      "read": true,
+      "decision": "approved",
+      "scope": "Aprobación lingüística/pedagógica del ítem dentro del alcance del evaluador; no promoción editorial.",
+      "findings": [
+        "Delle mele único correcto entre opciones; degli/del mele incorrectos. Alcune en contexto expresa significado sin entregar estructura partitiva. Solo discriminación."
+      ],
+      "additionalPrerequisiteIds": [
+        "it-a1-c18-01",
+        "it-a1-c14-01"
+      ],
+      "targetLeakage": "No se entrega forma italiana objetivo en el enunciado. Opciones de selección son andamiaje de reconocimiento declarado.",
+      "conditions": [
+        "Mantener no-exhaustive en traducción/cloze para abstenerse ante variantes desconocidas."
+      ],
+      "reviewBasis": "Aprobación independiente previa v2 conservada: objeto completo idéntico por comparación JSON con fuente previamente revisada."
+    },
+    {
+      "id": "it-a1-c28-01-mixed-independent-1",
+      "version": "2",
+      "read": true,
+      "decision": "approved",
+      "scope": "Aprobación lingüística/pedagógica del ítem dentro del alcance del evaluador; no promoción editorial.",
+      "findings": [
+        "Con me/tu vieni con me correctos; con io incorrecto. Sin signo interrogativo queda fuera de criterio por política actual, abstención, no falso error."
+      ],
+      "additionalPrerequisiteIds": [
+        "it-a1-c16-04",
+        "it-a1-c20-04"
+      ],
+      "targetLeakage": "No se entrega forma italiana objetivo en el enunciado. Opciones de selección son andamiaje de reconocimiento declarado.",
+      "conditions": [
+        "Mantener no-exhaustive en traducción/cloze para abstenerse ante variantes desconocidas."
+      ],
+      "reviewBasis": "Aprobación independiente previa v2 conservada: objeto completo idéntico por comparación JSON con fuente previamente revisada."
+    },
+    {
+      "id": "it-a1-c29-01-mixed-independent-1",
+      "version": "2",
+      "read": true,
+      "decision": "approved",
+      "scope": "Aprobación lingüística/pedagógica del ítem dentro del alcance del evaluador; no promoción editorial.",
+      "findings": [
+        "E/è bien discriminadas; orden y sujetos aceptados correctos. Lavoro al bar o Studio l’italiano serían variantes naturales fuera de lista; abstención, no error."
+      ],
+      "additionalPrerequisiteIds": [
+        "it-a1-c20-02",
+        "it-a1-c10-01"
+      ],
+      "targetLeakage": "No se entrega forma italiana objetivo en el enunciado. Opciones de selección son andamiaje de reconocimiento declarado.",
+      "conditions": [
+        "Mantener no-exhaustive en traducción/cloze para abstenerse ante variantes desconocidas."
+      ],
+      "reviewBasis": "Aprobación independiente previa v2 conservada: objeto completo idéntico por comparación JSON con fuente previamente revisada."
+    },
+    {
+      "id": "it-a1-c29-02-mixed-independent-2",
+      "version": "2",
+      "read": true,
+      "decision": "approved",
+      "scope": "Aprobación lingüística/pedagógica del ítem dentro del alcance del evaluador; no promoción editorial.",
+      "findings": [
+        "Respuesta nuclear correcta y perché cambia mensaje. La camera è piccola ma bella, La stanza è piccola, ma è bella quedan fuera del banco pese a ser naturales: sugerencia de ampliación, no error con evaluator actual. Però es alternativa de contraste que no observa ma; no añadir sin limitar atribución."
+      ],
+      "additionalPrerequisiteIds": [
+        "it-a1-c04-01",
+        "it-a1-c11-01"
+      ],
+      "targetLeakage": "No se entrega forma italiana objetivo en el enunciado. Opciones de selección son andamiaje de reconocimiento declarado.",
+      "conditions": [
+        "Mantener no-exhaustive en traducción/cloze para abstenerse ante variantes desconocidas."
+      ],
+      "reviewBasis": "Aprobación independiente previa v2 conservada: objeto completo idéntico por comparación JSON con fuente previamente revisada."
+    },
+    {
+      "id": "it-a1-c30-02-mixed-independent-1",
+      "version": "2",
+      "read": true,
+      "decision": "approved",
+      "scope": "Aprobación lingüística/pedagógica del ítem dentro del alcance del evaluador; no promoción editorial.",
+      "findings": [
+        "Parla es correcto por Habla (tu); parli no traduce ese trato. Parla piano puede significar hablar bajo, pero también despacio, aceptable en esta petición. Più piano agrega matiz comparativo habitual; no usar para medir literalidad exacta. Formas con per favore delante son naturales."
+      ],
+      "additionalPrerequisiteIds": [
+        "it-a1-c02-02"
+      ],
+      "targetLeakage": "No se entrega forma italiana objetivo en el enunciado. Opciones de selección son andamiaje de reconocimiento declarado.",
+      "conditions": [
+        "Mantener no-exhaustive en traducción/cloze para abstenerse ante variantes desconocidas."
+      ],
+      "reviewBasis": "Aprobación independiente previa v2 conservada: objeto completo idéntico por comparación JSON con fuente previamente revisada."
+    },
+    {
+      "id": "it-a1-c31-01-mixed-independent-1",
+      "version": "2",
+      "read": true,
+      "decision": "approved",
+      "scope": "Aprobación lingüística/pedagógica del ítem dentro del alcance del evaluador; no promoción editorial.",
+      "findings": [
+        "Studiato correcto; español he estudiado no suministra forma italiana. Auxiliar visible: atribuir SOLO recuperación participial, preparación C32-01, nunca elección de auxiliar o tiempo. Mejora de prompt: Esprimi, no Esprime, si es instrucción. Mejor focalizar feedback en studiato; dormito no completa esta frase con significado pedido."
+      ],
+      "additionalPrerequisiteIds": [
+        "it-a1-c32-01",
+        "it-a1-c15-02"
+      ],
+      "targetLeakage": "Auxiliar visible, forma objetivo no dada; aprobado solo como recuperación participial diferida a C32-01.",
+      "conditions": [
+        "Mantener no-exhaustive en traducción/cloze para abstenerse ante variantes desconocidas.",
+        "No usar como evidencia de elegir estructura temporal; C32-01 introducido."
+      ],
+      "reviewBasis": "Aprobación independiente previa v2 conservada: objeto completo idéntico por comparación JSON con fuente previamente revisada."
+    },
+    {
+      "id": "it-a1-c31-01-mixed-independent-2",
+      "version": "2",
+      "read": true,
+      "decision": "approved",
+      "scope": "Aprobación lingüística/pedagógica del ítem dentro del alcance del evaluador; no promoción editorial.",
+      "findings": [
+        "Dormito correcto; stanotte es pasado por ho y traducción. Auxiliar visible: SOLO recuperación participial después de C32-01. Mejor Esprimi en instrucción y feedback focal en dormito, no ambos participios como si intercambiables."
+      ],
+      "additionalPrerequisiteIds": [
+        "it-a1-c32-01",
+        "it-a1-c15-02"
+      ],
+      "targetLeakage": "Auxiliar visible, forma objetivo no dada; aprobado solo como recuperación participial diferida a C32-01.",
+      "conditions": [
+        "Mantener no-exhaustive en traducción/cloze para abstenerse ante variantes desconocidas.",
+        "No usar como evidencia de elegir estructura temporal; C32-01 introducido."
+      ],
+      "reviewBasis": "Aprobación independiente previa v2 conservada: objeto completo idéntico por comparación JSON con fuente previamente revisada."
+    },
+    {
+      "id": "it-a1-c31-02-mixed-independent-1",
+      "version": "2",
+      "read": true,
+      "decision": "approved",
+      "scope": "Aprobación lingüística/pedagógica del ítem dentro del alcance del evaluador; no promoción editorial.",
+      "findings": [
+        "Visto y veduto correctos; feedback ya reconoce ambos. Auxiliar visible: SOLO recuperación participial después de C32-01. Esprimi sería el imperativo natural."
+      ],
+      "additionalPrerequisiteIds": [
+        "it-a1-c32-01"
+      ],
+      "targetLeakage": "Auxiliar visible, forma objetivo no dada; aprobado solo como recuperación participial diferida a C32-01.",
+      "conditions": [
+        "Mantener no-exhaustive en traducción/cloze para abstenerse ante variantes desconocidas.",
+        "No usar como evidencia de elegir estructura temporal; C32-01 introducido."
+      ],
+      "reviewBasis": "Aprobación independiente previa v2 conservada: objeto completo idéntico por comparación JSON con fuente previamente revisada."
+    },
+    {
+      "id": "it-a1-c32-01-mixed-independent-1",
+      "version": "2",
+      "read": true,
+      "decision": "approved",
+      "scope": "Aprobación lingüística/pedagógica del ítem dentro del alcance del evaluador; no promoción editorial.",
+      "findings": [
+        "Núcleo correcto. Ho lavorato ieri, Ieri io ho lavorato e Io ho lavorato ieri son variantes frecuentes aún fuera del banco: ampliar recomendable; abstención actual evita falso error. No rechazar passato remoto no incluido como agramatical. Feedback menciona hemos tomado ajeno a esta tarea: innecesario pero correcto."
+      ],
+      "additionalPrerequisiteIds": [],
+      "targetLeakage": "No se entrega forma italiana objetivo en el enunciado. Opciones de selección son andamiaje de reconocimiento declarado.",
+      "conditions": [
+        "Mantener no-exhaustive en traducción/cloze para abstenerse ante variantes desconocidas."
+      ],
+      "reviewBasis": "Aprobación independiente previa v2 conservada: objeto completo idéntico por comparación JSON con fuente previamente revisada."
+    },
+    {
+      "id": "it-a1-c32-01-mixed-independent-2",
+      "version": "2",
+      "read": true,
+      "decision": "approved",
+      "scope": "Aprobación lingüística/pedagógica del ítem dentro del alcance del evaluador; no promoción editorial.",
+      "findings": [
+        "Abbiamo/Noi abbiamo preso il treno correctos; infinitivo tras auxiliar incorrecto en mensaje solicitado. Feedback genérico a dos ítems, lingüísticamente correcto aunque conviene focalizar."
+      ],
+      "additionalPrerequisiteIds": [],
+      "targetLeakage": "No se entrega forma italiana objetivo en el enunciado. Opciones de selección son andamiaje de reconocimiento declarado.",
+      "conditions": [
+        "Mantener no-exhaustive en traducción/cloze para abstenerse ante variantes desconocidas."
+      ],
+      "reviewBasis": "Aprobación independiente previa v2 conservada: objeto completo idéntico por comparación JSON con fuente previamente revisada."
+    },
+    {
+      "id": "it-a1-c32-03-mixed-independent-1",
+      "version": "2",
+      "read": true,
+      "decision": "approved",
+      "scope": "Aprobación lingüística/pedagógica del ítem dentro del alcance del evaluador; no promoción editorial.",
+      "findings": [
+        "Hábito attuale fija lavoro; glosa trabajo no da forma italiana y recuperación/selección sigue legítima. Selection sin skill materializa comprehension: si se desea discrimination, declararla explícitamente; no acreditar recuperación. Esprimi es más natural que Esprime para instruir."
+      ],
+      "additionalPrerequisiteIds": [
+        "it-a1-c22-03",
+        "it-a1-c21-02"
+      ],
+      "targetLeakage": "No se entrega forma italiana objetivo en el enunciado. Opciones de selección son andamiaje de reconocimiento declarado.",
+      "conditions": [
+        "Mantener no-exhaustive en traducción/cloze para abstenerse ante variantes desconocidas."
+      ],
+      "reviewBasis": "Aprobación independiente previa v2 conservada: objeto completo idéntico por comparación JSON con fuente previamente revisada."
+    },
+    {
+      "id": "it-a1-c33-01-mixed-independent-1",
+      "version": "2",
+      "read": true,
+      "decision": "approved",
+      "scope": "Aprobación lingüística/pedagógica del ítem dentro del alcance del evaluador; no promoción editorial.",
+      "findings": [
+        "ed Eva y e Eva aceptadas correctamente. Fem plural uscite; rejection usciti corresponde a otra concordancia. Falta rejected paralelo con ed Eva significa abstención para esa variante, no falso positivo; añadir recomendable si se quiere observar el error con grafía más natural."
+      ],
+      "additionalPrerequisiteIds": [
+        "it-a1-c29-01",
+        "it-a1-c16-08"
+      ],
+      "targetLeakage": "No se entrega forma italiana objetivo en el enunciado. Opciones de selección son andamiaje de reconocimiento declarado.",
+      "conditions": [
+        "Mantener no-exhaustive en traducción/cloze para abstenerse ante variantes desconocidas."
+      ],
+      "reviewBasis": "Aprobación independiente previa v2 conservada: objeto completo idéntico por comparación JSON con fuente previamente revisada."
+    }
+  ],
+  "followup": {
+    "baselineSource": "/tmp/mixed-v2-late.json",
+    "baselineSourceSha256": "664c4bee288759b62fa7054f265ee7cf873af4fc28c2beaf9ebbbf6b026113a9",
+    "preservedPriorVerdict": "/tmp/mixed-v2-verdict-late.json",
+    "preservedPriorVerdictSha256": "aae3940f5c51109139950275f75c5470807526a56455269a6568ef03011be6e5",
+    "unchangedPreviouslyApprovedItems": 17,
+    "followupApprovedItems": 1,
+    "changedIds": [
+      "it-a1-c25-01-mixed-independent-1"
+    ],
+    "changedFields": [
+      "version",
+      "accepted"
+    ],
+    "all18Covered": true,
+    "sourcesModified": false
+  }
+}

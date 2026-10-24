@@ -1,0 +1,526 @@
+{
+  "source": "/Users/sergiopardo/Desktop/language-trainer/docs/product/mixed-coverage-review/proposals-late.json",
+  "sourceSha256": "4ca8673fc4ecfa7c49221d9826dfeef8ebdae1c658e90100e292d70088e766b1",
+  "scope": "Revisión independiente C25–C34, 30/30 propuestas leídas; no se consultó informe/conclusiones del autor. editorialNote está dentro del archivo y se ha ignorado como autoridad.",
+  "complete": true,
+  "itemsRead": 30,
+  "commonFindings": [
+    "24 traducciones traen facets vacías y feedback provisional: concretar faceta y razón focal antes de habilitar.",
+    "Canonical-match-v2 normaliza caso/espacios, no puntuación ni orden. Las variantes válidas ausentes de accepted quedan not-evaluable, no linguistic-error (salvo rejected). No declarar falsos errores por simple ausencia.",
+    "Alternativas que evitan estructura objetivo no se pueden añadir indiscriminadamente como correctas atribuidas al concepto. Usar evaluación fuera de alcance o rediseñar selección situada.",
+    "Recuperación asistida por lema/auxiliar en C31 puede ser útil pero no acredita elección autónoma de estructura. Decisión de producto explícita requerida sobre aptitud Mixed estricta.",
+    "Los IDs extra son preparación por grupo/actividad, no una propuesta de modificar grafo editorial. Algunos pueden ya quedar satisfechos por otros conceptos del grupo: calcular cierre antes de añadir.",
+    "Ningún ítem habilitado ni promovido; sin cambios de producción."
+  ],
+  "decisions": [
+    {
+      "id": "it-a1-c25-01-mixed-independent-1",
+      "version": "1",
+      "read": true,
+      "decision": "revise",
+      "findings": [
+        "Añadir A me non piace studiare di notte, Non mi piace studiare la notte como variantes; valor de noche natural."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c06-01",
+        "it-a1-c20-06"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c25-01-mixed-independent-2",
+      "version": "1",
+      "read": true,
+      "decision": "revise",
+      "findings": [
+        "Añadir Mi piace ascoltare la musica y A me piace ascoltare musica; artículo es natural y no altera criterio."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c26-01-mixed-independent-1",
+      "version": "1",
+      "read": true,
+      "decision": "pass-with-minor-revision",
+      "findings": [
+        "Añadir Io mi chiamo Elena; sujeto explícito legítimo."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c26-01-mixed-independent-2",
+      "version": "1",
+      "read": true,
+      "decision": "revise",
+      "findings": [
+        "Eliminar accepted Come ti chiami?.: puntuación inválida. Mover (a un amigo) fuera de comillas y hacer explícito trato de tú. Considerar Tu come ti chiami?/Come ti chiami tu?."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c06-03"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c26-02-mixed-independent-1",
+      "version": "1",
+      "read": true,
+      "decision": "revise",
+      "findings": [
+        "Añadir Io mi alzo alle sette. Hora exige preparación adicional no presente en grafo como prerequisite."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c22-02"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c26-02-mixed-independent-2",
+      "version": "1",
+      "read": true,
+      "decision": "pass-with-minor-revision",
+      "findings": [
+        "Añadir Noi ci laviamo le mani. Ci es reflexivo y le mani mantiene artículo natural."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c09-02"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c27-02-mixed-independent-1",
+      "version": "1",
+      "read": true,
+      "decision": "revise",
+      "findings": [
+        "Añadir Noi compriamo molte mele, Compriamo tante mele; tante es traducción natural sin revelar cantidad objetivo. Variante con tante no demuestra necesariamente molto: separar evidencia fuera del repertorio si no enseñada."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c14-01"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c27-02-mixed-independent-2",
+      "version": "1",
+      "read": true,
+      "decision": "revise",
+      "findings": [
+        "Añadir Le stanze sono molto grandi; stanze traduce habitaciones. Molto adverbial correcto; molte no corresponde al objetivo."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c04-01",
+        "it-a1-c11-01"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c27-03-mixed-independent-1",
+      "version": "1",
+      "read": true,
+      "decision": "redesign",
+      "findings": [
+        "Vorrei un po’ di pane / Vorrei un poco di pane son traducciones naturales y evitan completamente el partitivo; no basta ampliar accepted y atribuir partitivo. Preferir selección contextual entre del/dello/della pane, sin dar forma correcta en prompt."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c18-01"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c27-03-mixed-independent-2",
+      "version": "1",
+      "read": true,
+      "decision": "redesign",
+      "findings": [
+        "Compro alcune mele / Compro qualche mela son traducciones naturales que evitan partitivo. Preferir selección contextual entre delle/dei/del mele y atribuir reconocimiento de partitivo."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c14-01"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c28-01-mixed-independent-1",
+      "version": "1",
+      "read": true,
+      "decision": "revise",
+      "findings": [
+        "Eliminar accepted Vieni con me?.; añadir Tu vieni con me?. Con y deíxis hacia hablante son naturales en la traducción."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c16-04",
+        "it-a1-c20-04"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c28-01-mixed-independent-2",
+      "version": "1",
+      "read": true,
+      "decision": "pass-with-minor-revision",
+      "findings": [
+        "Respuesta y rechazo contrastan pronombre tónico apropiado; no exige clítico."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c04-01",
+        "it-a1-c20-05"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c29-01-mixed-independent-1",
+      "version": "1",
+      "read": true,
+      "decision": "revise",
+      "findings": [
+        "Añadir Io studio italiano e lavoro in un bar, Studio italiano e lavoro al bar cuando contexto permita empleo habitual. El léxico bar y preposición introducen apoyos no listados en grafo."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c20-02",
+        "it-a1-c10-01"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c29-01-mixed-independent-2",
+      "version": "1",
+      "read": true,
+      "decision": "pass-with-minor-revision",
+      "findings": [
+        "Añadir Io ho un fratello e una sorella. No atribuir posesión/familia como segundo concepto solo por aparecer."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c05-01",
+        "it-a1-c10-01"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c29-02-mixed-independent-1",
+      "version": "1",
+      "read": true,
+      "decision": "redesign",
+      "findings": [
+        "«Quisiera ir» permite Vorrei andare; venire requiere interlocutor en destino. Añadir situación: tu amigo está en Roma y te invita allí; o aceptar andare y venire sin evaluar deíxis. Ma y però son alternativas para pero: però no es oportunidad del objetivo ma si criterio lo restringe."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c18-01",
+        "it-a1-c16-04"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c29-02-mixed-independent-2",
+      "version": "1",
+      "read": true,
+      "decision": "revise",
+      "findings": [
+        "Añadir La camera è piccola ma bella, La stanza è piccola, ma è bella; omitir segundo è es natural. Però puede expresar contraste, pero no observaría ma."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c04-01",
+        "it-a1-c11-01"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c30-02-mixed-independent-1",
+      "version": "1",
+      "read": true,
+      "decision": "revise",
+      "findings": [
+        "Añadir Parla piano, per favore / Per favore, parla lentamente. Precisar que hablas de tú al amigo; amistad por sí sola no fija universalmente registro. Rechazo parli correcto solo con trato informal explícito."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c02-02"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c30-02-mixed-independent-2",
+      "version": "1",
+      "read": true,
+      "decision": "pass-with-minor-revision",
+      "findings": [
+        "Non dormite qui es natural para varios amigos; Non dormire no traduce plural. Pasar aclaración de destinatarios fuera de las comillas."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c15-02"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c32-01-mixed-independent-1",
+      "version": "1",
+      "read": true,
+      "decision": "revise",
+      "findings": [
+        "Añadir Ho lavorato ieri, Io ieri ho lavorato; orden temporal no fijado. Ieri lavorai puede ser traducción legítima fuera de repertorio A1: abstenerse, nunca linguistic-error por ausencia de passato prossimo."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c32-01-mixed-independent-2",
+      "version": "1",
+      "read": true,
+      "decision": "pass-with-minor-revision",
+      "findings": [
+        "Añadir Noi abbiamo preso il treno. Criterio incorrecto contiene infinitivo y observa participio/tiempo completo."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c33-01-mixed-independent-1",
+      "version": "1",
+      "read": true,
+      "decision": "revise",
+      "findings": [
+        "Añadir Anna ed Eva sono uscite (forma natural ante la misma vocal); e Eva es admisible pero no única. No basta variantes con punto."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c29-01"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c33-01-mixed-independent-2",
+      "version": "1",
+      "read": true,
+      "decision": "revise",
+      "findings": [
+        "Añadir Marco è arrivato all’hotel / Marco è arrivato in albergo / Marco è arrivato all’albergo. Español al hotel no obliga in hotel; atributo objetivo es concordancia, no elegir preposición."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c20-03",
+        "it-a1-c21-01"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c34-07-mixed-independent-1",
+      "version": "1",
+      "read": true,
+      "decision": "revise",
+      "findings": [
+        "Mi fa male la testa es traducción directa válida fuera de fórmula enseñada; no atribuir automáticamente dominio de ho mal di testa si se admite. Criterio puede abstenerse para alternativa; añadir Io ho mal di testa."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c05-01"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c34-07-mixed-independent-2",
+      "version": "1",
+      "read": true,
+      "decision": "pass-with-minor-revision",
+      "findings": [
+        "Añadir Io ho bisogno di aiuto; Mi serve aiuto es alternativa natural fuera de repertorio: abstención honesta, no error."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c05-01"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c31-01-mixed-independent-1",
+      "version": "1",
+      "read": true,
+      "decision": "conditional",
+      "findings": [
+        "Studiato correcto; el lema y auxiliar están suministrados. Válido como recuperación participial delimitada, no selección autónoma de construcción ni evidencia de elección de auxiliar/tiempo. Si requisito Mixed excluye estructura anticipada, no incorporar este formato y rediseñar."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": true,
+      "leakageNote": "Auxiliar y lema visibles; forma participial objetivo no proporcionada.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c32-01"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c31-01-mixed-independent-2",
+      "version": "1",
+      "read": true,
+      "decision": "conditional",
+      "findings": [
+        "Dormito correcto. Stanotte puede referir noche pasada o próxima; ho dormito fija pasada, válido. Auxiliar/lemma dados: solo recuperación participial, condicionado al criterio Mixed de autonomía."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": true,
+      "leakageNote": "Auxiliar y lema visibles; forma participial objetivo no proporcionada.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c32-01",
+        "it-a1-c15-02"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c31-02-mixed-independent-1",
+      "version": "1",
+      "read": true,
+      "decision": "conditional",
+      "findings": [
+        "Visto/veduto correctos y documentados en canon local. Feedback debe mencionar ambas formas aceptadas, no presentar visto como única. Auxiliar/lemma dados: evidencia limitada a participio."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": true,
+      "leakageNote": "Auxiliar y lema visibles; forma participial objetivo no proporcionada.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c32-01"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c31-02-mixed-independent-2",
+      "version": "1",
+      "read": true,
+      "decision": "conditional",
+      "findings": [
+        "Bevuto correcto. Bebo no es forma italiana estándar; mejor rechazo bevo (presente) o beuto (regularización) según error que se quiera observar. Auxiliar/lemma dados: no acredita elegir tiempo."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": true,
+      "leakageNote": "Auxiliar y lema visibles; forma participial objetivo no proporcionada.",
+      "recommendedExtraPrerequisiteIds": [
+        "it-a1-c32-01",
+        "it-a1-c16-06"
+      ],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c32-03-mixed-independent-1",
+      "version": "1",
+      "read": true,
+      "decision": "pass",
+      "findings": [
+        "Hábito actual delimita bien lavoro frente a ho lavorato. Es selección contextual, no recuperación. Registrar dimensión discriminación mediante skill explícito si esa es intención; formato selection por defecto da comprensión."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    },
+    {
+      "id": "it-a1-c32-03-mixed-independent-2",
+      "version": "1",
+      "read": true,
+      "decision": "pass",
+      "findings": [
+        "Hecho terminado con ieri distingue las opciones en marco A1; presente narrativo no es el uso solicitado. Contexto semántico no nombra forma italiana. Es selección contextual, no relato libre ni retención."
+      ],
+      "acceptedCoreLinguisticallyValid": true,
+      "targetLeaked": false,
+      "leakageNote": "No nombra la forma italiana que debe usarse; traducción semántica legítima.",
+      "recommendedExtraPrerequisiteIds": [],
+      "attribution": "Una oportunidad solo del concepto asignado; no puntuar apoyos adicionales.",
+      "editorialState": "candidate; no promoción autorizada"
+    }
+  ]
+}

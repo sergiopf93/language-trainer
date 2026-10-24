@@ -1,0 +1,592 @@
+{
+  "status": "candidate",
+  "independentReview": "pending",
+  "enabled": false,
+  "items": [
+    {
+      "code": "25-01",
+      "key": "mixed-independent-1",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «No me gusta estudiar de noche».",
+      "accepted": [
+        "Non mi piace studiare di notte",
+        "Non mi piace studiare di notte."
+      ],
+      "rejected": [
+        "Non mi piacciono studiare di notte"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Non mi piace studiare di notte» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "conversacion",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "25-01",
+      "key": "mixed-independent-2",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «Me gusta escuchar música».",
+      "accepted": [
+        "Mi piace ascoltare musica",
+        "Mi piace ascoltare musica."
+      ],
+      "rejected": [
+        "Mi piacciono ascoltare musica"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Mi piace ascoltare musica» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "conversacion",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "26-01",
+      "key": "mixed-independent-1",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «Me llamo Elena».",
+      "accepted": [
+        "Mi chiamo Elena",
+        "Mi chiamo Elena."
+      ],
+      "rejected": [
+        "Si chiamo Elena"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Mi chiamo Elena» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "conversacion",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "26-01",
+      "key": "mixed-independent-2",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «¿Cómo te llamas? (a un amigo)».",
+      "accepted": [
+        "Come ti chiami?",
+        "Come ti chiami?."
+      ],
+      "rejected": [
+        "Come si chiami?"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Come ti chiami?» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "conversacion",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "26-02",
+      "key": "mixed-independent-1",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «Me levanto a las siete».",
+      "accepted": [
+        "Mi alzo alle sette",
+        "Mi alzo alle sette."
+      ],
+      "rejected": [
+        "Ti alzo alle sette"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Mi alzo alle sette» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "conversacion",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "26-02",
+      "key": "mixed-independent-2",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «Nos lavamos las manos».",
+      "accepted": [
+        "Ci laviamo le mani",
+        "Ci laviamo le mani."
+      ],
+      "rejected": [
+        "Si laviamo le mani"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Ci laviamo le mani» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "conversacion",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "27-02",
+      "key": "mixed-independent-1",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «Compramos muchas manzanas».",
+      "accepted": [
+        "Compriamo molte mele",
+        "Compriamo molte mele."
+      ],
+      "rejected": [
+        "Compriamo molto mele"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Compriamo molte mele» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "conversacion",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "27-02",
+      "key": "mixed-independent-2",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «Las habitaciones son muy grandes».",
+      "accepted": [
+        "Le camere sono molto grandi",
+        "Le camere sono molto grandi."
+      ],
+      "rejected": [
+        "Le camere sono molte grandi"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Le camere sono molto grandi» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "conversacion",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "27-03",
+      "key": "mixed-independent-1",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «Quisiera algo de pan».",
+      "accepted": [
+        "Vorrei del pane",
+        "Vorrei del pane."
+      ],
+      "rejected": [
+        "Vorrei dello pane"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Vorrei del pane» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "conversacion",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "27-03",
+      "key": "mixed-independent-2",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «Compro algunas manzanas».",
+      "accepted": [
+        "Compro delle mele",
+        "Compro delle mele."
+      ],
+      "rejected": [
+        "Compro del mele"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Compro delle mele» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "conversacion",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "28-01",
+      "key": "mixed-independent-1",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «¿Vienes conmigo?».",
+      "accepted": [
+        "Vieni con me?",
+        "Vieni con me?."
+      ],
+      "rejected": [
+        "Vieni con io?"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Vieni con me?» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "conversacion",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "28-01",
+      "key": "mixed-independent-2",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «El café es para ti».",
+      "accepted": [
+        "Il caffè è per te",
+        "Il caffè è per te."
+      ],
+      "rejected": [
+        "Il caffè è per tu"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Il caffè è per te» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "conversacion",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "29-01",
+      "key": "mixed-independent-1",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «Estudio italiano y trabajo en un bar».",
+      "accepted": [
+        "Studio italiano e lavoro in un bar",
+        "Studio italiano e lavoro in un bar."
+      ],
+      "rejected": [
+        "Studio italiano è lavoro in un bar"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Studio italiano e lavoro in un bar» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "conversacion",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "29-01",
+      "key": "mixed-independent-2",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «Tengo un hermano y una hermana».",
+      "accepted": [
+        "Ho un fratello e una sorella",
+        "Ho un fratello e una sorella."
+      ],
+      "rejected": [
+        "Ho un fratello è una sorella"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Ho un fratello e una sorella» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "conversacion",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "29-02",
+      "key": "mixed-independent-1",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «Quisiera ir, pero trabajo».",
+      "accepted": [
+        "Vorrei venire, ma lavoro",
+        "Vorrei venire, ma lavoro."
+      ],
+      "rejected": [
+        "Vorrei venire, perché lavoro"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Vorrei venire, ma lavoro» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "conversacion",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "29-02",
+      "key": "mixed-independent-2",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «La habitación es pequeña, pero es bonita».",
+      "accepted": [
+        "La camera è piccola, ma è bella",
+        "La camera è piccola, ma è bella."
+      ],
+      "rejected": [
+        "La camera è piccola, perché è bella"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «La camera è piccola, ma è bella» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "conversacion",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "30-02",
+      "key": "mixed-independent-1",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «Habla despacio, por favor (a un amigo)».",
+      "accepted": [
+        "Parla lentamente, per favore",
+        "Parla lentamente, per favore."
+      ],
+      "rejected": [
+        "Parli lentamente, per favore"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Parla lentamente, per favore» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "instrucciones",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "30-02",
+      "key": "mixed-independent-2",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «No durmáis aquí (a varios amigos)».",
+      "accepted": [
+        "Non dormite qui",
+        "Non dormite qui."
+      ],
+      "rejected": [
+        "Non dormire qui"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Non dormite qui» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "instrucciones",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "32-01",
+      "key": "mixed-independent-1",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «Ayer trabajé».",
+      "accepted": [
+        "Ieri ho lavorato",
+        "Ieri ho lavorato."
+      ],
+      "rejected": [
+        "Ieri lavoro"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Ieri ho lavorato» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "conversacion",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "32-01",
+      "key": "mixed-independent-2",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «Hemos tomado el tren».",
+      "accepted": [
+        "Abbiamo preso il treno",
+        "Abbiamo preso il treno."
+      ],
+      "rejected": [
+        "Abbiamo prendere il treno"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Abbiamo preso il treno» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "conversacion",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "33-01",
+      "key": "mixed-independent-1",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «Anna y Eva han salido».",
+      "accepted": [
+        "Anna e Eva sono uscite",
+        "Anna e Eva sono uscite."
+      ],
+      "rejected": [
+        "Anna e Eva sono usciti"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Anna e Eva sono uscite» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "conversacion",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "33-01",
+      "key": "mixed-independent-2",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «Marco ha llegado al hotel».",
+      "accepted": [
+        "Marco è arrivato in hotel",
+        "Marco è arrivato in hotel."
+      ],
+      "rejected": [
+        "Marco è arrivata in hotel"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Marco è arrivato in hotel» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "conversacion",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "34-07",
+      "key": "mixed-independent-1",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «Me duele la cabeza».",
+      "accepted": [
+        "Ho mal di testa",
+        "Ho mal di testa."
+      ],
+      "rejected": [
+        "Sono mal di testa"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Ho mal di testa» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "necesidades",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "34-07",
+      "key": "mixed-independent-2",
+      "version": "1",
+      "format": "translation",
+      "prompt": "Traduci: «Necesito ayuda».",
+      "accepted": [
+        "Ho bisogno di aiuto",
+        "Ho bisogno di aiuto."
+      ],
+      "rejected": [
+        "Sono bisogno di aiuto"
+      ],
+      "hint": "Relee la situación y decide cómo expresar el mensaje.",
+      "explanation": "La respuesta «Ho bisogno di aiuto» expresa el mensaje solicitado. Revisar explicación focal antes de integrar.",
+      "context": "necesidades",
+      "facets": [],
+      "editorialNote": "Propuesta candidate; revisar variantes aceptadas/facetas y contraste independiente antes de integrar."
+    },
+    {
+      "code": "31-01",
+      "key": "mixed-independent-1",
+      "version": "1",
+      "format": "cloze",
+      "prompt": "Ieri ho ___ italiano per due ore (studiare).",
+      "accepted": [
+        "studiato"
+      ],
+      "rejected": [
+        "studio"
+      ],
+      "hint": "La frase cuenta un hecho terminado.",
+      "explanation": "Después de ho, esta acción terminada usa studiato.",
+      "context": "rutina",
+      "facets": [
+        "pasado"
+      ],
+      "editorialNote": "Auxiliar dado; evidencia solo de recuperación participial. Requiere C32-01 introducido."
+    },
+    {
+      "code": "31-01",
+      "key": "mixed-independent-2",
+      "version": "1",
+      "format": "cloze",
+      "prompt": "Stanotte ho ___ bene (dormire).",
+      "accepted": [
+        "dormito"
+      ],
+      "rejected": [
+        "dormo"
+      ],
+      "hint": "La frase cuenta un hecho terminado.",
+      "explanation": "Después de ho, esta acción terminada usa dormito.",
+      "context": "rutina",
+      "facets": [
+        "pasado"
+      ],
+      "editorialNote": "Auxiliar dado; evidencia solo de recuperación participial. Requiere C32-01 introducido."
+    },
+    {
+      "code": "31-02",
+      "key": "mixed-independent-1",
+      "version": "1",
+      "format": "cloze",
+      "prompt": "Ieri ho ___ un film (vedere).",
+      "accepted": [
+        "visto",
+        "veduto"
+      ],
+      "rejected": [
+        "vedo"
+      ],
+      "hint": "La frase cuenta un hecho terminado.",
+      "explanation": "Después de ho, esta acción terminada usa visto.",
+      "context": "rutina",
+      "facets": [
+        "pasado"
+      ],
+      "editorialNote": "Auxiliar dado; evidencia solo de recuperación participial. Requiere C32-01 introducido."
+    },
+    {
+      "code": "31-02",
+      "key": "mixed-independent-2",
+      "version": "1",
+      "format": "cloze",
+      "prompt": "Stamattina ho ___ un caffè (bere).",
+      "accepted": [
+        "bevuto"
+      ],
+      "rejected": [
+        "bebo"
+      ],
+      "hint": "La frase cuenta un hecho terminado.",
+      "explanation": "Después de ho, esta acción terminada usa bevuto.",
+      "context": "rutina",
+      "facets": [
+        "pasado"
+      ],
+      "editorialNote": "Auxiliar dado; evidencia solo de recuperación participial. Requiere C32-01 introducido."
+    },
+    {
+      "code": "32-03",
+      "key": "mixed-independent-1",
+      "version": "1",
+      "format": "selection",
+      "prompt": "Descrivi la tua abitudine attuale: «Ogni giorno ___ al bar».",
+      "options": [
+        "lavoro",
+        "ho lavorato"
+      ],
+      "accepted": [
+        "lavoro"
+      ],
+      "rejected": [
+        "ho lavorato"
+      ],
+      "hint": "Es una costumbre actual.",
+      "explanation": "Lavoro expresa aquí la costumbre actual.",
+      "context": "trabajo",
+      "facets": [
+        "presente",
+        "habito"
+      ]
+    },
+    {
+      "code": "32-03",
+      "key": "mixed-independent-2",
+      "version": "1",
+      "format": "selection",
+      "prompt": "Racconti un fatto già concluso: «Ieri ___ al bar».",
+      "options": [
+        "lavoro",
+        "ho lavorato"
+      ],
+      "accepted": [
+        "ho lavorato"
+      ],
+      "rejected": [
+        "lavoro"
+      ],
+      "hint": "El hecho ya terminó ayer.",
+      "explanation": "Ho lavorato presenta aquí el hecho terminado de ayer.",
+      "context": "trabajo",
+      "facets": [
+        "pasado",
+        "hecho-terminado"
+      ]
+    }
+  ]
+}

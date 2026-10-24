@@ -63,7 +63,7 @@ test('new interactions: keyboard ordering, matching reload and all feedback', as
     .getByRole('button', { name: 'Termina la sessione', exact: true })
     .click();
   await expect(
-    page.getByText('11 di 18 esercizi · 11 tentativi.'),
+    page.getByText('11 di 19 esercizi · 11 tentativi.'),
   ).toBeVisible();
 });
 test('typo is a visible cross, survives reload and remains separate from linguistic error', async ({
