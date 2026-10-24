@@ -1,6 +1,14 @@
 # R2 — contexto operativo de language-trainer
 
-Actualizado: 2026-10-16. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
+Actualizado: 2026-10-24. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
+
+## Fase 6B.2 — cobertura Mixed C01–C34 (2026-10-24)
+
+Rama `feat/a1-mixed-curriculum-coverage`, baseline `ae39db9`, commit técnico `3a27e88` (documentación en el commit posterior). **45 grupos, 99 conceptos y 328 actividades Mixed**: 270 existentes y 58 nuevas revisadas independientemente (38 conceptos con ampliación de inventario). [Matriz/informe](../product/A1_MIXED_CURRICULUM_COVERAGE.md); paquetes exactos, hashes, dictámenes y resoluciones en `docs/product/mixed-coverage-review/`. Cobertura = oportunidades pertinentes al alcance declarado, no todas las facetas, producción libre, dominio ni retención. Sin excepciones curriculares; limitaciones por dimensión explícitas.
+
+Se conservan las 865 actividades previas, Theory, vocabulario y grafo. Banco final: 99 conceptos/Theory reviewed, 923 actividades reviewed, 316 entradas, 210 relaciones y 0 published. 99 recibos históricos preservados; 38 nuevos sustituyen inventarios ampliados, 61 vigentes intactos (99 efectivos actuales). Candidate→reviewed solo tras revisión explícita; auditoría verifica hashes actuales e históricos.
+
+`mixedGroupPrerequisites` reúne objetivos y apoyos adicionales por grupo con cierre transitivo. Sesión/evaluación/Review/persistencia/UI reutilizados; sin nuevo dominio, migración ni dependencias. Preparación progresiva según estructuras observadas; leer no acredita dominio. QA corrigió preparación faltante y retiró un ítem que anticipaba mi piace. Dos interrupciones por límite de uso resueltas tras reanudación del usuario; revisión independiente completa. Verificados 352 casos unitarios/de integración y 44 E2E únicos mediante ejecución global y repeticiones focalizadas tras corregir expectativas históricas; detalle en el informe. Typecheck, formato, coverage, auditoría editorial y ambos builds correctos; aviso conocido de bundle conservado. Pendiente validación humana, dispositivos reales y observación longitudinal. **No iniciar Reading/Writing, publicar, merge, push ni desplegar.**
 
 ## Fase 6B — Mixed Practice (2026-10-16)
 
