@@ -86,7 +86,7 @@ Proyecto `/Users/sergiopardo/Desktop/language-trainer`; esta sesión tiene cwd h
 
 ## 12. Commits y Git
 
-Baseline `f439d74`. Los cambios técnicos/editoriales y la documentación de reanudación se guardan en commits locales de esta sesión; hashes registrados abajo después del commit. No se descartan cambios previos. Rama `feat/a1-reading`.
+Baseline `f439d74`. Commit local `737f002`: integración, corpus revisado, recibos, pruebas y punto de reanudación. Este registro se añade en un commit documental posterior. No se descartan cambios previos. Rama `feat/a1-reading`.
 
 ## 13. Recomendación para Writing
 
