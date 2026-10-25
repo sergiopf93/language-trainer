@@ -1,0 +1,402 @@
+{
+  "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+  "reviewType": "independent-blind-editorial",
+  "reviewedAt": "2026-10-25",
+  "verdict": "blocked",
+  "method": "Lectura semántica completa de cada cuerpo, título, consigna, opciones, accepted, rejected, exhaustive, explicación y ayudas. Comparación de Concepts con C01–C34 de A1_COVERAGE_MATRIX; consulta selectiva de c29.ts y c31.ts. No se ha leído initial-changes, informes de implementación, conclusiones previas ni git diff. AGENTS.md leído; su remisión al contexto se omitió por la instrucción explícita de ceguera.",
+  "texts": [
+    {
+      "id": "R01",
+      "fingerprint": "87293d0ec371ac71",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R01-Q1",
+        "R01-Q2",
+        "R01-Q3"
+      ],
+      "findings": [],
+      "rationale": "Ficha comprensible: identidad, nacionalidades y ubicación quedan diferenciadas. Las tres claves se sostienen en el texto; siamo retoma naturalmente a Chiara y Giorgio. Grafías y essere presentes, sin inferir dominio gramatical."
+    },
+    {
+      "id": "R02",
+      "fingerprint": "75a55baf11ed455f",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R02-Q1",
+        "R02-Q2",
+        "R02-Q3"
+      ],
+      "findings": [
+        {
+          "classification": "mejora opcional",
+          "location": "body",
+          "detail": "Signor Gino con nombre de pila resulta menos neutro que señor + apellido en este intercambio formal. No invalida su comprensión.",
+          "minimalCorrection": "Usar Grazie, signore o simplemente Grazie.",
+          "blocking": false
+        }
+      ],
+      "rationale": "El diálogo explicita incomprensión, reparación y deletreo. Nombre, intención y secuencia tienen una única respuesta sustentada. Mi chiamo y las fórmulas formales están apoyadas."
+    },
+    {
+      "id": "R03",
+      "fingerprint": "775e6e02d3a52e25",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R03-Q1",
+        "R03-Q2",
+        "R03-Q3"
+      ],
+      "findings": [],
+      "rationale": "Edad, cantidad de entradas y negación de posesión están diferenciadas. La respuesta corta exige inequívocamente 20; las opciones desconocidas quedan fuera del rechazo exhaustivo."
+    },
+    {
+      "id": "R04",
+      "fingerprint": "45e4287ed3e6452f",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R04-Q1",
+        "R04-Q2",
+        "R04-Q3"
+      ],
+      "findings": [
+        {
+          "classification": "validación humana",
+          "location": "questions.R04-Q3 / requiredConcepts",
+          "detail": "La pregunta introduce ci sono antes de la lectura focal de C19. La cantidad sigue siendo recuperable, pero los prerrequisitos focales no garantizan entender toda la consigna.",
+          "minimalCorrection": "Glosar Quante penne ci sono? o comprobar con aprendices iniciales que comprenden la consigna.",
+          "blocking": false
+        }
+      ],
+      "rationale": "El inventario distingue mesa, bolso y posesión. Dos bolígrafos y dos fotos están explícitos; foto aporta invariable y gli occhiali/le chiavi plural. Claves y ayudas correctas."
+    },
+    {
+      "id": "R05",
+      "fingerprint": "050f89eec6a538da",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R05-Q1",
+        "R05-Q2",
+        "R05-Q3"
+      ],
+      "findings": [],
+      "rationale": "Anuncio telegráfico natural y breve. Atributos de habitación, baño y cocina no se confunden. Las tres preguntas son inequívocas y el apoyo de nessun posto permite entender la ausencia."
+    },
+    {
+      "id": "R06",
+      "fingerprint": "fa007e2b04ebec71",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R06-Q1",
+        "R06-Q2",
+        "R06-Q3"
+      ],
+      "findings": [
+        {
+          "classification": "ambigüedad relevante",
+          "location": "questions.R06-Q1.explanation → R06-Q2",
+          "detail": "El feedback de Q1 dice Pide un té y un panino con vorrei y revela literalmente Tè, respuesta de Q2. Si se muestra tras contestar Q1 y antes de Q2, la segunda respuesta ya no representa comprensión autónoma. El paquete no permite conocer el orden real de visualización.",
+          "minimalCorrection": "Cambiar Q1.explanation por La fórmula vorrei introduce un pedido; o mostrar explicaciones al terminar toda la lectura y registrar asistencia cuando corresponda.",
+          "blocking": false
+        }
+      ],
+      "rationale": "Pedido y menú coherentes: té 3 + bocadillo 5 = 8. Vorrei está apoyado. Todas las alternativas incorrectas contradicen el pedido o el total."
+    },
+    {
+      "id": "R07",
+      "fingerprint": "26db96ebac760206",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R07-Q1",
+        "R07-Q2",
+        "R07-Q3"
+      ],
+      "findings": [],
+      "rationale": "Perfiles y referentes claros. Presente -are, -ere y -isc- realmente presente; lectura de dificultad intermedia razonable. Preguntas, claves y ayuda respetan la distinción entre Marta y Luca."
+    },
+    {
+      "id": "R08",
+      "fingerprint": "60534f22909fc0eb",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R08-Q1",
+        "R08-Q2",
+        "R08-Q3"
+      ],
+      "findings": [
+        {
+          "classification": "mejora opcional",
+          "location": "body / requiredConcepts",
+          "detail": "Vuole y deve son modales no incluidos en requiredConcepts. No afectan a la clave Torino, pero añaden carga para lectores preparados solo en los focos enumerados.",
+          "minimalCorrection": "Ofrecer glosa breve de debe volver pronto o registrar preparación de apoyo si requiredConcepts funciona como garantía completa.",
+          "blocking": false
+        }
+      ],
+      "rationale": "Invitación, recorrido y procedencia explícitos. Andare, venire y con aparecen; Torino es una respuesta corta determinada. Los modales y horarios añaden demanda de apoyo no declarada como foco."
+    },
+    {
+      "id": "R09",
+      "fingerprint": "612e73773f8859fc",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R09-Q1",
+        "R09-Q2",
+        "R09-Q3"
+      ],
+      "findings": [],
+      "rationale": "Permisos y obligaciones se distinguen inequívocamente. Carné, comida y agua tienen criterios correctos; el texto resulta adecuado a un aviso sencillo."
+    },
+    {
+      "id": "R10",
+      "fingerprint": "b0111dd80c6c34d3",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R10-Q1",
+        "R10-Q2",
+        "R10-Q3"
+      ],
+      "findings": [
+        {
+          "classification": "mejora opcional",
+          "location": "body",
+          "detail": "El email alterna avete, dirigido al hotel como colectivo, con Può/Suo, dirigido a una persona. Es interpretable, pero menos uniforme para ejemplificar tu/Lei.",
+          "minimalCorrection": "Mantener un destinatario: por ejemplo Il vostro hotel ha un parcheggio? y Può indicare... a la persona receptora.",
+          "blocking": false
+        }
+      ],
+      "rationale": "Petición de habitación y servicios coherente, fechas y dos noches compatibles. Desayuno negado y cortesía identificable. Preguntas y retroalimentación correctas."
+    },
+    {
+      "id": "R11",
+      "fingerprint": "f653169e6c6d9c27",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R11-Q1",
+        "R11-Q2",
+        "R11-Q3"
+      ],
+      "findings": [],
+      "rationale": "Presencia y localización distinguidas por c’è/ci sono y essere. El ascensor es la única ausencia ofrecida; las ubicaciones son explícitas."
+    },
+    {
+      "id": "R12",
+      "fingerprint": "342fd2a8051f40bc",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R12-Q1",
+        "R12-Q2",
+        "R12-Q3"
+      ],
+      "findings": [],
+      "rationale": "Itinerario y posiciones consistentes. Número 5 inequívoco con consigna en cifras. La contracción al museo y dalla stazione apoya el alcance preposicional sin exigir producirlo."
+    },
+    {
+      "id": "R13",
+      "fingerprint": "39feec843a0a7fae",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R13-Q1",
+        "R13-Q2",
+        "R13-Q3"
+      ],
+      "findings": [],
+      "rationale": "El cambio de cita se diferencia del horario del curso y del cierre de biblioteca. Las tres claves y la ayuda son correctas. Días y horas sustentan los Concepts declarados."
+    },
+    {
+      "id": "R14",
+      "fingerprint": "574fb5a5438fe50c",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R14-Q1",
+        "R14-Q2",
+        "R14-Q3"
+      ],
+      "findings": [],
+      "rationale": "Relaciones familiares, ciudades y posesivos tienen referentes claros. La casa de Florencia corresponde a los hermanos; ayuda y claves fieles."
+    },
+    {
+      "id": "R15",
+      "fingerprint": "ae3196f4d65eda03",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R15-Q1",
+        "R15-Q2",
+        "R15-Q3"
+      ],
+      "findings": [],
+      "rationale": "El cambio de decisión queda claro: solo chaqueta negra. Questo/quello y sus variantes son funcionales al intercambio; precio, talla y color se distinguen correctamente."
+    },
+    {
+      "id": "R16",
+      "fingerprint": "ad034d97c0dcabdb",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R16-Q1",
+        "R16-Q2",
+        "R16-Q3"
+      ],
+      "findings": [
+        {
+          "classification": "mejora opcional",
+          "location": "body / vocabulary",
+          "detail": "La mangia contiene un clítico previo al foco C28. Su referente es claro, pero el apoyo no lo explica de manera expresa.",
+          "minimalCorrection": "Añadir glosa non la mangia = no come carne si el lector no tiene preparación C28.",
+          "blocking": false
+        }
+      ],
+      "rationale": "Gustos, causa y contraste presentes en frases accesibles. Intención, motivo de excluir carne y secuencia del paseo tienen respuesta única. El clítico la es un apoyo adicional conveniente para lectores que aún no conozcan C28."
+    },
+    {
+      "id": "R17",
+      "fingerprint": "3ed5a10c2ec7b565",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R17-Q1",
+        "R17-Q2",
+        "R17-Q3"
+      ],
+      "findings": [],
+      "rationale": "Rutina y excepción dominical explícitas. Reflexivos y frecuencia aparecen en contexto; orden de acciones inequívoco entre las alternativas propuestas."
+    },
+    {
+      "id": "R18",
+      "fingerprint": "7c506f9f7b933ad8",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R18-Q1",
+        "R18-Q2",
+        "R18-Q3"
+      ],
+      "findings": [],
+      "rationale": "Lista con cantidades y partitivos relevantes. La leche no hace falta y se piden exactamente cuatro tomates; criterios cortos conservadores y feedback fiel."
+    },
+    {
+      "id": "R19",
+      "fingerprint": "fe99a790a6742d96",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R19-Q1",
+        "R19-Q2",
+        "R19-Q3",
+        "R19-Q4"
+      ],
+      "findings": [],
+      "rationale": "Referentes de llaves, queso, tarta y libro claros. Lo remite al queso tanto por proximidad como por con il pane. Horario y destinatarios explícitos; los cuatro criterios son correctos."
+    },
+    {
+      "id": "R20",
+      "fingerprint": "7532b06013d60c85",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R20-Q1",
+        "R20-Q2",
+        "R20-Q3",
+        "R20-Q4"
+      ],
+      "findings": [
+        {
+          "classification": "ambigüedad relevante",
+          "location": "body",
+          "detail": "Las instrucciones cambian de lava/metti/mescola a prendete/mettete sin presentar un segundo destinatario o grupo. No rompe las respuestas, pero debilita el modelo de persona tu/voi que C30-02 pretende sistematizar.",
+          "minimalCorrection": "Introducir el grupo: Marco, prepara l’insalata... / Anna e Luca, per la tavola prendete...; o mantener toda la receta en una persona.",
+          "blocking": false
+        }
+      ],
+      "rationale": "Preparación, orden y ubicación del pan explícitos. Tagliali y mescola están glosados. Las cuatro claves son únicas; texto adecuado a consolidación con apoyo, con cambio de destinatario mejorable."
+    },
+    {
+      "id": "R21",
+      "fingerprint": "0172aa45a8cfb5ee",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R21-Q1",
+        "R21-Q2",
+        "R21-Q3",
+        "R21-Q4"
+      ],
+      "findings": [],
+      "rationale": "Relato pasado y contraste con hoy comprensibles. Participios regulares e irregulares presentes. Abbiamo tras comer con el hermano permite la inferencia local sobre la película. Las cuatro claves y la ayuda son coherentes."
+    },
+    {
+      "id": "R22",
+      "fingerprint": "70abfc4ce5a3dbe1",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R22-Q1",
+        "R22-Q2",
+        "R22-Q3",
+        "R22-Q4"
+      ],
+      "findings": [],
+      "rationale": "Relato de viaje coherente: Eva y Laura viajan, Giulia acoge y las tres salen al centro. Concordancia femenina y pasado realmente presentes. Las respuestas tienen apoyo textual y temporal suficiente."
+    },
+    {
+      "id": "R23",
+      "fingerprint": "41db6cd8be09d792",
+      "decision": "approved",
+      "questionsReviewed": [
+        "R23-Q1",
+        "R23-Q2",
+        "R23-Q3",
+        "R23-Q4"
+      ],
+      "findings": [
+        {
+          "classification": "validación humana",
+          "location": "body / requiredConcepts",
+          "detail": "La petición formal porti está glosada, pero portarla y La aspettiamo requieren interpretar clíticos que no figuran en la preparación declarada. El contraste final conserva apoyo suficiente; conviene validar autonomía real.",
+          "minimalCorrection": "Añadir glosa de portarla = llevar la tarjeta y La aspettiamo = le esperamos, si la preparación focal es el único filtro.",
+          "blocking": false
+        }
+      ],
+      "rationale": "Intercambio permite deducir que el documento va por la mañana y la tarjeta después. Hora, ubicación de tarjeta y finalidad inequívocas. Porti está glosado; contenido es comprensión de cita sin consejo clínico."
+    },
+    {
+      "id": "R24",
+      "fingerprint": "2a017101c43a76f7",
+      "decision": "blocked",
+      "questionsReviewed": [
+        "R24-Q1",
+        "R24-Q2",
+        "R24-Q3",
+        "R24-Q4"
+      ],
+      "findings": [
+        {
+          "classification": "error confirmado",
+          "location": "requiredConcepts / presentConcepts: it-a1-c31-02",
+          "detail": "C31-02 se refiere a participios irregulares frecuentes. El cuerpo contiene organizzato, preparato, arrivate, mangiato, ascoltato, giocato, cominciato, entrati, continuata y parlato: todos regulares. No hay evidencia de este Concept.",
+          "minimalCorrection": "Sustituir Io e Marco abbiamo preparato i tavoli por Io e Marco abbiamo fatto una torta e preparato i tavoli, o retirar C31-02 de ambos campos.",
+          "blocking": true
+        },
+        {
+          "classification": "error confirmado",
+          "location": "requiredConcepts / presentConcepts: it-a1-c29-03",
+          "detail": "C29-03 especifica dar causa con perché. El cuerpo usa perciò, que expresa consecuencia y está glosado. Perché en Q2 es interrogativo, no el conector causal declarado. La comprensión causal funciona, pero la etiqueta específica no está sustentada.",
+          "minimalCorrection": "Usar Alle sei siamo entrati tutti nella sala al piano terra perché ha cominciato a piovere; ajustar el feedback de Q2 y retirar la glosa perciò si deja de aparecer. Alternativamente retirar C29-03 de ambos campos.",
+          "blocking": true
+        }
+      ],
+      "rationale": "Las cuatro preguntas de comprensión y sus criterios son correctos, pero dos etiquetas curriculares no corresponden al cuerpo: no hay participio irregular ni porque causal. Requiere corregir trazabilidad o incorporar ejemplos reales antes de aprobación editorial."
+    }
+  ],
+  "coverage": {
+    "textsReviewed": 24,
+    "questionsReviewed": 78,
+    "approvedTexts": 23,
+    "blockedTexts": [
+      "R24"
+    ],
+    "confirmedErrors": 2,
+    "answerCriteria": "No se detectaron claves erróneas, respuestas válidas rechazadas dentro de las consignas exactas ni distractores igualmente correctos. Respuestas cortas restringidas a cifras o nombres; exhaustive=false es adecuado para abstenerse ante respuestas no catalogadas. Opciones cerradas: accepted/rejected y exhaustive=true coherentes.",
+    "progression": "Se aprecia progresión desde fichas, inventarios y diálogos breves hacia mensajes con referentes, instrucciones y relatos pasados. A1 razonable dentro del currículo declarado, especialmente con ayudas; no equivale a certificación independiente MCER.",
+    "curricularPreparation": "requiredConcepts y presentConcepts son idénticos en cada lectura y funcionan como focos seleccionados, no inventario exhaustivo de toda sintaxis o vocabulario. La preparación completa del alumno no puede demostrarse solo con el packet; aparecen anticipaciones como ci sono en R04, modales en R08, clíticos en R16 e imperativo compra en R18. No se ha tratado cada anticipación incidental como error automático. R24 sí tiene dos etiquetas positivas no sustentadas.",
+    "helpAndFeedback": "Ayudas y feedback revisados íntegramente: fieles al significado y español intencional. Las ayudas revelan respuestas, por lo que sus usos deben conservarse como actividad asistida, no evidencia autónoma. Hay una filtración concreta entre preguntas: R06-Q1 explica el pedido y responde por adelantado R06-Q2; depende de cuándo se muestre el feedback. No se presume aislamiento de preguntas sin verificar el flujo.",
+    "naturalness": "Italiano generalmente natural; mejoras de registro/destinatario señaladas en R02, R10 y R20."
+  },
+  "limitations": [
+    "Dictamen lingüístico de agente, no ensayo con estudiantes ni certificación de docente nativo.",
+    "No se comprobó UI, normalización de entrada, registro de ayudas, desbloqueo curricular o abstención en runtime; el dictamen se limita al paquete editorial.",
+    "No acredita cobertura completa de los 99 Concepts ni todas las facetas: los Concepts presentes describen exposición contextual y no dominio.",
+    "Se recomienda validación humana de autonomía inicial y carga de consignas italianas, especialmente preguntas abstractas sobre intención/secuencia."
+  ]
+}

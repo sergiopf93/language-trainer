@@ -98,15 +98,17 @@ export function validFact(v: unknown): v is Fact {
           ((v.versions.policy === 'review-v1' &&
             (v.payload as Record<string, unknown>).mode === 'review') ||
             (v.versions.policy === 'mixed-v1' &&
-              (v.payload as Record<string, unknown>).mode === 'mixed'))
+              (v.payload as Record<string, unknown>).mode === 'mixed') ||
+            (v.versions.policy === 'reading-v1' &&
+              (v.payload as Record<string, unknown>).mode === 'reading'))
         ))
     )
       return false;
     const p = v.payload as Record<string, unknown>;
     if (
       v.kind === 'practice-session' &&
-      p.mode === 'mixed' &&
-      v.versions.policy !== 'mixed-v1'
+      ((p.mode === 'mixed' && v.versions.policy !== 'mixed-v1') ||
+        (p.mode === 'reading' && v.versions.policy !== 'reading-v1'))
     )
       return false;
     const refs = v.references as string[];
@@ -230,6 +232,10 @@ export function validLinks(fact: Fact, known: Map<string, Fact>): boolean {
       return false;
     const state = fact.payload.state;
     if (
+      (state.readingHelp && root.payload.mode !== 'reading') ||
+      ((base.kind === 'practice-session' || base.kind === 'practice-state') &&
+        base.payload.state.readingHelp &&
+        !state.readingHelp) ||
       state.index > root.payload.activities.length ||
       (state.status === 'active' &&
         state.index === root.payload.activities.length)
@@ -267,6 +273,7 @@ export function validLinks(fact: Fact, known: Map<string, Fact>): boolean {
       s.phase !== 'answer' ||
       s.hintShown !== p.hintShown ||
       s.theoryVersion !== p.theoryVersion ||
+      !!s.readingHelp !== !!p.readingHelp ||
       s.attemptId !== p.retryOf ||
       p.solutionSeen !==
         (p.retryOf !== null ||
@@ -279,10 +286,22 @@ export function validLinks(fact: Fact, known: Map<string, Fact>): boolean {
         exposure?.kind === 'evaluation' &&
         exposure.payload.activityId === p.activityId &&
         exposure.payload.activityVersion === p.activityVersion;
+      const exposedRoot =
+        exposure?.kind === 'practice-state'
+          ? known.get(exposure.payload.sessionId)
+          : undefined;
+      const readingHelp =
+        exposure?.kind === 'practice-state' &&
+        exposure.payload.state.readingHelp &&
+        exposedRoot?.kind === 'practice-session' &&
+        root.payload.reading &&
+        exposedRoot.payload.reading?.id === root.payload.reading.id &&
+        exposedRoot.payload.reading?.version === root.payload.reading.version;
       const hint =
         exposure?.kind === 'practice-state' &&
         (exposure.payload.state.hintShown ||
-          !!exposure.payload.state.theoryVersion);
+          !!exposure.payload.state.theoryVersion ||
+          readingHelp);
       const theory =
         exposure?.kind === 'theory-exposure' &&
         exposure.payload.conceptId === a.conceptId &&
@@ -350,6 +369,7 @@ export function validLinks(fact: Fact, known: Map<string, Fact>): boolean {
       activity?.status !== p.contentStatus ||
       p.independent !==
         (!attempt.payload.theoryVersion &&
+          !attempt.payload.readingHelp &&
           !attempt.payload.hintShown &&
           !attempt.payload.solutionSeen &&
           !attempt.payload.exposureId)

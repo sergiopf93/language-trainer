@@ -257,6 +257,14 @@ test('production build excludes candidate content', async ({ page }) => {
   await expect(
     page.getByRole('button', { name: 'Inizia la pratica mista', exact: true }),
   ).toHaveCount(0);
+  await page.goto('/reading');
+  await expect(
+    page.getByRole('link', { name: /^(Leggi|Preparati):/ }),
+  ).toHaveCount(0);
+  await page.goto('/practice?reading=R01');
+  await expect(
+    page.getByRole('button', { name: 'Inizia la lettura', exact: true }),
+  ).toHaveCount(0);
 });
 
 test('theory detail and in-session help keep the draft and mark assisted answers', async ({

@@ -21,7 +21,8 @@
     "format:check": "prettier --check src worker shared tests scripts *.ts *.json *.jsonc index.html public/manifest.webmanifest",
     "content:coverage": "node scripts/content-coverage.mjs",
     "content:pedagogy": "node scripts/content-pedagogy.mjs",
-    "content:editorial": "node scripts/content-editorial.mjs"
+    "content:editorial": "node scripts/content-editorial.mjs",
+    "content:reading": "node scripts/content-reading.mjs"
   },
   "dependencies": {
     "idb": "8.0.4"

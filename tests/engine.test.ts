@@ -129,6 +129,7 @@ describe('extended engine', () => {
       expect(facts.every(validFact)).toBe(true);
       const p = project(facts, 'it-a1-c04-01', '1', true);
       expect(p.skills.map((s) => [s.skill, s.correct])).toEqual([
+        ['reading-comprehension', 0],
         ['recognition', 2],
         ['retrieval', 2],
         ['transformation', 2],

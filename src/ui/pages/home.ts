@@ -54,7 +54,12 @@ export async function home(store: LocalStore) {
         '/practice?session=' + head.id,
       ),
     );
-  card.append(el('p'), link('Vai al ripasso', '/practice'));
+  card.append(
+    el('p'),
+    link('Vai al ripasso', '/practice'),
+    el('p'),
+    link('Letture A1', '/reading'),
+  );
   page.append(card);
   return page;
 }

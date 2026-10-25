@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-25",
+  "unitIntegration": {
+    "tests": 360,
+    "suites": 21,
+    "status": "passed"
+  },
+  "readingAudit": {
+    "texts": 24,
+    "questions": 78,
+    "reviewed": 24,
+    "errors": []
+  },
+  "e2eRecoveredLastRun": {
+    "status": "passed",
+    "failedTests": []
+  },
+  "e2eDetailedSummary": "Unavailable after QA agent usage limit; do not infer execution count",
+  "screenshotsPresent": [
+    "reading-longest-320-neutral.png",
+    "reading-320-feedback.png",
+    "reading-768-feedback.png",
+    "reading-390-feedback.png"
+  ],
+  "visualInspection": "pending",
+  "productionWithFinalReceipts": "pending"
+}

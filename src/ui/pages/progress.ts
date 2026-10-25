@@ -1,3 +1,4 @@
+import { reviewedReadings } from '../../reading/engine';
 import { el, heading } from '../dom';
 import type { LocalStore } from '../../persistence/local';
 import {
@@ -57,10 +58,44 @@ export async function progress(store: LocalStore) {
     if (errors)
       card.append(el('span', `${errors} errori da rivedere`, 'pill negative'));
     card.append(
-      observations(projection.observations),
+      observations(
+        projection.observations.filter(
+          (o) => o.dimension !== 'reading-comprehension',
+        ),
+      ),
       link('Rivedi il concetto', '/concept?id=' + concept.id),
     );
     page.append(card);
+  }
+  if (!requested) {
+    const reading = el('section', undefined, 'card');
+    reading.append(el('h2', 'Comprensione scritta'));
+    for (const text of reviewedReadings().filter((t) =>
+      catalog.allowed(t.status),
+    )) {
+      const projection = project(
+        facts,
+        'reading:' + text.id,
+        text.version,
+        catalog.allowCandidates,
+      );
+      if (!projection.sourceFactIds.length) continue;
+      reading.append(
+        el('h3', text.title),
+        observations(
+          projection.observations.filter(
+            (o) => o.dimension === 'reading-comprehension',
+          ),
+        ),
+      );
+    }
+    reading.append(
+      link('Letture e riepiloghi', '/reading'),
+      support(
+        'La comprensión de un mensaje no se atribuye a todos sus conceptos gramaticales.',
+      ),
+    );
+    page.append(reading);
   }
   const history = el('section', undefined, 'card');
   history.append(el('h2', 'Attività recente'));

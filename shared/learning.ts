@@ -2,12 +2,14 @@
 export type ExerciseFamily = 'F1' | 'F2' | 'F3' | 'F4' | 'F5' | 'F6' | 'F7';
 export type EditorialStatus = 'candidate' | 'reviewed' | 'published';
 export type Dimension =
+  | 'reading-comprehension'
   | 'comprehension'
   | 'retrieval'
   | 'contextual-use'
   | 'discrimination'
   | 'retention';
 export const skills = [
+  'reading-comprehension',
   'recognition',
   'retrieval',
   'transformation',
@@ -48,7 +50,7 @@ export interface Activity {
   trace?: ContentTrace;
   id: string;
   version: string;
-  family: Exclude<ExerciseFamily, 'F5' | 'F6'>;
+  family: Exclude<ExerciseFamily, 'F6'>;
   task?: TaskMetadata;
   format:
     | 'selection'
@@ -80,6 +82,7 @@ export interface Activity {
   provenance: string;
 }
 export interface SessionState {
+  readingHelp?: boolean;
   theoryVersion?: string;
   index: number;
   draft: string;
@@ -94,7 +97,14 @@ export interface LearningPayloads {
     conceptId: string;
     conceptVersion: string;
     contentStatus: EditorialStatus;
-    mode: 'focus' | 'review' | 'mixed';
+    mode: 'focus' | 'review' | 'mixed' | 'reading';
+    reading?: {
+      id: string;
+      version: string;
+      title: string;
+      body: string;
+      help: string;
+    };
     mixed?: { groupId: string; conceptIds: string[]; reasons: string[] };
     selectionReason: string;
     activities: Activity[];
@@ -109,6 +119,7 @@ export interface LearningPayloads {
     contentStatus: EditorialStatus;
   };
   attempt: {
+    readingHelp?: boolean;
     theoryVersion?: string;
     sessionId: string;
     stateId: string;
@@ -169,6 +180,7 @@ const id = (v: unknown) =>
     v,
   );
 export const dimensions: Dimension[] = [
+  'reading-comprehension',
   'comprehension',
   'retrieval',
   'contextual-use',
@@ -237,9 +249,11 @@ function state(v: unknown) {
     keys(
       v,
       'index draft hintShown attemptId status phase' +
-        ('theoryVersion' in v ? ' theoryVersion' : ''),
+        ('theoryVersion' in v ? ' theoryVersion' : '') +
+        optionalKeys(v, ['readingHelp']),
     ) &&
     (!('theoryVersion' in v) || text(v.theoryVersion)) &&
+    (!('readingHelp' in v) || typeof v.readingHelp === 'boolean') &&
     Number.isSafeInteger(v.index) &&
     Number(v.index) >= 0 &&
     Number(v.index) <= 30 &&
@@ -260,13 +274,13 @@ export function validLearningPayload(kind: string, p: unknown): boolean {
         keys(
           p,
           'packId conceptId conceptVersion contentStatus mode selectionReason activities state' +
-            optionalKeys(p, ['mixed']),
+            optionalKeys(p, ['mixed', 'reading']),
         ) &&
         ['packId', 'conceptId', 'conceptVersion', 'selectionReason'].every(
           (k) => text(p[k]),
         ) &&
         editorial(p.contentStatus) &&
-        ['focus', 'review', 'mixed'].includes(p.mode as string) &&
+        ['focus', 'review', 'mixed', 'reading'].includes(p.mode as string) &&
         Array.isArray(p.activities) &&
         p.activities.length > 0 &&
         p.activities.length <= 30 &&
@@ -281,6 +295,7 @@ export function validLearningPayload(kind: string, p: unknown): boolean {
         validSessionScope(p) &&
         new Set(p.activities.map((a) => a.id)).size === p.activities.length &&
         state(p.state) &&
+        !(p.state as SessionState).readingHelp &&
         (p.state as SessionState).index === 0 &&
         (p.state as SessionState).status === 'active' &&
         (p.state as SessionState).attemptId === null
@@ -303,11 +318,13 @@ export function validLearningPayload(kind: string, p: unknown): boolean {
         keys(
           p,
           'sessionId stateId itemIndex activityId activityVersion response hintShown solutionSeen retryOf exposureId' +
-            ('theoryVersion' in p ? ' theoryVersion' : ''),
+            ('theoryVersion' in p ? ' theoryVersion' : '') +
+            optionalKeys(p, ['readingHelp']),
         ) &&
         id(p.sessionId) &&
         id(p.stateId) &&
         (!('theoryVersion' in p) || text(p.theoryVersion)) &&
+        (!('readingHelp' in p) || typeof p.readingHelp === 'boolean') &&
         Number.isSafeInteger(p.itemIndex) &&
         Number(p.itemIndex) >= 0 &&
         Number(p.itemIndex) < 30 &&
@@ -403,6 +420,14 @@ function validTask(v: unknown): v is TaskMetadata {
 }
 function validFormat(v: Record<string, unknown>) {
   const options = v.options as string[];
+  if (v.family === 'F5')
+    return (
+      v.dimension === 'reading-comprehension' &&
+      validTask(v.task) &&
+      v.task.skill === 'reading-comprehension' &&
+      ((v.format === 'selection' && options.length >= 2) ||
+        (v.format === 'short' && options.length === 0))
+    );
   if (['selection', 'error-detection'].includes(v.format as string))
     return (
       v.family === 'F1' &&
@@ -440,6 +465,25 @@ export function validTrace(v: unknown): v is ContentTrace {
 }
 
 function validSessionScope(p: Record<string, unknown>) {
+  if (p.mode === 'reading') {
+    const r = p.reading;
+    return (
+      !('mixed' in p) &&
+      record(r) &&
+      keys(r, 'id version title body help') &&
+      Object.values(r).every(text) &&
+      p.conceptId === 'reading:' + r.id &&
+      p.conceptVersion === r.version &&
+      (p.activities as Activity[]).every(
+        (a) => a.family === 'F5' && a.dimension === 'reading-comprehension',
+      )
+    );
+  }
+  if (
+    'reading' in p ||
+    (p.activities as Activity[]).some((a) => a.family === 'F5')
+  )
+    return false;
   if (p.mode !== 'mixed') return !('mixed' in p);
   const m = p.mixed;
   if (

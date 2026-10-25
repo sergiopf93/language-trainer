@@ -42,7 +42,11 @@ export function evaluate(
     (!['selection', 'error-detection'].includes(activity.format) ||
       activity.options.some((a) => normalize(a) === value));
   return knownWrong || inClosedScope
-    ? { judgment: 'linguistic-error', explanation: activity.explanation }
+    ? {
+        judgment:
+          activity.family === 'F5' ? 'verifiable-error' : 'linguistic-error',
+        explanation: activity.explanation,
+      }
     : {
         judgment: 'not-evaluable',
         explanation:

@@ -1,0 +1,2304 @@
+[
+  {
+    "id": "R04",
+    "reason": "Apoyar consigna anticipada de C19 sin endurecer acceso inicial.",
+    "before": {
+      "id": "R04",
+      "version": "2",
+      "status": "candidate",
+      "title": "Sul tavolo",
+      "level": "A1",
+      "blocks": [
+        "C07",
+        "C08",
+        "C09"
+      ],
+      "requiredConcepts": [
+        "it-a1-c07-02",
+        "it-a1-c08-01",
+        "it-a1-c08-02",
+        "it-a1-c09-02"
+      ],
+      "presentConcepts": [
+        "it-a1-c07-02",
+        "it-a1-c08-01",
+        "it-a1-c08-02",
+        "it-a1-c09-02"
+      ],
+      "dependencies": [],
+      "difficulty": "initial",
+      "genre": "inventario",
+      "function": "Collegare oggetti e quantità",
+      "vocabulary": [
+        {
+          "word": "sul tavolo",
+          "gloss": "en la mesa"
+        },
+        {
+          "word": "nella borsa",
+          "gloss": "en el bolso"
+        },
+        {
+          "word": "occhiali",
+          "gloss": "gafas"
+        }
+      ],
+      "objectives": [
+        "Collegare oggetti e quantità"
+      ],
+      "body": "Sul tavolo: le chiavi, due penne e un quaderno. Nella borsa: gli occhiali e due foto. La chiave piccola è di Anna. Il quaderno è di Luca.",
+      "help": "En la mesa hay llaves, dos bolígrafos y un cuaderno. En el bolso hay gafas y dos fotos. La llave pequeña es de Anna.",
+      "questions": [
+        {
+          "id": "R04-Q1",
+          "kind": "detail",
+          "prompt": "Dove sono le foto?",
+          "options": [
+            "Sul tavolo",
+            "Nella borsa",
+            "Nel quaderno"
+          ],
+          "accepted": [
+            "Nella borsa"
+          ],
+          "rejected": [
+            "Sul tavolo",
+            "Nel quaderno"
+          ],
+          "exhaustive": true,
+          "explanation": "Las dos fotos figuran tras Nella borsa."
+        },
+        {
+          "id": "R04-Q2",
+          "kind": "relation",
+          "prompt": "Quale oggetto è di Luca?",
+          "options": [
+            "La chiave piccola",
+            "Gli occhiali",
+            "Il quaderno"
+          ],
+          "accepted": [
+            "Il quaderno"
+          ],
+          "rejected": [
+            "La chiave piccola",
+            "Gli occhiali"
+          ],
+          "exhaustive": true,
+          "explanation": "El texto atribuye el cuaderno a Luca."
+        },
+        {
+          "id": "R04-Q3",
+          "kind": "short",
+          "prompt": "Quante penne ci sono? Scrivi solo il numero in cifre.",
+          "options": [],
+          "accepted": [
+            "2"
+          ],
+          "rejected": [
+            "1",
+            "3"
+          ],
+          "exhaustive": false,
+          "explanation": "El inventario enumera due penne."
+        }
+      ]
+    },
+    "after": {
+      "id": "R04",
+      "version": "3",
+      "status": "candidate",
+      "title": "Sul tavolo",
+      "level": "A1",
+      "blocks": [
+        "C07",
+        "C08",
+        "C09"
+      ],
+      "requiredConcepts": [
+        "it-a1-c07-02",
+        "it-a1-c08-01",
+        "it-a1-c08-02",
+        "it-a1-c09-02"
+      ],
+      "presentConcepts": [
+        "it-a1-c07-02",
+        "it-a1-c08-01",
+        "it-a1-c08-02",
+        "it-a1-c09-02"
+      ],
+      "dependencies": [],
+      "difficulty": "initial",
+      "genre": "inventario",
+      "function": "Collegare oggetti e quantità",
+      "vocabulary": [
+        {
+          "word": "sul tavolo",
+          "gloss": "en la mesa"
+        },
+        {
+          "word": "nella borsa",
+          "gloss": "en el bolso"
+        },
+        {
+          "word": "occhiali",
+          "gloss": "gafas"
+        },
+        {
+          "word": "Quante penne ci sono?",
+          "gloss": "¿Cuántos bolígrafos hay?"
+        }
+      ],
+      "objectives": [
+        "Collegare oggetti e quantità"
+      ],
+      "body": "Sul tavolo: le chiavi, due penne e un quaderno. Nella borsa: gli occhiali e due foto. La chiave piccola è di Anna. Il quaderno è di Luca.",
+      "help": "En la mesa hay llaves, dos bolígrafos y un cuaderno. En el bolso hay gafas y dos fotos. La llave pequeña es de Anna.",
+      "questions": [
+        {
+          "id": "R04-Q1",
+          "kind": "detail",
+          "prompt": "Dove sono le foto?",
+          "options": [
+            "Sul tavolo",
+            "Nella borsa",
+            "Nel quaderno"
+          ],
+          "accepted": [
+            "Nella borsa"
+          ],
+          "rejected": [
+            "Sul tavolo",
+            "Nel quaderno"
+          ],
+          "exhaustive": true,
+          "explanation": "Las dos fotos figuran tras Nella borsa."
+        },
+        {
+          "id": "R04-Q2",
+          "kind": "relation",
+          "prompt": "Quale oggetto è di Luca?",
+          "options": [
+            "La chiave piccola",
+            "Gli occhiali",
+            "Il quaderno"
+          ],
+          "accepted": [
+            "Il quaderno"
+          ],
+          "rejected": [
+            "La chiave piccola",
+            "Gli occhiali"
+          ],
+          "exhaustive": true,
+          "explanation": "El texto atribuye el cuaderno a Luca."
+        },
+        {
+          "id": "R04-Q3",
+          "kind": "short",
+          "prompt": "Quante penne ci sono? Scrivi solo il numero in cifre.",
+          "options": [],
+          "accepted": [
+            "2"
+          ],
+          "rejected": [
+            "1",
+            "3"
+          ],
+          "exhaustive": false,
+          "explanation": "El inventario enumera due penne."
+        }
+      ]
+    }
+  },
+  {
+    "id": "R05",
+    "reason": "Evitar adelantar en Q1 la capacidad preguntada en Q3.",
+    "before": {
+      "id": "R05",
+      "version": "2",
+      "status": "candidate",
+      "title": "Una camera per te",
+      "level": "A1",
+      "blocks": [
+        "C10",
+        "C11",
+        "C12"
+      ],
+      "requiredConcepts": [
+        "it-a1-c10-01",
+        "it-a1-c11-01",
+        "it-a1-c12-01"
+      ],
+      "presentConcepts": [
+        "it-a1-c10-01",
+        "it-a1-c11-01",
+        "it-a1-c12-01"
+      ],
+      "dependencies": [],
+      "difficulty": "initial",
+      "genre": "annuncio",
+      "function": "Identificare le caratteristiche di un alloggio",
+      "vocabulary": [
+        {
+          "word": "luminosa",
+          "gloss": "luminosa"
+        },
+        {
+          "word": "al mese",
+          "gloss": "al mes"
+        },
+        {
+          "word": "nessun posto",
+          "gloss": "ninguna plaza"
+        }
+      ],
+      "objectives": [
+        "Identificare le caratteristiche di un alloggio"
+      ],
+      "body": "Una camera grande e luminosa per una persona. Un bagno piccolo, una cucina nuova. La camera è tranquilla. Prezzo: 400 euro al mese. Nessun posto per auto.",
+      "help": "La habitación es grande, luminosa y tranquila, para una persona. Cuesta 400 euros al mes y no hay plaza para coche.",
+      "questions": [
+        {
+          "id": "R05-Q1",
+          "kind": "global",
+          "prompt": "Che cosa offre l’annuncio?",
+          "options": [
+            "Un posto auto",
+            "Una cucina da comprare",
+            "Una camera"
+          ],
+          "accepted": [
+            "Una camera"
+          ],
+          "rejected": [
+            "Un posto auto",
+            "Una cucina da comprare"
+          ],
+          "exhaustive": true,
+          "explanation": "La oferta principal es una habitación para una persona."
+        },
+        {
+          "id": "R05-Q2",
+          "kind": "detail",
+          "prompt": "Com’è il bagno?",
+          "options": [
+            "Piccolo",
+            "Grande",
+            "Nuovo"
+          ],
+          "accepted": [
+            "Piccolo"
+          ],
+          "rejected": [
+            "Grande",
+            "Nuovo"
+          ],
+          "exhaustive": true,
+          "explanation": "El baño se describe como piccolo; nuova corresponde a la cocina."
+        },
+        {
+          "id": "R05-Q3",
+          "kind": "detail",
+          "prompt": "Per quante persone è la camera?",
+          "options": [
+            "Due",
+            "Una",
+            "Quattro"
+          ],
+          "accepted": [
+            "Una"
+          ],
+          "rejected": [
+            "Due",
+            "Quattro"
+          ],
+          "exhaustive": true,
+          "explanation": "La primera frase especifica per una persona."
+        }
+      ]
+    },
+    "after": {
+      "id": "R05",
+      "version": "3",
+      "status": "candidate",
+      "title": "Una camera per te",
+      "level": "A1",
+      "blocks": [
+        "C10",
+        "C11",
+        "C12"
+      ],
+      "requiredConcepts": [
+        "it-a1-c10-01",
+        "it-a1-c11-01",
+        "it-a1-c12-01"
+      ],
+      "presentConcepts": [
+        "it-a1-c10-01",
+        "it-a1-c11-01",
+        "it-a1-c12-01"
+      ],
+      "dependencies": [],
+      "difficulty": "initial",
+      "genre": "annuncio",
+      "function": "Identificare le caratteristiche di un alloggio",
+      "vocabulary": [
+        {
+          "word": "luminosa",
+          "gloss": "luminosa"
+        },
+        {
+          "word": "al mese",
+          "gloss": "al mes"
+        },
+        {
+          "word": "nessun posto",
+          "gloss": "ninguna plaza"
+        }
+      ],
+      "objectives": [
+        "Identificare le caratteristiche di un alloggio"
+      ],
+      "body": "Una camera grande e luminosa per una persona. Un bagno piccolo, una cucina nuova. La camera è tranquilla. Prezzo: 400 euro al mese. Nessun posto per auto.",
+      "help": "La habitación es grande, luminosa y tranquila, para una persona. Cuesta 400 euros al mes y no hay plaza para coche.",
+      "questions": [
+        {
+          "id": "R05-Q1",
+          "kind": "global",
+          "prompt": "Che cosa offre l’annuncio?",
+          "options": [
+            "Un posto auto",
+            "Una cucina da comprare",
+            "Una camera"
+          ],
+          "accepted": [
+            "Una camera"
+          ],
+          "rejected": [
+            "Un posto auto",
+            "Una cucina da comprare"
+          ],
+          "exhaustive": true,
+          "explanation": "La oferta principal es una habitación."
+        },
+        {
+          "id": "R05-Q2",
+          "kind": "detail",
+          "prompt": "Com’è il bagno?",
+          "options": [
+            "Piccolo",
+            "Grande",
+            "Nuovo"
+          ],
+          "accepted": [
+            "Piccolo"
+          ],
+          "rejected": [
+            "Grande",
+            "Nuovo"
+          ],
+          "exhaustive": true,
+          "explanation": "El baño se describe como piccolo; nuova corresponde a la cocina."
+        },
+        {
+          "id": "R05-Q3",
+          "kind": "detail",
+          "prompt": "Per quante persone è la camera?",
+          "options": [
+            "Due",
+            "Una",
+            "Quattro"
+          ],
+          "accepted": [
+            "Una"
+          ],
+          "rejected": [
+            "Due",
+            "Quattro"
+          ],
+          "exhaustive": true,
+          "explanation": "La primera frase especifica per una persona."
+        }
+      ]
+    }
+  },
+  {
+    "id": "R06",
+    "reason": "Feedback inmediato de Q1 no debe dar la bebida de Q2.",
+    "before": {
+      "id": "R06",
+      "version": "2",
+      "status": "candidate",
+      "title": "Al bar Aurora",
+      "level": "A1",
+      "blocks": [
+        "C13",
+        "C18",
+        "C34"
+      ],
+      "requiredConcepts": [
+        "it-a1-c13-03",
+        "it-a1-c18-01",
+        "it-a1-c34-03"
+      ],
+      "presentConcepts": [
+        "it-a1-c13-03",
+        "it-a1-c18-01",
+        "it-a1-c34-03"
+      ],
+      "dependencies": [],
+      "difficulty": "initial",
+      "genre": "menù",
+      "function": "Capire un ordine e il prezzo",
+      "vocabulary": [
+        {
+          "word": "panino",
+          "gloss": "bocadillo"
+        },
+        {
+          "word": "vorrei",
+          "gloss": "quisiera"
+        }
+      ],
+      "objectives": [
+        "Capire un ordine e il prezzo"
+      ],
+      "body": "Bar Aurora. Caffè: 2 euro. Tè: 3 euro. Panino: 5 euro. Acqua: 1 euro.\n— Buongiorno, vorrei un tè e un panino.\n— Certo, otto euro.\n— Grazie.",
+      "help": "El cliente pide un té y un bocadillo. El total indicado es ocho euros.",
+      "questions": [
+        {
+          "id": "R06-Q1",
+          "kind": "intention",
+          "prompt": "Che cosa fa il cliente?",
+          "options": [
+            "Ordina da mangiare e bere",
+            "Chiede un lavoro",
+            "Compra solo acqua"
+          ],
+          "accepted": [
+            "Ordina da mangiare e bere"
+          ],
+          "rejected": [
+            "Chiede un lavoro",
+            "Compra solo acqua"
+          ],
+          "exhaustive": true,
+          "explanation": "Pide un té y un panino con vorrei."
+        },
+        {
+          "id": "R06-Q2",
+          "kind": "detail",
+          "prompt": "Quale bevanda ordina?",
+          "options": [
+            "Caffè",
+            "Acqua",
+            "Tè"
+          ],
+          "accepted": [
+            "Tè"
+          ],
+          "rejected": [
+            "Caffè",
+            "Acqua"
+          ],
+          "exhaustive": true,
+          "explanation": "El pedido dice un tè."
+        },
+        {
+          "id": "R06-Q3",
+          "kind": "detail",
+          "prompt": "Quanto paga in tutto?",
+          "options": [
+            "Cinque euro",
+            "Otto euro",
+            "Tre euro"
+          ],
+          "accepted": [
+            "Otto euro"
+          ],
+          "rejected": [
+            "Cinque euro",
+            "Tre euro"
+          ],
+          "exhaustive": true,
+          "explanation": "La respuesta del bar indica otto euro."
+        }
+      ]
+    },
+    "after": {
+      "id": "R06",
+      "version": "3",
+      "status": "candidate",
+      "title": "Al bar Aurora",
+      "level": "A1",
+      "blocks": [
+        "C13",
+        "C18",
+        "C34"
+      ],
+      "requiredConcepts": [
+        "it-a1-c13-03",
+        "it-a1-c18-01",
+        "it-a1-c34-03"
+      ],
+      "presentConcepts": [
+        "it-a1-c13-03",
+        "it-a1-c18-01",
+        "it-a1-c34-03"
+      ],
+      "dependencies": [],
+      "difficulty": "initial",
+      "genre": "menù",
+      "function": "Capire un ordine e il prezzo",
+      "vocabulary": [
+        {
+          "word": "panino",
+          "gloss": "bocadillo"
+        },
+        {
+          "word": "vorrei",
+          "gloss": "quisiera"
+        }
+      ],
+      "objectives": [
+        "Capire un ordine e il prezzo"
+      ],
+      "body": "Bar Aurora. Caffè: 2 euro. Tè: 3 euro. Panino: 5 euro. Acqua: 1 euro.\n— Buongiorno, vorrei un tè e un panino.\n— Certo, otto euro.\n— Grazie.",
+      "help": "El cliente pide un té y un bocadillo. El total indicado es ocho euros.",
+      "questions": [
+        {
+          "id": "R06-Q1",
+          "kind": "intention",
+          "prompt": "Che cosa fa il cliente?",
+          "options": [
+            "Ordina da mangiare e bere",
+            "Chiede un lavoro",
+            "Compra solo acqua"
+          ],
+          "accepted": [
+            "Ordina da mangiare e bere"
+          ],
+          "rejected": [
+            "Chiede un lavoro",
+            "Compra solo acqua"
+          ],
+          "exhaustive": true,
+          "explanation": "La fórmula vorrei introduce un pedido."
+        },
+        {
+          "id": "R06-Q2",
+          "kind": "detail",
+          "prompt": "Quale bevanda ordina?",
+          "options": [
+            "Caffè",
+            "Acqua",
+            "Tè"
+          ],
+          "accepted": [
+            "Tè"
+          ],
+          "rejected": [
+            "Caffè",
+            "Acqua"
+          ],
+          "exhaustive": true,
+          "explanation": "El pedido dice un tè."
+        },
+        {
+          "id": "R06-Q3",
+          "kind": "detail",
+          "prompt": "Quanto paga in tutto?",
+          "options": [
+            "Cinque euro",
+            "Otto euro",
+            "Tre euro"
+          ],
+          "accepted": [
+            "Otto euro"
+          ],
+          "rejected": [
+            "Cinque euro",
+            "Tre euro"
+          ],
+          "exhaustive": true,
+          "explanation": "La respuesta del bar indica otto euro."
+        }
+      ]
+    }
+  },
+  {
+    "id": "R08",
+    "reason": "Apoyar modales incidentales antes del foco C17.",
+    "before": {
+      "id": "R08",
+      "version": "2",
+      "status": "candidate",
+      "title": "Ci vediamo in centro",
+      "level": "A1",
+      "blocks": [
+        "C16",
+        "C20"
+      ],
+      "requiredConcepts": [
+        "it-a1-c16-02",
+        "it-a1-c16-04",
+        "it-a1-c20-04"
+      ],
+      "presentConcepts": [
+        "it-a1-c16-02",
+        "it-a1-c16-04",
+        "it-a1-c20-04"
+      ],
+      "dependencies": [],
+      "difficulty": "developing",
+      "genre": "messaggio",
+      "function": "Organizzare un incontro",
+      "vocabulary": [
+        {
+          "word": "un giro",
+          "gloss": "un paseo"
+        },
+        {
+          "word": "presto",
+          "gloss": "pronto"
+        }
+      ],
+      "objectives": [
+        "Organizzare un incontro"
+      ],
+      "body": "Ciao Elena, oggi vado in centro con Marco. Lui viene da Torino e vuole vedere la città. Prima facciamo un giro in piazza, poi andiamo al bar Verde. Tu vieni con noi? Non andiamo al cinema: Marco deve tornare a casa presto. Siamo al bar alle quattro. A dopo, Nina.",
+      "help": "Nina invita a Elena a encontrarse con ella y Marco. Visitan la plaza y después el bar; no van al cine porque Marco debe volver pronto.",
+      "questions": [
+        {
+          "id": "R08-Q1",
+          "kind": "intention",
+          "prompt": "Perché Nina scrive a Elena?",
+          "options": [
+            "Per annullare un viaggio",
+            "Per invitarla a un incontro",
+            "Per chiedere un libro"
+          ],
+          "accepted": [
+            "Per invitarla a un incontro"
+          ],
+          "rejected": [
+            "Per annullare un viaggio",
+            "Per chiedere un libro"
+          ],
+          "exhaustive": true,
+          "explanation": "Tu vieni con noi? es la invitación."
+        },
+        {
+          "id": "R08-Q2",
+          "kind": "sequence",
+          "prompt": "Dove vanno prima e dopo?",
+          "options": [
+            "Bar → cinema",
+            "Cinema → piazza",
+            "Piazza → bar"
+          ],
+          "accepted": [
+            "Piazza → bar"
+          ],
+          "rejected": [
+            "Bar → cinema",
+            "Cinema → piazza"
+          ],
+          "exhaustive": true,
+          "explanation": "Prima y poi marcan plaza y bar."
+        },
+        {
+          "id": "R08-Q3",
+          "kind": "short",
+          "prompt": "Da quale città viene Marco? Scrivi solo il nome della città.",
+          "options": [],
+          "accepted": [
+            "Torino"
+          ],
+          "rejected": [
+            "Roma",
+            "Milano"
+          ],
+          "exhaustive": false,
+          "explanation": "El mensaje dice viene da Torino."
+        }
+      ]
+    },
+    "after": {
+      "id": "R08",
+      "version": "3",
+      "status": "candidate",
+      "title": "Ci vediamo in centro",
+      "level": "A1",
+      "blocks": [
+        "C16",
+        "C20"
+      ],
+      "requiredConcepts": [
+        "it-a1-c16-02",
+        "it-a1-c16-04",
+        "it-a1-c20-04"
+      ],
+      "presentConcepts": [
+        "it-a1-c16-02",
+        "it-a1-c16-04",
+        "it-a1-c20-04"
+      ],
+      "dependencies": [],
+      "difficulty": "developing",
+      "genre": "messaggio",
+      "function": "Organizzare un incontro",
+      "vocabulary": [
+        {
+          "word": "un giro",
+          "gloss": "un paseo"
+        },
+        {
+          "word": "presto",
+          "gloss": "pronto"
+        },
+        {
+          "word": "vuole vedere",
+          "gloss": "quiere ver"
+        },
+        {
+          "word": "deve tornare",
+          "gloss": "debe volver"
+        }
+      ],
+      "objectives": [
+        "Organizzare un incontro"
+      ],
+      "body": "Ciao Elena, oggi vado in centro con Marco. Lui viene da Torino e vuole vedere la città. Prima facciamo un giro in piazza, poi andiamo al bar Verde. Tu vieni con noi? Non andiamo al cinema: Marco deve tornare a casa presto. Siamo al bar alle quattro. A dopo, Nina.",
+      "help": "Nina invita a Elena a encontrarse con ella y Marco. Visitan la plaza y después el bar; no van al cine porque Marco debe volver pronto.",
+      "questions": [
+        {
+          "id": "R08-Q1",
+          "kind": "intention",
+          "prompt": "Perché Nina scrive a Elena?",
+          "options": [
+            "Per annullare un viaggio",
+            "Per invitarla a un incontro",
+            "Per chiedere un libro"
+          ],
+          "accepted": [
+            "Per invitarla a un incontro"
+          ],
+          "rejected": [
+            "Per annullare un viaggio",
+            "Per chiedere un libro"
+          ],
+          "exhaustive": true,
+          "explanation": "Tu vieni con noi? es la invitación."
+        },
+        {
+          "id": "R08-Q2",
+          "kind": "sequence",
+          "prompt": "Dove vanno prima e dopo?",
+          "options": [
+            "Bar → cinema",
+            "Cinema → piazza",
+            "Piazza → bar"
+          ],
+          "accepted": [
+            "Piazza → bar"
+          ],
+          "rejected": [
+            "Bar → cinema",
+            "Cinema → piazza"
+          ],
+          "exhaustive": true,
+          "explanation": "Prima y poi marcan plaza y bar."
+        },
+        {
+          "id": "R08-Q3",
+          "kind": "short",
+          "prompt": "Da quale città viene Marco? Scrivi solo il nome della città.",
+          "options": [],
+          "accepted": [
+            "Torino"
+          ],
+          "rejected": [
+            "Roma",
+            "Milano"
+          ],
+          "exhaustive": false,
+          "explanation": "El mensaje dice viene da Torino."
+        }
+      ]
+    }
+  },
+  {
+    "id": "R16",
+    "reason": "Apoyar referente clítico antes del foco C28.",
+    "before": {
+      "id": "R16",
+      "version": "2",
+      "status": "candidate",
+      "title": "Una domenica insieme",
+      "level": "A1",
+      "blocks": [
+        "C25",
+        "C29"
+      ],
+      "requiredConcepts": [
+        "it-a1-c25-01",
+        "it-a1-c25-02",
+        "it-a1-c29-02",
+        "it-a1-c29-03"
+      ],
+      "presentConcepts": [
+        "it-a1-c25-01",
+        "it-a1-c25-02",
+        "it-a1-c29-02",
+        "it-a1-c29-03"
+      ],
+      "dependencies": [],
+      "difficulty": "developing",
+      "genre": "invito",
+      "function": "Collegare preferenze e decisioni",
+      "vocabulary": [
+        {
+          "word": "zucchine",
+          "gloss": "calabacines"
+        },
+        {
+          "word": "lontano",
+          "gloss": "lejos"
+        },
+        {
+          "word": "mezzogiorno",
+          "gloss": "mediodía"
+        }
+      ],
+      "objectives": [
+        "Collegare preferenze e decisioni"
+      ],
+      "body": "Ciao Amir, domenica vuoi venire a pranzo? A me piace cucinare e a Lucia piacciono le verdure. Preparo pasta con pomodori e zucchine. Non preparo carne perché Lucia non la mangia. Dopo pranzo possiamo fare una passeggiata. Mi piace camminare, ma non voglio andare lontano. Il parco vicino a casa è perfetto. Ti aspettiamo a mezzogiorno!",
+      "help": "La invitación es para comer a mediodía y pasear cerca. Habrá pasta con verduras; no carne porque Lucia no la come.",
+      "questions": [
+        {
+          "id": "R16-Q1",
+          "kind": "intention",
+          "prompt": "Qual è lo scopo del messaggio?",
+          "options": [
+            "Invitare Amir a pranzo",
+            "Chiedere una ricetta",
+            "Vendere verdure"
+          ],
+          "accepted": [
+            "Invitare Amir a pranzo"
+          ],
+          "rejected": [
+            "Chiedere una ricetta",
+            "Vendere verdure"
+          ],
+          "exhaustive": true,
+          "explanation": "La pregunta inicial invita a Amir."
+        },
+        {
+          "id": "R16-Q2",
+          "kind": "detail",
+          "prompt": "Perché non preparano carne?",
+          "options": [
+            "Amir non cucina",
+            "Lucia non la mangia",
+            "Il parco è lontano"
+          ],
+          "accepted": [
+            "Lucia non la mangia"
+          ],
+          "rejected": [
+            "Amir non cucina",
+            "Il parco è lontano"
+          ],
+          "exhaustive": true,
+          "explanation": "La causa aparece después de perché."
+        },
+        {
+          "id": "R16-Q3",
+          "kind": "relation",
+          "prompt": "Quale piano rispetta il messaggio?",
+          "options": [
+            "Cena → cinema",
+            "Passeggiata lontana → pranzo",
+            "Pranzo → passeggiata vicino a casa"
+          ],
+          "accepted": [
+            "Pranzo → passeggiata vicino a casa"
+          ],
+          "rejected": [
+            "Cena → cinema",
+            "Passeggiata lontana → pranzo"
+          ],
+          "exhaustive": true,
+          "explanation": "Dopo pranzo y parco vicino a casa fijan orden y lugar."
+        }
+      ]
+    },
+    "after": {
+      "id": "R16",
+      "version": "3",
+      "status": "candidate",
+      "title": "Una domenica insieme",
+      "level": "A1",
+      "blocks": [
+        "C25",
+        "C29"
+      ],
+      "requiredConcepts": [
+        "it-a1-c25-01",
+        "it-a1-c25-02",
+        "it-a1-c29-02",
+        "it-a1-c29-03"
+      ],
+      "presentConcepts": [
+        "it-a1-c25-01",
+        "it-a1-c25-02",
+        "it-a1-c29-02",
+        "it-a1-c29-03"
+      ],
+      "dependencies": [],
+      "difficulty": "developing",
+      "genre": "invito",
+      "function": "Collegare preferenze e decisioni",
+      "vocabulary": [
+        {
+          "word": "zucchine",
+          "gloss": "calabacines"
+        },
+        {
+          "word": "lontano",
+          "gloss": "lejos"
+        },
+        {
+          "word": "mezzogiorno",
+          "gloss": "mediodía"
+        },
+        {
+          "word": "non la mangia",
+          "gloss": "no come carne"
+        }
+      ],
+      "objectives": [
+        "Collegare preferenze e decisioni"
+      ],
+      "body": "Ciao Amir, domenica vuoi venire a pranzo? A me piace cucinare e a Lucia piacciono le verdure. Preparo pasta con pomodori e zucchine. Non preparo carne perché Lucia non la mangia. Dopo pranzo possiamo fare una passeggiata. Mi piace camminare, ma non voglio andare lontano. Il parco vicino a casa è perfetto. Ti aspettiamo a mezzogiorno!",
+      "help": "La invitación es para comer a mediodía y pasear cerca. Habrá pasta con verduras; no carne porque Lucia no la come.",
+      "questions": [
+        {
+          "id": "R16-Q1",
+          "kind": "intention",
+          "prompt": "Qual è lo scopo del messaggio?",
+          "options": [
+            "Invitare Amir a pranzo",
+            "Chiedere una ricetta",
+            "Vendere verdure"
+          ],
+          "accepted": [
+            "Invitare Amir a pranzo"
+          ],
+          "rejected": [
+            "Chiedere una ricetta",
+            "Vendere verdure"
+          ],
+          "exhaustive": true,
+          "explanation": "La pregunta inicial invita a Amir."
+        },
+        {
+          "id": "R16-Q2",
+          "kind": "detail",
+          "prompt": "Perché non preparano carne?",
+          "options": [
+            "Amir non cucina",
+            "Lucia non la mangia",
+            "Il parco è lontano"
+          ],
+          "accepted": [
+            "Lucia non la mangia"
+          ],
+          "rejected": [
+            "Amir non cucina",
+            "Il parco è lontano"
+          ],
+          "exhaustive": true,
+          "explanation": "La causa aparece después de perché."
+        },
+        {
+          "id": "R16-Q3",
+          "kind": "relation",
+          "prompt": "Quale piano rispetta il messaggio?",
+          "options": [
+            "Cena → cinema",
+            "Passeggiata lontana → pranzo",
+            "Pranzo → passeggiata vicino a casa"
+          ],
+          "accepted": [
+            "Pranzo → passeggiata vicino a casa"
+          ],
+          "rejected": [
+            "Cena → cinema",
+            "Passeggiata lontana → pranzo"
+          ],
+          "exhaustive": true,
+          "explanation": "Dopo pranzo y parco vicino a casa fijan orden y lugar."
+        }
+      ]
+    }
+  },
+  {
+    "id": "R18",
+    "reason": "Apoyar imperativo incidental antes de C30.",
+    "before": {
+      "id": "R18",
+      "version": "2",
+      "status": "candidate",
+      "title": "La spesa per stasera",
+      "level": "A1",
+      "blocks": [
+        "C27",
+        "C34"
+      ],
+      "requiredConcepts": [
+        "it-a1-c27-01",
+        "it-a1-c27-02",
+        "it-a1-c27-03",
+        "it-a1-c34-03"
+      ],
+      "presentConcepts": [
+        "it-a1-c27-01",
+        "it-a1-c27-02",
+        "it-a1-c27-03",
+        "it-a1-c34-03"
+      ],
+      "dependencies": [],
+      "difficulty": "developing",
+      "genre": "lista commentata",
+      "function": "Capire quantità e necessità",
+      "vocabulary": [
+        {
+          "word": "servono",
+          "gloss": "hacen falta"
+        },
+        {
+          "word": "basta",
+          "gloss": "es suficiente"
+        },
+        {
+          "word": "già",
+          "gloss": "ya"
+        }
+      ],
+      "objectives": [
+        "Capire quantità e necessità"
+      ],
+      "body": "Ciao Fabio, per stasera servono del pane, delle mele e un po’ di formaggio. Abbiamo già molta pasta e pochi pomodori: compra quattro pomodori. Non serve latte, abbiamo due bottiglie di latte. Per Anna serve anche dell’acqua: non beve vino. Siamo in quattro a cena. Basta poco pane, perché mangiamo anche la pasta.",
+      "help": "La compra necesita pan, manzanas, algo de queso, cuatro tomates y agua para Anna. Ya hay leche y mucha pasta; basta poco pan.",
+      "questions": [
+        {
+          "id": "R18-Q1",
+          "kind": "global",
+          "prompt": "A che cosa serve il messaggio?",
+          "options": [
+            "A raccontare un pranzo",
+            "A prenotare un tavolo",
+            "A organizzare la spesa"
+          ],
+          "accepted": [
+            "A organizzare la spesa"
+          ],
+          "rejected": [
+            "A raccontare un pranzo",
+            "A prenotare un tavolo"
+          ],
+          "exhaustive": true,
+          "explanation": "Enumera lo que hace falta comprar."
+        },
+        {
+          "id": "R18-Q2",
+          "kind": "detail",
+          "prompt": "Che cosa non serve comprare?",
+          "options": [
+            "Latte",
+            "Pomodori",
+            "Formaggio"
+          ],
+          "accepted": [
+            "Latte"
+          ],
+          "rejected": [
+            "Pomodori",
+            "Formaggio"
+          ],
+          "exhaustive": true,
+          "explanation": "No hace falta leche porque hay dos botellas."
+        },
+        {
+          "id": "R18-Q3",
+          "kind": "short",
+          "prompt": "Quanti pomodori deve comprare Fabio? Scrivi solo il numero in cifre.",
+          "options": [],
+          "accepted": [
+            "4"
+          ],
+          "rejected": [
+            "2",
+            "3",
+            "5",
+            "6"
+          ],
+          "exhaustive": false,
+          "explanation": "Compra quattro pomodori fija el dato; la consigna pide cifras."
+        }
+      ]
+    },
+    "after": {
+      "id": "R18",
+      "version": "3",
+      "status": "candidate",
+      "title": "La spesa per stasera",
+      "level": "A1",
+      "blocks": [
+        "C27",
+        "C34"
+      ],
+      "requiredConcepts": [
+        "it-a1-c27-01",
+        "it-a1-c27-02",
+        "it-a1-c27-03",
+        "it-a1-c34-03"
+      ],
+      "presentConcepts": [
+        "it-a1-c27-01",
+        "it-a1-c27-02",
+        "it-a1-c27-03",
+        "it-a1-c34-03"
+      ],
+      "dependencies": [],
+      "difficulty": "developing",
+      "genre": "lista commentata",
+      "function": "Capire quantità e necessità",
+      "vocabulary": [
+        {
+          "word": "servono",
+          "gloss": "hacen falta"
+        },
+        {
+          "word": "basta",
+          "gloss": "es suficiente"
+        },
+        {
+          "word": "già",
+          "gloss": "ya"
+        },
+        {
+          "word": "compra",
+          "gloss": "compra; instrucción a Fabio"
+        }
+      ],
+      "objectives": [
+        "Capire quantità e necessità"
+      ],
+      "body": "Ciao Fabio, per stasera servono del pane, delle mele e un po’ di formaggio. Abbiamo già molta pasta e pochi pomodori: compra quattro pomodori. Non serve latte, abbiamo due bottiglie di latte. Per Anna serve anche dell’acqua: non beve vino. Siamo in quattro a cena. Basta poco pane, perché mangiamo anche la pasta.",
+      "help": "La compra necesita pan, manzanas, algo de queso, cuatro tomates y agua para Anna. Ya hay leche y mucha pasta; basta poco pan.",
+      "questions": [
+        {
+          "id": "R18-Q1",
+          "kind": "global",
+          "prompt": "A che cosa serve il messaggio?",
+          "options": [
+            "A raccontare un pranzo",
+            "A prenotare un tavolo",
+            "A organizzare la spesa"
+          ],
+          "accepted": [
+            "A organizzare la spesa"
+          ],
+          "rejected": [
+            "A raccontare un pranzo",
+            "A prenotare un tavolo"
+          ],
+          "exhaustive": true,
+          "explanation": "Enumera lo que hace falta comprar."
+        },
+        {
+          "id": "R18-Q2",
+          "kind": "detail",
+          "prompt": "Che cosa non serve comprare?",
+          "options": [
+            "Latte",
+            "Pomodori",
+            "Formaggio"
+          ],
+          "accepted": [
+            "Latte"
+          ],
+          "rejected": [
+            "Pomodori",
+            "Formaggio"
+          ],
+          "exhaustive": true,
+          "explanation": "No hace falta leche porque hay dos botellas."
+        },
+        {
+          "id": "R18-Q3",
+          "kind": "short",
+          "prompt": "Quanti pomodori deve comprare Fabio? Scrivi solo il numero in cifre.",
+          "options": [],
+          "accepted": [
+            "4"
+          ],
+          "rejected": [
+            "2",
+            "3",
+            "5",
+            "6"
+          ],
+          "exhaustive": false,
+          "explanation": "Compra quattro pomodori fija el dato; la consigna pide cifras."
+        }
+      ]
+    }
+  },
+  {
+    "id": "R20",
+    "reason": "Hacer explícitos los destinatarios del cambio tu/voi.",
+    "before": {
+      "id": "R20",
+      "version": "2",
+      "status": "candidate",
+      "title": "Una cena semplice",
+      "level": "A1",
+      "blocks": [
+        "C30",
+        "C29"
+      ],
+      "requiredConcepts": [
+        "it-a1-c30-01",
+        "it-a1-c30-02",
+        "it-a1-c29-04"
+      ],
+      "presentConcepts": [
+        "it-a1-c30-01",
+        "it-a1-c30-02",
+        "it-a1-c29-04"
+      ],
+      "dependencies": [],
+      "difficulty": "consolidating",
+      "genre": "istruzioni",
+      "function": "Capire una sequenza di preparazione",
+      "vocabulary": [
+        {
+          "word": "ciotola",
+          "gloss": "cuenco"
+        },
+        {
+          "word": "mescola",
+          "gloss": "mezcla"
+        },
+        {
+          "word": "ognuno",
+          "gloss": "cada persona"
+        },
+        {
+          "word": "tagliali",
+          "gloss": "córtalos"
+        }
+      ],
+      "objectives": [
+        "Capire una sequenza di preparazione"
+      ],
+      "body": "Questa sera prepariamo un’insalata di pomodori per quattro persone. Prima lava sei pomodori e tagliali in piccoli pezzi. Metti i pomodori in una ciotola grande. Poi aggiungi un po’ di olio e poco sale. Mescola bene. Il pane va su un piatto, vicino alla ciotola. Non mettere il pane dentro: ognuno prende quello che vuole. Per la tavola, prendete quattro piatti e quattro bicchieri. Mettete l’acqua al centro. Il formaggio resta in frigorifero fino a cena. L’insalata è pronta subito, ma aspettiamo gli amici prima di mangiare. Arrivano alle otto.",
+      "help": "Se prepara ensalada para cuatro: lavar y cortar tomates, ponerlos en un cuenco, añadir aceite y sal y mezclar. El pan va aparte. Hay que esperar a los amigos antes de comer.",
+      "questions": [
+        {
+          "id": "R20-Q1",
+          "kind": "global",
+          "prompt": "Che cosa spiegano le istruzioni?",
+          "options": [
+            "Come comprare sei piatti",
+            "Come fare il pane",
+            "Come preparare insalata e tavola"
+          ],
+          "accepted": [
+            "Come preparare insalata e tavola"
+          ],
+          "rejected": [
+            "Come comprare sei piatti",
+            "Come fare il pane"
+          ],
+          "exhaustive": true,
+          "explanation": "Incluye preparación de tomates y colocación de platos y agua."
+        },
+        {
+          "id": "R20-Q2",
+          "kind": "sequence",
+          "prompt": "Qual è l’ordine per i pomodori?",
+          "options": [
+            "Lavare → tagliare → aggiungere olio",
+            "Aggiungere olio → lavare → tagliare",
+            "Tagliare → mangiare → lavare"
+          ],
+          "accepted": [
+            "Lavare → tagliare → aggiungere olio"
+          ],
+          "rejected": [
+            "Aggiungere olio → lavare → tagliare",
+            "Tagliare → mangiare → lavare"
+          ],
+          "exhaustive": true,
+          "explanation": "Prima lava, taglia y poi aggiungi fijan la secuencia."
+        },
+        {
+          "id": "R20-Q3",
+          "kind": "detail",
+          "prompt": "Dove va il pane?",
+          "options": [
+            "Dentro la ciotola",
+            "Su un piatto vicino alla ciotola",
+            "Nel frigorifero"
+          ],
+          "accepted": [
+            "Su un piatto vicino alla ciotola"
+          ],
+          "rejected": [
+            "Dentro la ciotola",
+            "Nel frigorifero"
+          ],
+          "exhaustive": true,
+          "explanation": "Se pide dejar el pan fuera de la ensalada."
+        },
+        {
+          "id": "R20-Q4",
+          "kind": "intention",
+          "prompt": "Perché aspettano prima di mangiare?",
+          "options": [
+            "Il pane non è pronto",
+            "Devono comprare l’acqua",
+            "Aspettano gli amici"
+          ],
+          "accepted": [
+            "Aspettano gli amici"
+          ],
+          "rejected": [
+            "Il pane non è pronto",
+            "Devono comprare l’acqua"
+          ],
+          "exhaustive": true,
+          "explanation": "La frase final indica que esperan a los amigos."
+        }
+      ]
+    },
+    "after": {
+      "id": "R20",
+      "version": "3",
+      "status": "candidate",
+      "title": "Una cena semplice",
+      "level": "A1",
+      "blocks": [
+        "C30",
+        "C29"
+      ],
+      "requiredConcepts": [
+        "it-a1-c30-01",
+        "it-a1-c30-02",
+        "it-a1-c29-04"
+      ],
+      "presentConcepts": [
+        "it-a1-c30-01",
+        "it-a1-c30-02",
+        "it-a1-c29-04"
+      ],
+      "dependencies": [],
+      "difficulty": "consolidating",
+      "genre": "istruzioni",
+      "function": "Capire una sequenza di preparazione",
+      "vocabulary": [
+        {
+          "word": "ciotola",
+          "gloss": "cuenco"
+        },
+        {
+          "word": "mescola",
+          "gloss": "mezcla"
+        },
+        {
+          "word": "ognuno",
+          "gloss": "cada persona"
+        },
+        {
+          "word": "tagliali",
+          "gloss": "córtalos"
+        }
+      ],
+      "objectives": [
+        "Capire una sequenza di preparazione"
+      ],
+      "body": "Questa sera prepariamo un’insalata di pomodori per quattro persone. Marco, prima lava sei pomodori e tagliali in piccoli pezzi. Metti i pomodori in una ciotola grande. Poi aggiungi un po’ di olio e poco sale. Mescola bene. Il pane va su un piatto, vicino alla ciotola. Non mettere il pane dentro: ognuno prende quello che vuole. Anna e Luca, per la tavola prendete quattro piatti e quattro bicchieri. Mettete l’acqua al centro. Il formaggio resta in frigorifero fino a cena. L’insalata è pronta subito, ma aspettiamo gli amici prima di mangiare. Arrivano alle otto.",
+      "help": "Se prepara ensalada para cuatro: lavar y cortar tomates, ponerlos en un cuenco, añadir aceite y sal y mezclar. El pan va aparte. Hay que esperar a los amigos antes de comer.",
+      "questions": [
+        {
+          "id": "R20-Q1",
+          "kind": "global",
+          "prompt": "Che cosa spiegano le istruzioni?",
+          "options": [
+            "Come comprare sei piatti",
+            "Come fare il pane",
+            "Come preparare insalata e tavola"
+          ],
+          "accepted": [
+            "Come preparare insalata e tavola"
+          ],
+          "rejected": [
+            "Come comprare sei piatti",
+            "Come fare il pane"
+          ],
+          "exhaustive": true,
+          "explanation": "Incluye preparación de tomates y colocación de platos y agua."
+        },
+        {
+          "id": "R20-Q2",
+          "kind": "sequence",
+          "prompt": "Qual è l’ordine per i pomodori?",
+          "options": [
+            "Lavare → tagliare → aggiungere olio",
+            "Aggiungere olio → lavare → tagliare",
+            "Tagliare → mangiare → lavare"
+          ],
+          "accepted": [
+            "Lavare → tagliare → aggiungere olio"
+          ],
+          "rejected": [
+            "Aggiungere olio → lavare → tagliare",
+            "Tagliare → mangiare → lavare"
+          ],
+          "exhaustive": true,
+          "explanation": "Prima lava, taglia y poi aggiungi fijan la secuencia."
+        },
+        {
+          "id": "R20-Q3",
+          "kind": "detail",
+          "prompt": "Dove va il pane?",
+          "options": [
+            "Dentro la ciotola",
+            "Su un piatto vicino alla ciotola",
+            "Nel frigorifero"
+          ],
+          "accepted": [
+            "Su un piatto vicino alla ciotola"
+          ],
+          "rejected": [
+            "Dentro la ciotola",
+            "Nel frigorifero"
+          ],
+          "exhaustive": true,
+          "explanation": "Se pide dejar el pan fuera de la ensalada."
+        },
+        {
+          "id": "R20-Q4",
+          "kind": "intention",
+          "prompt": "Perché aspettano prima di mangiare?",
+          "options": [
+            "Il pane non è pronto",
+            "Devono comprare l’acqua",
+            "Aspettano gli amici"
+          ],
+          "accepted": [
+            "Aspettano gli amici"
+          ],
+          "rejected": [
+            "Il pane non è pronto",
+            "Devono comprare l’acqua"
+          ],
+          "exhaustive": true,
+          "explanation": "La frase final indica que esperan a los amigos."
+        }
+      ]
+    }
+  },
+  {
+    "id": "R22",
+    "reason": "Evitar anticipar días de Q4 en el feedback de Q1.",
+    "before": {
+      "id": "R22",
+      "version": "2",
+      "status": "candidate",
+      "title": "Due giorni a Bologna",
+      "level": "A1",
+      "blocks": [
+        "C32",
+        "C33"
+      ],
+      "requiredConcepts": [
+        "it-a1-c32-02",
+        "it-a1-c32-03",
+        "it-a1-c33-01"
+      ],
+      "presentConcepts": [
+        "it-a1-c32-02",
+        "it-a1-c32-03",
+        "it-a1-c33-01"
+      ],
+      "dependencies": [],
+      "difficulty": "consolidating",
+      "genre": "email",
+      "function": "Ricostruire un viaggio e riconoscere i protagonisti",
+      "vocabulary": [
+        {
+          "word": "siamo arrivate",
+          "gloss": "hemos llegado, femenino plural"
+        },
+        {
+          "word": "riposare",
+          "gloss": "descansar"
+        },
+        {
+          "word": "tazza",
+          "gloss": "taza"
+        }
+      ],
+      "objectives": [
+        "Ricostruire un viaggio e riconoscere i protagonisti"
+      ],
+      "body": "Ciao mamma, siamo arrivate a Bologna venerdì sera. Io e Laura abbiamo preso il treno delle sei da Firenze. Alla stazione abbiamo incontrato Giulia, una nostra amica. Siamo andate a casa sua e abbiamo cenato insieme. Sabato mattina Laura è uscita presto per visitare un museo. Io sono rimasta a casa con Giulia per riposare. Nel pomeriggio siamo andate tutte e tre in centro. Abbiamo comprato un regalo per te: una tazza blu. Domenica siamo tornate a Firenze. Il viaggio è stato breve, ma molto bello. Adesso la tazza è nella mia borsa. Porto la tazza a casa domani. Un abbraccio, Eva.",
+      "help": "Eva y Laura llegaron a Bolonia el viernes. Laura visitó un museo el sábado por la mañana; Eva descansó con Giulia. Las tres fueron al centro por la tarde. Eva y Laura regresaron el domingo.",
+      "questions": [
+        {
+          "id": "R22-Q1",
+          "kind": "global",
+          "prompt": "Che cosa racconta Eva?",
+          "options": [
+            "Un nuovo lavoro",
+            "Un breve viaggio",
+            "Un corso di cucina"
+          ],
+          "accepted": [
+            "Un breve viaggio"
+          ],
+          "rejected": [
+            "Un nuovo lavoro",
+            "Un corso di cucina"
+          ],
+          "exhaustive": true,
+          "explanation": "Narra la visita a Bolonia de viernes a domingo."
+        },
+        {
+          "id": "R22-Q2",
+          "kind": "relation",
+          "prompt": "Chi è andata al museo sabato mattina?",
+          "options": [
+            "Giulia",
+            "Eva",
+            "Laura"
+          ],
+          "accepted": [
+            "Laura"
+          ],
+          "rejected": [
+            "Giulia",
+            "Eva"
+          ],
+          "exhaustive": true,
+          "explanation": "Laura è uscita presto per visitare un museo."
+        },
+        {
+          "id": "R22-Q3",
+          "kind": "detail",
+          "prompt": "Per chi hanno comprato la tazza?",
+          "options": [
+            "Per la mamma di Eva",
+            "Per Giulia",
+            "Per Laura"
+          ],
+          "accepted": [
+            "Per la mamma di Eva"
+          ],
+          "rejected": [
+            "Per Giulia",
+            "Per Laura"
+          ],
+          "exhaustive": true,
+          "explanation": "El correo se dirige a mamma y dice un regalo per te."
+        },
+        {
+          "id": "R22-Q4",
+          "kind": "sequence",
+          "prompt": "Quale ordine è corretto?",
+          "options": [
+            "Museo → arrivo → ritorno",
+            "Arrivo venerdì → centro sabato → ritorno domenica",
+            "Ritorno → centro → arrivo"
+          ],
+          "accepted": [
+            "Arrivo venerdì → centro sabato → ritorno domenica"
+          ],
+          "rejected": [
+            "Museo → arrivo → ritorno",
+            "Ritorno → centro → arrivo"
+          ],
+          "exhaustive": true,
+          "explanation": "Los marcadores de los tres días fijan el orden."
+        }
+      ]
+    },
+    "after": {
+      "id": "R22",
+      "version": "3",
+      "status": "candidate",
+      "title": "Due giorni a Bologna",
+      "level": "A1",
+      "blocks": [
+        "C32",
+        "C33"
+      ],
+      "requiredConcepts": [
+        "it-a1-c32-02",
+        "it-a1-c32-03",
+        "it-a1-c33-01"
+      ],
+      "presentConcepts": [
+        "it-a1-c32-02",
+        "it-a1-c32-03",
+        "it-a1-c33-01"
+      ],
+      "dependencies": [],
+      "difficulty": "consolidating",
+      "genre": "email",
+      "function": "Ricostruire un viaggio e riconoscere i protagonisti",
+      "vocabulary": [
+        {
+          "word": "siamo arrivate",
+          "gloss": "hemos llegado, femenino plural"
+        },
+        {
+          "word": "riposare",
+          "gloss": "descansar"
+        },
+        {
+          "word": "tazza",
+          "gloss": "taza"
+        }
+      ],
+      "objectives": [
+        "Ricostruire un viaggio e riconoscere i protagonisti"
+      ],
+      "body": "Ciao mamma, siamo arrivate a Bologna venerdì sera. Io e Laura abbiamo preso il treno delle sei da Firenze. Alla stazione abbiamo incontrato Giulia, una nostra amica. Siamo andate a casa sua e abbiamo cenato insieme. Sabato mattina Laura è uscita presto per visitare un museo. Io sono rimasta a casa con Giulia per riposare. Nel pomeriggio siamo andate tutte e tre in centro. Abbiamo comprato un regalo per te: una tazza blu. Domenica siamo tornate a Firenze. Il viaggio è stato breve, ma molto bello. Adesso la tazza è nella mia borsa. Porto la tazza a casa domani. Un abbraccio, Eva.",
+      "help": "Eva y Laura llegaron a Bolonia el viernes. Laura visitó un museo el sábado por la mañana; Eva descansó con Giulia. Las tres fueron al centro por la tarde. Eva y Laura regresaron el domingo.",
+      "questions": [
+        {
+          "id": "R22-Q1",
+          "kind": "global",
+          "prompt": "Che cosa racconta Eva?",
+          "options": [
+            "Un nuovo lavoro",
+            "Un breve viaggio",
+            "Un corso di cucina"
+          ],
+          "accepted": [
+            "Un breve viaggio"
+          ],
+          "rejected": [
+            "Un nuovo lavoro",
+            "Un corso di cucina"
+          ],
+          "exhaustive": true,
+          "explanation": "Eva cuenta una visita breve a Bolonia."
+        },
+        {
+          "id": "R22-Q2",
+          "kind": "relation",
+          "prompt": "Chi è andata al museo sabato mattina?",
+          "options": [
+            "Giulia",
+            "Eva",
+            "Laura"
+          ],
+          "accepted": [
+            "Laura"
+          ],
+          "rejected": [
+            "Giulia",
+            "Eva"
+          ],
+          "exhaustive": true,
+          "explanation": "Laura è uscita presto per visitare un museo."
+        },
+        {
+          "id": "R22-Q3",
+          "kind": "detail",
+          "prompt": "Per chi hanno comprato la tazza?",
+          "options": [
+            "Per la mamma di Eva",
+            "Per Giulia",
+            "Per Laura"
+          ],
+          "accepted": [
+            "Per la mamma di Eva"
+          ],
+          "rejected": [
+            "Per Giulia",
+            "Per Laura"
+          ],
+          "exhaustive": true,
+          "explanation": "El correo se dirige a mamma y dice un regalo per te."
+        },
+        {
+          "id": "R22-Q4",
+          "kind": "sequence",
+          "prompt": "Quale ordine è corretto?",
+          "options": [
+            "Museo → arrivo → ritorno",
+            "Arrivo venerdì → centro sabato → ritorno domenica",
+            "Ritorno → centro → arrivo"
+          ],
+          "accepted": [
+            "Arrivo venerdì → centro sabato → ritorno domenica"
+          ],
+          "rejected": [
+            "Museo → arrivo → ritorno",
+            "Ritorno → centro → arrivo"
+          ],
+          "exhaustive": true,
+          "explanation": "Los marcadores de los tres días fijan el orden."
+        }
+      ]
+    }
+  },
+  {
+    "id": "R23",
+    "reason": "Apoyar clíticos incidentales para la preparación declarada.",
+    "before": {
+      "id": "R23",
+      "version": "2",
+      "status": "candidate",
+      "title": "Un appuntamento per Nico",
+      "level": "A1",
+      "blocks": [
+        "C05",
+        "C17",
+        "C22",
+        "C34"
+      ],
+      "requiredConcepts": [
+        "it-a1-c05-04",
+        "it-a1-c17-03",
+        "it-a1-c22-04",
+        "it-a1-c34-07"
+      ],
+      "presentConcepts": [
+        "it-a1-c05-04",
+        "it-a1-c17-03",
+        "it-a1-c22-04",
+        "it-a1-c34-07"
+      ],
+      "dependencies": [],
+      "difficulty": "consolidating",
+      "genre": "messaggio di servizio",
+      "function": "Capire un appuntamento e una necessità quotidiana",
+      "vocabulary": [
+        {
+          "word": "tessera sanitaria",
+          "gloss": "tarjeta sanitaria"
+        },
+        {
+          "word": "studio",
+          "gloss": "consulta"
+        },
+        {
+          "word": "mal di testa",
+          "gloss": "dolor de cabeza"
+        },
+        {
+          "word": "porti",
+          "gloss": "lleve; petición formal"
+        }
+      ],
+      "objectives": [
+        "Capire un appuntamento e una necessità quotidiana"
+      ],
+      "body": "Buongiorno signor Riva, il suo appuntamento con la dottoressa è domani, mercoledì, alle dieci e trenta. Deve portare un documento e la tessera sanitaria. Lo studio è in via Verdi, numero dodici, al primo piano. Se non può venire, può telefonare al numero indicato nella sua prenotazione.\nGrazie. Ho mal di testa e vorrei parlare con la dottoressa. Domani posso venire, ma non ho la tessera con me: è a casa di mia madre. Posso portarla nel pomeriggio?\nSì, va bene. Per la visita di domani mattina porti il documento. La aspettiamo alle dieci e trenta.",
+      "help": "La cita es mañana miércoles a las 10:30. Nico tiene dolor de cabeza. El centro acepta que lleve la tarjeta sanitaria por la tarde; por la mañana debe llevar el documento. El texto practica comprensión de una cita, no consejo médico.",
+      "questions": [
+        {
+          "id": "R23-Q1",
+          "kind": "global",
+          "prompt": "Qual è lo scopo dello scambio?",
+          "options": [
+            "Comprare un documento",
+            "Descrivere una vacanza",
+            "Confermare una visita e i documenti"
+          ],
+          "accepted": [
+            "Confermare una visita e i documenti"
+          ],
+          "rejected": [
+            "Comprare un documento",
+            "Descrivere una vacanza"
+          ],
+          "exhaustive": true,
+          "explanation": "El intercambio confirma hora y qué debe llevar."
+        },
+        {
+          "id": "R23-Q2",
+          "kind": "detail",
+          "prompt": "A che ora è la visita?",
+          "options": [
+            "Alle dieci e trenta",
+            "Alle dodici",
+            "Nel pomeriggio"
+          ],
+          "accepted": [
+            "Alle dieci e trenta"
+          ],
+          "rejected": [
+            "Alle dodici",
+            "Nel pomeriggio"
+          ],
+          "exhaustive": true,
+          "explanation": "La hora se repite al inicio y al final."
+        },
+        {
+          "id": "R23-Q3",
+          "kind": "detail",
+          "prompt": "Dove si trova la tessera?",
+          "options": [
+            "Nello studio",
+            "A casa della madre",
+            "In via Verdi"
+          ],
+          "accepted": [
+            "A casa della madre"
+          ],
+          "rejected": [
+            "Nello studio",
+            "In via Verdi"
+          ],
+          "exhaustive": true,
+          "explanation": "El paciente dice è a casa di mia madre."
+        },
+        {
+          "id": "R23-Q4",
+          "kind": "relation",
+          "prompt": "Che cosa deve portare la mattina?",
+          "options": [
+            "Solo la tessera",
+            "Nessun documento",
+            "Il documento"
+          ],
+          "accepted": [
+            "Il documento"
+          ],
+          "rejected": [
+            "Solo la tessera",
+            "Nessun documento"
+          ],
+          "exhaustive": true,
+          "explanation": "La respuesta final permite llevar la tarjeta después y pide el documento para la visita."
+        }
+      ]
+    },
+    "after": {
+      "id": "R23",
+      "version": "3",
+      "status": "candidate",
+      "title": "Un appuntamento per Nico",
+      "level": "A1",
+      "blocks": [
+        "C05",
+        "C17",
+        "C22",
+        "C34"
+      ],
+      "requiredConcepts": [
+        "it-a1-c05-04",
+        "it-a1-c17-03",
+        "it-a1-c22-04",
+        "it-a1-c34-07"
+      ],
+      "presentConcepts": [
+        "it-a1-c05-04",
+        "it-a1-c17-03",
+        "it-a1-c22-04",
+        "it-a1-c34-07"
+      ],
+      "dependencies": [],
+      "difficulty": "consolidating",
+      "genre": "messaggio di servizio",
+      "function": "Capire un appuntamento e una necessità quotidiana",
+      "vocabulary": [
+        {
+          "word": "tessera sanitaria",
+          "gloss": "tarjeta sanitaria"
+        },
+        {
+          "word": "studio",
+          "gloss": "consulta"
+        },
+        {
+          "word": "mal di testa",
+          "gloss": "dolor de cabeza"
+        },
+        {
+          "word": "porti",
+          "gloss": "lleve; petición formal"
+        },
+        {
+          "word": "portarla",
+          "gloss": "llevar la tarjeta sanitaria"
+        },
+        {
+          "word": "La aspettiamo",
+          "gloss": "le esperamos; tratamiento formal"
+        }
+      ],
+      "objectives": [
+        "Capire un appuntamento e una necessità quotidiana"
+      ],
+      "body": "Buongiorno signor Riva, il suo appuntamento con la dottoressa è domani, mercoledì, alle dieci e trenta. Deve portare un documento e la tessera sanitaria. Lo studio è in via Verdi, numero dodici, al primo piano. Se non può venire, può telefonare al numero indicato nella sua prenotazione.\nGrazie. Ho mal di testa e vorrei parlare con la dottoressa. Domani posso venire, ma non ho la tessera con me: è a casa di mia madre. Posso portarla nel pomeriggio?\nSì, va bene. Per la visita di domani mattina porti il documento. La aspettiamo alle dieci e trenta.",
+      "help": "La cita es mañana miércoles a las 10:30. Nico tiene dolor de cabeza. El centro acepta que lleve la tarjeta sanitaria por la tarde; por la mañana debe llevar el documento. El texto practica comprensión de una cita, no consejo médico.",
+      "questions": [
+        {
+          "id": "R23-Q1",
+          "kind": "global",
+          "prompt": "Qual è lo scopo dello scambio?",
+          "options": [
+            "Comprare un documento",
+            "Descrivere una vacanza",
+            "Confermare una visita e i documenti"
+          ],
+          "accepted": [
+            "Confermare una visita e i documenti"
+          ],
+          "rejected": [
+            "Comprare un documento",
+            "Descrivere una vacanza"
+          ],
+          "exhaustive": true,
+          "explanation": "El intercambio confirma hora y qué debe llevar."
+        },
+        {
+          "id": "R23-Q2",
+          "kind": "detail",
+          "prompt": "A che ora è la visita?",
+          "options": [
+            "Alle dieci e trenta",
+            "Alle dodici",
+            "Nel pomeriggio"
+          ],
+          "accepted": [
+            "Alle dieci e trenta"
+          ],
+          "rejected": [
+            "Alle dodici",
+            "Nel pomeriggio"
+          ],
+          "exhaustive": true,
+          "explanation": "La hora se repite al inicio y al final."
+        },
+        {
+          "id": "R23-Q3",
+          "kind": "detail",
+          "prompt": "Dove si trova la tessera?",
+          "options": [
+            "Nello studio",
+            "A casa della madre",
+            "In via Verdi"
+          ],
+          "accepted": [
+            "A casa della madre"
+          ],
+          "rejected": [
+            "Nello studio",
+            "In via Verdi"
+          ],
+          "exhaustive": true,
+          "explanation": "El paciente dice è a casa di mia madre."
+        },
+        {
+          "id": "R23-Q4",
+          "kind": "relation",
+          "prompt": "Che cosa deve portare la mattina?",
+          "options": [
+            "Solo la tessera",
+            "Nessun documento",
+            "Il documento"
+          ],
+          "accepted": [
+            "Il documento"
+          ],
+          "rejected": [
+            "Solo la tessera",
+            "Nessun documento"
+          ],
+          "exhaustive": true,
+          "explanation": "La respuesta final permite llevar la tarjeta después y pide el documento para la visita."
+        }
+      ]
+    }
+  },
+  {
+    "id": "R24",
+    "reason": "Retirar perché causal ausente y referenciar participios regulares realmente presentes; no reescribir texto válido.",
+    "before": {
+      "id": "R24",
+      "version": "2",
+      "status": "candidate",
+      "title": "Una festa nel quartiere",
+      "level": "A1",
+      "blocks": [
+        "C29",
+        "C31",
+        "C32",
+        "C33",
+        "C34"
+      ],
+      "requiredConcepts": [
+        "it-a1-c29-03",
+        "it-a1-c29-04",
+        "it-a1-c31-02",
+        "it-a1-c32-03",
+        "it-a1-c33-01",
+        "it-a1-c34-05"
+      ],
+      "presentConcepts": [
+        "it-a1-c29-03",
+        "it-a1-c29-04",
+        "it-a1-c31-02",
+        "it-a1-c32-03",
+        "it-a1-c33-01",
+        "it-a1-c34-05"
+      ],
+      "dependencies": [],
+      "difficulty": "consolidating",
+      "genre": "racconto",
+      "function": "Collegare un’esperienza passata e un progetto attuale",
+      "vocabulary": [
+        {
+          "word": "quartiere",
+          "gloss": "barrio"
+        },
+        {
+          "word": "perciò",
+          "gloss": "por eso"
+        },
+        {
+          "word": "piano terra",
+          "gloss": "planta baja"
+        },
+        {
+          "word": "vicini",
+          "gloss": "vecinos"
+        }
+      ],
+      "objectives": [
+        "Collegare un’esperienza passata e un progetto attuale"
+      ],
+      "body": "Sabato abbiamo organizzato una piccola festa nel giardino del nostro palazzo. Io e Marco abbiamo preparato i tavoli. Anna e Silvia sono arrivate alle quattro con due torte. Prima abbiamo mangiato insieme, poi abbiamo ascoltato musica. I bambini hanno giocato vicino agli alberi. Alle sei ha cominciato a piovere, perciò siamo entrati tutti nella sala al piano terra. La festa è continuata lì. Abbiamo parlato con i nuovi vicini: sono di Bari e lavorano in ospedale. Oggi voglio mandare le foto della festa ai nuovi vicini. Non ho il loro numero, ma Anna lo ha. Chiedo il numero ad Anna stasera. Il prossimo sabato vogliamo fare un’altra cena insieme.",
+      "help": "El sábado hubo fiesta en el jardín. La lluvia hizo que continuara dentro. Conocieron a nuevos vecinos de Bari. Hoy la persona quiere enviarles fotos y pedirá su número a Anna.",
+      "questions": [
+        {
+          "id": "R24-Q1",
+          "kind": "global",
+          "prompt": "Quale titolo riassume il racconto?",
+          "options": [
+            "Una festa e nuovi vicini",
+            "Una giornata in ospedale",
+            "Un viaggio a Bari"
+          ],
+          "accepted": [
+            "Una festa e nuovi vicini"
+          ],
+          "rejected": [
+            "Una giornata in ospedale",
+            "Un viaggio a Bari"
+          ],
+          "exhaustive": true,
+          "explanation": "El relato trata de la fiesta y del encuentro con los vecinos."
+        },
+        {
+          "id": "R24-Q2",
+          "kind": "context",
+          "prompt": "Perché entrano nella sala?",
+          "options": [
+            "Le torte sono finite",
+            "Comincia a piovere",
+            "Devono lavorare"
+          ],
+          "accepted": [
+            "Comincia a piovere"
+          ],
+          "rejected": [
+            "Le torte sono finite",
+            "Devono lavorare"
+          ],
+          "exhaustive": true,
+          "explanation": "La lluvia se presenta como causa mediante perciò."
+        },
+        {
+          "id": "R24-Q3",
+          "kind": "short",
+          "prompt": "Chi ha il numero dei nuovi vicini? Scrivi solo il nome.",
+          "options": [],
+          "accepted": [
+            "Anna"
+          ],
+          "rejected": [
+            "Marco",
+            "Silvia"
+          ],
+          "exhaustive": false,
+          "explanation": "Non ho il loro numero, ma Anna lo ha."
+        },
+        {
+          "id": "R24-Q4",
+          "kind": "sequence",
+          "prompt": "Quale ordine segue la festa?",
+          "options": [
+            "Mangiare → ascoltare musica → entrare nella sala",
+            "Entrare → mangiare → preparare i tavoli",
+            "Ascoltare musica → preparare i tavoli → arrivare"
+          ],
+          "accepted": [
+            "Mangiare → ascoltare musica → entrare nella sala"
+          ],
+          "rejected": [
+            "Entrare → mangiare → preparare i tavoli",
+            "Ascoltare musica → preparare i tavoli → arrivare"
+          ],
+          "exhaustive": true,
+          "explanation": "Prima y poi ordenan comida y música; más tarde empieza la lluvia."
+        }
+      ]
+    },
+    "after": {
+      "id": "R24",
+      "version": "3",
+      "status": "candidate",
+      "title": "Una festa nel quartiere",
+      "level": "A1",
+      "blocks": [
+        "C29",
+        "C31",
+        "C32",
+        "C33",
+        "C34"
+      ],
+      "requiredConcepts": [
+        "it-a1-c29-04",
+        "it-a1-c31-01",
+        "it-a1-c32-03",
+        "it-a1-c33-01",
+        "it-a1-c34-05"
+      ],
+      "presentConcepts": [
+        "it-a1-c29-04",
+        "it-a1-c31-01",
+        "it-a1-c32-03",
+        "it-a1-c33-01",
+        "it-a1-c34-05"
+      ],
+      "dependencies": [],
+      "difficulty": "consolidating",
+      "genre": "racconto",
+      "function": "Collegare un’esperienza passata e un progetto attuale",
+      "vocabulary": [
+        {
+          "word": "quartiere",
+          "gloss": "barrio"
+        },
+        {
+          "word": "perciò",
+          "gloss": "por eso"
+        },
+        {
+          "word": "piano terra",
+          "gloss": "planta baja"
+        },
+        {
+          "word": "vicini",
+          "gloss": "vecinos"
+        }
+      ],
+      "objectives": [
+        "Collegare un’esperienza passata e un progetto attuale"
+      ],
+      "body": "Sabato abbiamo organizzato una piccola festa nel giardino del nostro palazzo. Io e Marco abbiamo preparato i tavoli. Anna e Silvia sono arrivate alle quattro con due torte. Prima abbiamo mangiato insieme, poi abbiamo ascoltato musica. I bambini hanno giocato vicino agli alberi. Alle sei ha cominciato a piovere, perciò siamo entrati tutti nella sala al piano terra. La festa è continuata lì. Abbiamo parlato con i nuovi vicini: sono di Bari e lavorano in ospedale. Oggi voglio mandare le foto della festa ai nuovi vicini. Non ho il loro numero, ma Anna lo ha. Chiedo il numero ad Anna stasera. Il prossimo sabato vogliamo fare un’altra cena insieme.",
+      "help": "El sábado hubo fiesta en el jardín. La lluvia hizo que continuara dentro. Conocieron a nuevos vecinos de Bari. Hoy la persona quiere enviarles fotos y pedirá su número a Anna.",
+      "questions": [
+        {
+          "id": "R24-Q1",
+          "kind": "global",
+          "prompt": "Quale titolo riassume il racconto?",
+          "options": [
+            "Una festa e nuovi vicini",
+            "Una giornata in ospedale",
+            "Un viaggio a Bari"
+          ],
+          "accepted": [
+            "Una festa e nuovi vicini"
+          ],
+          "rejected": [
+            "Una giornata in ospedale",
+            "Un viaggio a Bari"
+          ],
+          "exhaustive": true,
+          "explanation": "El relato trata de la fiesta y del encuentro con los vecinos."
+        },
+        {
+          "id": "R24-Q2",
+          "kind": "context",
+          "prompt": "Perché entrano nella sala?",
+          "options": [
+            "Le torte sono finite",
+            "Comincia a piovere",
+            "Devono lavorare"
+          ],
+          "accepted": [
+            "Comincia a piovere"
+          ],
+          "rejected": [
+            "Le torte sono finite",
+            "Devono lavorare"
+          ],
+          "exhaustive": true,
+          "explanation": "La lluvia se presenta como causa mediante perciò."
+        },
+        {
+          "id": "R24-Q3",
+          "kind": "short",
+          "prompt": "Chi ha il numero dei nuovi vicini? Scrivi solo il nome.",
+          "options": [],
+          "accepted": [
+            "Anna"
+          ],
+          "rejected": [
+            "Marco",
+            "Silvia"
+          ],
+          "exhaustive": false,
+          "explanation": "Non ho il loro numero, ma Anna lo ha."
+        },
+        {
+          "id": "R24-Q4",
+          "kind": "sequence",
+          "prompt": "Quale ordine segue la festa?",
+          "options": [
+            "Mangiare → ascoltare musica → entrare nella sala",
+            "Entrare → mangiare → preparare i tavoli",
+            "Ascoltare musica → preparare i tavoli → arrivare"
+          ],
+          "accepted": [
+            "Mangiare → ascoltare musica → entrare nella sala"
+          ],
+          "rejected": [
+            "Entrare → mangiare → preparare i tavoli",
+            "Ascoltare musica → preparare i tavoli → arrivare"
+          ],
+          "exhaustive": true,
+          "explanation": "Prima y poi ordenan comida y música; más tarde empieza la lluvia."
+        }
+      ]
+    }
+  }
+]

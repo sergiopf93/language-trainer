@@ -2,6 +2,14 @@
 
 Actualizado: 2026-10-24. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
 
+## Fase 6C — Reading: editorial cerrado, validación final pendiente (2026-10-25)
+
+Rama `feat/a1-reading`, baseline `f439d74`. Conservadas 24 lecturas/78 preguntas; revisión inicial completa y dictamen independiente ciego de todo el corpus, seguido de diez textos/34 preguntas modificados. **24 recibos válidos, 24 lecturas/78 actividades reviewed en validación, 0 publicadas**; autoría candidate y promoción derivada del manifiesto. Paquetes, hashes, dictámenes y cambios en `docs/product/reading-review/`; no rehacer editorial. R24 corrigió referencias falsas, R05/R06/R22 filtraciones de feedback, R20 destinatarios y varias glosas de preparación.
+
+Integración F5/SessionEngine/IndexedDB con snapshot/glosario, ayuda persistente, evaluación conservadora, namespace/evidencia reading-comprehension y progreso separado. Review/Mixed sin penalización gramatical por lectura. **360/360 tests en 21 suites**, typecheck, formato, coverage, auditoría editorial y content:reading/hashes correctos. Build validación final correcto; normal y E2E producción 1/1 pasaron antes de generar recibos: repetir producción con recibos reales. E2E global delegado dejó `.last-run.json=passed`, sin procesos activos y capturas Reading/Mixed/Review; agente alcanzó límite antes de entregar resumen/inspección visual. No inventar total E2E; recuperar informe o correr seis Reading focales e inspeccionar capturas.
+
+Brechas V1 importantes documentadas: restaurante (K05) y billete/horario (K09); propuesta mínima dos textos, no añadidos. No declarar Reading integral ni validación humana. [Informe y reanudación exacta](../product/A1_READING_IMPLEMENTATION.md). Chrome instalado (`PLAYWRIGHT_CHANNEL=chrome`), `E2E_NODE_FALLBACK=1`, Node 22.23.3. Detenido por límite según encargo, guardado en commits locales. No Writing, push, merge, publicación ni despliegue.
+
 ## Fase 6B.2 — cobertura Mixed C01–C34 (2026-10-24)
 
 Rama `feat/a1-mixed-curriculum-coverage`, baseline `ae39db9`, commit técnico `3a27e88` (documentación en el commit posterior). **45 grupos, 99 conceptos y 328 actividades Mixed**: 270 existentes y 58 nuevas revisadas independientemente (38 conceptos con ampliación de inventario). [Matriz/informe](../product/A1_MIXED_CURRICULUM_COVERAGE.md); paquetes exactos, hashes, dictámenes y resoluciones en `docs/product/mixed-coverage-review/`. Cobertura = oportunidades pertinentes al alcance declarado, no todas las facetas, producción libre, dominio ni retención. Sin excepciones curriculares; limitaciones por dimensión explícitas.

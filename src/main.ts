@@ -3,6 +3,7 @@ import { LocalStore } from './persistence/local';
 import { SyncClient } from './sync/client';
 import { button, el, message } from './ui/dom';
 import { home } from './ui/pages/home';
+import { reading } from './ui/pages/reading';
 import { practice } from './ui/pages/practice';
 import { library } from './ui/pages/library';
 import { progress } from './ui/pages/progress';
@@ -82,6 +83,9 @@ async function start() {
           },
         );
         break;
+      case '/reading':
+        page = await reading(store);
+        break;
       case '/library':
         page = library();
         break;
@@ -103,7 +107,11 @@ async function start() {
     nav.querySelectorAll('a').forEach((link) => {
       if (
         new URL(link.href).pathname ===
-        (location.pathname === '/concept' ? '/library' : location.pathname)
+        (location.pathname === '/concept'
+          ? '/library'
+          : location.pathname === '/reading'
+            ? '/practice'
+            : location.pathname)
       )
         link.setAttribute('aria-current', 'page');
       else link.removeAttribute('aria-current');

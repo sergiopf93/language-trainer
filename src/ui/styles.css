@@ -614,3 +614,21 @@ fieldset select {
   min-height: 2rem;
   overflow-wrap: anywhere;
 }
+
+.reading-text {
+  max-width: 65ch;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+  margin-block: 1.5rem;
+  padding: 1rem;
+  border-left: 3px solid currentColor;
+}
+.reading-text p,
+.reading-help {
+  white-space: pre-line;
+}
+.reading-list {
+  display: grid;
+  gap: 1rem;
+}

@@ -1,3 +1,5 @@
+import type { ReadingText } from '../reading/corpus';
+import { readingActivities, eligibleReading } from '../reading/engine';
 import { type Fact, type LearningFact } from '../../shared/protocol';
 import type {
   LearningKind,
@@ -225,6 +227,52 @@ export class SessionEngine implements LearningEngine {
     await this.store.appendLearning([root]);
     return this.load(root.id);
   }
+  async startReading(text: ReadingText) {
+    if (
+      text.status !== 'reviewed' ||
+      !this.catalog.allowed(text.status) ||
+      !eligibleReading(text, this.catalog, await this.store.allFacts())
+    )
+      throw new Error('Lectura no disponible con la preparación actual.');
+    const activities = readingActivities(text, this.catalog);
+    if (!activities.length)
+      throw new Error('La lectura no tiene preguntas disponibles.');
+    const root = event(
+      'practice-session',
+      {
+        packId: this.catalog.packId,
+        conceptId: 'reading:' + text.id,
+        conceptVersion: text.version,
+        contentStatus: text.status,
+        mode: 'reading',
+        selectionReason:
+          'Comprensión de un texto con preparación disponible; no acredita producción gramatical ni retención.',
+        reading: {
+          id: text.id,
+          version: text.version,
+          title: text.title,
+          body: text.body,
+          help: [
+            text.help,
+            ...text.vocabulary.map(({ word, gloss }) => `${word}: ${gloss}`),
+          ].join('\n'),
+        },
+        activities,
+        state: {
+          index: 0,
+          draft: '',
+          hintShown: false,
+          attemptId: null,
+          status: 'active',
+          phase: 'answer',
+        },
+      },
+      this.catalog.version,
+    );
+    root.versions.policy = 'reading-v1';
+    await this.store.appendLearning([root]);
+    return this.load(root.id);
+  }
   async startMixed(groupId?: string) {
     const plans = mixedPlans(
       this.catalog,
@@ -283,7 +331,14 @@ export class SessionEngine implements LearningEngine {
   }
   async update(
     view: SessionView,
-    action: 'draft' | 'hint' | 'theory' | 'retry' | 'next' | 'finish',
+    action:
+      | 'draft'
+      | 'hint'
+      | 'theory'
+      | 'reading-help'
+      | 'retry'
+      | 'next'
+      | 'finish',
     draft?: string,
   ) {
     if (view.state.status !== 'active')
@@ -296,6 +351,11 @@ export class SessionEngine implements LearningEngine {
         if (typeof draft !== 'string' || draft.length > 4000)
           throw new Error('Respuesta demasiado larga.');
         state.draft = draft;
+        break;
+      case 'reading-help':
+        if (view.root.payload.mode !== 'reading')
+          throw new Error('La sesión no es una lectura.');
+        state.readingHelp = true;
         break;
       case 'theory':
         if (!draft) throw new Error('Falta la versión de teoría.');
@@ -314,6 +374,7 @@ export class SessionEngine implements LearningEngine {
         if (state.phase !== 'feedback')
           throw new Error('Responde antes de avanzar.');
         state = {
+          ...(state.readingHelp ? { readingHelp: true } : {}),
           ...(state.theoryVersion
             ? { theoryVersion: state.theoryVersion }
             : {}),
@@ -360,10 +421,21 @@ export class SessionEngine implements LearningEngine {
           );
         if (
           f.kind !== 'practice-state' ||
-          (!f.payload.state.hintShown && !f.payload.state.theoryVersion)
+          (!f.payload.state.hintShown &&
+            !f.payload.state.theoryVersion &&
+            !f.payload.state.readingHelp)
         )
           return false;
         const root = currentFacts.find((r) => r.id === f.payload.sessionId);
+        if (
+          f.payload.state.readingHelp &&
+          root?.kind === 'practice-session' &&
+          root.payload.reading &&
+          view.root.payload.reading &&
+          root.payload.reading.id === view.root.payload.reading.id &&
+          root.payload.reading.version === view.root.payload.reading.version
+        )
+          return true;
         const item =
           root?.kind === 'practice-session'
             ? root.payload.activities[f.payload.state.index]
@@ -385,6 +457,7 @@ export class SessionEngine implements LearningEngine {
         response: s.draft,
         ...(s.theoryVersion ? { theoryVersion: s.theoryVersion } : {}),
         hintShown: s.hintShown,
+        ...(s.readingHelp ? { readingHelp: true } : {}),
         solutionSeen: s.attemptId !== null || exposure?.kind === 'evaluation',
         retryOf: s.attemptId,
         exposureId: exposure?.id ?? null,
@@ -452,7 +525,11 @@ export class SessionEngine implements LearningEngine {
             judgment: result.judgment,
             ...(a.task ? { task: a.task } : {}),
             independent:
-              !s.theoryVersion && !s.hintShown && !s.attemptId && !exposure,
+              !s.theoryVersion &&
+              !s.readingHelp &&
+              !s.hintShown &&
+              !s.attemptId &&
+              !exposure,
             contentStatus: a.status,
           },
           view.root.versions.content,

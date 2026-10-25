@@ -66,6 +66,10 @@ export function metric(value: string | number, label: string) {
   return node;
 }
 export const dimensionCopy = {
+  'reading-comprehension': [
+    'Comprendere un testo',
+    'Comprensión lectora, separada de gramática y producción.',
+  ],
   comprehension: ['Capire', 'Reconocer una forma y entender qué significa.'],
   retrieval: ['Ricordare', 'Encontrar la forma sin verla entre opciones.'],
   'contextual-use': [

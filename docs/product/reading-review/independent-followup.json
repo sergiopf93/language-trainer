@@ -1,0 +1,432 @@
+{
+  "packetSha256": "a36d90f045e4675d753adb6372887168f262bdcc413ec72b989adb7607f0f245",
+  "reviewType": "independent-followup",
+  "verdict": "approved",
+  "texts": [
+    {
+      "id": "R01",
+      "fingerprint": "87293d0ec371ac71",
+      "decision": "approved",
+      "reviewStatus": "unchanged",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "87293d0ec371ac71"
+      },
+      "questionsReviewed": [],
+      "findings": [],
+      "rationale": "Contenido y fingerprint idénticos al paquete ciego. Se conserva la aprobación y las observaciones no bloqueantes del dictamen previo."
+    },
+    {
+      "id": "R02",
+      "fingerprint": "75a55baf11ed455f",
+      "decision": "approved",
+      "reviewStatus": "unchanged",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "75a55baf11ed455f"
+      },
+      "questionsReviewed": [],
+      "findings": [
+        {
+          "classification": "mejora opcional",
+          "location": "body",
+          "detail": "Signor Gino con nombre de pila resulta menos neutro que señor + apellido en este intercambio formal. No invalida su comprensión.",
+          "minimalCorrection": "Usar Grazie, signore o simplemente Grazie.",
+          "blocking": false
+        }
+      ],
+      "rationale": "Contenido y fingerprint idénticos al paquete ciego. Se conserva la aprobación y las observaciones no bloqueantes del dictamen previo."
+    },
+    {
+      "id": "R03",
+      "fingerprint": "775e6e02d3a52e25",
+      "decision": "approved",
+      "reviewStatus": "unchanged",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "775e6e02d3a52e25"
+      },
+      "questionsReviewed": [],
+      "findings": [],
+      "rationale": "Contenido y fingerprint idénticos al paquete ciego. Se conserva la aprobación y las observaciones no bloqueantes del dictamen previo."
+    },
+    {
+      "id": "R04",
+      "fingerprint": "6fe5d94b1a8c3cb5",
+      "decision": "approved",
+      "reviewStatus": "rechecked",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "45e4287ed3e6452f"
+      },
+      "questionsReviewed": [
+        "R04-Q1",
+        "R04-Q2",
+        "R04-Q3"
+      ],
+      "findings": [],
+      "rationale": "Glosa de Quante penne ci sono? correcta; sostiene la comprensión de la consigna anticipada sin cambiar 2 ni el criterio abierto. Inventario, ubicación y posesión siguen coherentes."
+    },
+    {
+      "id": "R05",
+      "fingerprint": "ae00233a3f50274d",
+      "decision": "approved",
+      "reviewStatus": "rechecked",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "050f89eec6a538da"
+      },
+      "questionsReviewed": [
+        "R05-Q1",
+        "R05-Q2",
+        "R05-Q3"
+      ],
+      "findings": [],
+      "rationale": "Q1 explica únicamente la oferta de habitación y deja de anticipar su capacidad. Baño pequeño y capacidad de una persona conservan respuesta única. Resto del texto y criterios coherentes."
+    },
+    {
+      "id": "R06",
+      "fingerprint": "d390fe69ef266da9",
+      "decision": "approved",
+      "reviewStatus": "rechecked",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "fa007e2b04ebec71"
+      },
+      "questionsReviewed": [
+        "R06-Q1",
+        "R06-Q2",
+        "R06-Q3"
+      ],
+      "findings": [],
+      "rationale": "Q1 introduce vorrei como pedido sin revelar té ni total. Q2 y Q3 siguen exigiendo los datos del cuerpo. Menú, importe ocho euros, opciones y apoyo coherentes. Se resuelve la filtración concreta del primer dictamen."
+    },
+    {
+      "id": "R07",
+      "fingerprint": "26db96ebac760206",
+      "decision": "approved",
+      "reviewStatus": "unchanged",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "26db96ebac760206"
+      },
+      "questionsReviewed": [],
+      "findings": [],
+      "rationale": "Contenido y fingerprint idénticos al paquete ciego. Se conserva la aprobación y las observaciones no bloqueantes del dictamen previo."
+    },
+    {
+      "id": "R08",
+      "fingerprint": "bd6d5e4b3a6101c1",
+      "decision": "approved",
+      "reviewStatus": "rechecked",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "60534f22909fc0eb"
+      },
+      "questionsReviewed": [
+        "R08-Q1",
+        "R08-Q2",
+        "R08-Q3"
+      ],
+      "findings": [],
+      "rationale": "Vuole vedere y deve tornare tienen glosas fieles. Invitación, secuencia plaza/bar y procedencia Torino conservan claves inequívocas y respuestas cortas prudentes."
+    },
+    {
+      "id": "R09",
+      "fingerprint": "612e73773f8859fc",
+      "decision": "approved",
+      "reviewStatus": "unchanged",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "612e73773f8859fc"
+      },
+      "questionsReviewed": [],
+      "findings": [],
+      "rationale": "Contenido y fingerprint idénticos al paquete ciego. Se conserva la aprobación y las observaciones no bloqueantes del dictamen previo."
+    },
+    {
+      "id": "R10",
+      "fingerprint": "b0111dd80c6c34d3",
+      "decision": "approved",
+      "reviewStatus": "unchanged",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "b0111dd80c6c34d3"
+      },
+      "questionsReviewed": [],
+      "findings": [
+        {
+          "classification": "mejora opcional",
+          "location": "body",
+          "detail": "El email alterna avete, dirigido al hotel como colectivo, con Può/Suo, dirigido a una persona. Es interpretable, pero menos uniforme para ejemplificar tu/Lei.",
+          "minimalCorrection": "Mantener un destinatario: por ejemplo Il vostro hotel ha un parcheggio? y Può indicare... a la persona receptora.",
+          "blocking": false
+        }
+      ],
+      "rationale": "Contenido y fingerprint idénticos al paquete ciego. Se conserva la aprobación y las observaciones no bloqueantes del dictamen previo."
+    },
+    {
+      "id": "R11",
+      "fingerprint": "f653169e6c6d9c27",
+      "decision": "approved",
+      "reviewStatus": "unchanged",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "f653169e6c6d9c27"
+      },
+      "questionsReviewed": [],
+      "findings": [],
+      "rationale": "Contenido y fingerprint idénticos al paquete ciego. Se conserva la aprobación y las observaciones no bloqueantes del dictamen previo."
+    },
+    {
+      "id": "R12",
+      "fingerprint": "342fd2a8051f40bc",
+      "decision": "approved",
+      "reviewStatus": "unchanged",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "342fd2a8051f40bc"
+      },
+      "questionsReviewed": [],
+      "findings": [],
+      "rationale": "Contenido y fingerprint idénticos al paquete ciego. Se conserva la aprobación y las observaciones no bloqueantes del dictamen previo."
+    },
+    {
+      "id": "R13",
+      "fingerprint": "39feec843a0a7fae",
+      "decision": "approved",
+      "reviewStatus": "unchanged",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "39feec843a0a7fae"
+      },
+      "questionsReviewed": [],
+      "findings": [],
+      "rationale": "Contenido y fingerprint idénticos al paquete ciego. Se conserva la aprobación y las observaciones no bloqueantes del dictamen previo."
+    },
+    {
+      "id": "R14",
+      "fingerprint": "574fb5a5438fe50c",
+      "decision": "approved",
+      "reviewStatus": "unchanged",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "574fb5a5438fe50c"
+      },
+      "questionsReviewed": [],
+      "findings": [],
+      "rationale": "Contenido y fingerprint idénticos al paquete ciego. Se conserva la aprobación y las observaciones no bloqueantes del dictamen previo."
+    },
+    {
+      "id": "R15",
+      "fingerprint": "ae3196f4d65eda03",
+      "decision": "approved",
+      "reviewStatus": "unchanged",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "ae3196f4d65eda03"
+      },
+      "questionsReviewed": [],
+      "findings": [],
+      "rationale": "Contenido y fingerprint idénticos al paquete ciego. Se conserva la aprobación y las observaciones no bloqueantes del dictamen previo."
+    },
+    {
+      "id": "R16",
+      "fingerprint": "5a89c53f663d8e25",
+      "decision": "approved",
+      "reviewStatus": "rechecked",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "ad034d97c0dcabdb"
+      },
+      "questionsReviewed": [
+        "R16-Q1",
+        "R16-Q2",
+        "R16-Q3"
+      ],
+      "findings": [],
+      "rationale": "Non la mangia se glosa con el referente contextual carne de forma correcta. Gustos, causa y paseo siguen coherentes; no hay cambio de interpretación ni de claves."
+    },
+    {
+      "id": "R17",
+      "fingerprint": "3ed5a10c2ec7b565",
+      "decision": "approved",
+      "reviewStatus": "unchanged",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "3ed5a10c2ec7b565"
+      },
+      "questionsReviewed": [],
+      "findings": [],
+      "rationale": "Contenido y fingerprint idénticos al paquete ciego. Se conserva la aprobación y las observaciones no bloqueantes del dictamen previo."
+    },
+    {
+      "id": "R18",
+      "fingerprint": "2989ba79297a2e6d",
+      "decision": "approved",
+      "reviewStatus": "rechecked",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "7c506f9f7b933ad8"
+      },
+      "questionsReviewed": [
+        "R18-Q1",
+        "R18-Q2",
+        "R18-Q3"
+      ],
+      "findings": [],
+      "rationale": "Compra se identifica como instrucción a Fabio; la glosa no añade cantidades. Lista, necesidad de leche negada y cuatro tomates siguen inequívocos. Accepted/rejected/exhaustive coherentes."
+    },
+    {
+      "id": "R19",
+      "fingerprint": "fe99a790a6742d96",
+      "decision": "approved",
+      "reviewStatus": "unchanged",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "fe99a790a6742d96"
+      },
+      "questionsReviewed": [],
+      "findings": [],
+      "rationale": "Contenido y fingerprint idénticos al paquete ciego. Se conserva la aprobación y las observaciones no bloqueantes del dictamen previo."
+    },
+    {
+      "id": "R20",
+      "fingerprint": "b841b7c797b047c4",
+      "decision": "approved",
+      "reviewStatus": "rechecked",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "7532b06013d60c85"
+      },
+      "questionsReviewed": [
+        "R20-Q1",
+        "R20-Q2",
+        "R20-Q3",
+        "R20-Q4"
+      ],
+      "findings": [],
+      "rationale": "Marco fija el destinatario singular y Anna e Luca fijan el plural. Se resuelve el salto de persona del primer dictamen. Secuencia de tomates, pan aparte y espera de amigos mantienen respuestas únicas. Ayuda, glosas y feedback siguen fieles."
+    },
+    {
+      "id": "R21",
+      "fingerprint": "0172aa45a8cfb5ee",
+      "decision": "approved",
+      "reviewStatus": "unchanged",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "0172aa45a8cfb5ee"
+      },
+      "questionsReviewed": [],
+      "findings": [],
+      "rationale": "Contenido y fingerprint idénticos al paquete ciego. Se conserva la aprobación y las observaciones no bloqueantes del dictamen previo."
+    },
+    {
+      "id": "R22",
+      "fingerprint": "af9151297fc20f56",
+      "decision": "approved",
+      "reviewStatus": "rechecked",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "70abfc4ce5a3dbe1"
+      },
+      "questionsReviewed": [
+        "R22-Q1",
+        "R22-Q2",
+        "R22-Q3",
+        "R22-Q4"
+      ],
+      "findings": [],
+      "rationale": "Feedback Q1 expresa visita breve sin revelar los días de Q4. Viaje, protagonistas y destinataria de la taza se mantienen consistentes; tiempos y concordancia sustentan los Concepts."
+    },
+    {
+      "id": "R23",
+      "fingerprint": "b525039a79a71cf2",
+      "decision": "approved",
+      "reviewStatus": "rechecked",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "41db6cd8be09d792"
+      },
+      "questionsReviewed": [
+        "R23-Q1",
+        "R23-Q2",
+        "R23-Q3",
+        "R23-Q4"
+      ],
+      "findings": [],
+      "rationale": "Portarla y La aspettiamo reciben glosas contextuales correctas. Se conserva contraste entre documento matinal y tarjeta posterior, hora y ubicación. Todos los criterios tienen sustento textual."
+    },
+    {
+      "id": "R24",
+      "fingerprint": "39668976dc060fce",
+      "decision": "approved",
+      "reviewStatus": "rechecked",
+      "priorReview": {
+        "file": "independent-verdict.json",
+        "packetSha256": "ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5",
+        "fingerprint": "2a017101c43a76f7"
+      },
+      "questionsReviewed": [
+        "R24-Q1",
+        "R24-Q2",
+        "R24-Q3",
+        "R24-Q4"
+      ],
+      "findings": [],
+      "rationale": "La retirada de C29-03 elimina la atribución indebida de perché causal. C31-01 corresponde a los participios regulares reales (organizzato, preparato, arrivate, mangiato, etc.). C29-04, C32-03, C33-01 y C34-05 siguen sustentados. Perciò continúa glosado; causalidad, Anna y secuencia de fiesta conservan claves correctas. Los dos bloqueos anteriores quedan resueltos sin reescribir el cuerpo."
+    }
+  ],
+  "coverage": {
+    "totalTexts": 24,
+    "totalQuestions": 78,
+    "recheckedTexts": [
+      "R04",
+      "R05",
+      "R06",
+      "R08",
+      "R16",
+      "R18",
+      "R20",
+      "R22",
+      "R23",
+      "R24"
+    ],
+    "recheckedTextCount": 10,
+    "unchangedTextCount": 14,
+    "recheckedQuestions": 34,
+    "blockedTexts": [],
+    "changesVerified": "Los diez registros before/after de closure-changes.json coinciden exactamente con los paquetes inicial y final, excluido fingerprint. Los otros catorce textos son idénticos, no solo sus fingerprints.",
+    "scope": "Relectura completa de cuerpos, ayudas, glosas, preguntas, criterios y feedback de los diez afectados; no solo validación estructural. Los catorce restantes heredan dictamen ciego."
+  },
+  "feedbackCheck": "R05-Q1, R06-Q1 y R22-Q1 ya no anticipan respectivamente capacidad, bebida ni días del viaje. No detecto otra revelación inequívoca nueva entre las preguntas de los diez textos afectados. La ayuda general sigue revelando datos por diseño y debe tratarse como asistencia.",
+  "limitations": [
+    "Se conservan mejoras opcionales de naturalidad en R02 y registro en R10; ninguna bloquea aprobación editorial.",
+    "Aprobación del paquete editorial, no certificación MCER, ensayo con alumnos ni validación del runtime/UI.",
+    "La autonomía sin ayudas y la carga de las consignas requieren validación humana; glosas apoyan comprensión pero no acreditan dominio de estructuras anticipadas.",
+    "El dictamen ciego original permanece intacto; este documento registra el seguimiento posterior."
+  ]
+}
