@@ -1,0 +1,461 @@
+{
+  "config": {
+    "argv": [
+      "/Users/sergiopardo/.nvm/versions/node/v22.23.3/bin/node",
+      "/Users/sergiopardo/Desktop/language-trainer/node_modules/.bin/playwright",
+      "test",
+      "tests/e2e/reading.spec.ts",
+      "--reporter=json"
+    ],
+    "configFile": "/Users/sergiopardo/Desktop/language-trainer/playwright.config.ts",
+    "rootDir": "/Users/sergiopardo/Desktop/language-trainer/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/sergiopardo/Desktop/language-trainer/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/sergiopardo/Desktop/language-trainer/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "node scripts/test-server.mjs",
+      "url": "http://localhost:8787/api/health",
+      "reuseExistingServer": false,
+      "timeout": 60000
+    }
+  },
+  "suites": [
+    {
+      "title": "reading.spec.ts",
+      "file": "reading.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Reading 320: text, help, comprehension, summary and distinct progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 20580,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T06:52:52.066Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-f934481927d8e405d014",
+          "file": "reading.spec.ts",
+          "line": 58,
+          "column": 3
+        },
+        {
+          "title": "Reading 375: text, help, comprehension, summary and distinct progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17985,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T06:53:16.058Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-312a780c100b2280db7d",
+          "file": "reading.spec.ts",
+          "line": 58,
+          "column": 3
+        },
+        {
+          "title": "Reading 390: text, help, comprehension, summary and distinct progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12009,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T06:53:34.099Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-45827d1640cc7f0802e5",
+          "file": "reading.spec.ts",
+          "line": 58,
+          "column": 3
+        },
+        {
+          "title": "Reading 768: text, help, comprehension, summary and distinct progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11327,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T06:53:46.144Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-294820bc821a16011ff9",
+          "file": "reading.spec.ts",
+          "line": 58,
+          "column": 3
+        },
+        {
+          "title": "Reading offline: reopen draft and help, submit once and restore feedback",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11749,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T06:53:57.517Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-985b6f36951ee285e3a7",
+          "file": "reading.spec.ts",
+          "line": 128,
+          "column": 1
+        },
+        {
+          "title": "Reading keyboard: wrong answer, assisted retry and abstention keep their judgments",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8059,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T06:54:09.305Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-cc1e08cb41dd8b2b7356",
+          "file": "reading.spec.ts",
+          "line": 176,
+          "column": 1
+        },
+        {
+          "title": "Reading longest text: mobile short response outside criterion is not an error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15794,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T06:54:17.438Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-c9fcfaaac5c6da653681",
+          "file": "reading.spec.ts",
+          "line": 221,
+          "column": 1
+        },
+        {
+          "title": "Reading R25: contextual comprehension and independent evidence",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 9920,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.reading-text')\nTimeout: 5000ms\n\u001b[32m- Expected  - 7\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[32m- Ristorante Il Girasole\u001b[39m\n\u001b[32m- Menù: pasta al pomodoro; pollo con patate; insalata con tonno.\u001b[39m\n\u001b[32m- — Cliente: Vorrei un piatto senza carne e senza pesce.\u001b[39m\n\u001b[32m- — Cameriere: La pasta al pomodoro è senza carne e senza pesce. L’insalata è con il tonno.\u001b[39m\n\u001b[32m- — Cliente: Allora vorrei la pasta e, come contorno, le patate.\u001b[39m\n\u001b[32m- — Cameriere: Va bene. E da bere?\u001b[39m\n\u001b[32m- — Cliente: Acqua naturale, per favore.\u001b[39m\n\u001b[31m+ Ristorante Il GirasoleMenù: pasta al pomodoro; pollo con patate; insalata con tonno.— Cliente: Vorrei un piatto senza carne e senza pesce.— Cameriere: La pasta al pomodoro è senza carne e senza pesce. L’insalata è con il tonno.— Cliente: Allora vorrei la pasta e, come contorno, le patate.— Cameriere: Va bene. E da bere?— Cliente: Acqua naturale, per favore.\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" locator('.reading-text') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.reading-text')\u001b[22m\n\u001b[2m    14 × locator resolved to <article lang=\"it\" class=\"reading-text\" aria-label=\"Testo della lettura\">…</article>\u001b[22m\n\u001b[2m       - unexpected value \"Ristorante Il GirasoleMenù: pasta al pomodoro; pollo con patate; insalata con tonno.— Cliente: Vorrei un piatto senza carne e senza pesce.— Cameriere: La pasta al pomodoro è senza carne e senza pesce. L’insalata è con il tonno.— Cliente: Allora vorrei la pasta e, come contorno, le patate.— Cameriere: Va bene. E da bere?— Cliente: Acqua naturale, per favore.\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.reading-text')\nTimeout: 5000ms\n\u001b[32m- Expected  - 7\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[32m- Ristorante Il Girasole\u001b[39m\n\u001b[32m- Menù: pasta al pomodoro; pollo con patate; insalata con tonno.\u001b[39m\n\u001b[32m- — Cliente: Vorrei un piatto senza carne e senza pesce.\u001b[39m\n\u001b[32m- — Cameriere: La pasta al pomodoro è senza carne e senza pesce. L’insalata è con il tonno.\u001b[39m\n\u001b[32m- — Cliente: Allora vorrei la pasta e, come contorno, le patate.\u001b[39m\n\u001b[32m- — Cameriere: Va bene. E da bere?\u001b[39m\n\u001b[32m- — Cliente: Acqua naturale, per favore.\u001b[39m\n\u001b[31m+ Ristorante Il GirasoleMenù: pasta al pomodoro; pollo con patate; insalata con tonno.— Cliente: Vorrei un piatto senza carne e senza pesce.— Cameriere: La pasta al pomodoro è senza carne e senza pesce. L’insalata è con il tonno.— Cliente: Allora vorrei la pasta e, come contorno, le patate.— Cameriere: Va bene. E da bere?— Cliente: Acqua naturale, per favore.\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" locator('.reading-text') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.reading-text')\u001b[22m\n\u001b[2m    14 × locator resolved to <article lang=\"it\" class=\"reading-text\" aria-label=\"Testo della lettura\">…</article>\u001b[22m\n\u001b[2m       - unexpected value \"Ristorante Il GirasoleMenù: pasta al pomodoro; pollo con patate; insalata con tonno.— Cliente: Vorrei un piatto senza carne e senza pesce.— Cameriere: La pasta al pomodoro è senza carne e senza pesce. L’insalata è con il tonno.— Cliente: Allora vorrei la pasta e, come contorno, le patate.— Cameriere: Va bene. E da bere?— Cliente: Acqua naturale, per favore.\"\u001b[22m\n\n    at /Users/sergiopardo/Desktop/language-trainer/tests/e2e/reading.spec.ts:283:49",
+                    "location": {
+                      "file": "/Users/sergiopardo/Desktop/language-trainer/tests/e2e/reading.spec.ts",
+                      "column": 49,
+                      "line": 283
+                    },
+                    "snippet": "  281 |     await page.setViewportSize({ width: 375, height: 844 });\n  282 |     await begin(page, selected);\n> 283 |     await expect(page.locator('.reading-text')).toHaveText(selected.body);\n      |                                                 ^\n  284 |     for (const [index, question] of selected.questions.entries()) {\n  285 |       await draft(page, question.accepted[0]);\n  286 |       await page"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/sergiopardo/Desktop/language-trainer/tests/e2e/reading.spec.ts",
+                        "column": 49,
+                        "line": 283
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.reading-text')\nTimeout: 5000ms\n\u001b[32m- Expected  - 7\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[32m- Ristorante Il Girasole\u001b[39m\n\u001b[32m- Menù: pasta al pomodoro; pollo con patate; insalata con tonno.\u001b[39m\n\u001b[32m- — Cliente: Vorrei un piatto senza carne e senza pesce.\u001b[39m\n\u001b[32m- — Cameriere: La pasta al pomodoro è senza carne e senza pesce. L’insalata è con il tonno.\u001b[39m\n\u001b[32m- — Cliente: Allora vorrei la pasta e, come contorno, le patate.\u001b[39m\n\u001b[32m- — Cameriere: Va bene. E da bere?\u001b[39m\n\u001b[32m- — Cliente: Acqua naturale, per favore.\u001b[39m\n\u001b[31m+ Ristorante Il GirasoleMenù: pasta al pomodoro; pollo con patate; insalata con tonno.— Cliente: Vorrei un piatto senza carne e senza pesce.— Cameriere: La pasta al pomodoro è senza carne e senza pesce. L’insalata è con il tonno.— Cliente: Allora vorrei la pasta e, come contorno, le patate.— Cameriere: Va bene. E da bere?— Cliente: Acqua naturale, per favore.\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" locator('.reading-text') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.reading-text')\u001b[22m\n\u001b[2m    14 × locator resolved to <article lang=\"it\" class=\"reading-text\" aria-label=\"Testo della lettura\">…</article>\u001b[22m\n\u001b[2m       - unexpected value \"Ristorante Il GirasoleMenù: pasta al pomodoro; pollo con patate; insalata con tonno.— Cliente: Vorrei un piatto senza carne e senza pesce.— Cameriere: La pasta al pomodoro è senza carne e senza pesce. L’insalata è con il tonno.— Cliente: Allora vorrei la pasta e, come contorno, le patate.— Cameriere: Va bene. E da bere?— Cliente: Acqua naturale, per favore.\"\u001b[22m\n\n\n  281 |     await page.setViewportSize({ width: 375, height: 844 });\n  282 |     await begin(page, selected);\n> 283 |     await expect(page.locator('.reading-text')).toHaveText(selected.body);\n      |                                                 ^\n  284 |     for (const [index, question] of selected.questions.entries()) {\n  285 |       await draft(page, question.accepted[0]);\n  286 |       await page\n    at /Users/sergiopardo/Desktop/language-trainer/tests/e2e/reading.spec.ts:283:49"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T06:54:33.284Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/sergiopardo/Desktop/language-trainer/test-results/reading-Reading-R25-contex-69519-on-and-independent-evidence/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/sergiopardo/Desktop/language-trainer/test-results/reading-Reading-R25-contex-69519-on-and-independent-evidence/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/sergiopardo/Desktop/language-trainer/tests/e2e/reading.spec.ts",
+                    "column": 49,
+                    "line": 283
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-20df83ed8f25b9e29694",
+          "file": "reading.spec.ts",
+          "line": 277,
+          "column": 3
+        },
+        {
+          "title": "Reading R26: contextual comprehension and independent evidence",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 22298,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.reading-text')\nTimeout: 5000ms\n\u001b[32m- Expected  - 5\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[32m- Orario dei treni\u001b[39m\n\u001b[32m- Treno 214: da Parma a Bologna. Partenza 09:10; arrivo 10:00. Binario 2.\u001b[39m\n\u001b[32m- Treno 216: da Parma a Modena. Partenza 09:30; arrivo 10:05. Binario 4.\u001b[39m\n\u001b[32m- Biglietto di Marta: treno 214, da Parma a Bologna, partenza 09:10.\u001b[39m\n\u001b[32m- Marta: «Il mio biglietto è per Bologna. Il treno delle 09:30 va a Modena: non è il mio».\u001b[39m\n\u001b[31m+ Orario dei treniTreno 214: da Parma a Bologna. Partenza 09:10; arrivo 10:00. Binario 2.Treno 216: da Parma a Modena. Partenza 09:30; arrivo 10:05. Binario 4.Biglietto di Marta: treno 214, da Parma a Bologna, partenza 09:10.Marta: «Il mio biglietto è per Bologna. Il treno delle 09:30 va a Modena: non è il mio».\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" locator('.reading-text') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.reading-text')\u001b[22m\n\u001b[2m    14 × locator resolved to <article lang=\"it\" class=\"reading-text\" aria-label=\"Testo della lettura\">…</article>\u001b[22m\n\u001b[2m       - unexpected value \"Orario dei treniTreno 214: da Parma a Bologna. Partenza 09:10; arrivo 10:00. Binario 2.Treno 216: da Parma a Modena. Partenza 09:30; arrivo 10:05. Binario 4.Biglietto di Marta: treno 214, da Parma a Bologna, partenza 09:10.Marta: «Il mio biglietto è per Bologna. Il treno delle 09:30 va a Modena: non è il mio».\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.reading-text')\nTimeout: 5000ms\n\u001b[32m- Expected  - 5\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[32m- Orario dei treni\u001b[39m\n\u001b[32m- Treno 214: da Parma a Bologna. Partenza 09:10; arrivo 10:00. Binario 2.\u001b[39m\n\u001b[32m- Treno 216: da Parma a Modena. Partenza 09:30; arrivo 10:05. Binario 4.\u001b[39m\n\u001b[32m- Biglietto di Marta: treno 214, da Parma a Bologna, partenza 09:10.\u001b[39m\n\u001b[32m- Marta: «Il mio biglietto è per Bologna. Il treno delle 09:30 va a Modena: non è il mio».\u001b[39m\n\u001b[31m+ Orario dei treniTreno 214: da Parma a Bologna. Partenza 09:10; arrivo 10:00. Binario 2.Treno 216: da Parma a Modena. Partenza 09:30; arrivo 10:05. Binario 4.Biglietto di Marta: treno 214, da Parma a Bologna, partenza 09:10.Marta: «Il mio biglietto è per Bologna. Il treno delle 09:30 va a Modena: non è il mio».\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" locator('.reading-text') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.reading-text')\u001b[22m\n\u001b[2m    14 × locator resolved to <article lang=\"it\" class=\"reading-text\" aria-label=\"Testo della lettura\">…</article>\u001b[22m\n\u001b[2m       - unexpected value \"Orario dei treniTreno 214: da Parma a Bologna. Partenza 09:10; arrivo 10:00. Binario 2.Treno 216: da Parma a Modena. Partenza 09:30; arrivo 10:05. Binario 4.Biglietto di Marta: treno 214, da Parma a Bologna, partenza 09:10.Marta: «Il mio biglietto è per Bologna. Il treno delle 09:30 va a Modena: non è il mio».\"\u001b[22m\n\n    at /Users/sergiopardo/Desktop/language-trainer/tests/e2e/reading.spec.ts:283:49",
+                    "location": {
+                      "file": "/Users/sergiopardo/Desktop/language-trainer/tests/e2e/reading.spec.ts",
+                      "column": 49,
+                      "line": 283
+                    },
+                    "snippet": "  281 |     await page.setViewportSize({ width: 375, height: 844 });\n  282 |     await begin(page, selected);\n> 283 |     await expect(page.locator('.reading-text')).toHaveText(selected.body);\n      |                                                 ^\n  284 |     for (const [index, question] of selected.questions.entries()) {\n  285 |       await draft(page, question.accepted[0]);\n  286 |       await page"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/sergiopardo/Desktop/language-trainer/tests/e2e/reading.spec.ts",
+                        "column": 49,
+                        "line": 283
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.reading-text')\nTimeout: 5000ms\n\u001b[32m- Expected  - 5\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[32m- Orario dei treni\u001b[39m\n\u001b[32m- Treno 214: da Parma a Bologna. Partenza 09:10; arrivo 10:00. Binario 2.\u001b[39m\n\u001b[32m- Treno 216: da Parma a Modena. Partenza 09:30; arrivo 10:05. Binario 4.\u001b[39m\n\u001b[32m- Biglietto di Marta: treno 214, da Parma a Bologna, partenza 09:10.\u001b[39m\n\u001b[32m- Marta: «Il mio biglietto è per Bologna. Il treno delle 09:30 va a Modena: non è il mio».\u001b[39m\n\u001b[31m+ Orario dei treniTreno 214: da Parma a Bologna. Partenza 09:10; arrivo 10:00. Binario 2.Treno 216: da Parma a Modena. Partenza 09:30; arrivo 10:05. Binario 4.Biglietto di Marta: treno 214, da Parma a Bologna, partenza 09:10.Marta: «Il mio biglietto è per Bologna. Il treno delle 09:30 va a Modena: non è il mio».\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" locator('.reading-text') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.reading-text')\u001b[22m\n\u001b[2m    14 × locator resolved to <article lang=\"it\" class=\"reading-text\" aria-label=\"Testo della lettura\">…</article>\u001b[22m\n\u001b[2m       - unexpected value \"Orario dei treniTreno 214: da Parma a Bologna. Partenza 09:10; arrivo 10:00. Binario 2.Treno 216: da Parma a Modena. Partenza 09:30; arrivo 10:05. Binario 4.Biglietto di Marta: treno 214, da Parma a Bologna, partenza 09:10.Marta: «Il mio biglietto è per Bologna. Il treno delle 09:30 va a Modena: non è il mio».\"\u001b[22m\n\n\n  281 |     await page.setViewportSize({ width: 375, height: 844 });\n  282 |     await begin(page, selected);\n> 283 |     await expect(page.locator('.reading-text')).toHaveText(selected.body);\n      |                                                 ^\n  284 |     for (const [index, question] of selected.questions.entries()) {\n  285 |       await draft(page, question.accepted[0]);\n  286 |       await page\n    at /Users/sergiopardo/Desktop/language-trainer/tests/e2e/reading.spec.ts:283:49"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T06:54:46.181Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/sergiopardo/Desktop/language-trainer/test-results/reading-Reading-R26-contex-8da31-on-and-independent-evidence/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/sergiopardo/Desktop/language-trainer/test-results/reading-Reading-R26-contex-8da31-on-and-independent-evidence/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/sergiopardo/Desktop/language-trainer/tests/e2e/reading.spec.ts",
+                    "column": 49,
+                    "line": 283
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-54414e7a9c7f246ab063",
+          "file": "reading.spec.ts",
+          "line": 277,
+          "column": 3
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-25T06:52:45.864Z",
+    "duration": 145159.059,
+    "expected": 7,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

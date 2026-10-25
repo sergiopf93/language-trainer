@@ -1,93 +1,108 @@
-# Fase 6C — Reading A1: cierre editorial y punto de reanudación
+# Fase 6C — Reading A1: cierre técnico
 
-Actualizado 2026-10-25. Rama `feat/a1-reading`, baseline `f439d74`. **No declarar Reading integralmente cerrado.** Revisión editorial completada; integración implementada y suite unitaria/de integración correcta. Interrupción por límite de uso del agente QA al final de la fase E2E. Sin push, merge, publicación, despliegue ni Writing.
+Actualizado 2026-10-25. **6C cerrada técnicamente**, con dictamen QA favorable y sin bloqueos funcionales, visuales o editoriales conocidos en el alcance comprobado. Pendientes validación humana cualificada y dispositivos físicos. Rama `feat/a1-reading`; sin publicación, push, merge, despliegue ni Writing.
 
-## 1. Estado técnico
+## 1. Corpus definitivo y alcance
 
-Se reutiliza SessionEngine, evaluación determinista, hechos versionados, proyección de evidencias, IndexedDB y recuperación. Modo reading/F5, dimensión y habilidad reading-comprehension, namespace reading:<id>, snapshots de cuerpo/título/ayuda con glosario. Navegación Home/Pratica→Reading, preparación curricular transitiva, texto persistente durante preguntas, ayuda registrada, feedback, resumen y progreso lector separado.
+**26 lecturas, 84 preguntas: 78 cerradas y seis respuestas breves delimitadas. 26 recibos válidos; 26 textos y 84 actividades efectivamente reviewed; cero publicados.** Seis textos iniciales, catorce de desarrollo y seis de consolidación. No se acredita producción libre, autonomía de alumnos, retención ni dominio de los 99 conceptos.
 
-No nuevas dependencias ni migraciones; package.json solo añade content:reading. Review/Mixed conservan sus motores. Un error de comprensión es verifiable-error de la lectura, no penalización gramatical. Respuesta desconocida: not-evaluable; vacía: no-opportunity. Sin IA runtime ni evaluación por similitud.
+Las 24 lecturas/78 preguntas previamente aprobadas permanecen exactamente intactas. Se añaden únicamente R25/R26 para cerrar dos brechas esenciales documentadas, sin reconstruir Reading ni repetir su revisión editorial histórica. El cierre se refiere al alcance técnico y funcional Reading definido en la matriz; no certifica cada microfaceta A1 ni la V1 completa de la aplicación.
 
-## 2. Inventario y estados
+## 2. Integración conservada
 
-**24 lecturas, 78 preguntas: 72 cerradas y seis respuestas breves delimitadas. 24 recibos válidos, 24 textos y 78 actividades efectivamente reviewed en validación, 0 publicados.** La fuente de autoría conserva candidate; reviewedReadings deriva reviewed solo mediante recibo coincidente. Producción exige published y no habilita estos textos.
+SessionEngine, evaluación determinista, hechos versionados, IndexedDB y recuperación existentes. F5/reading, dimensión y habilidad `reading-comprehension`, namespace `reading:<id>`, snapshots de título/cuerpo/ayuda/glosario. Home/Pratica→Reading, preparación curricular transitiva, texto disponible durante preguntas, ayudas persistentes, feedback, resumen y progreso lector separado.
 
-Seis textos iniciales, doce de desarrollo y seis de consolidación. Las respuestas breves piden exclusivamente cifras o nombres explícitos. Criterios no exhaustivos para abstenerse ante variantes fuera de contrato; no se evalúa producción libre.
+Sin cambios de motores, estilos, navegación, persistencia, dependencias ni migraciones en este cierre. Un error de comprensión no penaliza Review/Mixed gramatical. Respuesta fuera de contrato: `not-evaluable`; vacía: `no-opportunity`. Ayuda, soluciones vistas y reintentos afectan a la independencia. No IA runtime ni evaluación por similitud.
 
-## 3. Cobertura curricular
+## 3. Estado editorial y trazabilidad
 
-[Matriz y verificación funcional](reading-review/coverage.md): oportunidades receptivas en C01–C34, sin afirmar cobertura de cada microconcepto ni dominio de los 99. Revisados referentes, contrastes, causa, secuencia, decisiones, pasado y tipos de situación; no deducido del número o etiquetas.
+La autoría conserva `candidate`. `reviewedReadings` deriva `reviewed` únicamente con recibo vigente y fingerprint coincidente; esto no publica contenidos.
 
-**Brechas para cobertura integral V1:** K05 necesita carta/intercambio de restaurante y K09 billete/horario de transporte. Propuesta mínima: dos textos breves con dos o tres preguntas cada uno, reutilizando estructuras existentes. No añadidos para conservar las 24 lecturas solicitadas; pendiente decisión de alcance. La reserva para comprobaciones diferidas independientes tampoco queda cubierta por repetir preguntas conocidas.
+- Histórico preservado: [revisión inicial](reading-review/initial-review.md), [paquete ciego](reading-review/candidate-packet.json), [dictamen independiente](reading-review/independent-verdict.json), [correcciones](reading-review/closure-changes.json), [paquete final](reading-review/final-packet.json) y [seguimiento independiente](reading-review/independent-followup.json). 24 aprobados; diez textos/34 preguntas recibieron seguimiento en la fase anterior. No se repite esa revisión.
+- Suplemento: [revisión inicial R2](reading-review/supplement-initial-review.md), [candidato](reading-review/supplement-candidate.json), [dictamen inicial independiente](reading-review/supplement-independent-initial.json), [final](reading-review/supplement-final.json) y [aprobación independiente final](reading-review/supplement-verdict.json).
+- R25 aprobado inicialmente. R26 tenía una referencia curricular incorrecta: C20-02 (ubicación) se sustituyó por C20-03 (dirección/destino) en las dos listas de conceptos. Seguimiento independiente confirma que todo lo demás permanece exacto. 2/2 aprobados, sin flags bloqueantes; recibos emitidos después.
+- SHA256 candidato suplemento: `17bc43af9292dec4ce13eb0fc8b5395ae74e6b90e537031abe04b86c762ce60d`. Final: `fb9ffde9e556b1f6d8d09516cbd92e065660c784ff8697edec99848aa2885d13`.
+- `content:reading` verifica corpus, referencias, dependencias/ciclos, criterios, actividades, inventario, recibos, fingerprints y hashes de paquetes históricos y suplementarios. Resultado final: `texts=26`, `questions=84`, `reviewed=26`, `published=0`, `errors=[]`.
 
-## 4. Correcciones iniciales
+Revisión independiente realizada por otro agente, no por una persona. Opcionales sin bloqueo conservados: R02 «signor Gino», destinatarios R10, glosa tonno ya disponible en ayuda R25 y paralelismo de un distractor R26. No se alteraron versiones aprobadas por preferencias estilísticas.
 
-[Acta inicial](reading-review/initial-review.md) y [registro campo a campo](reading-review/initial-changes.json). Metadata visible traducida a italiano; R01-Q1 realmente global; R13 elimina contradicción martes/viernes; R18 elimina ne no preparado y corrige exhaustive; R22 elimina imperfetto/doble clítico; R24 elimina indirectos no preparados. Cinco preguntas convertidas a breves, manteniendo total. Todas las lecturas pasan v1→v2 por metadata; no regeneradas.
+## 4. Brechas curriculares resueltas
 
-## 5. Dictamen independiente y resolución
+[Matriz funcional actualizada](reading-review/coverage.md).
 
-[Paquete ciego](reading-review/candidate-packet.json), SHA256 `ae30da8a78165e9fa680b51f2eff20f7d6d67626675e4e4296463c31ff4195a5`.
+| Brecha | Función faltante y contenido existente | Ampliación mínima suficiente |
+|---|---|---|
+| K05 restaurante | R06 cubría bar; R16/R20 comida doméstica. Faltaba comprender ingredientes/restricciones, respuesta del camarero y pedido final. | R25: carta + intercambio, tres preguntas de intención, relación y pedido. C18-01/C34-03. |
+| K09 horarios/billetes | R12 cubría trayecto urbano y R22 viaje pasado. Faltaba relacionar billete con destino, salida y vía del horario. | R26: billete + dos filas de horario, tres preguntas; distingue origen/destino y salida/llegada. C20-03/C22-02/C34-06. |
 
-[Dictamen independiente íntegro](reading-review/independent-verdict.json): revisión de los 24 textos/78 preguntas, accepted/rejected, criterios, ayudas, feedback y posición curricular. Emitido sin conocer revisión inicial. 23 aprobados inicialmente; R24 bloqueado por C31-02 sin participios irregulares y C29-03 sin perché causal. Detecta además filtración de feedback R06 y cambio tu/voi de R20, apoyos incidentales y mejoras opcionales.
+Se añaden dos documentos porque las lecturas existentes no cubrían esas funciones; modificarlas habría alterado sus funciones/versiones aprobadas. Sin ampliación por cantidad ni nuevo sistema. No quedan abiertas estas dos brechas esenciales. Presencia funcional en C01–C34 no significa evaluación exhaustiva de sus microconceptos.
 
-[Correcciones de cierre](reading-review/closure-changes.json): R24 referencia C31-01 y retira C29-03, conservando cuerpo válido. R06-Q1 no adelanta bebida de Q2; R05-Q1 no adelanta capacidad de Q3; R22-Q1 no adelanta días de Q4. R20 explicita Marco frente a Anna y Luca. Glosas de fórmulas anticipadas en R04/R08/R16/R18/R23. Diez textos v2→v3; 14 siguen v2.
+Excepción justificada: no hay reservas paralelas para comprobaciones diferidas independientes. Repetir una pregunta cuya solución ya se vio no demuestra retención; el motor conserva la exposición. Su creación no es necesaria para las funciones receptivas cerradas aquí ni está incluida en esta intervención.
 
-[Paquete final](reading-review/final-packet.json), SHA256 `a36d90f045e4675d753adb6372887168f262bdcc413ec72b989adb7607f0f245`.
+## 5. E2E recuperados y resultado final de QA
 
-[Seguimiento independiente](reading-review/independent-followup.json): relectura integral de diez textos modificados/34 preguntas y conservación por fingerprint de los otros 14. **24 aprobados, ningún bloqueo editorial pendiente.** Recibos de versiones exactas emitidos después. content:reading comprueba ambos SHA, fingerprints del paquete frente al corpus, inventarios, criterios y aprobación vigente.
+La evidencia antigua era `.last-run.json=passed` y capturas, sin informe por caso ni hash del build. **No acredita un total E2E ni una certificación global.** Se recuperó el alcance leyendo los seis escenarios originales y se ejecutó el conjunto Reading focal con trazabilidad nueva.
 
-## 6. Incidencias no resueltas
-
-Mejoras opcionales conservadas: R02 «signor Gino» y alternancia de destinatario colectivo/personal de R10. No sustituidas por preferencias estilísticas. Glosas resuelven apoyo inmediato, pero no acreditan autonomía de lectores A1 reales. Pendiente validación humana cualificada, dispositivos/teclados reales y observación longitudinal. No se han identificado bloqueos editoriales que obliguen a dejar lecturas fuera de reviewed.
-
-## 7. Ayudas, evidencias y persistencia
-
-Glosario incluido en help del snapshot, con saltos de línea visibles. No aparece antes de registrar consulta. readingHelp persiste entre preguntas y su exposición se reconoce entre sesiones del mismo texto/versión. Soluciones ya vistas y reintentos son asistidos. Resumen muestra explicación solo de preguntas con intento. Errores y aciertos lectores no cambian Review/Mixed gramatical; no acreditan retención ni producción.
-
-## 8. Validación automatizada comprobada por R2
-
-| Comprobación | Resultado verificable |
+| Ejecución conservada | Resultado |
 |---|---|
-| Suite completa `npm test -- --maxWorkers=2` final | **360/360, 21 suites**, 74,25 s |
-| Primera suite global | 359/360; expectativa antigua de skills en engine.test corregida para incluir reading-comprehension=0; suite final anterior confirma resolución |
-| Reading | 8/8; incluidos criterio correcto/error/no evaluable/vacío, recibos, preparación, dependencias, ayudas, duplicados, IndexedDB, backup e invariancia Review/Mixed |
-| Engine + Reading focal | 21/21 tras corrección de expectativa |
-| Learning/Review/Mixed/Local/Sync focal | 49/49 según QA; además incluidas en suite global |
-| Typecheck | Correcto, también dentro de ambos builds |
-| Formato global | Correcto; recibos finales formateados después |
-| Coverage curricular existente | Correcto: 99/99 presentes; no equivale a cobertura Reading integral |
-| Auditoría editorial existente | Correcta: 99 Concepts, 99 Theory, 923 actividades reviewed preservadas |
-| content:reading / recibos / hashes | Correcto: 24 textos, 78 preguntas, 24 reviewed, errors=[] |
-| Build normal | Correcto antes de recibos finales; **repetir build normal final y exclusión con recibos reales** |
-| Build validación final | Correcto con corpus y recibos finales; dist conserva este build |
-| E2E producción inicial | 1/1 en Chrome; ejecutado antes de recibos finales, insuficiente como última prueba de exclusión reviewed |
+| [Reading inicial](reading-review/closure/e2e-reading-initial.json) | 7 correctos / 2 fallidos; 0 omitidos, 0 flaky, errores globales vacíos; 145,16 s |
+| [Repetición R25/R26](reading-review/closure/e2e-supplement.json) | 2/2 correctos, sin omisiones/flaky/errores globales; 34,86 s |
+| [Exclusión de producción](reading-review/closure/e2e-production.json) | 1/1 correcto, sin omisiones/flaky/errores globales; 12,42 s |
 
-Aviso conocido: bundle >500 kB (build validación ≈1.035 kB minificado); no optimizado por restricción del encargo. Primer intento E2E no arrancó porque falta Chromium de Playwright; resuelto usando Chrome instalado, sin instalar dependencias. E2E usa servidor Node local de pruebas (E2E_NODE_FALLBACK=1), no runtime Cloudflare nativo/remoto.
+Los dos fallos iniciales pertenecían al test nuevo: comparaba una cadena con saltos de línea con `textContent` concatenado de varios párrafos. El DOM contenía todos los párrafos. Se corrigió la aserción para verificar cada `p` contra `body.split('\n')`, se reforzaron sesiones/hechos y se repitieron únicamente esos dos casos. No se cambió producción para hacerlos pasar. Fallos originales conservados en el informe.
 
-## 9. E2E y comprobación visual: evidencia recuperada tras interrupción
+**Nueve escenarios únicos Reading satisfechos**, más uno de producción; no nueve correctos en una única ejecución ni suite E2E global repetida. Cobertura final:
 
-QA tenía encargado ejecutar la suite completa con `PLAYWRIGHT_CHANNEL=chrome E2E_NODE_FALLBACK=1 npx playwright test`. Después del límite se comprobó que **no quedaba proceso E2E/servidor activo**, `test-results/.last-run.json` indica `passed` y no hay failedTests. Hay capturas recientes de Reading 320/390/768, Reading largo a 320, Mixed, Review y regresiones. El agente no devolvió el resumen de consola; **no se inventa un número de casos ejecutados ni se afirma inspección visual manual**. Conservar estos artefactos locales; son evidencia automatizada, no prueba en dispositivos físicos.
+- Cuatro anchos 320/375/390/768: texto, ayuda, feedback, resumen, progreso separado, hechos válidos y ausencia de duplicados; 768 con zoom CSS al 200%.
+- Cierre/reapertura offline: borrador y ayuda recuperados, doble envío con un intento, feedback restaurado y resumen.
+- Teclado/foco/roles/lang: error, reintento asistido, abstención y evidencia independiente/asistida.
+- Texto más largo a 320: glosario, respuesta fuera de criterio neutral, sin evidencia indebida y sin overflow.
+- R25/R26: cuerpo por párrafos, todas las claves, resumen, sesión/versión exactas, hechos/enlaces válidos y evidencia de comprensión independiente.
 
-Los seis E2E Reading implementados cubren: correcto/ayuda/resumen/progreso a 320/390/768 (zoom 200% a 768), cierre/reapertura offline/borrador/feedback/doble envío, teclado/foco/error/reintento/abstención y lectura más larga con respuesta no evaluable/glosario/overflow a 320. La última marca global es satisfactoria; queda recuperar informe detallado o ejecutar los seis focales si no existe informe recuperable, e inspeccionar capturas con view_image. No repetir editorial ni reconstruir corpus.
+[Dictamen final del subagente QA](reading-review/closure/qa-verdict.md): **favorable al cierre técnico 6C**, sin bloqueantes conocidos. QA verificó informes y capturas; distingue la regresión ejecutada por R2 de sus comprobaciones propias.
 
-## 10. Bloqueos y límites de cierre
+## 6. Inspección visual y accesibilidad básica
 
-No faltan recibos editoriales. Faltan cierre verificable del reporte E2E, inspección visual, comprobación de producción con recibos finales y validación humana. Además las brechas K05/K09 impiden afirmar cobertura integral Reading V1. Las 24 lecturas pueden ofrecer el recorrido revisado en validación, pero no equivalen a toda la V1 ni a eficacia pedagógica demostrada.
+Chrome de escritorio con viewports de **320, 375, 390 y 768 × 844 px**; no dispositivos físicos. R2 inspeccionó con `view_image` las 19 capturas preservadas en [closure](reading-review/closure/): feedback/ayuda R01 a cuatro anchos (768 zoom CSS 200%), respuesta neutral larga 320, R25/R26 a 375, y R24 largo/preguntas/reanudación en los cuatro anchos.
 
-## 11. Reanudación exacta
+**Visual:** texto y glosas legibles, preguntas/opciones ajustadas, feedback distinguible por texto/icono además del color, navegación identificable; sin recortes horizontales ni defectos bloqueantes conocidos. El texto largo requiere desplazamiento vertical normal. No se rediseña ni se cambia CSS.
 
-Proyecto `/Users/sergiopardo/Desktop/language-trainer`; esta sesión tiene cwd healt-tracker, por lo que escrituras requerían escalación. Node: `/Users/sergiopardo/.nvm/versions/node/v22.23.3/bin` en PATH. Conservar rama y commits.
+**Automatizado:** [visual-browser.json](reading-review/closure/visual-browser.json) registra scrollWidth igual a viewport en todos los anchos, borrador reanudado, ayuda y feedback visibles, hit-test del botón Continua y click efectivos, sin `pageerror`. [Script reproducible](reading-review/closure/visual-check.mjs), ejecutado desde la raíz contra el servidor local y build de validación. E2E añade teclado, foco en feedback, `role=status` y `lang=it`.
 
-1. Recuperar informe E2E si existe. Marca local passed conservada en `reading-review/validation-status.json`; screenshots originales en test-results. Si no hay resumen detallado, ejecutar seis Reading: `PLAYWRIGHT_CHANNEL=chrome E2E_NODE_FALLBACK=1 npx playwright test tests/e2e/reading.spec.ts` sobre dist actual de validación. No repetir toda la suite sin una razón nueva.
-2. Inspeccionar las capturas de Reading, especialmente texto largo a 320 y zoom; documentar hallazgos. No hay validación física de dispositivos.
-3. `npm run build` sin VITE_ENABLE_CANDIDATE_CONTENT; después `PLAYWRIGHT_CHANNEL=chrome E2E_NODE_FALLBACK=1 E2E_PRODUCTION=1 npx playwright test tests/e2e/learning.spec.ts --grep 'production build'`. Ahora existen recibos reviewed y esta prueba debe confirmar exclusión real.
-4. Formato/diff final si se cambia algo; no repetir revisión editorial completa. Cualquier modificación de contenido invalida recibo y exige seguimiento del texto afectado.
-5. Actualizar informe/contexto, guardar commit local y presentar validación humana y decisión mínima K05/K09. No iniciar Writing, no publicar, push, merge ni desplegar.
+La barra fija se superpone a fragmentos en las capturas de página completa. Se investigó con desplazamiento, capturas de viewport `visual-resumed-*`, hit-test y click: controles operativos y visibles; no se confirma bloqueo. La prueba no sustituye una auditoría WCAG, lectores de pantalla, zoom del navegador/SO ni teclados móviles reales.
 
-## 12. Commits y Git
+## 7. Exclusión de producción
 
-Baseline `f439d74`. Commit local `737f002`: integración, corpus revisado, recibos, pruebas y punto de reanudación. Este registro se añade en un commit documental posterior. No se descartan cambios previos. Rama `feat/a1-reading`.
+Build final normal con `VITE_ENABLE_CANDIDATE_CONTENT=false`; build de validación separado con `true`. [Catálogo comprobado](reading-review/closure/production-catalog.json): 26 candidates en autoría, 26 reviewed efectivos/recibos, cero published; **catálogo Reading accesible de producción vacío**, catálogo de validación con 26.
 
-## 13. Recomendación para Writing
+`catalog.allowed` exige `published` salvo validación explícita; lista Reading, acceso directo, inicio y recuperación de sesión respetan ese filtro. El E2E final verifica biblioteca y modos previos excluidos, lista Reading sin enlaces habilitados y rutas directas R01/R25/R26 sin botón de inicio. No se altera el circuito editorial.
 
-No iniciar Writing. Antes, cerrar las comprobaciones pendientes y decidir las dos brechas contextuales de Reading. Una fase futura puede reutilizar snapshots, ayudas, evaluación conservadora y separación de comprensión/producción, siempre con encargo explícito. Reading no prueba producción libre.
+**Los textos siguen físicamente incluidos en JavaScript**, incluidos los títulos nuevos, por importación estática. La exclusión es del catálogo/acceso efectivo; no se afirma eliminación del bundle. El build local y la disponibilidad de validación no constituyen publicación ni despliegue. `dist` final conserva el build normal restrictivo. Sin dependencias nuevas ni cambios de hashes/paquetes de R01–R24; auditorías editoriales previas conservadas.
+
+## 8. Regresión y vinculación al código final
+
+| Comprobación ejecutada tras contenido/recibos finales | Resultado |
+|---|---|
+| `npm test -- --maxWorkers=2` | **360/360, 21 suites**, 87,58 s |
+| Typecheck | Correcto en builds; repetido tras corregir tests E2E |
+| Formato global | Correcto; formato focal E2E repetido tras su corrección |
+| Build validación y normal final | Correctos, fuentes finales y recibos reales |
+| `content:coverage` | 99/99 conceptos presentes, 0 listos para producción; no prueba dominio |
+| `content:editorial` | 99 conceptos/Theory y 923 actividades reviewed preservados; cero published |
+| `content:reading` | 26/84, 26 recibos/reviewed, hashes/inventarios/dependencias correctos, errors=[] |
+| Reading E2E / producción / barrido visual | Resultados desglosados arriba |
+| Diff y Git | Cambios acotados revisados; sin paquetes/dependencias ni archivos de motores modificados |
+
+[Manifiesto inicial](reading-review/closure/validation-manifest.json), [repetición](reading-review/closure/supplement-validation-manifest.json) y [producción](reading-review/closure/production-manifest.json) conservan comandos y SHA256 de fuentes y builds. La repetición solo cambia tests; las fuentes de aplicación y el build de validación son los mismos. Los hashes finales se compararon sin diferencias antes de los commits. No se modificó código después de estas pruebas.
+
+Incidencia de entorno explícita: el primer intento de build usó el Node antiguo del shell y falló al cargar TypeScript; se corrigió el PATH a Node 22.23.3 y los builds finales pasaron. Avisos conocidos conservados: SQLite experimental del servidor de pruebas y bundle >500 kB (≈1.040 kB minificado); sin optimización solicitada.
+
+## 9. Límites y validación pendiente
+
+Pendientes validación humana cualificada, uso con adultos A1, dispositivos/teclados físicos, tecnologías asistivas reales y observación longitudinal. Pruebas con servidor Node de pruebas (`E2E_NODE_FALLBACK=1`), no runtime Cloudflare nativo/remoto. No se acredita eficacia pedagógica, autonomía, producción libre ni retención. La marca E2E histórica no se usa para certificar regresiones ajenas al alcance focal actual.
+
+## 10. Git y entrega
+
+Rama `feat/a1-reading`, baseline original `f439d74`. Históricos conservados `737f002` y `b25240c`. Commit local técnico de cierre **`42f35b9`**: suplemento revisado, recibos, auditoría y pruebas focales. Este informe/contexto y evidencias se guardan en un commit documental posterior identificable en `git log`; el hash se entrega al usuario tras crearlo. Árbol limpio comprobado al entregar.
+
+**Detenerse tras este dictamen.** No iniciar Writing ni más desarrollo, publicar, push, merge o desplegar. La validación humana permanece explícitamente pendiente y cualquier siguiente fase necesita nuevo encargo.

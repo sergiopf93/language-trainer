@@ -1,0 +1,113 @@
+{
+  "environment": "Desktop Chrome, viewport emulation; no physical device",
+  "results": [
+    {
+      "width": 320,
+      "height": 844,
+      "text": "R24",
+      "checks": [
+        {
+          "stage": "long text and question",
+          "scrollWidth": 320,
+          "innerWidth": 320,
+          "scrollHeight": 2469,
+          "scrollY": 0
+        },
+        {
+          "stage": "resumed feedback and navigation",
+          "scrollWidth": 320,
+          "innerWidth": 320,
+          "scrollHeight": 2825,
+          "scrollY": 1877
+        }
+      ],
+      "resumeDraft": true,
+      "help": true,
+      "feedback": true,
+      "navigationButtonHitTest": true,
+      "navigationClick": true,
+      "pageErrors": []
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "text": "R24",
+      "checks": [
+        {
+          "stage": "long text and question",
+          "scrollWidth": 375,
+          "innerWidth": 375,
+          "scrollHeight": 2202,
+          "scrollY": 0
+        },
+        {
+          "stage": "resumed feedback and navigation",
+          "scrollWidth": 375,
+          "innerWidth": 375,
+          "scrollHeight": 2533,
+          "scrollY": 1632
+        }
+      ],
+      "resumeDraft": true,
+      "help": true,
+      "feedback": true,
+      "navigationButtonHitTest": true,
+      "navigationClick": true,
+      "pageErrors": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "text": "R24",
+      "checks": [
+        {
+          "stage": "long text and question",
+          "scrollWidth": 390,
+          "innerWidth": 390,
+          "scrollHeight": 2112,
+          "scrollY": 0
+        },
+        {
+          "stage": "resumed feedback and navigation",
+          "scrollWidth": 390,
+          "innerWidth": 390,
+          "scrollHeight": 2419,
+          "scrollY": 1518
+        }
+      ],
+      "resumeDraft": true,
+      "help": true,
+      "feedback": true,
+      "navigationButtonHitTest": true,
+      "navigationClick": true,
+      "pageErrors": []
+    },
+    {
+      "width": 768,
+      "height": 844,
+      "text": "R24",
+      "checks": [
+        {
+          "stage": "long text and question",
+          "scrollWidth": 768,
+          "innerWidth": 768,
+          "scrollHeight": 1756,
+          "scrollY": 0
+        },
+        {
+          "stage": "resumed feedback and navigation",
+          "scrollWidth": 768,
+          "innerWidth": 768,
+          "scrollHeight": 1937,
+          "scrollY": 1073
+        }
+      ],
+      "resumeDraft": true,
+      "help": true,
+      "feedback": true,
+      "navigationButtonHitTest": true,
+      "navigationClick": true,
+      "pageErrors": []
+    }
+  ]
+}
