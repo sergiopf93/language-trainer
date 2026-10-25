@@ -112,7 +112,37 @@ if (
   createHash('sha256').update(originalPacket).digest('hex')
 )
   errors.push('Original independent packet hash mismatch');
-const finalTexts = JSON.parse(packet.toString()).texts;
+const supplementPacket = await readFile(
+  'docs/product/reading-review/supplement-final.json',
+);
+const supplementVerdict = JSON.parse(
+  await readFile('docs/product/reading-review/supplement-verdict.json', 'utf8'),
+);
+if (
+  supplementVerdict.packetSha256 !==
+  createHash('sha256').update(supplementPacket).digest('hex')
+)
+  errors.push('Supplement independent packet hash mismatch');
+const supplementInitial = await readFile(
+  'docs/product/reading-review/supplement-candidate.json',
+);
+const supplementInitialVerdict = JSON.parse(
+  await readFile(
+    'docs/product/reading-review/supplement-independent-initial.json',
+    'utf8',
+  ),
+);
+if (
+  supplementInitialVerdict.packetSha256 !==
+  createHash('sha256').update(supplementInitial).digest('hex')
+)
+  errors.push('Supplement initial packet hash mismatch');
+const supplementTexts = JSON.parse(supplementPacket.toString()).texts;
+const finalTexts = [
+  ...JSON.parse(packet.toString()).texts,
+  ...supplementTexts.map((t) => ({ ...t, fingerprint: readingFingerprint(t) })),
+];
+const approvals = [...verdict.texts, ...supplementVerdict.texts];
 if (
   finalTexts.length !== readingCorpus.length ||
   new Set(finalTexts.map((t) => t.id)).size !== readingCorpus.length
@@ -135,7 +165,7 @@ if (new Set(readingReceipts.map((r) => r.id)).size !== readingReceipts.length)
   errors.push('Duplicate receipt IDs');
 for (const receipt of readingReceipts)
   if (
-    !verdict.texts.some(
+    !approvals.some(
       (t) =>
         t.id === receipt.id &&
         t.decision === 'approved' &&
@@ -147,7 +177,7 @@ const report = {
   texts: readingCorpus.length,
   questions: questions.size,
   reviewed: reviewedReadings().length,
-  published: 0,
+  published: readingCorpus.filter((t) => t.status === 'published').length,
   genres: [...new Set(readingCorpus.map((t) => t.genre))],
   blocks: [...new Set(readingCorpus.flatMap((t) => t.blocks))].sort(),
   errors,

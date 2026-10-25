@@ -1,6 +1,6 @@
 # Reading A1 — matriz previa de autoría
 
-Propuesta editorial basada en research/02 §§2–6 y research/03 §5. Se eligen 24 lecturas por funciones adultas, con seis microtextos, doce textos de desarrollo y seis de consolidación. Las bandas 15–40 / 40–80 / 80–150 palabras son orientativas de diseño, no umbrales MCER. La biblioteca de teoría sigue accesible. La lectura evaluada requiere introducción de sus conceptos declarados, sin exigir dominio; no impone completar todos los bloques anteriores. No hay dependencias entre lecturas: cada situación es autónoma. Las expresiones no focales se apoyan con glosario y ayuda, por lo que la lista no equivale a inventario exhaustivo de cada forma que aparece.
+Matriz de autoría inicial (24 textos) y cierre funcional (26 textos). Propuesta editorial basada en research/02 §§2–6 y research/03 §5. Se eligen 24 lecturas por funciones adultas, con seis microtextos, doce textos de desarrollo y seis de consolidación. Las bandas 15–40 / 40–80 / 80–150 palabras son orientativas de diseño, no umbrales MCER. La biblioteca de teoría sigue accesible. La lectura evaluada requiere introducción de sus conceptos declarados, sin exigir dominio; no impone completar todos los bloques anteriores. No hay dependencias entre lecturas: cada situación es autónoma. Las expresiones no focales se apoyan con glosario y ayuda, por lo que la lista no equivale a inventario exhaustivo de cada forma que aparece.
 
 | Lectura | Género / función | Foco curricular | Banda |
 |---|---|---|---|
@@ -28,6 +28,8 @@ Propuesta editorial basada en research/02 §§2–6 y research/03 §5. Se eligen
 | R22 | correo / reconstruir viaje | C32 C33 | consolidación |
 | R23 | mensaje / resolver necesidad elemental | C05 C17 C22 C34 | consolidación |
 | R24 | relato / integrar pasado y plan presente | C29 C31 C32 C33 C34 | consolidación |
+| R25 | carta y diálogo / ingredientes, restricciones y pedido de restaurante | C18 C34 | desarrollo |
+| R26 | billete y horario / relacionar tren, destino, salida y vía | C20 C22 C34 | desarrollo |
 
 La cobertura indicada significa presencia funcional y comprensión receptiva, no dominio de todos los microconceptos de cada bloque. No se afirma cobertura exhaustiva de los 99 conceptos: cada texto declara únicamente sus referencias concretas. C01 aparece como apoyo escrito y no mide pronunciación. C31–C33 constituyen ampliación final. Las preguntas globales, de detalle, intención, referencia, secuencia y contexto se distribuyen por utilidad; las respuestas breves se limitan a datos explícitos con contrato determinista. La revisión independiente debe comprobar claves, distractores, naturalidad, longitud y metadatos antes de promover cualquier candidate.
 
@@ -51,12 +53,19 @@ La revisión de cuerpos y preguntas confirma un recorrido reutilizable y progres
 | C31–C33 | R21 pasado y secuencia; R22 participantes/viaje; R24 relato/causa | R21 contiene participios irregulares; R24 no los contiene; no evaluar concordancia escrita |
 | C34 | Identidad R01/R14; vivienda R05/R11; comida R06/R16/R18/R20; compras R15; trabajo R07/R17; ciudad/viaje R08/R12/R22; contacto/necesidad R02/R13/R23 | Repertorios parciales en cada campo; presencia léxica no es prueba de recuperación |
 
-Hay seis microtextos, doce de desarrollo y seis de consolidación. Se pasa de datos explícitos y fórmulas a referentes entre frases, decisiones corregidas durante un diálogo, permiso frente a obligación, causa, secuencia y pasado. R15 exige seguir la decisión final; R19 relacionar pronombre/antecedente; R23 distinguir documento matinal y tarjeta posterior; R24 integrar lluvia y cambio de lugar. Estas demandas superan encontrar una palabra idéntica. Las seis respuestas cortas limitadas a nombres/cifras son recuperación de información explícita, no producción libre.
+Tras el suplemento hay seis microtextos, catorce de desarrollo y seis de consolidación. Se pasa de datos explícitos y fórmulas a referentes entre frases, decisiones corregidas durante un diálogo, permiso frente a obligación, causa, secuencia y pasado. R15 exige seguir la decisión final; R19 relacionar pronombre/antecedente; R23 distinguir documento matinal y tarjeta posterior; R24 integrar lluvia y cambio de lugar. Estas demandas superan encontrar una palabra idéntica. Las seis respuestas cortas limitadas a nombres/cifras son recuperación de información explícita, no producción libre.
 
-### Brechas importantes frente a la matriz de contextos
+### Cierre de brechas esenciales K05/K09 — 2026-10-25
 
-- **K05 restaurante:** R06 cubre bar y R16/R20 comida/receta doméstica. Falta carta y un intercambio real de restaurante sobre ingredientes/pedido. Ampliación mínima propuesta: un texto breve de carta + intercambio con dos o tres preguntas de elección/ingredientes, reutilizando C18/C25/C27/C30. No se añade en esta reanudación para conservar el corpus solicitado.
-- **K09 transporte:** R12 permite interpretar una línea de autobús y trayecto; R22 relata un viaje pasado. Falta leer billete/horario y relacionar salida/destino/hora. Ampliación mínima propuesta: un horario o billete breve con dos o tres preguntas y cambio de trayecto, reutilizando C20–C22/C34-06.
+| Brecha | Función que faltaba | Lecturas existentes y límite | Ampliación mínima final |
+|---|---|---|---|
+| K05 restaurante | Comprender ingredientes/restricciones, respuesta del camarero y pedido final | R06 es bar; R16/R20 son comida y receta doméstica; no cubren ese intercambio | R25, carta + diálogo, tres preguntas de intención/relación/pedido. C18-01 y C34-03. |
+| K09 horarios/billetes | Relacionar número/destino del billete con salida y vía del horario; distinguir origen/destino y salida/llegada | R12 es trayecto urbano y R22 relato pasado; ninguno permite cruzar billete y horario | R26, billete + dos filas de horario, tres preguntas de selección/hora/relación. C20-03, C22-02 y C34-06. |
+
+Ambas brechas esenciales resueltas con dos textos nuevos porque adaptar los anteriores alteraría sus funciones y versiones ya aprobadas. R01–R24 intactos. Se reutilizan modelo, evaluación, ayudas, preparación y recibos. [Revisión inicial](supplement-initial-review.md), [paquete final](supplement-final.json), [dictamen independiente](supplement-verdict.json): 2/2 aprobados, sin flags bloqueantes. La referencia inicial errónea de R26 a C20-02 se corrigió a C20-03 y se verificó independientemente. Ambos reviewed, ninguno published. No hay ampliación cuantitativa ni nuevos motores.
+
+### Excepciones de alcance conservadas
+
 - **Variación independiente/diferida:** hay un único conjunto de preguntas por texto. Repetirlo después de ver soluciones no equivale a nueva evidencia independiente ni retención; el motor conserva la exposición. Crear reservas paralelas sería otro alcance, no una garantía aportada por estas 24 lecturas.
 
 K01/K02/K03/K04/K07/K08/K10/K11/K12/K13/K14 tienen al menos una oportunidad funcional pertinente, con profundidad desigual; no todas sus etapas están probadas. K06 R18 trabaja lista y cantidad, sin inventario completo de envases/medidas. No se exige un texto por concepto ni se amplía automáticamente a 99 lecturas. La validación con adultos A1 y el ritmo de preparación siguen pendientes.

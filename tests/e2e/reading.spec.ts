@@ -5,6 +5,12 @@ import { italianCourse } from '../../src/content/italian-a1/course';
 import { loadLanguagePack } from '../../src/content/loader';
 import { validFact, validLinks, type Fact } from '../../shared/protocol';
 
+test.beforeEach(async ({ page }) => {
+  page.on('pageerror', (error) => {
+    throw error;
+  });
+});
+
 const text = readingCorpus.find((t) => !t.dependencies.length)!;
 async function facts(page: Page): Promise<Fact[]> {
   return page.evaluate(async () => {
@@ -48,7 +54,7 @@ async function draft(page: Page, value: string) {
   else await page.getByLabel(value, { exact: true }).check();
   await saved(page);
 }
-for (const width of [320, 390, 768]) {
+for (const width of [320, 375, 390, 768]) {
   test(`Reading ${width}: text, help, comprehension, summary and distinct progress`, async ({
     page,
   }) => {
@@ -266,3 +272,63 @@ test('Reading longest text: mobile short response outside criterion is not an er
     fullPage: true,
   });
 });
+
+for (const id of ['R25', 'R26']) {
+  test(`Reading ${id}: contextual comprehension and independent evidence`, async ({
+    page,
+  }) => {
+    const selected = readingCorpus.find((item) => item.id === id)!;
+    await page.setViewportSize({ width: 375, height: 844 });
+    await begin(page, selected);
+    await expect(page.locator('.reading-text p')).toHaveText(
+      selected.body.split('\n'),
+    );
+    for (const [index, question] of selected.questions.entries()) {
+      await draft(page, question.accepted[0]);
+      await page
+        .getByRole('button', { name: 'Controlla', exact: true })
+        .click();
+      await expect(page.locator('.feedback h3')).toHaveText('Corretto!');
+      expect(
+        await page.evaluate(
+          () => document.documentElement.scrollWidth <= innerWidth,
+        ),
+      ).toBe(true);
+      if (index === 0)
+        await page.screenshot({
+          path: `test-results/reading-${id}-375.png`,
+          fullPage: true,
+        });
+      await page
+        .getByRole('button', {
+          name:
+            index + 1 === selected.questions.length
+              ? 'Vedi il riepilogo'
+              : 'Continua',
+          exact: true,
+        })
+        .click();
+    }
+    await expect(
+      page.getByRole('heading', { name: 'Riepilogo della sessione' }),
+    ).toBeVisible();
+    const all = await facts(page);
+    const known = new Map(all.map((f) => [f.id, f]));
+    expect(all.every((f) => validFact(f) && validLinks(f, known))).toBe(true);
+    expect(all.filter((f) => f.kind === 'attempt')).toHaveLength(
+      selected.questions.length,
+    );
+    const session = all.find((f) => f.kind === 'practice-session');
+    expect(session?.payload.reading?.id).toBe(id);
+    expect(session?.payload.reading?.version).toBe(selected.version);
+    const evidence = all.filter((f) => f.kind === 'evidence');
+    expect(evidence).toHaveLength(selected.questions.length);
+    expect(
+      evidence.every(
+        (f) =>
+          f.payload.independent &&
+          f.payload.dimension === 'reading-comprehension',
+      ),
+    ).toBe(true);
+  });
+}

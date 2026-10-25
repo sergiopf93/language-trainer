@@ -1,0 +1,32 @@
+{
+  "reviewer": "independent agent editorial_supplement",
+  "humanValidation": false,
+  "packetSha256": "fb9ffde9e556b1f6d8d09516cbd92e065660c784ff8697edec99848aa2885d13",
+  "comparison": "Comparación completa JSON con candidato: solo C20-02→C20-03 en requiredConcepts/presentConcepts R26; R25 intacto.",
+  "texts": [
+    {
+      "id": "R25",
+      "decision": "approved",
+      "fingerprint": "781d5851835517f8",
+      "flags": [],
+      "reason": "Conserva íntegramente contenido aprobado inicial."
+    },
+    {
+      "id": "R26",
+      "decision": "approved",
+      "fingerprint": "a8c7d552127a2a55",
+      "flags": [],
+      "reason": "C20-03 corresponde a destino/dirección. Solo esas dos referencias cambiaron; resto exactamente conservado."
+    }
+  ],
+  "requiredCorrections": [],
+  "optionalSuggestions": [
+    "R25: tonno → atún en vocabulary; traducción ya disponible en help.",
+    "R26: simplificar tercer distractor Q3 a Non si può sapere."
+  ],
+  "limitations": [
+    "Revisión asistida independiente; no validación humana.",
+    "Asistencia documentada, no UI ejecutada por revisor."
+  ],
+  "provenance": "Decisiones y SHA del agente independiente; fingerprints calculados por R2 sobre versiones aprobadas."
+}

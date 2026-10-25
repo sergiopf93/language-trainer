@@ -1,0 +1,209 @@
+{
+  "texts": [
+    {
+      "id": "R25",
+      "version": "1",
+      "status": "candidate",
+      "title": "Al ristorante Il Girasole",
+      "level": "A1",
+      "blocks": [
+        "C18",
+        "C34"
+      ],
+      "requiredConcepts": [
+        "it-a1-c18-01",
+        "it-a1-c34-03"
+      ],
+      "presentConcepts": [
+        "it-a1-c18-01",
+        "it-a1-c34-03"
+      ],
+      "dependencies": [],
+      "difficulty": "developing",
+      "genre": "menù e dialogo",
+      "function": "Capire ingredienti e scelta al ristorante",
+      "vocabulary": [
+        {
+          "word": "cameriere",
+          "gloss": "camarero"
+        },
+        {
+          "word": "contorno",
+          "gloss": "guarnición"
+        },
+        {
+          "word": "senza carne",
+          "gloss": "sin carne"
+        }
+      ],
+      "objectives": [
+        "Capire ingredienti e scelta al ristorante"
+      ],
+      "body": "Ristorante Il Girasole\nMenù: pasta al pomodoro; pollo con patate; insalata con tonno.\n— Cliente: Vorrei un piatto senza carne e senza pesce.\n— Cameriere: La pasta al pomodoro è senza carne e senza pesce. L’insalata è con il tonno.\n— Cliente: Allora vorrei la pasta e, come contorno, le patate.\n— Cameriere: Va bene. E da bere?\n— Cliente: Acqua naturale, per favore.",
+      "help": "El cliente busca un plato sin carne ni pescado y elige pasta al tomate. Pide patatas como guarnición y agua sin gas. Tonno significa atún; da bere pregunta qué desea beber.",
+      "questions": [
+        {
+          "id": "R25-Q1",
+          "kind": "intention",
+          "prompt": "Che tipo di piatto cerca il cliente?",
+          "options": [
+            "Senza carne e senza pesce",
+            "Con carne e patate",
+            "Con pesce e insalata"
+          ],
+          "accepted": [
+            "Senza carne e senza pesce"
+          ],
+          "rejected": [
+            "Con carne e patate",
+            "Con pesce e insalata"
+          ],
+          "exhaustive": true,
+          "explanation": "El cliente expresa dos condiciones con senza: sin carne y sin pescado."
+        },
+        {
+          "id": "R25-Q2",
+          "kind": "relation",
+          "prompt": "Perché l’insalata non va bene per il cliente?",
+          "options": [
+            "È con il tonno",
+            "È senza patate",
+            "È con il pomodoro"
+          ],
+          "accepted": [
+            "È con il tonno"
+          ],
+          "rejected": [
+            "È senza patate",
+            "È con il pomodoro"
+          ],
+          "exhaustive": true,
+          "explanation": "El camarero indica que la ensalada lleva atún, un pescado; no cumple la petición."
+        },
+        {
+          "id": "R25-Q3",
+          "kind": "detail",
+          "prompt": "Qual è l’ordine finale da mangiare?",
+          "options": [
+            "Pasta e patate",
+            "Pollo e patate",
+            "Insalata e pasta"
+          ],
+          "accepted": [
+            "Pasta e patate"
+          ],
+          "rejected": [
+            "Pollo e patate",
+            "Insalata e pasta"
+          ],
+          "exhaustive": true,
+          "explanation": "El pedido final es pasta, con patatas como guarnición."
+        }
+      ]
+    },
+    {
+      "id": "R26",
+      "version": "1",
+      "status": "candidate",
+      "title": "Il biglietto di Marta",
+      "level": "A1",
+      "blocks": [
+        "C20",
+        "C22",
+        "C34"
+      ],
+      "requiredConcepts": [
+        "it-a1-c20-03",
+        "it-a1-c22-02",
+        "it-a1-c34-06"
+      ],
+      "presentConcepts": [
+        "it-a1-c20-03",
+        "it-a1-c22-02",
+        "it-a1-c34-06"
+      ],
+      "dependencies": [],
+      "difficulty": "developing",
+      "genre": "biglietto e orario",
+      "function": "Collegare biglietto, destinazione e orario",
+      "vocabulary": [
+        {
+          "word": "binario",
+          "gloss": "vía de la estación"
+        },
+        {
+          "word": "destinazione",
+          "gloss": "destino"
+        },
+        {
+          "word": "partenza / arrivo",
+          "gloss": "salida / llegada"
+        }
+      ],
+      "objectives": [
+        "Collegare biglietto, destinazione e orario"
+      ],
+      "body": "Orario dei treni\nTreno 214: da Parma a Bologna. Partenza 09:10; arrivo 10:00. Binario 2.\nTreno 216: da Parma a Modena. Partenza 09:30; arrivo 10:05. Binario 4.\nBiglietto di Marta: treno 214, da Parma a Bologna, partenza 09:10.\nMarta: «Il mio biglietto è per Bologna. Il treno delle 09:30 va a Modena: non è il mio».",
+      "help": "Relaciona el número del billete con la fila del horario. Partenza indica cuándo sale el tren; arrivo, cuándo llega. El destino de Marta es Bolonia, no Módena.",
+      "questions": [
+        {
+          "id": "R26-Q1",
+          "kind": "context",
+          "prompt": "Quale treno corrisponde al biglietto di Marta?",
+          "options": [
+            "214 per Bologna",
+            "216 per Modena",
+            "214 per Parma"
+          ],
+          "accepted": [
+            "214 per Bologna"
+          ],
+          "rejected": [
+            "216 per Modena",
+            "214 per Parma"
+          ],
+          "exhaustive": true,
+          "explanation": "El billete identifica el tren 214 y Bolonia como destino; Parma es el origen."
+        },
+        {
+          "id": "R26-Q2",
+          "kind": "detail",
+          "prompt": "A che ora parte il treno di Marta?",
+          "options": [
+            "09:10",
+            "10:00",
+            "09:30"
+          ],
+          "accepted": [
+            "09:10"
+          ],
+          "rejected": [
+            "10:00",
+            "09:30"
+          ],
+          "exhaustive": true,
+          "explanation": "Partenza indica la salida: 09:10. No se debe confundir con la llegada."
+        },
+        {
+          "id": "R26-Q3",
+          "kind": "relation",
+          "prompt": "Da quale binario parte il treno indicato sul biglietto?",
+          "options": [
+            "Binario 2",
+            "Binario 4",
+            "Il biglietto non permette di scegliere"
+          ],
+          "accepted": [
+            "Binario 2"
+          ],
+          "rejected": [
+            "Binario 4",
+            "Il biglietto non permette di scegliere"
+          ],
+          "exhaustive": true,
+          "explanation": "El número 214 del billete corresponde a la fila del horario que indica binario 2."
+        }
+      ]
+    }
+  ]
+}

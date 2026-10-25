@@ -1,0 +1,27 @@
+{
+  "reviewer": "independent agent editorial_supplement",
+  "humanValidation": false,
+  "packetSha256": "17bc43af9292dec4ce13eb0fc8b5395ae74e6b90e537031abe04b86c762ce60d",
+  "texts": [
+    {
+      "id": "R25",
+      "decision": "approved",
+      "flags": [],
+      "reason": "Italiano A1 correcto, claves únicas, restaurante/ingredientes/pedido representados; feedback no filtra respuestas posteriores.",
+      "optional": "tonno ya glosado en help; añadir a vocabulary sería opcional."
+    },
+    {
+      "id": "R26",
+      "decision": "blocked",
+      "flags": [
+        "CURRICULAR_REFERENCE_MISMATCH"
+      ],
+      "reason": "C20-02 es ubicación; cambiar requiredConcepts/presentConcepts a C20-03 dirección/destino. Claves, italiano y ayudas correctos.",
+      "optional": "Simplificar tercer distractor Q3 sería opcional."
+    }
+  ],
+  "limitations": [
+    "Ayudas deben registrar asistencia; no interfaz ejecutada por revisor.",
+    "No se revisó de nuevo corpus histórico."
+  ]
+}
