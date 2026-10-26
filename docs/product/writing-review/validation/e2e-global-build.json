@@ -1,0 +1,9 @@
+{
+  "scope": "58 E2E validation suite; build before final Writing duplicate-input guard and progress title. Final Writing suite will be repeated on final build.",
+  "sha256": {
+    "dist/index.html": "c265f5475ecc335b8cdbae7fff26f3b08ba94f9b0ce08fb38646ad619865f416",
+    "dist/sw.js": "c99483a15311597d255516a45900294dd093f89c5646a63fd70b7276907155e8",
+    "dist/assets/index-Fg6QZoe0.css": "9f8d06b3d2cd89e65f4b1adfbf5890babebd158fde6f0e91eaedf5a702644b2d",
+    "dist/assets/index-W8AL6Fv3.js": "6600283465bc9ce297ccd4bb862170cd633e2d05fd86b725800a1e385534d749"
+  }
+}

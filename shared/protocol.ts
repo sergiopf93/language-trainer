@@ -95,8 +95,10 @@ export function validFact(v: unknown): v is Fact {
       ) &&
         !(
           v.kind === 'practice-session' &&
-          ((v.versions.policy === 'review-v1' &&
-            (v.payload as Record<string, unknown>).mode === 'review') ||
+          ((v.versions.policy === 'writing-v1' &&
+            (v.payload as Record<string, unknown>).mode === 'writing') ||
+            (v.versions.policy === 'review-v1' &&
+              (v.payload as Record<string, unknown>).mode === 'review') ||
             (v.versions.policy === 'mixed-v1' &&
               (v.payload as Record<string, unknown>).mode === 'mixed') ||
             (v.versions.policy === 'reading-v1' &&
@@ -107,7 +109,8 @@ export function validFact(v: unknown): v is Fact {
     const p = v.payload as Record<string, unknown>;
     if (
       v.kind === 'practice-session' &&
-      ((p.mode === 'mixed' && v.versions.policy !== 'mixed-v1') ||
+      ((p.mode === 'writing' && v.versions.policy !== 'writing-v1') ||
+        (p.mode === 'mixed' && v.versions.policy !== 'mixed-v1') ||
         (p.mode === 'reading' && v.versions.policy !== 'reading-v1'))
     )
       return false;
@@ -326,6 +329,43 @@ export function validLinks(fact: Fact, known: Map<string, Fact>): boolean {
       attempt.payload.activityVersion !== fact.payload.activityVersion
     )
       return false;
+    const root = known.get(attempt.payload.sessionId);
+    if (root?.kind !== 'practice-session') return false;
+    const activity = root.payload.activities[attempt.payload.itemIndex];
+    const e = fact.payload;
+    if (root.payload.mode === 'writing') {
+      if (
+        !activity ||
+        activity.conceptId !== e.conceptId ||
+        activity.conceptVersion !== e.conceptVersion ||
+        activity.dimension !== e.dimension ||
+        activity.criterion.version !== e.criterionVersion ||
+        activity.criterion.canonVersion !== e.canonVersion ||
+        canonical(activity.task) !== canonical(e.task)
+      )
+        return false;
+      const outcomes = {
+        canonical: 'correct',
+        'accepted-variant': 'correct',
+        'confirmed-error': 'linguistic-error',
+        typo: 'typo',
+        empty: 'no-opportunity',
+        incomplete: 'not-evaluable',
+        'off-task': 'not-evaluable',
+        'target-not-demonstrated': 'not-evaluable',
+        unassessed: 'not-evaluable',
+      };
+      if (!e.writingOutcome || outcomes[e.writingOutcome] !== e.judgment)
+        return false;
+      if (activity.family === 'F6' || activity.writing?.policy === 'open') {
+        const empty = !attempt.payload.response.trim();
+        if (
+          e.judgment !== (empty ? 'no-opportunity' : 'not-evaluable') ||
+          e.writingOutcome !== (empty ? 'empty' : 'unassessed')
+        )
+          return false;
+      }
+    } else if (e.writingOutcome) return false;
   }
   if (fact.kind === 'evidence') {
     const p = fact.payload;
@@ -340,6 +380,8 @@ export function validLinks(fact: Fact, known: Map<string, Fact>): boolean {
       return false;
     const e = evaluation.payload;
     const activity = session.payload.activities[attempt.payload.itemIndex];
+    if (activity?.family === 'F6' || activity?.writing?.policy === 'open')
+      return false;
     if (p.activityVersion && p.activityVersion !== activity?.version)
       return false;
     if (p.provenance && p.provenance !== activity?.provenance) return false;

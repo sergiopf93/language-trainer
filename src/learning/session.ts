@@ -1,3 +1,4 @@
+import { writingOptions, writingPreparation } from '../writing/engine';
 import type { ReadingText } from '../reading/corpus';
 import { readingActivities, eligibleReading } from '../reading/engine';
 import { type Fact, type LearningFact } from '../../shared/protocol';
@@ -16,6 +17,7 @@ import type {
 import {
   canonicalExerciseEngine,
   evaluatorVersion,
+  normalize,
 } from '../exercises/evaluate';
 import {
   reviewPlans,
@@ -227,6 +229,46 @@ export class SessionEngine implements LearningEngine {
     await this.store.appendLearning([root]);
     return this.load(root.id);
   }
+  async startWriting(id: string) {
+    const option = writingOptions(this.catalog).find((t) => t.id === id);
+    if (
+      !option ||
+      writingPreparation(option, this.catalog, await this.store.allFacts())
+        .length
+    )
+      throw new Error('Scrittura non disponibile con la preparazione attuale.');
+    const a = option.activity;
+    const root = event(
+      'practice-session',
+      {
+        packId: this.catalog.packId,
+        conceptId: a.conceptId,
+        conceptVersion: a.conceptVersion,
+        contentStatus: a.status,
+        mode: 'writing',
+        writing: {
+          id: option.id,
+          version: option.version,
+          title: option.title,
+        },
+        selectionReason:
+          'Produzione scritta con criterio esplicito; i testi aperti sono conservati senza valutazione linguistica automatica.',
+        activities: [a],
+        state: {
+          index: 0,
+          draft: '',
+          hintShown: false,
+          attemptId: null,
+          status: 'active',
+          phase: 'answer',
+        },
+      },
+      this.catalog.version,
+    );
+    root.versions.policy = 'writing-v1';
+    await this.store.appendLearning([root]);
+    return this.load(root.id);
+  }
   async startReading(text: ReadingText) {
     if (
       text.status !== 'reviewed' ||
@@ -368,7 +410,7 @@ export class SessionEngine implements LearningEngine {
         if (state.phase !== 'feedback')
           throw new Error('No hay corrección que reintentar.');
         state.phase = 'answer';
-        state.draft = '';
+        if (view.root.payload.mode !== 'writing') state.draft = '';
         break;
       case 'next':
         if (state.phase !== 'feedback')
@@ -480,6 +522,23 @@ export class SessionEngine implements LearningEngine {
         activityVersion: a.version,
         dimension: a.dimension,
         judgment: result.judgment,
+        ...(view.root.payload.mode === 'writing'
+          ? {
+              writingOutcome:
+                result.writingOutcome ??
+                (result.judgment === 'correct'
+                  ? normalize(s.draft) === normalize(a.criterion.accepted[0])
+                    ? ('canonical' as const)
+                    : ('accepted-variant' as const)
+                  : result.judgment === 'typo'
+                    ? ('typo' as const)
+                    : result.judgment === 'linguistic-error'
+                      ? ('confirmed-error' as const)
+                      : result.judgment === 'no-opportunity'
+                        ? ('empty' as const)
+                        : ('unassessed' as const)),
+            }
+          : {}),
         ...(a.task ? { task: a.task } : {}),
         accepted: a.criterion.accepted,
         ...(result.judgment === 'typo'

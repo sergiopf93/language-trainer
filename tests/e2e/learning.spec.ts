@@ -257,6 +257,23 @@ test('production build excludes candidate content', async ({ page }) => {
   await expect(
     page.getByRole('button', { name: 'Inizia la pratica mista', exact: true }),
   ).toHaveCount(0);
+  await page.goto('/writing');
+  await expect(page.locator('a[href*="?writing="]')).toHaveCount(0);
+  for (const id of [
+    'W-C01',
+    'it-a1-writing-presentazione',
+    'it-a1-c04-01-sei',
+  ]) {
+    await page.goto('/practice?writing=' + id);
+    await expect(
+      page.getByRole('button', { name: 'Inizia a scrivere', exact: true }),
+    ).toHaveCount(0);
+    await expect(
+      page.getByText('Scrittura non disponibile in questa versione.', {
+        exact: true,
+      }),
+    ).toBeVisible();
+  }
   await page.goto('/reading');
   await expect(
     page.getByRole('link', { name: /^(Leggi|Preparati):/ }),

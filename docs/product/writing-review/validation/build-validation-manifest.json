@@ -1,0 +1,17 @@
+{
+  "build": "VITE_ENABLE_CANDIDATE_CONTENT=true npm run build",
+  "files": {
+    "shared/learning.ts": "42040eeed617aba23bf631fb0e3123924cd2d0f76822b7a37749209579b23687",
+    "shared/protocol.ts": "5e1ca32565c3b60173c481ed82fce867a55153688a496b4b4ad0cd2ad09735fa",
+    "src/exercises/evaluate.ts": "4ef2f2560f6afae6f5d6116a53f32bdccc81c838aeccc099a3b3be31a9970c57",
+    "src/learning/session.ts": "309cb5de00e1c550d57ab9b4a4b9a97ab7f4845441674953e56acbd6aa90dbfd",
+    "src/ui/pages/learning.ts": "c344d923fa37a6efa16a9168213c6fcbafa9a113488160da9d604accbd9c748c",
+    "src/ui/pages/writing.ts": "09282393ec01cfb39c307929f17d4da7648a021fef0c6ff6f852d9e72ccdfc6f",
+    "src/writing/corpus.ts": "40d1cb045d0e7ba03a896f590f4fc560d059297b44385a4155a1e8a920e13f49",
+    "src/writing/controlled.ts": "fe25d0c9a9b1fd86a424844d67706aa5a0a21c823c45d2ecb3efd9ad67278d3b",
+    "src/writing/engine.ts": "510ebfb818a946ca47fa7ed882cbce6ec6172d302922070ab4b1355698f2fd54",
+    "src/writing/receipts.ts": "d6c567cd3ff66d4298e4557ce50b0cd7c3a1df2b9e396c576bc1e2786c433442",
+    "dist/index.html": "a8ed20d1bcf51849b17f100f0d6931cc1715d23a5012a0ca22028986d9dd556a",
+    "dist/sw.js": "5f46842319489d7366f4e2474a12b81055c42b889af6c1338b6acb86a1726411"
+  }
+}

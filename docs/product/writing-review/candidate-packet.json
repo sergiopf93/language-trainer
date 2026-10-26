@@ -1,0 +1,795 @@
+[
+  {
+    "id": "it-a1-writing-presentazione",
+    "version": "1",
+    "fingerprint": "5522d292320a9c68",
+    "content": {
+      "id": "it-a1-writing-presentazione",
+      "version": "1",
+      "status": "candidate",
+      "title": "Un nuovo gruppo",
+      "level": 3,
+      "kind": "guided",
+      "context": "Scrivi al gruppo del tuo corso di italiano. Puoi usare dati inventati.",
+      "prompt": "Scrivi 3–4 frasi: saluta, indica il tuo nome e la tua città, poi saluta di nuovo.",
+      "objectives": [
+        "Presentarsi in un messaggio breve",
+        "Aprire e chiudere un contatto"
+      ],
+      "requiredConcepts": [
+        "it-a1-c04-03",
+        "it-a1-c02-01",
+        "it-a1-c04-02",
+        "it-a1-c34-01"
+      ],
+      "rubric": [
+        "Consegna: Ci sono un saluto, un nome e una città?",
+        "Struttura: Controlla essere per parlare di te e della tua città.",
+        "Vocabolario: Le parole indicano chiaramente nome e origine?",
+        "Organizzazione: Il saluto apre il messaggio e la chiusura viene alla fine?",
+        "Funzione: Il gruppo può capire chi sei?",
+        "Autonomia: indica se hai usato aiuti, un modello o altre risorse. Rileggere non è una valutazione automatica."
+      ],
+      "model": "Ciao! Sono Ana. Sono di Madrid. A presto!",
+      "help": "Elige un nombre y una ciudad; puedes inventarlos. Organiza saludo, identidad, origen y despedida. El modelo es solo una posibilidad.",
+      "feedback": "Primero comprueba si el grupo puede identificarte. Después revisa la forma de essere y la expresión de origen; no necesitas copiar el modelo.",
+      "abstention": "Este mensaje abierto no recibe una nota ni una corrección automática. La autolectura y el modelo no demuestran dominio. Puedes revisarlo con la rúbrica o practicar el concepto relacionado con una actividad delimitada.",
+      "alternativeConceptId": "it-a1-c04-03"
+    }
+  },
+  {
+    "id": "it-a1-writing-chiarimento",
+    "version": "1",
+    "fingerprint": "d5c32a74c725d282",
+    "content": {
+      "id": "it-a1-writing-chiarimento",
+      "version": "1",
+      "status": "candidate",
+      "title": "Non è chiaro",
+      "level": 3,
+      "kind": "guided",
+      "context": "In albergo una persona ti dà informazioni. Non capisci. Scrivi un breve messaggio a questa persona.",
+      "prompt": "Scrivi 2–3 frasi: chiedi attenzione con cortesia, indica il problema e chiedi di ripetere.",
+      "objectives": [
+        "Segnalare una difficoltà",
+        "Chiedere una ripetizione con cortesia"
+      ],
+      "requiredConcepts": [
+        "it-a1-c02-03",
+        "it-a1-c02-02"
+      ],
+      "rubric": [
+        "Consegna: Indichi il problema e chiedi una ripetizione?",
+        "Struttura: Controlla le formule per chiedere aiuto.",
+        "Vocabolario: Le espressioni sono adatte a una persona che non conosci?",
+        "Organizzazione: Il problema e la richiesta sono vicini?",
+        "Funzione: La persona capisce che deve ripetere?",
+        "Autonomia: indica se hai usato aiuti, un modello o altre risorse. Rileggere non è una valutazione automatica."
+      ],
+      "model": "Scusi, non capisco. Può ripetere, per favore? Grazie.",
+      "help": "Usa las fórmulas aprendidas para llamar la atención, señalar incomprensión y pedir repetición. No necesitas conjugar un paradigma nuevo.",
+      "feedback": "Comprueba primero si pides una acción concreta. Revisa después la cortesía y la fórmula de reparación.",
+      "abstention": "Este mensaje abierto no recibe una nota ni una corrección automática. La autolectura y el modelo no demuestran dominio. Puedes revisarlo con la rúbrica o practicar el concepto relacionado con una actividad delimitada.",
+      "alternativeConceptId": "it-a1-c02-03"
+    }
+  },
+  {
+    "id": "it-a1-writing-famiglia",
+    "version": "1",
+    "fingerprint": "fe905036005ab314",
+    "content": {
+      "id": "it-a1-writing-famiglia",
+      "version": "1",
+      "status": "candidate",
+      "title": "Due persone della mia famiglia",
+      "level": 3,
+      "kind": "guided",
+      "context": "Un amico vuole conoscere la tua famiglia. Puoi inventare due persone.",
+      "prompt": "Scrivi 4–5 frasi: presenta due familiari, indica la loro relazione con te e descrivi una caratteristica di ciascuno.",
+      "objectives": [
+        "Descrivere due persone",
+        "Esprimere relazioni familiari"
+      ],
+      "requiredConcepts": [
+        "it-a1-c23-02",
+        "it-a1-c04-02",
+        "it-a1-c11-01",
+        "it-a1-c34-01"
+      ],
+      "rubric": [
+        "Consegna: Presenti due persone e una caratteristica per ciascuna?",
+        "Struttura: Controlla i possessivi di famiglia e gli aggettivi.",
+        "Vocabolario: I nomi di famiglia indicano la relazione giusta?",
+        "Organizzazione: È chiaro di quale persona parli in ogni frase?",
+        "Funzione: L’amico può immaginare le due persone?",
+        "Autonomia: indica se hai usato aiuti, un modello o altre risorse. Rileggere non è una valutazione automatica."
+      ],
+      "model": "Mia madre è Anna. È italiana. Mio fratello è Paolo. È simpatico.",
+      "help": "Puedes presentar cada persona con essere, sin añadir su nombre. Revisa el posesivo junto al parentesco y la concordancia del adjetivo.",
+      "feedback": "Comprueba que cada descripción tiene un referente claro. Después revisa los posesivos de parentesco y la concordancia.",
+      "abstention": "Este mensaje abierto no recibe una nota ni una corrección automática. La autolectura y el modelo no demuestran dominio. Puedes revisarlo con la rúbrica o practicar el concepto relacionado con una actividad delimitada.",
+      "alternativeConceptId": "it-a1-c23-02"
+    }
+  },
+  {
+    "id": "it-a1-writing-casa",
+    "version": "1",
+    "fingerprint": "87c9e956c6d9efb5",
+    "content": {
+      "id": "it-a1-writing-casa",
+      "version": "1",
+      "status": "candidate",
+      "title": "La casa per un ospite",
+      "level": 3,
+      "kind": "guided",
+      "context": "Un amico viene a casa tua. Scrivi una breve descrizione della casa, reale o inventata.",
+      "prompt": "Scrivi 3–5 frasi: indica due stanze, descrivi un mobile e spiega dove si trova.",
+      "objectives": [
+        "Descrivere una casa",
+        "Distinguere ciò che c’è e dove si trova"
+      ],
+      "requiredConcepts": [
+        "it-a1-c19-02",
+        "it-a1-c19-01",
+        "it-a1-c12-01",
+        "it-a1-c20-02",
+        "it-a1-c21-02",
+        "it-a1-c34-02"
+      ],
+      "rubric": [
+        "Consegna: Ci sono due stanze, un mobile e la sua posizione?",
+        "Struttura: Controlla c’è/ci sono e essere per la posizione.",
+        "Vocabolario: Le parole per stanze e mobili sono comprensibili?",
+        "Organizzazione: Presenti il mobile prima di indicare dove si trova?",
+        "Funzione: L’ospite capisce com’è la casa?",
+        "Autonomia: indica se hai usato aiuti, un modello o altre risorse. Rileggere non è una valutazione automatica."
+      ],
+      "model": "In casa ci sono una cucina e una camera. C’è un tavolo grande. Il tavolo è in cucina.",
+      "help": "Distingue presentar algo que hay de localizar algo ya mencionado. Usa pocas habitaciones y un mueble conocido.",
+      "feedback": "Comprueba si tu invitado puede localizar el mueble. Revisa después existencia, ubicación y concordancia del grupo nominal.",
+      "abstention": "Este mensaje abierto no recibe una nota ni una corrección automática. La autolectura y el modelo no demuestran dominio. Puedes revisarlo con la rúbrica o practicar el concepto relacionado con una actividad delimitada.",
+      "alternativeConceptId": "it-a1-c19-02"
+    }
+  },
+  {
+    "id": "it-a1-writing-ristorante",
+    "version": "1",
+    "fingerprint": "eee5b9bc1ae91f25",
+    "content": {
+      "id": "it-a1-writing-ristorante",
+      "version": "1",
+      "status": "candidate",
+      "title": "Un messaggio al ristorante",
+      "level": 3,
+      "kind": "guided",
+      "context": "Un ristorante accetta ordini per messaggio. Nel menu ci sono pasta, riso e pesce.",
+      "prompt": "Scrivi 3–4 frasi: chiedi un piatto e una bevanda, poi chiedi se nel piatto c’è formaggio. Usa un tono cortese.",
+      "objectives": [
+        "Ordinare con cortesia",
+        "Chiedere informazioni su un ingrediente"
+      ],
+      "requiredConcepts": [
+        "it-a1-c18-01",
+        "it-a1-c19-01",
+        "it-a1-c06-02",
+        "it-a1-c21-02",
+        "it-a1-c34-03"
+      ],
+      "rubric": [
+        "Consegna: Chiedi un piatto, una bevanda e informazioni sul formaggio?",
+        "Struttura: Controlla vorrei e c’è nella domanda.",
+        "Vocabolario: Il piatto, la bevanda e l’ingrediente sono chiari?",
+        "Organizzazione: La domanda si riferisce al piatto ordinato?",
+        "Funzione: Il ristorante può capire l’ordine e rispondere?",
+        "Autonomia: indica se hai usato aiuti, un modello o altre risorse. Rileggere non è una valutazione automatica."
+      ],
+      "model": "Buongiorno, vorrei un piatto di pasta e una bottiglia d’acqua. Nella pasta c’è formaggio? Grazie.",
+      "help": "Elige un plato del menú. Haz una petición cortés y una pregunta concreta sobre el ingrediente; no hace falta explicar una condición médica.",
+      "feedback": "Comprueba primero que el pedido y la pregunta se entienden. Revisa después la fórmula cortés y la expresión de existencia.",
+      "abstention": "Este mensaje abierto no recibe una nota ni una corrección automática. La autolectura y el modelo no demuestran dominio. Puedes revisarlo con la rúbrica o practicar el concepto relacionado con una actividad delimitada.",
+      "alternativeConceptId": "it-a1-c18-01"
+    }
+  },
+  {
+    "id": "it-a1-writing-spesa",
+    "version": "1",
+    "fingerprint": "c6659216c15531b6",
+    "content": {
+      "id": "it-a1-writing-spesa",
+      "version": "1",
+      "status": "candidate",
+      "title": "La spesa per casa",
+      "level": 3,
+      "kind": "guided",
+      "context": "Scrivi a un negozio di alimentari per chiedere alcuni prodotti.",
+      "prompt": "Scrivi 3–4 frasi: chiedi due alimenti con quantità precise e domanda il prezzo totale.",
+      "objectives": [
+        "Chiedere alimenti e quantità",
+        "Domandare un prezzo"
+      ],
+      "requiredConcepts": [
+        "it-a1-c27-01",
+        "it-a1-c18-01",
+        "it-a1-c13-03",
+        "it-a1-c34-03",
+        "it-a1-c06-03"
+      ],
+      "rubric": [
+        "Consegna: Ci sono due alimenti, due quantità e una domanda sul prezzo?",
+        "Struttura: Controlla le quantità seguite da di.",
+        "Vocabolario: Le unità e gli alimenti si capiscono?",
+        "Organizzazione: Ogni quantità è vicina al suo alimento?",
+        "Funzione: Il negozio può preparare la spesa?",
+        "Autonomia: indica se hai usato aiuti, un modello o altre risorse. Rileggere non è una valutazione automatica."
+      ],
+      "model": "Buongiorno, vorrei un chilo di mele. Vorrei anche un litro di latte. Quanto costa tutto? Grazie.",
+      "help": "Elige unidades adecuadas para dos productos. Mantén la construcción de cantidad con di y termina preguntando el precio.",
+      "feedback": "Comprueba que no falta ninguna cantidad. Después revisa las unidades y la construcción con di.",
+      "abstention": "Este mensaje abierto no recibe una nota ni una corrección automática. La autolectura y el modelo no demuestran dominio. Puedes revisarlo con la rúbrica o practicar el concepto relacionado con una actividad delimitada.",
+      "alternativeConceptId": "it-a1-c27-01"
+    }
+  },
+  {
+    "id": "it-a1-writing-scelta",
+    "version": "1",
+    "fingerprint": "39c39e6b327b5de7",
+    "content": {
+      "id": "it-a1-writing-scelta",
+      "version": "1",
+      "status": "candidate",
+      "title": "Una scelta in negozio",
+      "level": 3,
+      "kind": "guided",
+      "context": "In una chat con un negozio vedi due magliette: una rossa vicina e una blu lontana.",
+      "prompt": "Scrivi 3–4 frasi: scegli una maglietta, indica il colore e chiedi la taglia M e il prezzo.",
+      "objectives": [
+        "Identificare un prodotto",
+        "Chiedere taglia e prezzo"
+      ],
+      "requiredConcepts": [
+        "it-a1-c24-01",
+        "it-a1-c24-02",
+        "it-a1-c12-01",
+        "it-a1-c06-03",
+        "it-a1-c18-01",
+        "it-a1-c05-02",
+        "it-a1-c34-04"
+      ],
+      "rubric": [
+        "Consegna: Scegli una maglietta e chiedi taglia e prezzo?",
+        "Struttura: Controlla il dimostrativo e il colore con maglietta.",
+        "Vocabolario: Il colore e la taglia sono chiari?",
+        "Organizzazione: Le domande si riferiscono alla stessa maglietta?",
+        "Funzione: Il negozio può identificare la tua scelta?",
+        "Autonomia: indica se hai usato aiuti, un modello o altre risorse. Rileggere non è una valutazione automatica."
+      ],
+      "model": "Buongiorno, vorrei quella maglietta blu. Avete la taglia M? Quanto costa? Grazie.",
+      "help": "Elige solo una de las prendas. Revisa la referencia cercana o lejana y mantén el mismo referente en las preguntas.",
+      "feedback": "Comprueba si se puede identificar la prenda sin dudas. Después revisa el demostrativo y su concordancia.",
+      "abstention": "Este mensaje abierto no recibe una nota ni una corrección automática. La autolectura y el modelo no demuestran dominio. Puedes revisarlo con la rúbrica o practicar el concepto relacionado con una actividad delimitada.",
+      "alternativeConceptId": "it-a1-c24-01"
+    }
+  },
+  {
+    "id": "it-a1-writing-routine",
+    "version": "1",
+    "fingerprint": "db6aaf0d28d02a31",
+    "content": {
+      "id": "it-a1-writing-routine",
+      "version": "1",
+      "status": "candidate",
+      "title": "Una giornata di lavoro",
+      "level": 3,
+      "kind": "guided",
+      "context": "Un collega vuole conoscere i tuoi orari. Puoi inventare la tua giornata.",
+      "prompt": "Scrivi 4–5 frasi: indica quando ti alzi, quando lavori o studi e un’attività che fai spesso dopo.",
+      "objectives": [
+        "Descrivere una routine",
+        "Comunicare orari e frequenza"
+      ],
+      "requiredConcepts": [
+        "it-a1-c26-02",
+        "it-a1-c14-02",
+        "it-a1-c22-02",
+        "it-a1-c22-03",
+        "it-a1-c29-04",
+        "it-a1-c15-01",
+        "it-a1-c34-05"
+      ],
+      "rubric": [
+        "Consegna: Ci sono il risveglio, il lavoro o lo studio e un’attività dopo?",
+        "Struttura: Controlla il riflessivo e i verbi al presente.",
+        "Vocabolario: Orari e frequenza sono comprensibili?",
+        "Organizzazione: Le attività seguono un ordine chiaro?",
+        "Funzione: Il collega capisce la tua giornata abituale?",
+        "Autonomia: indica se hai usato aiuti, un modello o altre risorse. Rileggere non è una valutazione automatica."
+      ],
+      "model": "Mi alzo alle sette. Lavoro alle nove. Poi studio italiano. La sera leggo spesso.",
+      "help": "Describe hábitos, no un día pasado. Elige horas y una expresión de frecuencia; comprueba el pronombre del reflexivo.",
+      "feedback": "Primero revisa si el horario se entiende. Después comprueba el reflexivo y una forma verbal en presente.",
+      "abstention": "Este mensaje abierto no recibe una nota ni una corrección automática. La autolectura y el modelo no demuestran dominio. Puedes revisarlo con la rúbrica o practicar el concepto relacionado con una actividad delimitada.",
+      "alternativeConceptId": "it-a1-c26-02"
+    }
+  },
+  {
+    "id": "it-a1-writing-gusti",
+    "version": "1",
+    "fingerprint": "7c246dc0138fa11d",
+    "content": {
+      "id": "it-a1-writing-gusti",
+      "version": "1",
+      "status": "candidate",
+      "title": "Il mio tempo libero",
+      "level": 4,
+      "kind": "semi-free",
+      "context": "Scrivi a una persona del corso per parlare del tempo libero.",
+      "prompt": "Scegli due attività. In 4–6 frasi racconta cosa ti piace e cosa non ti piace; fai una domanda alla persona.",
+      "objectives": [
+        "Esprimere gusti personali",
+        "Invitare a una risposta"
+      ],
+      "requiredConcepts": [
+        "it-a1-c25-01",
+        "it-a1-c25-02",
+        "it-a1-c06-03",
+        "it-a1-c29-02",
+        "it-a1-c16-02",
+        "it-a1-c21-02",
+        "it-a1-c34-05"
+      ],
+      "rubric": [
+        "Consegna: Parli di due attività e fai una domanda?",
+        "Struttura: Controlla piace/piacciono e la negazione.",
+        "Vocabolario: Il lessico descrive le tue scelte?",
+        "Organizzazione: Le preferenze sono collegate senza contraddizioni?",
+        "Funzione: La persona può rispondere parlando dei suoi gusti?",
+        "Autonomia: indica se hai usato aiuti, un modello o altre risorse. Rileggere non è una valutazione automatica."
+      ],
+      "model": "Ciao! Mi piace leggere. Mi piacciono i libri italiani, ma non mi piace studiare la sera. Mi piace anche andare al cinema. Che cosa ti piace fare?",
+      "help": "Elige actividades conocidas y decide qué opinión quieres expresar. Comprueba qué elemento determina piace o piacciono.",
+      "feedback": "Comprueba primero si invitas a una conversación. Revisa después una expresión de gusto y la negación.",
+      "abstention": "Este mensaje abierto no recibe una nota ni una corrección automática. La autolectura y el modelo no demuestran dominio. Puedes revisarlo con la rúbrica o practicar el concepto relacionado con una actividad delimitada.",
+      "alternativeConceptId": "it-a1-c25-01"
+    }
+  },
+  {
+    "id": "it-a1-writing-invito",
+    "version": "1",
+    "fingerprint": "c1d089b97bf30521",
+    "content": {
+      "id": "it-a1-writing-invito",
+      "version": "1",
+      "status": "candidate",
+      "title": "Un invito per sabato",
+      "level": 3,
+      "kind": "guided",
+      "context": "Vuoi vedere un amico sabato. Scrivi un messaggio.",
+      "prompt": "Scrivi 3–5 frasi: proponi un’attività, indica un luogo e un’ora e chiedi se l’amico può venire.",
+      "objectives": [
+        "Invitare una persona",
+        "Proporre luogo e ora"
+      ],
+      "requiredConcepts": [
+        "it-a1-c22-04",
+        "it-a1-c17-01",
+        "it-a1-c16-04",
+        "it-a1-c20-03",
+        "it-a1-c16-02",
+        "it-a1-c20-04",
+        "it-a1-c21-02",
+        "it-a1-c34-05"
+      ],
+      "rubric": [
+        "Consegna: Ci sono attività, luogo, giorno e ora?",
+        "Struttura: Controlla potere con l’infinito e l’ora dell’incontro.",
+        "Vocabolario: Luogo e attività sono riconoscibili?",
+        "Organizzazione: I dettagli descrivono lo stesso incontro?",
+        "Funzione: L’amico può accettare o rifiutare?",
+        "Autonomia: indica se hai usato aiuti, un modello o altre risorse. Rileggere non è una valutazione automatica."
+      ],
+      "model": "Ciao Luca! Sabato vado al cinema alle otto. Puoi venire con me? A presto!",
+      "help": "Decide actividad, lugar y hora antes de escribir. La pregunta final debe permitir que tu amigo confirme su disponibilidad.",
+      "feedback": "Comprueba si tu amigo tiene todos los datos para decidir. Después revisa la hora y potere con infinitivo.",
+      "abstention": "Este mensaje abierto no recibe una nota ni una corrección automática. La autolectura y el modelo no demuestran dominio. Puedes revisarlo con la rúbrica o practicar el concepto relacionado con una actividad delimitada.",
+      "alternativeConceptId": "it-a1-c22-04"
+    }
+  },
+  {
+    "id": "it-a1-writing-risposta-invito",
+    "version": "1",
+    "fingerprint": "e940ba4a0d9bcd4b",
+    "content": {
+      "id": "it-a1-writing-risposta-invito",
+      "version": "1",
+      "status": "candidate",
+      "title": "Rispondere a un invito",
+      "level": 4,
+      "kind": "semi-free",
+      "context": "Sara scrive: «Ciao! Sabato alle otto vado al cinema. Puoi venire con me?»",
+      "prompt": "Scegli se accettare o rifiutare. Rispondi in 3–5 frasi, ringrazia e aggiungi un’informazione utile o una proposta diversa.",
+      "objectives": [
+        "Rispondere a un invito",
+        "Esprimere disponibilità o un’alternativa"
+      ],
+      "requiredConcepts": [
+        "it-a1-c17-01",
+        "it-a1-c17-03",
+        "it-a1-c22-04",
+        "it-a1-c29-03",
+        "it-a1-c14-02",
+        "it-a1-c16-02",
+        "it-a1-c21-02",
+        "it-a1-c34-07",
+        "it-a1-c02-02"
+      ],
+      "rubric": [
+        "Consegna: La risposta contiene una decisione, un ringraziamento e un dettaglio utile?",
+        "Struttura: Controlla i modali con l’infinito.",
+        "Vocabolario: Le parole indicano possibilità o impegni?",
+        "Organizzazione: La decisione e gli altri dettagli sono coerenti?",
+        "Funzione: Sara capisce se vi incontrate o deve rispondere a una nuova proposta?",
+        "Autonomia: indica se hai usato aiuti, un modello o altre risorse. Rileggere non è una valutazione automatica."
+      ],
+      "model": "Grazie, Sara! Sabato non posso perché devo lavorare. Sono libero domenica. Possiamo andare al cinema domenica?",
+      "help": "Puedes aceptar o rechazar. No necesitas justificarte con información real; si propones otro día, deja clara la nueva propuesta.",
+      "feedback": "Comprueba que tu decisión no queda ambigua. Revisa después un modal y, si la usas, la causa con perché.",
+      "abstention": "Este mensaje abierto no recibe una nota ni una corrección automática. La autolectura y el modelo no demuestran dominio. Puedes revisarlo con la rúbrica o practicar el concepto relacionado con una actividad delimitada.",
+      "alternativeConceptId": "it-a1-c17-01"
+    }
+  },
+  {
+    "id": "it-a1-writing-programma",
+    "version": "1",
+    "fingerprint": "ae1a3b5bac17fa04",
+    "content": {
+      "id": "it-a1-writing-programma",
+      "version": "1",
+      "status": "candidate",
+      "title": "Un programma insieme",
+      "level": 4,
+      "kind": "free",
+      "context": "Un amico passa una giornata nella tua città. Scrivi un breve programma per lui.",
+      "prompt": "Scegli luoghi, attività e orari. Scrivi 4–6 frasi per proporre una giornata possibile insieme, usando il presente.",
+      "objectives": [
+        "Organizzare un programma breve",
+        "Collegare scelte personali"
+      ],
+      "requiredConcepts": [
+        "it-a1-c16-02",
+        "it-a1-c22-02",
+        "it-a1-c20-03",
+        "it-a1-c29-04",
+        "it-a1-c15-01",
+        "it-a1-c21-02",
+        "it-a1-c34-06"
+      ],
+      "rubric": [
+        "Consegna: Il messaggio propone una giornata insieme?",
+        "Struttura: Controlla presente, destinazioni e orari.",
+        "Vocabolario: I luoghi e le attività sono comprensibili?",
+        "Organizzazione: L’ordine delle attività è possibile?",
+        "Funzione: L’amico può capire e discutere il programma?",
+        "Autonomia: indica se hai usato aiuti, un modello o altre risorse. Rileggere non è una valutazione automatica."
+      ],
+      "model": "Ciao! Domani alle dieci andiamo in centro. Poi prendiamo un caffè al bar. Alle dodici andiamo al ristorante. Nel pomeriggio siamo liberi.",
+      "help": "Elige pocos lugares y deja tiempo entre actividades. Puedes usar el presente para un plan con un marcador temporal claro.",
+      "feedback": "Comprueba si el programa es comprensible y coherente. Después revisa destinos y horas; revisarlo no demuestra transferencia a otro mensaje.",
+      "abstention": "Este mensaje abierto no recibe una nota ni una corrección automática. La autolectura y el modelo no demuestran dominio. Puedes revisarlo con la rúbrica o practicar el concepto relacionado con una actividad delimitada.",
+      "alternativeConceptId": "it-a1-c16-02"
+    }
+  },
+  {
+    "id": "it-a1-writing-prenotazione",
+    "version": "1",
+    "fingerprint": "075006eb4ee5bd5a",
+    "content": {
+      "id": "it-a1-writing-prenotazione",
+      "version": "1",
+      "status": "candidate",
+      "title": "Una camera per il viaggio",
+      "level": 3,
+      "kind": "guided",
+      "context": "Scrivi a un albergo per chiedere una camera. Puoi inventare le date.",
+      "prompt": "Scrivi 3–5 frasi: indica il tipo di camera, la data di arrivo e il numero di notti; chiedi il prezzo.",
+      "objectives": [
+        "Chiedere una prenotazione",
+        "Comunicare date e necessità"
+      ],
+      "requiredConcepts": [
+        "it-a1-c18-01",
+        "it-a1-c22-01",
+        "it-a1-c13-03",
+        "it-a1-c20-06",
+        "it-a1-c34-06",
+        "it-a1-c34-02"
+      ],
+      "rubric": [
+        "Consegna: Indichi camera, arrivo, notti e domanda sul prezzo?",
+        "Struttura: Controlla la richiesta cortese e le espressioni di tempo.",
+        "Vocabolario: Tipo di camera e numero di notti sono chiari?",
+        "Organizzazione: Le informazioni descrivono una sola prenotazione?",
+        "Funzione: L’albergo ha i dati per rispondere alla richiesta?",
+        "Autonomia: indica se hai usato aiuti, un modello o altre risorse. Rileggere non è una valutazione automatica."
+      ],
+      "model": "Buongiorno, vorrei una camera singola per due notti. Arrivo il dieci maggio. Quanto costa la camera? Grazie.",
+      "help": "Antes de escribir decide tipo de habitación, llegada y duración. Una petición no significa que la reserva ya esté confirmada.",
+      "feedback": "Comprueba si el hotel conoce lo que solicitas. Después revisa la fecha y la fórmula de petición.",
+      "abstention": "Este mensaje abierto no recibe una nota ni una corrección automática. La autolectura y el modelo no demuestran dominio. Puedes revisarlo con la rúbrica o practicar el concepto relacionado con una actividad delimitada.",
+      "alternativeConceptId": "it-a1-c18-01"
+    }
+  },
+  {
+    "id": "it-a1-writing-informazioni-casa",
+    "version": "1",
+    "fingerprint": "7c7dd8eeae754e77",
+    "content": {
+      "id": "it-a1-writing-informazioni-casa",
+      "version": "1",
+      "status": "candidate",
+      "title": "Chiedere informazioni su una camera",
+      "level": 4,
+      "kind": "semi-free",
+      "context": "Leggi un annuncio: «Camera in centro, disponibile a giugno». Scrivi alla persona dell’annuncio.",
+      "prompt": "Scegli due informazioni che mancano e scrivi un messaggio di 3–5 frasi per chiederle. Presenta brevemente la tua richiesta.",
+      "objectives": [
+        "Individuare informazioni mancanti",
+        "Scrivere una richiesta cortese"
+      ],
+      "requiredConcepts": [
+        "it-a1-c06-03",
+        "it-a1-c18-01",
+        "it-a1-c19-01",
+        "it-a1-c34-02",
+        "it-a1-c22-01"
+      ],
+      "rubric": [
+        "Consegna: Chiedi due informazioni che non sono nell’annuncio?",
+        "Struttura: Controlla le domande e la formula cortese.",
+        "Vocabolario: Le parole indicano informazioni precise sulla camera?",
+        "Organizzazione: L’apertura chiarisce a quale annuncio rispondi?",
+        "Funzione: La persona sa a quali domande rispondere?",
+        "Autonomia: indica se hai usato aiuti, un modello o altre risorse. Rileggere non è una valutazione automatica."
+      ],
+      "model": "Buongiorno, vorrei informazioni sulla camera disponibile a giugno. Quanto costa? C’è un bagno privato? Grazie.",
+      "help": "No repitas como pregunta un dato que ya aparece. Elige, por ejemplo, precio o equipamiento, y formula dos preguntas distintas.",
+      "feedback": "Comprueba primero que preguntas por datos ausentes. Después revisa un interrogativo y la petición cortés.",
+      "abstention": "Este mensaje abierto no recibe una nota ni una corrección automática. La autolectura y el modelo no demuestran dominio. Puedes revisarlo con la rúbrica o practicar el concepto relacionado con una actividad delimitada.",
+      "alternativeConceptId": "it-a1-c06-03"
+    }
+  },
+  {
+    "id": "it-a1-writing-trasporto",
+    "version": "1",
+    "fingerprint": "d6f376565fd71d82",
+    "content": {
+      "id": "it-a1-writing-trasporto",
+      "version": "1",
+      "status": "candidate",
+      "title": "Un biglietto e un orario",
+      "level": 3,
+      "kind": "guided",
+      "context": "Scrivi al servizio informazioni della stazione. Vuoi andare da Roma a Firenze domani mattina.",
+      "prompt": "Scrivi 3–4 frasi: indica il viaggio, chiedi l’ora di partenza e il prezzo di un biglietto.",
+      "objectives": [
+        "Chiedere informazioni su un viaggio",
+        "Precisare destinazione e orario"
+      ],
+      "requiredConcepts": [
+        "it-a1-c20-03",
+        "it-a1-c22-02",
+        "it-a1-c18-01",
+        "it-a1-c06-03",
+        "it-a1-c34-06"
+      ],
+      "rubric": [
+        "Consegna: Indichi origine, destinazione e momento del viaggio e fai due domande?",
+        "Struttura: Controlla le preposizioni del viaggio e la domanda sull’ora.",
+        "Vocabolario: Partenza e biglietto hanno un significato chiaro?",
+        "Organizzazione: Le domande si riferiscono allo stesso viaggio?",
+        "Funzione: Il servizio può cercare le informazioni necessarie?",
+        "Autonomia: indica se hai usato aiuti, un modello o altre risorse. Rileggere non è una valutazione automatica."
+      ],
+      "model": "Buongiorno, vorrei un biglietto da Roma a Firenze per domani mattina. A che ora parte il treno? Quanto costa il biglietto? Grazie.",
+      "help": "Mantén origen, destino y momento del viaje explícitos. Distingue la pregunta por la salida de la pregunta por el precio.",
+      "feedback": "Comprueba que se puede identificar el trayecto. Revisa después las preposiciones de destino y la pregunta por la hora.",
+      "abstention": "Este mensaje abierto no recibe una nota ni una corrección automática. La autolectura y el modelo no demuestran dominio. Puedes revisarlo con la rúbrica o practicar el concepto relacionado con una actividad delimitada.",
+      "alternativeConceptId": "it-a1-c20-03"
+    }
+  },
+  {
+    "id": "it-a1-writing-indicazioni",
+    "version": "1",
+    "fingerprint": "5cf0268e24da8531",
+    "content": {
+      "id": "it-a1-writing-indicazioni",
+      "version": "1",
+      "status": "candidate",
+      "title": "Dalla stazione al bar",
+      "level": 3,
+      "kind": "guided",
+      "context": "Un amico è alla stazione. Per arrivare al bar deve andare dritto e poi girare a destra. Il bar è vicino alla farmacia.",
+      "prompt": "Scrivi 2–4 frasi al tuo amico: indica i due passi nell’ordine giusto e la posizione del bar.",
+      "objectives": [
+        "Dare indicazioni brevi",
+        "Ordinare due azioni"
+      ],
+      "requiredConcepts": [
+        "it-a1-c30-02",
+        "it-a1-c29-04",
+        "it-a1-c20-02",
+        "it-a1-c21-02",
+        "it-a1-c34-06"
+      ],
+      "rubric": [
+        "Consegna: Indichi i due passi e dove si trova il bar?",
+        "Struttura: Controlla le forme di istruzione per una persona.",
+        "Vocabolario: Destra, dritto e i luoghi sono chiari?",
+        "Organizzazione: Il percorso rispetta l’ordine dato?",
+        "Funzione: L’amico può seguire le indicazioni?",
+        "Autonomia: indica se hai usato aiuti, un modello o altre risorse. Rileggere non è una valutazione automatica."
+      ],
+      "model": "Vai dritto, poi gira a destra. Il bar è vicino alla farmacia.",
+      "help": "Usa solo las fórmulas de ruta aprendidas para tu. Conserva el orden de las acciones; no necesitas un paradigma completo de imperativo.",
+      "feedback": "Comprueba primero que la ruta coincide con los datos. Revisa después las dos instrucciones y el conector de orden.",
+      "abstention": "Este mensaje abierto no recibe una nota ni una corrección automática. La autolectura y el modelo no demuestran dominio. Puedes revisarlo con la rúbrica o practicar el concepto relacionado con una actividad delimitada.",
+      "alternativeConceptId": "it-a1-c30-02"
+    }
+  },
+  {
+    "id": "it-a1-writing-ieri",
+    "version": "1",
+    "fingerprint": "7609d12c5a8f1a81",
+    "content": {
+      "id": "it-a1-writing-ieri",
+      "version": "1",
+      "status": "candidate",
+      "title": "Un messaggio su ieri",
+      "level": 4,
+      "kind": "semi-free",
+      "context": "Un amico chiede come hai passato la giornata di ieri. Puoi inventare i fatti.",
+      "prompt": "Scrivi 4–6 frasi: racconta due o tre azioni finite e indica il loro ordine. Usa verbi che conosci.",
+      "objectives": [
+        "Raccontare fatti conclusi",
+        "Collegare azioni al passato"
+      ],
+      "requiredConcepts": [
+        "it-a1-c32-03",
+        "it-a1-c32-01",
+        "it-a1-c31-01",
+        "it-a1-c31-02",
+        "it-a1-c32-02",
+        "it-a1-c29-04"
+      ],
+      "rubric": [
+        "Consegna: Racconti due o tre fatti di ieri?",
+        "Struttura: Controlla ausiliare e participio dei verbi scelti.",
+        "Vocabolario: Le azioni appartengono al lessico che conosci?",
+        "Organizzazione: Il lettore capisce quale azione viene prima?",
+        "Funzione: L’amico capisce che racconti fatti conclusi?",
+        "Autonomia: indica se hai usato aiuti, un modello o altre risorse. Rileggere non è una valutazione automatica."
+      ],
+      "model": "Ciao! Ieri ho lavorato. Poi ho studiato italiano. La sera ho letto un libro. Ho dormito bene.",
+      "help": "Elige pocas acciones conocidas. Sitúalas en ayer y revisa cada combinación de auxiliar y participio; no necesitas imperfecto.",
+      "feedback": "Comprueba que narras hechos terminados en un orden claro. Después revisa uno o dos participios; una edición del mismo texto no acredita transferencia.",
+      "abstention": "Este mensaje abierto no recibe una nota ni una corrección automática. La autolectura y el modelo no demuestran dominio. Puedes revisarlo con la rúbrica o practicar el concepto relacionado con una actividad delimitada.",
+      "alternativeConceptId": "it-a1-c32-03"
+    }
+  },
+  {
+    "id": "it-a1-writing-viaggio-passato",
+    "version": "1",
+    "fingerprint": "002b1c3641a56112",
+    "content": {
+      "id": "it-a1-writing-viaggio-passato",
+      "version": "1",
+      "status": "candidate",
+      "title": "Un piccolo viaggio",
+      "level": 4,
+      "kind": "free",
+      "context": "Scrivi a una persona del corso dopo un viaggio reale o inventato.",
+      "prompt": "Scegli una destinazione e racconta il viaggio in 4–6 frasi. Indica chi ha viaggiato e due fatti conclusi, tra cui un arrivo o una partenza.",
+      "objectives": [
+        "Raccontare un viaggio breve",
+        "Concordare il participio con essere"
+      ],
+      "requiredConcepts": [
+        "it-a1-c33-01",
+        "it-a1-c32-02",
+        "it-a1-c32-03",
+        "it-a1-c31-02",
+        "it-a1-c29-04",
+        "it-a1-c15-01",
+        "it-a1-c21-02",
+        "it-a1-c34-06"
+      ],
+      "rubric": [
+        "Consegna: Sono chiari destinazione, persone e due fatti, con arrivo o partenza?",
+        "Struttura: Controlla l’ausiliare e la concordanza del participio con essere.",
+        "Vocabolario: Le parole descrivono un viaggio semplice?",
+        "Organizzazione: Persone, tempi e ordine dei fatti sono coerenti?",
+        "Funzione: Il lettore capisce che cosa è successo nel viaggio?",
+        "Autonomia: indica se hai usato aiuti, un modello o altre risorse. Rileggere non è una valutazione automatica."
+      ],
+      "model": "Ciao! Ieri Anna e Luca sono arrivati a Roma. Hanno preso un autobus per il centro. Poi hanno visto il centro. La sera hanno dormito in albergo.",
+      "help": "Decide quién viaja antes de escribir. Con essere revisa género y número del sujeto; no elijas el auxiliar solo porque hay movimiento.",
+      "feedback": "Comprueba que se sabe quién hizo cada acción. Después revisa la elección del auxiliar y la concordancia con essere.",
+      "abstention": "Este mensaje abierto no recibe una nota ni una corrección automática. La autolectura y el modelo no demuestran dominio. Puedes revisarlo con la rúbrica o practicar el concepto relacionado con una actividad delimitada.",
+      "alternativeConceptId": "it-a1-c33-01"
+    }
+  },
+  {
+    "id": "W-C01",
+    "version": "1",
+    "fingerprint": "9fef093a52c250c9",
+    "content": {
+      "id": "W-C01",
+      "version": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "conceptId": "it-a1-c04-02",
+      "conceptVersion": "1",
+      "dimension": "contextual-use",
+      "prompt": "Scrivi una frase per presentarti a un collega: sei Luca e sei italiano. Usa essere, scrivi il nome e la nazionalità. Puoi usare o omettere io.",
+      "options": [],
+      "hint": "Con io, la forma de essere es sono. No necesitas repetir el pronombre.",
+      "explanation": "Sono Luca e sono italiano presenta nombre y nacionalidad con essere. Io es opcional. Noi requiere siamo; io requiere sono.",
+      "criterion": {
+        "version": "1",
+        "canonVersion": "1",
+        "accepted": [
+          "Sono Luca e sono italiano.",
+          "Sono Luca e sono italiano",
+          "Io sono Luca e sono italiano.",
+          "Io sono Luca e sono italiano",
+          "Sono Luca, sono italiano.",
+          "Sono Luca, sono italiano"
+        ],
+        "rejected": [
+          "Io siamo Luca e siamo italiano.",
+          "Io siamo Luca e siamo italiano"
+        ],
+        "exhaustive": false,
+        "typos": [
+          "Sno Luca e sono italiano."
+        ]
+      },
+      "writing": {
+        "policy": "bounded",
+        "model": "Sono Luca e sono italiano.",
+        "rubric": [
+          "Consigna: nome e nazionalità indicati.",
+          "Struttura: essere con io, anche senza il pronome.",
+          "Vocabolario: nome e nazionalità dati.",
+          "Organizzazione: una frase di presentazione.",
+          "Funzione: presentarsi a un collega.",
+          "Autonomia: aiuti e tentativi sono registrati."
+        ],
+        "incomplete": [
+          "Sono Luca.",
+          "Sono Luca"
+        ],
+        "offTask": [
+          "Sono Paolo e sono francese.",
+          "Sono Paolo e sono francese"
+        ],
+        "noTarget": [
+          "Mi chiamo Luca e vengo dall’Italia.",
+          "Mi chiamo Luca e vengo dall’Italia"
+        ]
+      },
+      "task": {
+        "skill": "controlled-production",
+        "context": "presentazione al lavoro",
+        "facets": [
+          "identità",
+          "nazionalità"
+        ],
+        "opportunityId": "W-C01:essere",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "status": "candidate",
+      "provenance": "Writing A1 · original bounded production · C04-02 · candidate"
+    }
+  }
+]

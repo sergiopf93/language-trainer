@@ -1,3 +1,4 @@
+import { writingOptions, writingPreparation } from '../../writing/engine';
 import { copy, language, instruction } from '../language';
 import {
   link,
@@ -102,8 +103,11 @@ export async function learning(store: LocalStore, saved: () => void) {
         busy = true;
         content
           .querySelectorAll<
-            HTMLButtonElement | HTMLInputElement | HTMLSelectElement
-          >('button,input,select')
+            | HTMLButtonElement
+            | HTMLInputElement
+            | HTMLSelectElement
+            | HTMLTextAreaElement
+          >('button,input,select,textarea')
           .forEach((n) => (n.disabled = true));
         return enqueue(action, true);
       },
@@ -120,6 +124,7 @@ export async function learning(store: LocalStore, saved: () => void) {
     if (root.payload.mode === 'review')
       content.append(el('p', 'Ripasso · ' + root.payload.selectionReason));
     const title =
+      root.payload.writing?.title ??
       root.payload.reading?.title ??
       catalog.concepts.find((c) => c.id === root.payload.conceptId)?.title ??
       root.payload.conceptId;
@@ -128,7 +133,9 @@ export async function learning(store: LocalStore, saved: () => void) {
         'h2',
         root.payload.mode === 'mixed'
           ? 'Pratica mista'
-          : (theories[root.payload.conceptId]?.title ?? title),
+          : (root.payload.writing?.title ??
+              theories[root.payload.conceptId]?.title ??
+              title),
       ),
     );
     if (root.payload.contentStatus !== 'published')
@@ -156,29 +163,45 @@ export async function learning(store: LocalStore, saved: () => void) {
         );
     }
     if (state.status === 'completed') {
-      if (root.payload.reading) {
+      if (root.payload.reading || root.payload.writing) {
         const details = el('section');
         details.append(el('h3', 'Le tue risposte'));
         for (const a of root.payload.activities) {
           details.append(el('h4', a.prompt));
-          for (const attempt of facts.filter(
-            (f) =>
-              f.kind === 'attempt' &&
-              f.payload.sessionId === root.id &&
-              f.payload.activityId === a.id,
-          )) {
+          for (const attempt of facts
+            .filter(
+              (f) =>
+                f.kind === 'attempt' &&
+                f.payload.sessionId === root.id &&
+                f.payload.activityId === a.id,
+            )
+            .sort((x, y) =>
+              x.deviceId === y.deviceId
+                ? x.sequence - y.sequence
+                : x.occurredAt.localeCompare(y.occurredAt) ||
+                  x.id.localeCompare(y.id),
+            )) {
             if (attempt.kind !== 'attempt') continue;
             const result = facts.find(
               (f) =>
                 f.kind === 'evaluation' && f.payload.attemptId === attempt.id,
             );
-            if (result?.kind === 'evaluation')
-              details.append(
-                el(
-                  'p',
-                  `${attempt.payload.response || '(vuota)'} · ${judgmentLabels[result.payload.judgment]}`,
-                ),
+            if (result?.kind === 'evaluation') {
+              const response = el(
+                'p',
+                `${attempt.payload.response || '(vuota)'} · ${judgmentLabels[result.payload.judgment]}`,
               );
+              response.style.whiteSpace = 'pre-wrap';
+              if (root.payload.writing)
+                details.append(
+                  el(
+                    'p',
+                    `${attempt.payload.retryOf ? 'Revisione' : 'Primo tentativo'} · ${attempt.payload.hintShown || attempt.payload.theoryVersion || attempt.payload.solutionSeen || attempt.payload.exposureId ? 'con aiuto' : 'senza aiuto'}`,
+                    'muted',
+                  ),
+                );
+              details.append(response);
+            }
           }
           if (
             facts.some(
@@ -193,9 +216,13 @@ export async function learning(store: LocalStore, saved: () => void) {
         }
         details.append(
           support(
-            'Estas observaciones corresponden a comprensión lectora. No acreditan producción, dominio gramatical ni retención.',
+            root.payload.writing
+              ? 'Las producciones abiertas se conservan sin calificación. Solo los criterios delimitados generan observaciones del objetivo; una reparación no acredita recuperación autónoma.'
+              : 'Estas observaciones corresponden a comprensión lectora. No acreditan producción, dominio gramatical ni retención.',
           ),
-          link('Scegli un’altra lettura', '/reading'),
+          root.payload.writing
+            ? link('Scegli un’altra attività di scrittura', '/writing')
+            : link('Scegli un’altra lettura', '/reading'),
         );
         content.append(details);
       }
@@ -337,7 +364,9 @@ export async function learning(store: LocalStore, saved: () => void) {
         ),
       );
       const progress = el('a', 'Vedi i progressi', 'primary-link');
-      progress.href = ['mixed', 'reading'].includes(root.payload.mode)
+      progress.href = ['mixed', 'reading', 'writing'].includes(
+        root.payload.mode,
+      )
         ? '/progress'
         : '/progress?concept=' + root.payload.conceptId;
       const back = el('a', 'Torna alla biblioteca');
@@ -355,6 +384,29 @@ export async function learning(store: LocalStore, saved: () => void) {
       ),
       el('h3', instruction(activity)),
     );
+    if (activity.writing) {
+      if (activity.writing.policy === 'open')
+        content.append(
+          support(
+            'Texto abierto: se conserva sin nota ni corrección automática.',
+          ),
+        );
+      const rubric = el('details');
+      rubric.setAttribute('aria-label', 'Criteri per rileggere');
+      rubric.append(el('summary', 'Prima di inviare, rileggi'));
+      const list = el('ul');
+      for (const criterion of activity.writing.rubric)
+        list.append(el('li', criterion));
+      rubric.append(
+        list,
+        support(
+          activity.writing.policy === 'open'
+            ? 'Esta rúbrica te orienta al revisar; el sistema no evalúa automáticamente estas dimensiones. Tu texto se conservará sin nota.'
+            : 'Solo se verifican las respuestas y errores descritos por este criterio. Otras expresiones se conservan sin penalización.',
+        ),
+      );
+      content.append(rubric);
+    }
     const meter = el('progress');
     meter.max = root.payload.activities.length;
     meter.value = state.index;
@@ -405,7 +457,9 @@ export async function learning(store: LocalStore, saved: () => void) {
         content.append(
           el(
             'p',
-            'Riprova con la correzione: questa risposta conta come pratica con aiuto.',
+            activity.writing?.policy === 'open'
+              ? 'Rivedi il testo dopo il feedback: non è una correzione automatica.'
+              : 'Riprova con la correzione: questa risposta conta come pratica con aiuto.',
             'muted',
           ),
         );
@@ -447,24 +501,54 @@ export async function learning(store: LocalStore, saved: () => void) {
             : 'La tua risposta',
         );
         label.htmlFor = 'learning-answer';
-        const input = el('input');
+        const input = root.payload.writing ? el('textarea') : el('input');
+        if (input instanceof HTMLTextAreaElement)
+          input.rows = activity.family === 'F6' ? 8 : 3;
         input.id = 'learning-answer';
         input.value = state.draft;
         input.maxLength = 4000;
         input.autocomplete = 'off';
         input.spellcheck = false;
         input.lang = language.targetLanguage;
+        let lastQueuedValue = state.draft;
         input.addEventListener('input', () => {
           const value = input.value;
+          // A multiline paste can dispatch repeated events with the same final value.
+          if (root.payload.writing && value === lastQueuedValue) return;
+          lastQueuedValue = value;
           void enqueue(async () => {
             view = await engine.update(view!, 'draft', value);
           }, false);
         });
         content.append(label, input);
+        if (root.payload.writing) {
+          const preview = el('p');
+          preview.style.whiteSpace = 'pre-wrap';
+          preview.setAttribute('aria-live', 'polite');
+          content.append(
+            button(
+              'Rileggi il testo',
+              () => {
+                preview.textContent =
+                  input.value || 'Non hai ancora scritto un testo.';
+                preview.tabIndex = -1;
+                preview.focus();
+              },
+              true,
+            ),
+            preview,
+          );
+        }
       }
       if (!root.payload.reading) {
         if (state.hintShown) content.append(support('Ayuda: ' + activity.hint));
-        else content.append(command(copy.hint, change('hint'), true));
+        else {
+          content.append(command(copy.hint, change('hint'), true));
+          if (root.payload.writing)
+            content.append(
+              command('Ho usato un aiuto esterno', change('hint'), true),
+            );
+        }
       }
       content.append(
         command(copy.check, async () => {
@@ -505,6 +589,7 @@ export async function learning(store: LocalStore, saved: () => void) {
         symbol.setAttribute('aria-hidden', 'true');
         feedback.append(symbol);
         feedback.setAttribute('role', 'status');
+        if (root.payload.writing) feedback.style.whiteSpace = 'pre-wrap';
         feedback.append(
           el('h3', judgmentLabels[evaluation.payload.judgment]),
           el(
@@ -516,7 +601,8 @@ export async function learning(store: LocalStore, saved: () => void) {
           support(
             evaluation.payload.judgment === 'no-opportunity'
               ? 'Todavía no has enviado una respuesta. Puedes volver a intentarlo.'
-              : evaluation.payload.judgment === 'not-evaluable'
+              : evaluation.payload.judgment === 'not-evaluable' &&
+                  !root.payload.writing
                 ? 'No podemos comprobar esta respuesta con seguridad. No cuenta como error. Consulta la teoría si necesitas ayuda.'
                 : evaluation.payload.explanation.replace(
                     'La consigna pide el pronombre; este ítem no evalúa la omisión del sujeto.',
@@ -538,6 +624,35 @@ export async function learning(store: LocalStore, saved: () => void) {
             'muted',
           ),
         );
+        if (evaluation.payload.writingOutcome) {
+          const labels = {
+            canonical: 'Risposta verificata',
+            'accepted-variant': 'Variante accettata',
+            'confirmed-error': 'Errore verificato',
+            typo: 'Possibile refuso',
+            empty: 'Risposta vuota',
+            incomplete: 'Risposta incompleta',
+            'off-task': 'Consegna non rispettata',
+            'target-not-demonstrated': 'Struttura non dimostrata',
+            unassessed: 'Testo non valutato automaticamente',
+          };
+          feedback.append(el('p', labels[evaluation.payload.writingOutcome]));
+        }
+        if (
+          root.payload.writing &&
+          evaluation.payload.judgment === 'not-evaluable'
+        ) {
+          const option = writingOptions(catalog).find(
+            (o) => o.id === root.payload.writing!.id,
+          );
+          if (option)
+            feedback.append(
+              link(
+                'Pratica con un obiettivo verificabile',
+                '/practice?concept=' + option.alternativeConceptId,
+              ),
+            );
+        }
         content.append(feedback);
       }
       content.append(
@@ -569,6 +684,39 @@ export async function learning(store: LocalStore, saved: () => void) {
           'Hay versiones concurrentes. Vuelve a Practicar para elegir cuál continuar.',
         );
       draw();
+    } else if (params.has('writing')) {
+      const option = writingOptions(catalog).find(
+        (o) => o.id === params.get('writing'),
+      );
+      if (!option)
+        throw new Error('Scrittura non disponibile in questa versione.');
+      const missing = writingPreparation(
+        option,
+        catalog,
+        await store.allFacts(),
+      );
+      content.append(
+        el('h2', option.title),
+        el('p', option.objectives.join(' · ')),
+        el('p', option.context),
+      );
+      if (missing.length) {
+        content.append(el('p', 'Prima di scrivere, esplora questi concetti:'));
+        for (const id of missing)
+          content.append(
+            el('p'),
+            link(catalog.concept(id)?.title ?? id, '/concept?id=' + id),
+          );
+      } else
+        content.append(
+          command('Inizia a scrivere', async () => {
+            view = await engine.startWriting(option.id);
+          }),
+        );
+      content.append(
+        el('p'),
+        link('Tutte le attività di scrittura', '/writing'),
+      );
     } else if (params.has('reading')) {
       const text = reviewedReadings().find(
         (t) => t.id === params.get('reading'),
@@ -661,6 +809,7 @@ export async function learning(store: LocalStore, saved: () => void) {
         }),
       );
     } else {
+      content.append(link('Scrittura A1', '/writing', true));
       content.append(link('Letture A1', '/reading', true));
       content.append(link('Pratica mista', '/practice?mixed=1', true));
       content.append(await reviewOverview(store));
@@ -678,7 +827,7 @@ export async function learning(store: LocalStore, saved: () => void) {
           continue;
         const link = el(
           'a',
-          `${head.payload.state.status === 'completed' ? 'Riepilogo' : 'Continua'}${root.payload.mode === 'review' ? ' ripasso' : root.payload.mode === 'mixed' ? ' pratica mista' : ''}: ${root.payload.mode === 'mixed' ? 'Concetti in contesto' : (root.payload.reading?.title ?? catalog.concepts.find((c) => c.id === root.payload.conceptId)?.title ?? root.payload.conceptId)} · ${new Date(head.occurredAt).toLocaleString(language.targetLanguage)}`,
+          `${head.payload.state.status === 'completed' ? 'Riepilogo' : 'Continua'}${root.payload.mode === 'review' ? ' ripasso' : root.payload.mode === 'mixed' ? ' pratica mista' : ''}: ${root.payload.mode === 'mixed' ? 'Concetti in contesto' : (root.payload.writing?.title ?? root.payload.reading?.title ?? catalog.concepts.find((c) => c.id === root.payload.conceptId)?.title ?? root.payload.conceptId)} · ${new Date(head.occurredAt).toLocaleString(language.targetLanguage)}`,
         );
         link.href = '/practice?session=' + head.id;
         content.append(el('p'));

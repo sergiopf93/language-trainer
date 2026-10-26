@@ -15,6 +15,7 @@ export const skills = [
   'transformation',
   'discrimination',
   'controlled-production',
+  'communicative-production',
 ] as const;
 export type Skill = (typeof skills)[number];
 export interface TaskMetadata {
@@ -44,13 +45,34 @@ export interface ContentTrace {
   templateVersion?: string;
   variantKey?: string;
 }
+export const writingOutcomes = [
+  'canonical',
+  'accepted-variant',
+  'confirmed-error',
+  'typo',
+  'empty',
+  'incomplete',
+  'off-task',
+  'target-not-demonstrated',
+  'unassessed',
+] as const;
+export type WritingOutcome = (typeof writingOutcomes)[number];
+export interface WritingCriterion {
+  policy: 'open' | 'bounded';
+  rubric: string[];
+  model: string;
+  incomplete: string[];
+  offTask: string[];
+  noTarget: string[];
+}
 export interface Activity {
+  writing?: WritingCriterion;
   review?: { reviewer: string; date: string; version: string };
   publication?: { date: string; version: string };
   trace?: ContentTrace;
   id: string;
   version: string;
-  family: Exclude<ExerciseFamily, 'F6'>;
+  family: ExerciseFamily;
   task?: TaskMetadata;
   format:
     | 'selection'
@@ -62,7 +84,8 @@ export interface Activity {
     | 'error-correction'
     | 'translation'
     | 'matching'
-    | 'controlled-production';
+    | 'controlled-production'
+    | 'composition';
   conceptId: string;
   conceptVersion: string;
   dimension: Dimension;
@@ -97,7 +120,8 @@ export interface LearningPayloads {
     conceptId: string;
     conceptVersion: string;
     contentStatus: EditorialStatus;
-    mode: 'focus' | 'review' | 'mixed' | 'reading';
+    mode: 'focus' | 'review' | 'mixed' | 'reading' | 'writing';
+    writing?: { id: string; version: string; title: string };
     reading?: {
       id: string;
       version: string;
@@ -133,6 +157,7 @@ export interface LearningPayloads {
     exposureId: string | null;
   };
   evaluation: {
+    writingOutcome?: WritingOutcome;
     task?: TaskMetadata;
     accepted?: string[];
     typoPattern?: string;
@@ -198,7 +223,7 @@ export function validActivity(v: unknown): v is Activity {
       'id version family format conceptId conceptVersion dimension prompt options hint explanation criterion status provenance' +
         ('task' in v ? ' task' : '') +
         ('trace' in v ? ' trace' : '') +
-        optionalKeys(v, ['review', 'publication']),
+        optionalKeys(v, ['review', 'publication', 'writing']),
     )
   )
     return false;
@@ -224,6 +249,11 @@ export function validActivity(v: unknown): v is Activity {
         Object.values(v.publication).every(text))) &&
     (!('trace' in v) || validTrace(v.trace)) &&
     (!('task' in v) || validTask(v.task)) &&
+    (!('writing' in v) ||
+      (validWritingCriterion(v.writing) &&
+        (v.writing.policy === 'open'
+          ? v.family === 'F6'
+          : v.family !== 'F6'))) &&
     dimension(v.dimension) &&
     editorial(v.status) &&
     strings(v.options) &&
@@ -274,13 +304,15 @@ export function validLearningPayload(kind: string, p: unknown): boolean {
         keys(
           p,
           'packId conceptId conceptVersion contentStatus mode selectionReason activities state' +
-            optionalKeys(p, ['mixed', 'reading']),
+            optionalKeys(p, ['mixed', 'reading', 'writing']),
         ) &&
         ['packId', 'conceptId', 'conceptVersion', 'selectionReason'].every(
           (k) => text(p[k]),
         ) &&
         editorial(p.contentStatus) &&
-        ['focus', 'review', 'mixed', 'reading'].includes(p.mode as string) &&
+        ['focus', 'review', 'mixed', 'reading', 'writing'].includes(
+          p.mode as string,
+        ) &&
         Array.isArray(p.activities) &&
         p.activities.length > 0 &&
         p.activities.length <= 30 &&
@@ -342,7 +374,12 @@ export function validLearningPayload(kind: string, p: unknown): boolean {
         keys(
           p,
           'attemptId conceptId conceptVersion activityId activityVersion dimension judgment criterionVersion canonVersion evaluatorVersion explanation' +
-            optionalKeys(p, ['task', 'accepted', 'typoPattern']),
+            optionalKeys(p, [
+              'task',
+              'accepted',
+              'typoPattern',
+              'writingOutcome',
+            ]),
         ) &&
         id(p.attemptId) &&
         [
@@ -360,6 +397,8 @@ export function validLearningPayload(kind: string, p: unknown): boolean {
           (strings(p.accepted) && p.accepted.length > 0)) &&
         (!('typoPattern' in p) ||
           (p.judgment === 'typo' && text(p.typoPattern))) &&
+        (!('writingOutcome' in p) ||
+          writingOutcomes.includes(p.writingOutcome as WritingOutcome)) &&
         dimension(p.dimension) &&
         [
           'correct',
@@ -420,6 +459,18 @@ function validTask(v: unknown): v is TaskMetadata {
 }
 function validFormat(v: Record<string, unknown>) {
   const options = v.options as string[];
+  if (v.family === 'F6')
+    return (
+      v.format === 'composition' &&
+      options.length === 0 &&
+      v.dimension === 'contextual-use' &&
+      validTask(v.task) &&
+      v.task.skill === 'communicative-production' &&
+      validWritingCriterion(v.writing) &&
+      v.writing.policy === 'open' &&
+      record(v.criterion) &&
+      v.criterion.exhaustive === false
+    );
   if (v.family === 'F5')
     return (
       v.dimension === 'reading-comprehension' &&
@@ -464,7 +515,41 @@ export function validTrace(v: unknown): v is ContentTrace {
   return keys(v, names) && names.split(' ').every((k) => text(v[k]));
 }
 
+function validWritingCriterion(v: unknown): v is WritingCriterion {
+  return (
+    record(v) &&
+    keys(v, 'policy rubric model incomplete offTask noTarget') &&
+    ['open', 'bounded'].includes(v.policy as string) &&
+    strings(v.rubric) &&
+    v.rubric.length === 6 &&
+    text(v.model) &&
+    strings(v.incomplete) &&
+    strings(v.offTask) &&
+    strings(v.noTarget)
+  );
+}
 function validSessionScope(p: Record<string, unknown>) {
+  if (p.mode === 'writing') {
+    const w = p.writing;
+    return (
+      !('mixed' in p) &&
+      !('reading' in p) &&
+      record(w) &&
+      keys(w, 'id version title') &&
+      Object.values(w).every(text) &&
+      (p.activities as Activity[]).length === 1 &&
+      w.id === (p.activities as Activity[])[0].id &&
+      w.version === (p.activities as Activity[])[0].version &&
+      (p.activities as Activity[]).every(
+        (a) => a.family !== 'F5' && a.options.length === 0,
+      )
+    );
+  }
+  if (
+    'writing' in p ||
+    (p.activities as Activity[]).some((a) => a.family === 'F6' || a.writing)
+  )
+    return false;
   if (p.mode === 'reading') {
     const r = p.reading;
     return (

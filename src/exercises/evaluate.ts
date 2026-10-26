@@ -1,5 +1,5 @@
 import type { ExerciseEngine } from './contract';
-import type { Activity, Judgment } from '../../shared/learning';
+import type { Activity, Judgment, WritingOutcome } from '../../shared/learning';
 import { responseText } from './response';
 export const evaluatorVersion = 'canonical-match-v2';
 // Preserve accents and apostrophes; only case, Unicode composition and whitespace are neutral here.
@@ -8,7 +8,11 @@ export const normalize = (s: string) =>
 export function evaluate(
   activity: Activity,
   response: string,
-): { judgment: Judgment; explanation: string } {
+): {
+  judgment: Judgment;
+  explanation: string;
+  writingOutcome?: WritingOutcome;
+} {
   const decoded = responseText(activity, response);
   if (decoded === null)
     return {
@@ -22,9 +26,52 @@ export function evaluate(
       judgment: 'no-opportunity',
       explanation: 'No hay respuesta para observar este objetivo.',
     };
+  if (activity.writing?.policy === 'open')
+    return {
+      judgment: 'not-evaluable',
+      writingOutcome: 'unassessed',
+      explanation: activity.explanation,
+    };
+  const w = activity.writing;
+  if (w) {
+    for (const [values, outcome, explanation] of [
+      [
+        w.incomplete,
+        'incomplete',
+        'La respuesta identificada está incompleta. Revisa los datos pedidos.',
+      ],
+      [
+        w.offTask,
+        'off-task',
+        'Esta respuesta no cumple la consigna indicada; no se atribuye un error gramatical.',
+      ],
+      [
+        w.noTarget,
+        'target-not-demonstrated',
+        'La expresión es válida, pero no demuestra la estructura solicitada.',
+      ],
+    ] as const)
+      if (values.some((x) => normalize(x) === value))
+        return {
+          judgment: 'not-evaluable',
+          writingOutcome: outcome,
+          explanation,
+        };
+  }
   const c = activity.criterion;
   if (c.accepted.some((a) => normalize(a) === value))
-    return { judgment: 'correct', explanation: activity.explanation };
+    return {
+      judgment: 'correct',
+      explanation: activity.explanation,
+      ...(w
+        ? {
+            writingOutcome:
+              normalize(c.accepted[0]) === value
+                ? ('canonical' as const)
+                : ('accepted-variant' as const),
+          }
+        : {}),
+    };
   const knownWrong = c.rejected.some((a) => normalize(a) === value);
   if (
     !knownWrong &&

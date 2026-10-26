@@ -59,6 +59,8 @@ export async function home(store: LocalStore) {
     link('Vai al ripasso', '/practice'),
     el('p'),
     link('Letture A1', '/reading'),
+    el('p'),
+    link('Scrittura A1', '/writing'),
   );
   page.append(card);
   return page;

@@ -1,0 +1,200 @@
+{
+  "packetSha256": "2a1074e5f113d15ac3b789b8d9317be5f983727464fbf02d2915fe94411d96b2",
+  "reviewer": "writing_editorial",
+  "reviewKind": "independent-agent-editorial-review",
+  "humanReview": false,
+  "scope": "19 tareas completas del paquete: 18 abiertas y W-C01. Sin lectura del dictamen inicial de R2. Contraste selectivo de Research02/03 y Theory pertinentes C02–C34; lectura estática de engine y evaluator. No certifica eficacia ni prueba con alumnos.",
+  "policyChecks": {
+    "open": "evaluate retorna not-evaluable/unassessed antes de accepted: el modelo y las alternativas no se califican. Vacío retorna no-opportunity.",
+    "boundedUnknown": "exhaustive:false: cualquier variante no enumerada se abstiene, incluidas alternativas válidas como Sono Luca e italiano.",
+    "accepted": "Las seis variantes son presentaciones italianas válidas; io es opcional y coordinación/yuxtaposición son admisibles.",
+    "rejected": "Io siamo Luca e siamo italiano tiene incompatibilidad explícita io/siamo; error focal seguro, sin rechazar una alternativa válida.",
+    "typos": "Sno se clasifica como posible errata, no éxito ni error lingüístico seguro.",
+    "incomplete": "Sono Luca omite nacionalidad: abstención, no error gramatical.",
+    "offTask": "Sono Paolo e sono francese cambia datos; italiano válido, abstención sin penalización gramatical.",
+    "noTarget": "Mi chiamo Luca e vengo dall’Italia es gramatical y no usa essere; abstención target-not-demonstrated. Procedencia no certifica por sí sola nacionalidad.",
+    "prerequisites": "W-C01 declara C04-02 y C04-03 en writingOptions; writingPreparation expande prerrequisitos transitivos. Objetivos de abiertas acordes con las Theory contrastadas; no se certifica producción de cada concepto por una composición abierta."
+  },
+  "reviews": [
+    {
+      "id": "it-a1-writing-presentazione",
+      "version": "1",
+      "fingerprint": "5522d292320a9c68",
+      "decision": "approved",
+      "findings": [],
+      "reviewNote": "Saludo, identidad, origen y despedida coherentes; C04-02/03 y C02-01 preparan el modelo."
+    },
+    {
+      "id": "it-a1-writing-chiarimento",
+      "version": "1",
+      "fingerprint": "d5c32a74c725d282",
+      "decision": "approved",
+      "findings": [],
+      "reviewNote": "Scusi/non capisco/Può ripetere son fórmulas ya enseñadas en C02; registro cortés coherente."
+    },
+    {
+      "id": "it-a1-writing-famiglia",
+      "version": "1",
+      "fingerprint": "fe905036005ab314",
+      "decision": "approved",
+      "findings": [],
+      "reviewNote": "Dos parentescos y dos características; posesivos sin artículo adecuados. Mia madre è Anna resulta admisible como identificación, aunque menos idiomático que una presentación deíctica en ciertos contextos."
+    },
+    {
+      "id": "it-a1-writing-casa",
+      "version": "1",
+      "fingerprint": "87c9e956c6d9efb5",
+      "decision": "approved",
+      "findings": [],
+      "reviewNote": "Existencia plural, introducción de mueble y ubicación posterior coherentes; grupo nominal y preposición preparados."
+    },
+    {
+      "id": "it-a1-writing-ristorante",
+      "version": "1",
+      "fingerprint": "eee5b9bc1ae91f25",
+      "decision": "approved",
+      "findings": [],
+      "reviewNote": "Pedido y pregunta de ingrediente naturales; referencia a pasta inequívoca; no se atribuye consejo médico."
+    },
+    {
+      "id": "it-a1-writing-spesa",
+      "version": "1",
+      "fingerprint": "c6659216c15531b6",
+      "decision": "approved",
+      "findings": [],
+      "reviewNote": "Dos cantidades precisas con di y pregunta total coherentes; no se exige precio inventado."
+    },
+    {
+      "id": "it-a1-writing-scelta",
+      "version": "1",
+      "fingerprint": "39c39e6b327b5de7",
+      "decision": "approved",
+      "findings": [],
+      "reviewNote": "Quella maglietta blu, disponibilidad de talla y precio coherentes con C24/C34-04; distancia es una escenificación simplificada en chat, sin rechazo automático."
+    },
+    {
+      "id": "it-a1-writing-routine",
+      "version": "1",
+      "fingerprint": "db6aaf0d28d02a31",
+      "decision": "approved",
+      "findings": [],
+      "reviewNote": "Reflexivo, presente, horas y frecuencia preparados; cuatro enunciados coherentes con la consigna."
+    },
+    {
+      "id": "it-a1-writing-gusti",
+      "version": "1",
+      "fingerprint": "7c246dc0138fa11d",
+      "decision": "changes-required",
+      "findings": [
+        {
+          "severity": "blocking",
+          "field": "model",
+          "finding": "La consigna limita a dos actividades, pero el modelo incluye leggere, studiare y andare al cinema.",
+          "requestedChange": "Reducir el modelo a dos actividades manteniendo gusto, negación y pregunta, o armonizar expresamente la cantidad en consigna y rúbrica."
+        }
+      ],
+      "reviewNote": "Italiano y objetivo compatibles con el repertorio revisado; corregir la incoherencia editorial indicada antes de aprobar esta huella."
+    },
+    {
+      "id": "it-a1-writing-invito",
+      "version": "1",
+      "fingerprint": "c1d089b97bf30521",
+      "decision": "approved",
+      "findings": [],
+      "reviewNote": "Día, hora, actividad, lugar y disponibilidad presentes; potere, venire, con me y preposición articulada preparados."
+    },
+    {
+      "id": "it-a1-writing-risposta-invito",
+      "version": "1",
+      "fingerprint": "e940ba4a0d9bcd4b",
+      "decision": "approved",
+      "findings": [],
+      "reviewNote": "Rechazo cortés, causa y alternativa coherentes; aceptar sigue permitido por consigna y abstención."
+    },
+    {
+      "id": "it-a1-writing-programma",
+      "version": "1",
+      "fingerprint": "ae1a3b5bac17fa04",
+      "decision": "approved",
+      "findings": [],
+      "reviewNote": "Programa en presente con marcador futuro y orden temporal; tomar café y destinos preparados."
+    },
+    {
+      "id": "it-a1-writing-prenotazione",
+      "version": "1",
+      "fingerprint": "075006eb4ee5bd5a",
+      "decision": "approved",
+      "findings": [],
+      "reviewNote": "Tipo, llegada, duración y pregunta de precio completos; fecha italiana y vorrei coherentes."
+    },
+    {
+      "id": "it-a1-writing-informazioni-casa",
+      "version": "1",
+      "fingerprint": "7c7dd8eeae754e77",
+      "decision": "approved",
+      "findings": [],
+      "reviewNote": "Precio y baño privado son datos ausentes del anuncio; mensaje y propósito coherentes."
+    },
+    {
+      "id": "it-a1-writing-trasporto",
+      "version": "1",
+      "fingerprint": "d6f376565fd71d82",
+      "decision": "approved",
+      "findings": [],
+      "reviewNote": "Origen/destino/momento y dos preguntas identificables; italiano natural para consulta de transporte."
+    },
+    {
+      "id": "it-a1-writing-indicazioni",
+      "version": "1",
+      "fingerprint": "5cf0268e24da8531",
+      "decision": "approved",
+      "findings": [],
+      "reviewNote": "Vai/gira son instrucciones tu enseñadas en C30-02; ruta y orden coinciden con el contexto."
+    },
+    {
+      "id": "it-a1-writing-ieri",
+      "version": "1",
+      "fingerprint": "7609d12c5a8f1a81",
+      "decision": "changes-required",
+      "findings": [
+        {
+          "severity": "blocking",
+          "field": "model",
+          "finding": "La consigna y la rúbrica piden dos o tres hechos; el modelo relata cuatro: trabajar, estudiar, leer y dormir.",
+          "requestedChange": "Dejar tres acciones y mantener 4–6 enunciados con saludo/cierre, o armonizar la cantidad en consigna y rúbrica."
+        }
+      ],
+      "reviewNote": "Italiano y objetivo compatibles con el repertorio revisado; corregir la incoherencia editorial indicada antes de aprobar esta huella."
+    },
+    {
+      "id": "it-a1-writing-viaggio-passato",
+      "version": "1",
+      "fingerprint": "002b1c3641a56112",
+      "decision": "changes-required",
+      "findings": [
+        {
+          "severity": "blocking",
+          "field": "prompt/model/rubric",
+          "finding": "Se piden dos hechos y el modelo relata cuatro (llegar, tomar autobús, ver el centro, dormir). El mínimo no está formulado como tal.",
+          "requestedChange": "Precisar almeno due fatti en consigna/rúbrica o ajustar el modelo; conservar llegada/partida y concordancia con essere."
+        }
+      ],
+      "reviewNote": "Italiano y objetivo compatibles con el repertorio revisado; corregir la incoherencia editorial indicada antes de aprobar esta huella."
+    },
+    {
+      "id": "W-C01",
+      "version": "1",
+      "fingerprint": "9fef093a52c250c9",
+      "decision": "changes-required",
+      "findings": [
+        {
+          "severity": "blocking",
+          "field": "writing.rubric[0]",
+          "finding": "Consigna es español dentro de una rúbrica italiana; la forma italiana es Consegna.",
+          "requestedChange": "Cambiar Consigna por Consegna."
+        }
+      ],
+      "reviewNote": "Italiano y objetivo compatibles con el repertorio revisado; corregir la incoherencia editorial indicada antes de aprobar esta huella."
+    }
+  ]
+}

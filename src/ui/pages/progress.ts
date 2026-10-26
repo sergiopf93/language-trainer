@@ -135,8 +135,13 @@ export async function progress(store: LocalStore) {
     );
     if (result?.kind !== 'evaluation') continue;
     const item = el('li');
+    const session = facts.find((f) => f.id === attempt.payload.sessionId);
     const title =
-      theories[result.payload.conceptId]?.title ?? result.payload.conceptId;
+      (session?.kind === 'practice-session'
+        ? session.payload.writing?.title
+        : undefined) ??
+      theories[result.payload.conceptId]?.title ??
+      result.payload.conceptId;
     const label = {
       correct: '✓ Corretto',
       typo: '✕ Quasi — possibile refuso',
@@ -155,6 +160,7 @@ export async function progress(store: LocalStore) {
   history.append(list);
   page.append(
     history,
+    link('Testi e bozze di scrittura', '/writing'),
     support(
       'Recordar hoy no garantiza recordarlo más adelante. Review y práctica mixta comparten estas observaciones; una invitación diferida no acredita retención por sí sola.',
     ),

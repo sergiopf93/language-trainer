@@ -1,3 +1,4 @@
+import { writing } from './ui/pages/writing';
 import './ui/styles.css';
 import { LocalStore } from './persistence/local';
 import { SyncClient } from './sync/client';
@@ -83,6 +84,9 @@ async function start() {
           },
         );
         break;
+      case '/writing':
+        page = await writing(store);
+        break;
       case '/reading':
         page = await reading(store);
         break;
@@ -109,7 +113,7 @@ async function start() {
         new URL(link.href).pathname ===
         (location.pathname === '/concept'
           ? '/library'
-          : location.pathname === '/reading'
+          : ['/reading', '/writing'].includes(location.pathname)
             ? '/practice'
             : location.pathname)
       )

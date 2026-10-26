@@ -135,6 +135,7 @@ describe('extended engine', () => {
         ['transformation', 2],
         ['discrimination', 2],
         ['controlled-production', 3],
+        ['communicative-production', 0],
       ]);
       expect(
         project([...facts].reverse().concat(facts), 'it-a1-c04-01', '1', true),

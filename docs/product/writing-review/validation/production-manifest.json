@@ -1,0 +1,12 @@
+{
+  "build": "VITE_ENABLE_CANDIDATE_CONTENT=false npm run build",
+  "test": "e2e-production.json",
+  "sourceManifest": "final-validation-manifest.json",
+  "sourceHashesVerified": true,
+  "sha256": {
+    "dist/index.html": "ef06591daf0cf5e1668112f303854000d4bff7c4173d4c1553e31b30d10a56d6",
+    "dist/sw.js": "f6e09b56cbcb5f83c25a5b6e3509dbdc7048e98254c1a21947e6b6881f46779c",
+    "dist/assets/index-CI7gOH9S.js": "1928cb92fa4c53ace04889edf2a0b3d83983b5a81fc11e572759234784752e30",
+    "dist/assets/index-Fg6QZoe0.css": "9f8d06b3d2cd89e65f4b1adfbf5890babebd158fde6f0e91eaedf5a702644b2d"
+  }
+}

@@ -1,0 +1,2173 @@
+{
+  "config": {
+    "argv": [
+      "/Users/sergiopardo/.nvm/versions/node/v22.23.3/bin/node",
+      "/Users/sergiopardo/Desktop/language-trainer/node_modules/.bin/playwright",
+      "test",
+      "--grep-invert",
+      "production build",
+      "--reporter=json,line"
+    ],
+    "configFile": "/Users/sergiopardo/Desktop/language-trainer/playwright.config.ts",
+    "rootDir": "/Users/sergiopardo/Desktop/language-trainer/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/sergiopardo/Desktop/language-trainer/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/sergiopardo/Desktop/language-trainer/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ],
+      [
+        "line"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "node scripts/test-server.mjs",
+      "url": "http://localhost:8787/api/health",
+      "reuseExistingServer": false,
+      "timeout": 60000
+    }
+  },
+  "suites": [
+    {
+      "title": "a1-validation.spec.ts",
+      "file": "a1-validation.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "5C A/F/G: complete first concept, traverse blocks manually and complete C34-07",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 27839,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:52:06.812Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ef1d43bddece6e70af61-bf72832c4cd1b6501d69",
+          "file": "a1-validation.spec.ts",
+          "line": 54,
+          "column": 1
+        },
+        {
+          "title": "5C B/C/E: repeated errors, recognition versus retrieval and returning to earlier concepts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8595,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:52:35.695Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ef1d43bddece6e70af61-f3e0c265b52135d47d5c",
+          "file": "a1-validation.spec.ts",
+          "line": 107,
+          "column": 1
+        },
+        {
+          "title": "5C D/H: close page with saved draft, reopen offline, double submit and resume feedback",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7999,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:52:44.315Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ef1d43bddece6e70af61-39f1c6c323a2e433b5da",
+          "file": "a1-validation.spec.ts",
+          "line": 146,
+          "column": 1
+        },
+        {
+          "title": "5C mobile 320: main views, input, feedback, summary and errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14054,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:52:52.347Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ef1d43bddece6e70af61-d9d0e0e03c6c4b5ffa6a",
+          "file": "a1-validation.spec.ts",
+          "line": 182,
+          "column": 3
+        },
+        {
+          "title": "5C mobile 375: main views, input, feedback, summary and errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13610,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:53:06.459Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ef1d43bddece6e70af61-46564dc3a36bcb58d92e",
+          "file": "a1-validation.spec.ts",
+          "line": 182,
+          "column": 3
+        },
+        {
+          "title": "5C mobile 390: main views, input, feedback, summary and errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13634,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:53:20.110Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ef1d43bddece6e70af61-e1e9dbebb037f1f0f41d",
+          "file": "a1-validation.spec.ts",
+          "line": 182,
+          "column": 3
+        },
+        {
+          "title": "5C mobile 768: main views, input, feedback, summary and errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14573,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:53:33.769Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ef1d43bddece6e70af61-135fefd016aaeaeeed6e",
+          "file": "a1-validation.spec.ts",
+          "line": 182,
+          "column": 3
+        },
+        {
+          "title": "5C persistence: editing a saved answer immediately reports pending storage",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4201,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:53:48.366Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ef1d43bddece6e70af61-dafa7325568ccb920c2c",
+          "file": "a1-validation.spec.ts",
+          "line": 230,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "curriculum.spec.ts",
+      "file": "curriculum.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "curriculum it-a1-c01-01: library, study, retrieval, reload, summary and progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6321,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:53:52.795Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95c5cad18d8056620d43-80d41abc544313260491",
+          "file": "curriculum.spec.ts",
+          "line": 16,
+          "column": 3
+        },
+        {
+          "title": "curriculum it-a1-c02-02: library, study, retrieval, reload, summary and progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6420,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:53:59.231Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95c5cad18d8056620d43-d29e781ca70a3551e453",
+          "file": "curriculum.spec.ts",
+          "line": 16,
+          "column": 3
+        },
+        {
+          "title": "curriculum it-a1-c03-02: library, study, retrieval, reload, summary and progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6566,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:54:05.717Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95c5cad18d8056620d43-98732f1a2d4762ae4b76",
+          "file": "curriculum.spec.ts",
+          "line": 16,
+          "column": 3
+        },
+        {
+          "title": "curriculum it-a1-c04-03: library, study, retrieval, reload, summary and progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7648,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:54:12.306Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95c5cad18d8056620d43-50ae6bf933e2d02d1f49",
+          "file": "curriculum.spec.ts",
+          "line": 16,
+          "column": 3
+        },
+        {
+          "title": "curriculum it-a1-c05-04: library, study, retrieval, reload, summary and progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8117,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:54:20.004Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95c5cad18d8056620d43-190ee5022e2bb2472e70",
+          "file": "curriculum.spec.ts",
+          "line": 16,
+          "column": 3
+        },
+        {
+          "title": "curriculum it-a1-c06-03: library, study, retrieval, reload, summary and progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6894,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:54:28.162Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95c5cad18d8056620d43-2a4f831d5648d81efa1f",
+          "file": "curriculum.spec.ts",
+          "line": 16,
+          "column": 3
+        },
+        {
+          "title": "curriculum it-a1-c10-01: library, study, retrieval, reload, summary and progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9333,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:54:35.120Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95c5cad18d8056620d43-2bff7e35a1b7c7cdaed0",
+          "file": "curriculum.spec.ts",
+          "line": 16,
+          "column": 3
+        },
+        {
+          "title": "curriculum it-a1-c12-01: library, study, retrieval, reload, summary and progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10026,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:54:44.474Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95c5cad18d8056620d43-32c3dbbcf85bbf934288",
+          "file": "curriculum.spec.ts",
+          "line": 16,
+          "column": 3
+        },
+        {
+          "title": "curriculum it-a1-c17-01: library, study, retrieval, reload, summary and progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10832,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:54:54.575Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95c5cad18d8056620d43-fc9dce2152c7da7bd519",
+          "file": "curriculum.spec.ts",
+          "line": 16,
+          "column": 3
+        },
+        {
+          "title": "curriculum it-a1-c33-01: library, study, retrieval, reload, summary and progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11049,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:55:05.456Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95c5cad18d8056620d43-85271ed7ab051cedac19",
+          "file": "curriculum.spec.ts",
+          "line": 16,
+          "column": 3
+        },
+        {
+          "title": "curriculum it-a1-c34-07: library, study, retrieval, reload, summary and progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9490,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:55:16.595Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95c5cad18d8056620d43-6c6c4640c857a2e3e752",
+          "file": "curriculum.spec.ts",
+          "line": 16,
+          "column": 3
+        },
+        {
+          "title": "appointment: rejects a conflicting time, preserves feedback and accepts an alternative",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5233,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:55:26.206Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "95c5cad18d8056620d43-87c96bdfd71cc2c7d6f5",
+          "file": "curriculum.spec.ts",
+          "line": 118,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "engine.spec.ts",
+      "file": "engine.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "new interactions: keyboard ordering, matching reload and all feedback",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9697,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:55:31.486Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "80e453acc87b615b08fa-effd73c691b70e4c24f8",
+          "file": "engine.spec.ts",
+          "line": 2,
+          "column": 1
+        },
+        {
+          "title": "typo is a visible cross, survives reload and remains separate from linguistic error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5193,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:55:41.214Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "80e453acc87b615b08fa-ee44969fb558c594ff5b",
+          "file": "engine.spec.ts",
+          "line": 69,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "foundation.spec.ts",
+      "file": "foundation.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "mobile shell, deep routes, offline reload and draft continuity",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9632,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:55:46.508Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b60d0cacd30be8ae473-324a86979bc99eb2c9eb",
+          "file": "foundation.spec.ts",
+          "line": 12,
+          "column": 1
+        },
+        {
+          "title": "two devices restore synced drafts, preserve forks and recover after access revocation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Set E2E_ACCESS_CODE and matching Worker secrets to run authenticated integration.",
+                  "location": {
+                    "file": "/Users/sergiopardo/Desktop/language-trainer/tests/e2e/foundation.spec.ts",
+                    "line": 92,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 8,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:55:56.171Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Set E2E_ACCESS_CODE and matching Worker secrets to run authenticated integration.",
+                      "location": {
+                        "file": "/Users/sergiopardo/Desktop/language-trainer/tests/e2e/foundation.spec.ts",
+                        "line": 92,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "6b60d0cacd30be8ae473-fc105cbda2bac0f52f7d",
+          "file": "foundation.spec.ts",
+          "line": 89,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "learning.spec.ts",
+      "file": "learning.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "candidate loop on mobile: offline reload, repair, hints, summary and projection",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10888,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:55:56.241Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e0ec79b0c4f511f16424-e3a0ccafb7125260be1f",
+          "file": "learning.spec.ts",
+          "line": 22,
+          "column": 1
+        },
+        {
+          "title": "unknown response stays unevaluable and a partial session can finish",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4137,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:56:07.153Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e0ec79b0c4f511f16424-7141ddf5dd979e6d1af9",
+          "file": "learning.spec.ts",
+          "line": 130,
+          "column": 1
+        },
+        {
+          "title": "two browsers sync learning facts and resume without duplicate attempts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Requires the local authenticated test server.",
+                  "location": {
+                    "file": "/Users/sergiopardo/Desktop/language-trainer/tests/e2e/learning.spec.ts",
+                    "line": 153,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 2,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:56:11.351Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Requires the local authenticated test server.",
+                      "location": {
+                        "file": "/Users/sergiopardo/Desktop/language-trainer/tests/e2e/learning.spec.ts",
+                        "line": 153,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "e0ec79b0c4f511f16424-34cfbf7a8c2d821a86c1",
+          "file": "learning.spec.ts",
+          "line": 150,
+          "column": 1
+        },
+        {
+          "title": "theory detail and in-session help keep the draft and mark assisted answers",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4916,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:56:11.403Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e0ec79b0c4f511f16424-55daa483d0095a3d2a2e",
+          "file": "learning.spec.ts",
+          "line": 289,
+          "column": 1
+        },
+        {
+          "title": "main navigation resets scroll and help closes without losing assistance",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6570,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:56:16.353Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e0ec79b0c4f511f16424-541f05e2a3741392d7a1",
+          "file": "learning.spec.ts",
+          "line": 335,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "mixed-curriculum.spec.ts",
+      "file": "mixed-curriculum.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "6B.2 genere-lessicale: reviewed snapshot, mobile offline resume and evidence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7660,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:56:23.269Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5d52a87dac20f2344372-039257210db9cf256d4a",
+          "file": "mixed-curriculum.spec.ts",
+          "line": 14,
+          "column": 3
+        },
+        {
+          "title": "6B.2 past-events: reviewed snapshot, mobile offline resume and evidence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12513,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:56:30.969Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5d52a87dac20f2344372-0428300e466cf6944ae1",
+          "file": "mixed-curriculum.spec.ts",
+          "line": 14,
+          "column": 3
+        },
+        {
+          "title": "6B.2 home-travel: reviewed snapshot, mobile offline resume and evidence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13406,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:56:43.516Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5d52a87dac20f2344372-c12d9278059bf1b0d9f4",
+          "file": "mixed-curriculum.spec.ts",
+          "line": 14,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "mixed.spec.ts",
+      "file": "mixed.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "6B mixed mobile 320: no concept cue, session, summary and review",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 20999,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:56:57.046Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a337a681bf7ec142666e-45ff744143f536c07f9a",
+          "file": "mixed.spec.ts",
+          "line": 69,
+          "column": 3
+        },
+        {
+          "title": "6B mixed mobile 375: no concept cue, session, summary and review",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14114,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:57:18.081Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a337a681bf7ec142666e-c46fcce92b3e3a9b199e",
+          "file": "mixed.spec.ts",
+          "line": 69,
+          "column": 3
+        },
+        {
+          "title": "6B mixed mobile 390: no concept cue, session, summary and review",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15330,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:57:32.239Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a337a681bf7ec142666e-5f4c53810cd60993cf33",
+          "file": "mixed.spec.ts",
+          "line": 69,
+          "column": 3
+        },
+        {
+          "title": "6B mixed mobile 768: no concept cue, session, summary and review",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 24778,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:57:47.643Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a337a681bf7ec142666e-ff79b4bef970200ded59",
+          "file": "mixed.spec.ts",
+          "line": 69,
+          "column": 3
+        },
+        {
+          "title": "6B mixed: offline draft and feedback resume without duplicates, partial finish",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12488,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:58:12.461Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a337a681bf7ec142666e-543a5d4be4dfcb6873cf",
+          "file": "mixed.spec.ts",
+          "line": 139,
+          "column": 1
+        },
+        {
+          "title": "6B mixed: requesting theory records help without leaking it initially",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8976,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:58:25.040Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a337a681bf7ec142666e-f7af40111501c3511d6f",
+          "file": "mixed.spec.ts",
+          "line": 186,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "reading.spec.ts",
+      "file": "reading.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Reading 320: text, help, comprehension, summary and distinct progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10464,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:58:34.086Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-f934481927d8e405d014",
+          "file": "reading.spec.ts",
+          "line": 58,
+          "column": 3
+        },
+        {
+          "title": "Reading 375: text, help, comprehension, summary and distinct progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12164,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:58:44.609Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-312a780c100b2280db7d",
+          "file": "reading.spec.ts",
+          "line": 58,
+          "column": 3
+        },
+        {
+          "title": "Reading 390: text, help, comprehension, summary and distinct progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11486,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:58:56.813Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-45827d1640cc7f0802e5",
+          "file": "reading.spec.ts",
+          "line": 58,
+          "column": 3
+        },
+        {
+          "title": "Reading 768: text, help, comprehension, summary and distinct progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12139,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:59:08.371Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-294820bc821a16011ff9",
+          "file": "reading.spec.ts",
+          "line": 58,
+          "column": 3
+        },
+        {
+          "title": "Reading offline: reopen draft and help, submit once and restore feedback",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12594,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:59:20.529Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-985b6f36951ee285e3a7",
+          "file": "reading.spec.ts",
+          "line": 128,
+          "column": 1
+        },
+        {
+          "title": "Reading keyboard: wrong answer, assisted retry and abstention keep their judgments",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8085,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:59:33.151Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-cc1e08cb41dd8b2b7356",
+          "file": "reading.spec.ts",
+          "line": 176,
+          "column": 1
+        },
+        {
+          "title": "Reading longest text: mobile short response outside criterion is not an error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15211,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:59:41.303Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-c9fcfaaac5c6da653681",
+          "file": "reading.spec.ts",
+          "line": 221,
+          "column": 1
+        },
+        {
+          "title": "Reading R25: contextual comprehension and independent evidence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6890,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T18:59:56.629Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-20df83ed8f25b9e29694",
+          "file": "reading.spec.ts",
+          "line": 277,
+          "column": 3
+        },
+        {
+          "title": "Reading R26: contextual comprehension and independent evidence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 20503,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T19:00:03.566Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd28b817daae9d948764-54414e7a9c7f246ab063",
+          "file": "reading.spec.ts",
+          "line": 277,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "review.spec.ts",
+      "file": "review.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "6A review mobile 320: complete review, history and progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7773,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T19:00:24.174Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "12f883ce49bb8436c3d7-c09885bc98b6077f107e",
+          "file": "review.spec.ts",
+          "line": 71,
+          "column": 3
+        },
+        {
+          "title": "6A review mobile 375: complete review, history and progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7112,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T19:00:32.029Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "12f883ce49bb8436c3d7-4e8b6eb7c27afa58cd71",
+          "file": "review.spec.ts",
+          "line": 71,
+          "column": 3
+        },
+        {
+          "title": "6A review mobile 390: complete review, history and progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6619,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T19:00:39.195Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "12f883ce49bb8436c3d7-13dca9bd8acc54fc1b26",
+          "file": "review.spec.ts",
+          "line": 71,
+          "column": 3
+        },
+        {
+          "title": "6A review mobile 768: complete review, history and progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6559,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T19:00:45.846Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "12f883ce49bb8436c3d7-6baf9412e79155c84138",
+          "file": "review.spec.ts",
+          "line": 71,
+          "column": 3
+        },
+        {
+          "title": "6A review: pause, close, reopen offline, recover draft and feedback without duplicates",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6575,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T19:00:52.456Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "12f883ce49bb8436c3d7-58c3696b2b684dd4a40b",
+          "file": "review.spec.ts",
+          "line": 114,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "writing.spec.ts",
+      "file": "writing.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Writing 320: compose, reread, help, abstain, repair and history",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8982,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T19:00:59.186Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "64364233ac88cbb4898b-867e8cc0eadc7beb4889",
+          "file": "writing.spec.ts",
+          "line": 42,
+          "column": 3
+        },
+        {
+          "title": "Writing 375: compose, reread, help, abstain, repair and history",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11027,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T19:01:08.215Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "64364233ac88cbb4898b-bebf50f3c924b5de9c40",
+          "file": "writing.spec.ts",
+          "line": 42,
+          "column": 3
+        },
+        {
+          "title": "Writing 390: compose, reread, help, abstain, repair and history",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12204,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T19:01:19.285Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "64364233ac88cbb4898b-6e4b77861b988a39d1f0",
+          "file": "writing.spec.ts",
+          "line": 42,
+          "column": 3
+        },
+        {
+          "title": "Writing 768: compose, reread, help, abstain, repair and history",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8710,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T19:01:31.537Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "64364233ac88cbb4898b-ccb80bc4ac03ca708752",
+          "file": "writing.spec.ts",
+          "line": 42,
+          "column": 3
+        },
+        {
+          "title": "Writing offline draft and feedback survive reload without duplicates",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9409,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T19:01:40.279Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "64364233ac88cbb4898b-947f645cf0b006c3abc8",
+          "file": "writing.spec.ts",
+          "line": 102,
+          "column": 1
+        },
+        {
+          "title": "Writing bounded criterion distinguishes error, repair and neutral alternative",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6941,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-25T19:01:49.717Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "64364233ac88cbb4898b-5fb4a623fd7a27185835",
+          "file": "writing.spec.ts",
+          "line": 128,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-25T18:52:03.628Z",
+    "duration": 595271.634,
+    "expected": 56,
+    "skipped": 2,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

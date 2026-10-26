@@ -1,0 +1,148 @@
+{
+  "packetSha256": "82c9811a70a870ebb2d3c4462d1857dd9c0d2aa3c0556bc97f2f2da2abb806f2",
+  "reviewer": "writing_editorial",
+  "humanReview": false,
+  "reviewKind": "independent-agent-editorial-follow-up",
+  "scope": "Seguimiento exacto de cuatro correcciones respecto al paquete candidato; se preservan las quince aprobaciones de contenido/huella intactos. No es validación humana ni prueba con alumnos.",
+  "resolvedFindings": {
+    "it-a1-writing-gusti": "Modelo con dos actividades (leggere, andare al cinema), gusto positivo/negativo y pregunta; cinco enunciados. Coherente y natural.",
+    "it-a1-writing-ieri": "Modelo reducido a tres acciones terminadas, orden temporal claro y cuatro enunciados contando saludo.",
+    "it-a1-writing-viaggio-passato": "Consigna y rúbrica ahora requieren al menos dos hechos; cuatro hechos del modelo satisfacen el mínimo, con llegada y concordancia.",
+    "W-C01": "Consegna corrige el encabezado italiano; listas de respuestas y política sin cambios."
+  },
+  "items": [
+    {
+      "id": "it-a1-writing-presentazione",
+      "version": "1",
+      "fingerprint": "5522d292320a9c68",
+      "decision": "approved",
+      "findings": []
+    },
+    {
+      "id": "it-a1-writing-chiarimento",
+      "version": "1",
+      "fingerprint": "d5c32a74c725d282",
+      "decision": "approved",
+      "findings": []
+    },
+    {
+      "id": "it-a1-writing-famiglia",
+      "version": "1",
+      "fingerprint": "fe905036005ab314",
+      "decision": "approved",
+      "findings": []
+    },
+    {
+      "id": "it-a1-writing-casa",
+      "version": "1",
+      "fingerprint": "87c9e956c6d9efb5",
+      "decision": "approved",
+      "findings": []
+    },
+    {
+      "id": "it-a1-writing-ristorante",
+      "version": "1",
+      "fingerprint": "eee5b9bc1ae91f25",
+      "decision": "approved",
+      "findings": []
+    },
+    {
+      "id": "it-a1-writing-spesa",
+      "version": "1",
+      "fingerprint": "c6659216c15531b6",
+      "decision": "approved",
+      "findings": []
+    },
+    {
+      "id": "it-a1-writing-scelta",
+      "version": "1",
+      "fingerprint": "39c39e6b327b5de7",
+      "decision": "approved",
+      "findings": []
+    },
+    {
+      "id": "it-a1-writing-routine",
+      "version": "1",
+      "fingerprint": "db6aaf0d28d02a31",
+      "decision": "approved",
+      "findings": []
+    },
+    {
+      "id": "it-a1-writing-gusti",
+      "version": "1",
+      "fingerprint": "fc69f6715dcb699b",
+      "decision": "approved",
+      "findings": []
+    },
+    {
+      "id": "it-a1-writing-invito",
+      "version": "1",
+      "fingerprint": "c1d089b97bf30521",
+      "decision": "approved",
+      "findings": []
+    },
+    {
+      "id": "it-a1-writing-risposta-invito",
+      "version": "1",
+      "fingerprint": "e940ba4a0d9bcd4b",
+      "decision": "approved",
+      "findings": []
+    },
+    {
+      "id": "it-a1-writing-programma",
+      "version": "1",
+      "fingerprint": "ae1a3b5bac17fa04",
+      "decision": "approved",
+      "findings": []
+    },
+    {
+      "id": "it-a1-writing-prenotazione",
+      "version": "1",
+      "fingerprint": "075006eb4ee5bd5a",
+      "decision": "approved",
+      "findings": []
+    },
+    {
+      "id": "it-a1-writing-informazioni-casa",
+      "version": "1",
+      "fingerprint": "7c7dd8eeae754e77",
+      "decision": "approved",
+      "findings": []
+    },
+    {
+      "id": "it-a1-writing-trasporto",
+      "version": "1",
+      "fingerprint": "d6f376565fd71d82",
+      "decision": "approved",
+      "findings": []
+    },
+    {
+      "id": "it-a1-writing-indicazioni",
+      "version": "1",
+      "fingerprint": "5cf0268e24da8531",
+      "decision": "approved",
+      "findings": []
+    },
+    {
+      "id": "it-a1-writing-ieri",
+      "version": "1",
+      "fingerprint": "da8eed3694ec359a",
+      "decision": "approved",
+      "findings": []
+    },
+    {
+      "id": "it-a1-writing-viaggio-passato",
+      "version": "1",
+      "fingerprint": "532c4197d7fc91c8",
+      "decision": "approved",
+      "findings": []
+    },
+    {
+      "id": "W-C01",
+      "version": "1",
+      "fingerprint": "6a9bde524b6209fd",
+      "decision": "approved",
+      "findings": []
+    }
+  ]
+}
