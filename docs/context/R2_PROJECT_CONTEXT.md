@@ -1,6 +1,20 @@
 # R2 — contexto operativo de language-trainer
 
-Actualizado: 2026-10-25. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
+Actualizado: 2026-10-26. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
+
+## Fase 6D — Writing: cierre técnico (2026-10-26)
+
+Rama `feat/a1-writing`, baseline `1830ee1`, commit técnico local `f859c45`. Conserva main y fases anteriores. **270 actividades controladas reutilizadas para 99 conceptos + 19 nuevas revisadas**: 18 mensajes abiertos (12 guiados N3, cuatro semilibres y dos libres N4) y una presentación delimitada N2. Matriz previa/final C01–C34 y selección exacta en `docs/product/writing-review/`.
+
+Writing reutiliza SessionEngine/IndexedDB, hechos/proyecciones, Review y Mixed. Cuatro niveles, textarea/relectura, ayudas y declaración externa, borradores offline, historial y reparación que conserva texto. Canon/variante/error/errata/vacía/incompleta/consigna/objetivo/abstención se distinguen solo con criterio explícito. F6 siempre se abstiene, incluso ante el modelo; namespace writing: evita atribución gramatical incidental. Sin evidencia de dominio de texto libre, nota global, IA runtime, migración ni segundo progreso. Importación también veta evidencia F6 y exige coherencia de juicios.
+
+19 recibos reviewed efectivos tras revisión inicial e independiente, cuatro correcciones y seguimiento; quince huellas intactas preservadas. Autoría candidate, cero published. SHA final `82c9811a70a870ebb2d3c4462d1857dd9c0d2aa3c0556bc97f2f2da2abb806f2`. Se mantienen 923 actividades previas, 99 conceptos/Theory, 26 lecturas/84 preguntas y recibos anteriores. No repetir revisión editorial.
+
+**381/381 tests**, 22 suites; tipos, formato, ambos builds, coverage y auditorías editorial/Reading/Writing correctos. **60 E2E únicos** satisfechos en varias ejecuciones: general 56/58 con dos omisiones de autenticación recuperadas 2/2; Writing final 7/7 repite seis y añade pegado; copy final 4/4 repetidos; producción 1/1. Fallos iniciales documentados: expectativa de habilidad antigua y espera incorrecta tras reload; corregidos. Pegado multilínea reveló estados idénticos repetidos: guardia solo Writing evita duplicados, conserva A→B→A y pasa E2E con 260 líneas/3640 caracteres. No ocultar estos fallos ni contar repeticiones como casos nuevos.
+
+Visual: 16 capturas y datos a 320/375/390/768; zoom CSS 200% en 768 antes de reload, no tras él. Foco, saltos, texto largo y recuperación correctos, sin overflow ni pageerror. Dictámenes QA/UX favorables en alcance técnico; sin bloqueantes conocidos. Aviso de bundle grande conservado. Build normal final restrictivo: sin listado/inicio Writing no publicado, aunque texto se empaqueta por imports estáticos.
+
+[Informe final](../product/A1_WRITING_IMPLEMENTATION.md), manifiestos por build y resultados en `writing-review/validation/`. Revisión independiente de agentes, no humana. Pendientes validación humana cualificada, dispositivos/teclados físicos, tecnologías asistivas reales y eficacia/retención; servidor Node local, no Cloudflare nativo/remoto. **Writing cerrado técnicamente. Detenerse: no V1 integral, publicación, push, merge ni despliegue sin nueva autorización.**
 
 ## Fase 6C — Reading: cierre técnico (2026-10-25)
 
