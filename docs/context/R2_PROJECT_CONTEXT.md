@@ -2,11 +2,15 @@
 
 Actualizado: 2026-10-26. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
 
-## Fase 7 — integración V1 en curso (2026-10-26)
+## Fase 7 — integración V1: cierre técnico (2026-10-26)
 
-Encargo explícito de cierre de producto. Rama `feat/a1-v1-integration` desde `0415c6b`; todas las ramas anteriores ya son ancestros, sin merges necesarios. Producción intacta. 381/381 tests (22 suites), tipos/formato iniciales, coverage/editorial/Reading/Writing y build de validación correctos; cero publicados. Nuevo E2E transversal aún falla: helper no soporta respuesta estructurada `[1,2,0]` en focal C04-01. Dos expectativas iniciales del test corregidas; no fallos de aplicación confirmados.
+Rama `feat/a1-v1-integration` desde `0415c6b`, checkpoint `18e1992`. Todas las fases previas eran ancestros: sin merges necesarios. Código de producción/currículo/recibos intactos; solo se completa E2E transversal y evidencias/documentación. Helper matching usa índices JSON; ordering palabras habilitadas. Recorrido por enlaces con mismo perfil: Focus/Theory, progreso, Review, Mixed, Reading, Writing, cierre/reapertura offline e historiales; 219 hechos, 33 intentos, 32 evidencias. Integridad, unicidad, ayudas/abstención y conservación exacta de hechos; proyección comparada explícitamente solo C04-01.
 
-Interrupción por límite de uso del QA independiente; revisión estática sin P0/P1, P2 de cronología global que excluye Reading/Writing abierto con historiales específicos conservados. Dictamen final pendiente. **Fase no cerrada; dist temporalmente de validación.** [Informe y punto exacto de reanudación](../product/A1_V1_INTEGRATION_REPORT.md). Falta reparar/completar transversal, regresión E2E, medidas/visual, build normal restrictivo, QA final, informe definitivo. Sin push/merge/publicación/despliegue ni fase 8.
+Regresión **60 E2E correctos + 1 omitido intencional de producción**; producción aparte **1/1**, total 61 únicos, cero fallos/flaky. Transversal focal 1/1 y repetición incluida. Unitarias de checkpoint 381/381; reanudación 380/381 (timeout Mixed bajo concurrencia), repetición aislada 12/12 sin cambiar timeout/código: no afirmar 381/381 en una única ejecución final. Tipos, formato y builds correctos. Auditorías/hashes/recibos anteriores vigentes por fuentes intactas, cero published. **dist final normal restrictivo**; texto candidate/reviewed físicamente empaquetado por imports estáticos.
+
+QA independiente favorable al cierre técnico y preparación para validación humana, sin P0/P1 conocidos. P2 diferido: cronología general omite Reading/Writing abierto; historiales específicos/datos intactos. Barrido Chrome 320/375/390/768 sin overflow/pageerror; arranque local 1,03–1,44 s, navegación 102–479 ms, heap 12,3–14,2 MB; no benchmark ni móviles físicos. JS ~1.075 kB/218 kB gzip, aviso conocido. Pendientes validación humana cualificada, dispositivos/teclados/tecnologías asistivas reales, Cloudflare nativo/remoto y observación pedagógica; no recuperación conjunta cinco modos en segundo dispositivo.
+
+[Informe final y evidencias](../product/A1_V1_INTEGRATION_REPORT.md), [dictamen QA](../product/integration-validation/qa-final.md). Fase 7 cerrada técnicamente; commits locales, árbol limpio al entregar. **Detenerse: sin publicación, push, merge, despliegue ni fase 8.** README antes de eventual merge autorizado; ninguna validación humana afirmada.
 
 ## Fase 6D — Writing: cierre técnico (2026-10-26)
 

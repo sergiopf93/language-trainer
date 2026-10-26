@@ -1,0 +1,37 @@
+
+> language-trainer@0.1.0 test
+> vitest run --maxWorkers=2
+
+
+ RUN  v5.0.3 /Users/sergiopardo/Desktop/language-trainer
+
+ ❯ tests/mixed.test.ts (12 tests | 1 failed) 28825ms
+   ❯ mixed selection against the editorial catalog (6)
+     × pins explicit activity versions and excludes focus prompts and unapproved additions 20824ms
+(node:21632) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/mixed.test.ts > mixed selection against the editorial catalog > pins explicit activity versions and excludes focus prompts and unapproved additions
+Error: Test timed out in 20000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ tests/mixed.test.ts:57:3
+     55|
+     56| describe('mixed selection against the editorial catalog', () => {
+     57|   it('pins explicit activity versions and excludes focus prompts and u…
+       |   ^
+     58|     for (const group of mixedGroups) {
+     59|       const activities = eligibleMixedActivities(catalog, group);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 21 passed (22)
+      Tests  1 failed | 380 passed (381)
+   Start at  18:06:22
+   Duration  102.73s (tests 73%, import 24%, transform 2%)
+
+    Isolate  22 workers spawned · ~521ms startup each (spawn + environment, per file)
+             at least ~5.21s faster with isolate: false — reuses workers across files instead of one per file
+

@@ -1,0 +1,13 @@
+
+> language-trainer@0.1.0 test
+> vitest run tests/mixed.test.ts --maxWorkers=1
+
+
+ RUN  v5.0.3 /Users/sergiopardo/Desktop/language-trainer
+
+
+ Test Files  1 passed (1)
+      Tests  12 passed (12)
+   Start at  18:08:31
+   Duration  8.99s (tests 72%, transform 16%, import 12%)
+

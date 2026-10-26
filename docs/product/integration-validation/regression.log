@@ -1,0 +1,79 @@
+
+> language-trainer@0.1.0 test:e2e
+> playwright test --reporter=line,json
+
+[WebServer] (node:21738) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+[WebServer] (node:21738) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+
+
+Running 61 tests using 1 worker
+
+(node:21740) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[1/61] tests/e2e/a1-validation.spec.ts:54:1 › 5C A/F/G: complete first concept, traverse blocks manually and complete C34-07
+[2/61] tests/e2e/a1-validation.spec.ts:107:1 › 5C B/C/E: repeated errors, recognition versus retrieval and returning to earlier concepts
+[3/61] tests/e2e/a1-validation.spec.ts:146:1 › 5C D/H: close page with saved draft, reopen offline, double submit and resume feedback
+[4/61] tests/e2e/a1-validation.spec.ts:182:3 › 5C mobile 320: main views, input, feedback, summary and errors
+[5/61] tests/e2e/a1-validation.spec.ts:182:3 › 5C mobile 375: main views, input, feedback, summary and errors
+[6/61] tests/e2e/a1-validation.spec.ts:182:3 › 5C mobile 390: main views, input, feedback, summary and errors
+[7/61] tests/e2e/a1-validation.spec.ts:182:3 › 5C mobile 768: main views, input, feedback, summary and errors
+[8/61] tests/e2e/a1-validation.spec.ts:230:1 › 5C persistence: editing a saved answer immediately reports pending storage
+[9/61] tests/e2e/curriculum.spec.ts:16:3 › curriculum it-a1-c01-01: library, study, retrieval, reload, summary and progress
+[10/61] tests/e2e/curriculum.spec.ts:16:3 › curriculum it-a1-c02-02: library, study, retrieval, reload, summary and progress
+[11/61] tests/e2e/curriculum.spec.ts:16:3 › curriculum it-a1-c03-02: library, study, retrieval, reload, summary and progress
+[12/61] tests/e2e/curriculum.spec.ts:16:3 › curriculum it-a1-c04-03: library, study, retrieval, reload, summary and progress
+[13/61] tests/e2e/curriculum.spec.ts:16:3 › curriculum it-a1-c05-04: library, study, retrieval, reload, summary and progress
+[14/61] tests/e2e/curriculum.spec.ts:16:3 › curriculum it-a1-c06-03: library, study, retrieval, reload, summary and progress
+[15/61] tests/e2e/curriculum.spec.ts:16:3 › curriculum it-a1-c10-01: library, study, retrieval, reload, summary and progress
+[16/61] tests/e2e/curriculum.spec.ts:16:3 › curriculum it-a1-c12-01: library, study, retrieval, reload, summary and progress
+[17/61] tests/e2e/curriculum.spec.ts:16:3 › curriculum it-a1-c17-01: library, study, retrieval, reload, summary and progress
+[18/61] tests/e2e/curriculum.spec.ts:16:3 › curriculum it-a1-c33-01: library, study, retrieval, reload, summary and progress
+[19/61] tests/e2e/curriculum.spec.ts:16:3 › curriculum it-a1-c34-07: library, study, retrieval, reload, summary and progress
+[20/61] tests/e2e/curriculum.spec.ts:118:1 › appointment: rejects a conflicting time, preserves feedback and accepts an alternative
+[21/61] tests/e2e/engine.spec.ts:2:1 › new interactions: keyboard ordering, matching reload and all feedback
+[22/61] tests/e2e/engine.spec.ts:69:1 › typo is a visible cross, survives reload and remains separate from linguistic error
+[23/61] tests/e2e/foundation.spec.ts:12:1 › mobile shell, deep routes, offline reload and draft continuity
+[24/61] tests/e2e/foundation.spec.ts:89:1 › two devices restore synced drafts, preserve forks and recover after access revocation
+[25/61] tests/e2e/learning.spec.ts:22:1 › candidate loop on mobile: offline reload, repair, hints, summary and projection
+[26/61] tests/e2e/learning.spec.ts:130:1 › unknown response stays unevaluable and a partial session can finish
+[27/61] tests/e2e/learning.spec.ts:150:1 › two browsers sync learning facts and resume without duplicate attempts
+[28/61] tests/e2e/learning.spec.ts:220:1 › production build excludes candidate content
+[29/61] tests/e2e/learning.spec.ts:289:1 › theory detail and in-session help keep the draft and mark assisted answers
+[30/61] tests/e2e/learning.spec.ts:335:1 › main navigation resets scroll and help closes without losing assistance
+[31/61] tests/e2e/mixed-curriculum.spec.ts:14:3 › 6B.2 genere-lessicale: reviewed snapshot, mobile offline resume and evidence
+[32/61] tests/e2e/mixed-curriculum.spec.ts:14:3 › 6B.2 past-events: reviewed snapshot, mobile offline resume and evidence
+[33/61] tests/e2e/mixed-curriculum.spec.ts:14:3 › 6B.2 home-travel: reviewed snapshot, mobile offline resume and evidence
+[34/61] tests/e2e/mixed.spec.ts:69:3 › 6B mixed mobile 320: no concept cue, session, summary and review
+[35/61] tests/e2e/mixed.spec.ts:69:3 › 6B mixed mobile 375: no concept cue, session, summary and review
+[36/61] tests/e2e/mixed.spec.ts:69:3 › 6B mixed mobile 390: no concept cue, session, summary and review
+[37/61] tests/e2e/mixed.spec.ts:69:3 › 6B mixed mobile 768: no concept cue, session, summary and review
+[38/61] tests/e2e/mixed.spec.ts:139:1 › 6B mixed: offline draft and feedback resume without duplicates, partial finish
+[39/61] tests/e2e/mixed.spec.ts:186:1 › 6B mixed: requesting theory records help without leaking it initially
+[40/61] tests/e2e/reading.spec.ts:58:3 › Reading 320: text, help, comprehension, summary and distinct progress
+[41/61] tests/e2e/reading.spec.ts:58:3 › Reading 375: text, help, comprehension, summary and distinct progress
+[42/61] tests/e2e/reading.spec.ts:58:3 › Reading 390: text, help, comprehension, summary and distinct progress
+[43/61] tests/e2e/reading.spec.ts:58:3 › Reading 768: text, help, comprehension, summary and distinct progress
+[44/61] tests/e2e/reading.spec.ts:128:1 › Reading offline: reopen draft and help, submit once and restore feedback
+[45/61] tests/e2e/reading.spec.ts:176:1 › Reading keyboard: wrong answer, assisted retry and abstention keep their judgments
+[46/61] tests/e2e/reading.spec.ts:221:1 › Reading longest text: mobile short response outside criterion is not an error
+[47/61] tests/e2e/reading.spec.ts:277:3 › Reading R25: contextual comprehension and independent evidence
+[48/61] tests/e2e/reading.spec.ts:277:3 › Reading R26: contextual comprehension and independent evidence
+[49/61] tests/e2e/review.spec.ts:71:3 › 6A review mobile 320: complete review, history and progress
+[50/61] tests/e2e/review.spec.ts:71:3 › 6A review mobile 375: complete review, history and progress
+[51/61] tests/e2e/review.spec.ts:71:3 › 6A review mobile 390: complete review, history and progress
+[52/61] tests/e2e/review.spec.ts:71:3 › 6A review mobile 768: complete review, history and progress
+[53/61] tests/e2e/review.spec.ts:114:1 › 6A review: pause, close, reopen offline, recover draft and feedback without duplicates
+[54/61] tests/e2e/v1-integration.spec.ts:85:1 › V1 integrated learner journey preserves all modes, evidence and history offline
+[55/61] tests/e2e/writing-paste.spec.ts:6:1 › Writing multiline paste saves once, preserves later edits and reloads
+[56/61] tests/e2e/writing.spec.ts:42:3 › Writing 320: compose, reread, help, abstain, repair and history
+[57/61] tests/e2e/writing.spec.ts:42:3 › Writing 375: compose, reread, help, abstain, repair and history
+[58/61] tests/e2e/writing.spec.ts:42:3 › Writing 390: compose, reread, help, abstain, repair and history
+[59/61] tests/e2e/writing.spec.ts:42:3 › Writing 768: compose, reread, help, abstain, repair and history
+[60/61] tests/e2e/writing.spec.ts:108:1 › Writing offline draft and feedback survive reload without duplicates
+[61/61] tests/e2e/writing.spec.ts:134:1 › Writing bounded criterion distinguishes error, repair and neutral alternative
+  1 skipped
+  60 passed (9.8m)

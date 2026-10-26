@@ -1,0 +1,114 @@
+[
+  {
+    "width": 320,
+    "startupMs": 1119.004332,
+    "timings": [
+      {
+        "name": "Biblioteca",
+        "ms": 200.64642799999956
+      },
+      {
+        "name": "Pratica",
+        "ms": 122.58303599999999
+      },
+      {
+        "name": "Progressi",
+        "ms": 181.92939899999965
+      },
+      {
+        "name": "Home",
+        "ms": 101.70537200000035
+      }
+    ],
+    "heapBytes": 14205884,
+    "overflow": false,
+    "main": 1,
+    "nav": 1,
+    "skip": 1,
+    "errors": []
+  },
+  {
+    "width": 375,
+    "startupMs": 1034.7503850000003,
+    "timings": [
+      {
+        "name": "Biblioteca",
+        "ms": 345.94244400000025
+      },
+      {
+        "name": "Pratica",
+        "ms": 127.65111900000011
+      },
+      {
+        "name": "Progressi",
+        "ms": 478.5103250000002
+      },
+      {
+        "name": "Home",
+        "ms": 200.16965700000037
+      }
+    ],
+    "heapBytes": 12262852,
+    "overflow": false,
+    "main": 1,
+    "nav": 1,
+    "skip": 1,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "startupMs": 1442.2838929999998,
+    "timings": [
+      {
+        "name": "Biblioteca",
+        "ms": 223.82937500000116
+      },
+      {
+        "name": "Pratica",
+        "ms": 113.66222999999991
+      },
+      {
+        "name": "Progressi",
+        "ms": 181.31044099999963
+      },
+      {
+        "name": "Home",
+        "ms": 125.02128099999936
+      }
+    ],
+    "heapBytes": 14210652,
+    "overflow": false,
+    "main": 1,
+    "nav": 1,
+    "skip": 1,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "startupMs": 1101.4718700000012,
+    "timings": [
+      {
+        "name": "Biblioteca",
+        "ms": 282.61157699999967
+      },
+      {
+        "name": "Pratica",
+        "ms": 110.66642700000011
+      },
+      {
+        "name": "Progressi",
+        "ms": 190.1058950000006
+      },
+      {
+        "name": "Home",
+        "ms": 113.60233200000039
+      }
+    ],
+    "heapBytes": 13628572,
+    "overflow": false,
+    "main": 1,
+    "nav": 1,
+    "skip": 1,
+    "errors": []
+  }
+]

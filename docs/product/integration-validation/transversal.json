@@ -1,0 +1,128 @@
+{
+  "config": {
+    "argv": [
+      "/Users/sergiopardo/.nvm/versions/node/v22.23.3/bin/node",
+      "/Users/sergiopardo/Desktop/language-trainer/node_modules/.bin/playwright",
+      "test",
+      "tests/e2e/v1-integration.spec.ts",
+      "--reporter=line,json"
+    ],
+    "configFile": "/Users/sergiopardo/Desktop/language-trainer/playwright.config.ts",
+    "rootDir": "/Users/sergiopardo/Desktop/language-trainer/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/sergiopardo/Desktop/language-trainer/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/sergiopardo/Desktop/language-trainer/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "line"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "node scripts/test-server.mjs",
+      "url": "http://localhost:8787/api/health",
+      "reuseExistingServer": false,
+      "timeout": 60000
+    }
+  },
+  "suites": [
+    {
+      "title": "v1-integration.spec.ts",
+      "file": "v1-integration.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "V1 integrated learner journey preserves all modes, evidence and history offline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 81554,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-26T17:06:55.249Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "journey-metrics",
+                      "contentType": "application/json",
+                      "body": "eyJzdGFydHVwTXMiOjM0OTMsImZhY3RzIjoyMTksImF0dGVtcHRzIjozMywiZXZpZGVuY2UiOjMyfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3af1e69536daa08ea4bb-86b00ffa9149f4ec5773",
+          "file": "v1-integration.spec.ts",
+          "line": 85,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-26T17:06:47.013Z",
+    "duration": 93506.25,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

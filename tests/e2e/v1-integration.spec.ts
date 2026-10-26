@@ -30,12 +30,14 @@ const saved = (page: Page) =>
     page.getByText('Pratica salvata su questo dispositivo', { exact: true }),
   ).toBeVisible();
 async function answer(page: Page, value: string) {
-  if (await page.locator('.word-chips').count()) {
+  if (await page.locator('select[id^="pair-"]').count()) {
+    for (const [i, selected] of (JSON.parse(value) as number[]).entries())
+      await page.locator(`#pair-${i}`).selectOption(String(selected));
+  } else if (await page.locator('.word-chips').count()) {
     for (const word of value.split(' '))
       await page
-        .locator('.word-chips')
-        .getByRole('button', { name: word, exact: true })
-        .filter({ visible: true })
+        .locator('.word-chips button:enabled')
+        .getByText(word, { exact: true })
         .first()
         .click();
   } else if (await page.locator('#learning-answer').count())

@@ -1,0 +1,6 @@
+
+> language-trainer@0.1.0 format:check
+> prettier --check src worker shared tests scripts *.ts *.json *.jsonc index.html public/manifest.webmanifest
+
+Checking formatting...
+All matched files use Prettier code style!
