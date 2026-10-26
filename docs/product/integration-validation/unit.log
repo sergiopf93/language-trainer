@@ -1,0 +1,15 @@
+
+> language-trainer@0.1.0 test
+> vitest run --maxWorkers=2
+
+
+ RUN  v5.0.3 /Users/sergiopardo/Desktop/language-trainer
+
+(node:20784) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+ Test Files  22 passed (22)
+      Tests  381 passed (381)
+   Start at  07:57:59
+   Duration  68.65s (tests 78%, import 19%, transform 3%)
+

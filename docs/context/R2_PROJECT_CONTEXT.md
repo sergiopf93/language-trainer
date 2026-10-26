@@ -2,6 +2,12 @@
 
 Actualizado: 2026-10-26. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
 
+## Fase 7 — integración V1 en curso (2026-10-26)
+
+Encargo explícito de cierre de producto. Rama `feat/a1-v1-integration` desde `0415c6b`; todas las ramas anteriores ya son ancestros, sin merges necesarios. Producción intacta. 381/381 tests (22 suites), tipos/formato iniciales, coverage/editorial/Reading/Writing y build de validación correctos; cero publicados. Nuevo E2E transversal aún falla: helper no soporta respuesta estructurada `[1,2,0]` en focal C04-01. Dos expectativas iniciales del test corregidas; no fallos de aplicación confirmados.
+
+Interrupción por límite de uso del QA independiente; revisión estática sin P0/P1, P2 de cronología global que excluye Reading/Writing abierto con historiales específicos conservados. Dictamen final pendiente. **Fase no cerrada; dist temporalmente de validación.** [Informe y punto exacto de reanudación](../product/A1_V1_INTEGRATION_REPORT.md). Falta reparar/completar transversal, regresión E2E, medidas/visual, build normal restrictivo, QA final, informe definitivo. Sin push/merge/publicación/despliegue ni fase 8.
+
 ## Fase 6D — Writing: cierre técnico (2026-10-26)
 
 Rama `feat/a1-writing`, baseline `1830ee1`, commit técnico local `f859c45`. Conserva main y fases anteriores. **270 actividades controladas reutilizadas para 99 conceptos + 19 nuevas revisadas**: 18 mensajes abiertos (12 guiados N3, cuatro semilibres y dos libres N4) y una presentación delimitada N2. Matriz previa/final C01–C34 y selección exacta en `docs/product/writing-review/`.

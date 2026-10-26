@@ -1,0 +1,13 @@
+
+> language-trainer@0.1.0 content:writing
+> node scripts/content-writing.mjs
+
+{
+  "concepts": 99,
+  "authored": 19,
+  "open": 18,
+  "reused": 270,
+  "reviewed": 19,
+  "production": 0,
+  "errors": []
+}
