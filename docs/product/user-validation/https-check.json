@@ -1,0 +1,32 @@
+{
+  "host": "127.0.0.1",
+  "certificateAndHostnameVerified": true,
+  "systemTrustModified": false,
+  "physicalIPhoneTested": false,
+  "responses": [
+    {
+      "path": "/",
+      "status": 200,
+      "vary": null,
+      "bytes": 804
+    },
+    {
+      "path": "/sw.js",
+      "status": 200,
+      "vary": null,
+      "bytes": 1034
+    },
+    {
+      "path": "/assets/index-Fg6QZoe0.css",
+      "status": 200,
+      "vary": null,
+      "bytes": 8243
+    },
+    {
+      "path": "/assets/index-DcL3tsR-.js",
+      "status": 200,
+      "vary": null,
+      "bytes": 1075196
+    }
+  ]
+}

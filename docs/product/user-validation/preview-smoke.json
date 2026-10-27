@@ -1,0 +1,12 @@
+{
+  "origin": "http://127.0.0.1:4178",
+  "secure": true,
+  "apiStatus": 401,
+  "reopenedOffline": true,
+  "draftRestored": true,
+  "factsPreserved": true,
+  "backupRestoredInFreshProfile": true,
+  "feedbackRestored": true,
+  "errors": [],
+  "physicalIPhoneTested": false
+}

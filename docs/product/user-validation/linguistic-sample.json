@@ -1,0 +1,2805 @@
+{
+  "sourceCommit": "81a2301 (fuentes de aplicación intactas desde 9f72bcc)",
+  "concepts": [
+    {
+      "concept": {
+        "id": "it-a1-c01-01",
+        "version": "1",
+        "topicId": "it-a1-t01",
+        "title": "Scrivere: chi, gi, sc, gn, gli",
+        "objective": "Reconocer y escribir c/ch, g/gh, sc, gn y gli en palabras enseñadas, sin evaluar pronunciación.",
+        "scope": "Reconocer y escribir c/ch, g/gh, sc, gn y gli en palabras enseñadas, sin evaluar pronunciación.",
+        "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Sin revisión editorial independiente para publicación.",
+        "dimensions": [
+          "comprehension",
+          "retrieval"
+        ],
+        "status": "reviewed",
+        "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. https://www.treccani.it/enciclopedia/segni-diacritici_(La-grammatica-italiana)/",
+        "targetLanguage": "it",
+        "supportLanguage": "es",
+        "cefr": "A1",
+        "facets": [
+          "c/ch",
+          "g/gh",
+          "sc",
+          "gn",
+          "gli"
+        ],
+        "compatibleFamilies": [
+          "F1",
+          "F2",
+          "F3"
+        ],
+        "coverage": "complete",
+        "review": {
+          "reviewer": "R2 · autorrevisión editorial asistida 5B.1, no independiente",
+          "date": "2026-10-13",
+          "version": "1"
+        }
+      },
+      "theory": {
+        "id": "it-a1-theory-c01-01",
+        "version": "theory-c01-01-1",
+        "conceptId": "it-a1-c01-01",
+        "conceptVersion": "1",
+        "targetLanguage": "it",
+        "supportLanguage": "es",
+        "title": "Scrivere: chi, gi, sc, gn, gli",
+        "goal": "Reconocer y escribir c/ch, g/gh, sc, gn y gli en palabras enseñadas, sin evaluar pronunciación.",
+        "introduction": "Algunas letras italianas trabajan juntas. Aprende la palabra con su significado y fíjate en el grupo completo: no traslades automáticamente la ortografía española.",
+        "rules": [
+          "Ante e/i, c y g tienen un sonido distinto del que tienen ante a/o/u. La h de che/chi y ghe/ghi mantiene el sonido de c de casa y de g de gatto.",
+          "En las palabras enseñadas, sc ante e/i aparece en pesce y scimmia; gn en bagno recuerda a la ñ española. Aprende gli dentro de famiglia y biglietto; no lo sustituyas por li.",
+          "La h de estos grupos no se pronuncia por separado. Aquí comprobarás escritura y reconocimiento; una respuesta escrita no demuestra pronunciación."
+        ],
+        "forms": [
+          [
+            "casa / ciao",
+            "casa / hola; c ante a / grupo ci ante a"
+          ],
+          [
+            "chiave / amiche",
+            "llave / amigas; chi / che"
+          ],
+          [
+            "gatto / gelato",
+            "gato / helado; g ante a / g ante e"
+          ],
+          [
+            "spaghetti / ghiaccio",
+            "espaguetis / hielo; ghe / ghi"
+          ],
+          [
+            "pesce / scimmia",
+            "pescado / mono; sce / sci"
+          ],
+          [
+            "bagno",
+            "baño; gn"
+          ],
+          [
+            "famiglia / biglietto",
+            "familia / billete; gli"
+          ]
+        ],
+        "examples": [
+          [
+            "La chiave.",
+            "La llave."
+          ],
+          [
+            "Un gelato.",
+            "Un helado."
+          ],
+          [
+            "Il bagno.",
+            "El baño."
+          ],
+          [
+            "La famiglia.",
+            "La familia."
+          ]
+        ],
+        "frequentErrors": [
+          "«Spagetti» pierde la h de spaghetti; «banio» no reproduce la grafía de bagno."
+        ],
+        "usageNotes": [
+          "En una estación puedes necesitar escribir biglietto; en un hotel, chiave o bagno. El significado ayuda a reconocer la palabra, pero no dicta su ortografía.",
+          "No generalices la lectura de gli a cualquier palabra con gl. Practica primero el repertorio mostrado."
+        ],
+        "exceptions": [],
+        "contrasts": [],
+        "vocabularyIds": [
+          "it-chiave",
+          "it-amico",
+          "it-gelato",
+          "it-spaghetti",
+          "it-ghiaccio",
+          "it-pesce",
+          "it-scimmia",
+          "it-bagno",
+          "it-famiglia",
+          "it-biglietto",
+          "it-casa",
+          "it-gatto",
+          "it-ciao"
+        ],
+        "status": "reviewed",
+        "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. https://www.treccani.it/enciclopedia/segni-diacritici_(La-grammatica-italiana)/",
+        "review": {
+          "reviewer": "R2 · autorrevisión editorial asistida 5B.1, no independiente",
+          "date": "2026-10-13",
+          "version": "theory-c01-01-1"
+        }
+      },
+      "activities": [
+        {
+          "id": "it-a1-c01-01-chiave",
+          "version": "1",
+          "conceptId": "it-a1-c01-01",
+          "conceptVersion": "1",
+          "family": "F1",
+          "format": "selection",
+          "prompt": "In hotel: scegli la parola italiana per «llave».",
+          "options": [
+            "chiave",
+            "ciave",
+            "chave"
+          ],
+          "hint": "Busca el grupo chi.",
+          "explanation": "La palabra enseñada es chiave, con chi. La h pertenece al grupo gráfico.",
+          "dimension": "comprehension",
+          "task": {
+            "skill": "recognition",
+            "context": "hotel",
+            "facets": [
+              "c/ch"
+            ],
+            "opportunityId": "it-a1-c01-01-chiave:target",
+            "scaffolding": "visible-options",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "1",
+            "canonVersion": "it-A1-editorial-1",
+            "accepted": [
+              "chiave"
+            ],
+            "rejected": [],
+            "exhaustive": true
+          },
+          "status": "reviewed",
+          "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. https://www.treccani.it/enciclopedia/segni-diacritici_(La-grammatica-italiana)/",
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-curriculum",
+            "curriculumVersion": "1",
+            "sourceId": "it-a1-c01-01-chiave",
+            "sourceVersion": "1"
+          },
+          "review": {
+            "reviewer": "R2 · autorrevisión editorial asistida 5B.1, no independiente",
+            "date": "2026-10-13",
+            "version": "1"
+          }
+        },
+        {
+          "id": "it-a1-c01-01-ciao",
+          "version": "1",
+          "conceptId": "it-a1-c01-01",
+          "conceptVersion": "1",
+          "family": "F2",
+          "format": "short",
+          "prompt": "Scrivi il saluto italiano «hola» mostrato nella tabella.",
+          "options": [],
+          "hint": "El grupo inicial es ci, sin h.",
+          "explanation": "Ciao contiene ci ante a. La h de chiave no se extiende a ciao.",
+          "dimension": "retrieval",
+          "task": {
+            "skill": "retrieval",
+            "context": "saludo",
+            "facets": [
+              "c/ch"
+            ],
+            "opportunityId": "it-a1-c01-01-ciao:target",
+            "scaffolding": "none",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "1",
+            "canonVersion": "it-A1-editorial-1",
+            "accepted": [
+              "ciao"
+            ],
+            "rejected": [
+              "chiao"
+            ],
+            "exhaustive": false
+          },
+          "status": "reviewed",
+          "provenance": "Candidate de R2: Research 02 C01–C05 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. https://www.treccani.it/enciclopedia/segni-diacritici_(La-grammatica-italiana)/",
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-curriculum",
+            "curriculumVersion": "1",
+            "sourceId": "it-a1-c01-01-ciao",
+            "sourceVersion": "1"
+          },
+          "review": {
+            "reviewer": "R2 · autorrevisión editorial asistida 5B.1, no independiente",
+            "date": "2026-10-13",
+            "version": "1"
+          }
+        }
+      ]
+    },
+    {
+      "concept": {
+        "id": "it-a1-c06-01",
+        "version": "1",
+        "topicId": "it-a1-t06",
+        "title": "Non ho fame",
+        "objective": "Negar declaraciones sencillas con non delante de essere o avere.",
+        "scope": "Negar declaraciones sencillas con non delante de essere o avere.",
+        "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Sin revisión editorial independiente para publicación.",
+        "dimensions": [
+          "comprehension",
+          "retrieval",
+          "contextual-use"
+        ],
+        "status": "reviewed",
+        "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C06; A1_COVERAGE_MATRIX C06. Canon curricular Work: negación non, preguntas simples e interrogativos frecuentes.",
+        "targetLanguage": "it",
+        "supportLanguage": "es",
+        "cefr": "A1",
+        "facets": [
+          "posición",
+          "sujeto",
+          "no/non"
+        ],
+        "compatibleFamilies": [
+          "F1",
+          "F2",
+          "F3",
+          "F7",
+          "F4"
+        ],
+        "coverage": "complete",
+        "review": {
+          "reviewer": "R2 · autorrevisión editorial asistida 5B.1, no independiente",
+          "date": "2026-10-13",
+          "version": "1"
+        }
+      },
+      "theory": {
+        "id": "it-a1-theory-c06-01",
+        "version": "theory-c06-01-1-editorial-1",
+        "conceptId": "it-a1-c06-01",
+        "conceptVersion": "1",
+        "targetLanguage": "it",
+        "supportLanguage": "es",
+        "title": "Non ho fame",
+        "goal": "Negar declaraciones sencillas con non delante de essere o avere.",
+        "introduction": "Non niega lo que dice el verbo. Reutiliza las formas de essere y avere que ya conoces: no cambia la persona ni la forma verbal.",
+        "rules": [
+          "Coloca non inmediatamente antes del verbo en estas frases: non sono, non hai, non è, non abbiamo.",
+          "Si expresas el sujeto, va antes de non en el orden neutro: Anna non è qui. El sujeto puede omitirse cuando se entiende.",
+          "«No» sirve como respuesta independiente negativa; «non» acompaña al verbo: No, non ho fame."
+        ],
+        "forms": [
+          [
+            "non sono / non sei / non è",
+            "no soy-estoy / no eres-estás / no es-está"
+          ],
+          [
+            "non ho / non hai / non ha",
+            "no tengo / no tienes / no tiene"
+          ]
+        ],
+        "examples": [
+          [
+            "Non sono a casa.",
+            "No estoy en casa."
+          ],
+          [
+            "Anna non ha sonno.",
+            "Anna no tiene sueño."
+          ],
+          [
+            "No, non ho una chiave.",
+            "No, no tengo una llave."
+          ]
+        ],
+        "frequentErrors": [
+          "«Sono non a casa» no es el orden neutro enseñado; escribe non sono a casa.",
+          "«No ho fame» confunde la respuesta no con la negación non."
+        ],
+        "usageNotes": [
+          "Se practica una negación simple; nadie, nada y negaciones complejas quedan fuera de este concepto."
+        ],
+        "exceptions": [],
+        "contrasts": [],
+        "vocabularyIds": [
+          "it-non",
+          "it-no",
+          "it-essere",
+          "it-avere",
+          "it-casa",
+          "it-qui",
+          "it-sonno",
+          "it-fame",
+          "it-chiave"
+        ],
+        "status": "reviewed",
+        "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C06; A1_COVERAGE_MATRIX C06. Canon curricular Work: negación non, preguntas simples e interrogativos frecuentes.",
+        "review": {
+          "reviewer": "R2 · autorrevisión editorial asistida 5B.1, no independiente",
+          "date": "2026-10-13",
+          "version": "theory-c06-01-1-editorial-1"
+        }
+      },
+      "activities": [
+        {
+          "id": "it-a1-c06-01-nega",
+          "version": "2",
+          "conceptId": "it-a1-c06-01",
+          "conceptVersion": "1",
+          "family": "F3",
+          "format": "transformation",
+          "prompt": "Trasforma «Sono a casa» in una frase negativa semplice, senza aggiungere altre parole.",
+          "options": [],
+          "hint": "En la negación simple enseñada, non se coloca antes de sono: Non sono a casa. Las construcciones contrastivas tienen otro alcance.",
+          "explanation": "En la negación simple enseñada, non se coloca antes de sono: Non sono a casa. Las construcciones contrastivas tienen otro alcance.",
+          "dimension": "retrieval",
+          "task": {
+            "skill": "transformation",
+            "context": "vivienda",
+            "facets": [
+              "posición"
+            ],
+            "opportunityId": "it-a1-c06-01-nega:target",
+            "scaffolding": "none",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "2",
+            "canonVersion": "it-A1-editorial-1",
+            "accepted": [
+              "Non sono a casa",
+              "Non sono a casa."
+            ],
+            "rejected": [
+              "Sono non a casa"
+            ],
+            "exhaustive": false
+          },
+          "status": "reviewed",
+          "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C06; A1_COVERAGE_MATRIX C06. Canon curricular Work: negación non, preguntas simples e interrogativos frecuentes.",
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-curriculum",
+            "curriculumVersion": "1",
+            "sourceId": "it-a1-c06-01-nega",
+            "sourceVersion": "2"
+          },
+          "review": {
+            "reviewer": "R2 · autorrevisión editorial asistida 5B.1, no independiente",
+            "date": "2026-10-13",
+            "version": "2"
+          }
+        },
+        {
+          "id": "it-a1-c06-01-ripara",
+          "version": "1",
+          "conceptId": "it-a1-c06-01",
+          "conceptVersion": "1",
+          "family": "F3",
+          "format": "error-correction",
+          "prompt": "Correggi solo la negazione: «No ho una chiave».",
+          "options": [],
+          "hint": "Non es el adverbio que niega ho; no sería una respuesta separada.",
+          "explanation": "Non es el adverbio que niega ho; no sería una respuesta separada.",
+          "dimension": "retrieval",
+          "task": {
+            "skill": "transformation",
+            "context": "hotel",
+            "facets": [
+              "no/non"
+            ],
+            "opportunityId": "it-a1-c06-01-ripara:target",
+            "scaffolding": "none",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "1",
+            "canonVersion": "it-A1-editorial-1",
+            "accepted": [
+              "Non ho una chiave",
+              "Non ho una chiave."
+            ],
+            "rejected": [
+              "No ho una chiave"
+            ],
+            "exhaustive": false
+          },
+          "status": "reviewed",
+          "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C06; A1_COVERAGE_MATRIX C06. Canon curricular Work: negación non, preguntas simples e interrogativos frecuentes.",
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-curriculum",
+            "curriculumVersion": "1",
+            "sourceId": "it-a1-c06-01-ripara",
+            "sourceVersion": "1"
+          },
+          "review": {
+            "reviewer": "R2 · autorrevisión editorial asistida 5B.1, no independiente",
+            "date": "2026-10-13",
+            "version": "1"
+          }
+        }
+      ]
+    },
+    {
+      "concept": {
+        "id": "it-a1-c10-02",
+        "version": "1",
+        "topicId": "it-a1-t10",
+        "title": "Una chiave: introduciamo qualcosa",
+        "objective": "Introducir un referente con indeterminado y contrastar su posterior identificación con determinado.",
+        "scope": "Introducir un referente con indeterminado y contrastar su posterior identificación con determinado.",
+        "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Sin revisión editorial independiente para publicación.",
+        "dimensions": [
+          "comprehension",
+          "retrieval",
+          "contextual-use",
+          "discrimination"
+        ],
+        "status": "reviewed",
+        "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C10; A1_COVERAGE_MATRIX C10. https://www.treccani.it/enciclopedia/articoli-indeterminativi_(La-grammatica-italiana)/",
+        "targetLanguage": "it",
+        "supportLanguage": "es",
+        "cefr": "A1",
+        "facets": [
+          "introducción",
+          "petición",
+          "contraste-referencia"
+        ],
+        "compatibleFamilies": [
+          "F1",
+          "F2",
+          "F4"
+        ],
+        "coverage": "complete",
+        "review": {
+          "reviewer": "R2 · autorrevisión editorial asistida 5B.1, no independiente",
+          "date": "2026-10-13",
+          "version": "1"
+        }
+      },
+      "theory": {
+        "id": "it-a1-theory-c10-02",
+        "version": "theory-c10-02-1",
+        "conceptId": "it-a1-c10-02",
+        "conceptVersion": "1",
+        "targetLanguage": "it",
+        "supportLanguage": "es",
+        "title": "Una chiave: introduciamo qualcosa",
+        "goal": "Introducir un referente con indeterminado y contrastar su posterior identificación con determinado.",
+        "introduction": "Cuando presentas algo que el interlocutor todavía no identifica, el indeterminado permite introducirlo. No significa que el hablante desconozca de qué objeto se trata.",
+        "rules": [
+          "Ho una chiave introduce una llave; La chiave è qui puede continuar hablando de la misma.",
+          "Una petición de una unidad sin identificar un ejemplar concreto usa indeterminado: Un caffè, per favore. La fórmula permite pedir sin aprender otro verbo.",
+          "El contraste es discursivo: una penna presenta; la penna retoma o identifica. No se decide únicamente por si el nombre aparece por primera vez en la frase."
+        ],
+        "forms": [
+          [
+            "un caffè, per favore",
+            "un café, por favor"
+          ],
+          [
+            "ho una chiave → la chiave è qui",
+            "introducción → referencia conocida"
+          ]
+        ],
+        "examples": [
+          [
+            "Un caffè, per favore.",
+            "Un café, por favor."
+          ],
+          [
+            "Ho un biglietto. Il biglietto è qui.",
+            "Tengo un billete. El billete está aquí."
+          ]
+        ],
+        "frequentErrors": [
+          "El indeterminado no significa necesariamente desconocido para quien habla.",
+          "No trates dei como plural universal de un: esa construcción se verá con cantidades y contexto."
+        ],
+        "usageNotes": [
+          "Las situaciones especifican si se introduce o retoma el objeto para evitar evaluar preferencias ambiguas."
+        ],
+        "exceptions": [],
+        "contrasts": [
+          {
+            "conceptId": "it-a1-c09-03",
+            "explanation": "Un/una introducen; il/la pueden retomar lo introducido o identificar algo compartido."
+          }
+        ],
+        "vocabularyIds": [
+          "it-chiave",
+          "it-penna",
+          "it-biglietto",
+          "it-caffe",
+          "it-per-favore",
+          "it-articolo-indeterminativo",
+          "it-articolo-determinativo"
+        ],
+        "status": "reviewed",
+        "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C10; A1_COVERAGE_MATRIX C10. https://www.treccani.it/enciclopedia/articoli-indeterminativi_(La-grammatica-italiana)/",
+        "review": {
+          "reviewer": "R2 · autorrevisión editorial asistida 5B.1, no independiente",
+          "date": "2026-10-13",
+          "version": "theory-c10-02-1"
+        }
+      },
+      "activities": [
+        {
+          "id": "it-a1-c10-02-caffe",
+          "version": "2",
+          "conceptId": "it-a1-c10-02",
+          "conceptVersion": "1",
+          "family": "F2",
+          "format": "cloze",
+          "prompt": "Entri in un bar e fai una nuova ordinazione. Chiedi la bevanda indicata, senza riferirti a una consumazione già identificata: ___ caffè, per favore.",
+          "options": [],
+          "hint": "Un caffè, per favore es la forma neutra para solicitar una consumición nueva no identificada. Il caffè, per favore puede usarse en otros contextos con una consumición identificable; no corresponde al contexto indicado aquí.",
+          "explanation": "Un caffè, per favore es la forma neutra para solicitar una consumición nueva no identificada. Il caffè, per favore puede usarse en otros contextos con una consumición identificable; no corresponde al contexto indicado aquí.",
+          "dimension": "retrieval",
+          "task": {
+            "skill": "retrieval",
+            "context": "bar",
+            "facets": [
+              "petición"
+            ],
+            "opportunityId": "it-a1-c10-02-caffe:target",
+            "scaffolding": "none",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "2",
+            "canonVersion": "it-A1-editorial-1",
+            "accepted": [
+              "Un"
+            ],
+            "rejected": [
+              "Il",
+              "Uno"
+            ],
+            "exhaustive": false
+          },
+          "status": "reviewed",
+          "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C10; A1_COVERAGE_MATRIX C10. https://www.treccani.it/enciclopedia/articoli-indeterminativi_(La-grammatica-italiana)/",
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-curriculum",
+            "curriculumVersion": "1",
+            "sourceId": "it-a1-c10-02-caffe",
+            "sourceVersion": "2"
+          },
+          "review": {
+            "reviewer": "R2 · autorrevisión editorial asistida 5B.1, no independiente",
+            "date": "2026-10-13",
+            "version": "2"
+          }
+        },
+        {
+          "id": "it-a1-c10-02-chiedi",
+          "version": "2",
+          "conceptId": "it-a1-c10-02",
+          "conceptVersion": "1",
+          "family": "F4",
+          "format": "controlled-production",
+          "prompt": "Al bar, ordina «un café, por favor» con la formula senza verbo.",
+          "options": [],
+          "hint": "Un caffè introduce el pedido; per favore añade cortesía.",
+          "explanation": "Un caffè introduce el pedido; per favore añade cortesía.",
+          "dimension": "contextual-use",
+          "task": {
+            "skill": "controlled-production",
+            "context": "bar",
+            "facets": [
+              "petición"
+            ],
+            "opportunityId": "it-a1-c10-02-chiedi:target",
+            "scaffolding": "none",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "2",
+            "canonVersion": "it-A1-editorial-1",
+            "accepted": [
+              "Un caffè, per favore",
+              "Un caffè, per favore.",
+              "Un caffè per favore",
+              "Un caffè per favore.",
+              "Per favore, un caffè",
+              "Per favore, un caffè.",
+              "Per favore un caffè",
+              "Per favore un caffè."
+            ],
+            "rejected": [
+              "Il caffè, per favore"
+            ],
+            "exhaustive": false
+          },
+          "status": "reviewed",
+          "provenance": "Candidate de R2: Research 02 C06–C10 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C10; A1_COVERAGE_MATRIX C10. https://www.treccani.it/enciclopedia/articoli-indeterminativi_(La-grammatica-italiana)/",
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-curriculum",
+            "curriculumVersion": "1",
+            "sourceId": "it-a1-c10-02-chiedi",
+            "sourceVersion": "2"
+          },
+          "review": {
+            "reviewer": "R2 · autorrevisión editorial asistida 5B.1, no independiente",
+            "date": "2026-10-13",
+            "version": "2"
+          }
+        }
+      ]
+    },
+    {
+      "concept": {
+        "id": "it-a1-c13-01",
+        "version": "1",
+        "topicId": "it-a1-t13",
+        "title": "Da zero a cento",
+        "objective": "Comprender y recuperar 0–20 y formar números hasta 100 con elisiones y acento de los compuestos en -tré.",
+        "scope": "Comprender y recuperar 0–20 y formar números hasta 100 con elisiones y acento de los compuestos en -tré.",
+        "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+        "dimensions": [
+          "comprehension",
+          "retrieval",
+          "discrimination"
+        ],
+        "status": "reviewed",
+        "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+        "targetLanguage": "it",
+        "supportLanguage": "es",
+        "cefr": "A1",
+        "facets": [
+          "0-10",
+          "11-20",
+          "decenas",
+          "composición",
+          "elisión",
+          "acento"
+        ],
+        "compatibleFamilies": [
+          "F1",
+          "F2",
+          "F3",
+          "F7"
+        ],
+        "coverage": "complete",
+        "review": {
+          "reviewer": "R2 · revisión integral 5B.3 y contraste con subagente lingüístico aislado",
+          "date": "2026-10-14",
+          "version": "1"
+        }
+      },
+      "theory": {
+        "id": "it-a1-theory-c13-01",
+        "version": "theory-c13-01-1",
+        "conceptId": "it-a1-c13-01",
+        "conceptVersion": "1",
+        "targetLanguage": "it",
+        "supportLanguage": "es",
+        "title": "Da zero a cento",
+        "goal": "Comprender y recuperar 0–20 y formar números hasta 100 con elisiones y acento de los compuestos en -tré.",
+        "introduction": "Primero aprende las formas de 0 a 20; después combina una decena con una unidad. El italiano escribe estos compuestos en una palabra y no introduce la y española.",
+        "rules": [
+          "Memoriza las formas de la tabla 0–20: no se obtiene diecisiete traduciendo sus partes del español.",
+          "Desde 21, une decena y unidad: trentadue, quarantacinque. Ante uno y otto cae la vocal final de la decena: ventuno, ventotto, trentuno, trentotto.",
+          "Tre aislado no lleva acento; los compuestos terminados en tre sí: ventitré, trentatré, novantatré.",
+          "Las decenas son venti, trenta, quaranta, cinquanta, sessanta, settanta, ottanta y novanta; 100 es cento."
+        ],
+        "forms": [
+          [
+            "zero",
+            "0"
+          ],
+          [
+            "uno",
+            "1"
+          ],
+          [
+            "due",
+            "2"
+          ],
+          [
+            "tre",
+            "3"
+          ],
+          [
+            "quattro",
+            "4"
+          ],
+          [
+            "cinque",
+            "5"
+          ],
+          [
+            "sei",
+            "6"
+          ],
+          [
+            "sette",
+            "7"
+          ],
+          [
+            "otto",
+            "8"
+          ],
+          [
+            "nove",
+            "9"
+          ],
+          [
+            "dieci",
+            "10"
+          ],
+          [
+            "undici",
+            "11"
+          ],
+          [
+            "dodici",
+            "12"
+          ],
+          [
+            "tredici",
+            "13"
+          ],
+          [
+            "quattordici",
+            "14"
+          ],
+          [
+            "quindici",
+            "15"
+          ],
+          [
+            "sedici",
+            "16"
+          ],
+          [
+            "diciassette",
+            "17"
+          ],
+          [
+            "diciotto",
+            "18"
+          ],
+          [
+            "diciannove",
+            "19"
+          ],
+          [
+            "venti",
+            "20"
+          ],
+          [
+            "trenta",
+            "30"
+          ],
+          [
+            "quaranta",
+            "40"
+          ],
+          [
+            "cinquanta",
+            "50"
+          ],
+          [
+            "sessanta",
+            "60"
+          ],
+          [
+            "settanta",
+            "70"
+          ],
+          [
+            "ottanta",
+            "80"
+          ],
+          [
+            "novanta",
+            "90"
+          ],
+          [
+            "cento",
+            "100"
+          ]
+        ],
+        "examples": [
+          [
+            "Ho ventotto anni.",
+            "Tengo veintiocho años."
+          ],
+          [
+            "Due biglietti, per favore.",
+            "Dos billetes, por favor."
+          ]
+        ],
+        "frequentErrors": [
+          "No escribas «ventiuno» ni «ventiotto».",
+          "«Ventitre» pierde un acento significativo; tre aislado no lo lleva."
+        ],
+        "usageNotes": [
+          "Las tareas indican si se requieren cifras o letras. Las edades y unidades se integran en C13-03."
+        ],
+        "exceptions": [],
+        "contrasts": [],
+        "vocabularyIds": [
+          "it-zero",
+          "it-uno",
+          "it-due",
+          "it-tre",
+          "it-quattro",
+          "it-cinque",
+          "it-sei",
+          "it-sette",
+          "it-otto",
+          "it-nove",
+          "it-dieci",
+          "it-undici",
+          "it-dodici",
+          "it-tredici",
+          "it-quattordici",
+          "it-quindici",
+          "it-sedici",
+          "it-diciassette",
+          "it-diciotto",
+          "it-diciannove",
+          "it-venti",
+          "it-trenta",
+          "it-quaranta",
+          "it-cinquanta",
+          "it-sessanta",
+          "it-settanta",
+          "it-ottanta",
+          "it-novanta",
+          "it-cento",
+          "it-anno",
+          "it-biglietto"
+        ],
+        "status": "reviewed",
+        "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+        "review": {
+          "reviewer": "R2 · revisión integral 5B.3 y contraste con subagente lingüístico aislado",
+          "date": "2026-10-14",
+          "version": "theory-c13-01-1"
+        }
+      },
+      "activities": [
+        {
+          "id": "it-a1-c13-01-zero",
+          "version": "1",
+          "conceptId": "it-a1-c13-01",
+          "conceptVersion": "1",
+          "family": "F1",
+          "format": "selection",
+          "prompt": "Scegli il numero zero.",
+          "options": [
+            "0",
+            "6",
+            "10"
+          ],
+          "hint": "Zero representa ausencia de unidades.",
+          "explanation": "Zero representa ausencia de unidades.",
+          "dimension": "comprehension",
+          "task": {
+            "skill": "recognition",
+            "context": "teléfono",
+            "facets": [
+              "0-10"
+            ],
+            "opportunityId": "it-a1-c13-01-zero:target",
+            "scaffolding": "visible-options",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "1",
+            "canonVersion": "it-A1-editorial-1",
+            "accepted": [
+              "0"
+            ],
+            "rejected": [],
+            "exhaustive": true
+          },
+          "status": "reviewed",
+          "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-curriculum",
+            "curriculumVersion": "1",
+            "sourceId": "it-a1-c13-01-zero",
+            "sourceVersion": "1"
+          },
+          "review": {
+            "reviewer": "R2 · revisión integral 5B.3 y contraste con subagente lingüístico aislado",
+            "date": "2026-10-14",
+            "version": "1"
+          }
+        },
+        {
+          "id": "it-a1-c13-01-sette",
+          "version": "1",
+          "conceptId": "it-a1-c13-01",
+          "conceptVersion": "1",
+          "family": "F2",
+          "format": "short",
+          "prompt": "Scrivi 7 in lettere.",
+          "options": [],
+          "hint": "La forma canónica de 7 es sette, con doble t.",
+          "explanation": "La forma canónica de 7 es sette, con doble t.",
+          "dimension": "retrieval",
+          "task": {
+            "skill": "retrieval",
+            "context": "compras",
+            "facets": [
+              "0-10"
+            ],
+            "opportunityId": "it-a1-c13-01-sette:target",
+            "scaffolding": "none",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "1",
+            "canonVersion": "it-A1-editorial-1",
+            "accepted": [
+              "sette"
+            ],
+            "rejected": [
+              "sete"
+            ],
+            "exhaustive": false
+          },
+          "status": "reviewed",
+          "provenance": "Candidate de R2: Research 02 C11–C17 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C13; A1_COVERAGE_MATRIX C13. https://www.treccani.it/enciclopedia/numerali-prontuario_(Enciclopedia-dell%27Italiano)/",
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-curriculum",
+            "curriculumVersion": "1",
+            "sourceId": "it-a1-c13-01-sette",
+            "sourceVersion": "1"
+          },
+          "review": {
+            "reviewer": "R2 · revisión integral 5B.3 y contraste con subagente lingüístico aislado",
+            "date": "2026-10-14",
+            "version": "1"
+          }
+        }
+      ]
+    },
+    {
+      "concept": {
+        "id": "it-a1-c20-03",
+        "version": "1",
+        "topicId": "it-a1-t20",
+        "title": "Dove vai?",
+        "objective": "Expresar destino y dirección con a/in/da/per según verbo y referente.",
+        "scope": "Expresar destino y dirección con a/in/da/per según verbo y referente.",
+        "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+        "dimensions": [
+          "comprehension",
+          "retrieval",
+          "contextual-use",
+          "discrimination"
+        ],
+        "status": "reviewed",
+        "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C20; A1_COVERAGE_MATRIX C20.",
+        "targetLanguage": "it",
+        "supportLanguage": "es",
+        "cefr": "A1",
+        "facets": [
+          "a",
+          "in",
+          "da",
+          "per"
+        ],
+        "compatibleFamilies": [
+          "F1",
+          "F2",
+          "F3",
+          "F4"
+        ],
+        "coverage": "complete",
+        "review": {
+          "reviewer": "R2 · revisión integral 5B.3 y contraste con subagente lingüístico aislado",
+          "date": "2026-10-14",
+          "version": "1"
+        }
+      },
+      "theory": {
+        "id": "it-a1-theory-c20-03",
+        "version": "theory-c20-03-1",
+        "conceptId": "it-a1-c20-03",
+        "conceptVersion": "1",
+        "targetLanguage": "it",
+        "supportLanguage": "es",
+        "title": "Dove vai?",
+        "goal": "Expresar destino y dirección con a/in/da/per según verbo y referente.",
+        "introduction": "La meta de un desplazamiento se expresa mediante combinaciones concretas: andare a Roma, andare in Italia, andare da Anna. Per puede señalar la dirección de un transporte.",
+        "rules": [
+          "Con andare usa a + ciudad y a casa; in + país: vado a Roma, vado in Italia.",
+          "Da + persona indica ir a su casa o lugar de trabajo: vado da Anna. No significa aquí salir de su casa.",
+          "Un treno per Roma es un tren con destino a Roma. Per no sustituye automáticamente a a en vado a Roma."
+        ],
+        "forms": [
+          [
+            "andare a Roma / a casa",
+            "ir a Roma / a casa"
+          ],
+          [
+            "andare in Italia",
+            "ir a Italia"
+          ],
+          [
+            "andare da Anna",
+            "ir a casa de Anna"
+          ],
+          [
+            "treno per Roma",
+            "tren para Roma"
+          ]
+        ],
+        "examples": [
+          [
+            "Vado da Anna.",
+            "Voy a casa de Anna."
+          ],
+          [
+            "Prendo un treno per Roma.",
+            "Tomo un tren para Roma."
+          ]
+        ],
+        "frequentErrors": [
+          "No uses vado a Anna para ir a casa de Anna.",
+          "Da cambia de interpretación con el verbo: vengo da Roma / vado da Anna."
+        ],
+        "usageNotes": [
+          "Recupera las formas conocidas de andare y aprende cada destino junto con su preposición."
+        ],
+        "exceptions": [],
+        "contrasts": [],
+        "vocabularyIds": [
+          "it-a",
+          "it-in",
+          "it-da",
+          "it-per",
+          "it-andare",
+          "it-venire",
+          "it-prendere",
+          "it-roma",
+          "it-casa",
+          "it-italia",
+          "it-treno"
+        ],
+        "status": "reviewed",
+        "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C20; A1_COVERAGE_MATRIX C20.",
+        "review": {
+          "reviewer": "R2 · revisión integral 5B.3 y contraste con subagente lingüístico aislado",
+          "date": "2026-10-14",
+          "version": "theory-c20-03-1"
+        }
+      },
+      "activities": [
+        {
+          "id": "it-a1-c20-03-meta",
+          "version": "1",
+          "conceptId": "it-a1-c20-03",
+          "conceptVersion": "1",
+          "family": "F1",
+          "format": "selection",
+          "prompt": "Vado ___ Roma.",
+          "options": [
+            "a",
+            "in"
+          ],
+          "hint": "La ciudad Roma se introduce con a tras andare.",
+          "explanation": "La ciudad Roma se introduce con a tras andare.",
+          "dimension": "comprehension",
+          "task": {
+            "skill": "recognition",
+            "context": "viaje",
+            "facets": [
+              "a"
+            ],
+            "opportunityId": "it-a1-c20-03-meta:target",
+            "scaffolding": "visible-options",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "1",
+            "canonVersion": "it-A1-editorial-1",
+            "accepted": [
+              "a"
+            ],
+            "rejected": [
+              "in"
+            ],
+            "exhaustive": true
+          },
+          "status": "reviewed",
+          "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C20; A1_COVERAGE_MATRIX C20.",
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-curriculum",
+            "curriculumVersion": "1",
+            "sourceId": "it-a1-c20-03-meta",
+            "sourceVersion": "1"
+          },
+          "review": {
+            "reviewer": "R2 · revisión integral 5B.3 y contraste con subagente lingüístico aislado",
+            "date": "2026-10-14",
+            "version": "1"
+          }
+        },
+        {
+          "id": "it-a1-c20-03-correggi",
+          "version": "2",
+          "conceptId": "it-a1-c20-03",
+          "conceptVersion": "1",
+          "family": "F3",
+          "format": "error-correction",
+          "prompt": "Vuoi andare a casa di Anna. Correggi la preposizione in «Andiamo a Anna» e scrivi tutta la frase.",
+          "options": [],
+          "hint": "Con el destino personal Anna se usa da.",
+          "explanation": "Con el destino personal Anna se usa da.",
+          "dimension": "retrieval",
+          "task": {
+            "skill": "transformation",
+            "context": "visita",
+            "facets": [
+              "da"
+            ],
+            "opportunityId": "it-a1-c20-03-correggi:target",
+            "scaffolding": "none",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "2",
+            "canonVersion": "it-A1-editorial-1",
+            "accepted": [
+              "Andiamo da Anna",
+              "Andiamo da Anna."
+            ],
+            "rejected": [
+              "Andiamo a Anna"
+            ],
+            "exhaustive": false
+          },
+          "status": "reviewed",
+          "provenance": "Candidate de R2: Research 02 C18–C25 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C20; A1_COVERAGE_MATRIX C20.",
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-curriculum",
+            "curriculumVersion": "1",
+            "sourceId": "it-a1-c20-03-correggi",
+            "sourceVersion": "2"
+          },
+          "review": {
+            "reviewer": "R2 · revisión integral 5B.3 y contraste con subagente lingüístico aislado",
+            "date": "2026-10-14",
+            "version": "2"
+          }
+        }
+      ]
+    },
+    {
+      "concept": {
+        "id": "it-a1-c26-01",
+        "version": "1",
+        "topicId": "it-a1-t26",
+        "title": "Come ti chiami?",
+        "objective": "Presentarse y preguntar o indicar el nombre vinculando pronombre y persona de chiamarsi.",
+        "scope": "Presentarse y preguntar o indicar el nombre vinculando pronombre y persona de chiamarsi.",
+        "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+        "dimensions": [
+          "retrieval",
+          "contextual-use"
+        ],
+        "status": "reviewed",
+        "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate.",
+        "targetLanguage": "it",
+        "supportLanguage": "es",
+        "cefr": "A1",
+        "facets": [
+          "io",
+          "tu",
+          "tercera",
+          "noi",
+          "voi",
+          "trato"
+        ],
+        "compatibleFamilies": [
+          "F2",
+          "F3",
+          "F4"
+        ],
+        "coverage": "complete",
+        "review": {
+          "reviewer": "R2 · revisión integral 5B.4 y contraste independiente con seguimientos explícitos",
+          "date": "2026-10-15",
+          "version": "1"
+        }
+      },
+      "theory": {
+        "id": "it-a1-theory-c26-01",
+        "version": "theory-c26-01-1",
+        "conceptId": "it-a1-c26-01",
+        "conceptVersion": "1",
+        "targetLanguage": "it",
+        "supportLanguage": "es",
+        "title": "Come ti chiami?",
+        "goal": "Presentarse y preguntar o indicar el nombre vinculando pronombre y persona de chiamarsi.",
+        "introduction": "Chiamarsi expresa cómo se llama una persona. Mi chiamo no significa que llamo a otra persona: el pronombre forma parte de esta construcción.",
+        "rules": [
+          "El pronombre precede al verbo conjugado: mi chiamo, ti chiami. Ambos corresponden a la misma persona.",
+          "Para preguntar usa come: Come ti chiami? Con trato de Lei: Come si chiama?",
+          "El sujeto puede omitirse si está claro; conserva el pronombre: siamo Marco e Anna no sustituye a ci chiamiamo Marco e Anna en un ejercicio sobre llamarse."
+        ],
+        "forms": [
+          [
+            "io",
+            "mi chiamo"
+          ],
+          [
+            "tu",
+            "ti chiami"
+          ],
+          [
+            "lui / lei / Lei",
+            "si chiama"
+          ],
+          [
+            "noi",
+            "ci chiamiamo"
+          ],
+          [
+            "voi",
+            "vi chiamate"
+          ],
+          [
+            "loro",
+            "si chiamano"
+          ]
+        ],
+        "examples": [
+          [
+            "Mi chiamo Elena e sono spagnola.",
+            "Me llamo Elena y soy española."
+          ],
+          [
+            "Come si chiama tuo fratello?",
+            "¿Cómo se llama tu hermano?"
+          ],
+          [
+            "Ci chiamiamo Anna e Luca.",
+            "Nos llamamos Anna y Luca."
+          ]
+        ],
+        "frequentErrors": [
+          "No escribas io chiamo Anna para decir me llamo Anna: falta mi.",
+          "No combines noi con si chiamiamo: corresponde ci."
+        ],
+        "usageNotes": [
+          "Chiamare alguien y chiamarsi se estudian como construcciones distintas. En esta ficha evaluamos solo el nombre."
+        ],
+        "exceptions": [],
+        "contrasts": [],
+        "vocabularyIds": [
+          "it-chiamarsi",
+          "it-nome",
+          "it-fratello",
+          "it-sorella",
+          "it-spagnolo",
+          "it-io",
+          "it-tu",
+          "it-noi",
+          "it-voi",
+          "it-loro"
+        ],
+        "status": "reviewed",
+        "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate.",
+        "review": {
+          "reviewer": "R2 · revisión integral 5B.4 y contraste independiente con seguimientos explícitos",
+          "date": "2026-10-15",
+          "version": "theory-c26-01-1"
+        }
+      },
+      "activities": [
+        {
+          "id": "it-a1-c26-01-nome",
+          "version": "1",
+          "conceptId": "it-a1-c26-01",
+          "conceptVersion": "1",
+          "family": "F2",
+          "format": "cloze",
+          "prompt": "Io ___ Elena (chiamarsi: pronome + verbo).",
+          "options": [],
+          "hint": "Con io se usa mi chiamo.",
+          "explanation": "Con io se usa mi chiamo.",
+          "dimension": "retrieval",
+          "task": {
+            "skill": "retrieval",
+            "context": "presentacion",
+            "facets": [
+              "io"
+            ],
+            "opportunityId": "it-a1-c26-01-nome:target",
+            "scaffolding": "none",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "1",
+            "canonVersion": "it-A1-editorial-1",
+            "accepted": [
+              "mi chiamo"
+            ],
+            "rejected": [
+              "chiamo"
+            ],
+            "exhaustive": false
+          },
+          "status": "reviewed",
+          "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate.",
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-curriculum",
+            "curriculumVersion": "1",
+            "sourceId": "it-a1-c26-01-nome",
+            "sourceVersion": "1"
+          },
+          "review": {
+            "reviewer": "R2 · revisión integral 5B.4 y contraste independiente con seguimientos explícitos",
+            "date": "2026-10-15",
+            "version": "1"
+          }
+        },
+        {
+          "id": "it-a1-c26-01-domanda",
+          "version": "1",
+          "conceptId": "it-a1-c26-01",
+          "conceptVersion": "1",
+          "family": "F2",
+          "format": "short",
+          "prompt": "Come si chiede il nome a un amico? Inizia con Come e usa chiamarsi.",
+          "options": [],
+          "hint": "Un amigo tratado de tu requiere ti chiami.",
+          "explanation": "Un amigo tratado de tu requiere ti chiami.",
+          "dimension": "retrieval",
+          "task": {
+            "skill": "retrieval",
+            "context": "presentacion",
+            "facets": [
+              "tu"
+            ],
+            "opportunityId": "it-a1-c26-01-domanda:target",
+            "scaffolding": "none",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "1",
+            "canonVersion": "it-A1-editorial-1",
+            "accepted": [
+              "Come ti chiami?",
+              "Come ti chiami"
+            ],
+            "rejected": [
+              "Come si chiama?"
+            ],
+            "exhaustive": false
+          },
+          "status": "reviewed",
+          "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C26; A1_COVERAGE_MATRIX C26. Alcance A1; ejemplos originales candidate.",
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-curriculum",
+            "curriculumVersion": "1",
+            "sourceId": "it-a1-c26-01-domanda",
+            "sourceVersion": "1"
+          },
+          "review": {
+            "reviewer": "R2 · revisión integral 5B.4 y contraste independiente con seguimientos explícitos",
+            "date": "2026-10-15",
+            "version": "1"
+          }
+        }
+      ]
+    },
+    {
+      "concept": {
+        "id": "it-a1-c32-02",
+        "version": "1",
+        "topicId": "it-a1-t32",
+        "title": "Scegliere avere o essere",
+        "objective": "Elegir el auxiliar de construcciones frecuentes sin aplicar la regla falsa movimiento = essere.",
+        "scope": "Elegir el auxiliar de construcciones frecuentes sin aplicar la regla falsa movimiento = essere.",
+        "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+        "dimensions": [
+          "retrieval",
+          "comprehension",
+          "contextual-use"
+        ],
+        "status": "reviewed",
+        "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C32; A1_COVERAGE_MATRIX C32. Alcance A1; ejemplos originales candidate.",
+        "targetLanguage": "it",
+        "supportLanguage": "es",
+        "cefr": "A1",
+        "facets": [
+          "avere",
+          "essere"
+        ],
+        "compatibleFamilies": [
+          "F2",
+          "F3",
+          "F4"
+        ],
+        "coverage": "complete",
+        "review": {
+          "reviewer": "R2 · revisión integral 5B.4 y contraste independiente con seguimientos explícitos",
+          "date": "2026-10-15",
+          "version": "1"
+        }
+      },
+      "theory": {
+        "id": "it-a1-theory-c32-02",
+        "version": "theory-c32-02-1",
+        "conceptId": "it-a1-c32-02",
+        "conceptVersion": "1",
+        "targetLanguage": "it",
+        "supportLanguage": "es",
+        "title": "Scegliere avere o essere",
+        "goal": "Elegir el auxiliar de construcciones frecuentes sin aplicar la regla falsa movimiento = essere.",
+        "introduction": "El auxiliar se aprende con el verbo y su construcción. Tener un objeto directo suele orientar hacia avere; el significado de movimiento por sí solo no basta.",
+        "rules": [
+          "En este repertorio: avere con lavorare, studiare, dormire, camminare y con leggere un libro, prendere il treno, bere acqua, fare colazione.",
+          "Essere con andare a Roma, venire qui, arrivare in hotel, partire, uscire. Essere mismo forma sono stato.",
+          "Camminare usa avere aunque implique movimiento: ho camminato. No elijas por esa etiqueta de significado.",
+          "Con essere el participio concuerda con el sujeto; en esta ficha se proporciona ya la terminación."
+        ],
+        "forms": [
+          [
+            "avere",
+            "ho lavorato / ho dormito / ho camminato / ho preso il treno"
+          ],
+          [
+            "essere",
+            "sono andato / sono venuto / sono arrivato / sono partito / sono uscito / sono stato (hablante masculino)"
+          ]
+        ],
+        "examples": [
+          [
+            "Marco ha camminato in centro.",
+            "Marco caminó por el centro."
+          ],
+          [
+            "Marco è andato a Roma.",
+            "Marco fue a Roma."
+          ],
+          [
+            "Anna è partita ieri.",
+            "Anna salió de viaje ayer."
+          ]
+        ],
+        "frequentErrors": [
+          "No digas sono camminato para esta construcción.",
+          "No uses ho andato a Roma ni è preso il treno con Marco como quien lo tomó."
+        ],
+        "usageNotes": [
+          "Se limita al repertorio indicado. Verbos con alternancias complejas y auxiliares de modales quedan fuera."
+        ],
+        "exceptions": [],
+        "contrasts": [],
+        "vocabularyIds": [
+          "it-avere",
+          "it-essere",
+          "it-lavorare",
+          "it-dormire",
+          "it-camminare",
+          "it-leggere",
+          "it-prendere",
+          "it-bere",
+          "it-fare",
+          "it-andare",
+          "it-venire",
+          "it-arrivare",
+          "it-partire",
+          "it-uscire"
+        ],
+        "status": "reviewed",
+        "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C32; A1_COVERAGE_MATRIX C32. Alcance A1; ejemplos originales candidate.",
+        "review": {
+          "reviewer": "R2 · revisión integral 5B.4 y contraste independiente con seguimientos explícitos",
+          "date": "2026-10-15",
+          "version": "theory-c32-02-1"
+        }
+      },
+      "activities": [
+        {
+          "id": "it-a1-c32-02-camminare",
+          "version": "1",
+          "conceptId": "it-a1-c32-02",
+          "conceptVersion": "1",
+          "family": "F2",
+          "format": "cloze",
+          "prompt": "Marco ___ camminato in centro.",
+          "options": [],
+          "hint": "Camminare usa avere en esta construcción.",
+          "explanation": "Camminare usa avere en esta construcción.",
+          "dimension": "retrieval",
+          "task": {
+            "skill": "retrieval",
+            "context": "ciudad",
+            "facets": [
+              "avere"
+            ],
+            "opportunityId": "it-a1-c32-02-camminare:target",
+            "scaffolding": "none",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "1",
+            "canonVersion": "it-A1-editorial-1",
+            "accepted": [
+              "ha"
+            ],
+            "rejected": [
+              "è"
+            ],
+            "exhaustive": false
+          },
+          "status": "reviewed",
+          "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C32; A1_COVERAGE_MATRIX C32. Alcance A1; ejemplos originales candidate.",
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-curriculum",
+            "curriculumVersion": "1",
+            "sourceId": "it-a1-c32-02-camminare",
+            "sourceVersion": "1"
+          },
+          "review": {
+            "reviewer": "R2 · revisión integral 5B.4 y contraste independiente con seguimientos explícitos",
+            "date": "2026-10-15",
+            "version": "1"
+          }
+        },
+        {
+          "id": "it-a1-c32-02-cammina-frase",
+          "version": "2",
+          "conceptId": "it-a1-c32-02",
+          "conceptVersion": "1",
+          "family": "F4",
+          "format": "controlled-production",
+          "prompt": "Marco racconta di ieri. Traduci al passato prossimo: «He caminado por el centro». Usa camminare e in centro, senza io.",
+          "options": [],
+          "hint": "Movimiento no implica necesariamente essere.",
+          "explanation": "Movimiento no implica necesariamente essere.",
+          "dimension": "contextual-use",
+          "task": {
+            "skill": "controlled-production",
+            "context": "ciudad",
+            "facets": [
+              "avere"
+            ],
+            "opportunityId": "it-a1-c32-02-cammina-frase:target",
+            "scaffolding": "none",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "2",
+            "canonVersion": "it-A1-editorial-1",
+            "accepted": [
+              "Ho camminato in centro",
+              "Ho camminato in centro."
+            ],
+            "rejected": [
+              "Sono camminato in centro"
+            ],
+            "exhaustive": false
+          },
+          "status": "reviewed",
+          "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C32; A1_COVERAGE_MATRIX C32. Alcance A1; ejemplos originales candidate.",
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-curriculum",
+            "curriculumVersion": "1",
+            "sourceId": "it-a1-c32-02-cammina-frase",
+            "sourceVersion": "2"
+          },
+          "review": {
+            "reviewer": "R2 · revisión integral 5B.4 y contraste independiente con seguimientos explícitos",
+            "date": "2026-10-15",
+            "version": "2"
+          }
+        }
+      ]
+    },
+    {
+      "concept": {
+        "id": "it-a1-c34-07",
+        "version": "1",
+        "topicId": "it-a1-t34",
+        "title": "Contatti e bisogni essenziali",
+        "objective": "Recuperar expresiones enseñadas de contacto, disponibilidad, dolor, síntomas y cita sin contenido clínico complejo.",
+        "scope": "Recuperar expresiones enseñadas de contacto, disponibilidad, dolor, síntomas y cita sin contenido clínico complejo.",
+        "exclusions": "Sin evaluación oral automática ni escritura libre. Reading/Writing extensos y reservas de Review pendientes de sus fases. Revisión editorial pendiente.",
+        "dimensions": [
+          "retrieval",
+          "contextual-use"
+        ],
+        "status": "reviewed",
+        "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate.",
+        "targetLanguage": "it",
+        "supportLanguage": "es",
+        "cefr": "A1",
+        "facets": [
+          "contacto",
+          "disponibilidad",
+          "cita",
+          "persona",
+          "lugar",
+          "dolor",
+          "sintoma",
+          "necesidad"
+        ],
+        "compatibleFamilies": [
+          "F2",
+          "F4",
+          "F3"
+        ],
+        "coverage": "complete",
+        "review": {
+          "reviewer": "R2 · revisión integral 5B.4 y contraste independiente con seguimientos explícitos",
+          "date": "2026-10-15",
+          "version": "1"
+        }
+      },
+      "theory": {
+        "id": "it-a1-theory-c34-07",
+        "version": "theory-c34-07-1",
+        "conceptId": "it-a1-c34-07",
+        "conceptVersion": "1",
+        "targetLanguage": "it",
+        "supportLanguage": "es",
+        "title": "Contatti e bisogni essenziali",
+        "goal": "Recuperar expresiones enseñadas de contacto, disponibilidad, dolor, síntomas y cita sin contenido clínico complejo.",
+        "introduction": "Repertorio focal: telefono, messaggio, libero, appuntamento, medico, farmacia, ho mal di testa, ho la febbre y ho bisogno di aiuto. Se aprende a expresar una necesidad, no a diagnosticarla.",
+        "rules": [
+          "Para contacto: il telefono, un messaggio. Para disponibilidad: sono libero/libera; libero concuerda con quien habla.",
+          "Para una cita: vorrei un appuntamento. Medico es el profesional; farmacia es el establecimiento.",
+          "Síntomas como fórmulas: ho mal di testa (me duele la cabeza), ho la febbre (tengo fiebre). Usa avere.",
+          "Necesidad: ho bisogno di aiuto. No se da ningún consejo de tratamiento en estas tareas."
+        ],
+        "forms": [
+          [
+            "il telefono / il messaggio",
+            "el teléfono / el mensaje"
+          ],
+          [
+            "sono libero / libera",
+            "estoy disponible"
+          ],
+          [
+            "un appuntamento / il medico / la farmacia",
+            "una cita / el médico / la farmacia"
+          ],
+          [
+            "ho mal di testa / ho la febbre",
+            "me duele la cabeza / tengo fiebre"
+          ],
+          [
+            "ho bisogno di aiuto",
+            "necesito ayuda"
+          ]
+        ],
+        "examples": [
+          [
+            "Vorrei un appuntamento con il medico.",
+            "Quisiera una cita con el médico."
+          ],
+          [
+            "Sono libera alle tre.",
+            "Estoy disponible a las tres (hablante mujer)."
+          ],
+          [
+            "Ho mal di testa.",
+            "Me duele la cabeza."
+          ]
+        ],
+        "frequentErrors": [
+          "No uses sono la febbre: la fórmula usa avere.",
+          "No confundas farmacia con medico, lugar y persona."
+        ],
+        "usageNotes": [
+          "Los síntomas se tratan como lenguaje cotidiano. No se evalúan diagnósticos, urgencia clínica ni tratamientos."
+        ],
+        "exceptions": [],
+        "contrasts": [],
+        "vocabularyIds": [
+          "it-telefono",
+          "it-messaggio",
+          "it-libero",
+          "it-appuntamento",
+          "it-medico",
+          "it-farmacia",
+          "it-mal-di-testa",
+          "it-febbre",
+          "it-bisogno-di-aiuto",
+          "it-avere"
+        ],
+        "status": "reviewed",
+        "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate.",
+        "review": {
+          "reviewer": "R2 · revisión integral 5B.4 y contraste independiente con seguimientos explícitos",
+          "date": "2026-10-15",
+          "version": "theory-c34-07-1"
+        }
+      },
+      "activities": [
+        {
+          "id": "it-a1-c34-07-telefono",
+          "version": "1",
+          "conceptId": "it-a1-c34-07",
+          "conceptVersion": "1",
+          "family": "F2",
+          "format": "short",
+          "prompt": "Scrivi con articolo: «el teléfono».",
+          "options": [],
+          "hint": "Telefono designa el medio o aparato.",
+          "explanation": "Telefono designa el medio o aparato.",
+          "dimension": "retrieval",
+          "task": {
+            "skill": "retrieval",
+            "context": "mensajeria",
+            "facets": [
+              "contacto"
+            ],
+            "opportunityId": "it-a1-c34-07-telefono:target",
+            "scaffolding": "none",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "1",
+            "canonVersion": "it-A1-editorial-1",
+            "accepted": [
+              "il telefono"
+            ],
+            "rejected": [
+              "il messaggio"
+            ],
+            "exhaustive": false
+          },
+          "status": "reviewed",
+          "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate.",
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-curriculum",
+            "curriculumVersion": "1",
+            "sourceId": "it-a1-c34-07-telefono",
+            "sourceVersion": "1"
+          },
+          "review": {
+            "reviewer": "R2 · revisión integral 5B.4 y contraste independiente con seguimientos explícitos",
+            "date": "2026-10-15",
+            "version": "1"
+          }
+        },
+        {
+          "id": "it-a1-c34-07-libera",
+          "version": "1",
+          "conceptId": "it-a1-c34-07",
+          "conceptVersion": "1",
+          "family": "F4",
+          "format": "controlled-production",
+          "prompt": "Anna dice «Estoy disponible a las tres»: usa Sono + aggettivo italiano per disponible + alle tre.",
+          "options": [],
+          "hint": "Libera concuerda con Anna.",
+          "explanation": "Libera concuerda con Anna.",
+          "dimension": "contextual-use",
+          "task": {
+            "skill": "controlled-production",
+            "context": "trabajo",
+            "facets": [
+              "disponibilidad"
+            ],
+            "opportunityId": "it-a1-c34-07-libera:target",
+            "scaffolding": "none",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "1",
+            "canonVersion": "it-A1-editorial-1",
+            "accepted": [
+              "Sono libera alle tre",
+              "Sono libera alle tre."
+            ],
+            "rejected": [
+              "Sono libero alle tre"
+            ],
+            "exhaustive": false
+          },
+          "status": "reviewed",
+          "provenance": "Candidate de R2: Research 02 C26–C34 y A1_COVERAGE_MATRIX. Ejemplos originales; revisión editorial independiente pendiente. Research 02 C34; A1_COVERAGE_MATRIX C34. Alcance A1; ejemplos originales candidate.",
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-curriculum",
+            "curriculumVersion": "1",
+            "sourceId": "it-a1-c34-07-libera",
+            "sourceVersion": "1"
+          },
+          "review": {
+            "reviewer": "R2 · revisión integral 5B.4 y contraste independiente con seguimientos explícitos",
+            "date": "2026-10-15",
+            "version": "1"
+          }
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "text": {
+        "id": "R01",
+        "version": "2",
+        "status": "reviewed",
+        "title": "Chi è Chiara?",
+        "level": "A1",
+        "blocks": [
+          "C01",
+          "C03",
+          "C04",
+          "C34"
+        ],
+        "requiredConcepts": [
+          "it-a1-c01-01",
+          "it-a1-c03-01",
+          "it-a1-c04-02",
+          "it-a1-c04-04",
+          "it-a1-c34-01"
+        ],
+        "presentConcepts": [
+          "it-a1-c01-01",
+          "it-a1-c03-01",
+          "it-a1-c04-02",
+          "it-a1-c04-04",
+          "it-a1-c34-01"
+        ],
+        "dependencies": [],
+        "difficulty": "initial",
+        "genre": "scheda",
+        "function": "Identificare persone e luoghi",
+        "vocabulary": [
+          {
+            "word": "collega",
+            "gloss": "compañera de trabajo"
+          },
+          {
+            "word": "ora",
+            "gloss": "ahora"
+          }
+        ],
+        "objectives": [
+          "Identificare persone e luoghi"
+        ],
+        "body": "Nome: Chiara. Città: Roma. Io sono italiana. Lui è Giorgio, un amico. Ora siamo a Milano. Giorgio è italiano. Lei è Anna, una collega spagnola.",
+        "help": "Chiara es italiana. Giorgio es un amigo italiano y Anna una compañera española. Ahora Chiara y Giorgio están en Milán.",
+        "questions": [
+          {
+            "id": "R01-Q1",
+            "kind": "global",
+            "prompt": "Di che cosa parla la scheda?",
+            "options": [
+              "Di persone e città",
+              "Di prezzi al bar",
+              "Di orari di lavoro"
+            ],
+            "accepted": [
+              "Di persone e città"
+            ],
+            "rejected": [
+              "Di prezzi al bar",
+              "Di orari di lavoro"
+            ],
+            "exhaustive": true,
+            "explanation": "La ficha presenta personas, sus nacionalidades y ciudades."
+          },
+          {
+            "id": "R01-Q2",
+            "kind": "detail",
+            "prompt": "Dove sono ora Chiara e Giorgio?",
+            "options": [
+              "Roma",
+              "Madrid",
+              "Milano"
+            ],
+            "accepted": [
+              "Milano"
+            ],
+            "rejected": [
+              "Roma",
+              "Madrid"
+            ],
+            "exhaustive": true,
+            "explanation": "Ora siamo a Milano indica la ubicación actual."
+          },
+          {
+            "id": "R01-Q3",
+            "kind": "relation",
+            "prompt": "Chi è la collega?",
+            "options": [
+              "Anna",
+              "Chiara",
+              "Giorgio"
+            ],
+            "accepted": [
+              "Anna"
+            ],
+            "rejected": [
+              "Chiara",
+              "Giorgio"
+            ],
+            "exhaustive": true,
+            "explanation": "Lei è Anna, una collega spagnola identifica a Anna."
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "R01:R01-Q1",
+          "version": "2",
+          "family": "F5",
+          "format": "selection",
+          "conceptId": "reading:R01",
+          "conceptVersion": "2",
+          "dimension": "reading-comprehension",
+          "prompt": "Di che cosa parla la scheda?",
+          "options": [
+            "Di persone e città",
+            "Di prezzi al bar",
+            "Di orari di lavoro"
+          ],
+          "hint": "Chiara es italiana. Giorgio es un amigo italiano y Anna una compañera española. Ahora Chiara y Giorgio están en Milán.",
+          "explanation": "La ficha presenta personas, sus nacionalidades y ciudades.",
+          "status": "reviewed",
+          "provenance": "Reading A1 · authored corpus · independent editorial receipt",
+          "task": {
+            "skill": "reading-comprehension",
+            "context": "scheda",
+            "facets": [
+              "global"
+            ],
+            "opportunityId": "R01:R01-Q1:meaning",
+            "scaffolding": "visible-options",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "2",
+            "canonVersion": "2",
+            "accepted": [
+              "Di persone e città"
+            ],
+            "rejected": [
+              "Di prezzi al bar",
+              "Di orari di lavoro"
+            ],
+            "exhaustive": true
+          },
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-reading",
+            "curriculumVersion": "1",
+            "sourceId": "R01",
+            "sourceVersion": "2"
+          }
+        },
+        {
+          "id": "R01:R01-Q2",
+          "version": "2",
+          "family": "F5",
+          "format": "selection",
+          "conceptId": "reading:R01",
+          "conceptVersion": "2",
+          "dimension": "reading-comprehension",
+          "prompt": "Dove sono ora Chiara e Giorgio?",
+          "options": [
+            "Roma",
+            "Madrid",
+            "Milano"
+          ],
+          "hint": "Chiara es italiana. Giorgio es un amigo italiano y Anna una compañera española. Ahora Chiara y Giorgio están en Milán.",
+          "explanation": "Ora siamo a Milano indica la ubicación actual.",
+          "status": "reviewed",
+          "provenance": "Reading A1 · authored corpus · independent editorial receipt",
+          "task": {
+            "skill": "reading-comprehension",
+            "context": "scheda",
+            "facets": [
+              "detail"
+            ],
+            "opportunityId": "R01:R01-Q2:meaning",
+            "scaffolding": "visible-options",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "2",
+            "canonVersion": "2",
+            "accepted": [
+              "Milano"
+            ],
+            "rejected": [
+              "Roma",
+              "Madrid"
+            ],
+            "exhaustive": true
+          },
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-reading",
+            "curriculumVersion": "1",
+            "sourceId": "R01",
+            "sourceVersion": "2"
+          }
+        },
+        {
+          "id": "R01:R01-Q3",
+          "version": "2",
+          "family": "F5",
+          "format": "selection",
+          "conceptId": "reading:R01",
+          "conceptVersion": "2",
+          "dimension": "reading-comprehension",
+          "prompt": "Chi è la collega?",
+          "options": [
+            "Anna",
+            "Chiara",
+            "Giorgio"
+          ],
+          "hint": "Chiara es italiana. Giorgio es un amigo italiano y Anna una compañera española. Ahora Chiara y Giorgio están en Milán.",
+          "explanation": "Lei è Anna, una collega spagnola identifica a Anna.",
+          "status": "reviewed",
+          "provenance": "Reading A1 · authored corpus · independent editorial receipt",
+          "task": {
+            "skill": "reading-comprehension",
+            "context": "scheda",
+            "facets": [
+              "relation"
+            ],
+            "opportunityId": "R01:R01-Q3:meaning",
+            "scaffolding": "visible-options",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "2",
+            "canonVersion": "2",
+            "accepted": [
+              "Anna"
+            ],
+            "rejected": [
+              "Chiara",
+              "Giorgio"
+            ],
+            "exhaustive": true
+          },
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-reading",
+            "curriculumVersion": "1",
+            "sourceId": "R01",
+            "sourceVersion": "2"
+          }
+        }
+      ]
+    },
+    {
+      "text": {
+        "id": "R25",
+        "version": "1",
+        "status": "reviewed",
+        "title": "Al ristorante Il Girasole",
+        "level": "A1",
+        "blocks": [
+          "C18",
+          "C34"
+        ],
+        "requiredConcepts": [
+          "it-a1-c18-01",
+          "it-a1-c34-03"
+        ],
+        "presentConcepts": [
+          "it-a1-c18-01",
+          "it-a1-c34-03"
+        ],
+        "dependencies": [],
+        "difficulty": "developing",
+        "genre": "menù e dialogo",
+        "function": "Capire ingredienti e scelta al ristorante",
+        "vocabulary": [
+          {
+            "word": "cameriere",
+            "gloss": "camarero"
+          },
+          {
+            "word": "contorno",
+            "gloss": "guarnición"
+          },
+          {
+            "word": "senza carne",
+            "gloss": "sin carne"
+          }
+        ],
+        "objectives": [
+          "Capire ingredienti e scelta al ristorante"
+        ],
+        "body": "Ristorante Il Girasole\nMenù: pasta al pomodoro; pollo con patate; insalata con tonno.\n— Cliente: Vorrei un piatto senza carne e senza pesce.\n— Cameriere: La pasta al pomodoro è senza carne e senza pesce. L’insalata è con il tonno.\n— Cliente: Allora vorrei la pasta e, come contorno, le patate.\n— Cameriere: Va bene. E da bere?\n— Cliente: Acqua naturale, per favore.",
+        "help": "El cliente busca un plato sin carne ni pescado y elige pasta al tomate. Pide patatas como guarnición y agua sin gas. Tonno significa atún; da bere pregunta qué desea beber.",
+        "questions": [
+          {
+            "id": "R25-Q1",
+            "kind": "intention",
+            "prompt": "Che tipo di piatto cerca il cliente?",
+            "options": [
+              "Senza carne e senza pesce",
+              "Con carne e patate",
+              "Con pesce e insalata"
+            ],
+            "accepted": [
+              "Senza carne e senza pesce"
+            ],
+            "rejected": [
+              "Con carne e patate",
+              "Con pesce e insalata"
+            ],
+            "exhaustive": true,
+            "explanation": "El cliente expresa dos condiciones con senza: sin carne y sin pescado."
+          },
+          {
+            "id": "R25-Q2",
+            "kind": "relation",
+            "prompt": "Perché l’insalata non va bene per il cliente?",
+            "options": [
+              "È con il tonno",
+              "È senza patate",
+              "È con il pomodoro"
+            ],
+            "accepted": [
+              "È con il tonno"
+            ],
+            "rejected": [
+              "È senza patate",
+              "È con il pomodoro"
+            ],
+            "exhaustive": true,
+            "explanation": "El camarero indica que la ensalada lleva atún, un pescado; no cumple la petición."
+          },
+          {
+            "id": "R25-Q3",
+            "kind": "detail",
+            "prompt": "Qual è l’ordine finale da mangiare?",
+            "options": [
+              "Pasta e patate",
+              "Pollo e patate",
+              "Insalata e pasta"
+            ],
+            "accepted": [
+              "Pasta e patate"
+            ],
+            "rejected": [
+              "Pollo e patate",
+              "Insalata e pasta"
+            ],
+            "exhaustive": true,
+            "explanation": "El pedido final es pasta, con patatas como guarnición."
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "R25:R25-Q1",
+          "version": "1",
+          "family": "F5",
+          "format": "selection",
+          "conceptId": "reading:R25",
+          "conceptVersion": "1",
+          "dimension": "reading-comprehension",
+          "prompt": "Che tipo di piatto cerca il cliente?",
+          "options": [
+            "Senza carne e senza pesce",
+            "Con carne e patate",
+            "Con pesce e insalata"
+          ],
+          "hint": "El cliente busca un plato sin carne ni pescado y elige pasta al tomate. Pide patatas como guarnición y agua sin gas. Tonno significa atún; da bere pregunta qué desea beber.",
+          "explanation": "El cliente expresa dos condiciones con senza: sin carne y sin pescado.",
+          "status": "reviewed",
+          "provenance": "Reading A1 · authored corpus · independent editorial receipt",
+          "task": {
+            "skill": "reading-comprehension",
+            "context": "menù e dialogo",
+            "facets": [
+              "intention"
+            ],
+            "opportunityId": "R25:R25-Q1:meaning",
+            "scaffolding": "visible-options",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "1",
+            "canonVersion": "1",
+            "accepted": [
+              "Senza carne e senza pesce"
+            ],
+            "rejected": [
+              "Con carne e patate",
+              "Con pesce e insalata"
+            ],
+            "exhaustive": true
+          },
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-reading",
+            "curriculumVersion": "1",
+            "sourceId": "R25",
+            "sourceVersion": "1"
+          }
+        },
+        {
+          "id": "R25:R25-Q2",
+          "version": "1",
+          "family": "F5",
+          "format": "selection",
+          "conceptId": "reading:R25",
+          "conceptVersion": "1",
+          "dimension": "reading-comprehension",
+          "prompt": "Perché l’insalata non va bene per il cliente?",
+          "options": [
+            "È con il tonno",
+            "È senza patate",
+            "È con il pomodoro"
+          ],
+          "hint": "El cliente busca un plato sin carne ni pescado y elige pasta al tomate. Pide patatas como guarnición y agua sin gas. Tonno significa atún; da bere pregunta qué desea beber.",
+          "explanation": "El camarero indica que la ensalada lleva atún, un pescado; no cumple la petición.",
+          "status": "reviewed",
+          "provenance": "Reading A1 · authored corpus · independent editorial receipt",
+          "task": {
+            "skill": "reading-comprehension",
+            "context": "menù e dialogo",
+            "facets": [
+              "relation"
+            ],
+            "opportunityId": "R25:R25-Q2:meaning",
+            "scaffolding": "visible-options",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "1",
+            "canonVersion": "1",
+            "accepted": [
+              "È con il tonno"
+            ],
+            "rejected": [
+              "È senza patate",
+              "È con il pomodoro"
+            ],
+            "exhaustive": true
+          },
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-reading",
+            "curriculumVersion": "1",
+            "sourceId": "R25",
+            "sourceVersion": "1"
+          }
+        },
+        {
+          "id": "R25:R25-Q3",
+          "version": "1",
+          "family": "F5",
+          "format": "selection",
+          "conceptId": "reading:R25",
+          "conceptVersion": "1",
+          "dimension": "reading-comprehension",
+          "prompt": "Qual è l’ordine finale da mangiare?",
+          "options": [
+            "Pasta e patate",
+            "Pollo e patate",
+            "Insalata e pasta"
+          ],
+          "hint": "El cliente busca un plato sin carne ni pescado y elige pasta al tomate. Pide patatas como guarnición y agua sin gas. Tonno significa atún; da bere pregunta qué desea beber.",
+          "explanation": "El pedido final es pasta, con patatas como guarnición.",
+          "status": "reviewed",
+          "provenance": "Reading A1 · authored corpus · independent editorial receipt",
+          "task": {
+            "skill": "reading-comprehension",
+            "context": "menù e dialogo",
+            "facets": [
+              "detail"
+            ],
+            "opportunityId": "R25:R25-Q3:meaning",
+            "scaffolding": "visible-options",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "1",
+            "canonVersion": "1",
+            "accepted": [
+              "Pasta e patate"
+            ],
+            "rejected": [
+              "Pollo e patate",
+              "Insalata e pasta"
+            ],
+            "exhaustive": true
+          },
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-reading",
+            "curriculumVersion": "1",
+            "sourceId": "R25",
+            "sourceVersion": "1"
+          }
+        }
+      ]
+    },
+    {
+      "text": {
+        "id": "R26",
+        "version": "1",
+        "status": "reviewed",
+        "title": "Il biglietto di Marta",
+        "level": "A1",
+        "blocks": [
+          "C20",
+          "C22",
+          "C34"
+        ],
+        "requiredConcepts": [
+          "it-a1-c20-03",
+          "it-a1-c22-02",
+          "it-a1-c34-06"
+        ],
+        "presentConcepts": [
+          "it-a1-c20-03",
+          "it-a1-c22-02",
+          "it-a1-c34-06"
+        ],
+        "dependencies": [],
+        "difficulty": "developing",
+        "genre": "biglietto e orario",
+        "function": "Collegare biglietto, destinazione e orario",
+        "vocabulary": [
+          {
+            "word": "binario",
+            "gloss": "vía de la estación"
+          },
+          {
+            "word": "destinazione",
+            "gloss": "destino"
+          },
+          {
+            "word": "partenza / arrivo",
+            "gloss": "salida / llegada"
+          }
+        ],
+        "objectives": [
+          "Collegare biglietto, destinazione e orario"
+        ],
+        "body": "Orario dei treni\nTreno 214: da Parma a Bologna. Partenza 09:10; arrivo 10:00. Binario 2.\nTreno 216: da Parma a Modena. Partenza 09:30; arrivo 10:05. Binario 4.\nBiglietto di Marta: treno 214, da Parma a Bologna, partenza 09:10.\nMarta: «Il mio biglietto è per Bologna. Il treno delle 09:30 va a Modena: non è il mio».",
+        "help": "Relaciona el número del billete con la fila del horario. Partenza indica cuándo sale el tren; arrivo, cuándo llega. El destino de Marta es Bolonia, no Módena.",
+        "questions": [
+          {
+            "id": "R26-Q1",
+            "kind": "context",
+            "prompt": "Quale treno corrisponde al biglietto di Marta?",
+            "options": [
+              "214 per Bologna",
+              "216 per Modena",
+              "214 per Parma"
+            ],
+            "accepted": [
+              "214 per Bologna"
+            ],
+            "rejected": [
+              "216 per Modena",
+              "214 per Parma"
+            ],
+            "exhaustive": true,
+            "explanation": "El billete identifica el tren 214 y Bolonia como destino; Parma es el origen."
+          },
+          {
+            "id": "R26-Q2",
+            "kind": "detail",
+            "prompt": "A che ora parte il treno di Marta?",
+            "options": [
+              "09:10",
+              "10:00",
+              "09:30"
+            ],
+            "accepted": [
+              "09:10"
+            ],
+            "rejected": [
+              "10:00",
+              "09:30"
+            ],
+            "exhaustive": true,
+            "explanation": "Partenza indica la salida: 09:10. No se debe confundir con la llegada."
+          },
+          {
+            "id": "R26-Q3",
+            "kind": "relation",
+            "prompt": "Da quale binario parte il treno indicato sul biglietto?",
+            "options": [
+              "Binario 2",
+              "Binario 4",
+              "Il biglietto non permette di scegliere"
+            ],
+            "accepted": [
+              "Binario 2"
+            ],
+            "rejected": [
+              "Binario 4",
+              "Il biglietto non permette di scegliere"
+            ],
+            "exhaustive": true,
+            "explanation": "El número 214 del billete corresponde a la fila del horario que indica binario 2."
+          }
+        ]
+      },
+      "activities": [
+        {
+          "id": "R26:R26-Q1",
+          "version": "1",
+          "family": "F5",
+          "format": "selection",
+          "conceptId": "reading:R26",
+          "conceptVersion": "1",
+          "dimension": "reading-comprehension",
+          "prompt": "Quale treno corrisponde al biglietto di Marta?",
+          "options": [
+            "214 per Bologna",
+            "216 per Modena",
+            "214 per Parma"
+          ],
+          "hint": "Relaciona el número del billete con la fila del horario. Partenza indica cuándo sale el tren; arrivo, cuándo llega. El destino de Marta es Bolonia, no Módena.",
+          "explanation": "El billete identifica el tren 214 y Bolonia como destino; Parma es el origen.",
+          "status": "reviewed",
+          "provenance": "Reading A1 · authored corpus · independent editorial receipt",
+          "task": {
+            "skill": "reading-comprehension",
+            "context": "biglietto e orario",
+            "facets": [
+              "context"
+            ],
+            "opportunityId": "R26:R26-Q1:meaning",
+            "scaffolding": "visible-options",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "1",
+            "canonVersion": "1",
+            "accepted": [
+              "214 per Bologna"
+            ],
+            "rejected": [
+              "216 per Modena",
+              "214 per Parma"
+            ],
+            "exhaustive": true
+          },
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-reading",
+            "curriculumVersion": "1",
+            "sourceId": "R26",
+            "sourceVersion": "1"
+          }
+        },
+        {
+          "id": "R26:R26-Q2",
+          "version": "1",
+          "family": "F5",
+          "format": "selection",
+          "conceptId": "reading:R26",
+          "conceptVersion": "1",
+          "dimension": "reading-comprehension",
+          "prompt": "A che ora parte il treno di Marta?",
+          "options": [
+            "09:10",
+            "10:00",
+            "09:30"
+          ],
+          "hint": "Relaciona el número del billete con la fila del horario. Partenza indica cuándo sale el tren; arrivo, cuándo llega. El destino de Marta es Bolonia, no Módena.",
+          "explanation": "Partenza indica la salida: 09:10. No se debe confundir con la llegada.",
+          "status": "reviewed",
+          "provenance": "Reading A1 · authored corpus · independent editorial receipt",
+          "task": {
+            "skill": "reading-comprehension",
+            "context": "biglietto e orario",
+            "facets": [
+              "detail"
+            ],
+            "opportunityId": "R26:R26-Q2:meaning",
+            "scaffolding": "visible-options",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "1",
+            "canonVersion": "1",
+            "accepted": [
+              "09:10"
+            ],
+            "rejected": [
+              "10:00",
+              "09:30"
+            ],
+            "exhaustive": true
+          },
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-reading",
+            "curriculumVersion": "1",
+            "sourceId": "R26",
+            "sourceVersion": "1"
+          }
+        },
+        {
+          "id": "R26:R26-Q3",
+          "version": "1",
+          "family": "F5",
+          "format": "selection",
+          "conceptId": "reading:R26",
+          "conceptVersion": "1",
+          "dimension": "reading-comprehension",
+          "prompt": "Da quale binario parte il treno indicato sul biglietto?",
+          "options": [
+            "Binario 2",
+            "Binario 4",
+            "Il biglietto non permette di scegliere"
+          ],
+          "hint": "Relaciona el número del billete con la fila del horario. Partenza indica cuándo sale el tren; arrivo, cuándo llega. El destino de Marta es Bolonia, no Módena.",
+          "explanation": "El número 214 del billete corresponde a la fila del horario que indica binario 2.",
+          "status": "reviewed",
+          "provenance": "Reading A1 · authored corpus · independent editorial receipt",
+          "task": {
+            "skill": "reading-comprehension",
+            "context": "biglietto e orario",
+            "facets": [
+              "relation"
+            ],
+            "opportunityId": "R26:R26-Q3:meaning",
+            "scaffolding": "visible-options",
+            "matchingPrompts": []
+          },
+          "criterion": {
+            "version": "1",
+            "canonVersion": "1",
+            "accepted": [
+              "Binario 2"
+            ],
+            "rejected": [
+              "Binario 4",
+              "Il biglietto non permette di scegliere"
+            ],
+            "exhaustive": true
+          },
+          "trace": {
+            "kind": "canonical",
+            "packId": "it-A1",
+            "packVersion": "it-A1-editorial-1",
+            "curriculumId": "it-a1-reading",
+            "curriculumVersion": "1",
+            "sourceId": "R26",
+            "sourceVersion": "1"
+          }
+        }
+      ]
+    }
+  ],
+  "controlledWriting": [
+    {
+      "id": "W-C01",
+      "version": "1",
+      "family": "F4",
+      "format": "controlled-production",
+      "conceptId": "it-a1-c04-02",
+      "conceptVersion": "1",
+      "dimension": "contextual-use",
+      "prompt": "Scrivi una frase per presentarti a un collega: sei Luca e sei italiano. Usa essere, scrivi il nome e la nazionalità. Puoi usare o omettere io.",
+      "options": [],
+      "hint": "Con io, la forma de essere es sono. No necesitas repetir el pronombre.",
+      "explanation": "Sono Luca e sono italiano presenta nombre y nacionalidad con essere. Io es opcional. Noi requiere siamo; io requiere sono.",
+      "criterion": {
+        "version": "1",
+        "canonVersion": "1",
+        "accepted": [
+          "Sono Luca e sono italiano.",
+          "Sono Luca e sono italiano",
+          "Io sono Luca e sono italiano.",
+          "Io sono Luca e sono italiano",
+          "Sono Luca, sono italiano.",
+          "Sono Luca, sono italiano"
+        ],
+        "rejected": [
+          "Io siamo Luca e siamo italiano.",
+          "Io siamo Luca e siamo italiano"
+        ],
+        "exhaustive": false,
+        "typos": [
+          "Sno Luca e sono italiano."
+        ]
+      },
+      "writing": {
+        "policy": "bounded",
+        "model": "Sono Luca e sono italiano.",
+        "rubric": [
+          "Consegna: nome e nazionalità indicati.",
+          "Struttura: essere con io, anche senza il pronome.",
+          "Vocabolario: nome e nazionalità dati.",
+          "Organizzazione: una frase di presentazione.",
+          "Funzione: presentarsi a un collega.",
+          "Autonomia: aiuti e tentativi sono registrati."
+        ],
+        "incomplete": [
+          "Sono Luca.",
+          "Sono Luca"
+        ],
+        "offTask": [
+          "Sono Paolo e sono francese.",
+          "Sono Paolo e sono francese"
+        ],
+        "noTarget": [
+          "Mi chiamo Luca e vengo dall’Italia.",
+          "Mi chiamo Luca e vengo dall’Italia"
+        ]
+      },
+      "task": {
+        "skill": "controlled-production",
+        "context": "presentazione al lavoro",
+        "facets": [
+          "identità",
+          "nazionalità"
+        ],
+        "opportunityId": "W-C01:essere",
+        "scaffolding": "none",
+        "matchingPrompts": []
+      },
+      "status": "candidate",
+      "provenance": "Writing A1 · original bounded production · C04-02 · candidate"
+    }
+  ],
+  "openWriting": [
+    {
+      "id": "it-a1-writing-presentazione",
+      "version": "1",
+      "status": "candidate",
+      "title": "Un nuovo gruppo",
+      "level": 3,
+      "kind": "guided",
+      "context": "Scrivi al gruppo del tuo corso di italiano. Puoi usare dati inventati.",
+      "prompt": "Scrivi 3–4 frasi: saluta, indica il tuo nome e la tua città, poi saluta di nuovo.",
+      "objectives": [
+        "Presentarsi in un messaggio breve",
+        "Aprire e chiudere un contatto"
+      ],
+      "requiredConcepts": [
+        "it-a1-c04-03",
+        "it-a1-c02-01",
+        "it-a1-c04-02",
+        "it-a1-c34-01"
+      ],
+      "rubric": [
+        "Consegna: Ci sono un saluto, un nome e una città?",
+        "Struttura: Controlla essere per parlare di te e della tua città.",
+        "Vocabolario: Le parole indicano chiaramente nome e origine?",
+        "Organizzazione: Il saluto apre il messaggio e la chiusura viene alla fine?",
+        "Funzione: Il gruppo può capire chi sei?",
+        "Autonomia: indica se hai usato aiuti, un modello o altre risorse. Rileggere non è una valutazione automatica."
+      ],
+      "model": "Ciao! Sono Ana. Sono di Madrid. A presto!",
+      "help": "Elige un nombre y una ciudad; puedes inventarlos. Organiza saludo, identidad, origen y despedida. El modelo es solo una posibilidad.",
+      "feedback": "Primero comprueba si el grupo puede identificarte. Después revisa la forma de essere y la expresión de origen; no necesitas copiar el modelo.",
+      "abstention": "Este mensaje abierto no recibe una nota ni una corrección automática. La autolectura y el modelo no demuestran dominio. Puedes revisarlo con la rúbrica o practicar el concepto relacionado con una actividad delimitada.",
+      "alternativeConceptId": "it-a1-c04-03"
+    },
+    {
+      "id": "it-a1-writing-viaggio-passato",
+      "version": "1",
+      "status": "candidate",
+      "title": "Un piccolo viaggio",
+      "level": 4,
+      "kind": "free",
+      "context": "Scrivi a una persona del corso dopo un viaggio reale o inventato.",
+      "prompt": "Scegli una destinazione e racconta il viaggio in 4–6 frasi. Indica chi ha viaggiato e almeno due fatti conclusi, tra cui un arrivo o una partenza.",
+      "objectives": [
+        "Raccontare un viaggio breve",
+        "Concordare il participio con essere"
+      ],
+      "requiredConcepts": [
+        "it-a1-c33-01",
+        "it-a1-c32-02",
+        "it-a1-c32-03",
+        "it-a1-c31-02",
+        "it-a1-c29-04",
+        "it-a1-c15-01",
+        "it-a1-c21-02",
+        "it-a1-c34-06"
+      ],
+      "rubric": [
+        "Consegna: Sono chiari destinazione, persone e almeno due fatti, con arrivo o partenza?",
+        "Struttura: Controlla l’ausiliare e la concordanza del participio con essere.",
+        "Vocabolario: Le parole descrivono un viaggio semplice?",
+        "Organizzazione: Persone, tempi e ordine dei fatti sono coerenti?",
+        "Funzione: Il lettore capisce che cosa è successo nel viaggio?",
+        "Autonomia: indica se hai usato aiuti, un modello o altre risorse. Rileggere non è una valutazione automatica."
+      ],
+      "model": "Ciao! Ieri Anna e Luca sono arrivati a Roma. Hanno preso un autobus per il centro. Poi hanno visto il centro. La sera hanno dormito in albergo.",
+      "help": "Decide quién viaja antes de escribir. Con essere revisa género y número del sujeto; no elijas el auxiliar solo porque hay movimiento.",
+      "feedback": "Comprueba que se sabe quién hizo cada acción. Después revisa la elección del auxiliar y la concordancia con essere.",
+      "abstention": "Este mensaje abierto no recibe una nota ni una corrección automática. La autolectura y el modelo no demuestran dominio. Puedes revisarlo con la rúbrica o practicar el concepto relacionado con una actividad delimitada.",
+      "alternativeConceptId": "it-a1-c33-01"
+    }
+  ]
+}
