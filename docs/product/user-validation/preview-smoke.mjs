@@ -1,0 +1,31 @@
+import { chromium } from '@playwright/test';
+import { writeFile } from 'node:fs/promises';
+const browser=await chromium.launch({channel:'chrome'});
+const context=await browser.newContext();
+const page=await context.newPage();
+const errors=[]; page.on('pageerror',e=>errors.push(e.message));
+try {
+ await page.goto('http://127.0.0.1:4178/');
+ await page.getByRole('heading',{name:'Da dove cominciamo?'}).waitFor();
+ const identity=await page.request.get('http://127.0.0.1:4178/api/identity');
+ if(identity.status()!==401)throw new Error('API isolation failed');
+ await page.goto('http://127.0.0.1:4178/concept?id=it-a1-c04-01');
+ await page.locator('.theory-panel').waitFor();
+ await page.getByRole('button',{name:'Inizia la pratica',exact:true}).click();
+ await page.getByLabel('sono',{exact:true}).check();
+ await page.getByText('Pratica salvata su questo dispositivo',{exact:true}).waitFor();
+ await page.evaluate(()=>navigator.serviceWorker.ready);
+ await page.close();
+ await context.setOffline(true);
+ const resumed=await context.newPage();
+ await resumed.goto('http://127.0.0.1:4178/');
+ await resumed.getByRole('link',{name:/Continua la pratica/}).click();
+ if(!await resumed.getByLabel('sono',{exact:true}).isChecked())throw new Error('Draft missing');
+ await resumed.getByRole('button',{name:'Controlla',exact:true}).click();
+ await resumed.locator('.feedback').waitFor();
+ await resumed.reload();
+ await resumed.locator('.feedback').waitFor();
+ const secure=await resumed.evaluate(()=>window.isSecureContext);
+ await writeFile('docs/product/user-validation/preview-smoke.json',JSON.stringify({origin:'http://127.0.0.1:4178',secure,apiStatus:identity.status(),reopenedOffline:true,draftRestored:true,feedbackRestored:true,errors,physicalIPhoneTested:false},null,2)+'\n');
+ if(errors.length)throw new Error(errors.join('\n'));
+} finally {await browser.close();}

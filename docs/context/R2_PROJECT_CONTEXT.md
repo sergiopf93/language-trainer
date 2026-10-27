@@ -2,6 +2,14 @@
 
 Actualizado: 2026-10-26. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
 
+## Fase 8 — preparación de validación práctica en curso (2026-10-27)
+
+Encargo explícito posterior a fase7. Rama `feat/a1-v1-validation` desde `9f72bcc`. Suite completa ejecutada una vez: **381/381, 22 suites, 59,62 s**, timeout Mixed no reproducido, sin modificar motor/timeouts. P2 cronología sigue diferido. No repetir auditorías válidas.
+
+Configuración de preview local aislado en `docs/product/user-validation/preview.config.mjs`, puerto4178, HTTP loopback y TLS opcional; API no conecta cuentas reales. Build validación correcto; **dist actual validación, no restrictivo**. Smoke de cierre/reapertura offline falla buscando enlace Continua la pratica: causa pendiente, no pérdida de datos demostrada. Servidor detenido. No entregar como entorno listo aún.
+
+Interrupción por límite de uso del subagente de muestra lingüística, sin entrega final. [Checkpoint y reanudación exacta](../product/A1_V1_USER_VALIDATION.md): resolver smoke, completar HTTPS/iPhone, guía60–90min, muestra lingüística y registro. mkcert ausente; no certificados/permisos instalados, no pruebas físicas. Fase8 NO superada; validación humana pendiente. Sin push/merge/publicación/despliegue ni fase9.
+
 ## Fase 7 — integración V1: cierre técnico (2026-10-26)
 
 Rama `feat/a1-v1-integration` desde `0415c6b`, checkpoint `18e1992`. Todas las fases previas eran ancestros: sin merges necesarios. Código de producción/currículo/recibos intactos; solo se completa E2E transversal y evidencias/documentación. Helper matching usa índices JSON; ordering palabras habilitadas. Recorrido por enlaces con mismo perfil: Focus/Theory, progreso, Review, Mixed, Reading, Writing, cierre/reapertura offline e historiales; 219 hechos, 33 intentos, 32 evidencias. Integridad, unicidad, ayudas/abstención y conservación exacta de hechos; proyección comparada explícitamente solo C04-01.

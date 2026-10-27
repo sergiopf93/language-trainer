@@ -1,0 +1,18 @@
+
+> language-trainer@0.1.0 test
+> vitest run --maxWorkers=2
+
+
+ RUN  v5.0.3 /Users/sergiopardo/Desktop/language-trainer
+
+(node:22640) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+ Test Files  22 passed (22)
+      Tests  381 passed (381)
+   Start at  19:53:13
+   Duration  59.62s (tests 74%, import 23%, transform 3%)
+
+    Isolate  22 workers spawned · ~325ms startup each (spawn + environment, per file)
+             at least ~3.25s faster with isolate: false — reuses workers across files instead of one per file
+
