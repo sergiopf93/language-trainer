@@ -1,3 +1,4 @@
+import { isRelease } from '../release';
 import type { Activity } from '../../shared/learning';
 import type { Fact } from '../../shared/protocol';
 import type { ContentRepository } from '../content/catalog';
@@ -36,7 +37,12 @@ export function reviewedReadings(): ReadingText[] {
       receipt.decision === 'reviewed' &&
       receipt.fingerprint === readingFingerprint(text) &&
       receipt.flags.length === 0
-      ? [{ ...text, status: 'reviewed' as const }]
+      ? [
+          {
+            ...text,
+            status: isRelease ? ('published' as const) : ('reviewed' as const),
+          },
+        ]
       : [];
   });
 }
@@ -97,11 +103,12 @@ export function eligibleReading(
 ) {
   return (
     catalog.allowed(text.status) &&
-    text.status === 'reviewed' &&
+    ['reviewed', 'published'].includes(text.status) &&
     reviewedReadings().some(
       (t) =>
         t.id === text.id &&
         t.version === text.version &&
+        t.status === text.status &&
         readingFingerprint(t) === readingFingerprint(text),
     ) &&
     readingEligibility(text, catalog, facts).eligible

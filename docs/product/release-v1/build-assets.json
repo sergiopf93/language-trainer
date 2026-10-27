@@ -1,0 +1,47 @@
+[
+  {
+    "path": "_headers",
+    "bytes": 169,
+    "sha256": "6fa44873894358a63ed5930edf2601d095b8456313ef771b4cfbe73451d36d45"
+  },
+  {
+    "path": "assets/index-COSO-StA.js",
+    "bytes": 1986331,
+    "sha256": "e37c8bd4d7ce324d39bbb3374b5d636b6c0a5b036e885bfebc73b2e13cbe7e9b"
+  },
+  {
+    "path": "assets/index-Cu0ki6vM.css",
+    "bytes": 8936,
+    "sha256": "9b62e9dc66845c509f4355dabb9afee7e376de8c7ef02292ba918b2e3d407a39"
+  },
+  {
+    "path": "icon-192.png",
+    "bytes": 737,
+    "sha256": "5dde90c1b2a8744e760d3d7e0c50b5d764adb45538b44942b9be3325e6b7b939"
+  },
+  {
+    "path": "icon-512.png",
+    "bytes": 3908,
+    "sha256": "f5b18671b928f9d0ac41bda74ceaa870005ea9e1b1e8143a5fa14e532898bd56"
+  },
+  {
+    "path": "icon.svg",
+    "bytes": 328,
+    "sha256": "021a8795280ab46a98b210c985d8e62605398a89f79162e1c12fbba19fbb0144"
+  },
+  {
+    "path": "index.html",
+    "bytes": 804,
+    "sha256": "f33bc9a9a7a985eadb554bf9047e902eddbdcc22a54ff06c50b6ea0e365c6ee7"
+  },
+  {
+    "path": "manifest.webmanifest",
+    "bytes": 503,
+    "sha256": "2cac4e5ee9b33a8f08dfec55e749005a31c8c6397b337e90aaa8fa1b56a5ad70"
+  },
+  {
+    "path": "sw.js",
+    "bytes": 1034,
+    "sha256": "0c0213271eb82508c9d3bb4c91e3a681e89fc733d2293244ac4e65f83546e64e"
+  }
+]

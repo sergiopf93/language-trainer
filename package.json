@@ -1,6 +1,6 @@
 {
   "name": "language-trainer",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "engines": {
@@ -23,7 +23,8 @@
     "content:pedagogy": "node scripts/content-pedagogy.mjs",
     "content:editorial": "node scripts/content-editorial.mjs",
     "content:reading": "node scripts/content-reading.mjs",
-    "content:writing": "node scripts/content-writing.mjs"
+    "content:writing": "node scripts/content-writing.mjs",
+    "build:release": "tsc --noEmit && vite build --mode release && node scripts/build-sw.mjs"
   },
   "dependencies": {
     "idb": "8.0.4"

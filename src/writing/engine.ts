@@ -1,3 +1,4 @@
+import { isRelease } from '../release';
 import type { Activity } from '../../shared/learning';
 import { canonical, type Fact } from '../../shared/protocol';
 import type { ContentRepository } from '../content/catalog';
@@ -43,7 +44,10 @@ export function writingOptions(catalog: ContentRepository): WritingOption[] {
   const reused = catalog.available().flatMap((c) => {
     const own = catalog
       .select(c.id)
-      .filter((a) => a.status === 'reviewed' && !a.options.length);
+      .filter(
+        (a) =>
+          ['reviewed', 'published'].includes(a.status) && !a.options.length,
+      );
     return ['retrieval', 'transformation', 'controlled-production'].flatMap(
       (skill) => {
         const activity = own.find((a) => a.task?.skill === skill);
@@ -67,7 +71,7 @@ export function writingOptions(catalog: ContentRepository): WritingOption[] {
   });
   const controlled: WritingOption[] = controlledWriting
     .filter(hasWritingReceipt)
-    .filter(() => catalog.allowCandidates)
+    .filter(() => isRelease || catalog.allowCandidates)
     .map((a) => ({
       id: a.id,
       version: a.version,
@@ -77,11 +81,11 @@ export function writingOptions(catalog: ContentRepository): WritingOption[] {
       objectives: ['Presentare nome e nazionalità con essere.'],
       requiredConcepts: [a.conceptId, 'it-a1-c04-03'],
       alternativeConceptId: a.conceptId,
-      activity: { ...a, status: 'reviewed' },
+      activity: { ...a, status: isRelease ? 'published' : 'reviewed' },
     }));
   const open: WritingOption[] = writingCorpus
     .filter(hasWritingReceipt)
-    .filter(() => catalog.allowCandidates)
+    .filter(() => isRelease || catalog.allowCandidates)
     .map((t) => ({
       ...t,
       activity: {
@@ -120,7 +124,7 @@ export function writingOptions(catalog: ContentRepository): WritingOption[] {
           scaffolding: 'none',
           matchingPrompts: [],
         },
-        status: 'reviewed',
+        status: isRelease ? 'published' : 'reviewed',
         provenance: 'Writing A1 · original composition · independent receipt',
         trace: {
           kind: 'canonical',

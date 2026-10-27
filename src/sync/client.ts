@@ -1,3 +1,4 @@
+import { localOnly } from '../release';
 import { IdentityMismatchError, LocalStore } from '../persistence/local';
 import type { RemoteFact } from '../../shared/protocol';
 export type SyncState =
@@ -66,6 +67,13 @@ export class SyncClient {
     this.set('access', 'Acceso cerrado. Tu trabajo sigue guardado aquí.');
   }
   run(): Promise<void> {
+    if (localOnly) {
+      this.set(
+        navigator.onLine ? 'local' : 'offline',
+        'Guardado en este dispositivo · Sin sincronización remota',
+      );
+      return Promise.resolve();
+    }
     if (this.running) {
       this.again = true;
       return this.running;

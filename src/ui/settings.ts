@@ -1,3 +1,4 @@
+import { localOnly } from '../release';
 import { api, SyncClient } from '../sync/client';
 import { LocalStore } from '../persistence/local';
 import { button, el, message } from './dom';
@@ -146,18 +147,17 @@ export function settings(store: LocalStore, sync: SyncClient) {
     title,
     el(
       'p',
-      'Vincula tus dispositivos con el mismo código privado para recuperar el historial sincronizado.',
+      localOnly
+        ? 'Esta versión guarda tu progreso en este navegador. Descarga copias de respaldo para conservarlo o transferirlo a otro dispositivo.'
+        : 'Vincula tus dispositivos con el mismo código privado para recuperar el historial sincronizado.',
     ),
-    form,
-    retry,
-    status,
-    list,
-    devices,
-    logout,
-    el('h3', 'Respaldo secundario'),
+    ...(localOnly ? [status] : [form, retry, status, list, devices, logout]),
+    el('h3', localOnly ? 'Copia de seguridad' : 'Respaldo secundario'),
     el(
       'p',
-      'La sincronización es la forma habitual de continuar en otro dispositivo. El archivo sirve como copia adicional.',
+      localOnly
+        ? 'Los datos no se sincronizan automáticamente. Conserva el archivo antes de cambiar de navegador, borrar sus datos o cambiar de dirección.'
+        : 'La sincronización es la forma habitual de continuar en otro dispositivo. El archivo sirve como copia adicional.',
     ),
     exportButton,
     fileLabel,

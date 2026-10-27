@@ -271,7 +271,7 @@ export class SessionEngine implements LearningEngine {
   }
   async startReading(text: ReadingText) {
     if (
-      text.status !== 'reviewed' ||
+      !['reviewed', 'published'].includes(text.status) ||
       !this.catalog.allowed(text.status) ||
       !eligibleReading(text, this.catalog, await this.store.allFacts())
     )

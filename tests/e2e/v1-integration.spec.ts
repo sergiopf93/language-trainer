@@ -214,6 +214,15 @@ test('V1 integrated learner journey preserves all modes, evidence and history of
     'review',
     'writing',
   ]);
+  if (process.env.E2E_RELEASE === '1') {
+    expect(
+      roots.every(
+        (r) =>
+          r.payload.contentStatus === 'published' &&
+          r.payload.activities.every((a) => a.status === 'published'),
+      ),
+    ).toBe(true);
+  }
   const attempts = all.filter((f) => f.kind === 'attempt');
   const evaluations = all.filter((f) => f.kind === 'evaluation');
   expect(evaluations).toHaveLength(attempts.length);
