@@ -139,10 +139,11 @@ export function writingPreparation(
   option: WritingOption,
   catalog: ContentRepository,
   facts: readonly Fact[],
+  preparedConcepts?: ReadonlySet<string>,
 ) {
-  const introduced = new Set(
-    reviewPlans(catalog, facts, new Date()).map((p) => p.conceptId),
-  );
+  const introduced =
+    preparedConcepts ??
+    new Set(reviewPlans(catalog, facts, new Date()).map((p) => p.conceptId));
   return [
     ...new Set(
       option.requiredConcepts.flatMap((id) => [

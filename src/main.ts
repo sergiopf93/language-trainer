@@ -91,7 +91,7 @@ async function start() {
         page = await reading(store);
         break;
       case '/library':
-        page = library();
+        page = await library(store);
         break;
       case '/progress':
         page = await progress(store);

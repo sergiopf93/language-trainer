@@ -45,10 +45,11 @@ export function readingEligibility(
   catalog: ContentRepository,
   facts: readonly Fact[],
   corpus = readingCorpus,
+  preparedConcepts?: ReadonlySet<string>,
 ) {
-  const introduced = new Set(
-    reviewPlans(catalog, facts, new Date()).map((p) => p.conceptId),
-  );
+  const introduced =
+    preparedConcepts ??
+    new Set(reviewPlans(catalog, facts, new Date()).map((p) => p.conceptId));
   const required = [
     ...new Set(
       text.requiredConcepts.flatMap((id) => [

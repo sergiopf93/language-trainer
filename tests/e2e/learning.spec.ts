@@ -232,6 +232,13 @@ test('production build excludes candidate content', async ({ page }) => {
       exact: true,
     }),
   ).toHaveCount(0);
+  await page.goto('/library?q=essere&type=writing&theme=restaurant');
+  await expect(page.locator('.library-result')).toHaveCount(0);
+  await expect(page.getByRole('searchbox')).toHaveCount(0);
+  await page.goto('/practice?mixed=states-needs');
+  await expect(
+    page.getByRole('button', { name: 'Inizia la pratica mista', exact: true }),
+  ).toHaveCount(0);
   await page.goto('/practice?concept=it-a1-c04-01');
   await expect(
     page.getByText('Concepto no habilitado en esta compilación.', {

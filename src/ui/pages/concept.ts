@@ -1,3 +1,5 @@
+import { libraryIndex } from '../../library/runtime';
+import { createSearchView } from '../../library/search';
 import { el, heading, button, message } from '../dom';
 import {
   catalog,
@@ -94,6 +96,37 @@ export async function conceptDetail(
         ),
       );
   }
+  const relatedPractice = el('section', undefined, 'card');
+  relatedPractice.append(el('h2', 'Altre pratiche'));
+  const searchView = createSearchView(
+    libraryIndex(),
+    catalog,
+    await store.allFacts(),
+  );
+  const relatedResults = searchView.results.filter(
+    (r) =>
+      [...r.entry.primary, ...r.entry.related].includes(id) &&
+      r.eligible &&
+      searchView.ready(r.entry),
+  );
+  for (const [type, label] of [
+    ['mixed', 'Practicar Mixed'],
+    ['writing', 'Practicar Writing'],
+    ['reading', 'Practicar Reading'],
+  ] as const) {
+    const match = relatedResults.find((r) => r.entry.type === type);
+    if (match)
+      relatedPractice.append(
+        link(
+          label,
+          type === 'mixed'
+            ? match.entry.href
+            : `/library?type=${type}&concept=${encodeURIComponent(id)}`,
+          true,
+        ),
+      );
+  }
+  if (relatedPractice.childElementCount > 1) page.append(relatedPractice);
   const progress = el('section', undefined, 'card');
   progress.append(el('h2', 'I tuoi progressi'));
   const detail = el('details');

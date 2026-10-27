@@ -18,7 +18,8 @@ import { SessionEngine, type SessionView } from '../../learning/session';
 import { displayResponse } from '../../exercises/response';
 import { structuredAnswer } from '../structured-answer';
 import { reviewOverview } from './review';
-import { mixedPlans } from '../../mixed/engine';
+import { mixedPlans, mixedGroupPrerequisites } from '../../mixed/engine';
+import { mixedGroups } from '../../mixed/manifest';
 import { reviewedReadings, readingEligibility } from '../../reading/engine';
 export const judgmentLabels = {
   correct: copy.correct,
@@ -756,15 +757,39 @@ export async function learning(store: LocalStore, saved: () => void) {
     } else if (params.has('mixed')) {
       const plans = mixedPlans(catalog, await store.allFacts(), new Date());
       content.append(el('h2', 'Pratica mista'));
-      if (!plans.length)
+      const selectedGroup = params.get('mixed');
+      const selectedPlan =
+        selectedGroup === '1'
+          ? plans[0]
+          : plans.find((p) => p.groupId === selectedGroup);
+      if (!selectedPlan) {
         content.append(
           el(
             'p',
             'Servono più concetti già studiati, con preparazione e attività compatibili. Esplora la biblioteca.',
           ),
         );
-      else {
-        const plan = plans[0];
+        const group = mixedGroups.find(
+          (g) =>
+            g.id === selectedGroup &&
+            g.conceptIds.every((id) => catalog.concept(id)),
+        );
+        if (group) {
+          content.append(
+            support(
+              'Preparación del grupo: consulta estos conceptos antes de volver a intentarlo.',
+            ),
+          );
+          for (const id of mixedGroupPrerequisites(catalog, group))
+            content.append(
+              link(
+                theories[id]?.title ?? catalog.concept(id)?.title ?? id,
+                '/concept?id=' + id,
+              ),
+            );
+        }
+      } else {
+        const plan = selectedPlan;
         content.append(
           el('p', plan.reason),
           el(
@@ -777,7 +802,7 @@ export async function learning(store: LocalStore, saved: () => void) {
         );
         content.append(
           command('Inizia la pratica mista', async () => {
-            view = await engine.startMixed();
+            view = await engine.startMixed(plan.groupId);
           }),
         );
       }
