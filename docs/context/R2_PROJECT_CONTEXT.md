@@ -2,6 +2,16 @@
 
 Actualizado: 2026-10-27. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
 
+## Fase 8 — buscador y filtros de Biblioteca (2026-10-27)
+
+Mejora puntual autorizada durante validación; rama `feat/a1-library-search` desde `feat/a1-v1-validation` (`252f055`), commit técnico `d4ce2c7`. [Informe, pruebas y comandos](../product/A1_LIBRARY_SEARCH_IMPLEMENTATION.md). Índice local derivado del catálogo efectivo: conceptos, vocabulario, Mixed, Reading y Writing. Normaliza acentos/caso, coincidencia parcial y alias IT/ES; prioriza títulos/lemas frente a relaciones secundarias. Filtros combinables tipo/categoría/tema/estado; URL y sessionStorage conservan búsqueda. No busca menciones incidentales de prompts Writing ni sufijos de IDs como objetivos gramaticales. Categorías desde C01–C34/POS; temas desde contextos declarados. Principal separado de preparación, estados orientativos sin dominio.
+
+99 fichas iniciales conservadas, filtros compactos, resultados filtrados de 20 en 20, accesos a teoría/práctica y modalidades elegibles. Mixed usa grupo explícito y lista su preparación; `mixed=1` conserva comportamiento previo. Helpers Reading/Writing permiten reutilizar el conjunto introducido de Review; inicios canónicos revalidan requisitos. Buscar no crea hechos; abrir teoría conserva su exposición previa. Sin cambios editoriales, persistencia, evaluación, dependencias ni publicación.
+
+**48/48 unitarias afectadas**, **6 E2E únicos** correctos (3 específicos, candidato existente, transversal V1, exclusión de producción); repetición final 3/3 tras compactación visual. Tipos/formato/builds correctos. Fallos intermedios de unitarias resueltos y documentados; no suite completa ni auditorías editoriales repetidas. QA asesor favorable, dos P2 de la mejora corregidos, sin P0/P1 identificados. Chrome 320/390 px y offline comprobados; teclado/Safari/iPhone físico y aceptación humana pendientes. Aviso conocido de bundle grande sigue presente.
+
+`dist` final de validación local; servidor detenido. Commits locales, sin push/merge/despliegue. **Detenerse y esperar prueba del usuario; fase 8 no superada, sin fase 9.** Los P2 históricos de fase 8 conservan su seguimiento separado.
+
 ## Fase 8 — preparación de validación real completada (2026-10-27)
 
 Rama `feat/a1-v1-validation` desde `9f72bcc`; checkpoint `81a2301`. **Preparación completada; fase8 NO superada, resultados humanos/iPhone pendientes.** [Guía 80min](../product/A1_V1_USER_VALIDATION.md), [muestra lingüística](../product/A1_V1_LINGUISTIC_SAMPLE.md), [incidencias](../product/A1_V1_VALIDATION_ISSUES.md).
