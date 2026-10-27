@@ -2,6 +2,14 @@
 
 Actualizado: 2026-10-27. Leer este documento primero; ampliar solo la sección necesaria. Resume decisiones, no sustituye canon ni acredita implementación. Instrucciones recientes de Sergio prevalecen; ante contradicción, consultar la fuente concreta y actualizar este resumen.
 
+## Publicación V1 — autorizada, interrumpida por límite de uso (2026-10-27)
+
+La solicitud más reciente del usuario confirma las validaciones pendientes, editorial y lingüística, y **autoriza expresamente publicar en Cloudflare**. Sustituye las prohibiciones históricas de publicación; no autoriza push/merge de ramas principales. No atribuir a R2 pruebas humanas ni físicas. Base `1d4c440`, rama `feat/a1-library-search`; [checkpoint de release](../product/A1_V1_RELEASE.md).
+
+**Cloudflare autenticado:** OAuth oficial completado, confirmado por usuario y wrangler whoami; credenciales fuera del repo. No volver a pedir aprobación general ni login mientras la sesión sea válida. Sin recursos creados ni despliegue. D1 sigue UUID de ejemplo; usar inicialmente local-first si remoto no acreditado. Pendiente verificar inventario/recibos y transición published, excluir datos no autorizados físicamente del bundle, integrar gates Reading/Writing publicados, probar producción, desplegar y verificar HTTPS/PWA/offline. El build dist de validación anterior no es publicable directamente.
+
+El especialista de arquitectura devolvió límite de uso antes de completar revisión; checkpoint documental guardado y trabajo detenido. No es un bloqueo editorial o de integridad demostrado. No hay URL pública verificada, versión desplegada ni tag v1.0.0. Reanudar publicación autorizada al disponer de uso; no crear nuevas funcionalidades/fases ni repetir auditorías cerradas.
+
 ## Fase 8 — buscador y filtros de Biblioteca (2026-10-27)
 
 Mejora puntual autorizada durante validación; rama `feat/a1-library-search` desde `feat/a1-v1-validation` (`252f055`), commit técnico `d4ce2c7`. [Informe, pruebas y comandos](../product/A1_LIBRARY_SEARCH_IMPLEMENTATION.md). Índice local derivado del catálogo efectivo: conceptos, vocabulario, Mixed, Reading y Writing. Normaliza acentos/caso, coincidencia parcial y alias IT/ES; prioriza títulos/lemas frente a relaciones secundarias. Filtros combinables tipo/categoría/tema/estado; URL y sessionStorage conservan búsqueda. No busca menciones incidentales de prompts Writing ni sufijos de IDs como objetivos gramaticales. Categorías desde C01–C34/POS; temas desde contextos declarados. Principal separado de preparación, estados orientativos sin dominio.
