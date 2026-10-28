@@ -54,7 +54,7 @@ jobs:
       - run: npm ci
       - run: npx playwright install --with-deps chromium
       - name: Verify the public application
-        run: npm run test:e2e -- tests/e2e/pages.spec.ts tests/e2e/release.spec.ts tests/e2e/library-search.spec.ts tests/e2e/v1-integration.spec.ts
+        run: npm run test:e2e -- --reporter=github,line tests/e2e/pages.spec.ts tests/e2e/release.spec.ts tests/e2e/library-search.spec.ts tests/e2e/v1-integration.spec.ts
         env:
           E2E_BASE_URL: ${{ needs.deploy.outputs.page_url }}
           E2E_APP_BASE: /${{ github.event.repository.name }}/
