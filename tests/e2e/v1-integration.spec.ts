@@ -69,6 +69,12 @@ async function complete(page: Page, mode: string) {
   if (root?.kind !== 'practice-session')
     throw new Error('Missing session ' + mode);
   for (const [i, activity] of root.payload.activities.entries()) {
+    await expect(
+      page.getByText(
+        `Esercizio ${i + 1} di ${root.payload.activities.length}`,
+        { exact: true },
+      ),
+    ).toBeVisible();
     await answer(page, activity.criterion.accepted[0]);
     await click(
       page,
