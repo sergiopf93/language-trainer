@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-27T19:07:18.161Z",
+  "cache": [
+    {
+      "name": "lt-shell-5c91683d37cc352e",
+      "key": "/",
+      "status": 200,
+      "url": "https://language-trainer.sergio-pf93-794.workers.dev/",
+      "redirected": false,
+      "type": "basic",
+      "vary": null
+    },
+    {
+      "name": "lt-shell-5c91683d37cc352e",
+      "key": "/index.html",
+      "status": 200,
+      "url": "https://language-trainer.sergio-pf93-794.workers.dev/",
+      "redirected": true,
+      "type": "basic",
+      "vary": null
+    }
+  ],
+  "indexStatus": 307,
+  "indexLocation": "/",
+  "errors": [
+    "page.reload: net::ERR_FAILED\nCall log:\n\u001b[2m  - waiting for navigation until \"load\"\u001b[22m\n"
+  ]
+}

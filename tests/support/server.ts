@@ -9,6 +9,9 @@ db.sqlite.exec(await readFile('migrations/0001_foundation.sql', 'utf8'));
 const assets = {
   async fetch(request: Request) {
     const path = new URL(request.url).pathname;
+    // Match Cloudflare's canonical HTML redirect during release regression.
+    if (process.env.E2E_RELEASE === '1' && path === '/index.html')
+      return Response.redirect(new URL('/', request.url), 307);
     const target = resolve('dist', '.' + path);
     if (!target.startsWith(resolve('dist') + '/'))
       return new Response(await readFile('dist/index.html'), {
