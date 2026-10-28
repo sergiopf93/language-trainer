@@ -1,0 +1,66 @@
+name: Publish stable V1 to GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test -- tests/routing.test.ts tests/release-content.test.ts tests/library-search.test.ts tests/learning.test.ts tests/review.test.ts tests/mixed.test.ts tests/reading.test.ts tests/writing.test.ts
+      - run: npm run build:release
+        env:
+          LT_PAGES_BASE: /${{ github.event.repository.name }}/
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+  verify:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Verify the public application
+        run: npm run test:e2e -- tests/e2e/pages.spec.ts tests/e2e/release.spec.ts tests/e2e/library-search.spec.ts tests/e2e/v1-integration.spec.ts
+        env:
+          E2E_BASE_URL: ${{ needs.deploy.outputs.page_url }}
+          E2E_APP_BASE: /${{ github.event.repository.name }}/
+          E2E_RELEASE: '1'
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: pages-verification-failure
+          path: test-results

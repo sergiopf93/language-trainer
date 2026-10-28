@@ -1,4 +1,4 @@
-import { test, expect, type Page } from '@playwright/test';
+import { appPath, test, expect, type Page } from './publication';
 import { validFact, validLinks, type Fact } from '../../shared/protocol';
 import { italianCourse } from '../../src/content/italian-a1/course';
 import { loadLanguagePack } from '../../src/content/loader';
@@ -50,7 +50,7 @@ async function answer(page: Page, value: string) {
 async function introduce(page: Page, ids: string[]) {
   for (const id of ids) {
     await page.getByRole('link', { name: 'Biblioteca', exact: true }).click();
-    await page.locator(`a[href="/concept?id=${id}"]`).click();
+    await page.locator(`a[href$="/concept?id=${id}"]`).click();
     await expect(page.locator('.theory-panel')).toBeVisible();
     expect(
       (await facts(page)).some(
@@ -103,7 +103,7 @@ test('V1 integrated learner journey preserves all modes, evidence and history of
   await page.getByRole('link', { name: 'Vedi i progressi' }).click();
   await expect(page.locator('.timeline li').first()).toBeVisible();
   await page.getByRole('link', { name: 'Pratica', exact: true }).click();
-  await page.locator('a[href="/practice?review=it-a1-c04-01"]').click();
+  await page.locator('a[href$="/practice?review=it-a1-c04-01"]').click();
   await click(page, 'Inizia il ripasso');
   await complete(page, 'review');
   await introduce(page, [
@@ -143,7 +143,7 @@ test('V1 integrated learner journey preserves all modes, evidence and history of
     .locator('summary')
     .filter({ hasText: '3 · Messaggi guidati' })
     .click();
-  await page.locator(`a[href="/practice?writing=${writing.id}"]`).click();
+  await page.locator(`a[href$="/practice?writing=${writing.id}"]`).click();
   await click(page, 'Inizia a scrivere');
   const response = 'Ciao! Sono Anna.\nSono di Roma. A presto!';
   await page.getByLabel('La tua risposta', { exact: true }).fill(response);
@@ -158,7 +158,7 @@ test('V1 integrated learner journey preserves all modes, evidence and history of
   resumed.on('pageerror', (error) => {
     throw error;
   });
-  await resumed.goto('/');
+  await resumed.goto(appPath('/'));
   await resumed.getByRole('link', { name: /Continua la pratica/ }).click();
   await expect(
     resumed.getByLabel('La tua risposta', { exact: true }),

@@ -1,3 +1,4 @@
+import { appUrl, routeLocation } from '../../routing';
 import { writingOptions, writingPreparation } from '../../writing/engine';
 import { copy, language, instruction } from '../language';
 import {
@@ -44,8 +45,8 @@ export async function learning(store: LocalStore, saved: () => void) {
   let busy = false;
   let theoryOpen = false;
   const remember = () => {
-    if (view && page.isConnected && location.pathname === '/practice')
-      history.replaceState({}, '', '/practice?session=' + view.head.id);
+    if (view && page.isConnected && routeLocation().pathname === '/practice')
+      history.replaceState({}, '', appUrl('/practice?session=' + view.head.id));
   };
   const enqueue = (action: () => Promise<void>, redraw: boolean) => {
     pending++;
@@ -365,13 +366,13 @@ export async function learning(store: LocalStore, saved: () => void) {
         ),
       );
       const progress = el('a', 'Vedi i progressi', 'primary-link');
-      progress.href = ['mixed', 'reading', 'writing'].includes(
-        root.payload.mode,
-      )
-        ? '/progress'
-        : '/progress?concept=' + root.payload.conceptId;
+      progress.href = appUrl(
+        ['mixed', 'reading', 'writing'].includes(root.payload.mode)
+          ? '/progress'
+          : '/progress?concept=' + root.payload.conceptId,
+      );
       const back = el('a', 'Torna alla biblioteca');
-      back.href = '/library';
+      back.href = appUrl('/library');
       content.append(progress, el('p'), back);
       if (root.payload.mode === 'review')
         content.append(el('p'), link('Torna al ripasso', '/practice'));
@@ -669,7 +670,7 @@ export async function learning(store: LocalStore, saved: () => void) {
     content.append(el('p'), link('Pausa e torna alla pratica', '/practice'));
     content.append(command(copy.finish, change('finish'), true));
   };
-  const params = new URLSearchParams(location.search);
+  const params = new URLSearchParams(routeLocation().search);
   try {
     const sessionId = params.get('session');
     const reviewId = params.get('review');
@@ -840,7 +841,7 @@ export async function learning(store: LocalStore, saved: () => void) {
       content.append(await reviewOverview(store));
       content.append(el('h2', 'Scegli la tua pratica'));
       const libraryLink = el('a', 'Esplora la biblioteca', 'primary-link');
-      libraryLink.href = '/library';
+      libraryLink.href = appUrl('/library');
       content.append(libraryLink);
       const history = await store.allFacts();
       for (const head of await engine.sessions()) {
@@ -854,7 +855,7 @@ export async function learning(store: LocalStore, saved: () => void) {
           'a',
           `${head.payload.state.status === 'completed' ? 'Riepilogo' : 'Continua'}${root.payload.mode === 'review' ? ' ripasso' : root.payload.mode === 'mixed' ? ' pratica mista' : ''}: ${root.payload.mode === 'mixed' ? 'Concetti in contesto' : (root.payload.writing?.title ?? root.payload.reading?.title ?? catalog.concepts.find((c) => c.id === root.payload.conceptId)?.title ?? root.payload.conceptId)} · ${new Date(head.occurredAt).toLocaleString(language.targetLanguage)}`,
         );
-        link.href = '/practice?session=' + head.id;
+        link.href = appUrl('/practice?session=' + head.id);
         content.append(el('p'));
         content.append(link);
       }

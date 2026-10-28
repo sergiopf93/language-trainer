@@ -1,3 +1,4 @@
+import { appUrl, routeLocation } from '../../routing';
 import { el, heading, button } from '../dom';
 import {
   catalog,
@@ -41,7 +42,7 @@ export async function library(store: LocalStore) {
   } catch {
     /* Search remains usable without browser storage. */
   }
-  const params = new URLSearchParams(location.search || saved);
+  const params = new URLSearchParams(routeLocation().search || saved);
   const filter: SearchFilter = Object.fromEntries(
     ['q', 'type', 'category', 'theme', 'state', 'concept'].map((k) => [
       k,
@@ -151,7 +152,7 @@ export async function library(store: LocalStore) {
     history.replaceState(
       history.state,
       '',
-      '/library' + (suffix ? '?' + suffix : ''),
+      appUrl('/library' + (suffix ? '?' + suffix : '')),
     );
     try {
       sessionStorage.setItem(stateKey, suffix);

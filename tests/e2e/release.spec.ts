@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { appPath, assetPath, test, expect } from './publication';
 test('release serves approved content, PWA assets and local-only settings', async ({
   page,
   request,
@@ -30,22 +30,24 @@ test('release serves approved content, PWA assets and local-only settings', asyn
     page.getByRole('button', { name: 'Vincular dispositivo', exact: true }),
   ).toHaveCount(0);
   expect(apiCalls).toEqual([]);
-  const manifest = await request.get('/manifest.webmanifest');
+  const manifest = await request.get(assetPath('/manifest.webmanifest'));
   expect(manifest.ok()).toBe(true);
   const data = await manifest.json();
   expect(data.display).toBe('standalone');
   for (const icon of data.icons)
     expect((await request.get(icon.src)).ok()).toBe(true);
-  const sw = await request.get('/sw.js');
+  const sw = await request.get(assetPath('/sw.js'));
   expect(sw.ok()).toBe(true);
   expect(sw.headers()['content-type']).toMatch(/javascript/);
   await page.evaluate(() => navigator.serviceWorker.ready);
   if (baseURL?.startsWith('https:')) {
     expect(await page.evaluate(() => window.isSecureContext)).toBe(true);
-    expect(sw.headers()['cache-control']).toContain('no-cache');
-    expect((await request.get('/')).headers()['x-content-type-options']).toBe(
-      'nosniff',
-    );
+    if (!process.env.E2E_APP_BASE) {
+      expect(sw.headers()['cache-control']).toContain('no-cache');
+      expect((await request.get('/')).headers()['x-content-type-options']).toBe(
+        'nosniff',
+      );
+    }
   }
 });
 
@@ -76,7 +78,7 @@ test('release backup restores a published session in a separate browser profile'
   const restored = await browser.newContext({ baseURL });
   try {
     const other = await restored.newPage();
-    await other.goto('/');
+    await other.goto(appPath('/'));
     await other
       .getByRole('button', { name: 'Impostazioni', exact: true })
       .click();

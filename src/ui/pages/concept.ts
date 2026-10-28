@@ -1,3 +1,4 @@
+import { routeLocation } from '../../routing';
 import { libraryIndex } from '../../library/runtime';
 import { createSearchView } from '../../library/search';
 import { el, heading, button, message } from '../dom';
@@ -21,7 +22,7 @@ export async function conceptDetail(
   saved: () => void,
   openSession: (id: string) => void,
 ) {
-  const id = new URLSearchParams(location.search).get('id') ?? '';
+  const id = new URLSearchParams(routeLocation().search).get('id') ?? '';
   const concept = catalog.concept(id);
   if (!concept)
     return heading(

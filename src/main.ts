@@ -1,3 +1,4 @@
+import { appBase, appUrl, routeLocation } from './routing';
 import { writing } from './ui/pages/writing';
 import './ui/styles.css';
 import { LocalStore } from './persistence/local';
@@ -17,7 +18,7 @@ async function start() {
   const store = await LocalStore.open();
   const header = el('header');
   const brand = el('a', 'italiano', 'brand');
-  brand.href = '/';
+  brand.href = appUrl('/');
   const badge = el('span', 'IL TUO SPAZIO A1', 'eyebrow');
   const status = el('p', 'Guardado en este dispositivo', 'sync-status');
   status.setAttribute('role', 'status');
@@ -46,26 +47,27 @@ async function start() {
     ['/progress', copy.progress],
   ]) {
     const link = el('a', label);
-    link.href = path;
+    link.href = appUrl(path);
     nav.append(link);
   }
   app.append(header, status, main, nav, dialog);
   let isDirty = () => false;
   let routeVersion = 0;
-  let activePath = location.pathname + location.search;
+  let activePath = routeLocation().pathname + routeLocation().search;
   history.scrollRestoration = 'manual';
   const render = async (focus = false) => {
-    const changedView = activePath !== location.pathname + location.search;
+    const changedView =
+      activePath !== routeLocation().pathname + routeLocation().search;
     const version = ++routeVersion;
     let page: HTMLElement;
     isDirty = () => false;
-    switch (location.pathname) {
+    switch (routeLocation().pathname) {
       case '/':
         page = await home(store);
         break;
       case '/practice': {
         const result = await practice(store, () => {
-          activePath = location.pathname + location.search;
+          activePath = routeLocation().pathname + routeLocation().search;
           void sync.run();
         });
         page = result.page;
@@ -79,7 +81,7 @@ async function start() {
             void sync.run();
           },
           (id) => {
-            history.pushState({}, '', '/practice?session=' + id);
+            history.pushState({}, '', appUrl('/practice?session=' + id));
             void render(true);
           },
         );
@@ -100,22 +102,22 @@ async function start() {
         page = el('section');
         page.append(el('h1', 'Esta página no existe'));
         const link = el('a', 'Volver al inicio');
-        link.href = '/';
+        link.href = appUrl('/');
         page.append(link);
     }
     if (version !== routeVersion) return;
     main.replaceChildren(page);
-    activePath = location.pathname + location.search;
+    activePath = routeLocation().pathname + routeLocation().search;
     document.title =
       (page.querySelector('h1')?.textContent ?? 'Italiano') + ' · Italiano';
     nav.querySelectorAll('a').forEach((link) => {
       if (
-        new URL(link.href).pathname ===
-        (location.pathname === '/concept'
+        routeLocation(new URL(link.href)).pathname ===
+        (routeLocation().pathname === '/concept'
           ? '/library'
-          : ['/reading', '/writing'].includes(location.pathname)
+          : ['/reading', '/writing'].includes(routeLocation().pathname)
             ? '/practice'
-            : location.pathname)
+            : routeLocation().pathname)
       )
         link.setAttribute('aria-current', 'page');
       else link.removeAttribute('aria-current');
@@ -125,10 +127,22 @@ async function start() {
   };
   document.addEventListener('click', (event) => {
     const anchor = (event.target as Element).closest<HTMLAnchorElement>('a');
+    if (appBase !== '/' && anchor?.getAttribute('href') === '#main') {
+      event.preventDefault();
+      main.focus();
+      main.scrollIntoView();
+      return;
+    }
     if (
       !anchor ||
       anchor.origin !== location.origin ||
-      anchor.hash ||
+      (appBase !== '/' && anchor.pathname !== appBase) ||
+      (anchor.hash &&
+        !(
+          appBase !== '/' &&
+          anchor.pathname === appBase &&
+          anchor.hash.startsWith('#/')
+        )) ||
       anchor.download ||
       event.ctrlKey ||
       event.metaKey ||
@@ -145,7 +159,7 @@ async function start() {
       )
     )
       return;
-    history.pushState({}, '', anchor.pathname + anchor.search);
+    history.pushState({}, '', anchor.pathname + anchor.search + anchor.hash);
     void render(true);
   });
   window.addEventListener('popstate', () => {
@@ -155,7 +169,7 @@ async function start() {
         'Hay cambios sin guardar. ¿Quieres salir de esta pantalla?',
       )
     ) {
-      history.pushState({}, '', activePath);
+      history.pushState({}, '', appUrl(activePath));
       return;
     }
     void render(true);
@@ -175,7 +189,9 @@ async function start() {
   void sync.run();
   if (import.meta.env.PROD && 'serviceWorker' in navigator) {
     try {
-      await navigator.serviceWorker.register('/sw.js');
+      await navigator.serviceWorker.register(appBase + 'sw.js', {
+        scope: appBase,
+      });
     } catch {
       status.textContent +=
         ' · No se ha podido preparar el inicio sin conexión';

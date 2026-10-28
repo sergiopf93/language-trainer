@@ -1,10 +1,11 @@
+import { appUrl } from '../routing';
 import { el } from './dom';
 import { language } from './language';
 import { catalog, activeTheories as theories } from '../content/language-packs';
 import type { Observation } from '../evidence/project';
 export function link(label: string, href: string, primary = false) {
   const node = el('a', label, primary ? 'primary-link' : 'text-link');
-  node.href = href;
+  node.href = appUrl(href);
   return node;
 }
 export function support(text: string, className = 'muted') {

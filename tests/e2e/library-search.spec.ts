@@ -1,4 +1,4 @@
-import { test, expect, type Page } from '@playwright/test';
+import { test, expect, type Page } from './publication';
 import type { Fact } from '../../shared/protocol';
 import { italianCourse } from '../../src/content/italian-a1/course';
 import { loadLanguagePack } from '../../src/content/loader';
@@ -74,7 +74,7 @@ for (const width of [320, 390])
     await page
       .getByLabel('Tipo de práctica', { exact: true })
       .selectOption('concept');
-    await page.locator('a[href="/concept?id=it-a1-c04-01"]').click();
+    await page.locator('a[href$="/concept?id=it-a1-c04-01"]').click();
     await expect(page.locator('.theory-panel')).toBeVisible();
     await page.getByRole('link', { name: '← Biblioteca', exact: true }).click();
     await expect(query).toHaveValue('essere');
@@ -94,7 +94,7 @@ for (const width of [320, 390])
     );
     expect(await facts(page)).toEqual(before);
     await query.fill('essere');
-    await page.locator('a[href="/practice?concept=it-a1-c04-01"]').click();
+    await page.locator('a[href$="/practice?concept=it-a1-c04-01"]').click();
     await page
       .getByRole('button', { name: 'Inizia la pratica', exact: true })
       .click();
@@ -127,7 +127,7 @@ test('library Mixed selects the requested eligible group and blocks unprepared g
     await expect(page.locator('.theory-panel')).toBeVisible();
   }
   await page.goto('/library?type=mixed&concept=' + selected.conceptIds[0]);
-  await page.locator(`a[href="/practice?mixed=${selected.id}"]`).click();
+  await page.locator(`a[href$="/practice?mixed=${selected.id}"]`).click();
   await page
     .getByRole('button', { name: 'Inizia la pratica mista', exact: true })
     .click();

@@ -1,34 +1,43 @@
-# Language Trainer V1 — publicación
+# Language Trainer V1.0.0 — publicación estable
 
-Estado a 2026-10-27: **no desplegada**. No hay URL de producción verificada ni etiqueta v1.0.0.
+## Entorno habitual
 
-## Autorización y versión
+**https://sergiopf93.github.io/language-trainer/** es la URL habitual autorizada. `origin/main` representa la versión estable. Localhost sirve únicamente para desarrollo y pruebas. Toda entrega requiere integración en estable, publicación y verificación funcional de la URL pública; no basta el build o un workflow verde.
 
-El usuario confirma en su solicitud «R2 — PUBLICACIÓN FINAL DE LANGUAGE TRAINER V1» que las validaciones pendientes, editorial y lingüística están completadas y autoriza expresamente el despliegue definitivo en Cloudflare. Esta es una confirmación del usuario, no una prueba humana ejecutada por R2. No se inventan resultados detallados ni pruebas físicas en iPhone.
+La etiqueta anotada `v1.0.0` se conserva en `18b341f50b0c97283f2eb58187f6643c86563f8c`. La corrección posterior adapta exclusivamente publicación, rutas y PWA de esa versión; no modifica el currículo autorizado ni los motores. Cloudflare mantiene su despliegue existente en https://language-trainer.sergio-pf93-794.workers.dev sin redespliegue.
 
-Base integrada: `1d4c440`, rama `feat/a1-library-search`, con implementación del buscador en `d4ce2c7`. Árbol limpio al comenzar. No se autoriza push ni merge de ramas principales; etiquetar v1.0.0 solo después de verificar el despliegue.
+## Diagnóstico y corrección de Pages
 
-## Recuperación realizada
+El 2026-10-28 Pages devolvía HTTP 200 con el HTML de las fuentes, incluido `<script type="module" src="/src/main.ts">`. El workflow dinámico `pages build and deployment` había publicado la rama main sin construir Vite; su ejecución 40692588719 figuraba correcta pese a no servir la aplicación compilada. Además Vite, rutas, manifest y service worker asumían la raíz `/`, incompatible con la subruta del repositorio.
 
-Leídos AGENTS, contexto, configuración Cloudflare, arquitectura, registro de validación y mecanismos de catálogo/publicación. La revisión previa de integración y buscador sigue disponible; no se han repetido auditorías cerradas ni pruebas técnicas durante esta preparación de publicación.
+El workflow `.github/workflows/pages.yml` construye exclusivamente el catálogo release autorizado y publica `dist`; después verifica la URL pública con navegador. Usa Node de `.nvmrc`, npm ci, tipos y pruebas focales antes del build, y permisos de escritura Pages/OIDC solo en el job deploy. No incluye secretos ni contenido de validación. Cada push aprobado de main publica automáticamente. El propietario confirmó Settings → Pages → Source → GitHub Actions.
 
-Cloudflare: Wrangler inicialmente no autenticado. Se ejecutó el acceso OAuth oficial; el usuario confirmó «He autorizado Cloudflare». `wrangler login` terminó correctamente y `wrangler whoami` confirmó una cuenta disponible con permisos Workers/D1/Pages. Credenciales guardadas por Wrangler fuera del repositorio; no copiadas a archivos del proyecto ni al bundle. No se han creado recursos, instalado certificados, cambiado dominios ni contratado servicios.
+`LT_PAGES_BASE=/language-trainer/` adapta assets y rutas. En Pages se usan fragmentos como `#/library`, que admiten enlaces y recargas sin depender de un fallback HTTP 404. Cloudflare conserva rutas de raíz cuando la variable no está definida. Manifest, iconos, registro/scope del SW y precaché usan la misma base. Los datos IndexedDB no se borran ni migran; los respaldos siguen siendo exportables/importables. Cloudflare y Pages son orígenes diferentes: no comparten automáticamente sus datos locales; usa el respaldo para trasladarlos.
 
-`wrangler.jsonc` tiene un binding D1 con UUID de ejemplo. La sincronización remota de producción no está acreditada. El usuario permite lanzar local-first sin bloquear por sincronización opcional: publicar inicialmente sin D1 salvo evidencia adicional de validación. IndexedDB y copias existentes deben conservarse.
+## Pruebas y reproducción
 
-## Trabajo pendiente antes de desplegar
+```sh
+cd /Users/sergiopardo/Desktop/language-trainer
+# Node 22.12+ (versión fijada en .nvmrc)
+npm ci
+npm run typecheck
+npm test -- tests/routing.test.ts tests/release-content.test.ts tests/library-search.test.ts tests/learning.test.ts tests/review.test.ts tests/mixed.test.ts tests/reading.test.ts tests/writing.test.ts
+LT_PAGES_BASE=/language-trainer/ npm run build:release
+LT_PAGES_BASE=/language-trainer/ npx vite preview --config docs/product/user-validation/preview.config.mjs
+```
 
-1. Preparar una configuración de producción que no use el D1 de ejemplo; reutilizar Workers Static Assets y HTTPS de workers.dev, sin servicios de pago. Consultar los recursos existentes de esta cuenta antes de crear o reemplazar uno.
-2. Verificar inventario y huellas de los recibos existentes y registrar la transición publicada del contenido autorizado. `publishContent` exige revisión/versionado; no activar globalmente `VITE_ENABLE_CANDIDATE_CONTENT` como sustituto de publicar.
-3. Excluir físicamente del bundle los datos no autorizados. Actualmente los imports estáticos incluyen autoría y fixtures. Una posible solución pendiente de implementar/revisar es materializar un snapshot aprobado durante el build, manteniendo los recibos originales y evitando empaquetar fuentes ajenas al inventario autorizado.
-4. Adaptar los controles de Reading/Writing a contenido publicado: actualmente hay filtros literales reviewed/allowCandidates, incluido startReading. No basta publicar los conceptos. Mantener comprobaciones de recibos y prerrequisitos.
-5. Ejecutar pruebas afectadas y recorrido transversal sobre el build real de producción; verificar ausencia de secretos/contenido no autorizado. No repetir revisión lingüística completa.
-6. Desplegar, verificar URL HTTPS, navegación, buscador, modalidades, persistencia, manifest, service worker y recuperación offline. Documentar versión de Cloudflare, commit, actualización/reversión y límites. Solo después crear v1.0.0.
+Preview: http://127.0.0.1:4178/language-trainer/ ; detener con Ctrl+C. No usar candidate ni el build normal para publicar V1. El inventario y los recibos se comprueban contra `release-v1/approval.json`, sin renovar aprobaciones editoriales.
 
-La documentación oficial consultada confirma el despliegue de assets con Wrangler y el uso de workers.dev: [Static Assets](https://developers.cloudflare.com/workers/static-assets/), [configuración](https://developers.cloudflare.com/workers/wrangler/configuration/), [costes de assets](https://developers.cloudflare.com/workers/static-assets/billing-and-limitations/). No se ha seleccionado ni activado un plan de pago.
+E2E públicos, con Chrome instalado:
 
-## Interrupción y reanudación
+```sh
+E2E_RELEASE=1 E2E_APP_BASE=/language-trainer/ E2E_BASE_URL=https://sergiopf93.github.io/language-trainer/ PLAYWRIGHT_CHANNEL=chrome npm run test:e2e -- tests/e2e/pages.spec.ts tests/e2e/release.spec.ts tests/e2e/library-search.spec.ts tests/e2e/v1-integration.spec.ts
+```
 
-El especialista de arquitectura recibió un error explícito de límite de uso antes de emitir dictamen. Se guarda este checkpoint y se detiene el trabajo. **No es un fallo demostrado del producto ni una retirada de la autorización de despliegue.** No volver a solicitar una aprobación general: continuar desde este estado cuando haya disponibilidad, reutilizando la autenticación existente mientras sea válida.
+El workflow usa Chromium en Linux y archiva trazas si falla la verificación pública. Cubre catálogo, búsqueda, teoría, práctica focal, Review, Mixed, Reading, Writing, progreso/historial, respaldo entre perfiles, assets, scope y recuperación offline. No acredita Safari/iPhone físicos ni repite auditorías lingüísticas.
 
-Producción sin desplegar; catálogo sin transición editorial; sin cambios funcionales; sin push, merge ni tag. `dist` sigue siendo el build local de validación preparado en la iteración anterior y **no debe desplegarse como producción**. No se ha iniciado servidor durante esta preparación.
+## Verificación final
+
+Preparación local de la corrección: typecheck y formato correctos; 76 pruebas focales correctas (incluyen inventario/recibos y rutas); build release de raíz y de Pages correctos. Regresión de raíz: 6/6 E2E. Pages local: siete casos únicos correctos en dos ejecuciones (6/7 iniciales y repetición correcta de la transversal tras adaptar su pestaña reabierta a la subruta; el fallo inicial del test intentaba navegar offline fuera del scope). Inspección visual de Biblioteca a 390 px y comprobación automática sin overflow a 320/390 px.
+
+La evidencia pública de cada commit está en el job **verify** del workflow [Publish stable V1 to GitHub Pages](https://github.com/sergiopf93/language-trainer/actions/workflows/pages.yml). Este job ejecuta los siete E2E contra la URL HTTPS publicada, después del despliegue. Consultar el SHA y resultado de esa ejecución: el resultado local anterior no sustituye esta verificación pública.

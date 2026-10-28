@@ -1,3 +1,4 @@
+import { routeLocation } from '../../routing';
 import { learning } from './learning';
 import { button, el, heading, message } from '../dom';
 import type { LocalStore } from '../../persistence/local';
@@ -104,7 +105,7 @@ export async function practice(store: LocalStore, saved: () => void) {
     reload,
   );
   let draftSection: HTMLElement = card;
-  if (location.search) {
+  if (routeLocation().search) {
     const details = el('details');
     details.append(el('summary', 'Una nota per la prossima volta'), card);
     draftSection = details;

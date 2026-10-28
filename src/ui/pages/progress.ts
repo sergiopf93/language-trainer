@@ -1,3 +1,4 @@
+import { routeLocation } from '../../routing';
 import { reviewedReadings } from '../../reading/engine';
 import { el, heading } from '../dom';
 import type { LocalStore } from '../../persistence/local';
@@ -16,7 +17,7 @@ import {
 export async function progress(store: LocalStore) {
   const page = heading('Progressi', 'Guarda i passi che hai fatto.');
   const facts = await store.allFacts();
-  const requested = new URLSearchParams(location.search).get('concept');
+  const requested = new URLSearchParams(routeLocation().search).get('concept');
   const concepts = catalog
     .available()
     .filter((c) => !requested || c.id === requested);

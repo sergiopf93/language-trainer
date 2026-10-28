@@ -15,6 +15,7 @@ if (Boolean(cert) !== Boolean(key)) {
 
 // Local validation only: never proxy test progress to a real account/API.
 export default defineConfig({
+  base: process.env.LT_PAGES_BASE || '/',
   preview: {
     host,
     port: 4178,
